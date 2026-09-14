@@ -9,7 +9,7 @@ from pydantic import ValidationError
 
 from extract import taxonomy
 from extract.prepare import EXTRACTIONS_DIR, MANIFEST
-from extract.schema import Extraction, SkillMention
+from extract.schema import Extraction, SkillMention, parse_extraction
 from sources.base import PROCESSED_DIR
 
 REJECTS = PROCESSED_DIR / "rejects.log"
@@ -17,7 +17,7 @@ REJECTS = PROCESSED_DIR / "rejects.log"
 
 def validate_one(path: Path, tx: taxonomy.Taxonomy) -> tuple[Extraction | None, list[dict]]:
     try:
-        ex = Extraction.model_validate_json(path.read_text())
+        ex = parse_extraction(path.read_text())
     except (ValidationError, ValueError):
         return None, []
     if ex.posting_id != path.stem:

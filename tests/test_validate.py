@@ -16,6 +16,14 @@ def test_validate_one_drops_unknown_and_resolves_alias(tmp_path):
     assert rejects == [{"posting_id": "a", "canonical": "quantum_computing", "section": "nice_to_have", "evidence": "q"}]
 
 
+def test_validate_one_tolerates_fenced_extraction(tmp_path):
+    f = tmp_path / "a.json"
+    f.write_text("```json\n" + json.dumps(GOOD) + "\n```")
+    ex, rejects = validate.validate_one(f, taxonomy.load())
+    assert ex is not None
+    assert [s.canonical for s in ex.skills] == ["python", "aws"]
+
+
 def test_validate_one_schema_failure_returns_none(tmp_path):
     f = tmp_path / "b.json"
     f.write_text('{"posting_id": "b"}')

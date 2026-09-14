@@ -29,6 +29,33 @@ def test_render_prompt_contains_taxonomy_segments_and_schema():
     assert "## RESPONSIBILITIES" in txt and "Deploy models" in txt
     assert '"posting_id": "abc"' in txt and "customer_facing_intensity" in txt
     assert "segmentation_quality" in txt and '"header"' in txt
+    assert "```" not in txt
+
+
+def test_run_treats_fenced_extraction_as_done(monkeypatch, tmp_path):
+    monkeypatch.setattr(prepare, "PROMPTS_DIR", tmp_path / "prompts")
+    monkeypatch.setattr(prepare, "EXTRACTIONS_DIR", tmp_path / "extractions")
+    monkeypatch.setattr(prepare, "MANIFEST", tmp_path / "prompts" / "manifest.json")
+    posts = [Posting(id="id0", title="FDE", company="Acme", url="u", source="t", full_text="Requirements\nPython")]
+    monkeypatch.setattr(prepare, "load_postings", lambda: posts)
+    (tmp_path / "extractions").mkdir()
+    fenced = "```json\n" + json.dumps({**GOOD, "posting_id": "id0"}) + "\n```"
+    (tmp_path / "extractions" / "id0.json").write_text(fenced)
+    assert prepare.run() == 1
+    m = json.loads(prepare.MANIFEST.read_text())
+    assert m["done"] == ["id0"] and m["pending"] == []
+
+
+def test_run_with_limit_zero_writes_nothing(monkeypatch, tmp_path):
+    monkeypatch.setattr(prepare, "PROMPTS_DIR", tmp_path / "prompts")
+    monkeypatch.setattr(prepare, "EXTRACTIONS_DIR", tmp_path / "extractions")
+    monkeypatch.setattr(prepare, "MANIFEST", tmp_path / "prompts" / "manifest.json")
+    posts = [Posting(id="id0", title="FDE", company="Acme", url="u", source="t", full_text="Requirements\nPython")]
+    monkeypatch.setattr(prepare, "load_postings", lambda: posts)
+    assert prepare.run(limit=0) == 0
+    assert not list((tmp_path / "prompts").glob("*.md"))
+    m = json.loads(prepare.MANIFEST.read_text())
+    assert m["pending"] == [] and m["done"] == []
 
 
 def test_run_writes_prompts_and_manifest(monkeypatch, tmp_path):

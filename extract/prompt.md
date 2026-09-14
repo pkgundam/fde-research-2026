@@ -41,6 +41,6 @@ Return ONLY a JSON object matching the schema at the end. No prose, no markdown 
 
 ## Output schema
 Return exactly this shape with "posting_id": "{{ posting.id }}":
-```json
+
+Example of the exact shape (return raw JSON like this, with no code fence):
 {{ schema_json }}
-```

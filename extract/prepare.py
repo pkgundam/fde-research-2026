@@ -30,7 +30,7 @@ def _valid_extraction(pid: str) -> bool:
     if not f.exists():
         return False
     try:
-        return schema.Extraction.model_validate_json(f.read_text()).posting_id == pid
+        return schema.parse_extraction(f.read_text()).posting_id == pid
     except Exception:
         return False
 
@@ -39,7 +39,9 @@ def run(limit: int | None = None) -> int:
     tx = taxonomy.load()
     PROMPTS_DIR.mkdir(parents=True, exist_ok=True)
     EXTRACTIONS_DIR.mkdir(parents=True, exist_ok=True)
-    postings = load_postings()[: limit or None]
+    postings = load_postings()
+    if limit is not None:
+        postings = postings[:limit]
     pending, done = [], []
     for p in postings:
         (PROMPTS_DIR / f"{p.id}.md").write_text(render_prompt(p, segment(p.full_text), tx))

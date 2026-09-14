@@ -1,6 +1,7 @@
 """Strict output contract for one posting's extraction."""
 from __future__ import annotations
 
+import re
 from typing import Literal
 
 from pydantic import BaseModel, Field
@@ -29,3 +30,11 @@ class Extraction(BaseModel):
 
 def json_schema() -> dict:
     return Extraction.model_json_schema()
+
+
+_FENCE_RE = re.compile(r"^\s*```(?:json)?\s*|\s*```\s*$")
+
+
+def parse_extraction(text: str) -> Extraction:
+    """Parse model output; tolerate a wrapping ```json fence and surrounding whitespace."""
+    return Extraction.model_validate_json(_FENCE_RE.sub("", text.strip()))
