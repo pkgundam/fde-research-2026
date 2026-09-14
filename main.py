@@ -29,6 +29,10 @@ def main(argv=None):
         from extract import validate
         validate.run()
         return 0
+    if args.cmd == "aggregate":
+        from aggregate import build_report_data
+        build_report_data.run()
+        return 0
     if args.cmd == "render":
         from render import render as r
         r.run(fixture=args.fixture)
