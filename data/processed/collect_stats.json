@@ -3,25 +3,25 @@
     "name": "greenhouse",
     "fetched": 10706,
     "matched": 212,
-    "kept": 59
+    "kept": 94
   },
   {
     "name": "lever",
     "fetched": 844,
     "matched": 62,
-    "kept": 11
+    "kept": 29
   },
   {
     "name": "ashby",
     "fetched": 6378,
     "matched": 214,
-    "kept": 76
+    "kept": 121
   },
   {
     "name": "hn",
-    "fetched": 83,
-    "matched": 49,
-    "kept": 38
+    "fetched": 134,
+    "matched": 69,
+    "kept": 64
   },
   {
     "name": "remotive",
@@ -33,6 +33,6 @@
     "name": "arbeitnow",
     "fetched": 1800,
     "matched": 11,
-    "kept": 8
+    "kept": 11
   }
 ]

@@ -120,18 +120,63 @@ def normalize_title(s: str) -> str:
     return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]+", " ", s.lower())).strip()
 
 
+DEDUPE_SIMILARITY = 0.8
+# JD texts shorter than this many words carry no reliable similarity signal (a handful of words
+# produces noisy/coincidental shingle overlap either way), so comparisons involving one fall back
+# to the old title-only behaviour: same (company, title) key always merges, longest text wins.
+_DEDUPE_MIN_WORDS = 30
+
+
+def _shingles(text: str, k: int = 6) -> set[str]:
+    words = re.sub(r"[^a-z ]+", " ", text.lower()).split()
+    if not words:
+        return set()
+    if len(words) < k:
+        return {" ".join(words)}
+    return {" ".join(words[i : i + k]) for i in range(len(words) - k + 1)}
+
+
+def _word_count(text: str) -> int:
+    return len(re.sub(r"[^a-z ]+", " ", text.lower()).split())
+
+
+def _jaccard(a: set[str], b: set[str]) -> float:
+    union = a | b
+    if not union:
+        return 1.0  # two empty-shingle texts count as identical
+    return len(a & b) / len(union)
+
+
+def _is_near_duplicate(p: Posting, rep: Posting) -> bool:
+    if _word_count(p.full_text) < _DEDUPE_MIN_WORDS or _word_count(rep.full_text) < _DEDUPE_MIN_WORDS:
+        return True  # short text: fall back to old title-only merge behaviour
+    return _jaccard(_shingles(p.full_text), _shingles(rep.full_text)) >= DEDUPE_SIMILARITY
+
+
 def dedupe(postings: list[Posting]) -> list[Posting]:
-    """Keep one posting per (normalized_company, normalized_title); prefer the longest full_text."""
-    best: dict[tuple[str, str], Posting] = {}
+    """Keep one posting per (normalized_company, normalized_title) group, but within a group only
+    merge postings whose JD text is a near-duplicate (Jaccard >= DEDUPE_SIMILARITY over 6-word
+    shingles); dissimilar JDs under the same key are kept as separate representatives. When two
+    postings merge, the one with the longer full_text is kept. Groups (and each group's surviving
+    representatives) are returned in first-seen order."""
+    groups: dict[tuple[str, str], list[Posting]] = {}
     order: list[tuple[str, str]] = []
     for p in postings:
         key = (normalize_company(p.company), normalize_title(p.title))
-        if key not in best:
+        if key not in groups:
             order.append(key)
-            best[key] = p
-        elif len(p.full_text) > len(best[key].full_text):
-            best[key] = p
-    return [best[k] for k in order]
+            groups[key] = []
+        reps = groups[key]
+        for i, rep in enumerate(reps):
+            if _is_near_duplicate(p, rep):
+                reps[i] = p if len(p.full_text) > len(rep.full_text) else rep
+                break
+        else:
+            reps.append(p)
+    out: list[Posting] = []
+    for key in order:
+        out.extend(groups[key])
+    return out
 
 
 SIZE_MAP = {  # normalized company -> hint; extend as discover resolves more boards

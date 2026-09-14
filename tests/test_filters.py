@@ -9,6 +9,40 @@ def P(**kw):
     return Posting(**d)
 
 
+# ~90-word JDs for near-duplicate dedupe tests: JD_A/JD_B are genuinely different roles (low
+# shingle overlap); _BASE_JD_TEMPLATE differs only in its "Location:" line plus a trailing
+# sentence, so its two fillings are near-identical (high shingle overlap).
+_JD_A = (
+    "We are looking for a Forward Deployed Engineer to embed with enterprise customers, "
+    "build custom data pipelines, and ship production integrations that solve their most "
+    "pressing operational problems. You will travel on site frequently, run workshops, "
+    "debug live systems under pressure, and translate ambiguous business requirements into "
+    "working software within days rather than months. Strong Python or Java skills, a "
+    "customer first mindset, and comfort operating without a spec are essential. You will "
+    "partner with sales engineering and product teams to unblock deals and turn pilots into "
+    "long term renewals across our largest accounts."
+)
+_JD_B = (
+    "This role sits inside our internal platform group building the tooling that keeps every "
+    "downstream machine learning pipeline healthy. You will own on call rotations, design "
+    "monitoring dashboards, tune Kubernetes clusters for cost and reliability, and review "
+    "pull requests from a dozen teams every week. We value deep systems knowledge, an obsession "
+    "with automation, and a willingness to mentor junior engineers. There is no customer travel "
+    "in this position; instead you will spend your time in design reviews, incident postmortems, "
+    "and quarterly planning sessions with the infrastructure leadership team."
+)
+_BASE_JD_TEMPLATE = (
+    "We are looking for a Forward Deployed Engineer to join our customer facing team. "
+    "You will work directly with enterprise customers to deploy our platform, build "
+    "custom integrations, and translate customer requirements into production software. "
+    "The ideal candidate has strong software engineering skills, experience with APIs and "
+    "data pipelines, and enjoys working on site with customers to solve real world problems "
+    "quickly. You will collaborate closely with product and engineering teams to ship "
+    "features that unblock customer deployments. Location: {loc}. Some travel is required "
+    "to support customer engagements and onboarding sessions throughout the year."
+)
+
+
 def test_matches_title_positive():
     for t in ["Forward Deployed Engineer", "Forward-Deployed AI Engineer, Enterprise", "Senior FDE",
               "Deployment Engineer", "Solutions Engineer (AI)", "Applied AI Engineer", "Field Engineer",
@@ -55,6 +89,35 @@ def test_dedupe_keeps_longest_text():
     c = P(id="c", company="Other", title="Forward Deployed Engineer")
     out = base.dedupe([a, b, c])
     assert [p.id for p in out] == ["b", "c"]
+
+
+def test_dedupe_keeps_both_when_jd_text_differs():
+    """Same (company, title) key, but two genuinely different ~90-word JDs -> both kept."""
+    a = P(id="a", full_text=_JD_A)
+    b = P(id="b", full_text=_JD_B)
+    out = base.dedupe([a, b])
+    assert [p.id for p in out] == ["a", "b"]
+
+
+def test_dedupe_merges_near_identical_jd_text():
+    """Same (company, title) key, JDs identical except a Location line (plus one trailing
+    sentence on the Berlin variant) -> near-duplicate, merged, longer text wins."""
+    london = _BASE_JD_TEMPLATE.format(loc="London")
+    berlin = _BASE_JD_TEMPLATE.format(loc="Berlin") + " Relocation assistance is available for the right candidate."
+    a = P(id="a", full_text=london)
+    b = P(id="b", full_text=berlin)
+    out = base.dedupe([a, b])
+    assert [p.id for p in out] == ["b"]
+
+
+def test_dedupe_preserves_group_and_representative_order():
+    """Groups stay in first-seen order; within a group, surviving representatives stay in the
+    order they were first added, even when another group's posting is interleaved between them."""
+    acme1 = P(id="acme1", company="Acme", title="Forward Deployed Engineer", full_text=_JD_A)
+    other1 = P(id="other1", company="Other", title="Forward Deployed Engineer")
+    acme2 = P(id="acme2", company="Acme", title="Forward Deployed Engineer", full_text=_JD_B)
+    out = base.dedupe([acme1, other1, acme2])
+    assert [p.id for p in out] == ["acme1", "acme2", "other1"]
 
 
 def test_size_hint_and_travel():
