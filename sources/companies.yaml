@@ -1,80 +1,248 @@
-# Candidate company names. `discover` writes resolved slugs under `resolved:`.
-# Slug variants tried: lowercase-no-spaces, lowercase-hyphenated, plus any listed in `slugs:`.
 candidates:
-  - {name: Anthropic}
-  - {name: OpenAI, slugs: [openai]}
-  - {name: Scale AI, slugs: [scaleai, scale]}
-  - {name: Sierra, slugs: [sierra]}
-  - {name: Cohere}
-  - {name: Databricks}
-  - {name: Palantir}
-  - {name: Glean}
-  - {name: Harvey, slugs: [harvey]}
-  - {name: Decagon}
-  - {name: Mistral AI, slugs: [mistral]}
-  - {name: Perplexity, slugs: [perplexityai, perplexity]}
-  - {name: Writer, slugs: [writer]}
-  - {name: Cresta}
-  - {name: Hebbia}
-  - {name: Anyscale}
-  - {name: Modal, slugs: [modal, modallabs]}
-  - {name: Replicate}
-  - {name: Baseten}
-  - {name: Weights & Biases, slugs: [wandb]}
-  - {name: Together AI, slugs: [togetherai, together]}
-  - {name: Fireworks AI, slugs: [fireworksai, fireworks]}
-  - {name: LangChain, slugs: [langchain]}
-  - {name: Pinecone}
-  - {name: Weaviate}
-  - {name: Snowflake}
-  - {name: C3 AI, slugs: [c3ai, c3]}
-  - {name: Abridge}
-  - {name: Hippocratic AI, slugs: [hippocraticai]}
-  - {name: ElevenLabs, slugs: [elevenlabs]}
-  - {name: Runway, slugs: [runwayml, runway]}
-  - {name: Adept}
-  - {name: Contextual AI, slugs: [contextualai]}
-  - {name: Unstructured, slugs: [unstructured, unstructuredio]}
-  - {name: Vellum, slugs: [vellum, vellumai]}
-  - {name: Braintrust, slugs: [braintrust, braintrustdata]}
-  - {name: Reducto}
-  - {name: Distyl AI, slugs: [distyl, distylai]}
-  - {name: Tennr}
-  - {name: Rilla}
-  - {name: Hex, slugs: [hex, hextechnologies]}
-  - {name: Notion}
-  - {name: Retool}
-  - {name: Rippling}
-  - {name: Ramp}
-  - {name: Brex}
-  - {name: Samsara}
-  - {name: Verkada}
-  - {name: Vercel}
-  - {name: Datadog}
-  - {name: UiPath}
-  - {name: Ema, slugs: [ema, emaunlimited]}
-  - {name: Sana, slugs: [sana, sanalabs]}
-  - {name: Parloa}
-  - {name: Eleos Health, slugs: [eleos, eleoshealth]}
-  - {name: Assort Health, slugs: [assorthealth]}
-  - {name: Clay}
-  - {name: 11x, slugs: [11x]}
-  - {name: Artisan, slugs: [artisan, artisanai]}
-  - {name: Rox, slugs: [rox]}
-  - {name: Norm AI, slugs: [normai, norm]}
-  - {name: Eve, slugs: [eve, evelegal]}
-  - {name: Extend, slugs: [extend]}
-  - {name: Humanloop}
-  - {name: Lamini}
-  - {name: Cognition, slugs: [cognition, cognitionai]}
-  - {name: Sourcegraph}
-  - {name: Cursor, slugs: [anysphere, cursor]}
-  - {name: Windsurf, slugs: [codeium, windsurf]}
-  - {name: Poolside}
-  - {name: Magic, slugs: [magic]}
-  - {name: Applied Intuition, slugs: [appliedintuition]}
-  - {name: Shield AI, slugs: [shieldai]}
-  - {name: Anduril, slugs: [andurilindustries, anduril]}
-  - {name: Vannevar Labs, slugs: [vannevarlabs]}
-  - {name: Rebellion Defense, slugs: [rebelliondefense]}
-resolved: {}
+- name: Anthropic
+- name: OpenAI
+  slugs:
+  - openai
+- name: Scale AI
+  slugs:
+  - scaleai
+  - scale
+- name: Sierra
+  slugs:
+  - sierra
+- name: Cohere
+- name: Databricks
+- name: Palantir
+- name: Glean
+- name: Harvey
+  slugs:
+  - harvey
+- name: Decagon
+- name: Mistral AI
+  slugs:
+  - mistral
+- name: Perplexity
+  slugs:
+  - perplexityai
+  - perplexity
+- name: Writer
+  slugs:
+  - writer
+- name: Cresta
+- name: Hebbia
+- name: Anyscale
+- name: Modal
+  slugs:
+  - modal
+  - modallabs
+- name: Replicate
+- name: Baseten
+- name: Weights & Biases
+  slugs:
+  - wandb
+- name: Together AI
+  slugs:
+  - togetherai
+  - together
+- name: Fireworks AI
+  slugs:
+  - fireworksai
+  - fireworks
+- name: LangChain
+  slugs:
+  - langchain
+- name: Pinecone
+- name: Weaviate
+- name: Snowflake
+- name: C3 AI
+  slugs:
+  - c3ai
+  - c3
+- name: Abridge
+- name: Hippocratic AI
+  slugs:
+  - hippocraticai
+- name: ElevenLabs
+  slugs:
+  - elevenlabs
+- name: Runway
+  slugs:
+  - runwayml
+  - runway
+- name: Adept
+- name: Contextual AI
+  slugs:
+  - contextualai
+- name: Unstructured
+  slugs:
+  - unstructured
+  - unstructuredio
+- name: Vellum
+  slugs:
+  - vellum
+  - vellumai
+- name: Braintrust
+  slugs:
+  - braintrust
+  - braintrustdata
+- name: Reducto
+- name: Distyl AI
+  slugs:
+  - distyl
+  - distylai
+- name: Tennr
+- name: Rilla
+- name: Hex
+  slugs:
+  - hex
+  - hextechnologies
+- name: Notion
+- name: Retool
+- name: Rippling
+- name: Ramp
+- name: Brex
+- name: Samsara
+- name: Verkada
+- name: Vercel
+- name: Datadog
+- name: UiPath
+- name: Ema
+  slugs:
+  - ema
+  - emaunlimited
+- name: Sana
+  slugs:
+  - sana
+  - sanalabs
+- name: Parloa
+- name: Eleos Health
+  slugs:
+  - eleos
+  - eleoshealth
+- name: Assort Health
+  slugs:
+  - assorthealth
+- name: Clay
+- name: 11x
+  slugs:
+  - 11x
+- name: Artisan
+  slugs:
+  - artisan
+  - artisanai
+- name: Rox
+  slugs:
+  - rox
+- name: Norm AI
+  slugs:
+  - normai
+  - norm
+- name: Eve
+  slugs:
+  - eve
+  - evelegal
+- name: Extend
+  slugs:
+  - extend
+- name: Humanloop
+- name: Lamini
+- name: Cognition
+  slugs:
+  - cognition
+  - cognitionai
+- name: Sourcegraph
+- name: Cursor
+  slugs:
+  - anysphere
+  - cursor
+- name: Windsurf
+  slugs:
+  - codeium
+  - windsurf
+- name: Poolside
+- name: Magic
+  slugs:
+  - magic
+- name: Applied Intuition
+  slugs:
+  - appliedintuition
+- name: Shield AI
+  slugs:
+  - shieldai
+- name: Anduril
+  slugs:
+  - andurilindustries
+  - anduril
+- name: Vannevar Labs
+  slugs:
+  - vannevarlabs
+- name: Rebellion Defense
+  slugs:
+  - rebelliondefense
+resolved:
+  greenhouse:
+    anthropic: Anthropic
+    scaleai: Scale AI
+    databricks: Databricks
+    cresta: Cresta
+    togetherai: Together AI
+    hextechnologies: Hex
+    brex: Brex
+    samsara: Samsara
+    verkada: Verkada
+    vercel: Vercel
+    datadog: Datadog
+    parloa: Parloa
+    eleoshealth: Eleos Health
+    eve: Eve
+    extend: Extend
+    magic: Magic
+    andurilindustries: Anduril
+    vannevarlabs: Vannevar Labs
+    rebelliondefense: Rebellion Defense
+  lever:
+    palantir: Palantir
+    mistral: Mistral AI
+    anyscale: Anyscale
+    shieldai: Shield AI
+  ashby:
+    openai: OpenAI
+    sierra: Sierra
+    cohere: Cohere
+    harvey: Harvey
+    decagon: Decagon
+    perplexity: Perplexity
+    writer: Writer
+    anyscale: Anyscale
+    modal: Modal
+    baseten: Baseten
+    fireworks: Fireworks AI
+    langchain: LangChain
+    pinecone: Pinecone
+    weaviate: Weaviate
+    snowflake: Snowflake
+    abridge: Abridge
+    elevenlabs: ElevenLabs
+    runway: Runway
+    unstructured: Unstructured
+    braintrust: Braintrust
+    reducto: Reducto
+    distyl: Distyl AI
+    tennr: Tennr
+    rilla: Rilla
+    hex: Hex
+    notion: Notion
+    ramp: Ramp
+    verkada: Verkada
+    vercel: Vercel
+    uipath: UiPath
+    ema: Ema
+    eleos: Eleos Health
+    assorthealth: Assort Health
+    artisan: Artisan
+    norm-ai: Norm AI
+    extend: Extend
+    cognition: Cognition
+    cursor: Cursor
+    poolside: Poolside
+    shield-ai: Shield AI
