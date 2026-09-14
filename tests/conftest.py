@@ -10,7 +10,7 @@ def ex(pid, skills, seniority="senior", years=5, travel="occasional", cfi=4, ver
 
 @pytest.fixture
 def six():
-    """6 postings. python in 6 (1 responsibility, 5 requirement); aws in 3 (all requirement);
+    """6 postings. python in 6 (2 responsibility, 6 requirement); aws in 3 (all requirement);
     scoping in 3 (3 responsibility); kubernetes in 2 (1 resp, 1 nice); evals in 1 (resp)."""
     return [
         ex("p1", [("python", "requirement"), ("aws", "requirement"), ("scoping", "responsibility"), ("kubernetes", "responsibility")], seniority="senior", years=5, travel="frequent", cfi=5),
