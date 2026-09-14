@@ -14,6 +14,9 @@ candidates:
 - name: Databricks
 - name: Palantir
 - name: Glean
+  slugs:
+  - gleanwork
+  - glean
 - name: Harvey
   slugs:
   - harvey
@@ -30,6 +33,9 @@ candidates:
   - writer
 - name: Cresta
 - name: Hebbia
+  slugs:
+  - hebbia
+  - hebbiaai
 - name: Anyscale
 - name: Modal
   slugs:
@@ -40,6 +46,7 @@ candidates:
 - name: Weights & Biases
   slugs:
   - wandb
+  - weightsandbiases
 - name: Together AI
   slugs:
   - togetherai
@@ -98,7 +105,12 @@ candidates:
   - hextechnologies
 - name: Notion
 - name: Retool
+  slugs:
+  - retool
+  - retoolinc
 - name: Rippling
+  slugs:
+  - rippling
 - name: Ramp
 - name: Brex
 - name: Samsara
@@ -166,6 +178,7 @@ candidates:
 - name: Applied Intuition
   slugs:
   - appliedintuition
+  - applied-intuition
 - name: Shield AI
   slugs:
   - shieldai
@@ -179,11 +192,543 @@ candidates:
 - name: Rebellion Defense
   slugs:
   - rebelliondefense
+- name: Hugging Face
+  slugs:
+  - huggingface
+- name: xAI
+  slugs:
+  - xai
+  - x-ai
+- name: Groq
+  slugs:
+  - groq
+- name: Cerebras
+  slugs:
+  - cerebras
+- name: SambaNova
+  slugs:
+  - sambanova
+  - sambanovasystems
+- name: Lambda
+  slugs:
+  - lambda
+  - lambdalabs
+- name: CoreWeave
+  slugs:
+  - coreweave
+- name: Crusoe
+  slugs:
+  - crusoe
+  - crusoeenergy
+- name: Labelbox
+  slugs:
+  - labelbox
+- name: Snorkel AI
+  slugs:
+  - snorkelai
+  - snorkel
+- name: AI21 Labs
+  slugs:
+  - ai21
+  - ai21labs
+- name: Aleph Alpha
+  slugs:
+  - alephalpha
+- name: Stability AI
+  slugs:
+  - stabilityai
+  - stability
+- name: Synthesia
+  slugs:
+  - synthesia
+- name: Jasper
+  slugs:
+  - jasper
+  - jasperai
+- name: Moveworks
+  slugs:
+  - moveworks
+- name: Kore.ai
+  slugs:
+  - koreai
+  - kore
+- name: Ada
+  slugs:
+  - ada
+  - adasupport
+- name: Forethought
+  slugs:
+  - forethought
+  - forethoughtai
+- name: Observe.AI
+  slugs:
+  - observeai
+- name: ASAPP
+  slugs:
+  - asapp
+- name: Gong
+  slugs:
+  - gong
+  - gongio
+- name: Clari
+  slugs:
+  - clari
+- name: EvenUp
+  slugs:
+  - evenup
+  - evenuplaw
+- name: Ironclad
+  slugs:
+  - ironclad
+- name: Luminance
+  slugs:
+  - luminance
+- name: Rogo
+  slugs:
+  - rogo
+- name: Ambience Healthcare
+  slugs:
+  - ambience
+  - ambiencehealthcare
+- name: Nabla
+  slugs:
+  - nabla
+- name: Suki
+  slugs:
+  - suki
+  - sukiai
+- name: Tempus
+  slugs:
+  - tempus
+  - tempuslabs
+- name: Viz.ai
+  slugs:
+  - vizai
+- name: Rad AI
+  slugs:
+  - radai
+- name: DataRobot
+  slugs:
+  - datarobot
+- name: H2O.ai
+  slugs:
+  - h2oai
+  - h2o
+- name: Dataiku
+  slugs:
+  - dataiku
+- name: Domino Data Lab
+  slugs:
+  - dominodatalab
+  - domino
+- name: Tecton
+  slugs:
+  - tecton
+- name: Arize AI
+  slugs:
+  - arize
+  - arizeai
+- name: Fiddler AI
+  slugs:
+  - fiddler
+  - fiddlerai
+- name: Galileo
+  slugs:
+  - galileo
+  - rungalileo
+- name: Arthur
+  slugs:
+  - arthur
+  - arthurai
+- name: Credo AI
+  slugs:
+  - credoai
+- name: Lindy
+  slugs:
+  - lindy
+- name: Relevance AI
+  slugs:
+  - relevanceai
+- name: Dust
+  slugs:
+  - dust
+- name: Cognigy
+  slugs:
+  - cognigy
+- name: PolyAI
+  slugs:
+  - polyai
+- name: Vapi
+  slugs:
+  - vapi
+- name: Retell AI
+  slugs:
+  - retellai
+  - retell
+- name: Bland AI
+  slugs:
+  - bland
+  - blandai
+- name: Cartesia
+  slugs:
+  - cartesia
+- name: Deepgram
+  slugs:
+  - deepgram
+- name: AssemblyAI
+  slugs:
+  - assemblyai
+- name: Speechmatics
+  slugs:
+  - speechmatics
+- name: Replit
+  slugs:
+  - replit
+- name: Tabnine
+  slugs:
+  - tabnine
+- name: Augment Code
+  slugs:
+  - augment
+  - augmentcode
+- name: Factory
+  slugs:
+  - factory
+  - factoryai
+- name: Warp
+  slugs:
+  - warp
+  - warpdotdev
+- name: dbt Labs
+  slugs:
+  - dbtlabsinc
+  - dbtlabs
+- name: Fivetran
+  slugs:
+  - fivetran
+- name: Airbyte
+  slugs:
+  - airbyte
+- name: Sigma Computing
+  slugs:
+  - sigmacomputing
+- name: Omni
+  slugs:
+  - omni
+  - exploreomni
+- name: ThoughtSpot
+  slugs:
+  - thoughtspot
+- name: Astronomer
+  slugs:
+  - astronomer
+- name: Prefect
+  slugs:
+  - prefect
+- name: Dagster Labs
+  slugs:
+  - dagsterlabs
+  - dagster
+- name: RunPod
+  slugs:
+  - runpod
+- name: Predibase
+  slugs:
+  - predibase
+- name: Qdrant
+  slugs:
+  - qdrant
+- name: Chroma
+  slugs:
+  - chroma
+  - trychroma
+- name: Elastic
+  slugs:
+  - elastic
+- name: Algolia
+  slugs:
+  - algolia
+- name: Vectara
+  slugs:
+  - vectara
+- name: Exa
+  slugs:
+  - exa
+  - exaai
+- name: Comet
+  slugs:
+  - comet
+  - cometml
+- name: Patronus AI
+  slugs:
+  - patronusai
+  - patronus
+- name: Abnormal Security
+  slugs:
+  - abnormalsecurity
+- name: Vanta
+  slugs:
+  - vanta
+- name: Drata
+  slugs:
+  - drata
+- name: Wiz
+  slugs:
+  - wiz
+  - wizinc
+- name: Snyk
+  slugs:
+  - snyk
+- name: Protect AI
+  slugs:
+  - protectai
+- name: Lakera
+  slugs:
+  - lakera
+- name: Saronic
+  slugs:
+  - saronic
+- name: Epirus
+  slugs:
+  - epirus
+- name: Hadrian
+  slugs:
+  - hadrian
+- name: Figure
+  slugs:
+  - figure
+  - figureai
+- name: Physical Intelligence
+  slugs:
+  - physicalintelligence
+- name: Skild AI
+  slugs:
+  - skild
+  - skildai
+- name: Covariant
+  slugs:
+  - covariant
+- name: Dexterity
+  slugs:
+  - dexterity
+- name: Tribe AI
+  slugs:
+  - tribeai
+  - tribe
+- name: Fractal
+  slugs:
+  - fractal
+  - fractalanalytics
+- name: MongoDB
+  slugs:
+  - mongodb
+- name: Confluent
+  slugs:
+  - confluent
+- name: HashiCorp
+  slugs:
+  - hashicorp
+- name: GitLab
+  slugs:
+  - gitlab
+- name: Cloudflare
+  slugs:
+  - cloudflare
+- name: Stripe
+  slugs:
+  - stripe
+- name: Twilio
+  slugs:
+  - twilio
+- name: Okta
+  slugs:
+  - okta
+- name: Figma
+  slugs:
+  - figma
+- name: Airtable
+  slugs:
+  - airtable
+- name: Asana
+  slugs:
+  - asana
+- name: Dropbox
+  slugs:
+  - dropbox
+- name: Box
+  slugs:
+  - box
+- name: Zapier
+  slugs:
+  - zapier
+- name: Intercom
+  slugs:
+  - intercom
+- name: Zendesk
+  slugs:
+  - zendesk
+- name: Sprinklr
+  slugs:
+  - sprinklr
+- name: Scale Venture Partners
+  slugs:
+  - scalevp
+- name: Character.AI
+  slugs:
+  - character
+  - characterai
+- name: Inflection AI
+  slugs:
+  - inflectionai
+  - inflection
+- name: Reka
+  slugs:
+  - reka
+  - rekaai
+- name: Adept AI
+  slugs:
+  - adeptai
+- name: Imbue
+  slugs:
+  - imbue
+- name: Sakana AI
+  slugs:
+  - sakanaai
+  - sakana
+- name: Liquid AI
+  slugs:
+  - liquidai
+- name: Databricks Mosaic
+  slugs:
+  - mosaicml
+- name: Anyscale Ray
+  slugs:
+  - ray
+- name: Vast Data
+  slugs:
+  - vastdata
+- name: Pure Storage
+  slugs:
+  - purestorage
+- name: Nutanix
+  slugs:
+  - nutanix
+- name: Rubrik
+  slugs:
+  - rubrik
+- name: Cohesity
+  slugs:
+  - cohesity
+- name: Palantir Foundry Partners
+  slugs:
+  - palantirtechnologies
+- name: Deloitte AI
+  slugs:
+  - deloitte
+- name: Accenture Song
+  slugs:
+  - accenture
+- name: Slalom
+  slugs:
+  - slalom
+- name: Thoughtworks
+  slugs:
+  - thoughtworks
+- name: EPAM
+  slugs:
+  - epam
+- name: Globant
+  slugs:
+  - globant
+- name: Turing
+  slugs:
+  - turing
+- name: Toptal
+  slugs:
+  - toptal
+- name: Andela
+  slugs:
+  - andela
+- name: Mercor
+  slugs:
+  - mercor
+- name: Micro1
+  slugs:
+  - micro1
+- name: Invisible Technologies
+  slugs:
+  - invisible
+  - invisibletech
+- name: Surge AI
+  slugs:
+  - surgeai
+  - surge
+- name: Handshake AI
+  slugs:
+  - handshake
+  - joinhandshake
+- name: Sesame
+  slugs:
+  - sesame
+  - sesameai
+- name: Thinking Machines
+  slugs:
+  - thinkingmachines
+- name: Safe Superintelligence
+  slugs:
+  - ssi
+- name: World Labs
+  slugs:
+  - worldlabs
+- name: Luma AI
+  slugs:
+  - lumalabs
+  - luma
+- name: Pika
+  slugs:
+  - pika
+  - pikalabs
+- name: Krea
+  slugs:
+  - krea
+- name: Ideogram
+  slugs:
+  - ideogram
+- name: Black Forest Labs
+  slugs:
+  - blackforestlabs
+- name: Suno
+  slugs:
+  - suno
+- name: Udio
+  slugs:
+  - udio
+- name: Descript
+  slugs:
+  - descript
+- name: Otter.ai
+  slugs:
+  - otterai
+  - otter
+- name: Fireflies
+  slugs:
+  - fireflies
+  - firefliesai
+- name: Read AI
+  slugs:
+  - readai
+- name: Sana Labs
+  slugs:
+  - sanalabs
+- name: Glean Technologies
+  slugs:
+  - gleantechnologies
 resolved:
   greenhouse:
     anthropic: Anthropic
     scaleai: Scale AI
     databricks: Databricks
+    gleanwork: Glean
     cresta: Cresta
     togetherai: Together AI
     hextechnologies: Hex
@@ -200,11 +745,69 @@ resolved:
     andurilindustries: Anduril
     vannevarlabs: Vannevar Labs
     rebelliondefense: Rebellion Defense
+    xai: xAI
+    sambanovasystems: SambaNova
+    coreweave: CoreWeave
+    labelbox: Labelbox
+    snorkelai: Snorkel AI
+    stabilityai: Stability AI
+    observeai: Observe.AI
+    gongio: Gong
+    suki: Suki
+    dataiku: Dataiku
+    dominodatalab: Domino Data Lab
+    arizeai: Arize AI
+    galileo: Galileo
+    polyai: PolyAI
+    assemblyai: AssemblyAI
+    speechmatics: Speechmatics
+    warp: Warp
+    fivetran: Fivetran
+    sigmacomputing: Sigma Computing
+    dagsterlabs: Dagster Labs
+    elastic: Elastic
+    algolia: Algolia
+    vectara: Vectara
+    comet: Comet
+    abnormalsecurity: Abnormal Security
+    wizinc: Wiz
+    epirus: Epirus
+    figure: Figure
+    mongodb: MongoDB
+    gitlab: GitLab
+    cloudflare: Cloudflare
+    stripe: Stripe
+    twilio: Twilio
+    okta: Okta
+    figma: Figma
+    airtable: Airtable
+    asana: Asana
+    dropbox: Dropbox
+    intercom: Intercom
+    inflectionai: Inflection AI
+    imbue: Imbue
+    purestorage: Pure Storage
+    rubrik: Rubrik
+    thoughtworks: Thoughtworks
+    turing: Turing
+    invisible: Invisible Technologies
+    handshake: Handshake AI
+    udio: Udio
+    descript: Descript
+    otterai: Otter.ai
   lever:
     palantir: Palantir
     mistral: Mistral AI
     anyscale: Anyscale
     shieldai: Shield AI
+    labelbox: Labelbox
+    clari: Clari
+    tecton: Tecton
+    saronic: Saronic
+    dexterity: Dexterity
+    imbue: Imbue
+    toptal: Toptal
+    sesame: Sesame
   ashby:
     openai: OpenAI
     sierra: Sierra
@@ -246,3 +849,65 @@ resolved:
     cursor: Cursor
     poolside: Poolside
     shield-ai: Shield AI
+    cerebras: Cerebras
+    lambda: Lambda
+    crusoe: Crusoe
+    alephalpha: Aleph Alpha
+    synthesia: Synthesia
+    rogo: Rogo
+    ambiencehealthcare: Ambience Healthcare
+    nabla: Nabla
+    radai: Rad AI
+    fiddler-ai: Fiddler AI
+    arthur: Arthur
+    relevanceai: Relevance AI
+    dust: Dust
+    vapi: Vapi
+    retell-ai: Retell AI
+    bland: Bland AI
+    cartesia: Cartesia
+    deepgram: Deepgram
+    replit: Replit
+    factory: Factory
+    warp: Warp
+    airbyte: Airbyte
+    omni: Omni
+    astronomer: Astronomer
+    prefect: Prefect
+    runpod: RunPod
+    trychroma: Chroma
+    exa: Exa
+    comet: Comet
+    patronus: Patronus AI
+    vanta: Vanta
+    drata: Drata
+    wiz: Wiz
+    snyk: Snyk
+    saronic: Saronic
+    figure: Figure
+    physicalintelligence: Physical Intelligence
+    tribe-ai: Tribe AI
+    confluent: Confluent
+    airtable: Airtable
+    zapier: Zapier
+    character: Character.AI
+    reka: Reka
+    liquid-ai: Liquid AI
+    purestorage: Pure Storage
+    thoughtworks: Thoughtworks
+    turing: Turing
+    andela: Andela
+    mercor: Mercor
+    surge-ai: Surge AI
+    handshake: Handshake AI
+    sesame: Sesame
+    thinkingmachines: Thinking Machines
+    ssi: Safe Superintelligence
+    worldlabs: World Labs
+    lumaai: Luma AI
+    pika: Pika
+    krea: Krea
+    ideogram: Ideogram
+    black-forest-labs: Black Forest Labs
+    suno: Suno
+    read-ai: Read AI

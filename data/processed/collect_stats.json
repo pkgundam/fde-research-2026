@@ -1,21 +1,21 @@
 [
   {
     "name": "greenhouse",
-    "fetched": 5670,
-    "matched": 187,
-    "kept": 42
+    "fetched": 10706,
+    "matched": 212,
+    "kept": 59
   },
   {
     "name": "lever",
-    "fetched": 790,
-    "matched": 79,
+    "fetched": 844,
+    "matched": 62,
     "kept": 11
   },
   {
     "name": "ashby",
-    "fetched": 4153,
-    "matched": 181,
-    "kept": 55
+    "fetched": 6378,
+    "matched": 214,
+    "kept": 76
   },
   {
     "name": "hn",
@@ -32,7 +32,7 @@
   {
     "name": "arbeitnow",
     "fetched": 1800,
-    "matched": 12,
-    "kept": 9
+    "matched": 11,
+    "kept": 8
   }
 ]

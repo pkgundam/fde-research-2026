@@ -22,6 +22,16 @@ def test_matches_title_negative():
         assert not base.matches_title(t), t
 
 
+def test_matches_title_excludes_non_engineer_roles():
+    for t in ["Forward Deployed Product Manager", "Engineering Manager, Forward Deployed",
+              "Director, Forward Deployed Engineering", "Forward Deployed Engineer Intern"]:
+        assert not base.matches_title(t), t
+    for t in ["Forward Deployed Engineer", "Forward-Deployed AI Engineer, Enterprise", "Senior FDE",
+              "Deployment Engineer", "Solutions Engineer (AI)", "Applied AI Engineer", "Field Engineer",
+              "Implementation Engineer, AI", "Forward Deployed Software Engineer - London"]:
+        assert base.matches_title(t), t
+
+
 def test_normalize_company():
     assert base.normalize_company("Scale AI, Inc.") == "scale"
     assert base.normalize_company("Harvey.com") == "harvey"
@@ -31,6 +41,12 @@ def test_normalize_company():
 def test_normalize_title():
     assert base.normalize_title("Senior Forward Deployed Engineer (Remote - US) [Req 123]") == "forward deployed engineer"
     assert base.normalize_title("Forward-Deployed Engineer, Staff") == "forward deployed engineer"
+
+
+def test_normalize_title_keeps_whole_title_when_prefix_is_not_a_match():
+    assert base.normalize_title("Manager, Forward Deployed Engineering") == "manager forward deployed engineering"
+    assert base.normalize_title("Software Engineer, Forward Deployed") == "software engineer forward deployed"
+    assert base.normalize_title("Forward Deployed Engineer - London") == "forward deployed engineer"
 
 
 def test_dedupe_keeps_longest_text():

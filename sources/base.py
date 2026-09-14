@@ -82,15 +82,27 @@ TITLE_PATTERNS = [
 ]
 _TITLE_RES = [re.compile(p, re.I) for p in TITLE_PATTERNS]
 
+# roles that share FDE-ish vocabulary but aren't the IC engineering role we're after
+_TITLE_EXCLUDE_RE = re.compile(
+    r"\b(product manager|program manager|project manager|engineering manager|manager|director|"
+    r"head of|vp|vice president|chief|recruiter|recruiting|sales|account executive|designer|"
+    r"intern|internship|marketing|analyst|strategist)\b",
+    re.I,
+)
+
 
 def matches_title(title: str) -> bool:
-    return any(r.search(title) for r in _TITLE_RES)
+    if not any(r.search(title) for r in _TITLE_RES):
+        return False
+    return not _TITLE_EXCLUDE_RE.search(title)
 
 
 # ---------- normalisation ----------
 _COMPANY_STRIP = re.compile(r"[,.]?\s*\b(inc|llc|ltd|labs|ai|technologies|technology|corp|corporation|co)\b\.?|\.com|\.ai", re.I)
 _SENIORITY_WORDS = r"(senior|sr\.?|staff|principal|lead|junior|jr\.?|associate|intern|ii|iii|iv|entry[- ]level|mid[- ]level)"
-_TITLE_STRIP = [re.compile(r"\(.*?\)|\[.*?\]"), re.compile(r"\s[-–—|]\s.*$|[,:|].*$"), re.compile(rf"\b{_SENIORITY_WORDS}\b", re.I)]
+_TITLE_PAREN_RE = re.compile(r"\(.*?\)|\[.*?\]")
+_TITLE_SEP_RE = re.compile(r"\s[-–—|]\s|[,:|]")
+_TITLE_SENIORITY_RE = re.compile(rf"\b{_SENIORITY_WORDS}\b", re.I)
 
 
 def normalize_company(s: str) -> str:
@@ -99,8 +111,11 @@ def normalize_company(s: str) -> str:
 
 
 def normalize_title(s: str) -> str:
-    for r in _TITLE_STRIP:
-        s = r.sub("", s)
+    s = _TITLE_PAREN_RE.sub("", s)
+    m = _TITLE_SEP_RE.search(s)
+    if m and matches_title(s[: m.start()]):
+        s = s[: m.start()]
+    s = _TITLE_SENIORITY_RE.sub("", s)
     s = s.replace("-", " ")
     return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]+", " ", s.lower())).strip()
 
@@ -120,8 +135,8 @@ def dedupe(postings: list[Posting]) -> list[Posting]:
 
 
 SIZE_MAP = {  # normalized company -> hint; extend as discover resolves more boards
-    "enterprise": ["palantir", "databricks", "snowflake", "c3", "uipath", "datadog"],
-    "scaleup": ["openai", "anthropic", "scale", "cohere", "glean", "harvey", "sierra", "mistral", "perplexity", "writer", "cresta", "anyscale", "weights biases", "vercel", "together", "fireworks", "hebbia", "abridge", "hippocratic", "adept", "runway", "elevenlabs", "notion", "rippling", "ramp", "brex", "retool", "samsara", "verkada", "cognition", "cursor", "shield", "sourcegraph", "windsurf", "vannevar", "applied intuition"],
+    "enterprise": ["palantir", "databricks", "snowflake", "c3", "uipath", "datadog", "mongodb", "confluent", "hashicorp", "gitlab", "cloudflare", "stripe", "twilio", "okta", "figma", "dropbox", "box", "zendesk", "elastic", "nutanix", "rubrik", "pure storage", "deloitte", "accenture song", "thoughtworks", "epam", "globant"],
+    "scaleup": ["openai", "anthropic", "scale", "cohere", "glean", "harvey", "sierra", "mistral", "perplexity", "writer", "cresta", "anyscale", "weights biases", "vercel", "together", "fireworks", "hebbia", "abridge", "hippocratic", "adept", "runway", "elevenlabs", "notion", "rippling", "ramp", "brex", "retool", "samsara", "verkada", "cognition", "cursor", "shield", "sourcegraph", "windsurf", "vannevar", "applied intuition", "hugging face", "groq", "cerebras", "coreweave", "lambda", "replit", "gong", "clari", "vanta", "wiz", "snyk", "dataiku", "datarobot", "fivetran", "dbt", "airtable", "asana", "zapier", "intercom", "sprinklr", "xai", "deepgram", "assemblyai", "synthesia", "jasper", "moveworks", "abnormal security"],
     "startup": ["decagon", "modal", "replicate", "baseten", "langchain", "pinecone", "weaviate", "braintrust", "unstructured", "vellum", "humanloop", "lamini", "contextual", "reducto", "extend", "eve", "norm", "tennr", "rilla", "hex", "distyl", "rox", "ema", "sana", "parloa", "clay", "11x", "artisan", "eleos health", "assort health", "anduril", "magic", "poolside", "rebellion defense"],
 }
 
