@@ -67,4 +67,4 @@ def run() -> dict:
 
 def load_valid_extractions() -> list[Extraction]:
     m = json.loads(MANIFEST.read_text())
-    return [Extraction.model_validate_json((EXTRACTIONS_DIR / f"{pid}.json").read_text()) for pid in m["done"]]
+    return [parse_extraction((EXTRACTIONS_DIR / f"{pid}.json").read_text()) for pid in m["done"]]

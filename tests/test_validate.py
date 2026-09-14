@@ -46,3 +46,15 @@ def test_run_updates_manifest_and_rejects(monkeypatch, tmp_path):
     assert m["done"] == ["a"] and sorted(m["pending"]) == ["b", "c"]
     assert json.loads((tmp_path / "rejects.log").read_text().splitlines()[0])["canonical"] == "quantum_computing"
     assert json.loads((ex_dir / "a.json").read_text())["skills"][1]["canonical"] == "aws"  # rewritten clean
+
+
+def test_load_valid_extractions_tolerates_fenced_json(monkeypatch, tmp_path):
+    ex_dir, pr_dir = tmp_path / "extractions", tmp_path / "prompts"
+    ex_dir.mkdir(); pr_dir.mkdir()
+    monkeypatch.setattr(validate, "EXTRACTIONS_DIR", ex_dir)
+    monkeypatch.setattr(validate, "MANIFEST", pr_dir / "manifest.json")
+    (pr_dir / "manifest.json").write_text(json.dumps({"pending": [], "done": ["a"]}))
+    (ex_dir / "a.json").write_text("```json\n" + json.dumps(GOOD) + "\n```")
+    extractions = validate.load_valid_extractions()
+    assert len(extractions) == 1
+    assert extractions[0].posting_id == "a"
