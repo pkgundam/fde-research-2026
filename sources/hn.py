@@ -14,12 +14,12 @@ THREAD_QUERY = '"Ask HN: Who is hiring?"'
 QUERIES = ['"forward deployed"', '"deployment engineer"', '"applied ai engineer"', '"solutions engineer"',
            '"field engineer"', '"implementation engineer"', '"fde"']
 _TITLE_IN_TEXT = re.compile(
-    r"(Senior |Staff |Lead |Principal |Founding )?(Forward[\s-]Deployed (AI |Software )?Engineer|FDE|Deployment Engineer|"
-    r"Applied AI Engineer|Solutions Engineer \(?AI\)?|AI Solutions Engineer|Field Engineer|Implementation Engineer)", re.I)
+    r"(Senior |Staff |Lead |Principal |Founding )?(Forward[\s-]Deployed (AI |Software )?Engineer|\bFDE|Deployment Engineer|"
+    r"Applied AI Engineer|Solutions Engineer \(?AI\)?|AI Solutions Engineer|Field Engineer|Implementation Engineer)\b", re.I)
 
 
 def list_threads(*, months: int = 4, refresh: bool = False) -> list[dict]:
-    url = f"{API}?query={quote(THREAD_QUERY)}&tags=story,author_whoishiring&hitsPerPage={months}"
+    url = f"{API}?query={quote(THREAD_QUERY)}&tags=story,author_whoishiring&hitsPerPage={months * 4}"
     status, body = base.cached_get(url, f"{NAME}/threads_{months}", refresh=refresh)
     hits = json.loads(body)["hits"] if status == 200 else []
     return [h for h in hits if h["title"].startswith("Ask HN: Who is hiring?")][:months]
@@ -30,10 +30,16 @@ def parse_comment(hit: dict) -> Posting | None:
         return None  # only top-level comments are job posts
     text = base.strip_html(hit.get("comment_text") or "")
     first, _, rest = text.partition("\n")
+    if "|" not in first:
+        return None  # HN convention is "Company | Location | ..."
     fields = [f.strip() for f in first.split("|")]
     company = fields[0] if fields else ""
+    if not company or len(company) > 60:
+        return None
     m = _TITLE_IN_TEXT.search(text)
-    if not company or not m or not base.matches_title(m.group(0)):
+    if not m or re.match(r"(s|ing)\b", text[m.end():], re.I):
+        return None  # trailing \b already blocks plurals/compounds; belt-and-suspenders guard
+    if not base.matches_title(m.group(0)):
         return None
     title = re.sub(r"\s+", " ", m.group(0)).strip()
     location = fields[1] if len(fields) > 1 else ""
