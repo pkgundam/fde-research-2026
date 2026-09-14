@@ -1,0 +1,100 @@
+clusters:
+  software_foundations:
+    label: Software foundations
+    skills:
+      - {canonical: python, label: Python, aliases: [python3, py], definition: Writing production Python}
+      - {canonical: typescript, label: TypeScript / JavaScript, aliases: [javascript, node, node.js, nodejs, js, ts], definition: Building in the JS/TS ecosystem}
+      - {canonical: react, label: React / frontend, aliases: [next.js, nextjs, frontend development, front-end], definition: Building web UIs}
+      - {canonical: java, label: Java / JVM, aliases: [kotlin, scala, jvm, spring, spring boot], definition: JVM-language backend work}
+      - {canonical: go, label: Go, aliases: [golang], definition: Writing Go}
+      - {canonical: rust, label: Rust, aliases: [], definition: Writing Rust}
+      - {canonical: cpp, label: C / C++, aliases: [c++, "c/c++"], definition: Systems programming in C or C++}
+      - {canonical: git, label: Git & code review, aliases: [github, version control, pull requests], definition: Collaborating through version control}
+      - {canonical: testing, label: Testing, aliases: [unit tests, integration tests, tdd, test automation], definition: Writing automated tests}
+      - {canonical: system_design, label: System design, aliases: [architecture, distributed systems, scalable systems, software architecture], definition: Designing services and their interactions}
+      - {canonical: algorithms, label: Algorithms & data structures, aliases: [data structures, computer science fundamentals, cs fundamentals], definition: Classic CS fundamentals}
+      - {canonical: debugging, label: Debugging & troubleshooting, aliases: [troubleshooting, root cause analysis, root-cause], definition: Diagnosing failures in unfamiliar systems}
+      - {canonical: shell, label: Linux & shell, aliases: [bash, linux, unix, command line, cli], definition: Working on the command line}
+      - {canonical: async_concurrency, label: Concurrency & async, aliases: [asyncio, multithreading, concurrency], definition: Concurrent or asynchronous programming}
+  ai_application_engineering:
+    label: AI application engineering
+    skills:
+      - {canonical: llm_apis, label: LLM APIs, aliases: [openai api, anthropic api, claude api, gpt, foundation models, large language models, llms, llm], definition: Building on hosted LLM APIs}
+      - {canonical: prompt_engineering, label: Prompt engineering, aliases: [prompting, prompt design, system prompts], definition: Designing and iterating prompts}
+      - {canonical: rag, label: RAG & retrieval, aliases: [retrieval augmented generation, retrieval-augmented generation, vector search, embeddings, semantic search], definition: Retrieval pipelines over private data}
+      - {canonical: vector_databases, label: Vector databases, aliases: [pinecone, weaviate, pgvector, chroma, qdrant, milvus], definition: Operating a vector store}
+      - {canonical: agents, label: Agents & tool use, aliases: [agentic, agentic workflows, tool calling, function calling, multi-agent, ai agents], definition: Building LLM agents that call tools}
+      - {canonical: llm_frameworks, label: LLM frameworks, aliases: [langchain, langgraph, llamaindex, llama index, dspy, semantic kernel], definition: Using an LLM orchestration framework}
+      - {canonical: evals, label: Evals & quality measurement, aliases: [evaluation, evaluations, llm evaluation, benchmarks, golden sets, eval frameworks], definition: Measuring model/application quality systematically}
+      - {canonical: fine_tuning, label: Fine-tuning, aliases: [finetuning, lora, rlhf, sft, model training], definition: Adapting model weights}
+      - {canonical: ml_fundamentals, label: ML fundamentals, aliases: [machine learning, deep learning, pytorch, tensorflow, neural networks, statistics], definition: Classical ML / DL background}
+      - {canonical: nlp, label: NLP, aliases: [natural language processing, text processing], definition: Language-processing techniques}
+      - {canonical: computer_vision, label: Computer vision, aliases: [cv, image models, ocr, document understanding, multimodal], definition: Vision or document-image models}
+      - {canonical: speech, label: Speech / voice, aliases: [asr, tts, voice agents, speech recognition, text-to-speech], definition: Speech-based products}
+      - {canonical: llm_observability, label: LLM observability & tracing, aliases: [tracing, langsmith, langfuse, braintrust, monitoring llm], definition: Observing LLM apps in production}
+      - {canonical: guardrails_safety, label: Guardrails & safety, aliases: [guardrails, responsible ai, ai safety, hallucination mitigation, content moderation], definition: Constraining model behaviour}
+      - {canonical: model_serving, label: Model serving & inference, aliases: [inference, vllm, model deployment, triton, gpu inference, latency optimization], definition: Serving models efficiently}
+      - {canonical: cloud_platforms, label: Cloud platforms (generic), aliases: [cloud, cloud infrastructure, public cloud, cloud services], definition: Unspecified cloud provider experience}
+  data_and_integrations:
+    label: Data & integrations
+    skills:
+      - {canonical: sql, label: SQL & relational DBs, aliases: [postgres, postgresql, mysql, relational databases, databases], definition: Querying and modelling relational data}
+      - {canonical: nosql, label: NoSQL stores, aliases: [mongodb, dynamodb, redis, cassandra, document databases], definition: Non-relational data stores}
+      - {canonical: rest_apis, label: REST / API integration, aliases: [apis, rest, restful, api integration, api design, graphql, grpc, webhooks], definition: Integrating with or designing HTTP APIs}
+      - {canonical: data_pipelines, label: Data pipelines & ETL, aliases: [etl, elt, airflow, dbt, data engineering, spark, pyspark, batch processing], definition: Moving and transforming data at scale}
+      - {canonical: streaming, label: Streaming & messaging, aliases: [kafka, event streaming, pub/sub, pubsub, message queues, rabbitmq], definition: Event-driven data flow}
+      - {canonical: data_warehouses, label: Data warehouses & lakehouses, aliases: [snowflake, bigquery, redshift, databricks, delta lake, lakehouse], definition: Analytical data platforms}
+      - {canonical: enterprise_systems, label: Enterprise systems (ERP/CRM), aliases: [salesforce, sap, servicenow, workday, crm, erp, epic, legacy systems], definition: Integrating with enterprise line-of-business systems}
+      - {canonical: data_modeling, label: Data modelling & schemas, aliases: [schema design, data modeling, ontology, knowledge graphs], definition: Designing data structures for a domain}
+      - {canonical: unstructured_data, label: Unstructured data processing, aliases: [document parsing, pdf parsing, document processing, data extraction, web scraping], definition: Turning documents and text into structured data}
+      - {canonical: data_quality, label: Data quality & cleaning, aliases: [data cleaning, data validation, data wrangling], definition: Making messy customer data usable}
+      - {canonical: analytics, label: Analytics & dashboards, aliases: [pandas, data analysis, tableau, looker, bi, business intelligence, jupyter], definition: Analysing and presenting data}
+      - {canonical: auth_identity, label: Auth & identity, aliases: [sso, oauth, saml, okta, authentication, authorization, iam], definition: Identity integration}
+  deployment_and_operations:
+    label: Deployment & operations
+    skills:
+      - {canonical: aws, label: AWS, aliases: [amazon web services, ec2, s3, lambda, eks, bedrock, sagemaker], definition: Building or deploying on AWS}
+      - {canonical: gcp, label: Google Cloud, aliases: [google cloud platform, gke, vertex ai, vertex, bigquery ml], definition: Building or deploying on GCP}
+      - {canonical: azure, label: Azure, aliases: [microsoft azure, azure openai, aks], definition: Building or deploying on Azure}
+      - {canonical: docker, label: Docker & containers, aliases: [containers, containerization, containerisation], definition: Packaging software in containers}
+      - {canonical: kubernetes, label: Kubernetes, aliases: [k8s, helm, container orchestration], definition: Operating workloads on Kubernetes}
+      - {canonical: ci_cd, label: CI/CD, aliases: [github actions, continuous integration, continuous delivery, continuous deployment, jenkins, gitlab ci, build pipelines], definition: Automated build and deploy pipelines}
+      - {canonical: iac, label: Infrastructure as code, aliases: [terraform, pulumi, cloudformation, ansible, infrastructure-as-code], definition: Declarative infrastructure}
+      - {canonical: observability, label: Observability & monitoring, aliases: [monitoring, logging, metrics, datadog, grafana, prometheus, alerting, opentelemetry], definition: Seeing what production is doing}
+      - {canonical: on_prem_airgapped, label: On-prem / air-gapped deployment, aliases: [on-premise, on premise, on-prem, air-gapped, airgapped, vpc deployment, customer environment, private cloud, self-hosted], definition: Deploying into customer-controlled environments}
+      - {canonical: security_compliance, label: Security & compliance, aliases: [soc 2, soc2, hipaa, gdpr, fedramp, security best practices, compliance, data privacy, encryption], definition: Meeting security and regulatory requirements}
+      - {canonical: networking, label: Networking, aliases: [vpc, dns, load balancing, firewalls, vpn, tcp/ip], definition: Network-level infrastructure}
+      - {canonical: incident_response, label: Incident response & on-call, aliases: [on-call, oncall, incident management, sre, site reliability, reliability], definition: Keeping production up}
+      - {canonical: gpu_infra, label: GPU infrastructure, aliases: [gpus, cuda, gpu clusters, nvidia], definition: Operating GPU compute}
+      - {canonical: cost_performance, label: Performance & cost optimisation, aliases: [performance tuning, cost optimization, cost optimisation, scalability, optimization], definition: Making systems faster or cheaper}
+      - {canonical: serverless, label: Serverless & managed services, aliases: [cloud functions, managed services, paas], definition: Function-as-a-service deployments}
+  customer_delivery:
+    label: Customer delivery
+    skills:
+      - {canonical: customer_facing, label: Customer-facing engineering, aliases: [client-facing, client facing, customer facing, working directly with customers, customer engagement], definition: Working directly with customers as an engineer}
+      - {canonical: scoping, label: Scoping & discovery, aliases: [requirements gathering, discovery, needs assessment, use case identification, solution scoping, define requirements], definition: Turning a customer problem into a bounded deliverable}
+      - {canonical: stakeholder_communication, label: Stakeholder communication, aliases: [executive communication, executive stakeholders, c-level, presenting to leadership, stakeholder management, communicate with stakeholders], definition: Communicating with senior customer stakeholders}
+      - {canonical: prototyping, label: Rapid prototyping & POCs, aliases: [proof of concept, proofs of concept, poc, pocs, pilots, pilot, mvp, rapid prototyping, demos, demo], definition: Building quick proofs of value}
+      - {canonical: implementation_onboarding, label: Implementation & onboarding, aliases: [onboarding, implementation, rollout, go-live, deployment to customers, customer deployment], definition: Getting the product live at a customer}
+      - {canonical: project_management, label: Project & engagement management, aliases: [project management, engagement management, delivery management, timelines, milestones], definition: Running the engagement}
+      - {canonical: technical_support, label: Technical support & escalation, aliases: [escalations, escalation, customer support, support engineering, tier 3, tier-3], definition: Handling customer technical issues}
+      - {canonical: travel_onsite, label: Travel & on-site work, aliases: [travel, on-site, onsite, on site, embedded with customers, embed with customers], definition: Physically working at customer sites}
+      - {canonical: training_enablement, label: Training & enablement, aliases: [enablement, training customers, workshops, documentation for customers, playbooks], definition: Teaching customers to use the product}
+      - {canonical: consulting, label: Consulting & advisory, aliases: [advisory, trusted advisor, consulting experience, professional services], definition: Advising customers on approach}
+      - {canonical: pre_sales, label: Pre-sales & solutions engineering, aliases: [pre-sales, presales, sales engineering, solutions engineering, technical sales, rfp], definition: Supporting deals technically}
+      - {canonical: domain_expertise, label: Domain / industry expertise, aliases: [industry expertise, domain knowledge, healthcare, financial services, fintech, legal, government, defense, manufacturing, insurance], definition: Knowing a customer vertical}
+      - {canonical: expectation_management, label: Expectation & risk management, aliases: [managing expectations, risk management, navigating ambiguity, ambiguity], definition: Keeping customers aligned under uncertainty}
+  product_thinking_and_communication:
+    label: Product thinking & communication
+    skills:
+      - {canonical: product_sense, label: Product sense, aliases: [product thinking, product mindset, product intuition, user needs, user empathy], definition: Judging what to build and why}
+      - {canonical: product_feedback_loop, label: Feeding insight back to product, aliases: [product feedback, inform the roadmap, influence roadmap, voice of the customer, work with product team], definition: Turning field learning into product change}
+      - {canonical: written_communication, label: Written communication, aliases: [writing, documentation, technical writing, write clearly, clear writing], definition: Writing that others act on}
+      - {canonical: verbal_communication, label: Verbal communication & presenting, aliases: [communication skills, presentation, presenting, public speaking, verbal], definition: Explaining technical work aloud}
+      - {canonical: cross_functional, label: Cross-functional collaboration, aliases: [collaboration, cross-functional, work with sales, work with engineering, work across teams, teamwork], definition: Working across internal functions}
+      - {canonical: ownership_autonomy, label: Ownership & autonomy, aliases: [ownership, self-directed, autonomy, self-starter, bias for action, entrepreneurial, scrappy, startup mindset], definition: Operating without close direction}
+      - {canonical: prioritization, label: Prioritisation & tradeoffs, aliases: [prioritization, prioritisation, tradeoffs, trade-offs, time management, juggle multiple], definition: Choosing what matters under constraint}
+      - {canonical: mentoring_leadership, label: Mentoring & technical leadership, aliases: [mentoring, mentorship, technical leadership, lead engineers, team lead], definition: Raising others' bar}
+      - {canonical: business_acumen, label: Business acumen & ROI, aliases: [business value, roi, business outcomes, commercial awareness, value realization], definition: Connecting work to customer value}
+      - {canonical: learning_agility, label: Learning agility, aliases: [fast learner, quick learner, learn quickly, curiosity, curious, adaptability, adaptable], definition: Picking up new domains quickly}
+      - {canonical: metrics_measurement, label: Success metrics & measurement, aliases: [kpis, success metrics, define metrics, measure impact, outcomes], definition: Defining and tracking outcome metrics}
