@@ -140,22 +140,27 @@ def _word_count(text: str) -> int:
     return len(re.sub(r"[^a-z ]+", " ", text.lower()).split())
 
 
-def _jaccard(a: set[str], b: set[str]) -> float:
-    union = a | b
-    if not union:
+def _containment(a: set[str], b: set[str]) -> float:
+    """Containment = |A∩B| / min(|A|, |B|): how much of the smaller shingle set is covered by
+    the other. Unlike Jaccard, this stays high when one JD is the other plus extra boilerplate,
+    since it isn't diluted by the union growing with the longer text."""
+    if not a and not b:
         return 1.0  # two empty-shingle texts count as identical
-    return len(a & b) / len(union)
+    m = min(len(a), len(b))
+    if m == 0:
+        return 0.0  # one side has no shingles at all: nothing in common to contain
+    return len(a & b) / m
 
 
 def _is_near_duplicate(p: Posting, rep: Posting) -> bool:
     if _word_count(p.full_text) < _DEDUPE_MIN_WORDS or _word_count(rep.full_text) < _DEDUPE_MIN_WORDS:
         return True  # short text: fall back to old title-only merge behaviour
-    return _jaccard(_shingles(p.full_text), _shingles(rep.full_text)) >= DEDUPE_SIMILARITY
+    return _containment(_shingles(p.full_text), _shingles(rep.full_text)) >= DEDUPE_SIMILARITY
 
 
 def dedupe(postings: list[Posting]) -> list[Posting]:
     """Keep one posting per (normalized_company, normalized_title) group, but within a group only
-    merge postings whose JD text is a near-duplicate (Jaccard >= DEDUPE_SIMILARITY over 6-word
+    merge postings whose JD text is a near-duplicate (containment >= DEDUPE_SIMILARITY over 6-word
     shingles); dissimilar JDs under the same key are kept as separate representatives. When two
     postings merge, the one with the longer full_text is kept. Groups (and each group's surviving
     representatives) are returned in first-seen order."""

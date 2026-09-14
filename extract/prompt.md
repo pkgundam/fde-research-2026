@@ -6,7 +6,7 @@ Return ONLY a JSON object matching the schema at the end. No prose, no markdown 
 ## Rules
 1. Use ONLY `canonical` names from the taxonomy below. Match by meaning using the aliases and definitions. If a skill in the posting has no node, OMIT it (do not invent names).
 2. Tag every skill mention with the section it appears in: `responsibility` (what you will do), `requirement` (must have), `nice_to_have` (bonus / preferred). A skill may appear in more than one section — emit one entry per section it appears in, never duplicates within a section.
-3. If the posting has no explicit sections (segmentation_quality = "inferred"), decide the tag from phrasing: "you will / own / build / lead" → responsibility; "must / required / X+ years / strong" → requirement; "bonus / plus / preferred / ideally" → nice_to_have.
+3. Section headers can be imperfect. If a bullet's phrasing clearly contradicts its section — e.g. "X+ years of", "proficiency in", "experience with", "strong background in" inside RESPONSIBILITIES — tag it by its phrasing (requirement), not its section. Phrasing guide: "you will / own / build / lead / partner" → responsibility; "must / required / X+ years / proficiency / strong / experience with" → requirement; "bonus / plus / preferred / ideally / nice to have" → nice_to_have.
 4. `evidence`: a quote of at most 12 words from the posting that justifies the tag.
 5. `seniority`: junior | mid | senior | staff_plus | unspecified — from title and years.
 6. `years_required`: the minimum years stated, else null.
@@ -36,7 +36,7 @@ Return ONLY a JSON object matching the schema at the end. No prose, no markdown 
 ## NICE_TO_HAVE
 {{ segments.nice_to_have or "(none found)" }}
 
-## OTHER (context only — extract from here ONLY if the three sections above are empty)
+## OTHER (text that matched no known section header — extract from it too, tagging each skill by its phrasing per rule 3)
 {{ segments.other or "(none)" }}
 
 ## Output schema

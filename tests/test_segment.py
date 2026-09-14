@@ -34,3 +34,18 @@ def test_alternate_headers():
 def test_no_headers_is_inferred():
     s = segment("We want an engineer who can deploy and knows Python.")
     assert s.quality == "inferred" and s.other.strip() and not s.responsibilities
+
+
+def test_good_fit_if_you_have_header_is_requirements():
+    s = segment("What you'll do\nShip\nYou Might Be a Good Fit If You Have:\nPython\n")
+    assert "Python" in s.requirements and "Python" not in s.responsibilities
+
+
+def test_strong_candidates_may_also_have_header_is_nice_to_have():
+    s = segment("What you'll do\nShip\nStrong candidates may also have:\nKubernetes\n")
+    assert "Kubernetes" in s.nice_to_have and "Kubernetes" not in s.responsibilities
+
+
+def test_the_ideal_candidate_will_have_header_is_requirements():
+    s = segment("What you'll do\nShip\nThe ideal candidate will have\nPython\n")
+    assert "Python" in s.requirements and "Python" not in s.responsibilities

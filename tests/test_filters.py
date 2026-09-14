@@ -110,6 +110,36 @@ def test_dedupe_merges_near_identical_jd_text():
     assert [p.id for p in out] == ["b"]
 
 
+_JD_A_PLUS_BOILERPLATE = _JD_A + (
+    " We are proud to be an equal opportunity employer and value diversity at our company. "
+    "We do not discriminate on the basis of race, religion, color, national origin, gender, "
+    "sexual orientation, age, marital status, veteran status, or disability status. Benefits "
+    "include comprehensive medical, dental, and vision coverage, a generous 401k match, "
+    "unlimited paid time off, and a yearly learning and development stipend. We also offer "
+    "parental leave, a home office setup allowance, and regular team offsites throughout the "
+    "year. Our headquarters is centrally located with easy access to public transit, and we "
+    "provide catered lunches, snacks, and a fully stocked kitchen every day of the week."
+)
+
+
+def test_dedupe_merges_when_one_jd_contains_the_other_plus_boilerplate():
+    """JD B is JD A plus ~60 extra words of unrelated boilerplate: containment is close to 1.0
+    even though Jaccard would be well under 0.8 (the extra boilerplate inflates the union) ->
+    near-duplicate, merged, longer text wins."""
+    shingles_a = base._shingles(_JD_A)
+    shingles_b = base._shingles(_JD_A_PLUS_BOILERPLATE)
+    union, inter = shingles_a | shingles_b, shingles_a & shingles_b
+    jaccard = len(inter) / len(union) if union else 1.0
+    containment = len(inter) / min(len(shingles_a), len(shingles_b))
+    assert jaccard < 0.8
+    assert containment >= 0.8
+
+    a = P(id="a", full_text=_JD_A)
+    b = P(id="b", full_text=_JD_A_PLUS_BOILERPLATE)
+    out = base.dedupe([a, b])
+    assert [p.id for p in out] == ["b"]
+
+
 def test_dedupe_preserves_group_and_representative_order():
     """Groups stay in first-seen order; within a group, surviving representatives stay in the
     order they were first added, even when another group's posting is interleaved between them."""

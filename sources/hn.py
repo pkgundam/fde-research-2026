@@ -18,7 +18,7 @@ _TITLE_IN_TEXT = re.compile(
     r"Applied AI Engineer|Solutions Engineer \(?AI\)?|AI Solutions Engineer|Field Engineer|Implementation Engineer)\b", re.I)
 
 
-def list_threads(*, months: int = 6, refresh: bool = False) -> list[dict]:
+def list_threads(*, months: int = 8, refresh: bool = False) -> list[dict]:
     url = f"{API}?query={quote(THREAD_QUERY)}&tags=story,author_whoishiring&hitsPerPage={months * 4}"
     status, body = base.cached_get(url, f"{NAME}/threads_{months}", refresh=refresh)
     hits = json.loads(body)["hits"] if status == 200 else []
@@ -52,7 +52,7 @@ def parse_comment(hit: dict) -> Posting | None:
     )
 
 
-def fetch(*, months: int = 6, refresh: bool = False) -> tuple[int, list[Posting]]:
+def fetch(*, months: int = 8, refresh: bool = False) -> tuple[int, list[Posting]]:
     seen, out, fetched = set(), [], 0
     for th in list_threads(months=months, refresh=refresh):
         for qi, q in enumerate(QUERIES):

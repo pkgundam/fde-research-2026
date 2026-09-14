@@ -32,6 +32,13 @@ def test_render_prompt_contains_taxonomy_segments_and_schema():
     assert "```" not in txt
 
 
+def test_render_prompt_contains_phrasing_tagging_instruction():
+    p = Posting(id="abc", title="FDE", company="Acme", url="u", source="t",
+                full_text="What you'll do\nDeploy models\nRequirements\nPython\n")
+    txt = prepare.render_prompt(p, segment(p.full_text), taxonomy.load())
+    assert "tagging each skill by its phrasing" in txt
+
+
 def test_run_treats_fenced_extraction_as_done(monkeypatch, tmp_path):
     monkeypatch.setattr(prepare, "PROMPTS_DIR", tmp_path / "prompts")
     monkeypatch.setattr(prepare, "EXTRACTIONS_DIR", tmp_path / "extractions")
