@@ -17,6 +17,10 @@ def main(argv=None):
         res = discover.run(refresh=args.refresh)
         print({k: len(v) for k, v in res.items()})
         return 0
+    if args.cmd == "collect":
+        from sources import collect
+        collect.run(refresh=args.refresh)
+        return 0
     if args.cmd == "render":
         from render import render as r
         r.run(fixture=args.fixture)

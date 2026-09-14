@@ -1,0 +1,38 @@
+[
+  {
+    "name": "greenhouse",
+    "fetched": 5670,
+    "matched": 187,
+    "kept": 42
+  },
+  {
+    "name": "lever",
+    "fetched": 790,
+    "matched": 79,
+    "kept": 11
+  },
+  {
+    "name": "ashby",
+    "fetched": 4153,
+    "matched": 181,
+    "kept": 55
+  },
+  {
+    "name": "hn",
+    "fetched": 83,
+    "matched": 49,
+    "kept": 38
+  },
+  {
+    "name": "remotive",
+    "fetched": 96,
+    "matched": 0,
+    "kept": 0
+  },
+  {
+    "name": "arbeitnow",
+    "fetched": 1800,
+    "matched": 12,
+    "kept": 9
+  }
+]
