@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FDE Skills Roadmap — what Forward Deployed Engineer postings actually ask for</title>
+<style>
+{% raw %}
+:root{--canvas:#fcfdfe;--surface:#fff;--text:#18324a;--muted:#71869a;--violet:#3f00ff;--violet-100:#ede8ff;
+--teal:#137a6c;--teal-fill:#32c6b0;--teal-100:#dcf7f2;--line:#dbe7ee;--line-strong:#b9cbd7;--amber:#a85f00;--amber-100:#fff1d6;
+--s1:4px;--s2:8px;--s3:12px;--s4:16px;--s5:24px;--s6:32px;--s7:48px;--s8:64px;--r:12px;--measure:680px;--max:1100px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--canvas);color:var(--text);font:17px/1.6 Inter,system-ui,-apple-system,"Segoe UI",sans-serif;padding-block:0;padding-inline:clamp(16px,4vw,40px)}
+code,.mono{font-family:"JetBrains Mono",SFMono-Regular,Consolas,monospace;font-size:.9em}
+h1,h2,h3{font-weight:500;letter-spacing:-.02em;line-height:1.15;margin:0}
+h1{font-size:clamp(2rem,5vw,3.25rem)}h2{font-size:clamp(1.5rem,3vw,2rem);margin-bottom:var(--s3)}h3{font-size:1.1rem}
+p{max-width:var(--measure);margin:0 0 var(--s4)}
+a{color:var(--violet)}
+.wrap{max-width:var(--max);margin:0 auto}
+header.hero{padding-block:var(--s8) var(--s6);border-bottom:1px solid var(--line)}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;color:var(--violet);background:var(--violet-100);border-radius:999px;padding:4px 12px;margin-bottom:var(--s4)}
+.eyebrow::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--violet)}
+.lede{color:var(--muted);font-size:1.15rem;max-width:var(--measure)}
+section{padding-block:var(--s7);border-bottom:1px solid var(--line)}
+section:last-of-type{border-bottom:0}
+.sub{color:var(--muted);max-width:var(--measure);margin-bottom:var(--s5)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:var(--s5)}
+.grid{display:grid;gap:var(--s4)}
+.grid-2{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.grid-3{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.chip{display:inline-block;font-size:.8rem;padding:2px 10px;border-radius:999px;border:1px solid var(--line-strong);margin:2px 4px 2px 0;background:var(--surface)}
+.chip.low{opacity:.5}
+.legend{display:flex;flex-wrap:wrap;gap:var(--s3);font-size:.85rem;color:var(--muted);margin:var(--s3) 0}
+.legend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;background:var(--c);vertical-align:-1px}
+/* flow */
+.flow{display:flex;flex-wrap:wrap;gap:var(--s3);list-style:none;padding:0;margin:0;counter-reset:step}
+.flow li{flex:1 1 160px;position:relative;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:var(--s4);counter-increment:step}
+.flow li b{display:block;font-weight:500}
+.flow li b::before{content:counter(step);display:inline-grid;place-items:center;width:24px;height:24px;border-radius:50%;background:var(--violet);color:#fff;font-size:.75rem;margin-right:8px}
+.flow li small{color:var(--muted);display:block;margin-top:var(--s1);line-height:1.4}
+.flow li:not(:last-child)::after{content:"→";position:absolute;right:-13px;top:14px;color:var(--line-strong)}
+@media (max-width:700px){.flow li:not(:last-child)::after{content:"↓";right:auto;left:16px;top:auto;bottom:-16px}.flow{gap:var(--s5)}}
+/* charts */
+.chart-box{position:relative;width:100%}
+#bars-box{height:calc(30*22px + 40px)}
+#scatter-box{min-height:70vh;height:70vh}
+@media (max-width:700px){#scatter-box{height:80vh}}
+.quadrant-key{display:grid;grid-template-columns:1fr 1fr;gap:var(--s2);font-size:.85rem;color:var(--muted);margin-top:var(--s3)}
+/* clusters */
+.cluster{border-left:4px solid var(--c)}
+.cluster .pct{font-size:2rem;font-weight:500;color:var(--c)}
+/* roadmap */
+.track{margin-bottom:var(--s5)}
+.stages{list-style:none;padding:0;margin:0;border-left:2px solid var(--line-strong)}
+.stages li{position:relative;padding:0 0 var(--s4) var(--s5)}
+.stages li::before{content:"";position:absolute;left:-7px;top:8px;width:12px;height:12px;border-radius:50%;background:var(--violet);border:2px solid var(--canvas)}
+.skip{background:var(--amber-100);border:1px solid #e5c98f;border-radius:var(--r);padding:var(--s3) var(--s4);margin-bottom:var(--s4)}
+.skip b{color:var(--amber)}
+/* market */
+.dist{display:grid;grid-template-columns:auto 1fr auto;gap:var(--s2) var(--s3);align-items:center;font-size:.9rem}
+.dist .bar{height:10px;background:var(--line);border-radius:5px;overflow:hidden}.dist .bar i{display:block;height:100%;background:var(--teal-fill)}
+.verbs{display:flex;flex-wrap:wrap;gap:var(--s2)}
+/* projects */
+.placeholder{border:2px dashed var(--violet);background:var(--violet-100);border-radius:var(--r);padding:var(--s4);font-style:italic;color:var(--violet);margin-bottom:var(--s5)}
+table{border-collapse:collapse;width:100%;font-size:.9rem}td,th{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line)}th{color:var(--muted);font-weight:500}
+.table-wrap{overflow-x:auto}
+footer{color:var(--muted);font-size:.85rem;padding-block:var(--s6)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+{% endraw %}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+  <span class="eyebrow">Research report</span>
+  <h1>What Forward Deployed Engineer roles actually demand</h1>
+  <p class="lede">A skills map built from {{ data.meta.n_postings }} live FDE job postings across {{ data.meta.n_companies }} companies, extracted against a fixed taxonomy and split by whether a skill is the <em>job</em> or merely a <em>requirement</em>.</p>
+</header>
+
+<section id="what-fde-does">
+  <h2>1 · What an FDE does</h2>
+  <p class="sub">The loop every posting describes, in one form or another.</p>
+  <ol class="flow">{% for f in data.content.flow %}<li><b>{{ f.step }}</b><small>{{ f.blurb }}</small></li>{% endfor %}</ol>
+</section>
+
+<section id="top-technologies">
+  <h2>2 · Most requested technologies</h2>
+  <p class="sub">Share of postings mentioning each skill in any section. Colour = capability cluster.</p>
+  <div class="legend" id="legend-bars"></div>
+  <div class="chart-box" id="bars-box"><canvas id="bars"></canvas></div>
+</section>
+
+<section id="frequency-vs-criticality">
+  <h2>3 · Frequency vs criticality</h2>
+  <p class="sub"><b>Frequency</b> (x): how often a skill appears. <b>Criticality</b> (y): the share of its mentions that sit in a <em>responsibilities</em> section rather than requirements or nice-to-haves — i.e. how often the skill <em>is the job</em>. Faded points have fewer than 5 mentions.</p>
+  <div class="chart-box" id="scatter-box"><canvas id="scatter"></canvas></div>
+  <div class="quadrant-key">
+    <span><b>Top-left — Hidden core:</b> rarely listed, but when listed it is the work.</span>
+    <span><b>Top-right — The job:</b> common and central. Learn these first.</span>
+    <span><b>Bottom-left — Peripheral:</b> occasional nice-to-haves.</span>
+    <span><b>Bottom-right — Table stakes:</b> everyone asks; nobody hires for it alone.</span>
+  </div>
+</section>
+
+<section id="capability-clusters">
+  <h2>4 · Capability clusters</h2>
+  <p class="sub">Coverage = share of postings mentioning at least one skill in the cluster.</p>
+  <div class="grid grid-3">
+  {% for c in data.clusters %}
+    <div class="card cluster" style="--c:{{ data.cluster_colors[c.key] }}">
+      <div class="pct">{{ (c.coverage*100)|round|int }}%</div>
+      <h3>{{ c.label }}</h3>
+      <div>{% for s in c.skills %}{% set sk = data.skills|selectattr('canonical','equalto',s)|first %}<span class="chip{% if sk and sk.low_n %} low{% endif %}">{{ sk.label if sk else s }}{% if sk %} · {{ (sk.frequency*100)|round|int }}%{% endif %}</span>{% endfor %}</div>
+    </div>
+  {% endfor %}
+  </div>
+</section>
+
+<section id="learning-roadmap">
+  <h2>5 · Learning roadmap</h2>
+  <p class="sub">Staged tracks ordered by what the data says matters first.</p>
+  {% for t in data.content.roadmap %}
+  <div class="track card">
+    <h3>{{ t.track }}</h3>
+    {% if t.skip %}<div class="skip"><b>Skip (for now):</b> {{ t.skip|join(' · ') }}</div>{% endif %}
+    <ol class="stages">{% for st in t.stages %}<li><b>{{ st.name }}</b> — {% for s in st.skills %}{% set sk = data.skills|selectattr('canonical','equalto',s)|first %}<span class="chip">{{ sk.label if sk else s }}</span>{% endfor %}<br><small style="color:var(--muted)">{{ st.why }}</small></li>{% endfor %}</ol>
+  </div>
+  {% endfor %}
+</section>
+
+<section id="market-insights">
+  <h2>6 · Market insights</h2>
+  <div class="grid grid-2">
+    {% for key, title in [('seniority','Seniority'),('years','Years required'),('travel','Travel expectation'),('customer_facing','Customer-facing intensity (1–5)')] %}
+    <div class="card"><h3>{{ title }}</h3>
+      {% set d = data.market[key] %}{% set total = d.values()|sum %}
+      <div class="dist">{% for k, v in d.items() %}<span>{{ k|replace('_',' ') }}</span><span class="bar"><i style="width:{{ (100*v/total)|round(1) if total else 0 }}%"></i></span><span class="mono">{{ (100*v/total)|round|int if total else 0 }}%</span>{% endfor %}</div>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="card" style="margin-top:var(--s4)"><h3>Most common responsibility verbs</h3>
+    <div class="verbs">{% for v, n in data.market.verbs %}<span class="chip">{{ v }} <span class="mono" style="color:var(--muted)">{{ n }}</span></span>{% endfor %}</div></div>
+  <div class="card" style="margin-top:var(--s4)"><h3>Startup vs enterprise</h3><p>{{ data.content.insights.segment_prose }}</p></div>
+  <div class="card" style="margin-top:var(--s4)"><h3>What FDE demands that standard AI-engineer roadmaps skip</h3>
+    <div>{% for g in data.gap %}<span class="chip">{{ g.label }} · {{ (g.frequency*100)|round|int }}%</span>{% endfor %}</div></div>
+</section>
+
+<section id="proof-projects">
+  <h2>7 · Proof projects</h2>
+  <div id="author-note" class="placeholder">YOUR ONE SENTENCE HERE</div>
+  <div class="grid grid-2">
+  {% for p in data.content.projects %}
+    <div class="card"><h3>{{ p.name }}</h3>
+      <p><b>Scope.</b> {{ p.scope }}</p><p><b>Proves.</b> {{ p.proves }}</p>
+      <div>{% for ck in p.clusters %}{% set c = data.clusters|selectattr('key','equalto',ck)|first %}<span class="chip" style="border-color:{{ data.cluster_colors[ck] }}">{{ c.label if c else ck }}</span>{% endfor %}</div>
+    </div>
+  {% endfor %}
+  </div>
+</section>
+
+<section id="methodology">
+  <h2>8 · Methodology</h2>
+  <p><b>n = {{ data.meta.n_postings }}</b> unique postings from {{ data.meta.n_companies }} companies, posted {{ data.meta.date_range[0] }} to {{ data.meta.date_range[1] }}. Deduplicated on (normalised company, normalised title).</p>
+  <div class="table-wrap"><table><tr><th>Source</th><th>Fetched</th><th>Title-matched</th><th>Kept after dedupe</th></tr>
+  {% for s in data.meta.sources %}<tr><td>{{ s.name }}</td><td class="mono">{{ s.fetched }}</td><td class="mono">{{ s.matched }}</td><td class="mono">{{ s.kept }}</td></tr>{% endfor %}</table></div>
+  <p style="margin-top:var(--s4)"><b>Extraction.</b> Each posting was segmented into responsibilities / requirements / nice-to-have sections ({{ data.meta.segmentation.header }} by explicit headers, {{ data.meta.segmentation.inferred }} inferred) and passed once, with the full closed taxonomy, to {{ data.meta.model }} using a fixed prompt. Every returned skill was validated against the taxonomy; {{ data.meta.rejects }} out-of-vocabulary mentions were logged and reviewed. Adzuna: {{ 'used' if data.meta.adzuna_used else 'not used' }}. LinkedIn and Indeed were not scraped.</p>
+  <p><b>Limitations.</b></p><ul>{% for l in data.content.insights.limitations %}<li>{{ l }}</li>{% endfor %}</ul>
+</section>
+<footer>Generated {{ data.meta.generated_at[:10] }}. Pipeline and taxonomy are open; charts by Chart.js.</footer>
+</div>
+
+<script id="data" type="application/json">{{ data_json|safe }}</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-annotation/3.0.1/chartjs-plugin-annotation.min.js"></script>
+<script>
+(function(){
+  const D = JSON.parse(document.getElementById('data').textContent);
+  const C = D.cluster_colors, labelOf = Object.fromEntries(D.clusters.map(c=>[c.key,c.label]));
+  const pct = v => Math.round(v*100)+'%';
+  const mobile = matchMedia('(max-width:700px)').matches;
+  Chart.defaults.font.family = getComputedStyle(document.body).fontFamily;
+  Chart.defaults.color = '#71869a';
+  if (window['chartjs-plugin-annotation']) Chart.register(window['chartjs-plugin-annotation']);
+
+  // legend
+  document.getElementById('legend-bars').innerHTML = D.clusters.map(c=>`<span style="--c:${C[c.key]}">${c.label}</span>`).join('');
+
+  // 2. bars
+  const top = [...D.skills].sort((a,b)=>b.frequency-a.frequency).slice(0,30);
+  document.getElementById('bars-box').style.height = (top.length*22+40)+'px';
+  new Chart(document.getElementById('bars'), {type:'bar', data:{labels:top.map(s=>s.label),
+    datasets:[{data:top.map(s=>s.frequency), backgroundColor:top.map(s=>C[s.cluster]), borderRadius:3}]},
+    options:{indexAxis:'y', responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false},
+      tooltip:{callbacks:{label:c=>`${pct(c.raw)} of postings · ${labelOf[top[c.dataIndex].cluster]}`}}},
+      scales:{x:{min:0,max:1,ticks:{callback:v=>pct(v)},grid:{color:'#dbe7ee'}}, y:{grid:{display:false}}}}});
+
+  // 3. scatter
+  const S = D.skills, mx = D.scatter.median_frequency, my = D.scatter.median_criticality;
+  const notes = Object.fromEntries(D.scatter.outliers.map(o=>[o.canonical,o.note]));
+  const ann = {
+    vx:{type:'line', xMin:mx, xMax:mx, borderColor:'#b9cbd7', borderDash:[4,4]},
+    hy:{type:'line', yMin:my, yMax:my, borderColor:'#b9cbd7', borderDash:[4,4]},
+    q1:{type:'label', xValue:0.02, yValue:0.98, position:{x:'start',y:'start'}, content:['Hidden core'], color:'#71869a', font:{size:12}},
+    q2:{type:'label', xValue:0.98, yValue:0.98, position:{x:'end',y:'start'}, content:['The job'], color:'#71869a', font:{size:12}},
+    q3:{type:'label', xValue:0.02, yValue:0.02, position:{x:'start',y:'end'}, content:['Peripheral'], color:'#71869a', font:{size:12}},
+    q4:{type:'label', xValue:0.98, yValue:0.02, position:{x:'end',y:'end'}, content:['Table stakes'], color:'#71869a', font:{size:12}},
+  };
+  S.forEach((s,i)=>{ if(notes[s.canonical]) ann['o'+i]={type:'label', xValue:s.frequency, yValue:s.criticality,
+      content:[s.label, notes[s.canonical]], backgroundColor:'#fff', borderColor:C[s.cluster], borderWidth:1, borderRadius:6,
+      padding:6, font:{size:11}, color:'#18324a', yAdjust:s.criticality>my?28:-28, xAdjust:s.frequency>mx?-40:40}; });
+  new Chart(document.getElementById('scatter'), {type:'scatter',
+    data:{datasets:D.clusters.map(c=>({label:c.label, data:S.filter(s=>s.cluster===c.key).map(s=>({x:s.frequency,y:s.criticality,s})),
+      backgroundColor:S.filter(s=>s.cluster===c.key).map(s=>C[c.key]+(s.low_n?'66':'cc')), pointRadius:mobile?5:7, pointHoverRadius:9}))},
+    options:{responsive:true, maintainAspectRatio:false,
+      plugins:{legend:{position:'bottom'}, annotation:{annotations:ann},
+        tooltip:{callbacks:{title:c=>c[0].raw.s.label, label:c=>{const s=c.raw.s;return [`frequency ${pct(s.frequency)} (n=${s.n})`,`criticality ${pct(s.criticality)}`,`e.g. "${s.evidence}"`];}}}},
+      scales:{x:{min:0,max:1,title:{display:true,text:'Frequency — share of postings'},ticks:{callback:pct},grid:{color:'#eef3f7'}},
+              y:{min:0,max:1,title:{display:true,text:'Criticality — share of mentions that are responsibilities'},ticks:{callback:pct},grid:{color:'#eef3f7'}}}}});
+})();
+</script>
+</body>
+</html>

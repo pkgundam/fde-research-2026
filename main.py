@@ -12,6 +12,10 @@ def main(argv=None):
         sp.add_argument("--fixture", action="store_true", help="render: use fixture data")
         sp.add_argument("--limit", type=int, default=None, help="prepare: only first N postings")
     args = p.parse_args(argv)
+    if args.cmd == "render":
+        from render import render as r
+        r.run(fixture=args.fixture)
+        return 0
     print(f"{args.cmd}: not implemented yet", file=sys.stderr)
     return 1
 

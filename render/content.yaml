@@ -1,0 +1,25 @@
+flow:
+  - {step: Discover, blurb: "Sit with the customer; find the workflow that actually hurts."}
+  - {step: Scope, blurb: "Turn the pain into a bounded, measurable first deliverable."}
+  - {step: Prototype, blurb: "Ship something rough in days, on their data."}
+  - {step: Integrate, blurb: "Wire it into the systems they already run."}
+  - {step: Deploy, blurb: "Get it into their environment, under their constraints."}
+  - {step: Evaluate, blurb: "Measure against the outcome you scoped, not vibes."}
+  - {step: Improve, blurb: "Close the gaps the eval exposed."}
+  - {step: "Feed back", blurb: "Bring what the field taught you to the product team."}
+roadmap:
+  - track: Python for FDE
+    skip: ["Deep CPython internals", "Metaclasses", "Competitive-programming algorithms"]
+    stages:
+      - {name: "Stage 1", skills: ["python", "rest_apis"], why: "placeholder"}
+  - track: AI application engineering
+    stages:
+      - {name: "Stage 1", skills: ["llm_apis", "rag", "evals"], why: "placeholder"}
+projects:
+  - {name: "Project A", scope: "placeholder", proves: "placeholder", clusters: ["ai_application_engineering", "customer_delivery"]}
+  - {name: "Project B", scope: "placeholder", proves: "placeholder", clusters: ["data_and_integrations"]}
+  - {name: "Project C", scope: "placeholder", proves: "placeholder", clusters: ["deployment_and_operations"]}
+  - {name: "Project D", scope: "placeholder", proves: "placeholder", clusters: ["product_thinking_and_communication"]}
+insights:
+  segment_prose: "placeholder"
+  limitations: ["placeholder"]
