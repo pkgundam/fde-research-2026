@@ -196,7 +196,7 @@ def cached_get(url: str, cache_key: str, *, refresh: bool = False, params: dict 
     return resp.status_code, resp.text
 
 
-_TAG_RE = re.compile(r"<(br|/p|/div|/li|/h[1-6]|/tr)\s*/?>", re.I)
+_TAG_RE = re.compile(r"<(br|p|/p|/div|/li|/h[1-6]|/tr)\s*/?>", re.I)
 _ANY_TAG_RE = re.compile(r"<[^>]+>")
 
 
@@ -1026,7 +1026,7 @@ def matches_title(title: str) -> bool:
 # ---------- normalisation ----------
 _COMPANY_STRIP = re.compile(r"[,.]?\s*\b(inc|llc|ltd|labs|ai|technologies|technology|corp|corporation|co)\b\.?|\.com|\.ai", re.I)
 _SENIORITY_WORDS = r"(senior|sr\.?|staff|principal|lead|junior|jr\.?|associate|intern|ii|iii|iv|entry[- ]level|mid[- ]level)"
-_TITLE_STRIP = [re.compile(r"\(.*?\)|\[.*?\]"), re.compile(r"[-–—|,:].*$"), re.compile(rf"\b{_SENIORITY_WORDS}\b", re.I)]
+_TITLE_STRIP = [re.compile(r"\(.*?\)|\[.*?\]"), re.compile(r"\s[-–—|]\s.*$|[,:|].*$"), re.compile(rf"\b{_SENIORITY_WORDS}\b", re.I)]
 
 
 def normalize_company(s: str) -> str:
@@ -1035,9 +1035,9 @@ def normalize_company(s: str) -> str:
 
 
 def normalize_title(s: str) -> str:
-    s = s.replace("-", " ")
     for r in _TITLE_STRIP:
         s = r.sub("", s)
+    s = s.replace("-", " ")
     return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]+", " ", s.lower())).strip()
 
 
@@ -1232,7 +1232,7 @@ def test_lever_parse():
     n, posts = lever.parse((F / "lever_sample.json").read_text(), "palantir")
     assert n == 3 and len(posts) == 1
     p = posts[0]
-    assert p.source == "lever" and p.company == "Palantir" and "What We Value" in p.full_text or len(p.full_text) > 200
+    assert p.source == "lever" and p.company == "Palantir" and len(p.full_text) > 200
     assert p.posted_date and p.posted_date[:2] == "20"
 
 
@@ -1502,6 +1502,7 @@ from sources.base import Posting
 
 NAME = "hn"
 API = "https://hn.algolia.com/api/v1/search_by_date"
+THREAD_QUERY = '"Ask HN: Who is hiring?"'
 QUERIES = ['"forward deployed"', '"deployment engineer"', '"applied ai engineer"', '"solutions engineer"',
            '"field engineer"', '"implementation engineer"', '"fde"']
 _TITLE_IN_TEXT = re.compile(
@@ -1510,7 +1511,7 @@ _TITLE_IN_TEXT = re.compile(
 
 
 def list_threads(*, months: int = 4, refresh: bool = False) -> list[dict]:
-    url = f"{API}?query={quote('\"Ask HN: Who is hiring?\"')}&tags=story,author_whoishiring&hitsPerPage={months}"
+    url = f"{API}?query={quote(THREAD_QUERY)}&tags=story,author_whoishiring&hitsPerPage={months}"
     status, body = base.cached_get(url, f"{NAME}/threads_{months}", refresh=refresh)
     hits = json.loads(body)["hits"] if status == 200 else []
     return [h for h in hits if h["title"].startswith("Ask HN: Who is hiring?")][:months]
@@ -1786,7 +1787,7 @@ def load_companies() -> dict:
 
 
 def slug_variants(name: str, extra: list[str]) -> list[str]:
-    base = re.sub(r"[^a-z0-9 ]+", "", name.lower()).strip()
+    base = re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]+", "", name.lower())).strip()
     joined, hyphen = base.replace(" ", ""), base.replace(" ", "-")
     out = list(extra)
     for v in (joined, hyphen):
@@ -1855,15 +1856,15 @@ from sources import collect
 from sources.base import Posting
 
 
-def P(i, company, title, text="x" * 10):
-    return Posting(id=i, title=title, company=company, url="u", full_text=text, source="t")
+def P(i, company, title, text="x" * 10, source="a"):
+    return Posting(id=i, title=title, company=company, url="u", full_text=text, source=source)
 
 
 def test_run_dedupes_and_writes_stats(monkeypatch, tmp_path):
     monkeypatch.setattr(collect, "PROCESSED_DIR", tmp_path)
     monkeypatch.setattr(collect, "SOURCE_RUNNERS", {
         "a": lambda refresh: (10, [P("1", "Acme", "Forward Deployed Engineer"), P("2", "Acme", "Senior Forward Deployed Engineer", "longer text")]),
-        "b": lambda refresh: (5, [P("3", "Beta", "FDE")]),
+        "b": lambda refresh: (5, [P("3", "Beta", "FDE", source="b")]),
     })
     posts, stats = collect.run()
     assert [p.id for p in posts] == ["2", "3"]
@@ -2661,9 +2662,7 @@ def skill_criticality(exs: list[Extraction], low_n: int = 5) -> dict[str, dict]:
         for s in e.skills:
             mentions[s.canonical][s.section] += 1
             if s.section == "responsibility" or s.canonical not in evidence:
-                evidence.setdefault(s.canonical, s.evidence)
-                if s.section == "responsibility":
-                    evidence[s.canonical] = s.evidence
+                evidence[s.canonical] = s.evidence  # prefer a responsibility quote
     out = {}
     for c, m in mentions.items():
         total = sum(m.values())
