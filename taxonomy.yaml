@@ -29,7 +29,7 @@ clusters:
       - {canonical: fine_tuning, label: Fine-tuning, aliases: [finetuning, lora, rlhf, sft, model training], definition: Adapting model weights}
       - {canonical: ml_fundamentals, label: ML fundamentals, aliases: [machine learning, deep learning, pytorch, tensorflow, neural networks, statistics], definition: Classical ML / DL background}
       - {canonical: nlp, label: NLP, aliases: [natural language processing, text processing], definition: Language-processing techniques}
-      - {canonical: computer_vision, label: Computer vision, aliases: [cv, image models, ocr, document understanding, multimodal], definition: Vision or document-image models}
+      - {canonical: computer_vision, label: Computer vision, aliases: [image models, ocr, document understanding, multimodal], definition: Vision or document-image models}
       - {canonical: speech, label: Speech / voice, aliases: [asr, tts, voice agents, speech recognition, text-to-speech], definition: Speech-based products}
       - {canonical: llm_observability, label: LLM observability & tracing, aliases: [tracing, langsmith, langfuse, braintrust, monitoring llm], definition: Observing LLM apps in production}
       - {canonical: guardrails_safety, label: Guardrails & safety, aliases: [guardrails, responsible ai, ai safety, hallucination mitigation, content moderation], definition: Constraining model behaviour}
@@ -93,7 +93,7 @@ clusters:
       - {canonical: verbal_communication, label: Verbal communication & presenting, aliases: [communication skills, presentation, presenting, public speaking, verbal], definition: Explaining technical work aloud}
       - {canonical: cross_functional, label: Cross-functional collaboration, aliases: [collaboration, cross-functional, work with sales, work with engineering, work across teams, teamwork], definition: Working across internal functions}
       - {canonical: ownership_autonomy, label: Ownership & autonomy, aliases: [ownership, self-directed, autonomy, self-starter, bias for action, entrepreneurial, scrappy, startup mindset], definition: Operating without close direction}
-      - {canonical: prioritization, label: Prioritisation & tradeoffs, aliases: [prioritization, prioritisation, tradeoffs, trade-offs, time management, juggle multiple], definition: Choosing what matters under constraint}
+      - {canonical: prioritization, label: Prioritisation & tradeoffs, aliases: [prioritisation, tradeoffs, trade-offs, time management, juggle multiple], definition: Choosing what matters under constraint}
       - {canonical: mentoring_leadership, label: Mentoring & technical leadership, aliases: [mentoring, mentorship, technical leadership, lead engineers, team lead], definition: Raising others' bar}
       - {canonical: business_acumen, label: Business acumen & ROI, aliases: [business value, roi, business outcomes, commercial awareness, value realization], definition: Connecting work to customer value}
       - {canonical: learning_agility, label: Learning agility, aliases: [fast learner, quick learner, learn quickly, curiosity, curious, adaptability, adaptable], definition: Picking up new domains quickly}

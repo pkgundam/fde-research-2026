@@ -1,3 +1,5 @@
+import re
+
 from extract import taxonomy as T
 
 CLUSTERS = ["software_foundations", "ai_application_engineering", "data_and_integrations",
@@ -14,12 +16,13 @@ def test_canonicals_unique_snake_case_and_aliases_unique():
     names = [s.canonical for c in tx.clusters.values() for s in c]
     assert len(names) == len(set(names))
     assert all(n == n.lower() and " " not in n for n in names)
+    assert all(re.fullmatch(r"[a-z0-9_]+", n) for n in names)
     seen = {}
     for c in tx.clusters.values():
         for s in c:
-            for a in s.aliases:
-                assert a.lower() not in seen, f"alias {a!r} in both {seen.get(a.lower())} and {s.canonical}"
-                seen[a.lower()] = s.canonical
+            for key in [s.canonical, s.label.lower(), *[a.lower() for a in s.aliases]]:
+                owner = seen.setdefault(key, s.canonical)
+                assert owner == s.canonical, f"key {key!r} in both {owner} and {s.canonical}"
 
 
 def test_generic_cloud_maps_to_generic_node_not_aws():
