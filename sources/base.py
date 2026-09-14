@@ -120,9 +120,9 @@ def dedupe(postings: list[Posting]) -> list[Posting]:
 
 
 SIZE_MAP = {  # normalized company -> hint; extend as discover resolves more boards
-    "enterprise": ["palantir", "databricks", "snowflake", "salesforce", "microsoft", "google", "amazon", "oracle", "ibm", "nvidia", "servicenow", "c3", "uipath", "datadog"],
-    "scaleup": ["openai", "anthropic", "scale", "cohere", "glean", "harvey", "sierra", "mistral", "perplexity", "writer", "cresta", "anyscale", "weights biases", "vercel", "together", "fireworks", "hebbia", "abridge", "hippocratic", "adept", "runway", "elevenlabs", "notion", "figma", "rippling", "ramp", "brex", "retool", "samsara", "verkada"],
-    "startup": ["decagon", "modal", "replicate", "baseten", "langchain", "pinecone", "weaviate", "braintrust", "langfuse", "unstructured", "vellum", "humanloop", "lamini", "contextual", "reducto", "extend", "eve", "norm", "tennr", "rilla", "hex", "distyl", "distyl ai", "rox", "ema", "sana", "eleos", "assort", "parloa", "poly", "clay", "11x", "artisan"],
+    "enterprise": ["palantir", "databricks", "snowflake", "c3", "uipath", "datadog"],
+    "scaleup": ["openai", "anthropic", "scale", "cohere", "glean", "harvey", "sierra", "mistral", "perplexity", "writer", "cresta", "anyscale", "weights biases", "vercel", "together", "fireworks", "hebbia", "abridge", "hippocratic", "adept", "runway", "elevenlabs", "notion", "rippling", "ramp", "brex", "retool", "samsara", "verkada", "cognition", "cursor", "shield", "sourcegraph", "windsurf", "vannevar", "applied intuition"],
+    "startup": ["decagon", "modal", "replicate", "baseten", "langchain", "pinecone", "weaviate", "braintrust", "unstructured", "vellum", "humanloop", "lamini", "contextual", "reducto", "extend", "eve", "norm", "tennr", "rilla", "hex", "distyl", "rox", "ema", "sana", "parloa", "clay", "11x", "artisan", "eleos health", "assort health", "anduril", "magic", "poolside", "rebellion defense"],
 }
 
 

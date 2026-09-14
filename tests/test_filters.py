@@ -1,5 +1,6 @@
+import yaml
 from sources import base
-from sources.base import Posting
+from sources.base import Posting, normalize_company
 
 
 def P(**kw):
@@ -52,3 +53,32 @@ def test_seniority_raw():
     assert base.seniority_raw("Senior Forward Deployed Engineer") == "senior"
     assert base.seniority_raw("Staff FDE") == "staff"
     assert base.seniority_raw("Forward Deployed Engineer") == ""
+
+
+def test_size_map_consistency():
+    """Verify SIZE_MAP entries match normalized candidate names and vice versa."""
+    with open("sources/companies.yaml") as f:
+        data = yaml.safe_load(f)
+
+    candidates = data["candidates"]
+    candidate_norms = {normalize_company(c["name"]): c["name"] for c in candidates}
+
+    # Test 1: every candidate should have a valid size_hint
+    valid_hints = {"startup", "scaleup", "enterprise", "unknown"}
+    for c in candidates:
+        name = c["name"]
+        hint = base.size_hint(name)
+        assert hint in valid_hints, f"size_hint({name!r}) returned {hint!r}, not in {valid_hints}"
+
+    # Test 2: every SIZE_MAP entry must be a normalized candidate name
+    all_size_map_entries = set()
+    for hint, names in base.SIZE_MAP.items():
+        for name in names:
+            all_size_map_entries.add(name)
+            assert name in candidate_norms, f"SIZE_MAP entry {name!r} ({hint}) is not a normalized candidate name"
+
+    # Test 3: no SIZE_MAP entry should be duplicated across categories
+    all_entries_list = []
+    for names in base.SIZE_MAP.values():
+        all_entries_list.extend(names)
+    assert len(all_entries_list) == len(all_size_map_entries), "SIZE_MAP has duplicate entries across categories"
