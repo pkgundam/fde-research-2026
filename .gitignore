@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.pytest_cache/
+data/raw/**/*.json
+data/processed/prompts/
+data/processed/extractions/
+*.pyc
