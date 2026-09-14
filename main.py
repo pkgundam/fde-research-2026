@@ -21,6 +21,10 @@ def main(argv=None):
         from sources import collect
         collect.run(refresh=args.refresh)
         return 0
+    if args.cmd == "prepare":
+        from extract import prepare
+        prepare.run(limit=args.limit)
+        return 0
     if args.cmd == "render":
         from render import render as r
         r.run(fixture=args.fixture)
