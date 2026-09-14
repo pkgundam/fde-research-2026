@@ -25,6 +25,10 @@ def main(argv=None):
         from extract import prepare
         prepare.run(limit=args.limit)
         return 0
+    if args.cmd == "validate":
+        from extract import validate
+        validate.run()
+        return 0
     if args.cmd == "render":
         from render import render as r
         r.run(fixture=args.fixture)
