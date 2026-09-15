@@ -41,8 +41,8 @@ section:last-of-type{border-bottom:0}
 .legend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;background:var(--c);vertical-align:-1px}
 /* lifecycle */
 .lifecycle{display:grid;grid-template-columns:1fr;gap:var(--s6);align-items:center}
-.lifecycle svg{width:100%;max-width:480px;height:auto;font-family:inherit;display:block;margin-inline:auto}
-@media (min-width:900px){.lifecycle{grid-template-columns:minmax(300px,480px) 1fr}}
+.lifecycle svg{width:100%;max-width:600px;height:auto;font-family:inherit;display:block;margin-inline:auto}
+@media (min-width:900px){.lifecycle{grid-template-columns:minmax(340px,600px) 1fr}}
 .lifecycle-legend{list-style:none;padding:0;margin:0}
 .lifecycle-legend li{break-inside:avoid;margin-bottom:var(--s3)}
 .lifecycle-legend li:last-child{margin-bottom:0}
@@ -150,9 +150,9 @@ footer span{margin:0}
       {% set lx = (260 + 232*node_xy[i][0])|round(2) %}{% set ly = (260 + 232*node_xy[i][1])|round(2) %}
       {% set anchor = 'middle' if i in (0, 4) else ('start' if i in (1, 2, 3) else 'end') %}
       {% set dy = -6 if i == 0 else (14 if i == 4 else 5) %}
-      <circle cx="{{ nx }}" cy="{{ ny }}" r="16" fill="var(--violet)"/>
-      <text x="{{ nx }}" y="{{ ny }}" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="13" font-weight="500">{{ loop.index }}</text>
-      <text x="{{ lx }}" y="{{ ly }}" dy="{{ dy }}" text-anchor="{{ anchor }}" font-size="15" fill="var(--text)">{{ f.step }}</text>
+      <circle cx="{{ nx }}" cy="{{ ny }}" r="18" fill="var(--violet)"/>
+      <text x="{{ nx }}" y="{{ ny }}" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="14" font-weight="500">{{ loop.index }}</text>
+      <text x="{{ lx }}" y="{{ ly }}" dy="{{ dy }}" text-anchor="{{ anchor }}" font-size="18" font-weight="500" fill="var(--text)">{{ f.step }}</text>
       {% endfor %}
     </svg>
     <ol class="lifecycle-legend">{% for f in data.content.flow %}<li><span class="step-num">{{ loop.index }}</span><b>{{ f.step }}</b><small>{{ f.blurb }}</small></li>{% endfor %}</ol>
