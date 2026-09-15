@@ -4,3 +4,5 @@ __pycache__/
 data/raw/**/*.json
 data/processed/prompts/*.md
 *.pyc
+data/processed/postings.jsonl
+.DS_Store
