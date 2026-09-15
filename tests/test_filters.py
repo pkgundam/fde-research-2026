@@ -1,3 +1,4 @@
+import pytest
 import yaml
 from sources import base
 from sources.base import Posting, normalize_company
@@ -66,10 +67,34 @@ def test_matches_title_excludes_non_engineer_roles():
         assert base.matches_title(t), t
 
 
+@pytest.mark.parametrize("t", [
+    "Forward Deployed Creative", "Forward Deployed Finance Partner", "Forward Deployed Banker",
+    "RVP, Forward Deployed Engineering", "Forward Deployed CTO",
+    "Operations Specialist, Forward Deployed Engineering", "Robot Deployment Engineer",
+    "Network Deployment Engineer", "Hardware Engineer – Forward Deployed",
+])
+def test_matches_title_excludes_non_engineering_roles(t):
+    assert not base.matches_title(t), t
+
+
+@pytest.mark.parametrize("t", [
+    "Forward Deployed Engineer",
+    "Forward Deployed Software Engineer, Robotics Customers",
+    "Senior Forward-Deployed AI Engineer",
+])
+def test_matches_title_keeps_real_fde_roles(t):
+    assert base.matches_title(t), t
+
+
 def test_normalize_company():
     assert base.normalize_company("Scale AI, Inc.") == "scale"
     assert base.normalize_company("Harvey.com") == "harvey"
     assert base.normalize_company("Anthropic") == "anthropic"
+
+
+def test_normalize_company_strips_markdown_links_and_url_parentheticals():
+    assert base.normalize_company("[LiveKit](http://livekit.io/)") == base.normalize_company("LiveKit")
+    assert base.normalize_company("Lago (https://getlago.com/)(YCS21)") == base.normalize_company("Lago")
 
 
 def test_normalize_title():
@@ -97,6 +122,27 @@ def test_dedupe_keeps_both_when_jd_text_differs():
     b = P(id="b", full_text=_JD_B)
     out = base.dedupe([a, b])
     assert [p.id for p in out] == ["a", "b"]
+
+
+def test_dedupe_keeps_both_greenhouse_postings_when_jd_text_differs():
+    """Same (company, title) key on a non-HN source with dissimilar JD text -> both kept
+    (the ordinary similarity check still applies for ATS sources)."""
+    a = P(id="a", source="greenhouse", full_text=_JD_A)
+    b = P(id="b", source="greenhouse", full_text=_JD_B)
+    out = base.dedupe([a, b])
+    assert [p.id for p in out] == ["a", "b"]
+
+
+def test_dedupe_merges_hn_reposts_on_key_alone_despite_dissimilar_text():
+    """HN 'Who is hiring' ads are rewritten every month, so containment between reposts is low
+    (well below DEDUPE_SIMILARITY); same (company, title) key must still merge to one, keeping
+    the newest by posted_date."""
+    older = P(id="old", source="hn", full_text=_JD_A, posted_date="2026-02-01")
+    newer = P(id="new", source="hn", full_text=_JD_B, posted_date="2026-09-01")
+    out = base.dedupe([older, newer])
+    assert [p.id for p in out] == ["new"]
+    out2 = base.dedupe([newer, older])
+    assert [p.id for p in out2] == ["new"]
 
 
 def test_dedupe_merges_near_identical_jd_text():

@@ -2,6 +2,5 @@
 __pycache__/
 .pytest_cache/
 data/raw/**/*.json
-data/processed/prompts/
-data/processed/extractions/
+data/processed/prompts/*.md
 *.pyc

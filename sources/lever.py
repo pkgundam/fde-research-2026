@@ -14,14 +14,14 @@ def _url(slug: str) -> str:
     return f"https://api.lever.co/v0/postings/{slug}?mode=json"
 
 
-def parse(body: str, slug: str) -> tuple[int, list[Posting]]:
+def parse(body: str, slug: str, name: str | None = None) -> tuple[int, list[Posting]]:
     try:
         jobs = json.loads(body)
     except json.JSONDecodeError:
         return 0, []
     if not isinstance(jobs, list) or not jobs:
         return 0, []
-    company = slug.replace("-", " ").title()
+    company = name or slug.replace("-", " ").title()
     out = []
     for j in jobs:
         title = j.get("text", "")
@@ -52,6 +52,6 @@ def probe(slug: str, *, refresh: bool = False) -> bool:
     return status == 200
 
 
-def fetch(slug: str, *, refresh: bool = False) -> tuple[int, list[Posting]]:
+def fetch(slug: str, *, name: str | None = None, refresh: bool = False) -> tuple[int, list[Posting]]:
     status, body = base.cached_get(_url(slug), f"{NAME}/{slug}", refresh=refresh)
-    return parse(body, slug) if status == 200 else (0, [])
+    return parse(body, slug, name) if status == 200 else (0, [])

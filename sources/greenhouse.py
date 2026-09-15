@@ -13,11 +13,11 @@ def _url(slug: str) -> str:
     return f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs?content=true"
 
 
-def _company(slug: str, jobs: list[dict]) -> str:
-    return (jobs[0].get("company_name") if jobs else None) or slug.replace("-", " ").title()
+def _company(slug: str, jobs: list[dict], name: str | None = None) -> str:
+    return (jobs[0].get("company_name") if jobs else None) or name or slug.replace("-", " ").title()
 
 
-def parse(body: str, slug: str) -> tuple[int, list[Posting]]:
+def parse(body: str, slug: str, name: str | None = None) -> tuple[int, list[Posting]]:
     try:
         d = json.loads(body)
     except json.JSONDecodeError:
@@ -25,7 +25,7 @@ def parse(body: str, slug: str) -> tuple[int, list[Posting]]:
     jobs = d.get("jobs") if isinstance(d, dict) else None
     if not jobs:
         return 0, []
-    company = _company(slug, jobs)
+    company = _company(slug, jobs, name)
     out = []
     for j in jobs:
         if not base.matches_title(j["title"]):
@@ -48,6 +48,6 @@ def probe(slug: str, *, refresh: bool = False) -> bool:
     return status == 200
 
 
-def fetch(slug: str, *, refresh: bool = False) -> tuple[int, list[Posting]]:
+def fetch(slug: str, *, name: str | None = None, refresh: bool = False) -> tuple[int, list[Posting]]:
     status, body = base.cached_get(_url(slug), f"{NAME}/{slug}", refresh=refresh)
-    return parse(body, slug) if status == 200 else (0, [])
+    return parse(body, slug, name) if status == 200 else (0, [])

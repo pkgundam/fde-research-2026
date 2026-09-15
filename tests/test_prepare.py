@@ -77,3 +77,22 @@ def test_run_writes_prompts_and_manifest(monkeypatch, tmp_path):
     m = json.loads(prepare.MANIFEST.read_text())
     assert m["pending"] == ["id0"] and m["done"] == ["id1"]
     assert (tmp_path / "prompts" / "id0.md").exists()
+
+
+def test_run_drops_stale_manifest_ids_not_in_current_postings(monkeypatch, tmp_path):
+    """A posting dropped by a later re-collect (title filter / dedupe) must not leave its old
+    extraction lingering in the manifest, even though the extraction file itself is untouched
+    on disk."""
+    monkeypatch.setattr(prepare, "PROMPTS_DIR", tmp_path / "prompts")
+    monkeypatch.setattr(prepare, "EXTRACTIONS_DIR", tmp_path / "extractions")
+    monkeypatch.setattr(prepare, "MANIFEST", tmp_path / "prompts" / "manifest.json")
+    posts = [Posting(id="id0", title="FDE", company="Acme", url="u", source="t", full_text="Requirements\nPython")]
+    monkeypatch.setattr(prepare, "load_postings", lambda: posts)
+    (tmp_path / "extractions").mkdir()
+    (tmp_path / "prompts").mkdir()
+    (tmp_path / "extractions" / "stale.json").write_text(json.dumps({**GOOD, "posting_id": "stale"}))
+    (tmp_path / "prompts" / "manifest.json").write_text(json.dumps({"pending": [], "done": ["stale"]}))
+    assert prepare.run() == 1
+    m = json.loads(prepare.MANIFEST.read_text())
+    assert "stale" not in m["done"] and "stale" not in m["pending"]
+    assert m["pending"] == ["id0"] and m["done"] == []

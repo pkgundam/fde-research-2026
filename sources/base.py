@@ -55,6 +55,29 @@ def cached_get(url: str, cache_key: str, *, refresh: bool = False, params: dict 
     return resp.status_code, resp.text
 
 
+_FETCHED_AT_RE = re.compile(r'"fetched_at":\s*"([^"]*)"')
+
+
+def latest_fetched_at(source_names: list[str]) -> str | None:
+    """Max `fetched_at` across the raw cache entries under data/raw/{name}/ for each given source
+    name (cache keys are namespaced f"{source}/..."). Used to report when a run's data was
+    actually collected, since cached_get never re-fetches an existing key."""
+    latest = None
+    for name in source_names:
+        d = RAW_DIR / name
+        if not d.exists():
+            continue
+        for f in d.rglob("*.json"):
+            try:
+                text = f.read_text()
+            except OSError:
+                continue
+            m = _FETCHED_AT_RE.search(text)
+            if m and m.group(1) and (latest is None or m.group(1) > latest):
+                latest = m.group(1)
+    return latest
+
+
 _TAG_RE = re.compile(r"<(br|p|/p|/div|/li|/h[1-6]|/tr)\s*/?>", re.I)
 _ANY_TAG_RE = re.compile(r"<[^>]+>")
 
@@ -85,8 +108,9 @@ _TITLE_RES = [re.compile(p, re.I) for p in TITLE_PATTERNS]
 # roles that share FDE-ish vocabulary but aren't the IC engineering role we're after
 _TITLE_EXCLUDE_RE = re.compile(
     r"\b(product manager|program manager|project manager|engineering manager|manager|director|"
-    r"head of|vp|vice president|chief|recruiter|recruiting|sales|account executive|designer|"
-    r"intern|internship|marketing|analyst|strategist)\b",
+    r"head of|vp|rvp|vice president|chief|cto|recruiter|recruiting|sales|account executive|designer|"
+    r"intern|internship|marketing|analyst|strategist|creative|finance|investor|banker|gtm|"
+    r"operations specialist|hardware|electrical|network deployment|robot|physical design)\b",
     re.I,
 )
 
@@ -104,8 +128,18 @@ _TITLE_PAREN_RE = re.compile(r"\(.*?\)|\[.*?\]")
 _TITLE_SEP_RE = re.compile(r"\s[-–—|]\s|[,:|]")
 _TITLE_SENIORITY_RE = re.compile(rf"\b{_SENIORITY_WORDS}\b", re.I)
 
+# HN "Company | Location | ..." field is free text and often carries markdown links, bare URLs,
+# or trailing "(https://...)(YCS21)"-style parentheticals that would otherwise be counted as part
+# of the company name.
+_COMPANY_MD_LINK_RE = re.compile(r"\[([^\]]+)\]\([^)]*\)")
+_COMPANY_PAREN_RE = re.compile(r"\([^)]*\)")
+_COMPANY_URL_RE = re.compile(r"https?://\S+")
+
 
 def normalize_company(s: str) -> str:
+    s = _COMPANY_MD_LINK_RE.sub(r"\1", s)
+    s = _COMPANY_PAREN_RE.sub(" ", s)
+    s = _COMPANY_URL_RE.sub(" ", s)
     s = _COMPANY_STRIP.sub("", s.lower())
     return re.sub(r"[^a-z0-9]+", " ", s).strip()
 
@@ -158,12 +192,23 @@ def _is_near_duplicate(p: Posting, rep: Posting) -> bool:
     return _containment(_shingles(p.full_text), _shingles(rep.full_text)) >= DEDUPE_SIMILARITY
 
 
+def _pick_representative(p: Posting, rep: Posting) -> Posting:
+    if p.source == "hn" and rep.source == "hn":
+        # HN "Who is hiring" ads are rewritten every month, so containment between reposts sits
+        # at 0.4-0.6 (below DEDUPE_SIMILARITY) even though they're the same ad; keep the newest
+        # by posted_date, falling back to "first seen" (i.e. keep rep) when undated.
+        return p if (p.posted_date or "") > (rep.posted_date or "") else rep
+    return p if len(p.full_text) > len(rep.full_text) else rep
+
+
 def dedupe(postings: list[Posting]) -> list[Posting]:
     """Keep one posting per (normalized_company, normalized_title) group, but within a group only
     merge postings whose JD text is a near-duplicate (containment >= DEDUPE_SIMILARITY over 6-word
     shingles); dissimilar JDs under the same key are kept as separate representatives. When two
-    postings merge, the one with the longer full_text is kept. Groups (and each group's surviving
-    representatives) are returned in first-seen order."""
+    postings merge, the one with the longer full_text is kept. HN postings are the exception: they
+    always merge on the (company, title) key alone (no similarity check), keeping the newest by
+    posted_date, because monthly reposts are rewritten and have no reliable similarity signal.
+    Groups (and each group's surviving representatives) are returned in first-seen order."""
     groups: dict[tuple[str, str], list[Posting]] = {}
     order: list[tuple[str, str]] = []
     for p in postings:
@@ -173,8 +218,9 @@ def dedupe(postings: list[Posting]) -> list[Posting]:
             groups[key] = []
         reps = groups[key]
         for i, rep in enumerate(reps):
-            if _is_near_duplicate(p, rep):
-                reps[i] = p if len(p.full_text) > len(rep.full_text) else rep
+            same_hn = p.source == "hn" and rep.source == "hn"
+            if same_hn or _is_near_duplicate(p, rep):
+                reps[i] = _pick_representative(p, rep)
                 break
         else:
             reps.append(p)

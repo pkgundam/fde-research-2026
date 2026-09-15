@@ -62,6 +62,19 @@ def test_list_threads_filters_non_hiring_threads_and_paginates(monkeypatch):
     assert "hitsPerPage=16" in captured["url"]
 
 
+def test_thread_window_parses_month_year_and_sorts_oldest_first():
+    threads = [
+        {"objectID": "1", "title": "Ask HN: Who is hiring? (September 2026)"},
+        {"objectID": "2", "title": "Ask HN: Who is hiring? (February 2026)"},
+        {"objectID": "3", "title": "Ask HN: Who is hiring? (June 2026)"},
+    ]
+    assert hn.thread_window(threads) == ("2026-02", "2026-09")
+
+
+def test_thread_window_empty_returns_none_none():
+    assert hn.thread_window([]) == (None, None)
+
+
 def test_fetch_dedupes_across_queries_and_counts_fetched(monkeypatch):
     thread = {"objectID": "49522897", "title": "Ask HN: Who is hiring? (September 2026)"}
     valid_hit = {"objectID": "100", "parent_id": 49522897, "story_id": 49522897,

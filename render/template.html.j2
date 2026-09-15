@@ -205,7 +205,7 @@ footer{color:var(--muted);font-size:.85rem;padding-block:var(--s6)}
       tooltip:{callbacks:{label:c=>`${pct(c.raw)} of postings · ${labelOf[top[c.dataIndex].cluster]}`}}},
       scales:{x:{min:0,max:1,ticks:{callback:v=>pct(v)},grid:{color:'#dbe7ee'}}, y:{grid:{display:false},
         afterFit:(scale)=>{ const ctx=scale.ctx; ctx.save(); ctx.font='12px '+getComputedStyle(document.body).fontFamily;
-          const longest=Math.max(...scale.ticks.map(t=>ctx.measureText(t.label).width)); ctx.restore();
+          const longest=Math.max(0, ...scale.ticks.map(t=>ctx.measureText(t.label).width)); ctx.restore();
           scale.width = Math.min(scale.chart.width*0.7, Math.max(scale.width, longest+14)); }}}}});
 
   // 3. scatter
@@ -219,7 +219,7 @@ footer{color:var(--muted);font-size:.85rem;padding-block:var(--s6)}
     q3:{type:'label', xValue:0.02, yValue:0.02, position:{x:'start',y:'end'}, content:['Peripheral'], color:'#71869a', font:{size:12}},
     q4:{type:'label', xValue:0.98, yValue:0.02, position:{x:'end',y:'end'}, content:['Table stakes'], color:'#71869a', font:{size:12}},
   };
-  const wrap = (t,n) => { if (t.length<=n) return [t]; const words=t.split(' '); const lines=[]; let cur=''; words.forEach(w=>{ if((cur+' '+w).trim().length>n){ lines.push(cur.trim()); cur=w; } else { cur=(cur+' '+w).trim(); } }); if(cur) lines.push(cur.trim()); return lines; };
+  const wrap = (t,n) => { if (t.length<=n) return [t]; const words=t.split(' '); const lines=[]; let cur=''; words.forEach(w=>{ if((cur+' '+w).trim().length>n){ if(cur) lines.push(cur.trim()); cur=w; } else { cur=(cur+' '+w).trim(); } }); if(cur) lines.push(cur.trim()); return lines; };
   S.forEach((s,i)=>{ if(notes[s.canonical]) { const px = s.frequency>0.6?'end':(s.frequency<0.4?'start':'center');
     ann['o'+i]={type:'label', xValue:s.frequency, yValue:s.criticality,
       content:[s.label, ...wrap(notes[s.canonical], mobile?22:70)], backgroundColor:'#fff', borderColor:C[s.cluster], borderWidth:1, borderRadius:6,

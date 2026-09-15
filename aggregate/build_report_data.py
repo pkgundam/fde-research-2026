@@ -40,7 +40,7 @@ def _stack_name(skills: list[str], tx: taxonomy.Taxonomy) -> str:
 
 
 def build(exs: list[Extraction], postings: list[Posting], stats: list[dict], n_rejects: int,
-          tx: taxonomy.Taxonomy, *, generated_at: str) -> dict:
+          tx: taxonomy.Taxonomy, *, generated_at: str, collect_meta: dict | None = None) -> dict:
     freq = frequency.skill_frequency(exs)
     crit = criticality.skill_criticality(exs)
     skills = []
@@ -63,7 +63,7 @@ def build(exs: list[Extraction], postings: list[Posting], stats: list[dict], n_r
     mkt["segment_n"] = market.segment_n(postings)
     mkt["segment_deltas"] = market.segment_deltas(exs, postings)
     dates = sorted(p.posted_date for p in postings if p.posted_date)
-    collected_on = generated_at[:10]
+    collected_on = collect_meta["collected_at"][:10] if collect_meta else generated_at[:10]
     coll_date = datetime.strptime(collected_on, "%Y-%m-%d").date()
     n_post = len(postings)
     recent = 0
@@ -81,6 +81,7 @@ def build(exs: list[Extraction], postings: list[Posting], stats: list[dict], n_r
         "meta": {"n_postings": len(exs), "n_companies": len({normalize_company(p.company) for p in postings}),
                  "date_range": [dates[0], dates[-1]] if dates else ["", ""], "generated_at": generated_at, "model": META_MODEL,
                  "collected_on": collected_on, "recent_share": recent_share,
+                 "hn_threads": collect_meta.get("hn_threads") if collect_meta else None,
                  "sources": stats, "segmentation": {"header": sum(e.segmentation_quality == "header" for e in exs),
                                                      "inferred": sum(e.segmentation_quality == "inferred" for e in exs)},
                  "rejects": n_rejects, "adzuna_used": False},
@@ -96,13 +97,22 @@ def build(exs: list[Extraction], postings: list[Posting], stats: list[dict], n_r
 def run() -> Path:
     from extract.validate import load_valid_extractions
     from sources.collect import load_postings
-    exs = load_valid_extractions()
+    all_postings = load_postings()
+    posting_ids = {p.id for p in all_postings}
+    # symmetric filter: an extraction only counts if its posting is still current, and a posting
+    # only counts if it has a current extraction (a posting dropped by a later re-collect must not
+    # leave its stale extraction inflating n_postings; an extraction that outlived its posting must
+    # not either).
+    exs = [e for e in load_valid_extractions() if e.posting_id in posting_ids]
     done = {e.posting_id for e in exs}
-    postings = [p for p in load_postings() if p.id in done]
+    postings = [p for p in all_postings if p.id in done]
     stats = json.loads((PROCESSED_DIR / "collect_stats.json").read_text())
     rejects_path = PROCESSED_DIR / "rejects.log"
     n_rejects = len(rejects_path.read_text().splitlines()) if rejects_path.exists() else 0
-    data = build(exs, postings, stats, n_rejects, taxonomy.load(), generated_at=datetime.now(timezone.utc).isoformat())
+    meta_path = PROCESSED_DIR / "collect_meta.json"
+    collect_meta = json.loads(meta_path.read_text()) if meta_path.exists() else None
+    data = build(exs, postings, stats, n_rejects, taxonomy.load(), generated_at=datetime.now(timezone.utc).isoformat(),
+                 collect_meta=collect_meta)
     OUT.write_text(json.dumps(data, indent=2, ensure_ascii=False))
     print(f"report_data.json: n={data['meta']['n_postings']} skills={len(data['skills'])} stacks={len(data['stacks'])} gaps={len(data['gap'])}")
     for s in data["stacks"]:

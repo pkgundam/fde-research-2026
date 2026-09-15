@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 import re
+from datetime import datetime
 from urllib.parse import quote
 
 from sources import base
@@ -11,18 +12,38 @@ from sources.base import Posting
 NAME = "hn"
 API = "https://hn.algolia.com/api/v1/search_by_date"
 THREAD_QUERY = '"Ask HN: Who is hiring?"'
+DEFAULT_MONTHS = 10
 QUERIES = ['"forward deployed"', '"deployment engineer"', '"applied ai engineer"', '"solutions engineer"',
            '"field engineer"', '"implementation engineer"', '"fde"']
 _TITLE_IN_TEXT = re.compile(
     r"(Senior |Staff |Lead |Principal |Founding )?(Forward[\s-]Deployed (AI |Software )?Engineer|\bFDE|Deployment Engineer|"
     r"Applied AI Engineer|Solutions Engineer \(?AI\)?|AI Solutions Engineer|Field Engineer|Implementation Engineer)\b", re.I)
+_THREAD_MONTH_RE = re.compile(r"\((\w+ \d{4})\)")
 
 
-def list_threads(*, months: int = 8, refresh: bool = False) -> list[dict]:
+def list_threads(*, months: int = DEFAULT_MONTHS, refresh: bool = False) -> list[dict]:
     url = f"{API}?query={quote(THREAD_QUERY)}&tags=story,author_whoishiring&hitsPerPage={months * 4}"
     status, body = base.cached_get(url, f"{NAME}/threads_{months}", refresh=refresh)
     hits = json.loads(body)["hits"] if status == 200 else []
     return [h for h in hits if h["title"].startswith("Ask HN: Who is hiring?")][:months]
+
+
+def thread_window(threads: list[dict]) -> tuple[str | None, str | None]:
+    """Given the threads returned by list_threads (any order), return the (first, last) "YYYY-MM"
+    months they cover, parsed from each thread's "... (Month YYYY)" title."""
+    months = []
+    for t in threads:
+        m = _THREAD_MONTH_RE.search(t.get("title", ""))
+        if not m:
+            continue
+        try:
+            months.append(datetime.strptime(m.group(1), "%B %Y").strftime("%Y-%m"))
+        except ValueError:
+            continue
+    if not months:
+        return None, None
+    months.sort()
+    return months[0], months[-1]
 
 
 def parse_comment(hit: dict) -> Posting | None:
@@ -52,7 +73,7 @@ def parse_comment(hit: dict) -> Posting | None:
     )
 
 
-def fetch(*, months: int = 8, refresh: bool = False) -> tuple[int, list[Posting]]:
+def fetch(*, months: int = DEFAULT_MONTHS, refresh: bool = False) -> tuple[int, list[Posting]]:
     seen, out, fetched = set(), [], 0
     for th in list_threads(months=months, refresh=refresh):
         for qi, q in enumerate(QUERIES):

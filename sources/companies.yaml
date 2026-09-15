@@ -723,6 +723,214 @@ candidates:
 - name: Glean Technologies
   slugs:
   - gleantechnologies
+- name: Neon
+  slugs:
+  - neon
+  - neondatabase
+- name: PlanetScale
+  slugs:
+  - planetscale
+- name: Temporal
+  slugs:
+  - temporal
+  - temporaltechnologies
+- name: CentML
+  slugs:
+  - centml
+- name: fal.ai
+  slugs:
+  - fal
+  - falai
+- name: Voiceflow
+  slugs:
+  - voiceflow
+- name: Assembled
+  slugs:
+  - assembled
+- name: Sendbird
+  slugs:
+  - sendbird
+- name: Copy.ai
+  slugs:
+  - copyai
+- name: Typeface
+  slugs:
+  - typeface
+  - typefaceai
+- name: Anyword
+  slugs:
+  - anyword
+- name: WhyLabs
+  slugs:
+  - whylabs
+- name: Elicit
+  slugs:
+  - elicit
+  - ought
+- name: You.com
+  slugs:
+  - youdotcom
+  - you
+- name: Nightfall AI
+  slugs:
+  - nightfallai
+  - nightfall
+- name: Persona
+  slugs:
+  - persona
+  - withpersona
+- name: Middesk
+  slugs:
+  - middesk
+- name: Alloy
+  slugs:
+  - alloy
+  - alloyautomation
+- name: Sardine
+  slugs:
+  - sardine
+  - sardineai
+- name: Unit21
+  slugs:
+  - unit21
+- name: Hightouch
+  slugs:
+  - hightouch
+- name: Census
+  slugs:
+  - getcensus
+  - census
+- name: Merge
+  slugs:
+  - merge
+  - mergeapi
+- name: Metaplane
+  slugs:
+  - metaplane
+- name: Monte Carlo
+  slugs:
+  - montecarlodata
+  - montecarlo
+- name: Bigeye
+  slugs:
+  - bigeye
+- name: Anomalo
+  slugs:
+  - anomalo
+- name: Deepnote
+  slugs:
+  - deepnote
+- name: Yellow.ai
+  slugs:
+  - yellowai
+  - yellowmessenger
+- name: LivePerson
+  slugs:
+  - liveperson
+- name: Level AI
+  slugs:
+  - levelai
+  - thelevelai
+- name: People.ai
+  slugs:
+  - peopleai
+- name: Aisera
+  slugs:
+  - aisera
+- name: Zilliz
+  slugs:
+  - zilliz
+- name: LlamaIndex
+  slugs:
+  - llamaindex
+  - runllama
+- name: Portkey
+  slugs:
+  - portkey
+  - portkeyai
+- name: Langfuse
+  slugs:
+  - langfuse
+- name: Helicone
+  slugs:
+  - helicone
+- name: Martian
+  slugs:
+  - withmartian
+  - martian
+- name: n8n
+  slugs:
+  - n8n
+- name: Gumloop
+  slugs:
+  - gumloop
+- name: E2B
+  slugs:
+  - e2b
+  - e2bdev
+- name: Browserbase
+  slugs:
+  - browserbase
+- name: Firecrawl
+  slugs:
+  - firecrawl
+  - mendableai
+- name: Tavily
+  slugs:
+  - tavily
+  - tavilyai
+- name: Composio
+  slugs:
+  - composio
+  - composiohq
+- name: CrewAI
+  slugs:
+  - crewai
+- name: StackBlitz
+  slugs:
+  - stackblitz
+- name: Supabase
+  slugs:
+  - supabase
+- name: Convex
+  slugs:
+  - convex
+  - convexdev
+- name: Hasura
+  slugs:
+  - hasura
+- name: Tines
+  slugs:
+  - tines
+- name: Torq
+  slugs:
+  - torq
+  - torqio
+- name: Cyera
+  slugs:
+  - cyera
+- name: Clerk
+  slugs:
+  - clerk
+  - clerkdev
+- name: WorkOS
+  slugs:
+  - workos
+- name: Stytch
+  slugs:
+  - stytch
+- name: Rasa
+  slugs:
+  - rasa
+  - rasahq
+- name: Cortex
+  slugs:
+  - cortex
+  - cortexapps
+- name: Honeycomb
+  slugs:
+  - honeycomb
+  - honeycombio
 resolved:
   greenhouse:
     anthropic: Anthropic
@@ -795,6 +1003,20 @@ resolved:
     udio: Udio
     descript: Descript
     otterai: Otter.ai
+    planetscale: PlanetScale
+    sendbird: Sendbird
+    typeface: Typeface
+    youcom: You.com
+    alloy: Alloy
+    hightouch: Hightouch
+    merge: Merge
+    liveperson: LivePerson
+    tavily: Tavily
+    stackblitz: StackBlitz
+    tines: Tines
+    torq: Torq
+    cortex: Cortex
+    honeycomb: Honeycomb
   lever:
     palantir: Palantir
     mistral: Mistral AI
@@ -808,6 +1030,11 @@ resolved:
     imbue: Imbue
     toptal: Toptal
     sesame: Sesame
+    neon: Neon
+    withpersona: Persona
+    alloy: Alloy
+    levelai: Level AI
+    zilliz: Zilliz
   ashby:
     openai: OpenAI
     sierra: Sierra
@@ -911,3 +1138,30 @@ resolved:
     black-forest-labs: Black Forest Labs
     suno: Suno
     read-ai: Read AI
+    neon: Neon
+    temporal: Temporal
+    elicit: Elicit
+    nightfall-ai: Nightfall AI
+    persona: Persona
+    middesk: Middesk
+    sardine: Sardine
+    hightouch: Hightouch
+    merge: Merge
+    montecarlodata: Monte Carlo
+    anomalo: Anomalo
+    deepnote: Deepnote
+    level-ai: Level AI
+    llamaindex: LlamaIndex
+    langfuse: Langfuse
+    n8n: n8n
+    gumloop: Gumloop
+    e2b: E2B
+    browserbase: Browserbase
+    firecrawl: Firecrawl
+    tavily: Tavily
+    composio: Composio
+    supabase: Supabase
+    clerk: Clerk
+    workos: WorkOS
+    stytch: Stytch
+    rasa: Rasa

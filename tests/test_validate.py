@@ -40,12 +40,30 @@ def test_run_updates_manifest_and_rejects(monkeypatch, tmp_path):
     (pr_dir / "manifest.json").write_text(json.dumps({"pending": ["a", "b", "c"], "done": []}))
     (ex_dir / "a.json").write_text(json.dumps(GOOD))
     (ex_dir / "b.json").write_text("not json")
+    raw_bytes = (ex_dir / "a.json").read_bytes()
     res = validate.run()
     assert res == {"valid": 1, "invalid": 1, "missing": 1, "rejects": 1}
     m = json.loads((pr_dir / "manifest.json").read_text())
     assert m["done"] == ["a"] and sorted(m["pending"]) == ["b", "c"]
     assert json.loads((tmp_path / "rejects.log").read_text().splitlines()[0])["canonical"] == "quantum_computing"
-    assert json.loads((ex_dir / "a.json").read_text())["skills"][1]["canonical"] == "aws"  # rewritten clean
+    assert (ex_dir / "a.json").read_bytes() == raw_bytes  # source file is not rewritten (I5)
+    exts = validate.load_valid_extractions()
+    assert [s.canonical for s in exts[0].skills] == ["python", "aws"]  # taxonomy filtering happens at load time
+
+
+def test_run_does_not_rewrite_extraction_files(monkeypatch, tmp_path):
+    """I5: validate.run() must never mutate extraction files on disk — they're the only evidence
+    trail from postings.jsonl to report_data.json and must stay byte-for-byte reproducible."""
+    ex_dir, pr_dir = tmp_path / "extractions", tmp_path / "prompts"
+    ex_dir.mkdir(); pr_dir.mkdir()
+    monkeypatch.setattr(validate, "EXTRACTIONS_DIR", ex_dir)
+    monkeypatch.setattr(validate, "MANIFEST", pr_dir / "manifest.json")
+    monkeypatch.setattr(validate, "REJECTS", tmp_path / "rejects.log")
+    (pr_dir / "manifest.json").write_text(json.dumps({"pending": ["a"], "done": []}))
+    raw_bytes = json.dumps(GOOD, indent=4).encode()  # deliberately odd formatting to catch any rewrite
+    (ex_dir / "a.json").write_bytes(raw_bytes)
+    validate.run()
+    assert (ex_dir / "a.json").read_bytes() == raw_bytes
 
 
 def test_load_valid_extractions_tolerates_fenced_json(monkeypatch, tmp_path):

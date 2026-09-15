@@ -2,6 +2,7 @@
   "meta": {"n_postings": 300, "n_companies": 80, "date_range": ["2026-05-01", "2026-09-14"],
            "generated_at": "2026-09-14T00:00:00Z", "model": "claude-sonnet-5",
            "collected_on": "2026-09-14", "recent_share": 0.87,
+           "hn_threads": {"months": 8, "first": "2026-02", "last": "2026-09"},
            "sources": [{"name": "greenhouse", "fetched": 4000, "matched": 140, "kept": 120},
                        {"name": "lever", "fetched": 1500, "matched": 60, "kept": 50},
                        {"name": "ashby", "fetched": 3000, "matched": 90, "kept": 80},
