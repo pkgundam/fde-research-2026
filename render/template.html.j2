@@ -21,6 +21,13 @@ header.hero{padding-block:var(--s8) var(--s6);border-bottom:1px solid var(--line
 .eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;color:var(--violet);background:var(--violet-100);border-radius:999px;padding:4px 12px;margin-bottom:var(--s4)}
 .eyebrow::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--violet)}
 .lede{color:var(--muted);font-size:1.15rem;max-width:var(--measure)}
+.hero-stats{display:flex;flex-wrap:wrap;gap:var(--s4);margin-top:var(--s6)}
+.stat-tile{flex:1 1 140px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:var(--s3) var(--s4)}
+.stat-num{display:block;font-size:1.6rem;font-weight:500;color:var(--text)}
+.stat-label{display:block;font-size:.8rem;color:var(--muted);margin-top:2px}
+.hero-toc{display:flex;flex-wrap:wrap;gap:var(--s2);margin-top:var(--s5)}
+.toc-chip{font-size:.8rem;color:var(--muted);background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:3px 12px;text-decoration:none;white-space:nowrap}
+.toc-chip:hover{color:var(--violet);border-color:var(--line-strong)}
 section{padding-block:var(--s7);border-bottom:1px solid var(--line)}
 section:last-of-type{border-bottom:0}
 .sub{color:var(--muted);max-width:var(--measure);margin-bottom:var(--s5)}
@@ -59,12 +66,28 @@ section:last-of-type{border-bottom:0}
 /* market */
 .dist{display:grid;grid-template-columns:auto 1fr auto;gap:var(--s2) var(--s3);align-items:center;font-size:.9rem}
 .dist .bar{height:10px;background:var(--line);border-radius:5px;overflow:hidden}.dist .bar i{display:block;height:100%;background:var(--teal-fill)}
+.dist .row-muted{color:var(--muted)}
 .verbs{display:flex;flex-wrap:wrap;gap:var(--s2)}
+.stack-card{border-left:3px solid var(--line-strong)}
 /* projects */
 .placeholder{border:2px dashed var(--violet);background:var(--violet-100);border-radius:var(--r);padding:var(--s4);font-style:italic;color:var(--violet);margin-bottom:var(--s5)}
+.projects-grid{grid-template-columns:1fr}
+@media (min-width:900px){.projects-grid{grid-template-columns:1fr 1fr;grid-template-rows:auto auto}}
+.project-card{display:flex;flex-direction:column}
+.project-badge{font-family:"JetBrains Mono",SFMono-Regular,Consolas,monospace;font-size:.8rem;font-weight:500;color:var(--violet);margin-bottom:var(--s2)}
+.field-label{display:block;font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.project-card p{margin-bottom:var(--s3)}
+.project-chips{margin-top:auto;padding-top:var(--s3)}
 table{border-collapse:collapse;width:100%;font-size:.9rem}td,th{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line)}th{color:var(--muted);font-weight:500}
 .table-wrap{overflow-x:auto}
-footer{color:var(--muted);font-size:.85rem;padding-block:var(--s6)}
+.table-wrap thead th{border-bottom:1px solid var(--line-strong)}
+.table-wrap tbody tr:nth-child(even){background:rgba(219,231,238,.35)}
+.table-wrap td.num,.table-wrap th.num{text-align:right}
+.limitations{padding-left:1.2em;margin:0}
+.limitations li{break-inside:avoid;margin-bottom:var(--s2)}
+@media (min-width:900px){.limitations{columns:2;column-gap:var(--s5)}}
+footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:var(--s3);color:var(--muted);font-size:.85rem;padding-block:var(--s6)}
+footer span{margin:0}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 {% endraw %}
 </style>
@@ -75,6 +98,24 @@ footer{color:var(--muted);font-size:.85rem;padding-block:var(--s6)}
   <span class="eyebrow">Research report</span>
   <h1>What Forward Deployed Engineer roles actually demand</h1>
   <p class="lede">A skills map built from {{ data.meta.n_postings }} FDE job postings across {{ data.meta.n_companies }} companies, extracted against a fixed taxonomy and split by whether a skill is the <em>job</em> or merely a <em>requirement</em>.</p>
+  <div class="hero-stats">
+    <div class="stat-tile"><span class="stat-num mono">{{ data.meta.n_postings }}</span><span class="stat-label">postings</span></div>
+    <div class="stat-tile"><span class="stat-num mono">{{ data.meta.n_companies }}</span><span class="stat-label">companies</span></div>
+    <div class="stat-tile"><span class="stat-num mono">{{ data.meta.sources|selectattr('kept','gt',0)|list|length }}</span><span class="stat-label">sources with postings</span></div>
+    <div class="stat-tile"><span class="stat-num mono">{{ data.skills|length }}</span><span class="stat-label">skill taxonomy</span></div>
+  </div>
+  <nav class="hero-toc">
+    {% for sid, label in [
+      ('what-fde-does','What an FDE does'),
+      ('top-technologies','Most requested technologies'),
+      ('frequency-vs-criticality','Frequency vs criticality'),
+      ('capability-clusters','Capability clusters'),
+      ('learning-roadmap','Learning roadmap'),
+      ('market-insights','Market insights'),
+      ('proof-projects','Proof projects'),
+      ('methodology','Methodology')
+    ] %}<a class="toc-chip" href="#{{ sid }}">{{ label }}</a>{% endfor %}
+  </nav>
 </header>
 
 <section id="what-fde-does">
@@ -134,7 +175,7 @@ footer{color:var(--muted);font-size:.85rem;padding-block:var(--s6)}
     {% for key, title in [('seniority','Seniority'),('years','Years required'),('travel','Travel expectation'),('customer_facing','Customer-facing intensity (1–5)')] %}
     <div class="card"><h3>{{ title }}</h3>
       {% set d = data.market[key] %}{% set total = d.values()|sum %}
-      <div class="dist">{% for k, v in d.items() %}<span>{{ k|replace('_',' ') }}</span><span class="bar"><i style="width:{{ (100*v/total)|round(1) if total else 0 }}%"></i></span><span class="mono">{{ (100*v/total)|round|int if total else 0 }}%</span>{% endfor %}</div>
+      <div class="dist">{% for k, v in d.items() %}<span{% if k=='unspecified' %} class="row-muted"{% endif %}>{{ k|replace('_',' ') }}</span><span class="bar"><i style="width:{{ (100*v/total)|round(1) if total else 0 }}%;background:{{ 'var(--line)' if k=='unspecified' else 'var(--teal-fill)' }}"></i></span><span class="mono{% if k=='unspecified' %} row-muted{% endif %}">{{ (100*v/total)|round|int if total else 0 }}%</span>{% endfor %}</div>
     </div>
     {% endfor %}
   </div>
@@ -144,7 +185,11 @@ footer{color:var(--muted);font-size:.85rem;padding-block:var(--s6)}
     <p class="sub" style="margin-bottom:var(--s4)">Skill groups that co-occur more often than chance would predict; support = postings mentioning at least three members.</p>
     <div class="grid grid-2">
     {% for st in data.stacks %}
-      <div class="card"><h3>{{ st.name }}</h3>
+      {% set stack_clusters = [] %}
+      {% for s in st.skills %}{% set sk = data.skills|selectattr('canonical','equalto',s)|first %}{% if sk %}{{ stack_clusters.append(sk.cluster) or "" }}{% endif %}{% endfor %}
+      {% set ns = namespace(best=none, best_count=0) %}
+      {% for ck in stack_clusters|unique %}{% set cnt = stack_clusters|select('equalto', ck)|list|length %}{% if cnt > ns.best_count %}{% set ns.best = ck %}{% set ns.best_count = cnt %}{% endif %}{% endfor %}
+      <div class="card stack-card"{% if ns.best %} style="border-left-color:{{ data.cluster_colors[ns.best] }}"{% endif %}><h3>{{ st.name }}</h3>
         <div>{% for s in st.skills %}{% set sk = data.skills|selectattr('canonical','equalto',s)|first %}<span class="chip">{{ sk.label if sk else s }}</span>{% endfor %}</div>
         <p style="margin-top:var(--s3);margin-bottom:0"><span class="mono">support {{ st.support }}</span></p>
       </div>
@@ -159,11 +204,14 @@ footer{color:var(--muted);font-size:.85rem;padding-block:var(--s6)}
 <section id="proof-projects">
   <h2>7 · Proof projects</h2>
   <div id="author-note" class="placeholder">YOUR ONE SENTENCE HERE</div>
-  <div class="grid grid-2">
+  <div class="grid grid-2 projects-grid">
   {% for p in data.content.projects %}
-    <div class="card"><h3>{{ p.name }}</h3>
-      <p><b>Scope.</b> {{ p.scope }}</p><p><b>Proves.</b> {{ p.proves }}</p>
-      <div>{% for ck in p.clusters %}{% set c = data.clusters|selectattr('key','equalto',ck)|first %}<span class="chip" style="border-color:{{ data.cluster_colors[ck] }}">{{ c.label if c else ck }}</span>{% endfor %}</div>
+    <div class="card project-card">
+      <div class="project-badge">{{ '%02d'|format(loop.index) }}</div>
+      <h3>{{ p.name }}</h3>
+      <p><span class="field-label">Scope</span>{{ p.scope }}</p>
+      <p><span class="field-label">Proves</span>{{ p.proves }}</p>
+      <div class="project-chips">{% for ck in p.clusters %}{% set c = data.clusters|selectattr('key','equalto',ck)|first %}<span class="chip" style="border-color:{{ data.cluster_colors[ck] }}">{{ c.label if c else ck }}</span>{% endfor %}</div>
     </div>
   {% endfor %}
   </div>
@@ -172,13 +220,15 @@ footer{color:var(--muted);font-size:.85rem;padding-block:var(--s6)}
 <section id="methodology">
   <h2>8 · Methodology</h2>
   <p><b>n = {{ data.meta.n_postings }}</b> unique postings from {{ data.meta.n_companies }} companies, posted {{ data.meta.date_range[0] }} to {{ data.meta.date_range[1] }}. {% if data.meta.hn_threads %}ATS postings were live on {{ data.meta.collected_on }}; Hacker News entries come from the {{ data.meta.hn_threads.months }} monthly "Who is hiring?" threads from {{ data.meta.hn_threads.first }} to {{ data.meta.hn_threads.last }} (a company's monthly reposts were merged). {{ (data.meta.recent_share*100)|round|int }}% of postings were first published within the 12 months before collection (ATS boards report original publish dates).{% else %}Postings were live on {{ data.meta.collected_on }}; {{ (data.meta.recent_share*100)|round|int }}% of postings were first published within the 12 months before collection (ATS boards report original publish dates).{% endif %} Deduplicated on (normalised company, normalised title); postings sharing that key were merged only when their texts overlapped by at least 80% on 6-word shingles (containment).</p>
-  <div class="table-wrap"><table><tr><th>Source</th><th>Fetched</th><th>Title-matched</th><th>Kept after dedupe</th></tr>
-  {% for s in data.meta.sources %}<tr><td>{{ s.name }}</td><td class="mono">{{ s.fetched }}</td><td class="mono">{{ s.matched }}</td><td class="mono">{{ s.kept }}</td></tr>{% endfor %}</table>
+  <div class="table-wrap"><table>
+  <thead><tr><th>Source</th><th class="num">Fetched</th><th class="num">Title-matched</th><th class="num">Kept after dedupe</th></tr></thead>
+  <tbody>{% for s in data.meta.sources %}<tr><td>{{ s.name }}</td><td class="mono num">{{ s.fetched }}</td><td class="mono num">{{ s.matched }}</td><td class="mono num">{{ s.kept }}</td></tr>{% endfor %}</tbody>
+  </table>
   <small style="color:var(--muted)">Fetched = jobs listed on the board (ATS), comment hits across queries (HN), or rows scanned (Arbeitnow).</small></div>
   <p style="margin-top:var(--s4)"><b>Extraction.</b> Each posting was segmented into responsibilities / requirements / nice-to-have sections ({{ data.meta.segmentation.header }} by explicit headers, {{ data.meta.segmentation.inferred }} inferred) and passed once, with the full closed taxonomy, to {{ data.meta.model }} (Claude Code `sonnet` alias, run as subagents rather than through the API) using a fixed prompt. Every returned skill was validated against the taxonomy; {{ data.meta.rejects }} out-of-vocabulary mentions were logged and reviewed. Adzuna: {{ 'used' if data.meta.adzuna_used else 'not used' }}. LinkedIn and Indeed were not scraped.</p>
-  <p><b>Limitations.</b></p><ul>{% for l in data.content.insights.limitations %}<li>{{ l }}</li>{% endfor %}</ul>
+  <p><b>Limitations.</b></p><ul class="limitations">{% for l in data.content.insights.limitations %}<li>{{ l }}</li>{% endfor %}</ul>
 </section>
-<footer>Generated {{ data.meta.generated_at[:10] }}. Pipeline and taxonomy are in the repository; charts by Chart.js.</footer>
+<footer><span>Generated {{ data.meta.generated_at[:10] }}. Pipeline and taxonomy are in the repository.</span><span>Charts by Chart.js.</span></footer>
 </div>
 
 <script id="data" type="application/json">{{ data_json|safe }}</script>
