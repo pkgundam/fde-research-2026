@@ -55,7 +55,14 @@ section:last-of-type{border-bottom:0}
 #bars-box{height:calc(30*22px + 40px)}
 #scatter-box{min-height:70vh;height:70vh}
 @media (max-width:700px){#scatter-box{height:80vh}}
-.quadrant-key{display:grid;grid-template-columns:1fr 1fr;gap:var(--s2);font-size:.85rem;color:var(--muted);margin-top:var(--s3)}
+.muted{color:var(--muted)}
+.quadrants{display:grid;grid-template-columns:1fr 1fr;gap:var(--s4);margin-bottom:var(--s5)}
+@media (max-width:700px){.quadrants{grid-template-columns:1fr}}
+.quadrant-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:var(--s4) var(--s5)}
+.quadrant-card.primary{background:var(--violet-100);border-color:var(--violet)}
+.quadrant-title{display:block;font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--violet);font-weight:500;margin-bottom:4px}
+.quadrant-desc{color:var(--muted);font-size:.85rem;margin:0 0 var(--s3)}
+.outlier-note{color:var(--muted);font-size:.85rem;margin-top:var(--s4)}
 /* clusters */
 .cluster{border-left:4px solid var(--c)}
 .cluster .pct{font-size:2rem;font-weight:500;color:var(--c)}
@@ -168,14 +175,32 @@ footer span{margin:0}
 
 <section id="frequency-vs-criticality">
   <h2>3 · Frequency vs criticality</h2>
-  <p class="sub"><b>Frequency</b> (x): how often a skill appears. <b>Criticality</b> (y): the share of its mentions tagged as a responsibility ("what you will do") rather than a requirement — i.e. how often the skill <em>is the job</em>. Faded points have fewer than 5 mentions.</p>
-  <div class="chart-box" id="scatter-box"><canvas id="scatter"></canvas></div>
-  <div class="quadrant-key">
-    <span><b>Top-left — Hidden core:</b> rarely listed, but when listed it is the work.</span>
-    <span><b>Top-right — The job:</b> common and central. Learn these first.</span>
-    <span><b>Bottom-left — Peripheral:</b> occasional nice-to-haves.</span>
-    <span><b>Bottom-right — Table stakes:</b> everyone asks; nobody hires for it alone.</span>
+  <p class="sub"><b>Frequency</b> (x): how often a skill appears. <b>Criticality</b> (y): the share of its mentions tagged as a responsibility ("what you will do") rather than a requirement — i.e. how often the skill <em>is the job</em>. Skills with fewer than 5 mentions are omitted from the chart.</p>
+  {% set mx = data.scatter.median_frequency %}
+  {% set my = data.scatter.median_criticality %}
+  {% set eligible = data.skills|rejectattr('low_n')|list %}
+  {% set hidden_core = eligible|selectattr('frequency','lt',mx)|selectattr('criticality','ge',my)|sort(attribute='frequency',reverse=true)|list %}
+  {% set the_job = eligible|selectattr('frequency','ge',mx)|selectattr('criticality','ge',my)|sort(attribute='frequency',reverse=true)|list %}
+  {% set peripheral = eligible|selectattr('frequency','lt',mx)|selectattr('criticality','lt',my)|sort(attribute='frequency',reverse=true)|list %}
+  {% set table_stakes = eligible|selectattr('frequency','ge',mx)|selectattr('criticality','lt',my)|sort(attribute='frequency',reverse=true)|list %}
+  {% set quadrants = [
+    {'title':'Hidden core','desc':'rarely listed, but when listed it is the work.','skills':hidden_core,'primary':false},
+    {'title':'The job','desc':'common and central. Learn these first.','skills':the_job,'primary':true},
+    {'title':'Peripheral','desc':'occasional nice-to-haves.','skills':peripheral,'primary':false},
+    {'title':'Table stakes','desc':'everyone asks; nobody hires for it alone.','skills':table_stakes,'primary':false},
+  ] %}
+  <div class="quadrants">
+  {% for q in quadrants %}
+    <div class="quadrant-card{% if q.primary %} primary{% endif %}">
+      <span class="quadrant-title">{{ q.title }}</span>
+      <p class="quadrant-desc">{{ q.desc }}</p>
+      <div>{% for sk in q.skills %}<span class="chip" style="border-color:{{ data.cluster_colors[sk.cluster] }}">{{ sk.label }} <span class="mono muted">{{ (sk.frequency*100)|round|int }}%</span></span>{% else %}<span class="muted">—</span>{% endfor %}</div>
+    </div>
+  {% endfor %}
   </div>
+  <div class="chart-box" id="scatter-box"><canvas id="scatter"></canvas></div>
+  {% set outlier_notes = data.scatter.outliers|map(attribute='note')|unique|list %}
+  <p class="outlier-note">{% for note in outlier_notes %}{% set labels = [] %}{% for o in data.scatter.outliers if o.note == note %}{% set sk = data.skills|selectattr('canonical','equalto',o.canonical)|first %}{{ labels.append(sk.label if sk else o.canonical) or "" }}{% endfor %}<b>{{ note }}:</b> {{ labels|join(' · ') }}{% if not loop.last %}<br>{% endif %}{% endfor %}</p>
 </section>
 
 <section id="capability-clusters">
@@ -295,25 +320,55 @@ footer span{margin:0}
           scale.width = Math.min(scale.chart.width*0.7, Math.max(scale.width, longest+14)); }}}}});
 
   // 3. scatter
-  const S = D.skills, mx = D.scatter.median_frequency, my = D.scatter.median_criticality;
-  const notes = Object.fromEntries(D.scatter.outliers.map(o=>[o.canonical,o.note]));
+  const S = D.skills.filter(s=>!s.low_n), mx = D.scatter.median_frequency, my = D.scatter.median_criticality;
+  const outlierCanon = new Set(D.scatter.outliers.map(o=>o.canonical));
+  const pill = {backgroundColor:'#fff', borderColor:'#dbe7ee', borderWidth:1, borderRadius:999, padding:{x:8,y:3}, font:{size:11}, color:'#71869a'};
   const ann = {
     vx:{type:'line', xMin:mx, xMax:mx, borderColor:'#b9cbd7', borderDash:[4,4]},
     hy:{type:'line', yMin:my, yMax:my, borderColor:'#b9cbd7', borderDash:[4,4]},
-    q1:{type:'label', xValue:0.02, yValue:0.98, position:{x:'start',y:'start'}, content:['Hidden core'], color:'#71869a', font:{size:12}},
-    q2:{type:'label', xValue:0.98, yValue:0.98, position:{x:'end',y:'start'}, content:['The job'], color:'#71869a', font:{size:12}},
-    q3:{type:'label', xValue:0.02, yValue:0.02, position:{x:'start',y:'end'}, content:['Peripheral'], color:'#71869a', font:{size:12}},
-    q4:{type:'label', xValue:0.98, yValue:0.02, position:{x:'end',y:'end'}, content:['Table stakes'], color:'#71869a', font:{size:12}},
+    q1:{type:'label', xValue:0.02, yValue:0.98, position:{x:'start',y:'start'}, content:['Hidden core'], ...pill},
+    q2:{type:'label', xValue:0.98, yValue:0.98, position:{x:'end',y:'start'}, content:['The job'], ...pill},
+    q3:{type:'label', xValue:0.02, yValue:0.02, position:{x:'start',y:'end'}, content:['Peripheral'], ...pill},
+    q4:{type:'label', xValue:0.98, yValue:0.02, position:{x:'end',y:'end'}, content:['Table stakes'], ...pill},
   };
-  const wrap = (t,n) => { if (t.length<=n) return [t]; const words=t.split(' '); const lines=[]; let cur=''; words.forEach(w=>{ if((cur+' '+w).trim().length>n){ if(cur) lines.push(cur.trim()); cur=w; } else { cur=(cur+' '+w).trim(); } }); if(cur) lines.push(cur.trim()); return lines; };
-  S.forEach((s,i)=>{ if(notes[s.canonical]) { const px = s.frequency>0.6?'end':(s.frequency<0.4?'start':'center');
-    ann['o'+i]={type:'label', xValue:s.frequency, yValue:s.criticality,
-      content:[s.label, ...wrap(notes[s.canonical], mobile?22:70)], backgroundColor:'#fff', borderColor:C[s.cluster], borderWidth:1, borderRadius:6,
-      padding:6, font:{size:11}, color:'#18324a', yAdjust:s.criticality>my?28:-28,
-      xAdjust:px==='end'?-8:(px==='start'?8:0), position:{x:px, y:'center'}}; } });
+  const pointLabels = {
+    id: 'pointLabels',
+    afterDatasetsDraw(chart) {
+      const {ctx, chartArea} = chart;
+      const pts = [];
+      chart.data.datasets.forEach((ds, di) => {
+        const meta = chart.getDatasetMeta(di);
+        ds.data.forEach((d, i) => {
+          if (outlierCanon.has(d.s.canonical)) {
+            const el = meta.data[i];
+            if (el) pts.push({x: el.x, y: el.y, label: d.s.label});
+          }
+        });
+      });
+      pts.sort((a,b)=>a.y-b.y);
+      for (let i=1;i<pts.length;i++) {
+        if (pts[i].y - pts[i-1].y < 14) pts[i].y = pts[i-1].y + 14;
+      }
+      ctx.save();
+      ctx.font = '11px ' + getComputedStyle(document.body).fontFamily;
+      ctx.textBaseline = 'middle';
+      const rightEdge = chartArea.left + (chartArea.right - chartArea.left) * 0.7;
+      pts.forEach(p => {
+        let rightSide = p.x > rightEdge;
+        const textW = ctx.measureText(p.label).width;
+        if (!rightSide && p.x + 10 + textW > chart.width - 4) rightSide = true;
+        ctx.textAlign = rightSide ? 'right' : 'left';
+        const tx = rightSide ? p.x - 10 : p.x + 10;
+        ctx.lineWidth = 3; ctx.strokeStyle = '#fff'; ctx.strokeText(p.label, tx, p.y);
+        ctx.fillStyle = '#18324a'; ctx.fillText(p.label, tx, p.y);
+      });
+      ctx.restore();
+    }
+  };
   new Chart(document.getElementById('scatter'), {type:'scatter',
     data:{datasets:D.clusters.map(c=>({label:c.label, data:S.filter(s=>s.cluster===c.key).map(s=>({x:s.frequency,y:s.criticality,s})),
-      backgroundColor:S.filter(s=>s.cluster===c.key).map(s=>C[c.key]+(s.low_n?'66':'cc')), pointRadius:mobile?5:7, pointHoverRadius:9}))},
+      backgroundColor:S.filter(s=>s.cluster===c.key).map(s=>C[c.key]+'cc'), pointRadius:mobile?5:7, pointHoverRadius:9}))},
+    plugins:[pointLabels],
     options:{responsive:true, maintainAspectRatio:false,
       plugins:{legend:{position:'bottom'}, annotation:{annotations:ann},
         tooltip:{callbacks:{title:c=>c[0].raw.s.label, label:c=>{const s=c.raw.s;return [`frequency ${pct(s.frequency)} (n=${s.n})`,`criticality ${pct(s.criticality)}`,`e.g. "${s.evidence}"`];}}}},

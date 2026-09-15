@@ -55,7 +55,14 @@ section:last-of-type{border-bottom:0}
 #bars-box{height:calc(30*22px + 40px)}
 #scatter-box{min-height:70vh;height:70vh}
 @media (max-width:700px){#scatter-box{height:80vh}}
-.quadrant-key{display:grid;grid-template-columns:1fr 1fr;gap:var(--s2);font-size:.85rem;color:var(--muted);margin-top:var(--s3)}
+.muted{color:var(--muted)}
+.quadrants{display:grid;grid-template-columns:1fr 1fr;gap:var(--s4);margin-bottom:var(--s5)}
+@media (max-width:700px){.quadrants{grid-template-columns:1fr}}
+.quadrant-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:var(--s4) var(--s5)}
+.quadrant-card.primary{background:var(--violet-100);border-color:var(--violet)}
+.quadrant-title{display:block;font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--violet);font-weight:500;margin-bottom:4px}
+.quadrant-desc{color:var(--muted);font-size:.85rem;margin:0 0 var(--s3)}
+.outlier-note{color:var(--muted);font-size:.85rem;margin-top:var(--s4)}
 /* clusters */
 .cluster{border-left:4px solid var(--c)}
 .cluster .pct{font-size:2rem;font-weight:500;color:var(--c)}
@@ -250,14 +257,45 @@ footer span{margin:0}
 
 <section id="frequency-vs-criticality">
   <h2>3 · Frequency vs criticality</h2>
-  <p class="sub"><b>Frequency</b> (x): how often a skill appears. <b>Criticality</b> (y): the share of its mentions tagged as a responsibility ("what you will do") rather than a requirement — i.e. how often the skill <em>is the job</em>. Faded points have fewer than 5 mentions.</p>
-  <div class="chart-box" id="scatter-box"><canvas id="scatter"></canvas></div>
-  <div class="quadrant-key">
-    <span><b>Top-left — Hidden core:</b> rarely listed, but when listed it is the work.</span>
-    <span><b>Top-right — The job:</b> common and central. Learn these first.</span>
-    <span><b>Bottom-left — Peripheral:</b> occasional nice-to-haves.</span>
-    <span><b>Bottom-right — Table stakes:</b> everyone asks; nobody hires for it alone.</span>
+  <p class="sub"><b>Frequency</b> (x): how often a skill appears. <b>Criticality</b> (y): the share of its mentions tagged as a responsibility ("what you will do") rather than a requirement — i.e. how often the skill <em>is the job</em>. Skills with fewer than 5 mentions are omitted from the chart.</p>
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="quadrants">
+  
+    <div class="quadrant-card">
+      <span class="quadrant-title">Hidden core</span>
+      <p class="quadrant-desc">rarely listed, but when listed it is the work.</p>
+      <div><span class="chip" style="border-color:#71869a">Product sense <span class="mono muted">19%</span></span><span class="chip" style="border-color:#a85f00">Technical support &amp; escalation <span class="mono muted">17%</span></span><span class="chip" style="border-color:#2563eb">Incident response &amp; on-call <span class="mono muted">16%</span></span><span class="chip" style="border-color:#2563eb">On-prem / air-gapped deployment <span class="mono muted">16%</span></span><span class="chip" style="border-color:#137a6c">Guardrails &amp; safety <span class="mono muted">15%</span></span><span class="chip" style="border-color:#3f00ff">Testing <span class="mono muted">15%</span></span><span class="chip" style="border-color:#137a6c">Prompt engineering <span class="mono muted">14%</span></span><span class="chip" style="border-color:#3f00ff">Git &amp; code review <span class="mono muted">11%</span></span><span class="chip" style="border-color:#18324a">Data modelling &amp; schemas <span class="mono muted">9%</span></span><span class="chip" style="border-color:#18324a">Data quality &amp; cleaning <span class="mono muted">8%</span></span><span class="chip" style="border-color:#137a6c">LLM observability &amp; tracing <span class="mono muted">7%</span></span><span class="chip" style="border-color:#137a6c">Speech / voice <span class="mono muted">5%</span></span><span class="chip" style="border-color:#18324a">Unstructured data processing <span class="mono muted">4%</span></span><span class="chip" style="border-color:#137a6c">Computer vision <span class="mono muted">3%</span></span></div>
+    </div>
+  
+    <div class="quadrant-card primary">
+      <span class="quadrant-title">The job</span>
+      <p class="quadrant-desc">common and central. Learn these first.</p>
+      <div><span class="chip" style="border-color:#a85f00">Customer-facing engineering <span class="mono muted">78%</span></span><span class="chip" style="border-color:#71869a">Cross-functional collaboration <span class="mono muted">61%</span></span><span class="chip" style="border-color:#3f00ff">System design <span class="mono muted">59%</span></span><span class="chip" style="border-color:#a85f00">Implementation &amp; onboarding <span class="mono muted">58%</span></span><span class="chip" style="border-color:#71869a">Feeding insight back to product <span class="mono muted">57%</span></span><span class="chip" style="border-color:#a85f00">Scoping &amp; discovery <span class="mono muted">56%</span></span><span class="chip" style="border-color:#a85f00">Stakeholder communication <span class="mono muted">52%</span></span><span class="chip" style="border-color:#137a6c">Agents &amp; tool use <span class="mono muted">48%</span></span><span class="chip" style="border-color:#a85f00">Travel &amp; on-site work <span class="mono muted">43%</span></span><span class="chip" style="border-color:#a85f00">Rapid prototyping &amp; POCs <span class="mono muted">41%</span></span><span class="chip" style="border-color:#2563eb">Performance &amp; cost optimisation <span class="mono muted">40%</span></span><span class="chip" style="border-color:#3f00ff">Debugging &amp; troubleshooting <span class="mono muted">39%</span></span><span class="chip" style="border-color:#71869a">Written communication <span class="mono muted">38%</span></span><span class="chip" style="border-color:#18324a">REST / API integration <span class="mono muted">38%</span></span><span class="chip" style="border-color:#2563eb">Security &amp; compliance <span class="mono muted">36%</span></span><span class="chip" style="border-color:#a85f00">Domain / industry expertise <span class="mono muted">35%</span></span><span class="chip" style="border-color:#137a6c">Evals &amp; quality measurement <span class="mono muted">33%</span></span><span class="chip" style="border-color:#a85f00">Consulting &amp; advisory <span class="mono muted">31%</span></span><span class="chip" style="border-color:#a85f00">Training &amp; enablement <span class="mono muted">30%</span></span><span class="chip" style="border-color:#71869a">Business acumen &amp; ROI <span class="mono muted">27%</span></span><span class="chip" style="border-color:#a85f00">Pre-sales &amp; solutions engineering <span class="mono muted">25%</span></span><span class="chip" style="border-color:#2563eb">Observability &amp; monitoring <span class="mono muted">24%</span></span><span class="chip" style="border-color:#71869a">Success metrics &amp; measurement <span class="mono muted">24%</span></span><span class="chip" style="border-color:#a85f00">Project &amp; engagement management <span class="mono muted">24%</span></span><span class="chip" style="border-color:#71869a">Mentoring &amp; technical leadership <span class="mono muted">23%</span></span><span class="chip" style="border-color:#71869a">Prioritisation &amp; tradeoffs <span class="mono muted">21%</span></span></div>
+    </div>
+  
+    <div class="quadrant-card">
+      <span class="quadrant-title">Peripheral</span>
+      <p class="quadrant-desc">occasional nice-to-haves.</p>
+      <div><span class="chip" style="border-color:#2563eb">Azure <span class="mono muted">20%</span></span><span class="chip" style="border-color:#2563eb">Kubernetes <span class="mono muted">18%</span></span><span class="chip" style="border-color:#137a6c">RAG &amp; retrieval <span class="mono muted">17%</span></span><span class="chip" style="border-color:#2563eb">Networking <span class="mono muted">16%</span></span><span class="chip" style="border-color:#2563eb">CI/CD <span class="mono muted">15%</span></span><span class="chip" style="border-color:#18324a">Enterprise systems (ERP/CRM) <span class="mono muted">15%</span></span><span class="chip" style="border-color:#3f00ff">Java / JVM <span class="mono muted">14%</span></span><span class="chip" style="border-color:#18324a">Analytics &amp; dashboards <span class="mono muted">13%</span></span><span class="chip" style="border-color:#18324a">Auth &amp; identity <span class="mono muted">12%</span></span><span class="chip" style="border-color:#2563eb">Docker &amp; containers <span class="mono muted">12%</span></span><span class="chip" style="border-color:#3f00ff">Linux &amp; shell <span class="mono muted">12%</span></span><span class="chip" style="border-color:#3f00ff">Go <span class="mono muted">12%</span></span><span class="chip" style="border-color:#137a6c">LLM frameworks <span class="mono muted">10%</span></span><span class="chip" style="border-color:#137a6c">Fine-tuning <span class="mono muted">10%</span></span><span class="chip" style="border-color:#2563eb">Infrastructure as code <span class="mono muted">9%</span></span><span class="chip" style="border-color:#3f00ff">C / C++ <span class="mono muted">8%</span></span><span class="chip" style="border-color:#18324a">NoSQL stores <span class="mono muted">6%</span></span><span class="chip" style="border-color:#137a6c">Vector databases <span class="mono muted">6%</span></span><span class="chip" style="border-color:#3f00ff">Rust <span class="mono muted">5%</span></span><span class="chip" style="border-color:#18324a">Data warehouses &amp; lakehouses <span class="mono muted">5%</span></span><span class="chip" style="border-color:#2563eb">GPU infrastructure <span class="mono muted">5%</span></span><span class="chip" style="border-color:#18324a">Streaming &amp; messaging <span class="mono muted">4%</span></span><span class="chip" style="border-color:#3f00ff">Algorithms &amp; data structures <span class="mono muted">4%</span></span><span class="chip" style="border-color:#137a6c">NLP <span class="mono muted">3%</span></span><span class="chip" style="border-color:#2563eb">Serverless &amp; managed services <span class="mono muted">3%</span></span></div>
+    </div>
+  
+    <div class="quadrant-card">
+      <span class="quadrant-title">Table stakes</span>
+      <p class="quadrant-desc">everyone asks; nobody hires for it alone.</p>
+      <div><span class="chip" style="border-color:#71869a">Ownership &amp; autonomy <span class="mono muted">58%</span></span><span class="chip" style="border-color:#137a6c">LLM APIs <span class="mono muted">55%</span></span><span class="chip" style="border-color:#3f00ff">Python <span class="mono muted">55%</span></span><span class="chip" style="border-color:#71869a">Verbal communication &amp; presenting <span class="mono muted">49%</span></span><span class="chip" style="border-color:#a85f00">Expectation &amp; risk management <span class="mono muted">43%</span></span><span class="chip" style="border-color:#71869a">Learning agility <span class="mono muted">35%</span></span><span class="chip" style="border-color:#3f00ff">TypeScript / JavaScript <span class="mono muted">35%</span></span><span class="chip" style="border-color:#137a6c">ML fundamentals <span class="mono muted">28%</span></span><span class="chip" style="border-color:#2563eb">AWS <span class="mono muted">26%</span></span><span class="chip" style="border-color:#137a6c">Cloud platforms (generic) <span class="mono muted">22%</span></span><span class="chip" style="border-color:#18324a">Data pipelines &amp; ETL <span class="mono muted">22%</span></span><span class="chip" style="border-color:#2563eb">Google Cloud <span class="mono muted">20%</span></span><span class="chip" style="border-color:#3f00ff">React / frontend <span class="mono muted">20%</span></span><span class="chip" style="border-color:#18324a">SQL &amp; relational DBs <span class="mono muted">20%</span></span><span class="chip" style="border-color:#137a6c">Model serving &amp; inference <span class="mono muted">20%</span></span></div>
+    </div>
+  
   </div>
+  <div class="chart-box" id="scatter-box"><canvas id="scatter"></canvas></div>
+  
+  <p class="outlier-note"><b>Everyone asks; rarely the job itself:</b> Python · Verbal communication &amp; presenting · TypeScript / JavaScript<br><b>Rarely listed; when it is, it&#39;s the job:</b> Technical support &amp; escalation · Unstructured data processing · Testing</p>
 </section>
 
 <section id="capability-clusters">
@@ -491,25 +529,55 @@ footer span{margin:0}
           scale.width = Math.min(scale.chart.width*0.7, Math.max(scale.width, longest+14)); }}}}});
 
   // 3. scatter
-  const S = D.skills, mx = D.scatter.median_frequency, my = D.scatter.median_criticality;
-  const notes = Object.fromEntries(D.scatter.outliers.map(o=>[o.canonical,o.note]));
+  const S = D.skills.filter(s=>!s.low_n), mx = D.scatter.median_frequency, my = D.scatter.median_criticality;
+  const outlierCanon = new Set(D.scatter.outliers.map(o=>o.canonical));
+  const pill = {backgroundColor:'#fff', borderColor:'#dbe7ee', borderWidth:1, borderRadius:999, padding:{x:8,y:3}, font:{size:11}, color:'#71869a'};
   const ann = {
     vx:{type:'line', xMin:mx, xMax:mx, borderColor:'#b9cbd7', borderDash:[4,4]},
     hy:{type:'line', yMin:my, yMax:my, borderColor:'#b9cbd7', borderDash:[4,4]},
-    q1:{type:'label', xValue:0.02, yValue:0.98, position:{x:'start',y:'start'}, content:['Hidden core'], color:'#71869a', font:{size:12}},
-    q2:{type:'label', xValue:0.98, yValue:0.98, position:{x:'end',y:'start'}, content:['The job'], color:'#71869a', font:{size:12}},
-    q3:{type:'label', xValue:0.02, yValue:0.02, position:{x:'start',y:'end'}, content:['Peripheral'], color:'#71869a', font:{size:12}},
-    q4:{type:'label', xValue:0.98, yValue:0.02, position:{x:'end',y:'end'}, content:['Table stakes'], color:'#71869a', font:{size:12}},
+    q1:{type:'label', xValue:0.02, yValue:0.98, position:{x:'start',y:'start'}, content:['Hidden core'], ...pill},
+    q2:{type:'label', xValue:0.98, yValue:0.98, position:{x:'end',y:'start'}, content:['The job'], ...pill},
+    q3:{type:'label', xValue:0.02, yValue:0.02, position:{x:'start',y:'end'}, content:['Peripheral'], ...pill},
+    q4:{type:'label', xValue:0.98, yValue:0.02, position:{x:'end',y:'end'}, content:['Table stakes'], ...pill},
   };
-  const wrap = (t,n) => { if (t.length<=n) return [t]; const words=t.split(' '); const lines=[]; let cur=''; words.forEach(w=>{ if((cur+' '+w).trim().length>n){ if(cur) lines.push(cur.trim()); cur=w; } else { cur=(cur+' '+w).trim(); } }); if(cur) lines.push(cur.trim()); return lines; };
-  S.forEach((s,i)=>{ if(notes[s.canonical]) { const px = s.frequency>0.6?'end':(s.frequency<0.4?'start':'center');
-    ann['o'+i]={type:'label', xValue:s.frequency, yValue:s.criticality,
-      content:[s.label, ...wrap(notes[s.canonical], mobile?22:70)], backgroundColor:'#fff', borderColor:C[s.cluster], borderWidth:1, borderRadius:6,
-      padding:6, font:{size:11}, color:'#18324a', yAdjust:s.criticality>my?28:-28,
-      xAdjust:px==='end'?-8:(px==='start'?8:0), position:{x:px, y:'center'}}; } });
+  const pointLabels = {
+    id: 'pointLabels',
+    afterDatasetsDraw(chart) {
+      const {ctx, chartArea} = chart;
+      const pts = [];
+      chart.data.datasets.forEach((ds, di) => {
+        const meta = chart.getDatasetMeta(di);
+        ds.data.forEach((d, i) => {
+          if (outlierCanon.has(d.s.canonical)) {
+            const el = meta.data[i];
+            if (el) pts.push({x: el.x, y: el.y, label: d.s.label});
+          }
+        });
+      });
+      pts.sort((a,b)=>a.y-b.y);
+      for (let i=1;i<pts.length;i++) {
+        if (pts[i].y - pts[i-1].y < 14) pts[i].y = pts[i-1].y + 14;
+      }
+      ctx.save();
+      ctx.font = '11px ' + getComputedStyle(document.body).fontFamily;
+      ctx.textBaseline = 'middle';
+      const rightEdge = chartArea.left + (chartArea.right - chartArea.left) * 0.7;
+      pts.forEach(p => {
+        let rightSide = p.x > rightEdge;
+        const textW = ctx.measureText(p.label).width;
+        if (!rightSide && p.x + 10 + textW > chart.width - 4) rightSide = true;
+        ctx.textAlign = rightSide ? 'right' : 'left';
+        const tx = rightSide ? p.x - 10 : p.x + 10;
+        ctx.lineWidth = 3; ctx.strokeStyle = '#fff'; ctx.strokeText(p.label, tx, p.y);
+        ctx.fillStyle = '#18324a'; ctx.fillText(p.label, tx, p.y);
+      });
+      ctx.restore();
+    }
+  };
   new Chart(document.getElementById('scatter'), {type:'scatter',
     data:{datasets:D.clusters.map(c=>({label:c.label, data:S.filter(s=>s.cluster===c.key).map(s=>({x:s.frequency,y:s.criticality,s})),
-      backgroundColor:S.filter(s=>s.cluster===c.key).map(s=>C[c.key]+(s.low_n?'66':'cc')), pointRadius:mobile?5:7, pointHoverRadius:9}))},
+      backgroundColor:S.filter(s=>s.cluster===c.key).map(s=>C[c.key]+'cc'), pointRadius:mobile?5:7, pointHoverRadius:9}))},
+    plugins:[pointLabels],
     options:{responsive:true, maintainAspectRatio:false,
       plugins:{legend:{position:'bottom'}, annotation:{annotations:ann},
         tooltip:{callbacks:{title:c=>c[0].raw.s.label, label:c=>{const s=c.raw.s;return [`frequency ${pct(s.frequency)} (n=${s.n})`,`criticality ${pct(s.criticality)}`,`e.g. "${s.evidence}"`];}}}},

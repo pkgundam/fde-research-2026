@@ -30,6 +30,14 @@ def test_render_from_fixture_states_hn_window_in_methodology():
     assert "Hacker News entries come from" in html
 
 
+def test_render_from_fixture_has_quadrant_panel_and_outlier_caption():
+    data = json.loads(FIX.read_text())
+    html = r.render_html(data, r.load_content())
+    for title in ["Hidden core", "The job", "Peripheral", "Table stakes"]:
+        assert f'<span class="quadrant-title">{title}</span>' in html
+    assert '<p class="outlier-note">' in html
+
+
 def test_render_from_fixture_has_lifecycle_ring():
     data = json.loads(FIX.read_text())
     html = r.render_html(data, r.load_content())
