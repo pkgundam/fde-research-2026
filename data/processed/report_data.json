@@ -6,7 +6,7 @@
       "2022-06-30",
       "2026-09-14"
     ],
-    "generated_at": "2026-09-15T01:15:49.459888+00:00",
+    "generated_at": "2026-09-15T01:27:38.694172+00:00",
     "model": "claude-sonnet-5",
     "collected_on": "2026-09-15",
     "recent_share": 0.911,
@@ -572,21 +572,6 @@
       "evidence": "reviewing code, and raising the bar on how we ship"
     },
     {
-      "canonical": "data_pipelines",
-      "label": "Data pipelines & ETL",
-      "cluster": "data_and_integrations",
-      "n": 68,
-      "frequency": 0.2244,
-      "criticality": 0.4062,
-      "mentions": {
-        "responsibility": 39,
-        "requirement": 38,
-        "nice_to_have": 19
-      },
-      "low_n": false,
-      "evidence": "Real-Time & Batch Systems"
-    },
-    {
       "canonical": "cloud_platforms",
       "label": "Cloud platforms (generic)",
       "cluster": "ai_application_engineering",
@@ -600,6 +585,21 @@
       },
       "low_n": false,
       "evidence": "distributed systems, cloud infra, deterministic execution"
+    },
+    {
+      "canonical": "data_pipelines",
+      "label": "Data pipelines & ETL",
+      "cluster": "data_and_integrations",
+      "n": 68,
+      "frequency": 0.2244,
+      "criticality": 0.4062,
+      "mentions": {
+        "responsibility": 39,
+        "requirement": 38,
+        "nice_to_have": 19
+      },
+      "low_n": false,
+      "evidence": "Real-Time & Batch Systems"
     },
     {
       "canonical": "prioritization",
@@ -812,21 +812,6 @@
       "evidence": "release strategies, CI/CD pipelines, security architecture"
     },
     {
-      "canonical": "guardrails_safety",
-      "label": "Guardrails & safety",
-      "cluster": "ai_application_engineering",
-      "n": 44,
-      "frequency": 0.1452,
-      "criticality": 0.6271,
-      "mentions": {
-        "responsibility": 37,
-        "requirement": 14,
-        "nice_to_have": 8
-      },
-      "low_n": false,
-      "evidence": "structured outputs, validation logic, and fallback behavior"
-    },
-    {
       "canonical": "enterprise_systems",
       "label": "Enterprise systems (ERP/CRM)",
       "cluster": "data_and_integrations",
@@ -840,6 +825,21 @@
       },
       "low_n": false,
       "evidence": "legacy enterprise systems (Oracle, SAP-adjacent environments)"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "label": "Guardrails & safety",
+      "cluster": "ai_application_engineering",
+      "n": 44,
+      "frequency": 0.1452,
+      "criticality": 0.6271,
+      "mentions": {
+        "responsibility": 37,
+        "requirement": 14,
+        "nice_to_have": 8
+      },
+      "low_n": false,
+      "evidence": "structured outputs, validation logic, and fallback behavior"
     },
     {
       "canonical": "testing",
@@ -902,6 +902,21 @@
       "evidence": "fleet dashboards, real-time telemetry, digital twins, analytics"
     },
     {
+      "canonical": "auth_identity",
+      "label": "Auth & identity",
+      "cluster": "data_and_integrations",
+      "n": 36,
+      "frequency": 0.1188,
+      "criticality": 0.4118,
+      "mentions": {
+        "responsibility": 21,
+        "requirement": 19,
+        "nice_to_have": 11
+      },
+      "low_n": false,
+      "evidence": "architecture decisions (multi-tenant cloud, auth, data isolation)"
+    },
+    {
       "canonical": "docker",
       "label": "Docker & containers",
       "cluster": "deployment_and_operations",
@@ -930,21 +945,6 @@
       },
       "low_n": false,
       "evidence": "Tech: Go, MongoDB, Linux, GCP"
-    },
-    {
-      "canonical": "auth_identity",
-      "label": "Auth & identity",
-      "cluster": "data_and_integrations",
-      "n": 36,
-      "frequency": 0.1188,
-      "criticality": 0.4118,
-      "mentions": {
-        "responsibility": 21,
-        "requirement": 19,
-        "nice_to_have": 11
-      },
-      "low_n": false,
-      "evidence": "architecture decisions (multi-tenant cloud, auth, data isolation)"
     },
     {
       "canonical": "go",
@@ -1112,21 +1112,6 @@
       "evidence": "building MVS (Mixpeek Vector Store) — a distributed vector database"
     },
     {
-      "canonical": "speech",
-      "label": "Speech / voice",
-      "cluster": "ai_application_engineering",
-      "n": 16,
-      "frequency": 0.0528,
-      "criticality": 0.52,
-      "mentions": {
-        "responsibility": 13,
-        "requirement": 4,
-        "nice_to_have": 8
-      },
-      "low_n": false,
-      "evidence": "Build and deploy custom implementations: AI Voice Assistants"
-    },
-    {
       "canonical": "rust",
       "label": "Rust",
       "cluster": "software_foundations",
@@ -1140,6 +1125,21 @@
       },
       "low_n": false,
       "evidence": "full-stack integrations using Python, JavaScript, Rust"
+    },
+    {
+      "canonical": "speech",
+      "label": "Speech / voice",
+      "cluster": "ai_application_engineering",
+      "n": 16,
+      "frequency": 0.0528,
+      "criticality": 0.52,
+      "mentions": {
+        "responsibility": 13,
+        "requirement": 4,
+        "nice_to_have": 8
+      },
+      "low_n": false,
+      "evidence": "Build and deploy custom implementations: AI Voice Assistants"
     },
     {
       "canonical": "data_warehouses",

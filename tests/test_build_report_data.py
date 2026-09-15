@@ -75,3 +75,15 @@ def test_stack_name_override_and_auto_name():
     auto_skills = ["python", "llm_apis", "rag"]
     assert frozenset(auto_skills) not in b.STACK_NAME_OVERRIDES
     assert b._stack_name(auto_skills, tx) == " + ".join(tx.labels[c] for c in auto_skills[:3])
+
+
+def test_skills_order_is_deterministic_on_frequency_ties(six):
+    posts = [Posting(id=e.posting_id, title="FDE", company=f"C{i}", url="u", full_text="x", source="greenhouse",
+                     posted_date="2026-06-01") for i, e in enumerate(six)]
+    stats = [{"name": "greenhouse", "fetched": 6, "matched": 6, "kept": 6}]
+    d = b.build(six, posts, stats, n_rejects=0, tx=taxonomy.load(), generated_at="2026-09-14T00:00:00Z")
+    order = [(s["frequency"], s["canonical"]) for s in d["skills"]]
+    # frequency descending; ties broken by canonical ascending, so the order is independent of input order
+    assert order == sorted(order, key=lambda t: (-t[0], t[1]))
+    d2 = b.build(list(reversed(six)), list(reversed(posts)), stats, n_rejects=0, tx=taxonomy.load(), generated_at="2026-09-14T00:00:00Z")
+    assert [s["canonical"] for s in d2["skills"]] == [s["canonical"] for s in d["skills"]]

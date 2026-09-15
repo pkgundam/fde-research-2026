@@ -48,7 +48,7 @@ def build(exs: list[Extraction], postings: list[Posting], stats: list[dict], n_r
         skills.append({"canonical": c, "label": tx.labels[c], "cluster": tx.cluster_of(c), "n": f["n"],
                        "frequency": round(f["frequency"], 4), "criticality": round(crit[c]["criticality"], 4),
                        "mentions": crit[c]["mentions"], "low_n": crit[c]["low_n"], "evidence": crit[c]["evidence"]})
-    skills.sort(key=lambda s: -s["frequency"])
+    skills.sort(key=lambda s: (-s["frequency"], s["canonical"]))
     cov = frequency.cluster_coverage(exs, tx)
     clusters = [{"key": k, "label": tx.cluster_labels[k], "coverage": round(cov[k], 4),
                  "skills": [s.canonical for s in v if s.canonical in freq]} for k, v in tx.clusters.items()]
