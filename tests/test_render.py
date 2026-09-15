@@ -28,3 +28,11 @@ def test_render_from_fixture_states_hn_window_in_methodology():
     data = json.loads(FIX.read_text())
     html = r.render_html(data, r.load_content())
     assert "Hacker News entries come from" in html
+
+
+def test_render_from_fixture_has_lifecycle_ring():
+    data = json.loads(FIX.read_text())
+    html = r.render_html(data, r.load_content())
+    lifecycle = html.split('<div class="lifecycle">', 1)[1].split("</section>", 1)[0]
+    assert "<svg" in lifecycle
+    assert lifecycle.count('class="step-num"') == 8

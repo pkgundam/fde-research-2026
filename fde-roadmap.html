@@ -39,14 +39,17 @@ section:last-of-type{border-bottom:0}
 .chip.low{opacity:.5}
 .legend{display:flex;flex-wrap:wrap;gap:var(--s3);font-size:.85rem;color:var(--muted);margin:var(--s3) 0}
 .legend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;background:var(--c);vertical-align:-1px}
-/* flow */
-.flow{display:flex;flex-wrap:wrap;gap:var(--s3);list-style:none;padding:0;margin:0;counter-reset:step}
-.flow li{flex:1 1 160px;position:relative;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:var(--s4);counter-increment:step}
-.flow li b{display:block;font-weight:500}
-.flow li b::before{content:counter(step);display:inline-grid;place-items:center;width:24px;height:24px;border-radius:50%;background:var(--violet);color:#fff;font-size:.75rem;margin-right:8px}
-.flow li small{color:var(--muted);display:block;margin-top:var(--s1);line-height:1.4}
-.flow li:not(:last-child)::after{content:"→";position:absolute;right:-13px;top:14px;color:var(--line-strong)}
-@media (max-width:700px){.flow li:not(:last-child)::after{content:"↓";right:auto;left:16px;top:auto;bottom:-16px}.flow{gap:var(--s5)}}
+/* lifecycle */
+.lifecycle{display:grid;grid-template-columns:1fr;gap:var(--s6);align-items:center}
+.lifecycle svg{width:100%;max-width:480px;height:auto;font-family:inherit;display:block;margin-inline:auto}
+@media (min-width:900px){.lifecycle{grid-template-columns:minmax(300px,480px) 1fr}}
+.lifecycle-legend{list-style:none;padding:0;margin:0}
+.lifecycle-legend li{break-inside:avoid;margin-bottom:var(--s3)}
+.lifecycle-legend li:last-child{margin-bottom:0}
+.lifecycle-legend b{font-weight:500}
+.lifecycle-legend small{color:var(--muted);display:block;margin-top:var(--s1);line-height:1.4}
+@media (min-width:1100px){.lifecycle-legend{columns:2;column-gap:var(--s5)}}
+.step-num{display:inline-grid;place-items:center;width:24px;height:24px;border-radius:50%;background:var(--violet);color:#fff;font-size:.75rem;margin-right:8px}
 /* charts */
 .chart-box{position:relative;width:100%}
 #bars-box{height:calc(30*22px + 40px)}
@@ -112,7 +115,130 @@ footer span{margin:0}
 <section id="what-fde-does">
   <h2>1 · What an FDE does</h2>
   <p class="sub">The loop every posting describes, in one form or another.</p>
-  <ol class="flow"><li><b>Discover</b><small>Sit with the customer; find the workflow that actually hurts.</small></li><li><b>Scope</b><small>Turn the pain into a bounded, measurable first deliverable.</small></li><li><b>Prototype</b><small>Ship something rough in days, on their data.</small></li><li><b>Integrate</b><small>Wire it into the systems they already run.</small></li><li><b>Deploy</b><small>Get it into their environment, under their constraints.</small></li><li><b>Evaluate</b><small>Measure against the outcome you scoped, not vibes.</small></li><li><b>Improve</b><small>Close the gaps the eval exposed.</small></li><li><b>Feed back</b><small>Bring what the field taught you to the product team.</small></li></ol>
+  <div class="lifecycle">
+    
+    
+    
+    <svg viewBox="-100 0 720 520" role="img" aria-labelledby="lifecycle-title">
+      <title id="lifecycle-title">FDE lifecycle: eight steps in a loop</title>
+      <defs>
+        <marker id="lifecycle-arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+          <path d="M0,0 L10,5 L0,10 z" fill="var(--line-strong)"/>
+        </marker>
+        <marker id="lifecycle-arrow-violet" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+          <path d="M0,0 L10,5 L0,10 z" fill="var(--violet)"/>
+        </marker>
+      </defs>
+      <circle cx="260" cy="260" r="190" fill="none" stroke="var(--line)" stroke-width="1"/>
+      
+      
+      
+      <path d="M 276.57 70.72 A 190 190 0 0 1 382.13 114.46" fill="none" stroke="var(--line-strong)" stroke-width="2" marker-end="url(#lifecycle-arrow)"/>
+      
+      
+      
+      <path d="M 405.54 137.87 A 190 190 0 0 1 449.28 243.43" fill="none" stroke="var(--line-strong)" stroke-width="2" marker-end="url(#lifecycle-arrow)"/>
+      
+      
+      
+      <path d="M 449.28 276.57 A 190 190 0 0 1 405.54 382.13" fill="none" stroke="var(--line-strong)" stroke-width="2" marker-end="url(#lifecycle-arrow)"/>
+      
+      
+      
+      <path d="M 382.13 405.54 A 190 190 0 0 1 276.57 449.28" fill="none" stroke="var(--line-strong)" stroke-width="2" marker-end="url(#lifecycle-arrow)"/>
+      
+      
+      
+      <path d="M 243.43 449.28 A 190 190 0 0 1 137.87 405.54" fill="none" stroke="var(--line-strong)" stroke-width="2" marker-end="url(#lifecycle-arrow)"/>
+      
+      
+      
+      <path d="M 114.46 382.13 A 190 190 0 0 1 70.72 276.57" fill="none" stroke="var(--line-strong)" stroke-width="2" marker-end="url(#lifecycle-arrow)"/>
+      
+      
+      
+      <path d="M 70.72 243.43 A 190 190 0 0 1 114.46 137.87" fill="none" stroke="var(--line-strong)" stroke-width="2" marker-end="url(#lifecycle-arrow)"/>
+      
+      
+      
+      <path d="M 137.87 114.46 A 190 190 0 0 1 243.43 70.72" fill="none" stroke="var(--violet)" stroke-width="2.5" marker-end="url(#lifecycle-arrow-violet)"/>
+      
+      
+      
+      
+      
+      
+      
+      <circle cx="260" cy="70" r="16" fill="var(--violet)"/>
+      <text x="260" y="70" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="13" font-weight="500">1</text>
+      <text x="260" y="28" dy="-6" text-anchor="middle" font-size="15" fill="var(--text)">Discover</text>
+      
+      
+      
+      
+      
+      
+      <circle cx="394.35" cy="125.65" r="16" fill="var(--violet)"/>
+      <text x="394.35" y="125.65" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="13" font-weight="500">2</text>
+      <text x="424.05" y="95.95" dy="5" text-anchor="start" font-size="15" fill="var(--text)">Scope</text>
+      
+      
+      
+      
+      
+      
+      <circle cx="450" cy="260" r="16" fill="var(--violet)"/>
+      <text x="450" y="260" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="13" font-weight="500">3</text>
+      <text x="492" y="260" dy="5" text-anchor="start" font-size="15" fill="var(--text)">Prototype</text>
+      
+      
+      
+      
+      
+      
+      <circle cx="394.35" cy="394.35" r="16" fill="var(--violet)"/>
+      <text x="394.35" y="394.35" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="13" font-weight="500">4</text>
+      <text x="424.05" y="424.05" dy="5" text-anchor="start" font-size="15" fill="var(--text)">Integrate</text>
+      
+      
+      
+      
+      
+      
+      <circle cx="260" cy="450" r="16" fill="var(--violet)"/>
+      <text x="260" y="450" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="13" font-weight="500">5</text>
+      <text x="260" y="492" dy="14" text-anchor="middle" font-size="15" fill="var(--text)">Deploy</text>
+      
+      
+      
+      
+      
+      
+      <circle cx="125.65" cy="394.35" r="16" fill="var(--violet)"/>
+      <text x="125.65" y="394.35" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="13" font-weight="500">6</text>
+      <text x="95.95" y="424.05" dy="5" text-anchor="end" font-size="15" fill="var(--text)">Evaluate</text>
+      
+      
+      
+      
+      
+      
+      <circle cx="70" cy="260" r="16" fill="var(--violet)"/>
+      <text x="70" y="260" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="13" font-weight="500">7</text>
+      <text x="28" y="260" dy="5" text-anchor="end" font-size="15" fill="var(--text)">Improve</text>
+      
+      
+      
+      
+      
+      
+      <circle cx="125.65" cy="125.65" r="16" fill="var(--violet)"/>
+      <text x="125.65" y="125.65" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="13" font-weight="500">8</text>
+      <text x="95.95" y="95.95" dy="5" text-anchor="end" font-size="15" fill="var(--text)">Feed back</text>
+      
+    </svg>
+    <ol class="lifecycle-legend"><li><span class="step-num">1</span><b>Discover</b><small>Sit with the customer; find the workflow that actually hurts.</small></li><li><span class="step-num">2</span><b>Scope</b><small>Turn the pain into a bounded, measurable first deliverable.</small></li><li><span class="step-num">3</span><b>Prototype</b><small>Ship something rough in days, on their data.</small></li><li><span class="step-num">4</span><b>Integrate</b><small>Wire it into the systems they already run.</small></li><li><span class="step-num">5</span><b>Deploy</b><small>Get it into their environment, under their constraints.</small></li><li><span class="step-num">6</span><b>Evaluate</b><small>Measure against the outcome you scoped, not vibes.</small></li><li><span class="step-num">7</span><b>Improve</b><small>Close the gaps the eval exposed.</small></li><li><span class="step-num">8</span><b>Feed back</b><small>Bring what the field taught you to the product team.</small></li></ol>
+  </div>
 </section>
 
 <section id="top-technologies">
