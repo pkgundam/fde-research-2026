@@ -15,6 +15,7 @@ def test_build_matches_fixture_shape(six):
     assert set(d) == set(FIX_KEYS)
     assert d["meta"]["n_postings"] == 6 and d["meta"]["n_companies"] == 6 and d["meta"]["date_range"] == ["2026-03-01", "2026-08-01"]
     assert d["meta"]["segmentation"] == {"header": 5, "inferred": 1} and d["meta"]["rejects"] == 2 and d["meta"]["adzuna_used"] is False
+    assert d["meta"]["collected_on"] == "2026-09-14" and d["meta"]["recent_share"] == 1.0
     py = next(s for s in d["skills"] if s["canonical"] == "python")
     assert set(py) == set(FIX_KEYS["skills"][0]) and py["label"] == "Python" and py["cluster"] == "software_foundations"
     assert [c["key"] for c in d["clusters"]] == [c["key"] for c in FIX_KEYS["clusters"]]

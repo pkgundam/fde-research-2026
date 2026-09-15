@@ -46,14 +46,30 @@ def build(exs: list[Extraction], postings: list[Posting], stats: list[dict], n_r
     fy = [s["criticality"] for s in skills if not s["low_n"]] or [0]
     mx, my = statistics.median(fx), statistics.median(fy)
     pairs = cooccurrence.pair_lift(exs)
+    sets = [frozenset(s.canonical for s in e.skills) for e in exs]
     stacks = [{"name": _stack_name(s["skills"], tx), "skills": s["skills"], "support": s["support"]}
-              for s in cooccurrence.cluster_stacks(pairs)]
+              for s in cooccurrence.cluster_stacks(pairs, postings=sets)]
     mkt = market.distributions(exs)
     mkt["segment_deltas"] = market.segment_deltas(exs, postings)
     dates = sorted(p.posted_date for p in postings if p.posted_date)
+    collected_on = generated_at[:10]
+    coll_date = datetime.strptime(collected_on, "%Y-%m-%d").date()
+    n_post = len(postings)
+    recent = 0
+    for p in postings:
+        if not p.posted_date:
+            continue
+        try:
+            pd = datetime.strptime(p.posted_date, "%Y-%m-%d").date()
+        except ValueError:
+            continue
+        if abs((coll_date - pd).days) <= 365:
+            recent += 1
+    recent_share = round(recent / n_post, 3) if n_post else 0.0
     return {
         "meta": {"n_postings": len(exs), "n_companies": len({normalize_company(p.company) for p in postings}),
                  "date_range": [dates[0], dates[-1]] if dates else ["", ""], "generated_at": generated_at, "model": META_MODEL,
+                 "collected_on": collected_on, "recent_share": recent_share,
                  "sources": stats, "segmentation": {"header": sum(e.segmentation_quality == "header" for e in exs),
                                                      "inferred": sum(e.segmentation_quality == "inferred" for e in exs)},
                  "rejects": n_rejects, "adzuna_used": False},

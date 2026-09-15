@@ -6,8 +6,10 @@
       "2022-06-30",
       "2026-09-14"
     ],
-    "generated_at": "2026-09-14T23:55:22.476870+00:00",
+    "generated_at": "2026-09-15T00:00:30.087820+00:00",
     "model": "claude-sonnet-5",
+    "collected_on": "2026-09-15",
+    "recent_share": 0.911,
     "sources": [
       {
         "name": "greenhouse",
@@ -1000,21 +1002,6 @@
       "evidence": "low-level C++/ROS2 on the vehicle"
     },
     {
-      "canonical": "data_modeling",
-      "label": "Data modelling & schemas",
-      "cluster": "data_and_integrations",
-      "n": 26,
-      "frequency": 0.0852,
-      "criticality": 0.4667,
-      "mentions": {
-        "responsibility": 14,
-        "requirement": 12,
-        "nice_to_have": 4
-      },
-      "low_n": false,
-      "evidence": "API endpoint design and input/output schemas"
-    },
-    {
       "canonical": "iac",
       "label": "Infrastructure as code",
       "cluster": "deployment_and_operations",
@@ -1028,6 +1015,21 @@
       },
       "low_n": false,
       "evidence": "IaC standards, release strategies, CI/CD pipelines"
+    },
+    {
+      "canonical": "data_modeling",
+      "label": "Data modelling & schemas",
+      "cluster": "data_and_integrations",
+      "n": 26,
+      "frequency": 0.0852,
+      "criticality": 0.4667,
+      "mentions": {
+        "responsibility": 14,
+        "requirement": 12,
+        "nice_to_have": 4
+      },
+      "low_n": false,
+      "evidence": "API endpoint design and input/output schemas"
     },
     {
       "canonical": "llm_frameworks",
@@ -1427,100 +1429,54 @@
   },
   "stacks": [
     {
-      "name": "RAG & retrieval + Evals & quality measurement + LLM frameworks",
+      "name": "Rapid prototyping & POCs + REST / API integration + Training & enablement",
       "skills": [
-        "rag",
-        "evals",
-        "llm_frameworks",
-        "prompt_engineering",
-        "consulting",
-        "enterprise_systems",
-        "metrics_measurement",
-        "llm_observability",
-        "rest_apis",
-        "business_acumen",
-        "model_serving",
-        "guardrails_safety",
-        "expectation_management",
-        "scoping",
-        "llm_apis",
-        "fine_tuning",
-        "cost_performance",
         "prototyping",
-        "mentoring_leadership",
-        "agents",
-        "vector_databases",
-        "pre_sales",
-        "ml_fundamentals",
-        "product_feedback_loop",
-        "data_quality",
+        "rest_apis",
         "training_enablement",
-        "implementation_onboarding",
-        "system_design",
-        "speech"
+        "consulting",
+        "business_acumen",
+        "pre_sales",
+        "enterprise_systems"
       ],
-      "support": 128
+      "support": 111
     },
     {
-      "name": "Linux & shell + Go + C / C++",
+      "name": "Python + Learning agility + TypeScript / JavaScript",
       "skills": [
-        "shell",
-        "go",
-        "cpp",
-        "analytics",
-        "java",
-        "technical_support",
-        "networking",
-        "written_communication",
-        "cross_functional",
-        "cloud_platforms",
-        "incident_response",
-        "testing",
-        "debugging",
-        "data_pipelines",
-        "on_prem_airgapped",
-        "travel_onsite",
-        "observability",
         "python",
-        "project_management",
-        "rust",
         "learning_agility",
-        "stakeholder_communication",
-        "customer_facing"
-      ],
-      "support": 119
-    },
-    {
-      "name": "SQL & relational DBs + NoSQL stores + React / frontend",
-      "skills": [
-        "sql",
-        "nosql",
-        "react",
         "typescript",
-        "ownership_autonomy",
+        "react",
+        "sql",
         "product_sense",
         "data_modeling"
       ],
-      "support": 67
+      "support": 107
     },
     {
-      "name": "Kubernetes + Azure + Google Cloud",
+      "name": "Performance & cost optimisation + Debugging & troubleshooting + Security & compliance",
       "skills": [
-        "kubernetes",
-        "azure",
+        "cost_performance",
+        "debugging",
+        "security_compliance",
+        "observability",
+        "on_prem_airgapped"
+      ],
+      "support": 77
+    },
+    {
+      "name": "AWS + Google Cloud + Azure",
+      "skills": [
+        "aws",
         "gcp",
+        "azure",
+        "kubernetes",
         "ci_cd",
         "docker",
-        "iac",
-        "aws",
-        "security_compliance",
-        "git",
-        "auth_identity",
-        "prioritization",
-        "verbal_communication",
-        "domain_expertise"
+        "iac"
       ],
-      "support": 57
+      "support": 65
     }
   ],
   "market": {
@@ -1725,12 +1681,12 @@
         "enterprise": 0.362
       },
       {
-        "skill": "azure",
+        "skill": "gcp",
         "startup": 0.087,
         "enterprise": 0.328
       },
       {
-        "skill": "gcp",
+        "skill": "azure",
         "startup": 0.087,
         "enterprise": 0.328
       },
@@ -1740,12 +1696,12 @@
         "enterprise": 0.552
       },
       {
-        "skill": "project_management",
+        "skill": "business_acumen",
         "startup": 0.109,
         "enterprise": 0.345
       },
       {
-        "skill": "business_acumen",
+        "skill": "project_management",
         "startup": 0.109,
         "enterprise": 0.345
       },
