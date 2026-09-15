@@ -22,3 +22,34 @@ def skill_criticality(exs: list[Extraction], low_n: int = 5) -> dict[str, dict]:
         out[c] = {"criticality": m["responsibility"] / total if total else 0.0, "mentions": dict(m),
                   "low_n": total < low_n, "evidence": evidence.get(c, "")}
     return out
+
+
+def _rank(values: list[float]) -> list[float]:
+    """1-based ranks, ties given the average rank of the tied positions."""
+    order = sorted(range(len(values)), key=lambda i: values[i])
+    ranks = [0.0] * len(values)
+    i = 0
+    while i < len(order):
+        j = i
+        while j + 1 < len(order) and values[order[j + 1]] == values[order[i]]:
+            j += 1
+        avg_rank = (i + j) / 2 + 1
+        for k in range(i, j + 1):
+            ranks[order[k]] = avg_rank
+        i = j + 1
+    return ranks
+
+
+def spearman(xs: list[float], ys: list[float]) -> float:
+    """Spearman rank correlation (Pearson correlation of ranks, with average ranks for ties)."""
+    n = len(xs)
+    if n < 2 or len(ys) != n:
+        return 0.0
+    rx, ry = _rank(xs), _rank(ys)
+    mx, my = sum(rx) / n, sum(ry) / n
+    cov = sum((a - mx) * (b - my) for a, b in zip(rx, ry))
+    varx = sum((a - mx) ** 2 for a in rx)
+    vary = sum((b - my) ** 2 for b in ry)
+    if varx == 0 or vary == 0:
+        return 0.0
+    return cov / (varx * vary) ** 0.5

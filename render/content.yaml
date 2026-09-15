@@ -19,58 +19,58 @@ flow:
 roadmap:
   - track: Python for FDE
     skip:
-      - "Go (12% of postings ask for it)"
-      - "C / C++ (8%)"
+      - "Go (11% of postings ask for it)"
+      - "C / C++ (6%)"
       - "Rust (5%)"
-      - "Competitive-programming algorithm drills (4%)"
+      - "Competitive-programming algorithm drills (2%)"
       - "Async/concurrency internals (under 1%)"
       - "Deep CPython internals, metaclasses, and packaging minutiae (not in the taxonomy; no posting text mentioned them)"
     stages:
       - name: "Stage 1 — Language & tooling"
         skills: [python, git, typescript]
-        why: "Python is asked for in 55% of postings — the near-universal baseline — but only 11% of those mentions frame it as the responsibility itself rather than a checkbox. Git follows at 11% asked / 56% responsibility, and TypeScript at 35% asked / 15% responsibility."
+        why: "Python is asked for in 53% of postings — the near-universal baseline — but only 8% of those mentions frame it as the responsibility itself rather than a checkbox. Git follows at 11% asked / 54% responsibility, and TypeScript at 33% asked / 12% responsibility."
       - name: "Stage 2 — Working with real data"
         skills: [rest_apis, data_modeling, sql]
-        why: "REST/API integration is asked for in 38% of postings and is the responsibility 50% of the time it appears — the clearest sign this is integration work, not algorithm work. Data modelling (9% asked / 47% responsibility) and SQL (20% asked / 18% responsibility) round out the stage."
+        why: "REST/API integration is asked for in 38% of postings and is the responsibility 48% of the time it appears — the clearest sign this is integration work, not algorithm work. Data modelling (8% asked / 46% responsibility) and SQL (20% asked / 18% responsibility) round out the stage."
       - name: "Stage 3 — Production quality"
         skills: [system_design, debugging, testing]
-        why: "System design is asked for in 59% of postings and framed as a responsibility 60% of the time; debugging follows at 39% asked / 55% responsibility. Testing is asked for far less often (15%) but when it appears it is usually the job itself (64% responsibility)."
+        why: "System design is asked for in 57% of postings and framed as a responsibility 55% of the time; debugging follows at 38% asked / 56% responsibility. Testing is asked for far less often (15%) but when it appears it is usually the job itself (62% responsibility)."
 
   - track: AI application engineering
     stages:
       - name: "Stage 1 — Core LLM application skills"
         skills: [agents, llm_apis, prompt_engineering]
-        why: "Agents & tool use is asked for in 48% of postings and is the responsibility 48% of the time — close to a coin flip between knowing about agents and building them. LLM APIs lead on raw frequency (55%) but skew more toward requirements (37% responsibility); prompt engineering is asked for far less often (14%) but is the responsibility 46% of the time it appears."
+        why: "Agents & tool use is asked for in 50% of postings and is the responsibility 43% of the time — close to a coin flip between knowing about agents and building them. LLM APIs lead on raw frequency (55%) but skew more toward requirements (34% responsibility); prompt engineering is asked for far less often (13%) but is the responsibility 43% of the time it appears."
       - name: "Stage 2 — Retrieval & orchestration"
         skills: [rag, llm_frameworks, vector_databases]
         why: "RAG is asked for in 17% of postings and is the responsibility 30% of the time — a smaller, more specialised slice than the core LLM-API skills above. Orchestration frameworks such as LangChain (10% asked) and vector databases (6% asked) are rarer still."
       - name: "Stage 3 — Quality & production"
         skills: [evals, guardrails_safety, model_serving, llm_observability]
-        why: "Evals are asked for in 33% of postings and are the responsibility 48% of the time. Guardrails & safety is rarer (15% asked) but skews more toward being the actual job (63% responsibility); model serving (20% asked / 31% responsibility) and LLM observability (7% asked / 54% responsibility) round out the stage."
+        why: "Evals are asked for in 33% of postings and are the responsibility 48% of the time. Guardrails & safety is rarer (15% asked) but skews more toward being the actual job (60% responsibility); model serving (20% asked / 28% responsibility) and LLM observability (7% asked / 52% responsibility) round out the stage."
 
   - track: "Integration & deployment"
     stages:
       - name: "Stage 1 — Wire it into their systems"
         skills: [data_pipelines, enterprise_systems, auth_identity]
-        why: "Data pipelines are asked for in 22% of postings and are the responsibility 41% of the time; integrating with enterprise systems such as Salesforce, SAP or ServiceNow sits close behind at 15% asked / 43% responsibility. Auth & identity integration is asked for in 12% of postings."
+        why: "Data pipelines are asked for in 20% of postings and are the responsibility 40% of the time; integrating with enterprise systems such as Salesforce, SAP or ServiceNow sits close behind at 14% asked / 42% responsibility. Auth & identity integration is asked for in 13% of postings."
       - name: "Stage 2 — Run it in their environment"
         skills: [on_prem_airgapped, ci_cd, aws, kubernetes, docker]
-        why: "On-prem / air-gapped deployment is asked for in 16% of postings and is the responsibility 53% of the time — a customer-controlled environment, not a managed cloud, is the norm here. AWS alone is asked for in 26% of postings, ahead of Kubernetes (18%) and Docker (12%); CI/CD is asked for in 15% of postings and is the responsibility 28% of the time."
+        why: "On-prem / air-gapped deployment is asked for in 16% of postings and is the responsibility 49% of the time — a customer-controlled environment, not a managed cloud, is the norm here. AWS alone is asked for in 25% of postings, ahead of Kubernetes (18%) and Docker (11%); CI/CD is asked for in 15% of postings and is the responsibility 26% of the time."
       - name: "Stage 3 — Keep it running and compliant"
         skills: [cost_performance, security_compliance, observability, incident_response]
-        why: "Cost & performance optimisation is asked for in 40% of postings and is the responsibility 64% of the time — the strongest 'own this' signal in the cluster. Security & compliance follows at 36% asked / 50% responsibility, observability at 24% asked / 57% responsibility, and incident response & on-call at 17% asked / 53% responsibility."
+        why: "Cost & performance optimisation is asked for in 39% of postings and is the responsibility 60% of the time — the strongest 'own this' signal in the cluster. Security & compliance follows at 35% asked / 47% responsibility, observability at 24% asked / 57% responsibility, and incident response & on-call at 16% asked / 49% responsibility."
 
   - track: "Customer delivery & communication"
     stages:
       - name: "Stage 1 — Own the engagement"
         skills: [implementation_onboarding, scoping, customer_facing]
-        why: "Implementation & onboarding is asked for in 58% of postings and is the responsibility 82% of the time — one of the highest responsibility shares in the data. Scoping & discovery is asked for in 56% of postings (76% responsibility), and customer-facing work itself is asked for in 78% of postings."
+        why: "Implementation & onboarding is asked for in 59% of postings and is the responsibility 79% of the time — one of the highest responsibility shares in the data. Scoping & discovery is asked for in 55% of postings (74% responsibility), and customer-facing work itself is asked for in 78% of postings."
       - name: "Stage 2 — Communicate under pressure"
         skills: [cross_functional, stakeholder_communication, written_communication]
-        why: "Cross-functional collaboration is asked for in 61% of postings and is the responsibility 70% of the time. Stakeholder communication follows at 52% asked / 50% responsibility, and written communication at 38% asked / 58% responsibility."
+        why: "Cross-functional collaboration is asked for in 59% of postings and is the responsibility 72% of the time. Stakeholder communication follows at 53% asked / 48% responsibility, and written communication at 38% asked / 59% responsibility."
       - name: "Stage 3 — Close the loop"
-        skills: [product_feedback_loop, travel_onsite, training_enablement]
-        why: "Feeding field learning back to product is asked for in 57% of postings and is the responsibility 92% of the time — the highest responsibility share of any skill in the taxonomy. Travel or on-site work (43% asked / 60% responsibility) and training & enablement (30% asked / 81% responsibility) round out the loop."
+        skills: [product_feedback_loop, training_enablement, travel_onsite]
+        why: "Feeding field learning back to product is asked for in 58% of postings and is the responsibility 91% of the time — the highest responsibility share of any skill in the taxonomy. Training & enablement (32% asked / 78% responsibility) and travel or on-site work (41% asked / 59% responsibility) round out the loop."
 
 projects:
   - name: "Discovery-to-prototype sprint"
@@ -91,13 +91,14 @@ projects:
     clusters: [product_thinking_and_communication, customer_delivery]
 
 insights:
-  segment_prose: "This comparison is restricted to full ATS job descriptions; the Hacker News listings are excluded because they are short and rarely spell out a skill list the way a formal posting does. Within that restricted set, 122 postings carry a startup or scaleup size hint and 56 carry an enterprise hint. Enterprise postings are several times more likely to ask for Java and for structured data-pipeline work, and more likely to mention cross-functional collaboration. Startup postings mention rapid prototyping about twice as often, while enterprise postings ask more often for cost and performance optimisation and for travel or on-site work. Both sample sizes are thin enough that these differences should be read as directional, not precise."
+  segment_prose: "This comparison is restricted to full ATS job descriptions; the Hacker News listings are excluded because they are short and rarely spell out a skill list the way a formal posting does. Within that restricted set, 111 postings carry a startup or scaleup size hint and 44 carry an enterprise hint. Enterprise postings are several times more likely to ask for Java and for structured data-pipeline work, and more likely to mention cross-functional collaboration. Startup postings mention rapid prototyping about 1.7 times as often, while enterprise postings ask more often for cost and performance optimisation and for travel or on-site work. Both sample sizes are thin enough that these differences should be read as directional, not precise."
   limitations:
     - "Sample skews toward companies with public ATS boards and HN presence."
     - "HN postings have weaker structure; company size for them is assumed startup."
     - "Extraction is LLM-based; evidence quotes are provided but not human-verified for every posting."
     - "Startup-vs-enterprise comparisons are directional only."
-    - "73 of 303 postings had no explicit section headers, so responsibility/requirement tags were inferred rather than read directly from the posting's structure."
+    - "72 of 276 postings had no explicit section headers, so responsibility/requirement tags were inferred rather than read directly from the posting's structure."
     - "33 postings yielded no requirement-section mentions at all."
-    - "ATS boards report a posting's original publish date, not when it was collected; roughly 9% of postings are older than 12 months."
+    - "Only postings first published in the 12 months before collection are included; 27 older postings were dropped."
     - "Company size hints (startup / scaleup / enterprise) come from a hand-maintained lookup by company name, not a verified source."
+    - "Criticality is computed on header-segmented postings only (see Methodology)."

@@ -25,3 +25,10 @@ def test_skill_criticality(six):
     assert c["aws"]["criticality"] == 0.0
     assert c["kubernetes"]["criticality"] == 0.5 and c["kubernetes"]["low_n"] is True
     assert c["evals"]["low_n"] is True and c["scoping"]["evidence"] == "scoping responsibility"
+
+
+def test_spearman_perfect_and_reversed_and_tied():
+    assert criticality.spearman([1, 2, 3, 4, 5], [10, 20, 30, 40, 50]) == 1.0
+    assert criticality.spearman([1, 2, 3, 4, 5], [5, 4, 3, 2, 1]) == -1.0
+    # a known tied case: x has a tie at rank (2,3); Pearson-on-ranks value is exactly 0.4
+    assert round(criticality.spearman([1, 2, 2, 4], [1, 2, 3, 4]), 4) == round(0.9486832980505138, 4)

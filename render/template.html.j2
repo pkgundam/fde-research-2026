@@ -37,6 +37,7 @@ section:last-of-type{border-bottom:0}
 .grid-3{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
 .chip{display:inline-block;font-size:.8rem;padding:2px 10px;border-radius:999px;border:1px solid var(--line-strong);margin:2px 4px 2px 0;background:var(--surface)}
 .chip.low{opacity:.5}
+.chip.thin{color:var(--muted);border-color:var(--line)}
 .legend{display:flex;flex-wrap:wrap;gap:var(--s3);font-size:.85rem;color:var(--muted);margin:var(--s3) 0}
 .legend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;background:var(--c);vertical-align:-1px}
 /* lifecycle */
@@ -80,6 +81,7 @@ section:last-of-type{border-bottom:0}
 .verbs{display:flex;flex-wrap:wrap;gap:var(--s2)}
 .stack-card{border-left:3px solid var(--line-strong)}
 /* projects */
+.placeholder{border:2px dashed var(--violet);background:var(--violet-100);border-radius:var(--r);padding:var(--s4);font-style:italic;color:var(--violet);margin-bottom:var(--s5)}
 .projects-grid{grid-template-columns:1fr}
 @media (min-width:900px){.projects-grid{grid-template-columns:1fr 1fr;grid-template-rows:auto auto}}
 .project-card{display:flex;flex-direction:column}
@@ -174,7 +176,7 @@ footer span{margin:0}
 
 <section id="frequency-vs-criticality">
   <h2>3 · Frequency vs criticality</h2>
-  <p class="sub"><b>Frequency</b> (x): how often a skill appears. <b>Criticality</b> (y): the share of its mentions tagged as a responsibility ("what you will do") rather than a requirement — i.e. how often the skill <em>is the job</em>. Skills with fewer than 5 mentions are omitted from the chart.</p>
+  <p class="sub"><b>Frequency</b> (x): how often a skill appears. <b>Criticality</b> (y): the share of its mentions tagged as a responsibility ("what you will do") rather than a requirement — i.e. how often the skill <em>is the job</em> — computed on postings with explicit section headers. Skills with fewer than 5 mentions on that basis are omitted from the chart. The quadrant split is at the median on each axis, so by construction roughly a quarter of skills land in each quadrant. Muted chips have fewer than 20 mentions.</p>
   {% set mx = data.scatter.median_frequency %}
   {% set my = data.scatter.median_criticality %}
   {% set eligible = data.skills|rejectattr('low_n')|list %}
@@ -193,7 +195,7 @@ footer span{margin:0}
     <div class="quadrant-card{% if q.primary %} primary{% endif %}">
       <span class="quadrant-title">{{ q.title }}</span>
       <p class="quadrant-desc">{{ q.desc }}</p>
-      <div>{% for sk in q.skills %}<span class="chip" style="border-color:{{ data.cluster_colors[sk.cluster] }}">{{ sk.label }} <span class="mono muted">{{ (sk.frequency*100)|round|int }}%</span></span>{% else %}<span class="muted">—</span>{% endfor %}</div>
+      <div>{% for sk in q.skills %}<span class="chip{% if sk.n < 20 %} thin{% endif %}" style="border-color:{{ data.cluster_colors[sk.cluster] }}">{{ sk.label }} <span class="mono muted">{{ (sk.frequency*100)|round|int }}%</span></span>{% else %}<span class="muted">—</span>{% endfor %}</div>
     </div>
   {% endfor %}
   </div>
@@ -256,12 +258,14 @@ footer span{margin:0}
     </div>
   </div>
   <div class="card" style="margin-top:var(--s4)"><h3>Startup vs enterprise</h3><p>{{ data.content.insights.segment_prose }}</p></div>
-  <div class="card" style="margin-top:var(--s4)"><h3>What FDE demands that standard AI-engineer roadmaps skip</h3>
+  <div class="card" style="margin-top:var(--s4)"><h3>What FDE demands that AI-engineer roadmaps don't teach</h3>
+    <p class="sub" style="margin-bottom:var(--s4)">Non-technical skills asked for in at least 30% of postings, excluding generic professional skills every role lists.</p>
     <div>{% for g in data.gap %}<span class="chip">{{ g.label }} · {{ (g.frequency*100)|round|int }}%</span>{% endfor %}</div></div>
 </section>
 
 <section id="proof-projects">
   <h2>7 · Proof projects</h2>
+  <div id="author-note" class="placeholder">YOUR ONE SENTENCE HERE</div>
   <div class="grid grid-2 projects-grid">
   {% for p in data.content.projects %}
     <div class="card project-card">
@@ -277,13 +281,13 @@ footer span{margin:0}
 
 <section id="methodology">
   <h2>8 · Methodology</h2>
-  <p><b>n = {{ data.meta.n_postings }}</b> unique postings from {{ data.meta.n_companies }} companies, posted {{ data.meta.date_range[0] }} to {{ data.meta.date_range[1] }}. {% if data.meta.hn_threads %}ATS postings were live on {{ data.meta.collected_on }}; Hacker News entries come from the {{ data.meta.hn_threads.months }} monthly "Who is hiring?" threads from {{ data.meta.hn_threads.first }} to {{ data.meta.hn_threads.last }} (a company's monthly reposts were merged). {{ (data.meta.recent_share*100)|round|int }}% of postings were first published within the 12 months before collection (ATS boards report original publish dates).{% else %}Postings were live on {{ data.meta.collected_on }}; {{ (data.meta.recent_share*100)|round|int }}% of postings were first published within the 12 months before collection (ATS boards report original publish dates).{% endif %} Deduplicated on (normalised company, normalised title); postings sharing that key were merged only when their texts overlapped by at least 80% on 6-word shingles (containment).</p>
+  <p>{{ data.meta.window.collected }} postings were collected; {{ data.meta.window.excluded_older }} first published before {{ data.meta.window.from }} were excluded, leaving <b>n = {{ data.meta.n_postings }}</b> posted {{ data.meta.window.from }} to {{ data.meta.window.to }}, from {{ data.meta.n_companies }} companies. {% if data.meta.hn_threads %}ATS postings were live on {{ data.meta.collected_on }}; Hacker News entries come from the {{ data.meta.hn_threads.months }} monthly "Who is hiring?" threads from {{ data.meta.hn_threads.first }} to {{ data.meta.hn_threads.last }} (a company's monthly reposts were merged).{% else %}Postings were live on {{ data.meta.collected_on }}.{% endif %} Deduplicated on (normalised company, normalised title); postings sharing that key were merged only when their texts overlapped by at least 80% on 6-word shingles (containment).</p>
   <div class="table-wrap"><table>
   <thead><tr><th>Source</th><th class="num">Fetched</th><th class="num">Title-matched</th><th class="num">Kept after dedupe</th></tr></thead>
   <tbody>{% for s in data.meta.sources %}<tr><td>{{ s.name }}</td><td class="mono num">{{ s.fetched }}</td><td class="mono num">{{ s.matched }}</td><td class="mono num">{{ s.kept }}</td></tr>{% endfor %}</tbody>
   </table>
   <small style="color:var(--muted)">Fetched = jobs listed on the board (ATS), comment hits across queries (HN), or rows scanned (Arbeitnow).</small></div>
-  <p style="margin-top:var(--s4)"><b>Extraction.</b> Each posting was segmented into responsibilities / requirements / nice-to-have sections ({{ data.meta.segmentation.header }} by explicit headers, {{ data.meta.segmentation.inferred }} inferred) and passed once, with the full closed taxonomy, to {{ data.meta.model }} (Claude Code `sonnet` alias, run as subagents rather than through the API) using a fixed prompt. Every returned skill was validated against the taxonomy; {{ data.meta.rejects }} out-of-vocabulary mentions were logged and reviewed. Adzuna: {{ 'used' if data.meta.adzuna_used else 'not used' }}. LinkedIn and Indeed were not scraped.</p>
+  <p style="margin-top:var(--s4)"><b>Extraction.</b> Each posting was segmented into responsibilities / requirements / nice-to-have sections ({{ data.meta.segmentation.header }} by explicit headers, {{ data.meta.segmentation.inferred }} inferred) and passed once, with the full closed taxonomy, to {{ data.meta.model }} (Claude Code `sonnet` alias, run as subagents rather than through the API) using a fixed prompt. Criticality is computed on the {{ data.meta.criticality_basis.postings }} postings with explicit section headers; computed on all {{ data.meta.criticality_basis.of }} postings instead, the skill ranking is nearly identical (Spearman ρ = {{ data.meta.criticality_basis.spearman_vs_all }}, {{ data.meta.criticality_basis.quadrant_flips }} of {{ data.meta.criticality_basis.skills }} skills change quadrant). Extraction was restricted to the taxonomy, so the validator only checks format.{% if data.meta.open_vocab %} To estimate what the taxonomy misses, a separate open-vocabulary pass on {{ data.meta.open_vocab.sample }} randomly sampled postings named skills freely; {{ (data.meta.open_vocab.mapped_share*100)|round|int }}% of the {{ data.meta.open_vocab.phrases }} phrases mapped to a taxonomy node. Most frequent unmapped: {{ data.meta.open_vocab.top_unmapped|map('first')|join(' · ') }}.{% endif %} Adzuna: {{ 'used' if data.meta.adzuna_used else 'not used' }}. LinkedIn and Indeed were not scraped.</p>
   <p><b>Limitations.</b></p><ul class="limitations">{% for l in data.content.insights.limitations %}<li>{{ l }}</li>{% endfor %}</ul>
 </section>
 <footer><span>Generated {{ data.meta.generated_at[:10] }}. Pipeline and taxonomy are in the repository.</span><span>Charts by Chart.js.</span></footer>

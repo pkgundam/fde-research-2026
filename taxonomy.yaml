@@ -34,7 +34,6 @@ clusters:
       - {canonical: llm_observability, label: LLM observability & tracing, aliases: [tracing, langsmith, langfuse, braintrust, monitoring llm], definition: Observing LLM apps in production}
       - {canonical: guardrails_safety, label: Guardrails & safety, aliases: [guardrails, responsible ai, ai safety, hallucination mitigation, content moderation], definition: Constraining model behaviour}
       - {canonical: model_serving, label: Model serving & inference, aliases: [inference, vllm, model deployment, triton, gpu inference, latency optimization], definition: Serving models efficiently}
-      - {canonical: cloud_platforms, label: Cloud platforms (generic), aliases: [cloud, cloud infrastructure, public cloud, cloud services], definition: Unspecified cloud provider experience}
   data_and_integrations:
     label: Data & integrations
     skills:
@@ -53,6 +52,7 @@ clusters:
   deployment_and_operations:
     label: Deployment & operations
     skills:
+      - {canonical: cloud_platforms, label: Cloud platforms (generic), aliases: [cloud, cloud infrastructure, public cloud, cloud services], definition: Unspecified cloud provider experience}
       - {canonical: aws, label: AWS, aliases: [amazon web services, ec2, s3, lambda, eks, bedrock, sagemaker], definition: Building or deploying on AWS}
       - {canonical: gcp, label: Google Cloud, aliases: [google cloud platform, gke, vertex ai, vertex, bigquery ml], definition: Building or deploying on GCP}
       - {canonical: azure, label: Azure, aliases: [microsoft azure, azure openai, aks], definition: Building or deploying on Azure}

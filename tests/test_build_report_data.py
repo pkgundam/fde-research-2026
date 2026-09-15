@@ -1,4 +1,5 @@
 import json
+from datetime import date
 from pathlib import Path
 from aggregate import build_report_data as b
 from extract import taxonomy
@@ -15,14 +16,21 @@ def test_build_matches_fixture_shape(six):
     assert set(d) == set(FIX_KEYS)
     assert d["meta"]["n_postings"] == 6 and d["meta"]["n_companies"] == 6 and d["meta"]["date_range"] == ["2026-03-01", "2026-08-01"]
     assert d["meta"]["segmentation"] == {"header": 5, "inferred": 1} and d["meta"]["rejects"] == 2 and d["meta"]["adzuna_used"] is False
-    assert d["meta"]["collected_on"] == "2026-09-14" and d["meta"]["recent_share"] == 1.0
+    assert d["meta"]["collected_on"] == "2026-09-14"
+    # python: header-only postings are p1,p2,p3,p5,p6 (p4 is "inferred"); 5 requirement + 2 responsibility = 7 mentions
     py = next(s for s in d["skills"] if s["canonical"] == "python")
     assert set(py) == set(FIX_KEYS["skills"][0]) and py["label"] == "Python" and py["cluster"] == "software_foundations"
+    assert py["crit_n"] == 7 and py["low_n"] is False
+    assert round(py["criticality"], 4) == round(2 / 7, 4)
+    assert set(d["clusters"][0]) == set(FIX_KEYS["clusters"][0])
     assert [c["key"] for c in d["clusters"]] == [c["key"] for c in FIX_KEYS["clusters"]]
     assert set(d["scatter"]) == {"median_frequency", "median_criticality", "outliers"}
     assert set(d["market"]) == set(FIX_KEYS["market"])
     assert all(set(g) == {"canonical", "label", "frequency"} for g in d["gap"])
     assert all(set(s) == {"name", "skills", "support"} for s in d["stacks"])
+    assert set(d["meta"]["criticality_basis"]) == {"postings", "of", "spearman_vs_all", "quadrant_flips", "skills"}
+    assert d["meta"]["criticality_basis"]["postings"] == 5 and d["meta"]["criticality_basis"]["of"] == 6
+    assert d["meta"]["open_vocab"] is None
 
 
 def test_build_uses_collect_meta_for_collected_on_and_hn_threads(six):
@@ -42,6 +50,19 @@ def test_build_without_collect_meta_falls_back_to_generated_at(six):
     d = b.build(six, posts, stats, n_rejects=2, tx=taxonomy.load(), generated_at="2026-09-14T00:00:00Z")
     assert d["meta"]["collected_on"] == "2026-09-14"
     assert d["meta"]["hn_threads"] is None
+
+
+def test_within_window_keeps_364_days_drops_366_days():
+    from datetime import timedelta
+    collected_on = date(2026, 9, 14)
+    posted_364 = collected_on - timedelta(days=364)
+    posted_366 = collected_on - timedelta(days=366)
+    p_stays = Posting(id="stays", title="FDE", company="A", url="u", full_text="x", source="greenhouse",
+                       posted_date=posted_364.isoformat())
+    p_goes = Posting(id="goes", title="FDE", company="B", url="u", full_text="x", source="greenhouse",
+                      posted_date=posted_366.isoformat())
+    out = b.within_window([p_stays, p_goes], collected_on)
+    assert [p.id for p in out] == ["stays"]
 
 
 def test_run_filters_extractions_symmetrically_with_current_postings(monkeypatch, tmp_path, six):
@@ -64,12 +85,14 @@ def test_run_filters_extractions_symmetrically_with_current_postings(monkeypatch
     data = json.loads(out_path.read_text())
     assert data["meta"]["n_postings"] == 2
     assert data["meta"]["n_companies"] == 2
+    assert set(data["meta"]["window"]) == {"from", "to", "collected", "excluded_older"}
+    assert data["meta"]["window"]["collected"] == 2 and data["meta"]["window"]["excluded_older"] == 0
 
 
 def test_stack_name_override_and_auto_name():
     tx = taxonomy.load()
-    overridden_skills = ["prototyping", "learning_agility", "consulting", "training_enablement",
-                          "business_acumen", "pre_sales", "metrics_measurement"]
+    overridden_skills = ["expectation_management", "rest_apis", "learning_agility", "consulting",
+                          "training_enablement", "pre_sales", "enterprise_systems"]
     assert b._stack_name(overridden_skills, tx) == "Pre-sales & field delivery"
 
     auto_skills = ["python", "llm_apis", "rag"]

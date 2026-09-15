@@ -47,7 +47,22 @@ def test_segment_deltas():
 
 
 def test_gap():
-    freq = {"python": {"frequency": 0.9}, "scoping": {"frequency": 0.4}, "rag": {"frequency": 0.5}, "travel_onsite": {"frequency": 0.1}}
-    g = gap.gaps(freq, min_frequency=0.2)
-    assert [x["canonical"] for x in g] == ["scoping"]
-    assert "python" in gap.STANDARD_ROADMAP_SKILLS and "rag" in gap.STANDARD_ROADMAP_SKILLS
+    freq = {"python": {"frequency": 0.9}, "scoping": {"frequency": 0.4}, "rag": {"frequency": 0.5},
+            "travel_onsite": {"frequency": 0.1}, "written_communication": {"frequency": 0.8},
+            "domain_expertise": {"frequency": 0.35}}
+    cluster_of = {"python": "software_foundations", "scoping": "customer_delivery", "rag": "ai_application_engineering",
+                  "travel_onsite": "customer_delivery", "written_communication": "product_thinking_and_communication",
+                  "domain_expertise": "customer_delivery"}
+    g = gap.gaps(freq, cluster_of, min_frequency=0.2)
+    # python/rag are technical-cluster skills (roadmaps teach them); written_communication is generic
+    # professional (every job asks); travel_onsite is below the frequency threshold.
+    assert [x["canonical"] for x in g] == ["scoping", "domain_expertise"]
+    assert "software_foundations" in gap.TECHNICAL_CLUSTERS and "written_communication" in gap.GENERIC_PROFESSIONAL
+
+
+def test_gap_capped_at_limit():
+    freq = {f"skill_{i}": {"frequency": 0.9 - i * 0.01} for i in range(12)}
+    cluster_of = {k: "customer_delivery" for k in freq}
+    g = gap.gaps(freq, cluster_of, min_frequency=0.3, limit=8)
+    assert len(g) == 8
+    assert [x["canonical"] for x in g] == [f"skill_{i}" for i in range(8)]

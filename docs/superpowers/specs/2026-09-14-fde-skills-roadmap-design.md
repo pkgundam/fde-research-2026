@@ -296,3 +296,92 @@ conflicting prose in those sections rather than rewriting them in place.
   files to drop out-of-taxonomy skills; taxonomy filtering happens at
   load time (`extract.validate.load_valid_extractions`). Extraction files on
   disk are the LLM's raw, unmodified output.
+
+## 14. Amendments (2026-09-15, fix wave)
+
+A second, reviewer-driven fix wave landed after §13. These rules supersede
+conflicting prose above wherever they overlap.
+
+- **12-month window (§8).** `aggregate.build_report_data.run()` now drops any
+  posting whose `posted_date` falls more than 365 days before
+  `collect_meta.collected_at`'s date part, via a pure helper
+  `within_window(postings, collected_on, days=365)`. `build()` itself is not
+  aware of the window — it still aggregates whatever postings it is given —
+  so the filter lives entirely in `run()`, applied after the existing
+  symmetric posting/extraction filter. The result is recorded as
+  `meta.window = {from, to, collected, excluded_older}` (`collected` is the
+  posting count before the window filter; `excluded_older` is how many were
+  dropped) and replaces the old `meta.recent_share` field, which is removed
+  entirely (it was 1.0 by construction once the window filter exists). On the
+  real corpus this took n from 303 to 276.
+- **Criticality is computed on header-segmented postings only (§4, §8).**
+  `criticality.skill_criticality` is now called twice inside `build()`: once
+  on `[e for e in exs if e.segmentation_quality == "header"]` (this is what
+  every skill's `criticality`, `low_n`, `mentions` and the new `crit_n` field
+  are based on), and once on all extractions, purely as a robustness check.
+  `frequency.skill_frequency` is unchanged and still runs over all
+  extractions, so a skill row's `n` (postings mentioning it, any section) and
+  `crit_n` (mentions counted on the header-only basis, `sum(mentions.values())`)
+  are now deliberately different denominators; `low_n` is `crit_n < 5`. The
+  robustness check is exposed as `meta.criticality_basis = {postings, of,
+  spearman_vs_all, quadrant_flips, skills}`: `postings`/`of` are the
+  header-only and total postings counts, `skills` is how many skills were
+  compared (header `crit_n >= 5`), `spearman_vs_all` is the Spearman rank
+  correlation (`aggregate.criticality.spearman`, a plain Pearson-on-ranks
+  implementation with tie-averaged ranks — no scipy dependency) between the
+  two bases' criticality over those skills, and `quadrant_flips` counts how
+  many of them land in a different (freq-vs-median, crit-vs-median) quadrant
+  under the all-postings basis than under the header-only basis. On the real
+  corpus: 204 of 276 postings have explicit headers, ρ ≈ 0.987, 2 of 79
+  skills flip quadrant — the ranking is robust to the choice of basis, but
+  the header-only basis is what's actually charted and reported.
+- **Taxonomy: `cloud_platforms` moved (§4).** `cloud_platforms` (the generic
+  "unspecified cloud provider" skill) now lives in `deployment_and_operations`
+  next to `aws`, not in `ai_application_engineering`. It was miscategorized —
+  it's an infrastructure skill, not an AI-application skill.
+  `STACK_NAME_OVERRIDES` in `build_report_data.py` is re-derived from
+  whatever stacks the current data actually produces (co-occurrence shifts
+  with both this move and the window filter), not hand-frozen; three of the
+  four names survived a membership change (`Pre-sales & field delivery`,
+  `Full-stack builder`, `Cloud infrastructure`), and the fourth was renamed
+  from `ML operations & delivery` to `LLM application core` because its new
+  membership (evals/RAG/guardrails/prompt-engineering/llm-frameworks) no
+  longer matched the old ops-flavoured name.
+- **Gap list is a cluster rule, not a hand-picked skill set (§8, market
+  card).** `aggregate.gap.gaps(freq, cluster_of, *, min_frequency=0.3,
+  limit=8)` replaces the old `STANDARD_ROADMAP_SKILLS` allowlist. Any skill
+  in one of the four technical clusters (`software_foundations`,
+  `ai_application_engineering`, `data_and_integrations`,
+  `deployment_and_operations`) counts as "roadmaps teach this"; any skill in
+  `GENERIC_PROFESSIONAL` (`verbal_communication`, `written_communication`,
+  `learning_agility`, `ownership_autonomy`, `cross_functional`,
+  `mentoring_leadership`, `prioritization`) counts as "every job asks this
+  regardless of role" and is excluded too. What's left, at ≥30% frequency and
+  capped at 8, is the genuine FDE-specific, non-technical gap. The rendered
+  card title changed to "What FDE demands that AI-engineer roadmaps don't
+  teach" with a one-line explanation of the exclusion rule underneath.
+- **Thin-n callouts (§8).** `_outliers()` now requires `n >= 20` (postings
+  mentioning the skill in any section) for both the "everyone asks, rarely
+  the job" and "rarely asked, always the job" lists, up from the old
+  asymmetric `n >= 8` on one list only. In the §3 quadrant panel, a skill
+  chip with `n < 20` gets an added `thin` class (muted colour/border via
+  `.chip.thin`), and the panel's `.sub` paragraph states the median-split
+  construction and the thin-chip threshold explicitly.
+- **Open-vocabulary coverage estimate (§8, optional).** If
+  `data/processed/open_vocab_sample.json` exists (an out-of-band sampling
+  pass: N postings extracted with no taxonomy shown, each distinct phrase
+  then mapped to a taxonomy node or left unmapped), its `summary` object is
+  copied to `meta.open_vocab`; otherwise `meta.open_vocab` is `null` and the
+  Methodology extraction paragraph omits the estimate sentence entirely. The
+  paragraph's out-of-vocabulary claim was softened from "every returned
+  skill was validated against the taxonomy" (misleading — extraction never
+  saw anything outside the taxonomy to reject) to "extraction was restricted
+  to the taxonomy, so the validator only checks format," with the
+  open-vocabulary pass, when present, doing the actual coverage estimation.
+- **Author placeholder restored (§2, §6).** `#proof-projects` again carries
+  `<div id="author-note" class="placeholder">YOUR ONE SENTENCE HERE</div>`
+  directly after its `<h2>`, with the `.placeholder` CSS rule restored
+  alongside it. This had been dropped in an earlier commit; the hard
+  constraint in §2 that Section 7 carries a clearly marked placeholder for
+  one user-written sentence was never actually satisfied while it was
+  missing.
