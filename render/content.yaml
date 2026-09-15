@@ -55,10 +55,10 @@ roadmap:
         why: "Data pipelines are asked for in 20% of postings and are the responsibility 41% of the time; integrating with enterprise systems such as Salesforce, SAP or ServiceNow sits close behind at 14% asked / 41% responsibility. Auth & identity integration is asked for in 10% of postings."
       - name: "Stage 2 — Run it in their environment"
         skills: [on_prem_airgapped, ci_cd, aws, kubernetes, docker]
-        why: "On-prem / air-gapped deployment is asked for in 16% of postings and is the responsibility 56% of the time — a customer-controlled environment, not a managed cloud, is the norm here. AWS alone is asked for in 25% of postings, ahead of Kubernetes (18%) and Docker (11%)."
+        why: "On-prem / air-gapped deployment is asked for in 16% of postings and is the responsibility 56% of the time — a customer-controlled environment, not a managed cloud, is the norm here. AWS alone is asked for in 25% of postings, ahead of Kubernetes (18%) and Docker (11%); CI/CD is asked for in 14% of postings and is the responsibility 29% of the time."
       - name: "Stage 3 — Keep it running and compliant"
         skills: [cost_performance, security_compliance, observability, incident_response]
-        why: "Cost & performance optimisation is asked for in 39% of postings and is the responsibility 63% of the time — the strongest 'own this' signal in the cluster. Security & compliance follows at 36% asked / 51% responsibility, and observability at 24% asked / 57% responsibility."
+        why: "Cost & performance optimisation is asked for in 39% of postings and is the responsibility 63% of the time — the strongest 'own this' signal in the cluster. Security & compliance follows at 36% asked / 51% responsibility, observability at 24% asked / 57% responsibility, and incident response & on-call at 16% asked / 53% responsibility."
 
   - track: "Customer delivery & communication"
     stages:
@@ -91,7 +91,7 @@ projects:
     clusters: [product_thinking_and_communication, customer_delivery]
 
 insights:
-  segment_prose: "This comparison is restricted to full ATS job descriptions; the Hacker News listings are excluded because they are short and rarely spell out a skill list the way a formal posting does. Within that restricted set, 106 postings carry a startup or scaleup size hint and 58 carry an enterprise hint. Enterprise postings are far more likely to ask for Java and for structured data-pipeline work, and roughly twice as likely to mention cross-functional collaboration. Startup postings lean more heavily toward rapid prototyping, while enterprise postings ask more often for cost and performance optimisation and for travel or on-site work. Both sample sizes are thin enough that these differences should be read as directional, not precise."
+  segment_prose: "This comparison is restricted to full ATS job descriptions; the Hacker News listings are excluded because they are short and rarely spell out a skill list the way a formal posting does. Within that restricted set, 106 postings carry a startup or scaleup size hint and 58 carry an enterprise hint. Enterprise postings are several times more likely to ask for Java and for structured data-pipeline work, and more likely to mention cross-functional collaboration. Startup postings mention rapid prototyping about twice as often, while enterprise postings ask more often for cost and performance optimisation and for travel or on-site work. Both sample sizes are thin enough that these differences should be read as directional, not precise."
   limitations:
     - "Sample skews toward companies with public ATS boards and HN presence."
     - "HN postings have weaker structure; company size for them is assumed startup."
