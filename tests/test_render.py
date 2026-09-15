@@ -19,3 +19,6 @@ def test_render_from_fixture_has_all_sections_and_placeholder():
     assert len(html.encode()) < 1_500_000
     # no other external assets
     assert "fonts.googleapis" not in html and "<link" not in html
+    assert "Stacks that travel together" in html
+    for st in data["stacks"]:
+        assert st["name"] in html

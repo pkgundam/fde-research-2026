@@ -140,6 +140,17 @@ footer{color:var(--muted);font-size:.85rem;padding-block:var(--s6)}
   </div>
   <div class="card" style="margin-top:var(--s4)"><h3>Most common responsibility verbs</h3>
     <div class="verbs">{% for v, n in data.market.verbs %}<span class="chip">{{ v }} <span class="mono" style="color:var(--muted)">{{ n }}</span></span>{% endfor %}</div></div>
+  <div class="card" style="margin-top:var(--s4)"><h3>Stacks that travel together</h3>
+    <p class="sub" style="margin-bottom:var(--s4)">Skill groups that co-occur more often than chance would predict; support = postings mentioning at least three members.</p>
+    <div class="grid grid-2">
+    {% for st in data.stacks %}
+      <div class="card"><h3>{{ st.name }}</h3>
+        <div>{% for s in st.skills %}{% set sk = data.skills|selectattr('canonical','equalto',s)|first %}<span class="chip">{{ sk.label if sk else s }}</span>{% endfor %}</div>
+        <p style="margin-top:var(--s3);margin-bottom:0"><span class="mono">support {{ st.support }}</span></p>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
   <div class="card" style="margin-top:var(--s4)"><h3>Startup vs enterprise</h3><p>{{ data.content.insights.segment_prose }}</p></div>
   <div class="card" style="margin-top:var(--s4)"><h3>What FDE demands that standard AI-engineer roadmaps skip</h3>
     <div>{% for g in data.gap %}<span class="chip">{{ g.label }} · {{ (g.frequency*100)|round|int }}%</span>{% endfor %}</div></div>
@@ -160,10 +171,10 @@ footer{color:var(--muted);font-size:.85rem;padding-block:var(--s6)}
 
 <section id="methodology">
   <h2>8 · Methodology</h2>
-  <p><b>n = {{ data.meta.n_postings }}</b> unique postings from {{ data.meta.n_companies }} companies, posted {{ data.meta.date_range[0] }} to {{ data.meta.date_range[1] }}. Deduplicated on (normalised company, normalised title).</p>
+  <p><b>n = {{ data.meta.n_postings }}</b> unique postings from {{ data.meta.n_companies }} companies, posted {{ data.meta.date_range[0] }} to {{ data.meta.date_range[1] }}. All postings were live on {{ data.meta.collected_on }}; {{ (data.meta.recent_share*100)|round|int }}% were first published within the previous 12 months (ATS boards report a posting's original publish date). Deduplicated on (normalised company, normalised title); postings sharing that key were merged only when their texts overlapped by at least 80% on 6-word shingles (containment).</p>
   <div class="table-wrap"><table><tr><th>Source</th><th>Fetched</th><th>Title-matched</th><th>Kept after dedupe</th></tr>
   {% for s in data.meta.sources %}<tr><td>{{ s.name }}</td><td class="mono">{{ s.fetched }}</td><td class="mono">{{ s.matched }}</td><td class="mono">{{ s.kept }}</td></tr>{% endfor %}</table></div>
-  <p style="margin-top:var(--s4)"><b>Extraction.</b> Each posting was segmented into responsibilities / requirements / nice-to-have sections ({{ data.meta.segmentation.header }} by explicit headers, {{ data.meta.segmentation.inferred }} inferred) and passed once, with the full closed taxonomy, to {{ data.meta.model }} using a fixed prompt. Every returned skill was validated against the taxonomy; {{ data.meta.rejects }} out-of-vocabulary mentions were logged and reviewed. Adzuna: {{ 'used' if data.meta.adzuna_used else 'not used' }}. LinkedIn and Indeed were not scraped.</p>
+  <p style="margin-top:var(--s4)"><b>Extraction.</b> Each posting was segmented into responsibilities / requirements / nice-to-have sections ({{ data.meta.segmentation.header }} by explicit headers, {{ data.meta.segmentation.inferred }} inferred) and passed once, with the full closed taxonomy, to {{ data.meta.model }} using a fixed prompt, run as Claude Code subagents rather than through the API. Every returned skill was validated against the taxonomy; {{ data.meta.rejects }} out-of-vocabulary mentions were logged and reviewed. Adzuna: {{ 'used' if data.meta.adzuna_used else 'not used' }}. LinkedIn and Indeed were not scraped.</p>
   <p><b>Limitations.</b></p><ul>{% for l in data.content.insights.limitations %}<li>{{ l }}</li>{% endfor %}</ul>
 </section>
 <footer>Generated {{ data.meta.generated_at[:10] }}. Pipeline and taxonomy are open; charts by Chart.js.</footer>
@@ -192,7 +203,10 @@ footer{color:var(--muted);font-size:.85rem;padding-block:var(--s6)}
     datasets:[{data:top.map(s=>s.frequency), backgroundColor:top.map(s=>C[s.cluster]), borderRadius:3}]},
     options:{indexAxis:'y', responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false},
       tooltip:{callbacks:{label:c=>`${pct(c.raw)} of postings · ${labelOf[top[c.dataIndex].cluster]}`}}},
-      scales:{x:{min:0,max:1,ticks:{callback:v=>pct(v)},grid:{color:'#dbe7ee'}}, y:{grid:{display:false}}}}});
+      scales:{x:{min:0,max:1,ticks:{callback:v=>pct(v)},grid:{color:'#dbe7ee'}}, y:{grid:{display:false},
+        afterFit:(scale)=>{ const ctx=scale.ctx; ctx.save(); ctx.font='12px '+getComputedStyle(document.body).fontFamily;
+          const longest=Math.max(...scale.ticks.map(t=>ctx.measureText(t.label).width)); ctx.restore();
+          scale.width = Math.min(scale.chart.width*0.7, Math.max(scale.width, longest+14)); }}}}});
 
   // 3. scatter
   const S = D.skills, mx = D.scatter.median_frequency, my = D.scatter.median_criticality;
@@ -205,9 +219,12 @@ footer{color:var(--muted);font-size:.85rem;padding-block:var(--s6)}
     q3:{type:'label', xValue:0.02, yValue:0.02, position:{x:'start',y:'end'}, content:['Peripheral'], color:'#71869a', font:{size:12}},
     q4:{type:'label', xValue:0.98, yValue:0.02, position:{x:'end',y:'end'}, content:['Table stakes'], color:'#71869a', font:{size:12}},
   };
-  S.forEach((s,i)=>{ if(notes[s.canonical]) ann['o'+i]={type:'label', xValue:s.frequency, yValue:s.criticality,
-      content:[s.label, notes[s.canonical]], backgroundColor:'#fff', borderColor:C[s.cluster], borderWidth:1, borderRadius:6,
-      padding:6, font:{size:11}, color:'#18324a', yAdjust:s.criticality>my?28:-28, xAdjust:s.frequency>mx?-40:40}; });
+  const wrap = (t,n) => { if (t.length<=n) return [t]; const words=t.split(' '); const lines=[]; let cur=''; words.forEach(w=>{ if((cur+' '+w).trim().length>n){ lines.push(cur.trim()); cur=w; } else { cur=(cur+' '+w).trim(); } }); if(cur) lines.push(cur.trim()); return lines; };
+  S.forEach((s,i)=>{ if(notes[s.canonical]) { const px = s.frequency>0.6?'end':(s.frequency<0.4?'start':'center');
+    ann['o'+i]={type:'label', xValue:s.frequency, yValue:s.criticality,
+      content:[s.label, ...wrap(notes[s.canonical], mobile?22:70)], backgroundColor:'#fff', borderColor:C[s.cluster], borderWidth:1, borderRadius:6,
+      padding:6, font:{size:11}, color:'#18324a', yAdjust:s.criticality>my?28:-28,
+      xAdjust:px==='end'?-8:(px==='start'?8:0), position:{x:px, y:'center'}}; } });
   new Chart(document.getElementById('scatter'), {type:'scatter',
     data:{datasets:D.clusters.map(c=>({label:c.label, data:S.filter(s=>s.cluster===c.key).map(s=>({x:s.frequency,y:s.criticality,s})),
       backgroundColor:S.filter(s=>s.cluster===c.key).map(s=>C[c.key]+(s.low_n?'66':'cc')), pointRadius:mobile?5:7, pointHoverRadius:9}))},
@@ -216,6 +233,15 @@ footer{color:var(--muted);font-size:.85rem;padding-block:var(--s6)}
         tooltip:{callbacks:{title:c=>c[0].raw.s.label, label:c=>{const s=c.raw.s;return [`frequency ${pct(s.frequency)} (n=${s.n})`,`criticality ${pct(s.criticality)}`,`e.g. "${s.evidence}"`];}}}},
       scales:{x:{min:0,max:1,title:{display:true,text:'Frequency — share of postings'},ticks:{callback:pct},grid:{color:'#eef3f7'}},
               y:{min:0,max:1,title:{display:true,text:'Criticality — share of mentions that are responsibilities'},ticks:{callback:pct},grid:{color:'#eef3f7'}}}}});
+
+  // resize safety net: recover charts laid out at zero width
+  let rt;
+  window.addEventListener('resize', () => {
+    clearTimeout(rt);
+    rt = setTimeout(() => {
+      document.querySelectorAll('canvas').forEach(cv => { const ch = Chart.getChart(cv); if (ch) ch.resize(); });
+    }, 150);
+  });
 })();
 </script>
 </body>
