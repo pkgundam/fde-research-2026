@@ -1,52 +1,495 @@
 {
-  "meta": {"n_postings": 300, "n_companies": 80, "date_range": ["2026-05-01", "2026-09-14"],
-           "generated_at": "2026-09-14T00:00:00Z", "model": "claude-sonnet-5",
-           "collected_on": "2026-09-14",
-           "window": {"from": "2025-09-14", "to": "2026-09-14", "collected": 300, "excluded_older": 0},
-           "criticality_basis": {"postings": 240, "of": 300, "spearman_vs_all": 0.99, "quadrant_flips": 2, "skills": 11},
-           "open_vocab": null,
-           "hn_threads": {"months": 8, "first": "2026-02", "last": "2026-09"},
-           "sources": [{"name": "greenhouse", "fetched": 4000, "matched": 140, "kept": 120},
-                       {"name": "lever", "fetched": 1500, "matched": 60, "kept": 50},
-                       {"name": "ashby", "fetched": 3000, "matched": 90, "kept": 80},
-                       {"name": "hn", "fetched": 900, "matched": 40, "kept": 35},
-                       {"name": "remotive", "fetched": 200, "matched": 10, "kept": 8},
-                       {"name": "arbeitnow", "fetched": 5000, "matched": 9, "kept": 7}],
-           "segmentation": {"header": 240, "inferred": 60}, "rejects": 41, "adzuna_used": false},
-  "skills": [
-    {"canonical": "python", "label": "Python", "cluster": "software_foundations", "n": 270, "frequency": 0.9, "criticality": 0.28, "mentions": {"responsibility": 80, "requirement": 170, "nice_to_have": 20}, "crit_n": 270, "low_n": false, "evidence": "Strong proficiency in Python"},
-    {"canonical": "typescript", "label": "TypeScript", "cluster": "software_foundations", "n": 120, "frequency": 0.4, "criticality": 0.35, "mentions": {"responsibility": 42, "requirement": 60, "nice_to_have": 18}, "crit_n": 120, "low_n": false, "evidence": "experience with TypeScript/React"},
-    {"canonical": "llm_apis", "label": "LLM APIs", "cluster": "ai_application_engineering", "n": 240, "frequency": 0.8, "criticality": 0.55, "mentions": {"responsibility": 132, "requirement": 90, "nice_to_have": 18}, "crit_n": 240, "low_n": false, "evidence": "build applications on top of LLM APIs"},
-    {"canonical": "rag", "label": "RAG", "cluster": "ai_application_engineering", "n": 150, "frequency": 0.5, "criticality": 0.6, "mentions": {"responsibility": 90, "requirement": 50, "nice_to_have": 10}, "crit_n": 150, "low_n": false, "evidence": "design retrieval-augmented pipelines"},
-    {"canonical": "evals", "label": "Evals", "cluster": "ai_application_engineering", "n": 90, "frequency": 0.3, "criticality": 0.7, "mentions": {"responsibility": 63, "requirement": 22, "nice_to_have": 5}, "crit_n": 90, "low_n": false, "evidence": "own evaluation frameworks for model quality"},
-    {"canonical": "sql", "label": "SQL", "cluster": "data_and_integrations", "n": 180, "frequency": 0.6, "criticality": 0.3, "mentions": {"responsibility": 54, "requirement": 110, "nice_to_have": 16}, "crit_n": 180, "low_n": false, "evidence": "comfortable writing SQL"},
-    {"canonical": "rest_apis", "label": "REST / API integration", "cluster": "data_and_integrations", "n": 200, "frequency": 0.67, "criticality": 0.62, "mentions": {"responsibility": 124, "requirement": 66, "nice_to_have": 10}, "crit_n": 200, "low_n": false, "evidence": "integrate with customer systems via APIs"},
-    {"canonical": "aws", "label": "AWS", "cluster": "deployment_and_operations", "n": 160, "frequency": 0.53, "criticality": 0.4, "mentions": {"responsibility": 64, "requirement": 80, "nice_to_have": 16}, "crit_n": 160, "low_n": false, "evidence": "deploy on AWS"},
-    {"canonical": "kubernetes", "label": "Kubernetes", "cluster": "deployment_and_operations", "n": 75, "frequency": 0.25, "criticality": 0.45, "mentions": {"responsibility": 34, "requirement": 30, "nice_to_have": 11}, "crit_n": 75, "low_n": false, "evidence": "experience with Kubernetes"},
-    {"canonical": "stakeholder_communication", "label": "Stakeholder communication", "cluster": "customer_delivery", "n": 60, "frequency": 0.2, "criticality": 0.85, "mentions": {"responsibility": 51, "requirement": 8, "nice_to_have": 1}, "crit_n": 60, "low_n": false, "evidence": "present outcomes to executive stakeholders"},
-    {"canonical": "scoping", "label": "Scoping & discovery", "cluster": "customer_delivery", "n": 130, "frequency": 0.43, "criticality": 0.8, "mentions": {"responsibility": 104, "requirement": 22, "nice_to_have": 4}, "crit_n": 130, "low_n": false, "evidence": "scope engagements with customers"},
-    {"canonical": "product_sense", "label": "Product sense", "cluster": "product_thinking_and_communication", "n": 12, "frequency": 0.04, "criticality": 0.75, "mentions": {"responsibility": 9, "requirement": 3, "nice_to_have": 0}, "crit_n": 12, "low_n": false, "evidence": "translate user needs into product feedback"}
+ "meta": {
+  "n_postings": 300,
+  "n_companies": 80,
+  "date_range": [
+   "2026-05-01",
+   "2026-09-14"
   ],
-  "clusters": [
-    {"key": "software_foundations", "label": "Software foundations", "coverage": 0.97, "skills": ["python", "typescript"]},
-    {"key": "ai_application_engineering", "label": "AI application engineering", "coverage": 0.9, "skills": ["llm_apis", "rag", "evals"]},
-    {"key": "data_and_integrations", "label": "Data & integrations", "coverage": 0.8, "skills": ["sql", "rest_apis"]},
-    {"key": "deployment_and_operations", "label": "Deployment & operations", "coverage": 0.65, "skills": ["aws", "kubernetes"]},
-    {"key": "customer_delivery", "label": "Customer delivery", "coverage": 0.7, "skills": ["stakeholder_communication", "scoping"]},
-    {"key": "product_thinking_and_communication", "label": "Product thinking & communication", "coverage": 0.3, "skills": ["product_sense"]}
+  "generated_at": "2026-09-14T00:00:00Z",
+  "model": "claude-sonnet-5",
+  "collected_on": "2026-09-14",
+  "window": {
+   "from": "2025-09-14",
+   "to": "2026-09-14",
+   "collected": 300,
+   "excluded_older": 0
+  },
+  "criticality_basis": {
+   "postings": 240,
+   "of": 300,
+   "spearman_vs_all": 0.99,
+   "quadrant_flips": 2,
+   "skills": 11
+  },
+  "open_vocab": null,
+  "hn_threads": {
+   "months": 8,
+   "first": "2026-02",
+   "last": "2026-09"
+  },
+  "sources": [
+   {
+    "name": "greenhouse",
+    "fetched": 4000,
+    "matched": 140,
+    "kept": 120
+   },
+   {
+    "name": "lever",
+    "fetched": 1500,
+    "matched": 60,
+    "kept": 50
+   },
+   {
+    "name": "ashby",
+    "fetched": 3000,
+    "matched": 90,
+    "kept": 80
+   },
+   {
+    "name": "hn",
+    "fetched": 900,
+    "matched": 40,
+    "kept": 35
+   },
+   {
+    "name": "remotive",
+    "fetched": 200,
+    "matched": 10,
+    "kept": 8
+   },
+   {
+    "name": "arbeitnow",
+    "fetched": 5000,
+    "matched": 9,
+    "kept": 7
+   }
   ],
-  "scatter": {"median_frequency": 0.45, "median_criticality": 0.55,
-              "outliers": [{"canonical": "python", "note": "Everyone asks, few make it the job"},
-                           {"canonical": "stakeholder_communication", "note": "Rarely listed, always the job"}]},
-  "stacks": [{"name": "LLM app core", "skills": ["python", "llm_apis", "rag", "evals"], "support": 80},
-             {"name": "Enterprise plumbing", "skills": ["rest_apis", "sql", "aws"], "support": 60},
-             {"name": "Field delivery", "skills": ["scoping", "stakeholder_communication"], "support": 45}],
-  "market": {"seniority": {"junior": 5, "mid": 90, "senior": 150, "staff_plus": 25, "unspecified": 30},
-             "years": {"0-2": 10, "3-5": 120, "6-9": 80, "10+": 20, "unspecified": 70},
-             "travel": {"none": 60, "occasional": 120, "frequent": 50, "unspecified": 70},
-             "customer_facing": {"1": 10, "2": 30, "3": 80, "4": 110, "5": 70},
-             "verbs": [["build", 210], ["deploy", 180], ["integrate", 150], ["partner", 120], ["scope", 100], ["own", 95], ["prototype", 90], ["evaluate", 80], ["translate", 70], ["lead", 60], ["design", 55], ["debug", 50], ["present", 45], ["iterate", 40], ["document", 30]],
-             "segment_n": {"startup": 106, "enterprise": 58},
-             "segment_deltas": [{"skill": "kubernetes", "startup": 0.15, "enterprise": 0.45}, {"skill": "typescript", "startup": 0.55, "enterprise": 0.3}]},
-  "gap": [{"canonical": "scoping", "label": "Scoping & discovery", "frequency": 0.43}]
+  "segmentation": {
+   "header": 240,
+   "inferred": 60
+  },
+  "rejects": 41,
+  "adzuna_used": false
+ },
+ "skills": [
+  {
+   "canonical": "python",
+   "label": "Python",
+   "cluster": "software_foundations",
+   "n": 270,
+   "frequency": 0.9,
+   "criticality": 0.28,
+   "mentions": {
+    "responsibility": 80,
+    "requirement": 170,
+    "nice_to_have": 20
+   },
+   "crit_n": 270,
+   "low_n": false,
+   "evidence": "Strong proficiency in Python"
+  },
+  {
+   "canonical": "typescript",
+   "label": "TypeScript",
+   "cluster": "software_foundations",
+   "n": 120,
+   "frequency": 0.4,
+   "criticality": 0.35,
+   "mentions": {
+    "responsibility": 42,
+    "requirement": 60,
+    "nice_to_have": 18
+   },
+   "crit_n": 120,
+   "low_n": false,
+   "evidence": "experience with TypeScript/React"
+  },
+  {
+   "canonical": "llm_apis",
+   "label": "LLM APIs",
+   "cluster": "ai_application_engineering",
+   "n": 240,
+   "frequency": 0.8,
+   "criticality": 0.55,
+   "mentions": {
+    "responsibility": 132,
+    "requirement": 90,
+    "nice_to_have": 18
+   },
+   "crit_n": 240,
+   "low_n": false,
+   "evidence": "build applications on top of LLM APIs"
+  },
+  {
+   "canonical": "rag",
+   "label": "RAG",
+   "cluster": "ai_application_engineering",
+   "n": 150,
+   "frequency": 0.5,
+   "criticality": 0.6,
+   "mentions": {
+    "responsibility": 90,
+    "requirement": 50,
+    "nice_to_have": 10
+   },
+   "crit_n": 150,
+   "low_n": false,
+   "evidence": "design retrieval-augmented pipelines"
+  },
+  {
+   "canonical": "evals",
+   "label": "Evals",
+   "cluster": "ai_application_engineering",
+   "n": 90,
+   "frequency": 0.3,
+   "criticality": 0.7,
+   "mentions": {
+    "responsibility": 63,
+    "requirement": 22,
+    "nice_to_have": 5
+   },
+   "crit_n": 90,
+   "low_n": false,
+   "evidence": "own evaluation frameworks for model quality"
+  },
+  {
+   "canonical": "sql",
+   "label": "SQL",
+   "cluster": "data_and_integrations",
+   "n": 180,
+   "frequency": 0.6,
+   "criticality": 0.3,
+   "mentions": {
+    "responsibility": 54,
+    "requirement": 110,
+    "nice_to_have": 16
+   },
+   "crit_n": 180,
+   "low_n": false,
+   "evidence": "comfortable writing SQL"
+  },
+  {
+   "canonical": "rest_apis",
+   "label": "REST / API integration",
+   "cluster": "data_and_integrations",
+   "n": 200,
+   "frequency": 0.67,
+   "criticality": 0.62,
+   "mentions": {
+    "responsibility": 124,
+    "requirement": 66,
+    "nice_to_have": 10
+   },
+   "crit_n": 200,
+   "low_n": false,
+   "evidence": "integrate with customer systems via APIs"
+  },
+  {
+   "canonical": "aws",
+   "label": "AWS",
+   "cluster": "deployment_and_operations",
+   "n": 160,
+   "frequency": 0.53,
+   "criticality": 0.4,
+   "mentions": {
+    "responsibility": 64,
+    "requirement": 80,
+    "nice_to_have": 16
+   },
+   "crit_n": 160,
+   "low_n": false,
+   "evidence": "deploy on AWS"
+  },
+  {
+   "canonical": "kubernetes",
+   "label": "Kubernetes",
+   "cluster": "deployment_and_operations",
+   "n": 75,
+   "frequency": 0.25,
+   "criticality": 0.45,
+   "mentions": {
+    "responsibility": 34,
+    "requirement": 30,
+    "nice_to_have": 11
+   },
+   "crit_n": 75,
+   "low_n": false,
+   "evidence": "experience with Kubernetes"
+  },
+  {
+   "canonical": "stakeholder_communication",
+   "label": "Stakeholder communication",
+   "cluster": "customer_delivery",
+   "n": 60,
+   "frequency": 0.2,
+   "criticality": 0.85,
+   "mentions": {
+    "responsibility": 51,
+    "requirement": 8,
+    "nice_to_have": 1
+   },
+   "crit_n": 60,
+   "low_n": false,
+   "evidence": "present outcomes to executive stakeholders"
+  },
+  {
+   "canonical": "scoping",
+   "label": "Scoping & discovery",
+   "cluster": "customer_delivery",
+   "n": 130,
+   "frequency": 0.43,
+   "criticality": 0.8,
+   "mentions": {
+    "responsibility": 104,
+    "requirement": 22,
+    "nice_to_have": 4
+   },
+   "crit_n": 130,
+   "low_n": false,
+   "evidence": "scope engagements with customers"
+  },
+  {
+   "canonical": "product_sense",
+   "label": "Product sense",
+   "cluster": "product_thinking_and_communication",
+   "n": 12,
+   "frequency": 0.04,
+   "criticality": 0.75,
+   "mentions": {
+    "responsibility": 9,
+    "requirement": 3,
+    "nice_to_have": 0
+   },
+   "crit_n": 12,
+   "low_n": false,
+   "evidence": "translate user needs into product feedback"
+  }
+ ],
+ "clusters": [
+  {
+   "key": "software_foundations",
+   "label": "Software foundations",
+   "coverage": 0.97,
+   "skills": [
+    "python",
+    "typescript"
+   ]
+  },
+  {
+   "key": "ai_application_engineering",
+   "label": "AI application engineering",
+   "coverage": 0.9,
+   "skills": [
+    "llm_apis",
+    "rag",
+    "evals"
+   ]
+  },
+  {
+   "key": "data_and_integrations",
+   "label": "Data & integrations",
+   "coverage": 0.8,
+   "skills": [
+    "sql",
+    "rest_apis"
+   ]
+  },
+  {
+   "key": "deployment_and_operations",
+   "label": "Deployment & operations",
+   "coverage": 0.65,
+   "skills": [
+    "aws",
+    "kubernetes"
+   ]
+  },
+  {
+   "key": "customer_delivery",
+   "label": "Customer delivery",
+   "coverage": 0.7,
+   "skills": [
+    "stakeholder_communication",
+    "scoping"
+   ]
+  },
+  {
+   "key": "product_thinking_and_communication",
+   "label": "Product thinking & communication",
+   "coverage": 0.3,
+   "skills": [
+    "product_sense"
+   ]
+  }
+ ],
+ "scatter": {
+  "median_frequency": 0.45,
+  "median_criticality": 0.55,
+  "outliers": [
+   {
+    "canonical": "python",
+    "note": "Everyone asks, few make it the job"
+   },
+   {
+    "canonical": "stakeholder_communication",
+    "note": "Rarely listed, always the job"
+   }
+  ]
+ },
+ "stacks": [
+  {
+   "name": "LLM app core",
+   "skills": [
+    "python",
+    "llm_apis",
+    "rag",
+    "evals"
+   ],
+   "support": 80
+  },
+  {
+   "name": "Enterprise plumbing",
+   "skills": [
+    "rest_apis",
+    "sql",
+    "aws"
+   ],
+   "support": 60
+  },
+  {
+   "name": "Field delivery",
+   "skills": [
+    "scoping",
+    "stakeholder_communication"
+   ],
+   "support": 45
+  }
+ ],
+ "market": {
+  "seniority": {
+   "junior": 5,
+   "mid": 90,
+   "senior": 150,
+   "staff_plus": 25,
+   "unspecified": 30
+  },
+  "years": {
+   "0-2": 10,
+   "3-5": 120,
+   "6-9": 80,
+   "10+": 20,
+   "unspecified": 70
+  },
+  "travel": {
+   "none": 60,
+   "occasional": 120,
+   "frequent": 50,
+   "unspecified": 70
+  },
+  "customer_facing": {
+   "1": 10,
+   "2": 30,
+   "3": 80,
+   "4": 110,
+   "5": 70
+  },
+  "verbs": [
+   [
+    "build",
+    210
+   ],
+   [
+    "deploy",
+    180
+   ],
+   [
+    "integrate",
+    150
+   ],
+   [
+    "partner",
+    120
+   ],
+   [
+    "scope",
+    100
+   ],
+   [
+    "own",
+    95
+   ],
+   [
+    "prototype",
+    90
+   ],
+   [
+    "evaluate",
+    80
+   ],
+   [
+    "translate",
+    70
+   ],
+   [
+    "lead",
+    60
+   ],
+   [
+    "design",
+    55
+   ],
+   [
+    "debug",
+    50
+   ],
+   [
+    "present",
+    45
+   ],
+   [
+    "iterate",
+    40
+   ],
+   [
+    "document",
+    30
+   ]
+  ],
+  "segment_n": {
+   "startup": 106,
+   "enterprise": 58
+  },
+  "segment_deltas": [
+   {
+    "skill": "kubernetes",
+    "startup": 0.15,
+    "enterprise": 0.45
+   },
+   {
+    "skill": "typescript",
+    "startup": 0.55,
+    "enterprise": 0.3
+   }
+  ],
+  "segment_freq": [
+   {
+    "skill": "python",
+    "startup": 0.9,
+    "enterprise": 0.9
+   },
+   {
+    "skill": "scoping",
+    "startup": 0.7,
+    "enterprise": 0.3
+   }
+  ]
+ },
+ "gap": [
+  {
+   "canonical": "scoping",
+   "label": "Scoping & discovery",
+   "frequency": 0.43
+  }
+ ]
 }

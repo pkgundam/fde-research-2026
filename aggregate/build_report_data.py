@@ -115,6 +115,7 @@ def build(exs: list[Extraction], postings: list[Posting], stats: list[dict], n_r
     mkt = market.distributions(exs)
     mkt["segment_n"] = market.segment_n(postings)
     mkt["segment_deltas"] = market.segment_deltas(exs, postings)
+    mkt["segment_freq"] = market.segment_freq(exs, postings)
     dates = sorted(p.posted_date for p in postings if p.posted_date)
     collected_on = collect_meta["collected_at"][:10] if collect_meta else generated_at[:10]
     cluster_of = {c: tx.cluster_of(c) for c in freq}

@@ -45,6 +45,13 @@ def test_segment_deltas():
 
     assert market.segment_n(posts) == {"startup": 3, "enterprise": 2}
 
+    # segment_freq keeps every skill, including the ones with no delta, and still excludes hn
+    f = {x["skill"]: x for x in market.segment_freq(exs, posts)}
+    assert f["python"] == {"skill": "python", "startup": 1.0, "enterprise": 1.0}
+    assert f["scoping"] == {"skill": "scoping", "startup": 1.0, "enterprise": 0.0}
+    assert "kubernetes" not in f
+    assert [x["skill"] for x in market.segment_freq(exs, posts)][0] == "python"  # highest combined share first
+
 
 def test_gap():
     freq = {"python": {"frequency": 0.9}, "scoping": {"frequency": 0.4}, "rag": {"frequency": 0.5},

@@ -6,7 +6,7 @@
       "2025-09-16",
       "2026-09-14"
     ],
-    "generated_at": "2026-09-15T04:36:36.721478+00:00",
+    "generated_at": "2026-09-15T05:14:54.933296+00:00",
     "model": "claude-sonnet-5",
     "collected_on": "2026-09-15",
     "criticality_basis": {
@@ -1820,6 +1820,408 @@
         "startup": 0.144,
         "enterprise": 0.295
       }
+    ],
+    "segment_freq": [
+      {
+        "skill": "customer_facing",
+        "startup": 0.829,
+        "enterprise": 0.886
+      },
+      {
+        "skill": "cross_functional",
+        "startup": 0.712,
+        "enterprise": 0.864
+      },
+      {
+        "skill": "product_feedback_loop",
+        "startup": 0.712,
+        "enterprise": 0.75
+      },
+      {
+        "skill": "system_design",
+        "startup": 0.631,
+        "enterprise": 0.818
+      },
+      {
+        "skill": "stakeholder_communication",
+        "startup": 0.64,
+        "enterprise": 0.773
+      },
+      {
+        "skill": "implementation_onboarding",
+        "startup": 0.721,
+        "enterprise": 0.659
+      },
+      {
+        "skill": "scoping",
+        "startup": 0.685,
+        "enterprise": 0.636
+      },
+      {
+        "skill": "ownership_autonomy",
+        "startup": 0.676,
+        "enterprise": 0.614
+      },
+      {
+        "skill": "llm_apis",
+        "startup": 0.604,
+        "enterprise": 0.682
+      },
+      {
+        "skill": "python",
+        "startup": 0.586,
+        "enterprise": 0.568
+      },
+      {
+        "skill": "cost_performance",
+        "startup": 0.432,
+        "enterprise": 0.682
+      },
+      {
+        "skill": "verbal_communication",
+        "startup": 0.541,
+        "enterprise": 0.568
+      },
+      {
+        "skill": "agents",
+        "startup": 0.577,
+        "enterprise": 0.5
+      },
+      {
+        "skill": "travel_onsite",
+        "startup": 0.405,
+        "enterprise": 0.659
+      },
+      {
+        "skill": "expectation_management",
+        "startup": 0.514,
+        "enterprise": 0.545
+      },
+      {
+        "skill": "security_compliance",
+        "startup": 0.441,
+        "enterprise": 0.614
+      },
+      {
+        "skill": "written_communication",
+        "startup": 0.523,
+        "enterprise": 0.523
+      },
+      {
+        "skill": "learning_agility",
+        "startup": 0.396,
+        "enterprise": 0.568
+      },
+      {
+        "skill": "debugging",
+        "startup": 0.477,
+        "enterprise": 0.432
+      },
+      {
+        "skill": "prototyping",
+        "startup": 0.568,
+        "enterprise": 0.341
+      },
+      {
+        "skill": "rest_apis",
+        "startup": 0.441,
+        "enterprise": 0.455
+      },
+      {
+        "skill": "consulting",
+        "startup": 0.36,
+        "enterprise": 0.523
+      },
+      {
+        "skill": "training_enablement",
+        "startup": 0.387,
+        "enterprise": 0.432
+      },
+      {
+        "skill": "evals",
+        "startup": 0.396,
+        "enterprise": 0.341
+      },
+      {
+        "skill": "typescript",
+        "startup": 0.351,
+        "enterprise": 0.364
+      },
+      {
+        "skill": "business_acumen",
+        "startup": 0.306,
+        "enterprise": 0.364
+      },
+      {
+        "skill": "ml_fundamentals",
+        "startup": 0.243,
+        "enterprise": 0.409
+      },
+      {
+        "skill": "aws",
+        "startup": 0.189,
+        "enterprise": 0.432
+      },
+      {
+        "skill": "data_pipelines",
+        "startup": 0.108,
+        "enterprise": 0.5
+      },
+      {
+        "skill": "project_management",
+        "startup": 0.261,
+        "enterprise": 0.341
+      },
+      {
+        "skill": "observability",
+        "startup": 0.252,
+        "enterprise": 0.341
+      },
+      {
+        "skill": "cloud_platforms",
+        "startup": 0.225,
+        "enterprise": 0.364
+      },
+      {
+        "skill": "mentoring_leadership",
+        "startup": 0.27,
+        "enterprise": 0.318
+      },
+      {
+        "skill": "metrics_measurement",
+        "startup": 0.315,
+        "enterprise": 0.273
+      },
+      {
+        "skill": "pre_sales",
+        "startup": 0.36,
+        "enterprise": 0.227
+      },
+      {
+        "skill": "model_serving",
+        "startup": 0.216,
+        "enterprise": 0.364
+      },
+      {
+        "skill": "domain_expertise",
+        "startup": 0.369,
+        "enterprise": 0.205
+      },
+      {
+        "skill": "azure",
+        "startup": 0.162,
+        "enterprise": 0.409
+      },
+      {
+        "skill": "gcp",
+        "startup": 0.126,
+        "enterprise": 0.409
+      },
+      {
+        "skill": "sql",
+        "startup": 0.162,
+        "enterprise": 0.341
+      },
+      {
+        "skill": "product_sense",
+        "startup": 0.225,
+        "enterprise": 0.273
+      },
+      {
+        "skill": "prioritization",
+        "startup": 0.279,
+        "enterprise": 0.205
+      },
+      {
+        "skill": "technical_support",
+        "startup": 0.171,
+        "enterprise": 0.295
+      },
+      {
+        "skill": "java",
+        "startup": 0.054,
+        "enterprise": 0.409
+      },
+      {
+        "skill": "rag",
+        "startup": 0.189,
+        "enterprise": 0.273
+      },
+      {
+        "skill": "react",
+        "startup": 0.144,
+        "enterprise": 0.295
+      },
+      {
+        "skill": "guardrails_safety",
+        "startup": 0.198,
+        "enterprise": 0.227
+      },
+      {
+        "skill": "analytics",
+        "startup": 0.045,
+        "enterprise": 0.341
+      },
+      {
+        "skill": "kubernetes",
+        "startup": 0.225,
+        "enterprise": 0.159
+      },
+      {
+        "skill": "incident_response",
+        "startup": 0.198,
+        "enterprise": 0.182
+      },
+      {
+        "skill": "on_prem_airgapped",
+        "startup": 0.162,
+        "enterprise": 0.205
+      },
+      {
+        "skill": "ci_cd",
+        "startup": 0.09,
+        "enterprise": 0.273
+      },
+      {
+        "skill": "networking",
+        "startup": 0.135,
+        "enterprise": 0.227
+      },
+      {
+        "skill": "git",
+        "startup": 0.081,
+        "enterprise": 0.273
+      },
+      {
+        "skill": "enterprise_systems",
+        "startup": 0.171,
+        "enterprise": 0.182
+      },
+      {
+        "skill": "prompt_engineering",
+        "startup": 0.189,
+        "enterprise": 0.114
+      },
+      {
+        "skill": "go",
+        "startup": 0.108,
+        "enterprise": 0.182
+      },
+      {
+        "skill": "testing",
+        "startup": 0.153,
+        "enterprise": 0.136
+      },
+      {
+        "skill": "auth_identity",
+        "startup": 0.171,
+        "enterprise": 0.114
+      },
+      {
+        "skill": "llm_frameworks",
+        "startup": 0.099,
+        "enterprise": 0.159
+      },
+      {
+        "skill": "data_modeling",
+        "startup": 0.09,
+        "enterprise": 0.159
+      },
+      {
+        "skill": "llm_observability",
+        "startup": 0.063,
+        "enterprise": 0.182
+      },
+      {
+        "skill": "iac",
+        "startup": 0.108,
+        "enterprise": 0.136
+      },
+      {
+        "skill": "data_warehouses",
+        "startup": 0.027,
+        "enterprise": 0.182
+      },
+      {
+        "skill": "shell",
+        "startup": 0.099,
+        "enterprise": 0.091
+      },
+      {
+        "skill": "docker",
+        "startup": 0.09,
+        "enterprise": 0.091
+      },
+      {
+        "skill": "fine_tuning",
+        "startup": 0.099,
+        "enterprise": 0.068
+      },
+      {
+        "skill": "vector_databases",
+        "startup": 0.072,
+        "enterprise": 0.091
+      },
+      {
+        "skill": "cpp",
+        "startup": 0.036,
+        "enterprise": 0.114
+      },
+      {
+        "skill": "data_quality",
+        "startup": 0.063,
+        "enterprise": 0.068
+      },
+      {
+        "skill": "rust",
+        "startup": 0.036,
+        "enterprise": 0.091
+      },
+      {
+        "skill": "nosql",
+        "startup": 0.054,
+        "enterprise": 0.068
+      },
+      {
+        "skill": "streaming",
+        "startup": 0.027,
+        "enterprise": 0.091
+      },
+      {
+        "skill": "serverless",
+        "startup": 0.018,
+        "enterprise": 0.091
+      },
+      {
+        "skill": "algorithms",
+        "startup": 0.009,
+        "enterprise": 0.068
+      },
+      {
+        "skill": "gpu_infra",
+        "startup": 0.072,
+        "enterprise": 0.0
+      },
+      {
+        "skill": "unstructured_data",
+        "startup": 0.027,
+        "enterprise": 0.023
+      },
+      {
+        "skill": "speech",
+        "startup": 0.045,
+        "enterprise": 0.0
+      },
+      {
+        "skill": "computer_vision",
+        "startup": 0.018,
+        "enterprise": 0.0
+      },
+      {
+        "skill": "nlp",
+        "startup": 0.018,
+        "enterprise": 0.0
+      }
     ]
   },
   "gap": [
@@ -1849,13 +2251,13 @@
       "frequency": 0.533
     },
     {
-      "canonical": "travel_onsite",
-      "label": "Travel & on-site work",
+      "canonical": "prototyping",
+      "label": "Rapid prototyping & POCs",
       "frequency": 0.413
     },
     {
-      "canonical": "prototyping",
-      "label": "Rapid prototyping & POCs",
+      "canonical": "travel_onsite",
+      "label": "Travel & on-site work",
       "frequency": 0.413
     },
     {

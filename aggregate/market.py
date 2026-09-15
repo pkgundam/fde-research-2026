@@ -48,16 +48,32 @@ def segment_n(postings: list[Posting]) -> dict:
     return {"startup": len(ids["startup"]), "enterprise": len(ids["enterprise"])}
 
 
-def segment_deltas(exs: list[Extraction], postings: list[Posting], freq_threshold: float = 0.15) -> list[dict]:
+def _segment_freq(exs: list[Extraction], postings: list[Posting]) -> tuple[dict[str, float], dict[str, float]]:
+    """Share of postings mentioning each skill, per segment. Empty dicts if either segment is empty."""
     ids = _segment_ids(postings)
     groups = {"startup": [e for e in exs if e.posting_id in ids["startup"]],
               "enterprise": [e for e in exs if e.posting_id in ids["enterprise"]]}
     if not groups["startup"] or not groups["enterprise"]:
-        return []
+        return {}, {}
     def freq(group):
         c = Counter(s for e in group for s in {m.canonical for m in e.skills})
         return {k: v / len(group) for k, v in c.items()}
-    fs, fe = freq(groups["startup"]), freq(groups["enterprise"])
+    return freq(groups["startup"]), freq(groups["enterprise"])
+
+
+def segment_freq(exs: list[Extraction], postings: list[Posting]) -> list[dict]:
+    """Every skill with its startup and enterprise share, no threshold — so a consumer can show
+    a cluster in full (e.g. the AI skills, which mostly do NOT differ between segments and so
+    never appear in segment_deltas). Sorted by combined share, highest first."""
+    fs, fe = _segment_freq(exs, postings)
+    out = [{"skill": skill, "startup": round(fs.get(skill, 0.0), 3), "enterprise": round(fe.get(skill, 0.0), 3)}
+           for skill in set(fs) | set(fe)]
+    return sorted(out, key=lambda d: (-(d["startup"] + d["enterprise"]), d["skill"]))
+
+
+def segment_deltas(exs: list[Extraction], postings: list[Posting], freq_threshold: float = 0.15) -> list[dict]:
+    """Skills whose startup and enterprise shares differ by at least `freq_threshold`, widest gap first."""
+    fs, fe = _segment_freq(exs, postings)
     out = []
     for skill in set(fs) | set(fe):
         a, b = fs.get(skill, 0.0), fe.get(skill, 0.0)
