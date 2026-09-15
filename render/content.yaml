@@ -41,7 +41,7 @@ roadmap:
         skills: [python, git, typescript]
         why: "Python is asked for in 53% of postings — the near-universal baseline — but only 8% of those mentions frame it as the responsibility itself rather than a checkbox. Git follows at 11% asked / 54% responsibility, and TypeScript at 33% asked / 12% responsibility."
       - name: "Stage 2 — Working with real data"
-        skills: [rest_apis, data_modeling, sql]
+        skills: [rest_apis, sql, data_modeling]
         why: "REST/API integration is asked for in 38% of postings and is the responsibility 48% of the time it appears — the clearest sign this is integration work, not algorithm work. Data modelling (8% asked / 46% responsibility) and SQL (20% asked / 18% responsibility) round out the stage."
       - name: "Stage 3 — Production quality"
         skills: [system_design, debugging, testing]

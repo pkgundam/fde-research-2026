@@ -1,6 +1,6 @@
 # FDE Skills Roadmap
 
-What Forward Deployed Engineer roles actually ask for — a skills report built from 303 live FDE job postings across 154 companies.
+What Forward Deployed Engineer roles actually ask for — a skills report built from 276 FDE job postings (first published in the 12 months before collection) across 151 companies.
 
 **Report:** open [`fde-roadmap.html`](fde-roadmap.html) in a browser. It is a single self-contained file (inline CSS/JS; Chart.js loaded from cdnjs).
 
@@ -11,13 +11,13 @@ What Forward Deployed Engineer roles actually ask for — a skills report built 
 3. Frequency vs criticality — how often a skill is asked for vs how often it *is the job* — as a quadrant panel and a scatter
 4. Coverage of six capability clusters
 5. A staged learning roadmap (Python for FDE, AI application engineering, integration & deployment, customer delivery & communication)
-6. Market insights: seniority, years, travel, customer-facing intensity, skill stacks that travel together, startup vs enterprise, and what FDE demands that standard AI-engineer roadmaps skip
+6. Market insights: seniority, years, travel, customer-facing intensity, skill stacks that travel together, startup vs enterprise, and what FDE demands that AI-engineer roadmaps do not teach
 7. Four proof projects that exercise all six clusters
 8. Methodology and limitations
 
 ## How it was built
 
-Postings were collected from public job-board APIs only (Greenhouse, Lever, Ashby, Hacker News "Who is hiring?" via Algolia, Remotive, Arbeitnow — no LinkedIn or Indeed), de-duplicated, segmented into responsibilities / requirements / nice-to-have, and passed once each to Claude Sonnet 5 with a fixed prompt and a closed 81-skill taxonomy (`taxonomy.yaml`). Every extracted skill was validated against the taxonomy. Aggregation and rendering are deterministic Python. The full method, numbers and limitations are in section 8 of the report.
+Postings were collected from public job-board APIs only (Greenhouse, Lever, Ashby, Hacker News "Who is hiring?" via Algolia, Remotive, Arbeitnow — no LinkedIn or Indeed), de-duplicated, segmented into responsibilities / requirements / nice-to-have, and passed once each to Claude Sonnet 5 with a fixed prompt and a closed 81-skill taxonomy (`taxonomy.yaml`). Because extraction was restricted to that taxonomy, a separate open-vocabulary pass on a 30-posting sample estimates what it misses (88% of freely named skills map to a node; the main gap is AI coding assistants). Aggregation and rendering are deterministic Python. The full method, numbers and limitations are in section 8 of the report.
 
 Extraction ran inside Claude Code as subagents (Claude Sonnet 5 via the `sonnet` alias) rather than through the API; the runbook is `.claude/skills/fde-extract/SKILL.md`.
 

@@ -339,10 +339,10 @@ conflicting prose above wherever they overlap.
   "unspecified cloud provider" skill) now lives in `deployment_and_operations`
   next to `aws`, not in `ai_application_engineering`. It was miscategorized —
   it's an infrastructure skill, not an AI-application skill.
-  `STACK_NAME_OVERRIDES` in `build_report_data.py` is re-derived from
-  whatever stacks the current data actually produces (co-occurrence shifts
-  with both this move and the window filter), not hand-frozen; three of the
-  four names survived a membership change (`Pre-sales & field delivery`,
+  `STACK_NAME_OVERRIDES` in `build_report_data.py` is a hand-maintained map
+  keyed by each stack's exact skill set, so it must be re-keyed whenever the
+  data changes (co-occurrence shifts with both this move and the window
+  filter); three of the four names survived a membership change (`Pre-sales & field delivery`,
   `Full-stack builder`, `Cloud infrastructure`), and the fourth was renamed
   from `ML operations & delivery` to `LLM application core` because its new
   membership (evals/RAG/guardrails/prompt-engineering/llm-frameworks) no
@@ -385,3 +385,4 @@ conflicting prose above wherever they overlap.
   constraint in §2 that Section 7 carries a clearly marked placeholder for
   one user-written sentence was never actually satisfied while it was
   missing.
+- Roadmap stage ordering: within a stage, skills are ordered by frequency × criticality descending, except that a track's namesake skill leads its first stage (Python leads "Python for FDE" although Git & code review scores marginally higher).

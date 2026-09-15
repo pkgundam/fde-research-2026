@@ -30,5 +30,5 @@ def test_skill_criticality(six):
 def test_spearman_perfect_and_reversed_and_tied():
     assert criticality.spearman([1, 2, 3, 4, 5], [10, 20, 30, 40, 50]) == 1.0
     assert criticality.spearman([1, 2, 3, 4, 5], [5, 4, 3, 2, 1]) == -1.0
-    # a known tied case: x has a tie at rank (2,3); Pearson-on-ranks value is exactly 0.4
+    # a known tied case: x has a tie at rank (2,3); Pearson on tie-averaged ranks gives 0.9487
     assert round(criticality.spearman([1, 2, 2, 4], [1, 2, 3, 4]), 4) == round(0.9486832980505138, 4)

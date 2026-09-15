@@ -35,4 +35,4 @@ def gaps(freq: dict[str, dict], cluster_of: dict[str, str], *, min_frequency: fl
     out = [{"canonical": c, "frequency": round(v["frequency"], 3)} for c, v in freq.items()
            if v["frequency"] >= min_frequency and cluster_of.get(c) not in TECHNICAL_CLUSTERS
            and c not in GENERIC_PROFESSIONAL]
-    return sorted(out, key=lambda d: -d["frequency"])[:limit]
+    return sorted(out, key=lambda d: (-d["frequency"], d["canonical"]))[:limit]
