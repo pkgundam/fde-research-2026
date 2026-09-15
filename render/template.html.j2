@@ -25,6 +25,10 @@ header.hero{padding-block:var(--s8) var(--s6);border-bottom:1px solid var(--line
 .stat-tile{flex:1 1 140px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:var(--s3) var(--s4)}
 .stat-num{display:block;font-size:1.6rem;font-weight:500;color:var(--text)}
 .stat-label{display:block;font-size:.8rem;color:var(--muted);margin-top:2px}
+.findings{margin-top:var(--s5);background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--violet);border-radius:var(--r);padding:var(--s4) var(--s5)}
+.findings-title{font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--violet);margin-bottom:var(--s2)}
+.findings ol{margin:0;padding-left:1.25em;max-width:none}
+.findings li{margin-bottom:var(--s2);line-height:1.5}.findings li:last-child{margin-bottom:0}.findings b{font-weight:600}
 .hero-toc{display:flex;flex-wrap:wrap;gap:var(--s2);margin-top:var(--s5)}
 .toc-chip{font-size:.8rem;color:var(--muted);background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:3px 12px;text-decoration:none;white-space:nowrap}
 .toc-chip:hover{color:var(--violet);border-color:var(--line-strong)}
@@ -114,6 +118,10 @@ footer span{margin:0}
     <div class="stat-tile"><span class="stat-num mono">{{ data.meta.n_companies }}</span><span class="stat-label">companies</span></div>
     <div class="stat-tile"><span class="stat-num mono">{{ data.meta.sources|selectattr('kept','gt',0)|list|length }}</span><span class="stat-label">sources with postings</span></div>
     <div class="stat-tile"><span class="stat-num mono">{{ data.skills|length }}</span><span class="stat-label">skill taxonomy</span></div>
+  </div>
+  <div class="findings">
+    <div class="findings-title">Key findings</div>
+    <ol>{% for f in data.content.summary %}<li><b>{{ f.lead }}</b> {{ f.text }}</li>{% endfor %}</ol>
   </div>
   <nav class="hero-toc">
     {% for sid, label in [

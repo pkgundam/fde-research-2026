@@ -13,6 +13,7 @@ def test_render_from_fixture_has_all_sections_and_placeholder():
     for sid in SECTION_IDS:
         assert f'id="{sid}"' in html, sid
     assert '<div id="author-note" class="placeholder">YOUR ONE SENTENCE HERE</div>' in html
+    assert "Key findings" in html and html.count("<li><b>") >= 5
     assert 'type="application/json"' in html
     assert "cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js" in html
     assert "chartjs-plugin-annotation/3.0.1" in html

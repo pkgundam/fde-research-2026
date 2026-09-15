@@ -1,3 +1,14 @@
+summary:
+  - lead: "Customer-facing engineering is the most requested skill of all, in 78% of postings."
+    text: "Implementation & onboarding (59%), feeding insight back to product (58%) and scoping (55%) are framed as the job itself 74–91% of the time they appear."
+  - lead: "Python is table stakes, not the job."
+    text: "Asked for in 53% of postings, but only 8% of its mentions describe what you will actually do; TypeScript (33% / 12%) and verbal communication (48% / 19%) follow the same pattern."
+  - lead: "The AI core is LLM APIs and agents."
+    text: "LLM APIs appear in 55% of postings and agents & tool use in 50%; RAG in 17% and vector databases in 6%. Evals appear in a third."
+  - lead: "Eight skills asked for in at least 40% of postings are taught by no standard AI-engineer roadmap:"
+    text: "customer-facing work, implementation, product feedback, scoping, stakeholder communication, travel, rapid prototyping and expectation management."
+  - lead: "This is a senior, on-site role."
+    text: "49% of postings are senior level, 46% rate customer interaction at the maximum, and 31% expect frequent travel. Enterprise postings ask for Java (41% vs 5%) and data pipelines (50% vs 11%) far more than startups, which lean on prototyping (57% vs 34%)."
 flow:
   - step: Discover
     blurb: "Sit with the customer; find the workflow that actually hurts."
