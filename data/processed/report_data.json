@@ -6,7 +6,7 @@
       "2022-06-30",
       "2026-09-14"
     ],
-    "generated_at": "2026-09-15T00:00:30.087820+00:00",
+    "generated_at": "2026-09-15T00:08:29.860627+00:00",
     "model": "claude-sonnet-5",
     "collected_on": "2026-09-15",
     "recent_share": 0.911,
@@ -492,21 +492,6 @@
       "evidence": "Senior Infrastructure Engineer (Remote Europe) - AWS, K8s, Pulumi"
     },
     {
-      "canonical": "project_management",
-      "label": "Project & engagement management",
-      "cluster": "customer_delivery",
-      "n": 74,
-      "frequency": 0.2426,
-      "criticality": 0.6804,
-      "mentions": {
-        "responsibility": 66,
-        "requirement": 26,
-        "nice_to_have": 5
-      },
-      "low_n": false,
-      "evidence": "throughout the lifecycle of an engagement"
-    },
-    {
       "canonical": "observability",
       "label": "Observability & monitoring",
       "cluster": "deployment_and_operations",
@@ -520,6 +505,21 @@
       },
       "low_n": false,
       "evidence": "Wire production observability for everything you ship"
+    },
+    {
+      "canonical": "project_management",
+      "label": "Project & engagement management",
+      "cluster": "customer_delivery",
+      "n": 74,
+      "frequency": 0.2426,
+      "criticality": 0.6804,
+      "mentions": {
+        "responsibility": 66,
+        "requirement": 26,
+        "nice_to_have": 5
+      },
+      "low_n": false,
+      "evidence": "throughout the lifecycle of an engagement"
     },
     {
       "canonical": "pre_sales",
@@ -792,21 +792,6 @@
       "evidence": "prompt and RAG pipelines and evaluation harnesses"
     },
     {
-      "canonical": "ci_cd",
-      "label": "CI/CD",
-      "cluster": "deployment_and_operations",
-      "n": 44,
-      "frequency": 0.1443,
-      "criticality": 0.2857,
-      "mentions": {
-        "responsibility": 16,
-        "requirement": 28,
-        "nice_to_have": 12
-      },
-      "low_n": false,
-      "evidence": "release strategies, CI/CD pipelines, security architecture"
-    },
-    {
       "canonical": "enterprise_systems",
       "label": "Enterprise systems (ERP/CRM)",
       "cluster": "data_and_integrations",
@@ -820,6 +805,21 @@
       },
       "low_n": false,
       "evidence": "interactions with existing customer systems to"
+    },
+    {
+      "canonical": "ci_cd",
+      "label": "CI/CD",
+      "cluster": "deployment_and_operations",
+      "n": 44,
+      "frequency": 0.1443,
+      "criticality": 0.2857,
+      "mentions": {
+        "responsibility": 16,
+        "requirement": 28,
+        "nice_to_have": 12
+      },
+      "low_n": false,
+      "evidence": "release strategies, CI/CD pipelines, security architecture"
     },
     {
       "canonical": "testing",
@@ -1002,21 +1002,6 @@
       "evidence": "low-level C++/ROS2 on the vehicle"
     },
     {
-      "canonical": "iac",
-      "label": "Infrastructure as code",
-      "cluster": "deployment_and_operations",
-      "n": 26,
-      "frequency": 0.0852,
-      "criticality": 0.2258,
-      "mentions": {
-        "responsibility": 7,
-        "requirement": 15,
-        "nice_to_have": 9
-      },
-      "low_n": false,
-      "evidence": "IaC standards, release strategies, CI/CD pipelines"
-    },
-    {
       "canonical": "data_modeling",
       "label": "Data modelling & schemas",
       "cluster": "data_and_integrations",
@@ -1030,6 +1015,21 @@
       },
       "low_n": false,
       "evidence": "API endpoint design and input/output schemas"
+    },
+    {
+      "canonical": "iac",
+      "label": "Infrastructure as code",
+      "cluster": "deployment_and_operations",
+      "n": 26,
+      "frequency": 0.0852,
+      "criticality": 0.2258,
+      "mentions": {
+        "responsibility": 7,
+        "requirement": 15,
+        "nice_to_have": 9
+      },
+      "low_n": false,
+      "evidence": "IaC standards, release strategies, CI/CD pipelines"
     },
     {
       "canonical": "llm_frameworks",
@@ -1429,7 +1429,7 @@
   },
   "stacks": [
     {
-      "name": "Rapid prototyping & POCs + REST / API integration + Training & enablement",
+      "name": "Pre-sales & field delivery",
       "skills": [
         "prototyping",
         "rest_apis",
@@ -1442,7 +1442,7 @@
       "support": 111
     },
     {
-      "name": "Python + Learning agility + TypeScript / JavaScript",
+      "name": "Full-stack builder",
       "skills": [
         "python",
         "learning_agility",
@@ -1455,7 +1455,7 @@
       "support": 107
     },
     {
-      "name": "Performance & cost optimisation + Debugging & troubleshooting + Security & compliance",
+      "name": "Production hardening",
       "skills": [
         "cost_performance",
         "debugging",
@@ -1466,7 +1466,7 @@
       "support": 77
     },
     {
-      "name": "AWS + Google Cloud + Azure",
+      "name": "Cloud infrastructure",
       "skills": [
         "aws",
         "gcp",
@@ -1569,226 +1569,90 @@
         22
       ]
     ],
+    "segment_n": {
+      "startup": 106,
+      "enterprise": 58
+    },
     "segment_deltas": [
       {
-        "skill": "cross_functional",
-        "startup": 0.196,
-        "enterprise": 0.897
-      },
-      {
-        "skill": "stakeholder_communication",
-        "startup": 0.163,
-        "enterprise": 0.672
-      },
-      {
-        "skill": "product_feedback_loop",
-        "startup": 0.163,
-        "enterprise": 0.655
-      },
-      {
         "skill": "java",
-        "startup": 0.011,
-        "enterprise": 0.5
-      },
-      {
-        "skill": "expectation_management",
-        "startup": 0.109,
-        "enterprise": 0.586
-      },
-      {
-        "skill": "learning_agility",
-        "startup": 0.076,
-        "enterprise": 0.552
-      },
-      {
-        "skill": "travel_onsite",
-        "startup": 0.163,
-        "enterprise": 0.638
-      },
-      {
-        "skill": "cost_performance",
-        "startup": 0.196,
-        "enterprise": 0.638
-      },
-      {
-        "skill": "system_design",
-        "startup": 0.37,
-        "enterprise": 0.81
-      },
-      {
-        "skill": "written_communication",
-        "startup": 0.087,
+        "startup": 0.057,
         "enterprise": 0.5
       },
       {
         "skill": "data_pipelines",
-        "startup": 0.109,
+        "startup": 0.123,
         "enterprise": 0.517
       },
       {
-        "skill": "security_compliance",
-        "startup": 0.163,
-        "enterprise": 0.552
-      },
-      {
-        "skill": "verbal_communication",
-        "startup": 0.152,
-        "enterprise": 0.534
-      },
-      {
-        "skill": "python",
-        "startup": 0.293,
-        "enterprise": 0.655
-      },
-      {
-        "skill": "consulting",
-        "startup": 0.087,
-        "enterprise": 0.431
-      },
-      {
-        "skill": "scoping",
-        "startup": 0.239,
-        "enterprise": 0.569
-      },
-      {
-        "skill": "llm_apis",
-        "startup": 0.304,
-        "enterprise": 0.621
-      },
-      {
-        "skill": "debugging",
-        "startup": 0.174,
-        "enterprise": 0.466
-      },
-      {
-        "skill": "analytics",
-        "startup": 0.054,
-        "enterprise": 0.328
-      },
-      {
-        "skill": "ownership_autonomy",
-        "startup": 0.37,
-        "enterprise": 0.638
-      },
-      {
-        "skill": "training_enablement",
-        "startup": 0.087,
-        "enterprise": 0.345
-      },
-      {
-        "skill": "cloud_platforms",
-        "startup": 0.12,
-        "enterprise": 0.362
-      },
-      {
-        "skill": "gcp",
-        "startup": 0.087,
-        "enterprise": 0.328
-      },
-      {
-        "skill": "azure",
-        "startup": 0.087,
-        "enterprise": 0.328
-      },
-      {
-        "skill": "implementation_onboarding",
-        "startup": 0.315,
-        "enterprise": 0.552
-      },
-      {
-        "skill": "business_acumen",
-        "startup": 0.109,
-        "enterprise": 0.345
-      },
-      {
-        "skill": "project_management",
-        "startup": 0.109,
-        "enterprise": 0.345
-      },
-      {
-        "skill": "typescript",
-        "startup": 0.217,
-        "enterprise": 0.448
-      },
-      {
-        "skill": "customer_facing",
-        "startup": 0.609,
-        "enterprise": 0.828
-      },
-      {
-        "skill": "technical_support",
-        "startup": 0.076,
+        "skill": "prototyping",
+        "startup": 0.613,
         "enterprise": 0.293
       },
       {
-        "skill": "aws",
-        "startup": 0.163,
-        "enterprise": 0.379
-      },
-      {
-        "skill": "prioritization",
-        "startup": 0.011,
-        "enterprise": 0.224
-      },
-      {
-        "skill": "react",
-        "startup": 0.12,
+        "skill": "analytics",
+        "startup": 0.038,
         "enterprise": 0.328
       },
       {
+        "skill": "cross_functional",
+        "startup": 0.698,
+        "enterprise": 0.897
+      },
+      {
+        "skill": "cost_performance",
+        "startup": 0.443,
+        "enterprise": 0.638
+      },
+      {
+        "skill": "travel_onsite",
+        "startup": 0.443,
+        "enterprise": 0.638
+      },
+      {
         "skill": "git",
-        "startup": 0.054,
+        "startup": 0.075,
         "enterprise": 0.259
       },
       {
-        "skill": "mentoring_leadership",
-        "startup": 0.054,
-        "enterprise": 0.259
+        "skill": "implementation_onboarding",
+        "startup": 0.736,
+        "enterprise": 0.552
       },
       {
-        "skill": "cpp",
-        "startup": 0.011,
+        "skill": "domain_expertise",
+        "startup": 0.377,
         "enterprise": 0.207
       },
       {
-        "skill": "go",
-        "startup": 0.033,
-        "enterprise": 0.224
+        "skill": "technical_support",
+        "startup": 0.123,
+        "enterprise": 0.293
       },
       {
-        "skill": "ml_fundamentals",
-        "startup": 0.174,
-        "enterprise": 0.362
+        "skill": "cpp",
+        "startup": 0.038,
+        "enterprise": 0.207
       },
       {
-        "skill": "rest_apis",
-        "startup": 0.196,
+        "skill": "pre_sales",
+        "startup": 0.34,
+        "enterprise": 0.172
+      },
+      {
+        "skill": "gcp",
+        "startup": 0.17,
+        "enterprise": 0.328
+      },
+      {
+        "skill": "scoping",
+        "startup": 0.726,
+        "enterprise": 0.569
+      },
+      {
+        "skill": "aws",
+        "startup": 0.226,
         "enterprise": 0.379
-      },
-      {
-        "skill": "observability",
-        "startup": 0.196,
-        "enterprise": 0.362
-      },
-      {
-        "skill": "networking",
-        "startup": 0.076,
-        "enterprise": 0.241
-      },
-      {
-        "skill": "model_serving",
-        "startup": 0.152,
-        "enterprise": 0.31
-      },
-      {
-        "skill": "algorithms",
-        "startup": 0.0,
-        "enterprise": 0.155
-      },
-      {
-        "skill": "ci_cd",
-        "startup": 0.087,
-        "enterprise": 0.241
       }
     ]
   },
@@ -1899,13 +1763,13 @@
       "frequency": 0.272
     },
     {
-      "canonical": "project_management",
-      "label": "Project & engagement management",
+      "canonical": "observability",
+      "label": "Observability & monitoring",
       "frequency": 0.243
     },
     {
-      "canonical": "observability",
-      "label": "Observability & monitoring",
+      "canonical": "project_management",
+      "label": "Project & engagement management",
       "frequency": 0.243
     },
     {

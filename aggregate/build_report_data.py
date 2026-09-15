@@ -14,6 +14,13 @@ from sources.base import PROCESSED_DIR, Posting, normalize_company
 META_MODEL = "claude-sonnet-5"
 OUT = PROCESSED_DIR / "report_data.json"
 
+STACK_NAME_OVERRIDES: dict[frozenset, str] = {
+    frozenset({"prototyping", "rest_apis", "training_enablement", "consulting", "business_acumen", "pre_sales", "enterprise_systems"}): "Pre-sales & field delivery",
+    frozenset({"python", "learning_agility", "typescript", "react", "sql", "product_sense", "data_modeling"}): "Full-stack builder",
+    frozenset({"cost_performance", "debugging", "security_compliance", "observability", "on_prem_airgapped"}): "Production hardening",
+    frozenset({"aws", "gcp", "azure", "kubernetes", "ci_cd", "docker", "iac"}): "Cloud infrastructure",
+}
+
 
 def _outliers(skills: list[dict], mx: float, my: float) -> list[dict]:
     solid = [s for s in skills if not s["low_n"]]
@@ -26,6 +33,9 @@ def _outliers(skills: list[dict], mx: float, my: float) -> list[dict]:
 
 
 def _stack_name(skills: list[str], tx: taxonomy.Taxonomy) -> str:
+    override = STACK_NAME_OVERRIDES.get(frozenset(skills))
+    if override:
+        return override
     return " + ".join(tx.labels.get(s, s) for s in skills[:3])
 
 
@@ -50,6 +60,7 @@ def build(exs: list[Extraction], postings: list[Posting], stats: list[dict], n_r
     stacks = [{"name": _stack_name(s["skills"], tx), "skills": s["skills"], "support": s["support"]}
               for s in cooccurrence.cluster_stacks(pairs, postings=sets)]
     mkt = market.distributions(exs)
+    mkt["segment_n"] = market.segment_n(postings)
     mkt["segment_deltas"] = market.segment_deltas(exs, postings)
     dates = sorted(p.posted_date for p in postings if p.posted_date)
     collected_on = generated_at[:10]

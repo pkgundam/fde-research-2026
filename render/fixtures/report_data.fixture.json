@@ -42,6 +42,7 @@
              "travel": {"none": 60, "occasional": 120, "frequent": 50, "unspecified": 70},
              "customer_facing": {"1": 10, "2": 30, "3": 80, "4": 110, "5": 70},
              "verbs": [["build", 210], ["deploy", 180], ["integrate", 150], ["partner", 120], ["scope", 100], ["own", 95], ["prototype", 90], ["evaluate", 80], ["translate", 70], ["lead", 60], ["design", 55], ["debug", 50], ["present", 45], ["iterate", 40], ["document", 30]],
+             "segment_n": {"startup": 106, "enterprise": 58},
              "segment_deltas": [{"skill": "kubernetes", "startup": 0.15, "enterprise": 0.45}, {"skill": "typescript", "startup": 0.55, "enterprise": 0.3}]},
   "gap": [{"canonical": "scoping", "label": "Scoping & discovery", "frequency": 0.43},
           {"canonical": "rest_apis", "label": "REST / API integration", "frequency": 0.67},

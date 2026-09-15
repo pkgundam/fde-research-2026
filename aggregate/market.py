@@ -32,10 +32,26 @@ def distributions(exs: list[Extraction]) -> dict:
     }
 
 
+STARTUP_HINTS = {"startup", "scaleup"}
+ENTERPRISE_HINTS = {"enterprise"}
+
+
+def _segment_ids(postings: list[Posting]) -> dict[str, set[str]]:
+    """Posting ids per segment, excluding HN postings (short/unstructured; skew the comparison)."""
+    non_hn = [p for p in postings if p.source != "hn"]
+    return {"startup": {p.id for p in non_hn if p.company_size_hint in STARTUP_HINTS},
+            "enterprise": {p.id for p in non_hn if p.company_size_hint in ENTERPRISE_HINTS}}
+
+
+def segment_n(postings: list[Posting]) -> dict:
+    ids = _segment_ids(postings)
+    return {"startup": len(ids["startup"]), "enterprise": len(ids["enterprise"])}
+
+
 def segment_deltas(exs: list[Extraction], postings: list[Posting], freq_threshold: float = 0.15) -> list[dict]:
-    hint = {p.id: p.company_size_hint for p in postings}
-    groups = {"startup": [e for e in exs if hint.get(e.posting_id) == "startup"],
-              "enterprise": [e for e in exs if hint.get(e.posting_id) == "enterprise"]}
+    ids = _segment_ids(postings)
+    groups = {"startup": [e for e in exs if e.posting_id in ids["startup"]],
+              "enterprise": [e for e in exs if e.posting_id in ids["enterprise"]]}
     if not groups["startup"] or not groups["enterprise"]:
         return []
     def freq(group):

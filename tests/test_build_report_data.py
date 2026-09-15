@@ -23,3 +23,14 @@ def test_build_matches_fixture_shape(six):
     assert set(d["market"]) == set(FIX_KEYS["market"])
     assert all(set(g) == {"canonical", "label", "frequency"} for g in d["gap"])
     assert all(set(s) == {"name", "skills", "support"} for s in d["stacks"])
+
+
+def test_stack_name_override_and_auto_name():
+    tx = taxonomy.load()
+    overridden_skills = ["prototyping", "rest_apis", "training_enablement", "consulting",
+                          "business_acumen", "pre_sales", "enterprise_systems"]
+    assert b._stack_name(overridden_skills, tx) == "Pre-sales & field delivery"
+
+    auto_skills = ["python", "llm_apis", "rag"]
+    assert frozenset(auto_skills) not in b.STACK_NAME_OVERRIDES
+    assert b._stack_name(auto_skills, tx) == " + ".join(tx.labels[c] for c in auto_skills[:3])
