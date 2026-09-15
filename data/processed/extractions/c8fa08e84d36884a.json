@@ -1,0 +1,57 @@
+{
+  "posting_id": "c8fa08e84d36884a",
+  "skills": [
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "experience with Python and data science fundamentals"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "experience with Python and data science fundamentals"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "help build out demos, docs, resources, integrations"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "build out demos, docs, resources, integrations"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "build out demos, docs, resources, integrations"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "driving product adoption directly with customers"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "enjoy business as much as tech"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "passionate about building, has shipped real software"
+    }
+  ],
+  "seniority": "junior",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "build",
+    "drive",
+    "document",
+    "integrate",
+    "ship"
+  ],
+  "segmentation_quality": "inferred"
+}

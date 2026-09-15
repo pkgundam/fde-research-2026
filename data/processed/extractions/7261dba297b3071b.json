@@ -1,0 +1,172 @@
+{
+  "posting_id": "7261dba297b3071b",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "independently lead technical engagements for customers"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "owning discovery, solution design, and platform demonstrations"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "owning discovery, solution design, and platform demonstrations"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Build and deliver compelling proofs-of-concept and live demos"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "responsibility",
+      "evidence": "combining technical depth with customer-facing skills"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "work with your Account Executive to develop technical strategies"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "responsibility",
+      "evidence": "customer workloads spanning data engineering, analytics"
+    },
+    {
+      "canonical": "analytics",
+      "section": "responsibility",
+      "evidence": "customer workloads spanning data engineering, analytics"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "responsibility",
+      "evidence": "data engineering, analytics, and machine learning"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "technical strategies to grow platform consumption"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Contribute reusable technical assets (notebooks, solution accelerators"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "requirement",
+      "evidence": "4+ years in data engineering, solutions architecture"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "requirement",
+      "evidence": "technical pre-sales, or a hands-on consulting role"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "technical pre-sales, or a hands-on consulting role"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Proficient in Python and SQL"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "Proficient in Python and SQL"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "demonstrated ability to debug, optimise"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "debug, optimise, and write production-quality code"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "public cloud platform (AWS, Azure, or GCP)"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "public cloud platform (AWS, Azure, or GCP)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "public cloud platform (AWS, Azure, or GCP)"
+    },
+    {
+      "canonical": "streaming",
+      "section": "requirement",
+      "evidence": "equivalent (Hadoop, Kafka, Flink)"
+    },
+    {
+      "canonical": "data_warehouses",
+      "section": "requirement",
+      "evidence": "Apache Spark™, Delta Lake, or equivalent"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "leading technical customer conversations — discovery, whiteboarding"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "leading technical customer conversations — discovery, whiteboarding"
+    },
+    {
+      "canonical": "analytics",
+      "section": "requirement",
+      "evidence": "data science/ML (model training, MLOps), or SQL analytics"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Strong presentation and demo skills"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "requirement",
+      "evidence": "build and present a live solution during the interview"
+    },
+    {
+      "canonical": "data_warehouses",
+      "section": "nice_to_have",
+      "evidence": "Databricks certification or experience with the Databricks Platform"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "nice_to_have",
+      "evidence": "Unity Catalog, Lakeflow Spark Declarative Pipelines, or MLflow"
+    },
+    {
+      "canonical": "consulting",
+      "section": "nice_to_have",
+      "evidence": "Background at a data/AI company, cloud provider"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 4,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "lead",
+    "own",
+    "build",
+    "present",
+    "develop"
+  ],
+  "segmentation_quality": "header"
+}

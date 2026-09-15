@@ -1,0 +1,27 @@
+{
+  "posting_id": "181a413392e3caa1",
+  "skills": [
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "solving the $3T accounts receivables problem with AI"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "building at the app layer (not training/tuning anything)"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "none",
+  "customer_facing_intensity": 3,
+  "responsibility_verbs": [
+    "build",
+    "solve",
+    "scale",
+    "ship",
+    "deploy"
+  ],
+  "segmentation_quality": "inferred"
+}

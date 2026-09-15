@@ -1,0 +1,172 @@
+{
+  "posting_id": "791dc967ecbc2137",
+  "skills": [
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "deeply understand their challenges and define"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "Partner with public sector clients to"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "Build and deploy end-to-end AI applications"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Collaborate with cross-functional teams, including data"
+    },
+    {
+      "canonical": "data_quality",
+      "section": "responsibility",
+      "evidence": "create high-quality training datasets"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "Design and maintain robust evaluation frameworks"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Participate in customer engagements, including occasional"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "occasional travel (approximately two weeks per"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "hands-on knowledge sharing"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "responsibility",
+      "evidence": "fine-tuning these sophisticated models to maximize"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "Upskilling and advisory services to spread"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "proficiency in languages such as Python"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Python, TypeScript/JavaScript, Java, or C++"
+    },
+    {
+      "canonical": "java",
+      "section": "requirement",
+      "evidence": "TypeScript/JavaScript, Java, or C++."
+    },
+    {
+      "canonical": "cpp",
+      "section": "requirement",
+      "evidence": "Java, or C++."
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "deploying deep learning solutions"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "building generative/agentic AI applications or"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "setting up evaluations pipelines"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "cloud-based machine learning tools and platforms"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "cloud-based machine learning tools and platforms"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "cloud-based machine learning tools and platforms"
+    },
+    {
+      "canonical": "data_quality",
+      "section": "requirement",
+      "evidence": "iterating on machine learning models and datasets"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "Excellent written and verbal communication skills"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Excellent written and verbal communication skills"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "collaborate effectively in a cross-functional environment"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "nice_to_have",
+      "evidence": "startup, particularly as founding engineer"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "nice_to_have",
+      "evidence": "building and deploying large-scale AI solutions"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "nice_to_have",
+      "evidence": "written and verbal communication skills to operate"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "nice_to_have",
+      "evidence": "written and verbal communication skills to operate"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "nice_to_have",
+      "evidence": "operate in a cross-functional team environment"
+    },
+    {
+      "canonical": "nlp",
+      "section": "nice_to_have",
+      "evidence": "Proficiency in Arabic (if focused on"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 7,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "partner",
+    "build",
+    "deploy",
+    "collaborate",
+    "design"
+  ],
+  "segmentation_quality": "header"
+}

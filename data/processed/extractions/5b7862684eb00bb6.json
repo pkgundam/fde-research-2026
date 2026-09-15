@@ -1,0 +1,192 @@
+{
+  "posting_id": "5b7862684eb00bb6",
+  "skills": [
+    {
+      "canonical": "networking",
+      "section": "responsibility",
+      "evidence": "Provisioning, monitoring and maintaining hardware, software, and network"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "Provisioning, monitoring and maintaining hardware, software, and network"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "server provisioning, monitoring, troubleshooting and firmware updates"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "Managing remote contractors to complete datacenter installations and upgrades"
+    },
+    {
+      "canonical": "python",
+      "section": "responsibility",
+      "evidence": "Build automation to eliminate repetitive work using Python scripts"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "develops agentic AI tools to reduce admin overhead"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "responsibility",
+      "evidence": "templated change management workflows that standardize deployment steps"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "facility power (AC/DC), cooling, security/access, rack layout"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "Providing technical leadership and guidance to remote contractors and junior team members"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Creating and maintaining documentation, plans, SOPs, MOPs and runbooks"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Collaborating with internal teams (Infrastructure Engineering and Planning, Network Engineering and SRE)"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "responsibility",
+      "evidence": "Collaborating with internal teams (Infrastructure Engineering and Planning, Network Engineering and SRE)"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Limited travel"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "requirement",
+      "evidence": "Site Reliability Engineering, Linux Systems Administration, Network Engineering, and/or DevOps"
+    },
+    {
+      "canonical": "shell",
+      "section": "requirement",
+      "evidence": "Site Reliability Engineering, Linux Systems Administration, Network Engineering, and/or DevOps"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "Site Reliability Engineering, Linux Systems Administration, Network Engineering, and/or DevOps"
+    },
+    {
+      "canonical": "iac",
+      "section": "requirement",
+      "evidence": "Configuration management tool experience like Saltstack, Chef, Puppet or Ansible"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "Network Protocols, Topologies and Enterprise architecture"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "Experience writing network configuration and design documentation"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "network and server installation, configuration, and troubleshooting"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "writing Python or Bash scripts for internal tools and workflow"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Strong verbal and written communication skills, problem-solving skills"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "Must be proactive in performing due diligence"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "Experience building or working with agentic AI tools for workflow automation"
+    },
+    {
+      "canonical": "project_management",
+      "section": "nice_to_have",
+      "evidence": "datacenter / infrastructure projects with many moving parts"
+    },
+    {
+      "canonical": "networking",
+      "section": "nice_to_have",
+      "evidence": "Understanding of BGP and anycast routing"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "nice_to_have",
+      "evidence": "Proficient in one or more programming languages and willing to learn"
+    },
+    {
+      "canonical": "python",
+      "section": "nice_to_have",
+      "evidence": "Ability to write scripts for internal tools and automation workflows"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "nice_to_have",
+      "evidence": "execute on multiple tasks simultaneously while maintaining quality"
+    },
+    {
+      "canonical": "analytics",
+      "section": "nice_to_have",
+      "evidence": "Ability to manage MS Excel and Google Spreadsheets"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "nice_to_have",
+      "evidence": "Strong team player who collaborates across functions"
+    },
+    {
+      "canonical": "shell",
+      "section": "nice_to_have",
+      "evidence": "Linux certifications"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "nice_to_have",
+      "evidence": "Experience with continuous / rapid deployment"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "nice_to_have",
+      "evidence": "24/7/365 mission-critical service environment (on-call rotation required)"
+    },
+    {
+      "canonical": "debugging",
+      "section": "nice_to_have",
+      "evidence": "experience isolating network, hardware and software issues"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 1,
+  "responsibility_verbs": [
+    "provision",
+    "monitor",
+    "build",
+    "manage",
+    "collaborate"
+  ],
+  "segmentation_quality": "header"
+}

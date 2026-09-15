@@ -1,0 +1,242 @@
+{
+  "posting_id": "4c2d7153e11cc1b7",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "work with federal, state, and local government customers"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "federal, state, and local government customers"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "own the architecture, lead design decisions, and implement"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "responsibility",
+      "evidence": "end-to-end systems spanning data engineering, AI"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "systems spanning data engineering, AI, and application development"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "work cross-functionally to shape long-term strategic priorities"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "shape long-term strategic priorities and initiatives alongside"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "integrating with client systems, training, and other"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "integrating with client systems, training, and other technical"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "requirement to travel to customer locations 20-25% of the time"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "Lead impactful customer technical projects by delivering"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "responsibility",
+      "evidence": "data ingestion and ML/AI model integration"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "scope technical delivery work with input from the customer"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "bootstrap or implement customer projects which leads"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "ensuring solutions are secure, scalable, and aligned"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "ensuring solutions are secure, scalable, and aligned"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "guide rapid resolution for engagement specific product and support"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "engaging with stakeholders from technical ICs to executives"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "requirement",
+      "evidence": "experience in data engineering, data platforms & analytics"
+    },
+    {
+      "canonical": "analytics",
+      "section": "requirement",
+      "evidence": "data platforms & analytics, or software engineering"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Fluency in writing code in Python, Scala, JavaScript/TypeScript"
+    },
+    {
+      "canonical": "java",
+      "section": "requirement",
+      "evidence": "Python, Scala, JavaScript/TypeScript, and modern frameworks"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Scala, JavaScript/TypeScript, and modern frameworks"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "two or more common Cloud ecosystems (AWS, Azure, GCP)"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "common Cloud ecosystems (AWS, Azure, GCP)"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "common Cloud ecosystems (AWS, Azure, GCP)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "common Cloud ecosystems (AWS, Azure, GCP)"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "requirement",
+      "evidence": "Familiarity with CI/CD for production deployments"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "Working knowledge of MLOps, ML/AI models and AI APIs"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "MLOps, ML/AI models and AI APIs"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "requirement",
+      "evidence": "Working knowledge of MLOps, ML/AI models"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "deployment of performant production end-to-end data architectures"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "Design and deployment of performant production end-to-end"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "ML/AI models, and user-facing interfaces"
+    },
+    {
+      "canonical": "project_management",
+      "section": "requirement",
+      "evidence": "Experience with technical project delivery, documentation"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "documentation and white-boarding skills"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "working with enterprise clients and managing conflicts"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "managing conflicts across a broad stakeholder range"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "eligibility for a U.S. government Public Trust, Secret"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "federal contract requirements and client site access"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "nice_to_have",
+      "evidence": "10+ years experience in data engineering, data platforms"
+    },
+    {
+      "canonical": "analytics",
+      "section": "nice_to_have",
+      "evidence": "data engineering, data platforms & analytics"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "nice_to_have",
+      "evidence": "Expertise in MLOps, ML/AI models, and AI APIs"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "MLOps, ML/AI models, and AI APIs"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "nice_to_have",
+      "evidence": "Expertise in MLOps, ML/AI models"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 6,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "work",
+    "own",
+    "lead",
+    "guide",
+    "embed"
+  ],
+  "segmentation_quality": "header"
+}

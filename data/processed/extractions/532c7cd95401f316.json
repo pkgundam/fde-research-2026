@@ -1,0 +1,107 @@
+{
+  "posting_id": "532c7cd95401f316",
+  "skills": [
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "responsibility",
+      "evidence": "private cloud and on-premises environments"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "end-to-end deployment of North"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "assess infrastructure, security requirements"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner with enterprise IT teams"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "engage our customers and ultimately deliver solutions"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Troubleshoot and resolve deployment-related technical issues"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "experience with and enjoy working directly with customers"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "requirement",
+      "evidence": "deploying enterprise software in private/hybrid cloud environments"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "administering production Kubernetes clusters and expertise with Helm"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "requirement",
+      "evidence": "DevOps practices, CI/CD pipelines"
+    },
+    {
+      "canonical": "git",
+      "section": "requirement",
+      "evidence": "tools like Git for version control"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "cloud infrastructure (Azure, AWS, GCP)"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "cloud infrastructure (Azure, AWS, GCP)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "cloud infrastructure (Azure, AWS, GCP)"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "cloud infrastructure...networking, and virtualization"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "requirement",
+      "evidence": "priorities and objectives are a moving target"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "public sector security and compliance requirements"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "Canadian public sector security and compliance requirements"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "lead",
+    "partner",
+    "design",
+    "implement",
+    "troubleshoot"
+  ],
+  "segmentation_quality": "header"
+}

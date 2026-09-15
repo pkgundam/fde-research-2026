@@ -1,0 +1,27 @@
+{
+  "posting_id": "ffd0c8cadc7b1a23",
+  "skills": [
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "building capital markets infrastructure"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "work directly with our users to deliver products"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 3,
+  "responsibility_verbs": [
+    "build",
+    "ship",
+    "work",
+    "deliver",
+    "automate"
+  ],
+  "segmentation_quality": "inferred"
+}

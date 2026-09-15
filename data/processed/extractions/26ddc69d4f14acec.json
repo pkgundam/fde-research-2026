@@ -1,0 +1,242 @@
+{
+  "posting_id": "26ddc69d4f14acec",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "working directly alongside developer teams in strategic enterprise customers"
+    },
+    {
+      "canonical": "react",
+      "section": "responsibility",
+      "evidence": "lead complex Next.js migrations, architect high-performance applications"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "architect high-performance applications, and build production AI solutions"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "build production AI solutions - all within customer environments"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "responsibility",
+      "evidence": "all within customer environments"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "deploying production agents using Vercel's eve framework"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "conducting a deep-dive code audit"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "operate with high agency and autonomy"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "navigate ambiguous enterprise environments"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "deliver measurable business value"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "building long-term relationships that expand our partnership"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "deep customer code optimization, performance audits"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "teaching customers how to build Next.js apps"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "understand customers' businesses, scope, design"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "build AI agents, and prove their value"
+    },
+    {
+      "canonical": "typescript",
+      "section": "responsibility",
+      "evidence": "shipping TypeScript code that goes live"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Embed with strategic customers to build production applications"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "sharing implementation insights back to Product and Engineering"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "2 years in a customer-facing technical role"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "consulting, solutions architecture, forward deployed engineering"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "AI instrumentation such as harnesses, skills, and MCPs"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "High agency with comfort in ambiguity"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "navigate complex organizations to create a plan"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "ability to conduct technical discovery"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "present to executives"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "requirement",
+      "evidence": "mentor engineers"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Exceptional communication skills"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "translate technical capabilities into ROI"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "Willingness to travel occasionally to customer sites"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Expert-level TypeScript skills"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "Deep expertise in Next.js, with a proven track record"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "performance optimization, and modern patterns like streaming"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "Production experience with LLMs and AI applications"
+    },
+    {
+      "canonical": "llm_frameworks",
+      "section": "nice_to_have",
+      "evidence": "Familiarity with Vercel's eve framework and AI SDK"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "led enterprise AI transformation initiatives"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "nice_to_have",
+      "evidence": "taught others how to develop software using AI"
+    },
+    {
+      "canonical": "react",
+      "section": "nice_to_have",
+      "evidence": "led large-scale migrations from legacy frameworks"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "nice_to_have",
+      "evidence": "expertise in performance optimization and Core Web Vitals"
+    },
+    {
+      "canonical": "debugging",
+      "section": "nice_to_have",
+      "evidence": "diagnosing and fixing LCP, CLS, and INP issues"
+    },
+    {
+      "canonical": "git",
+      "section": "nice_to_have",
+      "evidence": "contributed to the Next.js, React, or AI SDK open-source projects"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "nice_to_have",
+      "evidence": "security reviews, compliance requirements"
+    },
+    {
+      "canonical": "system_design",
+      "section": "nice_to_have",
+      "evidence": "multi-region architectures"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "financial services, healthcare, retail/e-commerce, or media"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "nice_to_have",
+      "evidence": "spoken at conferences"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "nice_to_have",
+      "evidence": "published thought leadership on frontend architecture"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 6,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "lead",
+    "architect",
+    "build",
+    "embed",
+    "scope"
+  ],
+  "segmentation_quality": "header"
+}

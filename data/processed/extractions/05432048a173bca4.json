@@ -1,0 +1,52 @@
+{
+  "posting_id": "05432048a173bca4",
+  "skills": [
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "control plane for agents"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "responsibility",
+      "evidence": "credential management that enterprise shops need"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "architects of large systems"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "responsibility",
+      "evidence": "founders, SREs, open-source stewards"
+    },
+    {
+      "canonical": "git",
+      "section": "responsibility",
+      "evidence": "mimics some of the best parts of Github"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "technical, curious, customer-driven"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "technical, curious, customer-driven"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "build",
+    "orchestrate",
+    "share",
+    "manage",
+    "architect"
+  ],
+  "segmentation_quality": "inferred"
+}

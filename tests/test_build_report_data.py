@@ -68,8 +68,8 @@ def test_run_filters_extractions_symmetrically_with_current_postings(monkeypatch
 
 def test_stack_name_override_and_auto_name():
     tx = taxonomy.load()
-    overridden_skills = ["prototyping", "rest_apis", "training_enablement", "consulting",
-                          "business_acumen", "pre_sales", "enterprise_systems"]
+    overridden_skills = ["prototyping", "learning_agility", "consulting", "training_enablement",
+                          "business_acumen", "pre_sales", "metrics_measurement"]
     assert b._stack_name(overridden_skills, tx) == "Pre-sales & field delivery"
 
     auto_skills = ["python", "llm_apis", "rag"]

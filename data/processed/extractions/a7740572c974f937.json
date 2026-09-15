@@ -1,0 +1,192 @@
+{
+  "posting_id": "a7740572c974f937",
+  "skills": [
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Deeply embed with strategic customers as the technical lead"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "Lead discovery across AppSec, DevSecOps ... GRC automation"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Scope pilots with clear success criteria, data requirements"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Build and deliver customer-facing demos, prototypes, workshops"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "OpenAI APIs, Codex, agents, scripts, CLIs"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "responsibility",
+      "evidence": "GitHub workflows, CI/CD systems, logs, tickets"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "evaluation methods, security constraints, safety boundaries"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "security constraints, safety boundaries, and human approval points"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "Advise customers on safe implementation patterns"
+    },
+    {
+      "canonical": "rag",
+      "section": "responsibility",
+      "evidence": "tool and function calling, structured outputs, retrieval"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "responsibility",
+      "evidence": "data handling, guardrails, telemetry, auditability"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "guardrails, telemetry, auditability, and approval-gated side effects"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Translate between CISO-level outcomes and practitioner-level"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Create reusable field assets such as demo narratives, playbooks"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "deliver high-signal feedback to Product, Engineering, Research"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "5+ years of technical consulting, solutions engineering"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "requirement",
+      "evidence": "solutions engineering, security architecture, cyber advisory"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "equivalent customer-facing technical experience"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "strong cybersecurity domain expertise across one or more areas"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "requirement",
+      "evidence": "secure SDLC, incident response, detection engineering"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "communicate credibly with CISOs, CTOs, security executives"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "hands-on experience building ... systems with APIs"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "APIs, Python or JavaScript, agents, scripts"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "APIs, Python or JavaScript, agents, scripts"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "agents, scripts, CLIs, GitHub workflows"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "requirement",
+      "evidence": "GitHub workflows, CI/CD systems, logs, tickets"
+    },
+    {
+      "canonical": "rag",
+      "section": "requirement",
+      "evidence": "design AI workflows with retrieval, structured outputs"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "tool use, evals, guardrails, telemetry"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "requirement",
+      "evidence": "evals, guardrails, telemetry, sandboxing"
+    },
+    {
+      "canonical": "observability",
+      "section": "requirement",
+      "evidence": "telemetry, sandboxing, and human-in-the-loop review"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "comfortable scoping pilots from ambiguous customer pain"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "requirement",
+      "evidence": "success metrics, required data, workflow integrations"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "deployment assumptions, and decision gates"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "validate findings, separate true positives from noise"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "Own problems end-to-end, operate with high throughput"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "embed",
+    "lead",
+    "build",
+    "scope",
+    "advise"
+  ],
+  "segmentation_quality": "header"
+}

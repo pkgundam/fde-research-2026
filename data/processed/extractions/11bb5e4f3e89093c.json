@@ -1,0 +1,147 @@
+{
+  "posting_id": "11bb5e4f3e89093c",
+  "skills": [
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Deeply embed with our most sophisticated public sector customers"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "identify the best applications of GenAI in their industry"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "ideate and build novel applications on our API"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Work with senior customer stakeholders to identify"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "build/qualify a comprehensive backlog to support their AI roadmap"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "accelerate customer time to value through building hands-on prototypes"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "delivering impactful strategic guidance"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "ensure the successful deployment and scale of their applications"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "Scale the Deployment Engineering function through sharing knowledge"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "codifying best practices, and publishing notebooks"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "deliver high-signal feedback to the Product, Engineering"
+    },
+    {
+      "canonical": "rag",
+      "section": "responsibility",
+      "evidence": "automated content synthesis, advanced search capabilities"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "7+ years of technical consulting (or equivalent) experience"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "public sector customers (U.S. federal preferred)"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "requirement",
+      "evidence": "led GenAI or traditional ML implementations for government agencies"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "led GenAI or traditional ML implementations"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "Understand network and cloud architecture"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "Understand network and cloud architecture"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "requirement",
+      "evidence": "experience with on-premise deployments"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "effective and polished communicator"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "programming languages like Python, Go, or Typescript"
+    },
+    {
+      "canonical": "go",
+      "section": "requirement",
+      "evidence": "programming languages like Python, Go, or Typescript"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "programming languages like Python, Go, or Typescript"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "Own problems end-to-end"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "willing to pick up whatever knowledge you're missing"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "requirement",
+      "evidence": "high throughput operator ... prioritize ruthlessly"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 7,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "embed",
+    "build",
+    "intervene",
+    "forge",
+    "scale"
+  ],
+  "segmentation_quality": "header"
+}

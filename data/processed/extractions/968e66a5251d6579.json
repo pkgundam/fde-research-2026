@@ -1,0 +1,217 @@
+{
+  "posting_id": "968e66a5251d6579",
+  "skills": [
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Build end-to-end POCs and MVPs alongside customer engineering teams"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "holding your own in executive-level conversations about architecture, strategy"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "executive-level conversations about architecture, strategy, and business outcomes"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "You ship code, run benchmarks, debug production issues"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "architect the inference foundations that capability depends on"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Lead structured discovery conversations to unpack customer pain points"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "translate customer pain points into product improvements that compress"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "comfortable on-site with customers, building the relationships and trust"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "responsibility",
+      "evidence": "Deploy and validate new model families on inference frameworks"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "Run load tests and establish latency, throughput, and cost"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "responsibility",
+      "evidence": "fine-tuning strategy (SFT, DPO, RFT), and evaluation methodology"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "Design and implement evaluation frameworks that measure production-quality metrics"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "responsibility",
+      "evidence": "navigating trade-offs between model families, compute cost, and quality"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "measure production-quality metrics, not just benchmark scores"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Own the technical relationship from first engagement through production deployment"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Embed with their engineering team as a peer"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "working directly with engineering and product to ship fixes"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "contribute them back to internal tooling, documentation, and the platform"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "5+ years in a hands-on, customer-facing technical role"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "requirement",
+      "evidence": "You have shipped code running in someone else's production environment"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Strong Python skills"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "Comfortable reading, writing, and debugging production code"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "Familiarity with Kubernetes and infrastructure engineering"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "Working knowledge of the LLM stack"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "requirement",
+      "evidence": "inference trade-offs, model serving, fine-tuning workflows"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "requirement",
+      "evidence": "fine-tuning workflows (SFT at minimum; DPO/RFT a strong plus)"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "Experience with cloud infrastructure (AWS, Azure, GCP)"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "Experience with cloud infrastructure (AWS, Azure, GCP)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "Experience with cloud infrastructure (AWS, Azure, GCP)"
+    },
+    {
+      "canonical": "gpu_infra",
+      "section": "requirement",
+      "evidence": "deploying models on GPU infrastructure"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Exceptional communication: able to run a sharp discovery call"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "present to a VP, and debug a latency issue"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "building or integrating agentic systems, tool-use chains"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "nice_to_have",
+      "evidence": "inference serving frameworks (vLLM, SGLang, TensorRT-LLM)"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "forward-deployed or embedded engineering model"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "nice_to_have",
+      "evidence": "experience as a technical founder or early engineer"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "nice_to_have",
+      "evidence": "taking GenAI POCs from prototype to production-scale deployments"
+    },
+    {
+      "canonical": "aws",
+      "section": "nice_to_have",
+      "evidence": "hyperscaler AI platforms (Azure AI Foundry, AWS Bedrock/SageMaker, GCP Vertex)"
+    },
+    {
+      "canonical": "azure",
+      "section": "nice_to_have",
+      "evidence": "hyperscaler AI platforms (Azure AI Foundry, AWS Bedrock/SageMaker, GCP Vertex)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "nice_to_have",
+      "evidence": "hyperscaler AI platforms (Azure AI Foundry, AWS Bedrock/SageMaker, GCP Vertex)"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "build",
+    "ship",
+    "debug",
+    "architect",
+    "deploy"
+  ],
+  "segmentation_quality": "header"
+}

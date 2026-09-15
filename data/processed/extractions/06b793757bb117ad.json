@@ -1,0 +1,127 @@
+{
+  "posting_id": "06b793757bb117ad",
+  "skills": [
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "impact of Claude in the life sciences"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "embedded in their scientific workflows"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "prototyping agents that fit into real"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "prototyping agents that fit into real"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "MCP servers, benchmarks, reusable agent skills"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "understand their scientific workflows end-to-end"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "build hands-on with their engineering teams"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "production systems integrated into how they"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "MCP servers for domain-specific data sources"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "feed those findings back to product, engineering"
+    },
+    {
+      "canonical": "data_quality",
+      "section": "responsibility",
+      "evidence": "heterogeneous data, auditability requirements, the prototype-to-trust"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Create technical content and documentation that"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "documentation that lets partners self-serve, so"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "research experience in life sciences, biomedical"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "building LLM-powered tools or applications"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "requirement",
+      "evidence": "prompting, context engineering, agent architectures"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "agent architectures, evaluation frameworks"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "evaluation frameworks"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "forward-deployed engineer, or technical founder"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "scrappy mentality–comfortable wearing multiple hats, building"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "driving clarity in ambiguous situations, and"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "studied genomics, neuroscience, or drug discovery"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "partner",
+    "develop",
+    "build",
+    "identify",
+    "create"
+  ],
+  "segmentation_quality": "header"
+}

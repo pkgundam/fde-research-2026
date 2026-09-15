@@ -1,0 +1,192 @@
+{
+  "posting_id": "f19c502aceb2c906",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "work directly with customers to rapidly understand their hardest problems"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "rapidly understand their hardest problems and build solutions"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "own end-to-end execution of high-stakes projects within small"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "whiteboarding architecture with engineers"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "responsibility",
+      "evidence": "building data pipelines and operational workflows"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "deploying AI agents"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "advising customer executives, and driving strategy with your team"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "responsibility",
+      "evidence": "learn to unpack ambiguous problems and reason carefully"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "build with some of the country's most important institutions"
+    },
+    {
+      "canonical": "sql",
+      "section": "responsibility",
+      "evidence": "Postgres, Cassandra, Hadoop, and Spark for distributed data storage"
+    },
+    {
+      "canonical": "nosql",
+      "section": "responsibility",
+      "evidence": "Cassandra, Hadoop, and Spark for distributed data storage and parallel computing"
+    },
+    {
+      "canonical": "java",
+      "section": "responsibility",
+      "evidence": "Java and Groovy for our back-end applications and data integration"
+    },
+    {
+      "canonical": "typescript",
+      "section": "responsibility",
+      "evidence": "Typescript, React, Leaflet, and d3 for our web technologies"
+    },
+    {
+      "canonical": "react",
+      "section": "responsibility",
+      "evidence": "Typescript, React, Leaflet, and d3 for our web technologies"
+    },
+    {
+      "canonical": "python",
+      "section": "responsibility",
+      "evidence": "Python for data processing and analysis"
+    },
+    {
+      "canonical": "analytics",
+      "section": "responsibility",
+      "evidence": "Python for data processing and analysis"
+    },
+    {
+      "canonical": "aws",
+      "section": "responsibility",
+      "evidence": "Palantir cloud infrastructure based on AWS EC2 and S3"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "work internally with people from a variety of backgrounds"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "work externally with our customers, often on site"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "responsibility",
+      "evidence": "trust each other to effectively manage time and priorities"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "Experience with healthcare, logistics, aviation, or readiness analysis"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "Familiarity with AI agents, data structures, storage systems"
+    },
+    {
+      "canonical": "algorithms",
+      "section": "requirement",
+      "evidence": "AI agents, data structures, storage systems, cloud infrastructure"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "storage systems, cloud infrastructure, front-end frameworks, and other"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "cloud infrastructure, front-end frameworks, and other technical tools"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "requirement",
+      "evidence": "Understanding of how technical decisions impact the user"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "demonstrated proficiency in programming languages such as Python, Java"
+    },
+    {
+      "canonical": "java",
+      "section": "requirement",
+      "evidence": "demonstrated proficiency in programming languages such as Python, Java"
+    },
+    {
+      "canonical": "cpp",
+      "section": "requirement",
+      "evidence": "demonstrated proficiency in programming languages such as Python, Java"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "demonstrated proficiency in programming languages such as Python, Java"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "collaborate effectively in teams of technical and non-technical individuals"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "rapidly changing environment with dynamic objectives and iteration with users"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "Demonstrated ability to continuously learn, work independently"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "work independently, and make decisions with minimal supervision"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "Willingness and interest to travel as needed"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "build",
+    "own",
+    "advise",
+    "deploy",
+    "design"
+  ],
+  "segmentation_quality": "header"
+}

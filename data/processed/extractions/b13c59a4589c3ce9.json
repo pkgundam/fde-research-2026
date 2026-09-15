@@ -1,0 +1,162 @@
+{
+  "posting_id": "b13c59a4589c3ce9",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "work directly with enterprise customers, helping them deploy"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "deploy ElevenLabs' creative tools into their actual production workflows"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "showing customers how to use them, and building the workflows"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "understand their current pipelines, identify where AI-powered tools fit"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "create reference content, prototype workflows, and produce case studies"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "produce case studies that show real results"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "bringing field insights back to shape the roadmap"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "work closely with our product and engineering teams"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "you are not just advising customers on what to do"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Embed with enterprise customers to understand their creative production pipelines"
+    },
+    {
+      "canonical": "speech",
+      "section": "responsibility",
+      "evidence": "from voice and music generation to image, video, and dubbing"
+    },
+    {
+      "canonical": "computer_vision",
+      "section": "responsibility",
+      "evidence": "from voice and music generation to image, video, and dubbing"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "translating technical capabilities into concrete creative and business opportunities"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "responsibility",
+      "evidence": "creative evangelist for ElevenLabs externally - at events, in customer conversations"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "Significant experience in a creative production, creative technology"
+    },
+    {
+      "canonical": "computer_vision",
+      "section": "requirement",
+      "evidence": "you actively use generative AI for image, video, audio, or text production"
+    },
+    {
+      "canonical": "speech",
+      "section": "requirement",
+      "evidence": "generative AI for image, video, audio, or text production"
+    },
+    {
+      "canonical": "nlp",
+      "section": "requirement",
+      "evidence": "generative AI for image, video, audio, or text production"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "working directly with enterprise clients or large brand teams"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "in a consulting, solutions, or embedded capacity"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Exceptional communication and presentation skills"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "translate complex technical capabilities into clear creative opportunities for non-technical stakeholders"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "Comfort operating in ambiguous, fast-moving environments"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "where you define the playbook rather than follow one"
+    },
+    {
+      "canonical": "speech",
+      "section": "nice_to_have",
+      "evidence": "Experience with ElevenLabs products specifically - Text to Speech, Dubbing"
+    },
+    {
+      "canonical": "computer_vision",
+      "section": "nice_to_have",
+      "evidence": "Studio, Image & Video, or Flows"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "Experience at a creative agency or in-house creative lab"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "nice_to_have",
+      "evidence": "Technical ability to prototype integrations or workflows using APIs"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "nice_to_have",
+      "evidence": "Technical ability to prototype integrations or workflows using APIs"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "embed",
+    "build",
+    "create",
+    "consult",
+    "collaborate"
+  ],
+  "segmentation_quality": "header"
+}

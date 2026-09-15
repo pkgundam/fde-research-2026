@@ -1,0 +1,82 @@
+{
+  "posting_id": "a249a4c9eeced11d",
+  "skills": [
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "building AI-native applications and agentic workflows for large"
+    },
+    {
+      "canonical": "analytics",
+      "section": "responsibility",
+      "evidence": "measurement / campaign analysis, media planning, etc"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "responsibility",
+      "evidence": "Generative and traditional AI/ML"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "able to triage issues and build small features"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "Vue.js, Typescript, Node.js, Python"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Vue.js, Typescript, Node.js, Python"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Vue.js, Typescript, Node.js, Python"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "interfacing with customers and responding to customer production"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "requirement",
+      "evidence": "responding to customer production issues"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "guided architecture, and built large applications"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "code generation, LLM usage, traditional AI/ML, large data"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "requirement",
+      "evidence": "large data processing / data science, distributed systems"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "code generation, LLM usage, traditional AI/ML, large data"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "triage",
+    "build",
+    "interface",
+    "respond",
+    "guide"
+  ],
+  "segmentation_quality": "inferred"
+}

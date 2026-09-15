@@ -22,3 +22,9 @@ def test_render_from_fixture_has_all_sections_and_placeholder():
     assert "Stacks that travel together" in html
     for st in data["stacks"]:
         assert st["name"] in html
+
+
+def test_render_from_fixture_states_hn_window_in_methodology():
+    data = json.loads(FIX.read_text())
+    html = r.render_html(data, r.load_content())
+    assert "Hacker News entries come from" in html

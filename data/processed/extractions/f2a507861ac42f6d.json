@@ -1,0 +1,247 @@
+{
+  "posting_id": "f2a507861ac42f6d",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "hands-on builder and a key technical partner to our most strategic customers"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "you'll deploy it to solve real-world business problems at scale"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "building production-grade AI systems using Snowpark, Cortex, and our native LLM"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Architect, build, and deploy enterprise-grade AI solutions, including sophisticated AI agents"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "enterprise-grade AI solutions, including sophisticated AI agents"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "end-to-end lifecycle of your work streams – from prototype to production"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "Own the Quality of What You Ship"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Translate ambiguous customer goals into measurable quality metrics"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "measurable quality metrics, evaluation frameworks, and golden datasets"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "run systematic eval loops to hill-climb on agent quality"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "responsibility",
+      "evidence": "continuously raise the bar on accuracy, faithfulness, and safety"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "responsibility",
+      "evidence": "Rapidly design, iterate, and ship high-quality code and pipelines"
+    },
+    {
+      "canonical": "python",
+      "section": "responsibility",
+      "evidence": "robust, scalable, and performant solutions using Python and SQL"
+    },
+    {
+      "canonical": "sql",
+      "section": "responsibility",
+      "evidence": "robust, scalable, and performant solutions using Python and SQL"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "into robust, scalable, and performant solutions"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "from prototype through deployment, monitoring, and optimization"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "monitoring, and optimization in secure, large-scale production environments"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "close the loop from production traces and user feedback"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "hands-on technical resource and trusted advisor on how to best leverage AI"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Work cross-functionally with Snowflake's Product and Engineering teams"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Spend at least 25% of your time onsite"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "working closely with Snowflake's most strategic customers"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "Willingness to travel"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "experience building applications using LLMs"
+    },
+    {
+      "canonical": "rag",
+      "section": "requirement",
+      "evidence": "using LLMs, especially with technologies like RAG"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "RAG and agentic workflows"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "requirement",
+      "evidence": "defining quality metrics and running evaluations for LLM or agent systems"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "using evals to systematically improve quality"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Excellent problem-solving and communication skills"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "articulate complex technical concepts to diverse stakeholders"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "Comfort with ambiguity and a desire to thrive"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "thrive in a fast-paced, ever-changing Generative AI environment"
+    },
+    {
+      "canonical": "evals",
+      "section": "nice_to_have",
+      "evidence": "running structured experimentation (A/B tests, ablations, offline evals)"
+    },
+    {
+      "canonical": "llm_observability",
+      "section": "nice_to_have",
+      "evidence": "eval and observability tooling (e.g., Braintrust, LangSmith, Arize"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "nice_to_have",
+      "evidence": "categorizing errors (hallucination, retrieval miss, planning failure, tool misuse)"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "failure-mode analysis on agent or RAG systems"
+    },
+    {
+      "canonical": "rag",
+      "section": "nice_to_have",
+      "evidence": "failure-mode analysis on agent or RAG systems"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "nice_to_have",
+      "evidence": "MLOps lifecycle, including model deployment, monitoring, and evaluation"
+    },
+    {
+      "canonical": "observability",
+      "section": "nice_to_have",
+      "evidence": "model deployment, monitoring, and evaluation in a cloud environment"
+    },
+    {
+      "canonical": "aws",
+      "section": "nice_to_have",
+      "evidence": "cloud environment (AWS, Azure, or GCP)"
+    },
+    {
+      "canonical": "azure",
+      "section": "nice_to_have",
+      "evidence": "cloud environment (AWS, Azure, or GCP)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "nice_to_have",
+      "evidence": "cloud environment (AWS, Azure, or GCP)"
+    },
+    {
+      "canonical": "analytics",
+      "section": "nice_to_have",
+      "evidence": "core data science libraries and tools (e.g., pandas, numpy"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "Experience in a customer-facing technical role"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "nice_to_have",
+      "evidence": "solutions architect, sales engineer, or professional services"
+    },
+    {
+      "canonical": "consulting",
+      "section": "nice_to_have",
+      "evidence": "solutions architect, sales engineer, or professional services"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 3,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "architect",
+    "build",
+    "deploy",
+    "own",
+    "ship"
+  ],
+  "segmentation_quality": "header"
+}

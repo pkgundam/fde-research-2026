@@ -1,0 +1,107 @@
+{
+  "posting_id": "cd68b2a7e12b7a37",
+  "skills": [
+    {
+      "canonical": "model_serving",
+      "section": "responsibility",
+      "evidence": "LLM serving"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "responsibility",
+      "evidence": "model training (SFT, RLHF)"
+    },
+    {
+      "canonical": "speech",
+      "section": "responsibility",
+      "evidence": "audio pipelines"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Work hands-on with companies like Suno, Lovable, Cognition, and Meta"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "optimize production AI workloads on Modal"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "publish technical content that demonstrates Modal's capabilities"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Collaborate with Modal's product and sales teams"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Build trusted relationships with technical leaders (CTOs, VPs of Engineering"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "technical demos, experiments, and proof-of-concepts"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "professional ML engineering experience"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "requirement",
+      "evidence": "inference optimization"
+    },
+    {
+      "canonical": "gpu_infra",
+      "section": "requirement",
+      "evidence": "GPU programming, or ML infrastructure"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "requirement",
+      "evidence": "training (e.g., slime, verl, TRL) toolchains"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "articulate tradeoffs to technical leadership"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "go deep on technical architecture with an engineering team"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "Genuine interest in working directly with customers"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "nice_to_have",
+      "evidence": "published work you're proud of in ML or systems performance"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "nice_to_have",
+      "evidence": "systems performance"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 2,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "partner",
+    "work",
+    "contribute",
+    "collaborate",
+    "build"
+  ],
+  "segmentation_quality": "header"
+}

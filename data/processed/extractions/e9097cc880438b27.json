@@ -1,0 +1,297 @@
+{
+  "posting_id": "e9097cc880438b27",
+  "skills": [
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Strong proficiency in Python or TypeScript"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Strong proficiency in Python or TypeScript"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "Hands-on experience with major LLM providers"
+    },
+    {
+      "canonical": "rag",
+      "section": "requirement",
+      "evidence": "RAG and vector databases (pgvector, Pinecone, Elastic)"
+    },
+    {
+      "canonical": "vector_databases",
+      "section": "requirement",
+      "evidence": "vector databases (pgvector, Pinecone, Elastic)"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "agent frameworks (LangGraph, LangChain, LlamaIndex)"
+    },
+    {
+      "canonical": "llm_frameworks",
+      "section": "requirement",
+      "evidence": "agent frameworks (LangGraph, LangChain, LlamaIndex)"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "offline/online evaluations, golden datasets, LLM-as-judge"
+    },
+    {
+      "canonical": "llm_observability",
+      "section": "requirement",
+      "evidence": "tracing, using Braintrust, LangSmith, Langfuse"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "cost monitoring using tools like Braintrust"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "requirement",
+      "evidence": "rapid prototyping platforms (v0, Lovable, Figma Make)"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "Deep expertise in AWS, GCP, or Azure"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "Deep expertise in AWS, GCP, or Azure"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "Deep expertise in AWS, GCP, or Azure"
+    },
+    {
+      "canonical": "iac",
+      "section": "requirement",
+      "evidence": "Infrastructure as Code (Terraform)"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "containerization (Kubernetes, Docker)"
+    },
+    {
+      "canonical": "docker",
+      "section": "requirement",
+      "evidence": "containerization (Kubernetes, Docker)"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "requirement",
+      "evidence": "automated CI/CD pipelines"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "Solid foundation in API design"
+    },
+    {
+      "canonical": "streaming",
+      "section": "requirement",
+      "evidence": "event-driven streaming (Kafka, Kinesis, Pub/Sub)"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "microservices"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "requirement",
+      "evidence": "integrating with enterprise legacy systems"
+    },
+    {
+      "canonical": "data_warehouses",
+      "section": "requirement",
+      "evidence": "modern data platforms (Snowflake, BigQuery, Databricks)"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "requirement",
+      "evidence": "orchestration tools (dbt, Airflow, Dagster)"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "build prototypes using React/Next.js"
+    },
+    {
+      "canonical": "testing",
+      "section": "requirement",
+      "evidence": "engineering practices like TDD, pair programming"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "requirement",
+      "evidence": "threat modeling (OWASP LLM)"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "regulatory environments (GDPR, HIPAA, PCI-DSS)"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "Experience delivering in GCC markets"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "presenting to diverse groups, facilitating workshops"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "writing documentation that remains impactful asynchronously"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "requirement",
+      "evidence": "facilitating workshops"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "requirement",
+      "evidence": "Product-minded approach: outcome-driven delivery"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "requirement",
+      "evidence": "Inclusive leadership and mentorship: guiding, pairing"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "Adaptability in ambiguity: composed facing complex challenges"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "Adaptability in ambiguity"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "sharing knowledge across disciplines"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "roughly 40% regional travel"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Turning a broad ambition into something scoped"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Running concept sprints with client executives"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "shape technical narratives on new pursuits"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "Owning technical scope in proposals, presenting confidently"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Setting the technical direction for prototyping"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "Standing up proper evaluation, golden datasets, offline evals"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "responsibility",
+      "evidence": "human review, guardrails, and cost and latency"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "cost and latency budgets"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Owning an architecture that ships in three months"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "agentic workflows with human oversight"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "responsibility",
+      "evidence": "continuous delivery, test strategy"
+    },
+    {
+      "canonical": "testing",
+      "section": "responsibility",
+      "evidence": "continuous delivery, test strategy"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "test strategy, observability, security"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "observability, security, and privacy by design"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "Serving as a trusted technology advisor to stakeholders"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "Aligning technical options with business outcomes"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "Pairing, reviewing code, and mentoring colleagues"
+    },
+    {
+      "canonical": "git",
+      "section": "responsibility",
+      "evidence": "reviewing code"
+    }
+  ],
+  "seniority": "staff_plus",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "shape",
+    "prototype",
+    "land",
+    "advise",
+    "mentor"
+  ],
+  "segmentation_quality": "header"
+}

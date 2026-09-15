@@ -1,0 +1,167 @@
+{
+  "posting_id": "64429c50c098f664",
+  "skills": [
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "serve as the technical owner for a mission"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "technical owner for a mission and its associated customer engagements"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "work directly with operators, analysts, and technical stakeholders"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "owning the architecture, development, deployment, and fielding of software"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "supporting national security missions"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "translating mission requirements into scalable software"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "ensuring capabilities are delivered reliably into production"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "collaborate closely with product, design, platform engineering"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "responsibility",
+      "evidence": "software solutions deployed directly to customer environments"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "Own end-to-end technical delivery for your mission workstreams"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "improve product capabilities, performance, and scalability"
+    },
+    {
+      "canonical": "unstructured_data",
+      "section": "responsibility",
+      "evidence": "large-scale data holdings, including text, multimedia, and geospatial datasets"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "input to RFIs, RFPs, Statements of Work, and white papers"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "government-facing technical artifacts...white papers"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "ensuring solutions meet security, compliance, and operational constraints"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "responsibility",
+      "evidence": "Navigate and integrate with government IT ecosystems"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "travel up to 20–30% to engage directly with mission owners"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "relational databases (like Postgres)"
+    },
+    {
+      "canonical": "nosql",
+      "section": "requirement",
+      "evidence": "caching technologies (like Redis)"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "object storage systems (like S3)"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "modern front-end frameworks (like React)"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "compliant with DoD Risk Management Framework (RMF)"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "requirement",
+      "evidence": "interfacing with government owned IT systems"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "requirement",
+      "evidence": "data platforms, IdAM providers, SIEM, CDSs"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "scope technical requirements, architecture, and integrations"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "scope technical requirements, architecture, and integrations"
+    },
+    {
+      "canonical": "testing",
+      "section": "requirement",
+      "evidence": "conduct user testing, and gain product feedback"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "requirement",
+      "evidence": "conduct user testing, and gain product feedback"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Excellent communication and teamwork skills"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "Excellent communication and teamwork skills"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "architect",
+    "build",
+    "own",
+    "deliver",
+    "navigate"
+  ],
+  "segmentation_quality": "header"
+}

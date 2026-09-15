@@ -1,0 +1,107 @@
+{
+  "posting_id": "207523d64708d227",
+  "skills": [
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "Hivemind Enterprise Autonomy Software Development Kit"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "unmanned platforms across air/sea/land/space"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Deploy Hivemind AI infrastructure at customer sites"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "Provide technical training to customers"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Help customers debug software/API integration issues"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "debug software/API integration issues"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "address customer feedback and improve products"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Develop and maintain technical documentation and training materials"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "Assist the sales team in answering complex technical queries"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Travel to and stay at customer sites as required (~30% travel)"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "working closely with customers to understand their requirements"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "3+ years of experience in an integration/applications engineering role"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "3+ years of experience working in a startup environment"
+    },
+    {
+      "canonical": "cpp",
+      "section": "requirement",
+      "evidence": "Strong proficiency in writing modern C++ code"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Intermediate proficiency in writing Python code"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Strong communication and interpersonal skills"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "Experience in the defense aviation or robotics industry"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "nice_to_have",
+      "evidence": "building and running a small enterprise software... engineering team"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 7,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "develop",
+    "deploy",
+    "provide",
+    "assist",
+    "collaborate"
+  ],
+  "segmentation_quality": "header"
+}

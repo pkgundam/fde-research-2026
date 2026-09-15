@@ -1,0 +1,232 @@
+{
+  "posting_id": "7934f2594b6799cc",
+  "skills": [
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "seamless, reliable, and high-performance experience"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "aligns closely with internal and customer engineering teams"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "chance to shape the CoreWeave product roadmap and development"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "you'll own the technical path for some of our largest customers"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "own the technical path for some of our largest customers"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "facility and rack design to a validated, production-ready supercomputer"
+    },
+    {
+      "canonical": "gpu_infra",
+      "section": "responsibility",
+      "evidence": "turns raw data center hardware—racks, GPUs, high-speed fabric, firmware"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "provisioning, validation, operations, and support"
+    },
+    {
+      "canonical": "testing",
+      "section": "responsibility",
+      "evidence": "provisioning, validation, operations, and support"
+    },
+    {
+      "canonical": "networking",
+      "section": "responsibility",
+      "evidence": "driving InfiniBand/RoCE fabric validation"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "responsibility",
+      "evidence": "standing up locked-down, security-sensitive environments"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "locked-down, security-sensitive environments for our most strategic AI customers"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "primary technical point of contact for customers"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "remediation of fabric, optics, firmware, and node-level issues"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "align facility, hardware, and fabric readiness with customer go-live timelines"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "Review and advise on customer-facing technical contract terms"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "including service scope, operational responsibilities, SLAs"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Lead proof of concept initiatives to showcase the value"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "Drive technical leadership and direction during customer meetings"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "responsibility",
+      "evidence": "customer meetings, presentations, and workshops"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "responsibility",
+      "evidence": "Offer valuable insights on product features, functionality, and performance"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "responsibility",
+      "evidence": "latest developments and trends in Kubernetes, cloud computing"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "responsibility",
+      "evidence": "Stay informed of the latest developments and trends"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Represent CoreWeave at conferences and industry events"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "building or operating distributed systems or HPC/cloud services"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "Fluency in cloud computing concepts, architecture, and technologies"
+    },
+    {
+      "canonical": "gpu_infra",
+      "section": "requirement",
+      "evidence": "bare-metal compute infrastructure and large-scale GPU cluster delivery"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "Proven track record with building customer relationships"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "communicating clearly and the ability to break down complex technical concepts"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "technical concepts to both technical and non-technical audiences"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "high-speed interconnects (InfiniBand, NVLink), and the firmware/BMC/BIOS layer"
+    },
+    {
+      "canonical": "shell",
+      "section": "requirement",
+      "evidence": "Expert-level Linux system administration and command-line troubleshooting"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "command-line troubleshooting, paired with strong networking fundamentals"
+    },
+    {
+      "canonical": "testing",
+      "section": "requirement",
+      "evidence": "HPC acceptance/performance testing"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "integrating bare metal with orchestration layers such as Kubernetes"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "nice_to_have",
+      "evidence": "security-sensitive, air-gapped, or otherwise locked-down customer environments"
+    },
+    {
+      "canonical": "python",
+      "section": "nice_to_have",
+      "evidence": "scripting and automation...Python, Bash, Ansible"
+    },
+    {
+      "canonical": "shell",
+      "section": "nice_to_have",
+      "evidence": "scripting and automation...Python, Bash, Ansible"
+    },
+    {
+      "canonical": "iac",
+      "section": "nice_to_have",
+      "evidence": "scripting and automation...Python, Bash, Ansible"
+    },
+    {
+      "canonical": "system_design",
+      "section": "nice_to_have",
+      "evidence": "Experience designing AI supercomputers from MEP designs"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "nice_to_have",
+      "evidence": "building solutions across multi-cloud or hybrid environment"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "nice_to_have",
+      "evidence": "curious about the latest and greatest technologies in the AI space"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "nice_to_have",
+      "evidence": "expert in managing conflict and achieving mutually beneficial technical outcomes"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 7,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "own",
+    "lead",
+    "validate",
+    "partner",
+    "advise"
+  ],
+  "segmentation_quality": "header"
+}

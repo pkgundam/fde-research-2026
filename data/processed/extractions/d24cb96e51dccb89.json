@@ -1,0 +1,147 @@
+{
+  "posting_id": "d24cb96e51dccb89",
+  "skills": [
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "Own the FDE organization's overall engagement strategy"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "primary technical escalation point across the portfolio"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "highest-risk, highest-visibility, and most ambiguous situations"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "trusted technical counterpart to customer executives and internal VP/executive stakeholders"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "responsibility",
+      "evidence": "strategic bets, major risks, and cross-portfolio tradeoffs"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Set the technical architecture standards and design principles"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "builds customer-facing solutions and platform capabilities"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "personally unblocking the hardest technical failures"
+    },
+    {
+      "canonical": "git",
+      "section": "responsibility",
+      "evidence": "writing and reviewing code"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "translation of field-wide patterns into the FDE domain's long-term technical vision"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "technical growth and career development of FDEs through mentorship, coaching"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "represent the FDE function in executive and cross-org planning forums"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "requirement",
+      "evidence": "hands-on technical leadership in production systems"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "requirement",
+      "evidence": "complex enterprise environments"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "directing production-grade integrations, platforms, or distributed systems"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "designing and directing production-grade integrations, platforms"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "Excellent technical judgment under high ambiguity"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "requirement",
+      "evidence": "organization-level tradeoffs between customer impact, speed, maintainability, and risk"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "tradeoffs between customer impact, speed, maintainability, and risk"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "influence and align VP/executive-level stakeholders on strategic technical direction"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "willingness to travel up to 30% for executive engagements"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "technical strategy for LLM, agent framework, retrieval, evaluation"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "LLM, agent framework, retrieval, evaluation, or production AI systems"
+    },
+    {
+      "canonical": "rag",
+      "section": "nice_to_have",
+      "evidence": "agent framework, retrieval, evaluation, or production AI systems"
+    },
+    {
+      "canonical": "evals",
+      "section": "nice_to_have",
+      "evidence": "retrieval, evaluation, or production AI systems"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "nice_to_have",
+      "evidence": "prior experience as a Staff-level FDE...hiring bar-raising"
+    }
+  ],
+  "seniority": "staff_plus",
+  "years_required": 10,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "own",
+    "act",
+    "set",
+    "develop",
+    "serve"
+  ],
+  "segmentation_quality": "header"
+}

@@ -1,0 +1,24 @@
+{
+  "posting_id": "ab30bd677b4593b9",
+  "skills": [
+    { "canonical": "customer_facing", "section": "responsibility", "evidence": "partner directly with customers to architect, build" },
+    { "canonical": "system_design", "section": "responsibility", "evidence": "architect, build, and deploy high-scale production AI applications" },
+    { "canonical": "implementation_onboarding", "section": "responsibility", "evidence": "journey with customers from initial exploration to production deployment" },
+    { "canonical": "technical_support", "section": "responsibility", "evidence": "technical customer success and pre-sales solutions engineering mixed in" },
+    { "canonical": "pre_sales", "section": "responsibility", "evidence": "pre-sales solutions engineering mixed in" },
+    { "canonical": "python", "section": "nice_to_have", "evidence": "strong Python and ML experience is a big plus" },
+    { "canonical": "ml_fundamentals", "section": "nice_to_have", "evidence": "strong Python and ML experience is a big plus" }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "partner",
+    "architect",
+    "build",
+    "deploy",
+    "own"
+  ],
+  "segmentation_quality": "inferred"
+}

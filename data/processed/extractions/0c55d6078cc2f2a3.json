@@ -1,0 +1,207 @@
+{
+  "posting_id": "0c55d6078cc2f2a3",
+  "skills": [
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "own the delivery of scoped customer implementations"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "own the delivery of scoped customer implementations"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "own the delivery of scoped customer implementations"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "production-grade agentic automation solutions"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "partner closely with customer stakeholders"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "partner closely with...internal teams"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "design, build, integrate, and iterate on AI-enabled workflows"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "Extend platform functionality using APIs, SDKs, and connectors"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "contribute practical field insights back to the organization"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "reusable assets, and implementation playbooks"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "responsibility",
+      "evidence": "FDEs ship tailored solutions directly in customer environments"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "ship tailored solutions directly in customer environments"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "responsibility",
+      "evidence": "Apply practical prompt engineering skills"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "selecting LLM providers for customer use cases"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "model tradeoffs (capability, latency, cost)"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Debug across systems including AI inference, data pipelines"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "responsibility",
+      "evidence": "Debug across systems including AI inference"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "responsibility",
+      "evidence": "data pipelines, orchestration layers, and integration points"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "Anticipate delivery risks and communicate blockers, delays"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "Use telemetry, insights, and traces"
+    },
+    {
+      "canonical": "llm_observability",
+      "section": "responsibility",
+      "evidence": "Use telemetry, insights, and traces to identify optimization opportunities"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "anchor decisions in outcomes, adoption, and long-term success"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Prototype, test, ship, observe, and iterate"
+    },
+    {
+      "canonical": "testing",
+      "section": "responsibility",
+      "evidence": "Prototype, test, ship, observe, and iterate"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "responsibility",
+      "evidence": "Prioritize the highest-impact workstreams"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "requirement",
+      "evidence": "professional software engineering experience delivering production software"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Strong programming skills in Python and/or TypeScript"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Strong programming skills in Python and/or TypeScript"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "building and shipping integrations using APIs"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "working with cloud services or enterprise systems"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "requirement",
+      "evidence": "working with cloud services or enterprise systems"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "Comfort operating in customer-facing environments"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "strong written and verbal communication"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "strong written and verbal communication"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "Ability to independently drive scoped projects"
+    },
+    {
+      "canonical": "project_management",
+      "section": "requirement",
+      "evidence": "manage risks, and deliver against deadlines"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "manage risks, and deliver against deadlines"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "Willingness to travel to customer sites as needed"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "design",
+    "build",
+    "debug",
+    "apply",
+    "contribute"
+  ],
+  "segmentation_quality": "header"
+}

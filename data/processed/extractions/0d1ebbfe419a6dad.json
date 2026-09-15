@@ -1,0 +1,67 @@
+{
+  "posting_id": "0d1ebbfe419a6dad",
+  "skills": [
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "Develop autonomous agents that talk to sensitive enterprise data"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "engage our customers and ultimately deliver solutions"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "entire product lifecycle from conceptualization through production"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "responsibility",
+      "evidence": "private cloud and on-premises environments"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "experience with and enjoy working directly with customers"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "shipped (lots of) Python in production"
+    },
+    {
+      "canonical": "rag",
+      "section": "requirement",
+      "evidence": "highly performant client-side or server-side RAG/agentic applications"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "highly performant client-side or server-side RAG/agentic applications"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "read and understand, and even fix issues outside of the main code base"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "requirement",
+      "evidence": "priorities and objectives are a moving target"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "develop",
+    "experiment",
+    "work",
+    "lead",
+    "deploy"
+  ],
+  "segmentation_quality": "header"
+}

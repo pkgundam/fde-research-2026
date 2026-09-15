@@ -1,0 +1,16 @@
+{
+  "posting_id": "b38f54d9e6ccddf6",
+  "skills": [],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "build",
+    "deploy",
+    "integrate",
+    "scope",
+    "support"
+  ],
+  "segmentation_quality": "inferred"
+}

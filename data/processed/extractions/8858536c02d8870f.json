@@ -1,0 +1,197 @@
+{
+  "posting_id": "8858536c02d8870f",
+  "skills": [
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "help them deploy Claude into their operations"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "trusted technical advisor for your customers, advising"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "advising their engineering teams on architecture"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "architecture, agent design, and evaluation"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "agent design, and evaluation"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "working with the C-level and senior"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "show the business value Claude can"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "technical thread across every stage of"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "partner closely with Enterprise Account Executives"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "technical evaluation, proof of value and"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "architectures that meet enterprise security and"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "create the technical and business resources"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "Lead the technical side of each"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "responsibility",
+      "evidence": "present the business value case for"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "measurable outcomes such as cost, revenue"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "long, multi-stakeholder procurement and adoption cycles"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "account strategy, deal qualification, and executive"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "executive briefings, technical workshops, and enablement"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "feed insights back to Product, Engineering"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Travel to customer sites across France"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "Forward Deployed Engineer, or technical founder"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "requirement",
+      "evidence": "pre-sales or technical advisory role selling"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "scoping and designing complex solutions"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "build a business case, quantify impact"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "C-level and VP-level stakeholders"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "evaluations, proofs of concept and technical"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "engineering, security, legal and procurement teams"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "Production experience with LLM-powered applications"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "requirement",
+      "evidence": "prompting, context engineering, agent architectures"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "agent architectures, evaluation frameworks, and deployment"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "deployment at scale"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "building and deploying production applications"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "enterprise security, compliance, and architecture requirements"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "explain complex AI concepts clearly to"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "financial services, healthcare, retail, and manufacturing"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "requirement",
+      "evidence": "making powerful technology safe and beneficial"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 6,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "guide",
+    "advise",
+    "partner",
+    "lead",
+    "present"
+  ],
+  "segmentation_quality": "header"
+}

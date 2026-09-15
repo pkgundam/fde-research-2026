@@ -1,0 +1,132 @@
+{
+  "posting_id": "13a915cc8a82ee37",
+  "skills": [
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "critical link between our internal engineering team and hospital IT teams"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "critical link between our internal engineering team and hospital IT teams"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "you will own the site-specific implementations"
+    },
+    {
+      "canonical": "networking",
+      "section": "responsibility",
+      "evidence": "navigating complex local networks"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "architecting integration paths"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "ensuring our AI platform works across diverse environments"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "responsibility",
+      "evidence": "ensure the reliability, scalability, and performance of our AI platform"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "ensure the reliability, scalability, and performance of our AI platform"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "responsibility",
+      "evidence": "both in hospital sites (on-prem) and on the cloud"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "responsibility",
+      "evidence": "both in hospital sites (on-prem) and on the cloud"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "responsibility",
+      "evidence": "install hardware for Kubernetes clusters"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "responsibility",
+      "evidence": "ensure swift, reliable feature deployments"
+    },
+    {
+      "canonical": "shell",
+      "section": "requirement",
+      "evidence": "Stack: Linux, Kubernetes, JSON/YAML, Python, SQL"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "Stack: Linux, Kubernetes, JSON/YAML, Python, SQL"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Stack: Linux, Kubernetes, JSON/YAML, Python, SQL"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "Stack: Linux, Kubernetes, JSON/YAML, Python, SQL"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "healthcare interoperability standards (HL7v2, FHIR, DICOM)"
+    },
+    {
+      "canonical": "iac",
+      "section": "requirement",
+      "evidence": "Terraform, Ansible"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "requirement",
+      "evidence": "GitOps (FluxCD), Argo Workflows"
+    },
+    {
+      "canonical": "observability",
+      "section": "requirement",
+      "evidence": "monitoring tools (Prometheus, Grafana, Datadog)"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "Cilium CNI"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "requirement",
+      "evidence": "Teleport"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "travel to hospital sites as needed"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": null,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "own",
+    "architect",
+    "ensure",
+    "collaborate",
+    "install"
+  ],
+  "segmentation_quality": "inferred"
+}

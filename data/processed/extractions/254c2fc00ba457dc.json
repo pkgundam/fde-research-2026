@@ -1,0 +1,97 @@
+{
+  "posting_id": "254c2fc00ba457dc",
+  "skills": [
+    {
+      "canonical": "prioritization",
+      "section": "responsibility",
+      "evidence": "prioritize based on fleet-wide implications and operational goals"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Perform physical inspections and functional tests at robot stations"
+    },
+    {
+      "canonical": "testing",
+      "section": "responsibility",
+      "evidence": "functional tests at robot stations to verify issue reproduction"
+    },
+    {
+      "canonical": "analytics",
+      "section": "responsibility",
+      "evidence": "Analyze telemetry, sensor data, and logs to form and test hypotheses"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Execute technically sound Failure Analysis / Root Cause Analysis procedures"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner with hardware and software teams to reproduce and resolve"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "surface reliability insights for design improvements"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Maintain clear, traceable documentation for every diagnostic"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "Track and report issue trends and fleet health metrics"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "develop and maintain diagnostic procedures and troubleshooting guides"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "Proficiency debugging electromechanical systems including actuators"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "log parsing and basic scripting for diagnostics (Python or Bash)"
+    },
+    {
+      "canonical": "shell",
+      "section": "requirement",
+      "evidence": "log parsing and basic scripting for diagnostics (Python or Bash)"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "mechanical, electrical, and software interactions in robotic systems"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "Excellent written and verbal communication, particularly in technical documentation"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Excellent written and verbal communication, particularly in technical documentation"
+    }
+  ],
+  "seniority": "junior",
+  "years_required": 2,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 1,
+  "responsibility_verbs": [
+    "manage",
+    "perform",
+    "analyze",
+    "partner",
+    "maintain"
+  ],
+  "segmentation_quality": "header"
+}

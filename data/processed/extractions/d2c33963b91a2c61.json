@@ -1,0 +1,167 @@
+{
+  "posting_id": "d2c33963b91a2c61",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "10+ Years of Technical Customer Facing Experience"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "technical architect or lead on complex, enterprise-level projects"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "Strong knowledge of networking protocols, cybersecurity, and industry standards"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "cloud networks, web infrastructure, or security"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "complex, enterprise-level projects within cloud networks, web infrastructure"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "cybersecurity, web performance, and cloud infrastructure"
+    },
+    {
+      "canonical": "serverless",
+      "section": "requirement",
+      "evidence": "Cloudflare's Application Security, Workers and Workers AI, cybersecurity"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "strong technical understanding of and passion for AI/LLM concepts"
+    },
+    {
+      "canonical": "iac",
+      "section": "requirement",
+      "evidence": "Extensive experience implementing and supporting complex technical solutions using Terraform"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "build trust and rapport in challenging environments"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "remaining flexible and persistent in establishing regular cadences"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "navigate Slack-first communication cultures, providing clear guidance"
+    },
+    {
+      "canonical": "networking",
+      "section": "nice_to_have",
+      "evidence": "transitioning application-heavy environments toward comprehensive Network Security and SASE models"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "nice_to_have",
+      "evidence": "transitioning application-heavy environments toward comprehensive Network Security and SASE models"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "nice_to_have",
+      "evidence": "automate tasks at scale and build proof-of-concept setups"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "nice_to_have",
+      "evidence": "managing or advising on project-based fund pools to maximize"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "Serve as a trusted advisor to key enterprise customers"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "providing technical insights, best practices, and strategic recommendations"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "strategic recommendations that support their business goals and drive success"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Lead architectural discussions, design sessions, and solution reviews"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Diagnose complex technical issues and deliver effective, strategic solutions"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "in collaboration with the support and product teams"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "Design and configure comprehensive, tailored solutions with a focus on Application Security"
+    },
+    {
+      "canonical": "serverless",
+      "section": "responsibility",
+      "evidence": "utilizing Cloudflare Workers to optimize and direct global traffic"
+    },
+    {
+      "canonical": "networking",
+      "section": "responsibility",
+      "evidence": "optimize and direct global traffic and Network Security"
+    },
+    {
+      "canonical": "iac",
+      "section": "responsibility",
+      "evidence": "navigating and managing complex configurations heavily reliant on Terraform"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "advocating for customer needs and influencing product roadmaps"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Manage complex, fast-moving technical discussions primarily through Slack"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "Leverage your deep knowledge of AI/LLM concepts to align"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "architecting complex multi-stage migrations and providing the hands-on configuration"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 10,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "architect",
+    "lead",
+    "diagnose",
+    "manage",
+    "drive"
+  ],
+  "segmentation_quality": "header"
+}

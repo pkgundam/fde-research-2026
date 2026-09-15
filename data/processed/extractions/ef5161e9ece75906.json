@@ -1,0 +1,152 @@
+{
+  "posting_id": "ef5161e9ece75906",
+  "skills": [
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Design each customer's GTM system"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "Assess signal frequency, usefulness, and cost before committing"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "Define how autonomous outbound operates"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "responsibility",
+      "evidence": "which actions require human review"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "responsibility",
+      "evidence": "Own deployment across CRM integration, data hygiene"
+    },
+    {
+      "canonical": "data_quality",
+      "section": "responsibility",
+      "evidence": "CRM integration, data hygiene, sending infrastructure"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Plan a rollout that can expand from a pilot to the wider organization"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "security review, procurement, data processing requirements"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "with the right customer stakeholders"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "Review pipeline by campaign and team, investigate weak results"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Lead on-site discovery, scoping, rollout workshops"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Lead on-site discovery, scoping, rollout workshops"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "rollout workshops, and executive reviews"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "Partner with sales on large opportunities"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Bring specific customer problems back to product and engineering"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "enterprise solutions consulting"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "requirement",
+      "evidence": "deployed a system into an organization with hundreds of sellers"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "requirement",
+      "evidence": "owned a pipeline result and can explain the decisions"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "requirement",
+      "evidence": "CRM object models, field quality, role hierarchies"
+    },
+    {
+      "canonical": "data_modeling",
+      "section": "requirement",
+      "evidence": "CRM object models, field quality, role hierarchies"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "work credibly with a CRO, a RevOps leader, and engineers"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "turn an unclear customer problem into a system design"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "a system design and a practical rollout plan"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "remain accountable for the result"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "willing to travel to customer sites frequently, up to 50%"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "nice_to_have",
+      "evidence": "Hands-on experience with Salesforce, Outreach, Salesloft... would be valuable"
+    },
+    {
+      "canonical": "sql",
+      "section": "nice_to_have",
+      "evidence": "SQL and light scripting are useful"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 3,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "design",
+    "build",
+    "define",
+    "own",
+    "lead"
+  ],
+  "segmentation_quality": "header"
+}

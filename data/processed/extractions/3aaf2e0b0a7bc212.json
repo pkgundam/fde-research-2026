@@ -1,0 +1,197 @@
+{
+  "posting_id": "3aaf2e0b0a7bc212",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "work directly with enterprise customers to design, build, and deploy"
+    },
+    {
+      "canonical": "speech",
+      "section": "responsibility",
+      "evidence": "design, build, and deploy production AI voice applications"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "launch and scale Voice AI in production"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "solving ambiguous technical problems"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "Partner with customer engineering teams to integrate Retell APIs and SDKs"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "custom workflows, automations, and conversational AI experiences"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Help customers architect scalable AI systems for production"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "architect scalable AI systems for production"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Debug production issues across APIs, webhooks, telephony"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "responsibility",
+      "evidence": "authentication, latency, and infrastructure"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "responsibility",
+      "evidence": "improve prompt quality, reliability, and performance"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "Serve as the primary technical advisor during implementation"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "Guide customers on AI best practices, architecture, and deployment strategies"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Own technical implementation from proof of concept through production"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Turn customer feedback into product improvements"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "2+ years of software engineering or customer-facing technical experience"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Strong programming skills in Python, TypeScript, or similar languages"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Strong programming skills in Python, TypeScript"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "Experience working with APIs, SDKs, and distributed systems"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "APIs, SDKs, and distributed systems"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "Excellent debugging and problem-solving skills"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Strong communication skills and the ability to work directly with technical customers"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "Experience building AI or LLM-powered applications"
+    },
+    {
+      "canonical": "speech",
+      "section": "nice_to_have",
+      "evidence": "Experience with Voice AI, speech technologies, or conversational AI"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "speech technologies, or conversational AI"
+    },
+    {
+      "canonical": "aws",
+      "section": "nice_to_have",
+      "evidence": "cloud infrastructure (AWS, GCP, Azure)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "nice_to_have",
+      "evidence": "cloud infrastructure (AWS, GCP, Azure)"
+    },
+    {
+      "canonical": "azure",
+      "section": "nice_to_have",
+      "evidence": "cloud infrastructure (AWS, GCP, Azure)"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "nice_to_have",
+      "evidence": "Startup experience"
+    },
+    {
+      "canonical": "consulting",
+      "section": "nice_to_have",
+      "evidence": "solutions engineering, or consulting experience"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "nice_to_have",
+      "evidence": "Customer-facing engineering, solutions engineering"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "nice_to_have",
+      "evidence": "Willingness to travel up to 10% for customer workshops"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "nice_to_have",
+      "evidence": "working directly with engineers and technical stakeholders"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "nice_to_have",
+      "evidence": "love experimenting with the latest models and technologies"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "nice_to_have",
+      "evidence": "wearing multiple hats across engineering, product, and customer success"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "nice_to_have",
+      "evidence": "delivering exceptional customer outcomes while building scalable solutions"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 2,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "design",
+    "build",
+    "deploy",
+    "debug",
+    "partner"
+  ],
+  "segmentation_quality": "header"
+}

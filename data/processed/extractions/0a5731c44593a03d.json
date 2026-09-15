@@ -1,0 +1,152 @@
+{
+  "posting_id": "0a5731c44593a03d",
+  "skills": [
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "research the approaches, prototype, prove what works, build it"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "requirement",
+      "evidence": "design the experiment, build the smallest version to test it"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "works end to end, from an ambiguous problem statement"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "Handed an ambiguous problem statement, you design the experiment"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "integrate it into the platform alongside our engineering and data science teams"
+    },
+    {
+      "canonical": "llm_observability",
+      "section": "responsibility",
+      "evidence": "instrument agent behavior in production — traces, failure taxonomies"
+    },
+    {
+      "canonical": "llm_observability",
+      "section": "requirement",
+      "evidence": "you've watched agents in production, not just in dev"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "Design and ship agent-powered features"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "Built them — agents with real autonomy and internal loops"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "Building and maintaining MCP servers"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "root-cause analysis, incident triage, monitor generation"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "responsibility",
+      "evidence": "root-cause analysis, incident triage, monitor generation"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "Build the eval infrastructure ... golden datasets, regression suites"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "You've owned an eval framework — golden datasets, regression suites"
+    },
+    {
+      "canonical": "rag",
+      "section": "responsibility",
+      "evidence": "Own retrieval and context pipelines over customer metadata, lineage"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "traces, failure taxonomies, cost and latency budgets"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "responsibility",
+      "evidence": "what an agent should do versus what it merely can do"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "Set the technical bar for how we build with LLMs"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "responsibility",
+      "evidence": "patterns, guardrails, and the internal tooling other engineers reuse"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "Set the technical bar for how we build with LLMs"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "Claude or its equivalents are part of how you write code"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Python is your daily language and you're solid on the backend"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "Python, plus an ML or data science background"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "nice_to_have",
+      "evidence": "statistics and hypothesis testing, applied rather than theoretical"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "requirement",
+      "evidence": "You'd rather ship than polish"
+    },
+    {
+      "canonical": "data_warehouses",
+      "section": "nice_to_have",
+      "evidence": "data and cloud space — Snowflake, Databricks, dbt, Airflow"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "nice_to_have",
+      "evidence": "data and cloud space — Snowflake, Databricks, dbt, Airflow"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "none",
+  "customer_facing_intensity": 2,
+  "responsibility_verbs": [
+    "research",
+    "prototype",
+    "build",
+    "integrate",
+    "instrument"
+  ],
+  "segmentation_quality": "header"
+}

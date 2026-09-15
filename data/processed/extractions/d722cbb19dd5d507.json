@@ -1,0 +1,47 @@
+{
+  "posting_id": "d722cbb19dd5d507",
+  "skills": [
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "We combine AI agents with combinatorial optimization"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "work directly with customers to understand their problems"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "own projects end-to-end"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "deploying AI workflows in production"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "Factory OS for production planning and scheduling in heavy industry"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "We operate on the factory floor, not in slide decks"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "work",
+    "understand",
+    "own",
+    "deploy",
+    "operate"
+  ],
+  "segmentation_quality": "inferred"
+}

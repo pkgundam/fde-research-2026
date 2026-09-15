@@ -1,0 +1,212 @@
+{
+  "posting_id": "584f5ee434df4fed",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "make sure customers get real, lasting value"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "customers get real, lasting value out of the CoreWeave SaaS platform"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "work closely with Sales, Support, Product, and Engineering"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "Teach the field team what they need to know...through feature walkthroughs, playbooks"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "hands-on with customers: in workshops, in their architecture reviews"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "turns a customer's vague idea into a clear technical plan"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "building a reference architecture or demo that the whole field team can reuse"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "steps into a hard customer integration and gets it unstuck"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "steps into a hard customer integration and gets it unstuck"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "responsibility",
+      "evidence": "lining up your work with our top product and go-to-market priorities"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "deep, hands-on technical work is needed to unblock a deal"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "Jump into high-priority customer engagements when deep, hands-on technical work is needed"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Contribute directly to the product — examples, integrations, demo apps"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "internal tools, docs, and the occasional bug fix"
+    },
+    {
+      "canonical": "git",
+      "section": "responsibility",
+      "evidence": "through the normal engineering review process"
+    },
+    {
+      "canonical": "testing",
+      "section": "responsibility",
+      "evidence": "Help customers design, test, and troubleshoot integrations"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "responsibility",
+      "evidence": "APIs, data flows, identity and access, and third-party systems"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "similar customer-facing technical role"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "requirement",
+      "evidence": "solutions engineering, SRE, field engineering, or similar"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Comfortable in Python and confident writing and reading code"
+    },
+    {
+      "canonical": "docker",
+      "section": "requirement",
+      "evidence": "Hands-on experience with Docker, Kubernetes"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "Hands-on experience with Docker, Kubernetes"
+    },
+    {
+      "canonical": "iac",
+      "section": "requirement",
+      "evidence": "Infrastructure-as-Code tools like Terraform"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "at least one major cloud platform (AWS, GCP, or Azure)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "at least one major cloud platform (AWS, GCP, or Azure)"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "at least one major cloud platform (AWS, GCP, or Azure)"
+    },
+    {
+      "canonical": "shell",
+      "section": "requirement",
+      "evidence": "Comfortable working in Linux/Unix environments day to day"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Strong communicator — you can explain a technical idea clearly"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "clearly to an engineer and just as clearly to a customer executive"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "breaking down a messy, open-ended problem into a clear plan"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "breaking down a messy, open-ended problem"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "requirement",
+      "evidence": "juggle multiple customers and priorities without dropping the ball"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "nice_to_have",
+      "evidence": "building workshops, playbooks, or enablement content"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "nice_to_have",
+      "evidence": "Background in MLOps or LLMOps"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "nice_to_have",
+      "evidence": "building ML/AI pipelines end to end"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "Experience with GenAI tooling and working with LLMs"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "nice_to_have",
+      "evidence": "Familiarity with data pipeline tools and common integration patterns"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "nice_to_have",
+      "evidence": "integration patterns (identity/access, third-party systems, data flows)"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "nice_to_have",
+      "evidence": "shipping reusable technical assets — sample code, demo apps"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 3,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "teach",
+    "design",
+    "build",
+    "troubleshoot",
+    "contribute"
+  ],
+  "segmentation_quality": "header"
+}

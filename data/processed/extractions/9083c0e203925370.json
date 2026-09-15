@@ -1,0 +1,207 @@
+{
+  "posting_id": "9083c0e203925370",
+  "skills": [
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Own the technical partner journey for priority agent enablement"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "responsibility",
+      "evidence": "browser sign-in, connector-initiated OAuth, and agentic account linking"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "agentic account linking or provisioning, with clear user journeys"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "build reference implementations and test harnesses"
+    },
+    {
+      "canonical": "testing",
+      "section": "responsibility",
+      "evidence": "build reference implementations and test harnesses"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "integration checklists, evaluations, and debugging tools"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "create the technical guidance, integration checklists"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Debug identity and agent workflows end to end"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "logs, traces, and metrics"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "latency, retries, rate limits"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Review partner architectures and implementation plans"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "secret handling, data boundaries, privacy, reliability"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "API contracts, scopes and permissions"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "responsibility",
+      "evidence": "launch guardrails, and user-facing consent or control"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Work closely with product, engineering, design, partnerships"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Bring structured signals from partners back to product"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "operated in a customer or partner facing roles"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "in scoping projects, building MVPs, presenting trade-offs"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "requirement",
+      "evidence": "building MVPs, presenting trade-offs in solution design"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "presenting trade-offs in solution design and architecture"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "production full-stack products, APIs, backend services"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "requirement",
+      "evidence": "reason across frontend, backend, auth, data models"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "full-stack products ... reason across frontend, backend"
+    },
+    {
+      "canonical": "data_modeling",
+      "section": "requirement",
+      "evidence": "auth, data models, reliability, privacy"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "how plugins and connectors work with coding agents"
+    },
+    {
+      "canonical": "shell",
+      "section": "requirement",
+      "evidence": "using CLIs and APIs to access external tools"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "comfortable with ambiguity and rapidly changing conditions"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "requirement",
+      "evidence": "Balance urgency with judgment"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "nice_to_have",
+      "evidence": "identity stack, including how OAuth works"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "nice_to_have",
+      "evidence": "designing or operating APIs, webhooks, schemas, SDKs"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "MCP servers, tool-calling systems"
+    },
+    {
+      "canonical": "shell",
+      "section": "nice_to_have",
+      "evidence": "SDKs, CLIs, MCP servers"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "Prior customer-facing or partner-facing engineering experience"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "nice_to_have",
+      "evidence": "leading technical calls, navigating ambiguity"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "Strong familiarity with AI products, LLM APIs"
+    },
+    {
+      "canonical": "evals",
+      "section": "nice_to_have",
+      "evidence": "Experience with evaluations, staged rollouts"
+    },
+    {
+      "canonical": "observability",
+      "section": "nice_to_have",
+      "evidence": "staged rollouts, observability, incident response"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "nice_to_have",
+      "evidence": "observability, incident response, launch operations"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 4,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "own",
+    "help",
+    "write",
+    "debug",
+    "review"
+  ],
+  "segmentation_quality": "header"
+}

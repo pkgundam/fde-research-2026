@@ -1,0 +1,97 @@
+{
+  "posting_id": "d8401e3349345987",
+  "skills": [
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "leverages OpenAI's APIs to solve real customer problems"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "customer-focused software engineers to build effective custom software"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "design and implement scalable solutions that solve their most"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "collaborate closely with Sales, Solutions Engineering, Solutions Architects"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "Solutions Engineering, Solutions Architects, and Customer Success Managers"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "provide insightful customer feedback"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Travel up to 50% is required"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "understand their business challenges and technical requirements in detail"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "Prepare detailed scopes of work and project plans"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "proof-of-concept prototypes and full production deployments"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "technical expert and trusted advisor, coding side-by-side to drive"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Contribute to internal knowledge bases, codifying best practices"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "Experience with relational databases like Postgres/MySQL"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "Have a bias for action and willingness to work"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "customer-facing experience is highly desirable"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "nice_to_have",
+      "evidence": "Former founder, or early engineer at a startup"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 7,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "design",
+    "build",
+    "embed",
+    "collaborate",
+    "prepare"
+  ],
+  "segmentation_quality": "header"
+}

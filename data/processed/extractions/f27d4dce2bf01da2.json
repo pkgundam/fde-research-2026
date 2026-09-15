@@ -1,0 +1,222 @@
+{
+  "posting_id": "f27d4dce2bf01da2",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "partner directly with customers to design"
+    },
+    {
+      "canonical": "python",
+      "section": "responsibility",
+      "evidence": "using Python, Langchain/LangGraph"
+    },
+    {
+      "canonical": "llm_frameworks",
+      "section": "responsibility",
+      "evidence": "using Python, Langchain/LangGraph"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "and large language models"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "embedded within customer projects"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "end-to-end deployment of GenAI applications for customers"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "from discovery to delivery"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Architect and implement robust, scalable solutions"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "Act as a trusted technical advisor to customers"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Collaborate closely with product, ML, and engineering"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "influence roadmap and core platform capabilities"
+    },
+    {
+      "canonical": "aws",
+      "section": "responsibility",
+      "evidence": "Operate across cloud platforms (AWS, Azure, GCP)"
+    },
+    {
+      "canonical": "azure",
+      "section": "responsibility",
+      "evidence": "Operate across cloud platforms (AWS, Azure, GCP)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "responsibility",
+      "evidence": "Operate across cloud platforms (AWS, Azure, GCP)"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "ensure secure, performant infrastructure"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "ensure secure, performant infrastructure"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "responsibility",
+      "evidence": "improve deployment tools, pipelines, and methodologies"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "requirement",
+      "evidence": "software engineering or solutions engineering"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "ideally in a customer-facing capacity"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Proven expertise in Python, Langchain, LangGraph"
+    },
+    {
+      "canonical": "llm_frameworks",
+      "section": "requirement",
+      "evidence": "Proven expertise in Python, Langchain, LangGraph"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "Langchain, LangGraph, and SQL"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "engineering architecture, including APIs, microservices"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "including APIs, microservices, and event-driven"
+    },
+    {
+      "canonical": "streaming",
+      "section": "requirement",
+      "evidence": "and event-driven systems"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "designing and deploying GenAI applications into production"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "cloud services such as AWS, GCP, and/or Azure"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "cloud services such as AWS, GCP, and/or Azure"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "cloud services such as AWS, GCP, and/or Azure"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "communication skills, translate technical complexity"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "Comfortable working autonomously"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "requirement",
+      "evidence": "managing multiple deployment tracks in parallel"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "nice_to_have",
+      "evidence": "Familiarity with CI/CD, infrastructure-as-code"
+    },
+    {
+      "canonical": "iac",
+      "section": "nice_to_have",
+      "evidence": "infrastructure-as-code (Terraform, Pulumi)"
+    },
+    {
+      "canonical": "docker",
+      "section": "nice_to_have",
+      "evidence": "container orchestration (Docker, Kubernetes)"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "nice_to_have",
+      "evidence": "container orchestration (Docker, Kubernetes)"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "nice_to_have",
+      "evidence": "Background in LLM fine-tuning"
+    },
+    {
+      "canonical": "rag",
+      "section": "nice_to_have",
+      "evidence": "retrieval-augmented generation (RAG)"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "nice_to_have",
+      "evidence": "AI/ML operations"
+    },
+    {
+      "canonical": "consulting",
+      "section": "nice_to_have",
+      "evidence": "Previous experience in a startup, consulting"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "fast-paced customer-obsessed environment"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "lead",
+    "architect",
+    "act",
+    "collaborate",
+    "operate"
+  ],
+  "segmentation_quality": "header"
+}

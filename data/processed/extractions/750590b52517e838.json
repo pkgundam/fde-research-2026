@@ -1,0 +1,42 @@
+{
+  "posting_id": "750590b52517e838",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "enjoys working directly with customers"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "You will deploy Cicero at law firms"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "165,000+ law firms across the United States"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "help shape the foundation of the company"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "responsibility",
+      "evidence": "build product alongside users"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "deploy",
+    "build",
+    "ship",
+    "iterate",
+    "shape"
+  ],
+  "segmentation_quality": "inferred"
+}

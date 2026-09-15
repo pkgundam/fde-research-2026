@@ -1,0 +1,242 @@
+{
+  "posting_id": "f3da54c501b0cece",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "partner with leading AI labs and enterprises"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "lead the technical execution of complex customer engagements"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "synthetic data is used to improve model training, evaluation"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "translate ambiguous model and data challenges into effective data strategies"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "responsibility",
+      "evidence": "build scalable generation and evaluation pipelines"
+    },
+    {
+      "canonical": "data_quality",
+      "section": "responsibility",
+      "evidence": "continuously improve data quality and downstream model outcomes"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "full delivery lifecycle...through implementation...production delivery"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "turn successful approaches into reusable capabilities, product improvements"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "Develop LLM- and ML-assisted workflows to generate datasets"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "responsibility",
+      "evidence": "LLM- and ML-assisted workflows"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "measurement frameworks to assess correctness, relevance, diversity, coverage"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "standardized formats, quality assurance, and clear documentation"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "navigating ambiguity and making sound technical decisions"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Rapidly prototype and productionize solutions across models"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "data pipelines, APIs, and custom applications"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "responsibility",
+      "evidence": "Communicate technical tradeoffs, experimental results, and recommendations"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "recommendations clearly to technical and cross-functional stakeholders"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "responsibility",
+      "evidence": "Communicate technical tradeoffs, experimental results"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "trusted technical partner to customers and internal delivery teams"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Define and improve technical standards for synthetic data generation"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner with DaaS Engineering and Product teams"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "Lead technical design reviews...provide guidance to other engineers"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "responsibility",
+      "evidence": "Stay current with emerging synthetic data, LLM evaluation techniques"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "5+ years...machine learning engineering, data science"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Strong Python skills and experience building reliable production systems"
+    },
+    {
+      "canonical": "docker",
+      "section": "requirement",
+      "evidence": "containerizing with Docker and deploying on cloud platforms"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "cloud platforms (e.g., AWS, GCP, or Azure)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "cloud platforms (e.g., AWS, GCP, or Azure)"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "cloud platforms (e.g., AWS, GCP, or Azure)"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "Hands-on experience with LLMs—building model-based applications"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "integrating systems, models, and data sources through APIs"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "ML experimentation and evaluation, including defining metrics"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "requirement",
+      "evidence": "defining metrics and using empirical results to guide technical decisions"
+    },
+    {
+      "canonical": "data_quality",
+      "section": "requirement",
+      "evidence": "building synthetic data, data augmentation, or model-generated datasets"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "ambiguous technical problems from problem definition through delivery"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "strong technical communication"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "experience working directly with customers and cross-functional stakeholders"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "experience working directly with customers and cross-functional stakeholders"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "requirement",
+      "evidence": "technical lead—setting technical direction...mentoring engineers"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "driving architecture and key decisions"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "requirement",
+      "evidence": "influence broader engineering or product outcomes"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "nice_to_have",
+      "evidence": "developing datasets for fine-tuning, preference optimization, or benchmarking"
+    },
+    {
+      "canonical": "evals",
+      "section": "nice_to_have",
+      "evidence": "benchmarking, including human-in-the-loop generation and review workflows"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "building agentic environments and tasks...agent tool protocols"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "fast-paced, customer-facing environments where requirements evolve quickly"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "lead",
+    "translate",
+    "design",
+    "build",
+    "develop"
+  ],
+  "segmentation_quality": "header"
+}

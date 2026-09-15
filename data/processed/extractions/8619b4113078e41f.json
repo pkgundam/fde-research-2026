@@ -1,0 +1,127 @@
+{
+  "posting_id": "8619b4113078e41f",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "in the room during client scoping meetings, not support staff"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "in the room during client scoping meetings"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "identify risks early"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "responsibility",
+      "evidence": "fine-tune open-weight models on client data"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "empirically measure the impact of our data on model performance"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "partner with our Human Data Operations team to review"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "Consult on workflow and quality systems"
+    },
+    {
+      "canonical": "data_quality",
+      "section": "responsibility",
+      "evidence": "review annotation schemas, task designs, and quality rubrics"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "contribute to benchmarks, white papers, and conference submissions"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "MS or PhD in Machine Learning, Computer Science"
+    },
+    {
+      "canonical": "nlp",
+      "section": "requirement",
+      "evidence": "MS or PhD in Machine Learning, NLP, Computer Science"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "requirement",
+      "evidence": "Hands-on experience fine-tuning large language models"
+    },
+    {
+      "canonical": "data_quality",
+      "section": "requirement",
+      "evidence": "how data quality and composition affect each stage"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "designing and executing experiments...statistical analysis of results"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "Strong written and verbal communication"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "present findings to client research teams"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "research role with direct client/stakeholder interaction"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "nice_to_have",
+      "evidence": "direct client/stakeholder interaction"
+    },
+    {
+      "canonical": "evals",
+      "section": "nice_to_have",
+      "evidence": "evaluation and benchmarking of LLMs — designing metrics"
+    },
+    {
+      "canonical": "data_quality",
+      "section": "nice_to_have",
+      "evidence": "annotation workflows, quality assurance methodology"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "nice_to_have",
+      "evidence": "reinforcement learning, reward modeling, or RLHF environments"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "nice_to_have",
+      "evidence": "Published research (conferences, journals, or technical reports)"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "engage",
+    "develop",
+    "run",
+    "consult",
+    "collaborate"
+  ],
+  "segmentation_quality": "header"
+}

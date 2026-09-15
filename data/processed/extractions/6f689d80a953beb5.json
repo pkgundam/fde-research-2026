@@ -1,0 +1,157 @@
+{
+  "posting_id": "6f689d80a953beb5",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Serve as a technical point of contact for customers"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "customers across their journey from evaluation to production"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Deeply understand customer architectures, use cases, and requirements"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "requirements to influence our roadmap and devise solutions"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "proactively identifying opportunities to address risk and drive expansion"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "address risk and drive expansion"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "deliver high-quality technical support"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Troubleshoot issues and deliver high-quality technical support"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Build processes and capture knowledge to scale and automate"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "Partner with Sales on technical discovery, deliver product demonstrations"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "contribute to proof-of-concept evaluations"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "from tooling and integrations to documentation and internal workflows"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "collaborate closely with Sales, Product, and Engineering to scope"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "guiding existing customers through implementation, optimization, and expansion"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "understand and explain APIs, cloud infrastructure, data pipelines"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "explain APIs, cloud infrastructure, data pipelines, and enterprise"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "requirement",
+      "evidence": "cloud infrastructure, data pipelines, and enterprise software integrations"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "requirement",
+      "evidence": "data pipelines, and enterprise software integrations"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "communicate complex technical concepts to both technical and non-technical"
+    },
+    {
+      "canonical": "rag",
+      "section": "requirement",
+      "evidence": "concepts of embeddings, similarity search, recommendation systems, and RAG"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "Thrives in a startup environment: resourceful, adaptable, and proactive"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "resourceful, adaptable, and proactive in creating solutions"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Proficiency in one or more popular programming languages (Python"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "programming languages (Python, JavaScript)"
+    },
+    {
+      "canonical": "observability",
+      "section": "nice_to_have",
+      "evidence": "Experience with Datadog or similar monitoring tools"
+    },
+    {
+      "canonical": "aws",
+      "section": "nice_to_have",
+      "evidence": "Experience working with cloud platforms (AWS, GCP, Azure)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "nice_to_have",
+      "evidence": "Experience working with cloud platforms (AWS, GCP, Azure)"
+    },
+    {
+      "canonical": "azure",
+      "section": "nice_to_have",
+      "evidence": "Experience working with cloud platforms (AWS, GCP, Azure)"
+    }
+  ],
+  "seniority": "junior",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "serve",
+    "build",
+    "troubleshoot",
+    "partner",
+    "understand"
+  ],
+  "segmentation_quality": "header"
+}

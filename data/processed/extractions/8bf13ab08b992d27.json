@@ -1,0 +1,227 @@
+{
+  "posting_id": "8bf13ab08b992d27",
+  "skills": [
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "Build AI agents and automations that solve real recruiting problems"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "measurable ROI tied to recruiter time saved"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "recruiter time saved, funnel improvements, or hiring outcomes"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "responsibility",
+      "evidence": "roadmap end-to-end — prioritization, sequencing, communication"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "progress read-outs to TA leadership and stakeholders"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner closely with Anduril's Corporate Technology team"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "infrastructure, security posture, and roadmap"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "responsibility",
+      "evidence": "clear point of view on where AI and automation will drive value"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "evaluating vendors... against scalability, total cost"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "drive baseline AI literacy across the recruiting org"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "responsibility",
+      "evidence": "internal training, documentation, prompt patterns, guardrails"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "responsibility",
+      "evidence": "prompt patterns, guardrails, and best practices"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "responsibility",
+      "evidence": "PII handling, role-based access, audit trails"
+    },
+    {
+      "canonical": "git",
+      "section": "responsibility",
+      "evidence": "version control, testing, evals, deployment, monitoring"
+    },
+    {
+      "canonical": "testing",
+      "section": "responsibility",
+      "evidence": "version control, testing, evals, deployment, monitoring"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "version control, testing, evals, deployment, monitoring"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "testing, evals, deployment, monitoring"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "applied AI / LLM-based systems (agents, tool use, RAG"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "LLM-based systems (agents, tool use, RAG, evaluations"
+    },
+    {
+      "canonical": "rag",
+      "section": "requirement",
+      "evidence": "tool use, RAG, evaluations, automations"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "RAG, evaluations, automations"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "Genuinely curious about the recruiting / TA domain"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "sit with recruiters and sourcers, learn their workflows"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "APIs and integrations, version control, testing, CI/CD"
+    },
+    {
+      "canonical": "git",
+      "section": "requirement",
+      "evidence": "APIs and integrations, version control, testing, CI/CD"
+    },
+    {
+      "canonical": "testing",
+      "section": "requirement",
+      "evidence": "version control, testing, CI/CD, basic infrastructure"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "requirement",
+      "evidence": "testing, CI/CD, basic infrastructure, and deployment"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "requirement",
+      "evidence": "including prompt design, tool use, retrieval, evaluation"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "requirement",
+      "evidence": "Experience integrating with SaaS APIs and stitching workflows"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "requirement",
+      "evidence": "handling auth, rate limits, pagination, and webhooks"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "requirement",
+      "evidence": "ship working systems against them, and quantify the impact"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "requirement",
+      "evidence": "identify high-leverage opportunities in an operational function"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "evaluate vendors and internal platforms against custom builds on scalability, cost"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "safety, compliance, and maintainability"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "communication to non-technical leadership"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "clear written read-outs"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Strong written and verbal communication"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "real software engineering rigor (Python, APIs, integrations"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "embedded in or directly partnering with a Talent Acquisition"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "nice_to_have",
+      "evidence": "modern recruiting stack — Greenhouse, Gem, LinkedIn Recruiter, Workday"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "nice_to_have",
+      "evidence": "designing AI literacy programs, internal enablement"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "nice_to_have",
+      "evidence": "compliance, PII handling, and auditability are first-class"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 4,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 1,
+  "responsibility_verbs": [
+    "build",
+    "own",
+    "partner",
+    "lead",
+    "ship"
+  ],
+  "segmentation_quality": "header"
+}

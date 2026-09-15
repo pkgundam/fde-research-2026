@@ -74,7 +74,7 @@ footer{color:var(--muted);font-size:.85rem;padding-block:var(--s6)}
 <header class="hero">
   <span class="eyebrow">Research report</span>
   <h1>What Forward Deployed Engineer roles actually demand</h1>
-  <p class="lede">A skills map built from {{ data.meta.n_postings }} live FDE job postings across {{ data.meta.n_companies }} companies, extracted against a fixed taxonomy and split by whether a skill is the <em>job</em> or merely a <em>requirement</em>.</p>
+  <p class="lede">A skills map built from {{ data.meta.n_postings }} FDE job postings across {{ data.meta.n_companies }} companies, extracted against a fixed taxonomy and split by whether a skill is the <em>job</em> or merely a <em>requirement</em>.</p>
 </header>
 
 <section id="what-fde-does">
@@ -92,7 +92,7 @@ footer{color:var(--muted);font-size:.85rem;padding-block:var(--s6)}
 
 <section id="frequency-vs-criticality">
   <h2>3 · Frequency vs criticality</h2>
-  <p class="sub"><b>Frequency</b> (x): how often a skill appears. <b>Criticality</b> (y): the share of its mentions that sit in a <em>responsibilities</em> section rather than requirements or nice-to-haves — i.e. how often the skill <em>is the job</em>. Faded points have fewer than 5 mentions.</p>
+  <p class="sub"><b>Frequency</b> (x): how often a skill appears. <b>Criticality</b> (y): the share of its mentions tagged as a responsibility ("what you will do") rather than a requirement — i.e. how often the skill <em>is the job</em>. Faded points have fewer than 5 mentions.</p>
   <div class="chart-box" id="scatter-box"><canvas id="scatter"></canvas></div>
   <div class="quadrant-key">
     <span><b>Top-left — Hidden core:</b> rarely listed, but when listed it is the work.</span>
@@ -171,13 +171,14 @@ footer{color:var(--muted);font-size:.85rem;padding-block:var(--s6)}
 
 <section id="methodology">
   <h2>8 · Methodology</h2>
-  <p><b>n = {{ data.meta.n_postings }}</b> unique postings from {{ data.meta.n_companies }} companies, posted {{ data.meta.date_range[0] }} to {{ data.meta.date_range[1] }}. All postings were live on {{ data.meta.collected_on }}; {{ (data.meta.recent_share*100)|round|int }}% were first published within the previous 12 months (ATS boards report a posting's original publish date). Deduplicated on (normalised company, normalised title); postings sharing that key were merged only when their texts overlapped by at least 80% on 6-word shingles (containment).</p>
+  <p><b>n = {{ data.meta.n_postings }}</b> unique postings from {{ data.meta.n_companies }} companies, posted {{ data.meta.date_range[0] }} to {{ data.meta.date_range[1] }}. {% if data.meta.hn_threads %}ATS postings were live on {{ data.meta.collected_on }}; Hacker News entries come from the {{ data.meta.hn_threads.months }} monthly "Who is hiring?" threads from {{ data.meta.hn_threads.first }} to {{ data.meta.hn_threads.last }} (a company's monthly reposts were merged). {{ (data.meta.recent_share*100)|round|int }}% of postings were first published within the 12 months before collection (ATS boards report original publish dates).{% else %}Postings were live on {{ data.meta.collected_on }}; {{ (data.meta.recent_share*100)|round|int }}% of postings were first published within the 12 months before collection (ATS boards report original publish dates).{% endif %} Deduplicated on (normalised company, normalised title); postings sharing that key were merged only when their texts overlapped by at least 80% on 6-word shingles (containment).</p>
   <div class="table-wrap"><table><tr><th>Source</th><th>Fetched</th><th>Title-matched</th><th>Kept after dedupe</th></tr>
-  {% for s in data.meta.sources %}<tr><td>{{ s.name }}</td><td class="mono">{{ s.fetched }}</td><td class="mono">{{ s.matched }}</td><td class="mono">{{ s.kept }}</td></tr>{% endfor %}</table></div>
-  <p style="margin-top:var(--s4)"><b>Extraction.</b> Each posting was segmented into responsibilities / requirements / nice-to-have sections ({{ data.meta.segmentation.header }} by explicit headers, {{ data.meta.segmentation.inferred }} inferred) and passed once, with the full closed taxonomy, to {{ data.meta.model }} using a fixed prompt, run as Claude Code subagents rather than through the API. Every returned skill was validated against the taxonomy; {{ data.meta.rejects }} out-of-vocabulary mentions were logged and reviewed. Adzuna: {{ 'used' if data.meta.adzuna_used else 'not used' }}. LinkedIn and Indeed were not scraped.</p>
+  {% for s in data.meta.sources %}<tr><td>{{ s.name }}</td><td class="mono">{{ s.fetched }}</td><td class="mono">{{ s.matched }}</td><td class="mono">{{ s.kept }}</td></tr>{% endfor %}</table>
+  <small style="color:var(--muted)">Fetched = jobs listed on the board (ATS), comment hits across queries (HN), or rows scanned (Arbeitnow).</small></div>
+  <p style="margin-top:var(--s4)"><b>Extraction.</b> Each posting was segmented into responsibilities / requirements / nice-to-have sections ({{ data.meta.segmentation.header }} by explicit headers, {{ data.meta.segmentation.inferred }} inferred) and passed once, with the full closed taxonomy, to {{ data.meta.model }} (Claude Code `sonnet` alias, run as subagents rather than through the API) using a fixed prompt. Every returned skill was validated against the taxonomy; {{ data.meta.rejects }} out-of-vocabulary mentions were logged and reviewed. Adzuna: {{ 'used' if data.meta.adzuna_used else 'not used' }}. LinkedIn and Indeed were not scraped.</p>
   <p><b>Limitations.</b></p><ul>{% for l in data.content.insights.limitations %}<li>{{ l }}</li>{% endfor %}</ul>
 </section>
-<footer>Generated {{ data.meta.generated_at[:10] }}. Pipeline and taxonomy are open; charts by Chart.js.</footer>
+<footer>Generated {{ data.meta.generated_at[:10] }}. Pipeline and taxonomy are in the repository; charts by Chart.js.</footer>
 </div>
 
 <script id="data" type="application/json">{{ data_json|safe }}</script>

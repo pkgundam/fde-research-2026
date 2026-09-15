@@ -1,0 +1,182 @@
+{
+  "posting_id": "f8eea2ca3e4a2c38",
+  "skills": [
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Lead architecture and design decisions, ensuring solutions"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "ensuring solutions are secure, scalable, and aligned"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "ensuring solutions are secure, scalable, and aligned"
+    },
+    {
+      "canonical": "react",
+      "section": "responsibility",
+      "evidence": "Design and develop applications spanning backend, frontend"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "applications spanning backend, frontend, and integrations"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "bringing data and AI to life for enterprise users"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "responsibility",
+      "evidence": "bringing data and AI to life for enterprise users"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "responsibility",
+      "evidence": "Deliver production-grade systems from data ingestion and transformation"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "responsibility",
+      "evidence": "through ML/AI model integration to user-facing applications"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "user-facing applications and enablement"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Embed with customer teams, engaging with stakeholders"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "engaging with stakeholders from technical ICs to executives"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner with Sales, Product, and Field Engineering"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "seamless customer journey from pre-sales through post-deployment"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "seamless customer journey from pre-sales through post-deployment"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "best practices that scale impact across accounts"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "embed directly with our most strategic customers"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "experience across backend, frontend, and systems integration"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "experience across backend, frontend, and systems integration"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Proficiency in Python, SQL, Java/Scala, JavaScript/TypeScript"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "Proficiency in Python, SQL, Java/Scala, JavaScript/TypeScript"
+    },
+    {
+      "canonical": "java",
+      "section": "requirement",
+      "evidence": "SQL, Java/Scala, JavaScript/TypeScript, and modern frameworks"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Java/Scala, JavaScript/TypeScript, and modern frameworks"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "design, build, and deploy production applications"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "requirement",
+      "evidence": "applications that combine data pipelines, ML/AI models"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "combine data pipelines, ML/AI models, and user-facing"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "AI APIs such as OpenAI, Anthropic, and Gemini"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "delivering technical solutions in enterprise environments"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "requirement",
+      "evidence": "delivering technical solutions in enterprise environments"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "requirement",
+      "evidence": "environments that drive measurable outcomes"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "broad stakeholder range, from engineers to C-level executives"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "translating complex concepts into actionable solutions"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "Curiosity, adaptability, and eagerness to explore new technologies"
+    }
+  ],
+  "seniority": "staff_plus",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "own",
+    "design",
+    "deliver",
+    "embed",
+    "partner"
+  ],
+  "segmentation_quality": "header"
+}

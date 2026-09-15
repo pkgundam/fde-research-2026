@@ -1,0 +1,172 @@
+{
+  "posting_id": "fa561339940d4d16",
+  "skills": [
+    {
+      "canonical": "ml_fundamentals",
+      "section": "responsibility",
+      "evidence": "helping customers realise measurable value from machine learning applications"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "helping customers realise measurable value from machine learning"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "helping customers realise measurable value"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "establish and lead this vertical"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "how the team engages with autonomous vehicle customers"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "lead complex customer engagements from first contact"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "lead complex customer engagements from first contact through to embedded deployment"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "first contact through to embedded deployment and expansion"
+    },
+    {
+      "canonical": "testing",
+      "section": "responsibility",
+      "evidence": "capable of building and validating ML solutions independently"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "design and deploy solutions and build customer-facing applications"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "responsibility",
+      "evidence": "not just deploying tools but building at the product edge"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "gather and synthesise signals from real customer deployments"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "experience in autonomous vehicle systems development, perception engineering"
+    },
+    {
+      "canonical": "computer_vision",
+      "section": "requirement",
+      "evidence": "sensor modalities (camera, LiDAR, radar)"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "AI/ML for L4-5 autonomous systems"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "build, validate, and deploy ML solutions independently in Python"
+    },
+    {
+      "canonical": "testing",
+      "section": "requirement",
+      "evidence": "scenario-based testing, and data driven approaches to safety case validation"
+    },
+    {
+      "canonical": "analytics",
+      "section": "requirement",
+      "evidence": "working directly in JupyterHub, VS Code, Marimo"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "build and deploy customer-facing applications"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "validate ML solutions on engineering grounds"
+    },
+    {
+      "canonical": "project_management",
+      "section": "requirement",
+      "evidence": "leading complex technical customer engagements, managing multi-stakeholder environments"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "maintaining executive relationships"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "requirement",
+      "evidence": "translate field observations into structured product signals"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "nice_to_have",
+      "evidence": "functional safety standards including ISO 26262 and SOTIF"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "nice_to_have",
+      "evidence": "edge deployment of ML models in constrained or safety-critical environments"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "nice_to_have",
+      "evidence": "progressing expansion opportunities within strategic customer accounts"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "nice_to_have",
+      "evidence": "contributing to internal knowledge frameworks, technical publications"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "technical publications, or industry forums in the autonomous vehicles space"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "nice_to_have",
+      "evidence": "discussing system safety architecture with systems engineers"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "nice_to_have",
+      "evidence": "equally comfortable discussing perception algorithm design"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "nice_to_have",
+      "evidence": "genuinely interesting technical problem"
+    }
+  ],
+  "seniority": "staff_plus",
+  "years_required": 8,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "define",
+    "lead",
+    "design",
+    "build",
+    "validate"
+  ],
+  "segmentation_quality": "header"
+}

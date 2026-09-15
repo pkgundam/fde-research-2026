@@ -1,0 +1,127 @@
+{
+  "posting_id": "689096e12c588317",
+  "skills": [
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "You are advanced in Python"
+    },
+    {
+      "canonical": "cpp",
+      "section": "nice_to_have",
+      "evidence": "ideally have some knowledge of C++"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "understanding of mechanics, electronic systems, networks"
+    },
+    {
+      "canonical": "shell",
+      "section": "requirement",
+      "evidence": "Linux administration"
+    },
+    {
+      "canonical": "git",
+      "section": "requirement",
+      "evidence": "You are familiar with GIT"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "hands-on mentality when facing complex problems"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "willing to travel (max 80%), both nationally"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "business fluent in English"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "deploy our Autonomous Mobile Robots (AMRs)... at customer sites"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "You independently deploy our Autonomous Mobile Robots"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "analyse and troubleshoot complex and exciting robotics problems"
+    },
+    {
+      "canonical": "testing",
+      "section": "responsibility",
+      "evidence": "documentation and testing of the resulting fixes"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "including documentation and testing"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "You evaluate our constantly evolving AMRs in terms of performance"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "in terms of performance, stability and customer satisfaction"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "close collaboration with the project & development teams"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "selected external stakeholders"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "run multiple AMR demonstrations at global events"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "train customers and other implementation teams to use"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "support the global Customer Support Teams upon request"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "80% working time will be spent at our customers"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "spent at our customers or events/fairs"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "deploy",
+    "troubleshoot",
+    "evaluate",
+    "train",
+    "support"
+  ],
+  "segmentation_quality": "header"
+}

@@ -1,0 +1,142 @@
+{
+  "posting_id": "dc3804b3c8093560",
+  "skills": [
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Be open to >50% onsite work"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Collaborate with cross-functional teams to define"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "responsibility",
+      "evidence": "vision for data pipelines and agents."
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "data pipelines and agents."
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "Implement end-to-end data integrations, syncing"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Deploy and maintain Scale software at"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "work closely with them to ensure"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Build robust and reliable backend systems"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "working closely with stakeholders to understand"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "active Secret clearance and willingness to"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "responsibility",
+      "evidence": "interactions with existing customer systems to"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "requirement",
+      "evidence": "Knowledge of ETL (Extract, Transform, Load)"
+    },
+    {
+      "canonical": "data_modeling",
+      "section": "requirement",
+      "evidence": "Understanding of data modeling, data warehousing"
+    },
+    {
+      "canonical": "data_warehouses",
+      "section": "requirement",
+      "evidence": "data modeling, data warehousing, and data"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "hybrid customer facing engineer, forward deployed"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "ability to quickly adapt to different"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Prior experience developing with Python"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "cloud platforms (e.g., AWS, Azure, GCP)"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "cloud platforms (e.g., AWS, Azure, GCP)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "cloud platforms (e.g., AWS, Azure, GCP)"
+    },
+    {
+      "canonical": "shell",
+      "section": "requirement",
+      "evidence": "Understanding of shell scripting, operating systems"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "identify root causes, and propose innovative"
+    },
+    {
+      "canonical": "docker",
+      "section": "nice_to_have",
+      "evidence": "containerization (e.g., Docker) and container orchestration"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "nice_to_have",
+      "evidence": "container orchestration (e.g., Kubernetes) is a"
+    },
+    {
+      "canonical": "networking",
+      "section": "nice_to_have",
+      "evidence": "Understanding of networking technologies, configuration (ports"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "collaborate",
+    "implement",
+    "deploy",
+    "develop",
+    "build"
+  ],
+  "segmentation_quality": "header"
+}

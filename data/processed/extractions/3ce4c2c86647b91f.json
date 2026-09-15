@@ -1,0 +1,252 @@
+{
+  "posting_id": "3ce4c2c86647b91f",
+  "skills": [
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Embed directly with strategic enterprise customers"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Embed directly with strategic enterprise customers to design, build"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "deploy production GenAI applications on SambaNova's SN40L platform"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "design, build, and deploy production GenAI applications"
+    },
+    {
+      "canonical": "rag",
+      "section": "responsibility",
+      "evidence": "including RAG pipelines, multi-agent systems, fine-tuning workflows"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "RAG pipelines, multi-agent systems, fine-tuning workflows"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "responsibility",
+      "evidence": "RAG pipelines, multi-agent systems, fine-tuning workflows"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "responsibility",
+      "evidence": "Optimize AI inference performance on SambaNova hardware"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "benchmark model throughput, latency, and accuracy"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "benchmark model throughput, latency, and accuracy against"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Troubleshoot and resolve production issues end-to-end"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "first and last line of technical escalation in the field"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Translate customer needs into clear product requirements"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "primary voice of field reality to SambaNova's Product and Engineering teams"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "Partner with Account Executives and Solutions Engineers to shape technical sales strategy"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "demonstrate platform differentiation during evaluations and proof-of-concepts"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Develop reusable accelerators, reference architectures"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "internal playbooks that scale learnings from one deployment to many"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "customer executive briefings and internal forums"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "responsibility",
+      "evidence": "Present technical findings, architecture decisions, and roadmap input"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "strong record of shipping production AI/ML systems"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "Deep expertise in GenAI application development: LLM orchestration"
+    },
+    {
+      "canonical": "rag",
+      "section": "requirement",
+      "evidence": "LLM orchestration, RAG, agentic frameworks"
+    },
+    {
+      "canonical": "llm_frameworks",
+      "section": "requirement",
+      "evidence": "agentic frameworks (LangChain, LlamaIndex, DSPy)"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "agentic frameworks (LangChain, LlamaIndex, DSPy)"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "requirement",
+      "evidence": "prompt engineering, and evaluation pipelines"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "prompt engineering, and evaluation pipelines"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "requirement",
+      "evidence": "model training, fine-tuning, inference optimization, quantization"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "requirement",
+      "evidence": "inference optimization, quantization, and performance benchmarking"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "quantization, and performance benchmarking"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Proficiency in Python (required)"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "cloud infrastructure (AWS, Azure, GCP)"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "cloud infrastructure (AWS, Azure, GCP)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "cloud infrastructure (AWS, Azure, GCP)"
+    },
+    {
+      "canonical": "docker",
+      "section": "requirement",
+      "evidence": "orchestration (Kubernetes, Docker), and MLOps tooling"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "orchestration (Kubernetes, Docker), and MLOps tooling"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "Comfortable engaging directly with customers"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "able to run technical discovery, set expectations"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "set expectations, push back constructively"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "present to executive and practitioner audiences alike"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "Willingness to travel up to 50% to customer sites"
+    },
+    {
+      "canonical": "cpp",
+      "section": "nice_to_have",
+      "evidence": "working knowledge of C++ or CUDA a strong plus"
+    },
+    {
+      "canonical": "debugging",
+      "section": "nice_to_have",
+      "evidence": "a strong plus for hardware-layer debugging"
+    },
+    {
+      "canonical": "gpu_infra",
+      "section": "nice_to_have",
+      "evidence": "CUDA / low-level GPU programming"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "nice_to_have",
+      "evidence": "Familiarity with VLLM / SGLang"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "nice_to_have",
+      "evidence": "Enterprise AI deployments in regulated industries"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "Enterprise AI deployments in regulated industries"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "embed",
+    "architect",
+    "optimize",
+    "troubleshoot",
+    "present"
+  ],
+  "segmentation_quality": "header"
+}

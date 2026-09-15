@@ -1,0 +1,117 @@
+{
+  "posting_id": "cb013bf7185c1928",
+  "skills": [
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Deeply embed with GSIs, RSIs, and boutique SIs"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "ideate and build novel applications on our API"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Work with senior SI and customer stakeholders to identify"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "build/qualify a comprehensive backlog to support their AI roadmap"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "accelerate customer time to value through building hands-on prototypes"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "delivering impactful strategic guidance"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "ensure the successful deployment and scale of their applications"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Codify solution packages and architectural patterns"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Codify solution packages and architectural patterns"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "Lead technical support during partners' initial projects"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "mentor their technical teams towards self-sufficiency"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "mentor their technical teams towards self-sufficiency"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "deliver high-signal feedback to the Product and Research teams"
+    },
+    {
+      "canonical": "project_management",
+      "section": "requirement",
+      "evidence": "led complex technical projects and programs with many stakeholders"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "programming languages like Python or Javascript"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "programming languages like Python or Javascript"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "complex implementations of Generative AI and/or traditional ML"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "effective presenter and communicator"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "Own problems end-to-end"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "willing to pick up whatever knowledge you're missing"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 8,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "embed",
+    "intervene",
+    "forge",
+    "codify",
+    "lead"
+  ],
+  "segmentation_quality": "header"
+}

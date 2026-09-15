@@ -1,0 +1,187 @@
+{
+  "posting_id": "d50d36de978c20e8",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Partner with public sector clients to scope"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "clients to scope, collect feedback and implement solutions"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "collect feedback and implement solutions for complex problems"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "spending up to two weeks per month in client offices"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Architect production-grade applications that integrate AI models"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "integrate AI models with full-stack frameworks"
+    },
+    {
+      "canonical": "react",
+      "section": "responsibility",
+      "evidence": "managing everything from interactive UIs to backend APIs"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "from interactive UIs to backend APIs and systems"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "responsibility",
+      "evidence": "Deploy and manage infrastructure within cloud environments"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "highest levels of system integrity, security, scalability"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "system integrity, security, scalability, and long-term reliability"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "core platform features designed to be reused"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner with design, product, and data teams"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "demonstrated proficiency in React (required), TypeScript"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "React (required), TypeScript, Next.js, Python, Node.js"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Next.js, Python, Node.js, PostgreSQL or MongoDB"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "Node.js, PostgreSQL or MongoDB plus hands-on"
+    },
+    {
+      "canonical": "nosql",
+      "section": "requirement",
+      "evidence": "PostgreSQL or MongoDB plus hands-on experience"
+    },
+    {
+      "canonical": "docker",
+      "section": "requirement",
+      "evidence": "hands-on experience with Docker, Kubernetes, and Azure"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "Docker, Kubernetes, and Azure/AWS/GCP"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "Kubernetes, and Azure/AWS/GCP"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "Kubernetes, and Azure/AWS/GCP"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "Kubernetes, and Azure/AWS/GCP"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "Proven ability to architect scalable, production-grade applications"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "strong handle on cloud environments and infrastructure health"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "Experience working directly within customer infrastructure"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "requirement",
+      "evidence": "working directly within customer infrastructure to deploy"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "deploy, maintain, and troubleshoot complex, end-to-end solutions"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "A self-starting approach with the technical maturity"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "navigate ambiguous requirements and deliver reliable software"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "Driven async communication methodologies to reduce communication"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "building solutions with LLMs and a deep understanding"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "forward deployed engineer / dedicated customer engineer role"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "nice_to_have",
+      "evidence": "Experience working cross functionally with operations"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "partner",
+    "scope",
+    "architect",
+    "deploy",
+    "contribute"
+  ],
+  "segmentation_quality": "header"
+}

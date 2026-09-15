@@ -1,0 +1,117 @@
+{
+  "posting_id": "bb08ff8c176f34be",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "hands-on technical partner to our most strategic customers"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "responsibility",
+      "evidence": "leverage high quality models and do inference at scale"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "responsibility",
+      "evidence": "deep-domain specialist in inference optimization, fine-tuning pipelines"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "fine-tuning pipelines, and production deployment"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "key contributors to both the CX, Engineering, and Sales"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "meet the requirements of our most complex POCs"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "guide tailored optimization efforts"
+    },
+    {
+      "canonical": "gpu_infra",
+      "section": "responsibility",
+      "evidence": "tune KV cache, apply speculative decoding, determine optimal tensor parallelism"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Drive hands-on RL training runs and optimize system design"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "monitoring and optimizing endpoint configurations"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "influence our software and model roadmap by surfacing insights"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "requirement",
+      "evidence": "strong focus on inference systems, open-source LLM deployment"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "open-source LLM deployment, or post-training workflows"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "requirement",
+      "evidence": "or post-training workflows"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "ability to diagnose and resolve performance issues"
+    },
+    {
+      "canonical": "gpu_infra",
+      "section": "requirement",
+      "evidence": "KV cache tuning, speculative decoding, tensor parallelism"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "pipeline parallelism, and quantization techniques"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "ability to advise on system design"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "Broad knowledge of state-of-the-art open-source models"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Strong Python skills"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "optimize",
+    "configure",
+    "guide",
+    "drive",
+    "align"
+  ],
+  "segmentation_quality": "header"
+}

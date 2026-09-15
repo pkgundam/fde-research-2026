@@ -1,0 +1,47 @@
+{
+  "posting_id": "2afea63dc06137ea",
+  "skills": [
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "Work hands-on with LLMs"
+    },
+    {
+      "canonical": "rag",
+      "section": "responsibility",
+      "evidence": "retrieval systems, and applied ML"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "responsibility",
+      "evidence": "applied ML to ship production AI features"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "collaborate closely with engineering, growth, and product"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "design systems that move real business metrics"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "move real business metrics; not just model benchmarks"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 1,
+  "responsibility_verbs": [
+    "work",
+    "ship",
+    "collaborate",
+    "design",
+    "move"
+  ],
+  "segmentation_quality": "inferred"
+}

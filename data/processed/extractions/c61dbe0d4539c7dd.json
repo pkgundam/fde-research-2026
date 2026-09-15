@@ -1,0 +1,167 @@
+{
+  "posting_id": "c61dbe0d4539c7dd",
+  "skills": [
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "Build end-to-end data integrations that sync"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "responsibility",
+      "evidence": "customer data to and from Scale's"
+    },
+    {
+      "canonical": "data_modeling",
+      "section": "responsibility",
+      "evidence": "API endpoint design and input/output schemas"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "Design and maintain playbooks, internal tools"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "documentation, and SDKs that set customers"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "debug delivery issues, and own technical"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "own technical escalations from customers"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Own the customer's technical experience throughout"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "identify customer-specific feature requests"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Work with Account Executives and Product"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "expertise in large language models, 2D"
+    },
+    {
+      "canonical": "computer_vision",
+      "section": "responsibility",
+      "evidence": "2D image annotation, and API integrations"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "responsibility",
+      "evidence": "Represent Scale and engage with customers"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "learning each customer's use cases in"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "takes ambiguous problems and turns them"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "Experience as a customer-facing engineer or"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "requirement",
+      "evidence": "working with clients in a pre-"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Development experience with Python, JavaScript, or"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Python, JavaScript, or other modern languages"
+    },
+    {
+      "canonical": "project_management",
+      "section": "requirement",
+      "evidence": "Strong project management and interpersonal skills"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "present credibly to both executives and"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "communicating across internal and external teams"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "Intellectual curiosity, empathy, and the ability"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "active TS/SCI clearance is required."
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "nice_to_have",
+      "evidence": "Experience in AI"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "nice_to_have",
+      "evidence": "Experience working in classified environments"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "nice_to_have",
+      "evidence": "technical go-to-market resource"
+    },
+    {
+      "canonical": "iac",
+      "section": "nice_to_have",
+      "evidence": "infrastructure as code, and CI/CD"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "nice_to_have",
+      "evidence": "infrastructure as code, and CI/CD"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "nice_to_have",
+      "evidence": "Hands-on experience with Kubernetes and Helm"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "build",
+    "work",
+    "design",
+    "partner",
+    "own"
+  ],
+  "segmentation_quality": "header"
+}

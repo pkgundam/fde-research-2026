@@ -1,0 +1,162 @@
+{
+  "posting_id": "36ff95b1a7ebe181",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Embed with customer engineering teams as a trusted technical peer"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Lead technical discovery and solutioning for prospects and customers"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Own the end-to-end technical implementation of Deepgram's voice AI platform"
+    },
+    {
+      "canonical": "speech",
+      "section": "responsibility",
+      "evidence": "Deepgram's voice AI platform for enterprise customers"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "from scoping and architecture through go-live and optimization"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "through go-live and optimization"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "responsibility",
+      "evidence": "menu structures, ordering flows, POS integrations, edge cases"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Monitor, troubleshoot, and resolve technical issues in live deployments"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "Monitor, troubleshoot, and resolve technical issues in live deployments"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "Serve as an escalation point for complex technical issues"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "Codify patterns into tools, playbooks, reference architectures"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "the voice of the customer inside the building"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "occasional travel to meet with customers"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "support sales engagements"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "You write code, read logs, and ship fixes"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "You operate with extreme ownership and urgency"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "You partner closely with Sales, Product, and Engineering"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "walking their team through an API integration"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "working across APIs, SDKs, webhooks, cloud infrastructure"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "Deep, personal commitment to your customers' technical success"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "Learns fast, adapts quickly"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "stays effective in ambiguity without needing constant structure"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "build deep credibility with both technical and non-technical stakeholders"
+    },
+    {
+      "canonical": "speech",
+      "section": "nice_to_have",
+      "evidence": "Experience with voice AI, speech-to-text, NLP"
+    },
+    {
+      "canonical": "nlp",
+      "section": "nice_to_have",
+      "evidence": "speech-to-text, NLP, or conversational AI systems"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "or conversational AI systems"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "nice_to_have",
+      "evidence": "wear many hats and build from zero"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "embedded within a large enterprise customer's product deployment"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "nice_to_have",
+      "evidence": "large enterprise customer's product deployment"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "own",
+    "embed",
+    "lead",
+    "monitor",
+    "codify"
+  ],
+  "segmentation_quality": "header"
+}

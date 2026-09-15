@@ -1,0 +1,32 @@
+{
+  "posting_id": "3423d4a87b7dd4d6",
+  "skills": [
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "We're building a lot of agentic features"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "integrating with hyperscaler MLOps platforms"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "responsibility",
+      "evidence": "work on building trustworthy and responsible AI systems"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 3,
+  "responsibility_verbs": [
+    "build",
+    "integrate",
+    "automate",
+    "work",
+    "navigate"
+  ],
+  "segmentation_quality": "inferred"
+}

@@ -1,0 +1,187 @@
+{
+  "posting_id": "3f39555b94ec1c2f",
+  "skills": [
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "take full ownership of delivering AI-powered products"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "early discovery through pilot to production to adoption"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "embed closely with Fortune 1000 clients"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "sectors like finance, retail, and energy"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "translating ambiguous, high-impact business problems"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "you lead workshops"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "present to senior executives"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "responsibility",
+      "evidence": "ensure your solutions create real user value"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "architect, develop prototypes, and deliver stable"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "architect, develop prototypes"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "manage expectations, and build trust"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "Mentor engineers, foster AI-native best practices"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "Collaborate with Sales and Presales to craft"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "craft compelling proposals and solution designs"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "responsibility",
+      "evidence": "Champion prompt engineering, output validation"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "responsibility",
+      "evidence": "output validation, guardrails, fallback strategies"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Capture field insights to strengthen delivery tools"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "proven client-facing delivery experience"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "independently managing all project phases... minimal oversight"
+    },
+    {
+      "canonical": "project_management",
+      "section": "requirement",
+      "evidence": "managing all project phases from discovery to production"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "preferably ReactJS front-end"
+    },
+    {
+      "canonical": "java",
+      "section": "requirement",
+      "evidence": ".NET, Java, or Python back-end"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": ".NET, Java, or Python back-end"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "eagerness to learn new stacks and platforms"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "deploying LLM- or generative AI-powered systems"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "requirement",
+      "evidence": "understanding the nuances of AI behavior in product design"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "Strong architecture and design capabilities"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "excellent communication and stakeholder management"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "requirement",
+      "evidence": "Experience mentoring or leading small teams"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "enterprise constraints - risk, compliance"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "requirement",
+      "evidence": "Familiarity with enterprise constraints"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "requirement",
+      "evidence": "Expertise in prompt engineering and context management"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "Critical evaluation of AI-generated outputs"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "nice_to_have",
+      "evidence": "alternating client sites and Paris office for team collaboration"
+    }
+  ],
+  "seniority": "staff_plus",
+  "years_required": 10,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "lead",
+    "architect",
+    "embed",
+    "mentor",
+    "present"
+  ],
+  "segmentation_quality": "header"
+}

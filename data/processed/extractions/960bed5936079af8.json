@@ -1,0 +1,132 @@
+{
+  "posting_id": "960bed5936079af8",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "work directly with customers to quickly understand their greatest problems"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "design and implement solutions to use data against them"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "gain rare insight into some of the world's most important"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "work in small teams with minimal supervision and own"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "responsibility",
+      "evidence": "wrangling massive-scale data"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "speaking with customer executives, or establishing strategy for your team"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "work internally with people from a variety of backgrounds"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "work externally with our customers, often on site"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "responsibility",
+      "evidence": "trust each other to effectively handle time and priorities"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "responsibility",
+      "evidence": "We believe experiential learning is one of the best teachers"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "Ability to continuously learn, work independently"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "work independently, and make decisions with minimal direction"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "collaborate in teams of technical and non-technical individuals"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "constantly evolving environment with dynamic objectives and iteration with users"
+    },
+    {
+      "canonical": "algorithms",
+      "section": "requirement",
+      "evidence": "creatively solve technical problems with data structures, storage systems"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "storage systems, cloud infrastructure, front-end frameworks, and other"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "cloud infrastructure, front-end frameworks, and other technical tools"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "requirement",
+      "evidence": "working with and using large scale data to solve"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "Ability to travel 25-50% preferred, but requirements vary"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "such as Python, Java, C++, TypeScript/JavaScript, or similar"
+    },
+    {
+      "canonical": "java",
+      "section": "requirement",
+      "evidence": "such as Python, Java, C++, TypeScript/JavaScript, or similar"
+    },
+    {
+      "canonical": "cpp",
+      "section": "requirement",
+      "evidence": "such as Python, Java, C++, TypeScript/JavaScript, or similar"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "such as Python, Java, C++, TypeScript/JavaScript, or similar"
+    }
+  ],
+  "seniority": "junior",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "understand",
+    "design",
+    "own",
+    "wrangle",
+    "speak"
+  ],
+  "segmentation_quality": "header"
+}

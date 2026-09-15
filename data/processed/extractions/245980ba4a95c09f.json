@@ -1,0 +1,362 @@
+{
+  "posting_id": "245980ba4a95c09f",
+  "skills": [
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "bug fixes, features, integrations, tooling, and performance improvements"
+    },
+    {
+      "canonical": "git",
+      "section": "responsibility",
+      "evidence": "issue discovery, merge request creation, testing, review, documentation"
+    },
+    {
+      "canonical": "testing",
+      "section": "responsibility",
+      "evidence": "issue discovery, merge request creation, testing, review, documentation"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "review, documentation, and maintainability"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner with Product and Engineering so customer-driven solutions support"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Turn blockers discovered in the field into durable product improvements"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "durable product improvements, reference architectures, documentation, and repeatable implementation patterns"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Engage with strategically important customers when adoption, retention, executive confidence"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Engage with strategically important customers when adoption, retention"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Diagnose complex problems across GitLab product behavior, customer architecture"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "responsibility",
+      "evidence": "Git internals, CI/CD workflows, API usage, observability, infrastructure"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "CI/CD workflows, API usage, observability, infrastructure, networking"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "API usage, observability, infrastructure, networking, and cloud environments"
+    },
+    {
+      "canonical": "networking",
+      "section": "responsibility",
+      "evidence": "observability, infrastructure, networking, and cloud environments"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "responsibility",
+      "evidence": "infrastructure, networking, and cloud environments"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "responsibility",
+      "evidence": "Coordinate across Product, Engineering, SRE, Support, SA, CSA, CSM"
+    },
+    {
+      "canonical": "analytics",
+      "section": "responsibility",
+      "evidence": "Provide recommendations grounded in data, traces, and systems analysis"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Drive governed, measurable, and production-oriented adoption of GitLab Duo Agent Platform"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "adoption of GitLab Duo Agent Platform with strategic customers"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "governance, usage controls, auditability, security, compliance, operating models"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "responsibility",
+      "evidence": "AI adoption blockers involving governance, usage controls, auditability"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "Well-Architected Frameworks, whitepapers, webinars, reference architectures, technical strategy memos"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Guide ideas through discovery, formulation, validation, amplification, and adoption"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "Staff-level experience building, operating, or improving complex production software systems"
+    },
+    {
+      "canonical": "testing",
+      "section": "requirement",
+      "evidence": "high standards for testing, maintainability, performance, and security"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "high standards for testing, maintainability, performance, and security"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "high standards for testing, maintainability, performance, and security"
+    },
+    {
+      "canonical": "go",
+      "section": "requirement",
+      "evidence": "Strong Ruby on Rails or Go experience"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "AI-assisted software development, agentic workflows, AI governance, model evaluation"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "agentic workflows, AI governance, model evaluation, context management"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "requirement",
+      "evidence": "context management, prompt and workflow design, or AI adoption"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "requirement",
+      "evidence": "agentic workflows, AI governance, model evaluation, context management"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "Experience diagnosing complex system behavior across application code, data stores"
+    },
+    {
+      "canonical": "observability",
+      "section": "requirement",
+      "evidence": "infrastructure, observability, networking, APIs, and customer usage patterns"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "infrastructure, observability, networking, APIs, and customer usage patterns"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "observability, networking, APIs, and customer usage patterns"
+    },
+    {
+      "canonical": "git",
+      "section": "requirement",
+      "evidence": "Deep knowledge of modern DevSecOps workflows, including Git, merge requests"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "requirement",
+      "evidence": "merge requests, CI/CD, security controls, compliance needs"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "Experience working with strategic customers or senior technical stakeholders"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "working with strategic customers or senior technical stakeholders"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "senior technical stakeholders in ambiguous, high-impact situations"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "coordinate across product, engineering, field, and customer teams"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "Strong written communication and sound judgment"
+    },
+    {
+      "canonical": "rust",
+      "section": "requirement",
+      "evidence": "Go, Rust or Python"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Go, Rust or Python"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "PostgreSQL"
+    },
+    {
+      "canonical": "nosql",
+      "section": "requirement",
+      "evidence": "Redis and Sidekiq"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "Kubernetes and containers"
+    },
+    {
+      "canonical": "docker",
+      "section": "requirement",
+      "evidence": "Kubernetes and containers"
+    },
+    {
+      "canonical": "iac",
+      "section": "requirement",
+      "evidence": "Terraform"
+    },
+    {
+      "canonical": "shell",
+      "section": "requirement",
+      "evidence": "Linux, networking, observability, and performance analysis"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "Vue and TypeScript"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Vue and TypeScript"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "nice_to_have",
+      "evidence": "GitLab.com, GitLab Dedicated, or GitLab Self-Managed"
+    },
+    {
+      "canonical": "go",
+      "section": "nice_to_have",
+      "evidence": "Production experience with Ruby on Rails, Go, PostgreSQL"
+    },
+    {
+      "canonical": "sql",
+      "section": "nice_to_have",
+      "evidence": "Ruby on Rails, Go, PostgreSQL, Redis, Sidekiq"
+    },
+    {
+      "canonical": "nosql",
+      "section": "nice_to_have",
+      "evidence": "PostgreSQL, Redis, Sidekiq, Vue, TypeScript, Kubernetes"
+    },
+    {
+      "canonical": "react",
+      "section": "nice_to_have",
+      "evidence": "Redis, Sidekiq, Vue, TypeScript, Kubernetes, Docker"
+    },
+    {
+      "canonical": "typescript",
+      "section": "nice_to_have",
+      "evidence": "Vue, TypeScript, Kubernetes, Docker, Linux, or observability tools"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "nice_to_have",
+      "evidence": "TypeScript, Kubernetes, Docker, Linux, or observability tools"
+    },
+    {
+      "canonical": "docker",
+      "section": "nice_to_have",
+      "evidence": "Kubernetes, Docker, Linux, or observability tools"
+    },
+    {
+      "canonical": "shell",
+      "section": "nice_to_have",
+      "evidence": "Docker, Linux, or observability tools"
+    },
+    {
+      "canonical": "observability",
+      "section": "nice_to_have",
+      "evidence": "Linux, or observability tools"
+    },
+    {
+      "canonical": "git",
+      "section": "nice_to_have",
+      "evidence": "Deep familiarity with Git internals, repository performance"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "nice_to_have",
+      "evidence": "Git internals, repository performance, large-scale Git usage patterns"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "nice_to_have",
+      "evidence": "whitepapers, technical talks, architecture frameworks, requests for comments"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "nice_to_have",
+      "evidence": "technical talks, architecture frameworks, requests for comments"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "nice_to_have",
+      "evidence": "site reliability engineering, platform engineering, infrastructure engineering"
+    },
+    {
+      "canonical": "system_design",
+      "section": "nice_to_have",
+      "evidence": "infrastructure engineering, or distributed systems"
+    }
+  ],
+  "seniority": "staff_plus",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "contribute",
+    "diagnose",
+    "coordinate",
+    "partner",
+    "drive"
+  ],
+  "segmentation_quality": "header"
+}

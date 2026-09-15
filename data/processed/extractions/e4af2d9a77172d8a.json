@@ -1,0 +1,187 @@
+{
+  "posting_id": "e4af2d9a77172d8a",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "you'll work directly with customers to design and deploy agentic"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "design and deploy agentic, AI-powered workflows"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "transform how businesses operate"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "take ambiguous problems, turn them into production systems"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "see your work deliver immediate, measurable impact"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "intersection of AI engineering, systems design, and customer impact"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "Build and deploy LLM-powered applications"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "responsibility",
+      "evidence": "multi-agent workflows in production environments"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "Design end-to-end solutions integrating APIs"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "responsibility",
+      "evidence": "integrating APIs, enterprise systems, and data platforms"
+    },
+    {
+      "canonical": "data_warehouses",
+      "section": "responsibility",
+      "evidence": "enterprise systems, and data platforms"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "translate business problems into scalable AI solutions"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "Own delivery from prototype to production to iteration"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Own delivery from prototype to production to iteration"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "Optimize systems for performance, cost, and reliability"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "influence product through real-world feedback"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "See your work drive millions in business impact"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "including applied or customer-facing work"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Strong coding skills in Python and/or TypeScript"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Strong coding skills in Python and/or TypeScript"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "Hands-on experience with LLMs"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "requirement",
+      "evidence": "Hands-on experience with LLMs, prompt engineering"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "requirement",
+      "evidence": "prompt engineering, and production AI systems"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "building and deploying complex, integrated systems"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "Ability to operate in ambiguity"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Strong communication skills with both engineers and business stakeholders"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "communication skills with both engineers and business stakeholders"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "Experience with agent frameworks, orchestration systems"
+    },
+    {
+      "canonical": "llm_frameworks",
+      "section": "nice_to_have",
+      "evidence": "agent frameworks, orchestration systems"
+    },
+    {
+      "canonical": "system_design",
+      "section": "nice_to_have",
+      "evidence": "orchestration systems, or distributed systems"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "Familiarity with LLM providers (OpenAI, Anthropic, Gemini, etc.)"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "nice_to_have",
+      "evidence": "Background in applied AI, machine learning, or automation platforms"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "nice_to_have",
+      "evidence": "Experience in startup, consulting, or forward-deployed environments"
+    },
+    {
+      "canonical": "consulting",
+      "section": "nice_to_have",
+      "evidence": "Experience in startup, consulting, or forward-deployed environments"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "build",
+    "design",
+    "partner",
+    "own",
+    "optimize"
+  ],
+  "segmentation_quality": "header"
+}

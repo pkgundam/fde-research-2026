@@ -1,0 +1,167 @@
+{
+  "posting_id": "9a0b0f4c4c533f77",
+  "skills": [
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "end-to-end execution of AI agent builds"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "end-to-end execution of AI agent builds for strategic customers"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "translate requirements into build plans"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "partnering with customers and internal teams to define success"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "create tight feedback loops"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "from systems design and initial scoping through implementation"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "implementation, evaluation, and production deployment"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "implementation, evaluation, and production deployment"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "responsibility",
+      "evidence": "layered guardrails and supervisory controls"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "responsibility",
+      "evidence": "customer systems (e.g., data pipelines, CRMs, ticketing systems)"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "building the tools, APIs, and workflows needed"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Interface with senior technical stakeholders at customers"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "root-cause analysis of execution traces, error logs"
+    },
+    {
+      "canonical": "testing",
+      "section": "responsibility",
+      "evidence": "evaluation and regression-testing frameworks"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Translate customer needs into clear internal documentation"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "technical customer-facing role"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "working with APIs, and building/validating integrations"
+    },
+    {
+      "canonical": "testing",
+      "section": "requirement",
+      "evidence": "testing/validation, and iteration"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "communicate clearly with senior technical stakeholders"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "fast-moving, ambiguous environments"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "building with or around LLMs / AI agents"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "building with or around LLMs / AI agents"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "nice_to_have",
+      "evidence": "prompting, evaluation, guardrails, tooling, workflow design"
+    },
+    {
+      "canonical": "evals",
+      "section": "nice_to_have",
+      "evidence": "prompting, evaluation, guardrails, tooling"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "nice_to_have",
+      "evidence": "prompting, evaluation, guardrails, tooling"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "nice_to_have",
+      "evidence": "enterprise SaaS integrations (e.g., ticketing systems, CRM, data pipelines)"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "nice_to_have",
+      "evidence": "associated security/compliance considerations"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "nice_to_have",
+      "evidence": "Strong product instinct: ability to write crisp PRDs"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "nice_to_have",
+      "evidence": "define success metrics"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "nice_to_have",
+      "evidence": "contribute customer insight back into product roadmap"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "own",
+    "design",
+    "engineer",
+    "diagnose",
+    "interface"
+  ],
+  "segmentation_quality": "header"
+}

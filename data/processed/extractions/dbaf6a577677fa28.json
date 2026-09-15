@@ -1,0 +1,187 @@
+{
+  "posting_id": "dbaf6a577677fa28",
+  "skills": [
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "you will be building the high-performance systems that orchestrate them"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "own and influence the architecture for agent execution environments"
+    },
+    {
+      "canonical": "rag",
+      "section": "responsibility",
+      "evidence": "high-throughput context retrieval, or the ecosystem that allows our customers"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "iterate and launch agents in production"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Architect Agentic Runtimes: Build and scale the orchestration engines"
+    },
+    {
+      "canonical": "vector_databases",
+      "section": "responsibility",
+      "evidence": "vector database integration, scalable and efficient search indexing"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "Build the \"Evals Engine\": Develop the automated infrastructure"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "Collaborate with the modeling team to take raw LLM capabilities"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "responsibility",
+      "evidence": "turn them into hardened, multi-tenant microservices with strict guardrails"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "strict guardrails and observability"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Collaborate with the modeling team to take raw LLM capabilities"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "responsibility",
+      "evidence": "Direct the infra strategy for model routing, prompt caching"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "building distributed systems, high-throughput APIs, or backend infrastructure"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "distributed systems, high-throughput APIs, or backend infrastructure"
+    },
+    {
+      "canonical": "go",
+      "section": "requirement",
+      "evidence": "Deep proficiency in Go or Java (for systems)"
+    },
+    {
+      "canonical": "java",
+      "section": "requirement",
+      "evidence": "Deep proficiency in Go or Java (for systems)"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "and Python (for AI orchestration)"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "cloud-native architecture (Kubernetes, FoundationDB, etc.)"
+    },
+    {
+      "canonical": "vector_databases",
+      "section": "requirement",
+      "evidence": "Familiarity with the \"plumbing\" of AI: vector indices"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "vector indices, agent platforms, and building scalable data pipelines"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "requirement",
+      "evidence": "agent platforms, and building scalable data pipelines"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "Experience in a customer-facing technical role"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "explained a hard failure to a frustrated external audience"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "requirement",
+      "evidence": "judge whether one customer's problem is bespoke or a platform gap"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "tracing a request across services and root-causing in unfamiliar code"
+    },
+    {
+      "canonical": "observability",
+      "section": "requirement",
+      "evidence": "root-causing in unfamiliar code from logs and telemetry"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "defining quality metrics and using evals to improve quality"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "requirement",
+      "evidence": "defining quality metrics and using evals to improve quality"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "Comfort with ambiguity on open-ended, externally-driven problems"
+    },
+    {
+      "canonical": "sql",
+      "section": "nice_to_have",
+      "evidence": "Query optimization and SQL engine internals"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "nice_to_have",
+      "evidence": "Query optimization and SQL engine internals"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "nice_to_have",
+      "evidence": "multi-tenant systems that handle sensitive enterprise data at scale"
+    },
+    {
+      "canonical": "system_design",
+      "section": "nice_to_have",
+      "evidence": "Designing multi-tenant systems that handle sensitive enterprise data"
+    },
+    {
+      "canonical": "rag",
+      "section": "nice_to_have",
+      "evidence": "Developing search infrastructure for large-scale applications"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 7,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 2,
+  "responsibility_verbs": [
+    "architect",
+    "build",
+    "design",
+    "develop",
+    "optimize"
+  ],
+  "segmentation_quality": "header"
+}

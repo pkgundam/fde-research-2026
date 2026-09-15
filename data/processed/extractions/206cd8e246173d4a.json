@@ -1,0 +1,332 @@
+{
+  "posting_id": "206cd8e246173d4a",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "embed directly with enterprise customers to architect"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "architect and ship production systems"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "own the technical side: discovery, architecture"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Lead POCs, pilots, and production launches"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "POC, and production go-live"
+    },
+    {
+      "canonical": "speech",
+      "section": "responsibility",
+      "evidence": "Build and deploy custom implementations: AI Voice Assistants"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "Telnyx APIs (Voice, Messaging, Fax, Wireless)"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "Run open-weight LLMs in customer environments"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "responsibility",
+      "evidence": "Deploy and operate LiteLLM as the model gateway"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "responsibility",
+      "evidence": "when air-gapped or sovereign-cloud requirements demand it"
+    },
+    {
+      "canonical": "llm_observability",
+      "section": "responsibility",
+      "evidence": "logging and observability (OpenTelemetry, Langfuse"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "responsibility",
+      "evidence": "logging and observability... and guardrails"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "cost tracking and budgets, caching"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "Wire production observability for everything you ship"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "Make the build-vs-buy case between self-hosted"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "responsibility",
+      "evidence": "Adapt models to customer domains: prompt"
+    },
+    {
+      "canonical": "rag",
+      "section": "responsibility",
+      "evidence": "prompt and RAG pipelines and evaluation harnesses"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "RAG pipelines and evaluation harnesses"
+    },
+    {
+      "canonical": "nlp",
+      "section": "responsibility",
+      "evidence": "French, Swedish, Danish, Norwegian, and Finnish language use cases"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "EU-specific regulatory environments (GDPR, EU AI Act"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "Own customer outcomes — stay engaged until"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "shape the roadmap based on field insights"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Collaborate directly with Product and Engineering"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Create clear technical documentation, runbooks"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Troubleshoot and resolve complex integration issues"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "requirement",
+      "evidence": "you've been on-call for it"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "you've debugged it when things broke"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Proficiency in multiple languages: Python"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Python, Node.js/TypeScript, Go"
+    },
+    {
+      "canonical": "go",
+      "section": "requirement",
+      "evidence": "Python, Node.js/TypeScript, Go"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "requirement",
+      "evidence": "what breaks in front of a model in production"
+    },
+    {
+      "canonical": "async_concurrency",
+      "section": "requirement",
+      "evidence": "failure modes that only show up under concurrency"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "token accounting and cost attribution"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "deploying containerized services on Kubernetes"
+    },
+    {
+      "canonical": "docker",
+      "section": "requirement",
+      "evidence": "deploying containerized services on Kubernetes"
+    },
+    {
+      "canonical": "observability",
+      "section": "requirement",
+      "evidence": "wired observability and been paged because of it"
+    },
+    {
+      "canonical": "streaming",
+      "section": "requirement",
+      "evidence": "Kafka, message queues, or event streams at real scale"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "built APIs from scratch... REST/GraphQL design"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "requirement",
+      "evidence": "REST/GraphQL design, auth, rate limiting"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "Event-driven thinking and cloud-native instincts"
+    },
+    {
+      "canonical": "speech",
+      "section": "requirement",
+      "evidence": "SIP, WebRTC, or real-time voice/messaging systems"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "Self-sufficient by default — there's no engineering team"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "Customer-facing engineering experience"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "present to their executives in the same week"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "run discovery with a customer's engineers"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "hybrid role with travel across France and the Nordics"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "Excellent written and verbal communication in English"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "run whiteboard sessions, live troubleshooting, and escalations"
+    },
+    {
+      "canonical": "speech",
+      "section": "nice_to_have",
+      "evidence": "AI voice assistants, STT/TTS, or LLM-based"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "LLM-based conversational systems"
+    },
+    {
+      "canonical": "evals",
+      "section": "nice_to_have",
+      "evidence": "Building eval sets for a specific domain"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "nice_to_have",
+      "evidence": "production experience with an LLM gateway"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "nice_to_have",
+      "evidence": "Familiarity with the open-weight model landscape"
+    },
+    {
+      "canonical": "nlp",
+      "section": "nice_to_have",
+      "evidence": "trade-offs between regional and multilingual models"
+    },
+    {
+      "canonical": "gpu_infra",
+      "section": "nice_to_have",
+      "evidence": "sizing GPU capacity for self-hosted models"
+    },
+    {
+      "canonical": "sql",
+      "section": "nice_to_have",
+      "evidence": "SQL proficiency (Postgres, MySQL, Oracle)"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "nice_to_have",
+      "evidence": "ETL and data wrangling experience"
+    },
+    {
+      "canonical": "data_quality",
+      "section": "nice_to_have",
+      "evidence": "ETL and data wrangling experience"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "nice_to_have",
+      "evidence": "CI/CD pipeline design and automation"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "Background in telecom, CPaaS, or high-growth SaaS"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "nice_to_have",
+      "evidence": "sovereign or on-prem cloud deployments"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "nice_to_have",
+      "evidence": "EU regulatory frameworks (GDPR, EU AI Act"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "nice_to_have",
+      "evidence": "Security mindset (IAM, encryption, audit logging)"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 3,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "embed",
+    "architect",
+    "build",
+    "deploy",
+    "troubleshoot"
+  ],
+  "segmentation_quality": "header"
+}

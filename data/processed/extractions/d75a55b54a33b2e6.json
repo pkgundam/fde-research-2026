@@ -1,0 +1,227 @@
+{
+  "posting_id": "d75a55b54a33b2e6",
+  "skills": [
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "You build reference architectures, run benchmarks, debug production integrations"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "run benchmarks, debug production integrations, and co-develop POCs"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "debug production integrations, and co-develop POCs"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "co-develop POCs — all while holding your own"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "holding your own in executive-level conversations about strategy, roadmap"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "executive-level conversations about strategy, roadmap, and business outcomes"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "lead discovery conversations, align partner stakeholders"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "translate field signals into product improvements that compress"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "trusted-advisor relationships inside Microsoft's field that multiply your reach"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "technical lead on co-sell motions with Strategic Partners"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "Run load tests and establish latency, throughput, and cost"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "responsibility",
+      "evidence": "Deploy and validate new model families on inference frameworks"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "responsibility",
+      "evidence": "fine-tuning strategy (SFT, DPO, RFT), and evaluation methodology"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "responsibility",
+      "evidence": "navigating trade-offs between model families, compute cost, and quality"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "measure production-quality metrics, not just benchmark scores"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Ship external technical content: reference architectures, integration guides"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "Track pipeline health; flag risks and opportunities to Field"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "flag risks and opportunities to Field leadership weekly"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "requirement",
+      "evidence": "3+ years in a pre-sales, partner engineering, forward-deployed role"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "forward-deployed, or technical consulting role"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "requirement",
+      "evidence": "You have shipped code running in someone else's production environment"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Strong Python skills"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "Comfortable reading, writing, and debugging production code"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "Familiarity with Kubernetes and infrastructure engineering"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "requirement",
+      "evidence": "Hands-on fluency with LLM inference: latency/throughput tradeoffs, batching"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "structured outputs, function calling"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "explain why 50ms p99 matters to an enterprise CTO"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "requirement",
+      "evidence": "Real experience with fine-tuning — LoRA at minimum, RFT"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "Deep familiarity with the Azure AI stack"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "requirement",
+      "evidence": "Entra/RBAC for AI workloads"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Exceptional communication: able to run a sharp discovery call"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "able to run a sharp discovery call"
+    },
+    {
+      "canonical": "consulting",
+      "section": "nice_to_have",
+      "evidence": "owned a technical relationship with a hyperscaler or major SI"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "nice_to_have",
+      "evidence": "inference serving frameworks (vLLM, SGLang, TensorRT-LLM)"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "Prior role at a hyperscaler, AI-native cloud, or inference provider"
+    },
+    {
+      "canonical": "networking",
+      "section": "nice_to_have",
+      "evidence": "Platforms for AI workloads, network, and identity integration patterns"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "nice_to_have",
+      "evidence": "network, and identity integration patterns"
+    },
+    {
+      "canonical": "llm_frameworks",
+      "section": "nice_to_have",
+      "evidence": "agentic frameworks (LangChain, LlamaIndex, or custom tool-use pipelines)"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "custom tool-use pipelines) — you understand how inference latency"
+    },
+    {
+      "canonical": "evals",
+      "section": "nice_to_have",
+      "evidence": "Background in model evaluation — you understand why benchmark gaming"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "nice_to_have",
+      "evidence": "written a technical blog post or reference architecture"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "nice_to_have",
+      "evidence": "taking GenAI POCs from prototype to production-scale deployments"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 3,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "build",
+    "ship",
+    "architect",
+    "debug",
+    "lead"
+  ],
+  "segmentation_quality": "header"
+}

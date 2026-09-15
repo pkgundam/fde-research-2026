@@ -1,0 +1,162 @@
+{
+  "posting_id": "5cf9ec21dc8f1a5b",
+  "skills": [
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Leading end-to-end deployment of Reducto into customer environments"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "responsibility",
+      "evidence": "ranging from VPC to bare metal on-prem"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partnering with enterprise IT, security, and platform teams"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "assess their infrastructure, security posture"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "designing deployment strategies tailored to their constraints"
+    },
+    {
+      "canonical": "gpu_infra",
+      "section": "responsibility",
+      "evidence": "Understanding the hardware that power our in-house ML models"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "responsibility",
+      "evidence": "successfully deploy them onto customer infrastructure"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "Building monitoring, telemetry, and phone-home patterns"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Debugging and resolving customer-specific infrastructure issues"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "responsibility",
+      "evidence": "K8s misconfigurations"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "responsibility",
+      "evidence": "cloud IAM edge cases"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "responsibility",
+      "evidence": "Owning incident response for customer deployments"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "Owning incident response for customer deployments"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "hands-on execution work with direct customer exposure"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "comfortable with Python or similar languages"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "exceptional at working across cloud platforms"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "container orchestration (e.g., Kubernetes)"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "networking, and storage technologies"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "requirement",
+      "evidence": "deploying software into environments you don't fully control"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Communicate clearly with external engineers"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "sit in a call with a customer's platform team"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "diagnose a problem live"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "assigned to a customer problem and owning it end-to-end"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "financial services, healthcare, legal, insurance"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "nice_to_have",
+      "evidence": "deployed software into regulated environments"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "nice_to_have",
+      "evidence": "worked with Replicated/KOTS, Helm"
+    },
+    {
+      "canonical": "gpu_infra",
+      "section": "nice_to_have",
+      "evidence": "experience with GPU infrastructure, model serving"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "nice_to_have",
+      "evidence": "model serving, or AI/ML workload deployment patterns"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "nice_to_have",
+      "evidence": "founder, founding engineer, or early deployment hire"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "lead",
+    "partner",
+    "debug",
+    "own",
+    "codify"
+  ],
+  "segmentation_quality": "inferred"
+}

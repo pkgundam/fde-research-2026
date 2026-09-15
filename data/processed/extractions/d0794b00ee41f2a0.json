@@ -1,0 +1,162 @@
+{
+  "posting_id": "d0794b00ee41f2a0",
+  "skills": [
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "embed deeply with customers—often working closely with senior legal"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "working closely with senior legal practitioners"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "identify the right first use case, rapidly prototype a solution"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "rapidly prototype a solution, and prove measurable value"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "rapidly prototype a solution, and prove measurable value"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "how OpenAI's models can support legal analysis, drafting"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "support legal analysis, drafting, research, or real-time work"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "own the technical work from discovery ... through production adoption"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "translating customer workflows and constraints into clear product feedback"
+    },
+    {
+      "canonical": "react",
+      "section": "responsibility",
+      "evidence": "Build full-stack systems that deliver customer value"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Embed closely with customer teams, understand their needs"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "responsibility",
+      "evidence": "Make trade-offs between scope, speed, and quality"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Codify working patterns into tools, playbooks, or building blocks"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "5+ years of software engineering, ML engineering"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "customer-facing ownership in financial services or adjacent regulated"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "errors carry real financial or regulatory consequences"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "owned complex AI or data-driven systems end-to-end"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "backend and frontend systems using Python, JavaScript"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "backend and frontend systems using Python, JavaScript"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "production-grade code across backend and frontend systems"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "deployed systems powered by LLMs or generative models"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "model behavior, evaluation, and guardrails affect user trust"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "requirement",
+      "evidence": "evaluation, and guardrails affect user trust and business outcomes"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "Communicate clearly across engineering, product, risk, compliance"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "requirement",
+      "evidence": "turning incidents, escalations, and failures into improved standards"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "systems thinking with high execution standards"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "Stay calm and decisive when delivery is urgent, ambiguous"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "legal technology, legal services... helpful but not required"
+    },
+    {
+      "canonical": "consulting",
+      "section": "nice_to_have",
+      "evidence": "professional services; this is helpful but not required"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "embed",
+    "identify",
+    "prototype",
+    "own",
+    "translate"
+  ],
+  "segmentation_quality": "header"
+}

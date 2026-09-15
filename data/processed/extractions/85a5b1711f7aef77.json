@@ -1,0 +1,127 @@
+{
+  "posting_id": "85a5b1711f7aef77",
+  "skills": [
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Design and lead tailored demos of Rogo's platform"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "translating AI capabilities into real impact across core banking workflows"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner directly with Sales, Product, and Engineering"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "voice of the prospective customer... into our product development philosophy"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "Be the trusted expert in the sales cycle"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "building trusted, consultative relationships that establish Rogo's credibility"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Scope and run proof-of-value: Design proof-of-value exercises"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "define success criteria with the prospect up front"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "Develop best-in-class demo environments, banking use cases, enablement materials"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "2+ years of investment banking experience at a top-tier investment bank"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "build credibility with senior bankers... up through MDs and Group Heads"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Outstanding communication and presentation skills"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "comfort defining success criteria, scoping evaluations"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "requirement",
+      "evidence": "comfort defining success criteria, scoping evaluations"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "building the business case that gets a deal over the line"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "genuine curiosity about AI and conviction about how it will reshape"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "You are autonomous, self-directed, and comfortable working with ambiguity"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "comfortable working with ambiguity"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "Experience working directly with clients or leading live deal execution"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "nice_to_have",
+      "evidence": "translating customer requirements and banking workflows into product improvements"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "nice_to_have",
+      "evidence": "Experience partnering with Product or Engineering"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "Previous experience in B2B SaaS, fintech, or AI"
+    }
+  ],
+  "seniority": "junior",
+  "years_required": 2,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "design",
+    "scope",
+    "partner",
+    "translate",
+    "influence"
+  ],
+  "segmentation_quality": "header"
+}

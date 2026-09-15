@@ -1,0 +1,212 @@
+{
+  "posting_id": "17dd58ccb29ad1bd",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "partner directly with customers to design, build, and launch AI-native workflows"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "design, build, and launch AI-native workflows"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "launch AI-native workflows that drive adoption, usage"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "understand their business goals, operating processes, technical environment"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "governance needs, and adoption barriers"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "translate that context into scalable Notion architectures"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "where it should integrate with existing systems"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "strong consultative discovery, systems thinking"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "partnering closely with Forward Deployed Engineering"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "designing adoption plans, enablement materials"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "convert them into packaged solutions...and product feedback"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "helping stakeholders align around a clear implementation path"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "success measures that align customers and internal teams"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Create clear implementation plans, handoff materials"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "5+ years of experience in tech services/consulting"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "similar customer-facing role"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "solutions architecture, implementation"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "requirement",
+      "evidence": "solutions architecture, implementation, customer engineering"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "translate ambiguous customer goals into clear workflows"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "requirement",
+      "evidence": "measurable success criteria"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "Strong consultative discovery skills"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "requirement",
+      "evidence": "using AI tools to design, prototype, automate"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "Hands-on AI builder mindset, with experience using AI tools"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "Technical fluency with APIs, integrations"
+    },
+    {
+      "canonical": "data_modeling",
+      "section": "requirement",
+      "evidence": "data models, automation"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "requirement",
+      "evidence": "enterprise systems, developer workflows"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "reason through technical constraints and troubleshoot effectively"
+    },
+    {
+      "canonical": "project_management",
+      "section": "requirement",
+      "evidence": "Strong project and engagement management skills"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "ownership of scope, timeline, deliverables"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "Exceptional written and verbal communication"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Exceptional written and verbal communication"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "simplify complex technical concepts for business, technical, and executive audiences"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "high learning velocity"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "designing or deploying Agents, automations or AI-powered workflows"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "nice_to_have",
+      "evidence": "Experience with Notion, APIs, MCPs, Workers"
+    },
+    {
+      "canonical": "scoping",
+      "section": "nice_to_have",
+      "evidence": "discovery methodologies, reusable delivery assets"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "nice_to_have",
+      "evidence": "turn field learnings into roadmap signal"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "nice_to_have",
+      "evidence": "partnering with Product and Engineering teams"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "nice_to_have",
+      "evidence": "fast-paced, high-growth technology environment"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "partner",
+    "design",
+    "deploy",
+    "serve",
+    "create"
+  ],
+  "segmentation_quality": "header"
+}

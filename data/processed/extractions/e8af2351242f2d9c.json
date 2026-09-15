@@ -1,0 +1,37 @@
+{
+  "posting_id": "e8af2351242f2d9c",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "requires strong client-facing skills"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "transforming their finance, accounting, and operations processes"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "building the Agentic Orchestration platform that enables enterprises"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "architects of petabyte-scale data platforms"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "work",
+    "transform",
+    "orchestrate",
+    "scale",
+    "architect"
+  ],
+  "segmentation_quality": "inferred"
+}

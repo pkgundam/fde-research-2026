@@ -1,0 +1,18 @@
+{
+  "posting_id": "bcbd33563d885a11",
+  "skills": [
+    { "canonical": "product_feedback_loop", "section": "responsibility", "evidence": "influence product direction" }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "shape",
+    "influence",
+    "contribute",
+    "build",
+    "deploy"
+  ],
+  "segmentation_quality": "inferred"
+}

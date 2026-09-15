@@ -1,0 +1,137 @@
+{
+  "posting_id": "0309b1cf35616088",
+  "skills": [
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Own the reference architecture. Define the canonical agent identity, delegation"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "canonical agent identity, delegation, audit, and kill-switch patterns"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "responsibility",
+      "evidence": "agent identity, delegation, audit, and kill-switch patterns"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Personally own the most strategic, regulated, or technically novel deployments"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "Personally own the most strategic, regulated, or technically novel deployments"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "Review other FDEs' architectures, coach senior customer engineers and your own team"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "work directly with product and engineering leadership to prioritize what ships"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Brief CISO, CIO, and Chief AI Officer audiences"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "Step into the hardest technical and political situations across accounts"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "Set the standard for evals and observability"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "Set the standard for evals and observability"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "reusable modules, internal tooling, and enablement so the whole FDE function"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "10+ years shipping production software, with deep distributed systems and identity experience"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "requirement",
+      "evidence": "OAuth 2.0, OIDC, SAML, SCIM, RFC 8693 token exchange"
+    },
+    {
+      "canonical": "git",
+      "section": "nice_to_have",
+      "evidence": "Contribution to standards or open source is a plus"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "requirement",
+      "evidence": "Deep agent security fluency. OWASP Top 10 for Agentic Applications, NIST AI RMF"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "HIPAA, FedRAMP, and SOC 2 environments"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "NIST AI RMF, MITRE ATLAS, plus MCP, A2A, ISO/IEC 42001"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "and daily AI-native development"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "requirement",
+      "evidence": "A record of setting technical direction across multiple teams"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "Credible from the IDE to the boardroom, trusted by CISOs"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "trusted by CISOs and principal engineers alike"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "High agency, founder's mindset. Applied to building a function"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "Ability to travel (on occasion internationally) up to 35%"
+    }
+  ],
+  "seniority": "staff_plus",
+  "years_required": 10,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "own",
+    "lead",
+    "raise",
+    "shape",
+    "represent"
+  ],
+  "segmentation_quality": "header"
+}

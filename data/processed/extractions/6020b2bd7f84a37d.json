@@ -1,0 +1,187 @@
+{
+  "posting_id": "6020b2bd7f84a37d",
+  "skills": [
+    {
+      "canonical": "incident_response",
+      "section": "responsibility",
+      "evidence": "actively responding to live fraud and abuse incidents as a hands-on security engineer"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "responding to live fraud and abuse incidents as a hands-on security engineer"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "key bridge between incidents and merchants to help them remediate threats"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "help them remediate threats, improve security posture, and protect their accounts"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "investigate high-risk accounts, perform post-incident analyses, gather operational requirements"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "gather operational requirements, and drive agentic response capabilities"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "gather operational requirements, and drive agentic response capabilities"
+    },
+    {
+      "canonical": "data_modeling",
+      "section": "responsibility",
+      "evidence": "utilizing FT3-mapped (Fraud Taxonomy 3.0) detection and signals enrichment"
+    },
+    {
+      "canonical": "analytics",
+      "section": "responsibility",
+      "evidence": "analyze high-risk accounts to identify fraudulent merchants, card testing"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Develop, document, and execute incident response strategies, runbooks"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Serve as an operational and technical liaison for legal teams, policy partners"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Build and nurture strong strategic relationships across external threat intelligence communities"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "requirement",
+      "evidence": "10+ years of experience leading security or fraud incident response"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "requirement",
+      "evidence": "10+ years of experience leading security or fraud incident response"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Expert knowledge of Python and SQL, and familiarity with other programming languages"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "Expert knowledge of Python and SQL, and familiarity with other programming languages"
+    },
+    {
+      "canonical": "observability",
+      "section": "requirement",
+      "evidence": "Existing experience with log analysis (e.g. first or third party applications"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "system / data access, event logs), network security, digital forensics"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "network security, digital forensics, and incident response investigations"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "leverage threat intelligence, and make risk mitigation recommendations"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "Strong written and verbal communication skills with a track record"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Strong written and verbal communication skills with a track record"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "driving cross-functional alignment with minimal oversight"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "driving cross-functional alignment with minimal oversight"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "Previous work with law enforcement"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "Engagement in threat intelligence sharing communities"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "nice_to_have",
+      "evidence": "fraud and abuse mitigation, risk management, product trust, and threat intelligence"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "nice_to_have",
+      "evidence": "understanding the goals, behaviors, and TTPs of threat actors"
+    },
+    {
+      "canonical": "data_warehouses",
+      "section": "nice_to_have",
+      "evidence": "data processing and analysis tools (e.g. Databricks, Trino, etc.)"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "nice_to_have",
+      "evidence": "data processing and analysis tools (e.g. Databricks, Trino, etc.)"
+    },
+    {
+      "canonical": "analytics",
+      "section": "nice_to_have",
+      "evidence": "big data processing and/or data science (PySpark, Pandas, Sci-kit Learn"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "nice_to_have",
+      "evidence": "big data processing and/or data science (PySpark, Pandas, Sci-kit Learn"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "nice_to_have",
+      "evidence": "taking a user-centric approach to address complex product integrity challenges"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "nice_to_have",
+      "evidence": "Speaker or participant in external conferences or similar industry engagements"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 10,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 3,
+  "responsibility_verbs": [
+    "respond",
+    "investigate",
+    "develop",
+    "act",
+    "serve"
+  ],
+  "segmentation_quality": "header"
+}

@@ -1,0 +1,147 @@
+{
+  "posting_id": "40dda6ab9479a7df",
+  "skills": [
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "lead technical discovery, architecture, implementation, evaluation"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "productionization, and handoff, translating complex customer workflows"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "infrastructure, and regulatory constraints into production AI systems"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "measure success through production adoption, measurable workflow impact"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "evaluation loops that establish customer-specific benchmarks"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "collaborate directly with customer technical and operational teams"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "translate deployment learnings into product improvements"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "customer discovery and workflow scoping through architecture"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "Own the technical solution end to end"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Partner credibly with customer engineers, operators, and domain experts"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "translate payer, provider, or health-system workflows"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "production AI applications and agentic systems"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "integrate with customer infrastructure, enterprise APIs"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "responsibility",
+      "evidence": "electronic health records, claims systems, and operational tools"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "responsibility",
+      "evidence": "privacy, security, authorization, governance, auditability"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "responsibility",
+      "evidence": "human-review workflows, escalation paths, and launch criteria"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "error analysis, observability, and customer feedback"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "improve system reliability, performance, model selection"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Distill deployment learnings into reference architectures"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "6+ years of software engineering, ML/AI engineering"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "requirement",
+      "evidence": "solutions engineering, technical consulting, or comparable experience"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "solutions engineering, technical consulting, or comparable experience"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "requirement",
+      "evidence": "operated as a senior engineer, tech lead, or deployment owner"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "complex customer-facing or enterprise systems"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "healthcare experience including payer workflows, provider operations"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "requirement",
+      "evidence": "EHR systems, or interoperability standards such as Epic, HL7"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 6,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "lead",
+    "own",
+    "partner",
+    "design",
+    "define"
+  ],
+  "segmentation_quality": "header"
+}

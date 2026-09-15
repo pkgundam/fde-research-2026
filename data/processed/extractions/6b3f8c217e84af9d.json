@@ -1,0 +1,187 @@
+{
+  "posting_id": "6b3f8c217e84af9d",
+  "skills": [
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "serve as the technical lead for customer engagements"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "technical lead for customer engagements focused on modernizing"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "technical lead for customer engagements focused on modernizing"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "work directly with technical stakeholders across government"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "supporting national security missions"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "owning the architecture, development, deployment, and fielding"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "fielding of agentic solutions tailored to real-world systems"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "translating mission requirements into scalable software"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "ensuring capabilities are delivered reliably into production"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "collaborate closely with product, design, platform engineering"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "responsibility",
+      "evidence": "time in secure or classified environments"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "frequent travel (40-50%)"
+    },
+    {
+      "canonical": "testing",
+      "section": "responsibility",
+      "evidence": "accelerate refactoring, architecture modernization, testing, and software delivery"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Develop technical recommendations, demonstrations, and modernization plans"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "Develop technical recommendations, demonstrations, and modernization plans"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "building and deploying production systems across the DoW or IC"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "working directly with customers or stakeholders"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "translate mission requirements into technical solutions"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "lead complex technical discussions with both engineers and senior stakeholders"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "strong technical communication skills"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "modernization, integration, or sustainment efforts for large-scale software systems"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Proficiency in one or more of TypeScript, Python, Java, C++"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Proficiency in one or more of TypeScript, Python, Java, C++"
+    },
+    {
+      "canonical": "java",
+      "section": "requirement",
+      "evidence": "Proficiency in one or more of TypeScript, Python, Java, C++"
+    },
+    {
+      "canonical": "cpp",
+      "section": "requirement",
+      "evidence": "Proficiency in one or more of TypeScript, Python, Java, C++"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "modern software development and deployment practices, including cloud infrastructure"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "including cloud infrastructure, Kubernetes, CI/CD"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "requirement",
+      "evidence": "including cloud infrastructure, Kubernetes, CI/CD"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "Kubernetes, CI/CD, and DevSecOps"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "requirement",
+      "evidence": "Ada, CMS-2, C++, Java, or other legacy systems languages"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "building, evaluating, or operating coding agents, software engineering agents"
+    },
+    {
+      "canonical": "llm_frameworks",
+      "section": "requirement",
+      "evidence": "agentic developer tools using LangGraph"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "OpenAI SDK, Model Context Protocol (MCP)"
+    },
+    {
+      "canonical": "testing",
+      "section": "requirement",
+      "evidence": "requirements management, verification, and validation"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "deploy",
+    "analyze",
+    "collaborate",
+    "develop",
+    "serve"
+  ],
+  "segmentation_quality": "header"
+}

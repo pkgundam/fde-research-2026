@@ -1,0 +1,92 @@
+{
+  "posting_id": "aeb5ac1c71932af5",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "embed directly with leading AI labs and frontier model teams"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "Design and run evaluations to probe model generalization"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "responsibility",
+      "evidence": "interventions to steer and improve model outputs"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "responsibility",
+      "evidence": "Build data pipelines, fine-tuning workflows"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "responsibility",
+      "evidence": "Build data pipelines, fine-tuning workflows, or interventions"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Partner with internal stakeholders and external AI labs"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner with internal stakeholders and external AI labs"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "operationalize custom frontier model use cases"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "failure modes in long-context reasoning, tool use"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Explore and address failure modes in long-context reasoning"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "Curiosity about Model Behavior"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "insight generation in ambiguous settings"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "Strong instincts for research design and insight generation"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "Excitement to embed deeply with partners"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "embed deeply with partners, understand their goals"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "design",
+    "build",
+    "partner",
+    "explore",
+    "evaluate"
+  ],
+  "segmentation_quality": "header"
+}

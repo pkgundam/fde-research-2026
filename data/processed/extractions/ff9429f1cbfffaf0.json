@@ -1,0 +1,152 @@
+{
+  "posting_id": "ff9429f1cbfffaf0",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Partner with customers to design and ship integrations"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "responsibility",
+      "evidence": "design and ship integrations, finetunes, and interfaces"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "action / VLA models from first prototype to production"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "from first prototype to production"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "responsibility",
+      "evidence": "strong latency and output quality on real robots"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "responsibility",
+      "evidence": "across on-prem and BFL-hosted deployments"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "strong latency and output quality on real robots"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Find the highest-value use cases with customers"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "Identify and own opportunities to expand BFL's technologies"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "close collaboration with our research team"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "you'll embed with customers, ship real integrations on their robots"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "feed what you learn straight back into our models and roadmap"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "Experience working directly with customers, iterating on solutions"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "requirement",
+      "evidence": "providing tailored support for serving generative AI models"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "requirement",
+      "evidence": "providing tailored support for serving generative AI models"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "imitation/reinforcement learning or policy learning"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "building intuitive frontends and UI"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Excellent communication skills"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "collaborating with non-technical stakeholders internally and externally"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "collaborating with non-technical stakeholders internally and externally"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "nice_to_have",
+      "evidence": "relevant fine tuning and distillation techniques"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "nice_to_have",
+      "evidence": "inference optimizations for transformer based machine learning models"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "nice_to_have",
+      "evidence": "inference optimizations for transformer based machine learning models"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "nice_to_have",
+      "evidence": "transformer based machine learning models"
+    },
+    {
+      "canonical": "system_design",
+      "section": "nice_to_have",
+      "evidence": "architect solutions in complex enterprise environments"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "nice_to_have",
+      "evidence": "architect solutions in complex enterprise environments"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "nice_to_have",
+      "evidence": "Experience with cloud platforms and state of the art deployment solutions"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "partner",
+    "ship",
+    "prototype",
+    "identify",
+    "own"
+  ],
+  "segmentation_quality": "header"
+}

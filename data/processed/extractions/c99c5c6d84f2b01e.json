@@ -1,0 +1,132 @@
+{
+  "posting_id": "c99c5c6d84f2b01e",
+  "skills": [
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Lead the design, development, and optimization of advanced software systems"
+    },
+    {
+      "canonical": "networking",
+      "section": "responsibility",
+      "evidence": "software systems for autonomy, networking, and mission execution"
+    },
+    {
+      "canonical": "testing",
+      "section": "responsibility",
+      "evidence": "Drive field testing and deployment strategies, overseeing validation"
+    },
+    {
+      "canonical": "analytics",
+      "section": "responsibility",
+      "evidence": "Own the analysis of mission-critical performance data"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Partner directly with operators, mission planners, and end-users"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "translating feedback into actionable requirements"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "responsibility",
+      "evidence": "Lead incident response and root cause analysis"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "root cause analysis for complex issues spanning software, hardware"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "Mentor and collaborate with cross-functional teams"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "collaborate with cross-functional teams, aligning autonomy development"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "authoring deployment protocols, diagnostic tools, and documentation"
+    },
+    {
+      "canonical": "cpp",
+      "section": "requirement",
+      "evidence": "Proficient programming skills in C++, Rust, Python"
+    },
+    {
+      "canonical": "rust",
+      "section": "requirement",
+      "evidence": "Proficient programming skills in C++, Rust, Python"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Proficient programming skills in C++, Rust, Python"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "within maritime, aerospace, or defense sectors"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "Strong understanding of networking protocols and distributed systems"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "networking protocols and distributed systems, including TCP/IP"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "Proven ability to debug and resolve complex, cross-disciplinary issues"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "capability to lead field deployments (up to 50%)"
+    },
+    {
+      "canonical": "testing",
+      "section": "requirement",
+      "evidence": "history of testing and refining autonomous systems in operational maritime"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "distributed autonomy and multi-agent coordination"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "requirement",
+      "evidence": "Leadership in system integration, testing, and operationalization"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "collaborating across engineering, product, and field teams"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 3,
+  "responsibility_verbs": [
+    "lead",
+    "drive",
+    "own",
+    "architect",
+    "mentor"
+  ],
+  "segmentation_quality": "header"
+}

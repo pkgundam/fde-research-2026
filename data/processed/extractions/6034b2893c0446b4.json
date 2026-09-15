@@ -1,0 +1,202 @@
+{
+  "posting_id": "6034b2893c0446b4",
+  "skills": [
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "government and national security customers apply frontier AI to"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "red teaming, vulnerability research, reverse engineering, threat hunting, and similar"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "identify high-value applications, write code, build and evaluate"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "build and evaluate AI-powered tools and agentic workflows"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "move solutions from prototype into secure operational use"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "design architectures using OpenAI models, APIs, and existing security"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "collaborate closely with Sales, Solutions Engineering, Applied Research, Product"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "deliver measurable improvements in cyber capabilities"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "translate customer experience into better models and products"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "frequent on-site engagement at customer and partner facilities"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Own hands-on implementation for government cyber use cases"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "responsibility",
+      "evidence": "detection engineering, incident response, malware analysis, and similar domains"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "supported APIs, Codex, and integrations with customers' security tools"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "Design and run evaluations that measure technical correctness, security"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Partner with government security leaders, mission teams, account owners"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Contribute reusable code, examples, and technical guidance to"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "7+ years of hands-on technical experience in cybersecurity, cyber"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "work directly with government customers or national security mission"
+    },
+    {
+      "canonical": "testing",
+      "section": "requirement",
+      "evidence": "personally written code, integrated security tools, and built, tested"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "requirement",
+      "evidence": "measurable technical and mission outcomes"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "Understand secure network and cloud architecture, identity and least"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "Understand secure network and cloud architecture, identity and least"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "requirement",
+      "evidence": "identity and least privilege, restricted operating environments, application-security toolchains"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "hands-on programming experience with languages such as Python"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "hands-on programming experience with languages such as Python"
+    },
+    {
+      "canonical": "go",
+      "section": "requirement",
+      "evidence": "hands-on programming experience with languages such as Python"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "can integrate APIs, agents, command-line tools, and security platforms"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "can integrate APIs, agents, command-line tools, and security platforms"
+    },
+    {
+      "canonical": "shell",
+      "section": "requirement",
+      "evidence": "command-line tools, and security platforms into reliable workflows"
+    },
+    {
+      "canonical": "git",
+      "section": "requirement",
+      "evidence": "Relevant toolchains may include GitHub, CodeQL, Snyk, Semgrep"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "requirement",
+      "evidence": "Jira, and CI/CD systems"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "Communicate clearly with cyber practitioners, engineers, senior leaders"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "Own problems end to end and learn unfamiliar tools"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "learn unfamiliar tools, systems, or mission requirements as needed"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "Approach collaboration with humility, share knowledge generously"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "requirement",
+      "evidence": "Drive multiple concurrent projects with urgency, sound judgment"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "Experience supporting NSA or comparable national security cyber missions"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 7,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "identify",
+    "build",
+    "design",
+    "own",
+    "partner"
+  ],
+  "segmentation_quality": "header"
+}

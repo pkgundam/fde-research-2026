@@ -1,0 +1,92 @@
+{
+  "posting_id": "5bb00319dd81add0",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "hands-on technical partner for strategic customers implementing"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "from pre-sales technical validation through post-sales delivery"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "Consult on flag architecture and implementation approach"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "flag architecture and implementation approach for complex environments"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Build prototype flag implementations directly in customer codebases"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Implement flags across diverse and advanced deployment modes"
+    },
+    {
+      "canonical": "streaming",
+      "section": "responsibility",
+      "evidence": "edge, mobile, streaming/real-time"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "efficiently and with minimal customer engineering burden"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "feed them back to Product and Engineering to improve"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner with Sales and Solutions to accelerate deal cycles"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "directly influencing deal velocity and customer success"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "dropping into unfamiliar codebases, languages, and frameworks quickly"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "requirement",
+      "evidence": "shipping production code, not just prototypes"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "Customer-facing experience, or strong motivation to build it"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "Ability to travel up to 20% of the time to customer sites"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "consult",
+    "build",
+    "implement",
+    "drive",
+    "partner"
+  ],
+  "segmentation_quality": "header"
+}

@@ -1,0 +1,147 @@
+{
+  "posting_id": "ea9b6a5a0973c114",
+  "skills": [
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "build, operate, and maintain reliable services"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "high-performance, scalable, and reliable services"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "responsibility",
+      "evidence": "primarily across on-prem environments"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "You'll travel to various locations"
+    },
+    {
+      "canonical": "networking",
+      "section": "responsibility",
+      "evidence": "configure their hardware and network"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "work closely with engineers to advocate"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "diagnosing, resolving, and preventing production issues"
+    },
+    {
+      "canonical": "shell",
+      "section": "responsibility",
+      "evidence": "Maintaining availability of physical Linux servers"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "responsibility",
+      "evidence": "modern orchestration & monitoring platforms"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "modern orchestration & monitoring platforms"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "responsibility",
+      "evidence": "Participate in a support on-call schedule"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "Provide technical troubleshooting support for production issues"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "troubleshooting complex systems issues independently"
+    },
+    {
+      "canonical": "observability",
+      "section": "requirement",
+      "evidence": "using stack traces and observability & systems tools"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "load balancing, monitoring & alerting infrastructure"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "container orchestration on small hardware form factors"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "continuously learn and work independently"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "making decisions with minimal supervision"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "working in secure facilities"
+    },
+    {
+      "canonical": "docker",
+      "section": "requirement",
+      "evidence": "containers (Docker/Podman)"
+    },
+    {
+      "canonical": "shell",
+      "section": "requirement",
+      "evidence": "Unix/Linux Computing Environment (e.g Linux+, RHCE)"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "Available for 50% travel"
+    },
+    {
+      "canonical": "java",
+      "section": "requirement",
+      "evidence": "Java, Go, Python, JavaScript, Bash"
+    },
+    {
+      "canonical": "go",
+      "section": "requirement",
+      "evidence": "Java, Go, Python, JavaScript, Bash"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Java, Go, Python, JavaScript, Bash"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Java, Go, Python, JavaScript, Bash"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 4,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 3,
+  "responsibility_verbs": [
+    "build",
+    "design",
+    "collaborate",
+    "troubleshoot",
+    "provide"
+  ],
+  "segmentation_quality": "header"
+}

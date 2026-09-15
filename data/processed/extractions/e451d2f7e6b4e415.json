@@ -1,0 +1,27 @@
+{
+  "posting_id": "e451d2f7e6b4e415",
+  "skills": [
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "help us take our MVP to the next level"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "develop an AI-powered product with a practical impact"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 2,
+  "responsibility_verbs": [
+    "develop",
+    "build",
+    "answer",
+    "access",
+    "speed"
+  ],
+  "segmentation_quality": "inferred"
+}

@@ -1,0 +1,117 @@
+{
+  "posting_id": "fffed8201486df6a",
+  "skills": [
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Develop and refine software for autonomy, networking, and mission execution"
+    },
+    {
+      "canonical": "networking",
+      "section": "responsibility",
+      "evidence": "software for autonomy, networking, and mission execution"
+    },
+    {
+      "canonical": "testing",
+      "section": "responsibility",
+      "evidence": "Deploy and test ASV software in the field"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "identifying and resolving issues related to autonomy, perception"
+    },
+    {
+      "canonical": "analytics",
+      "section": "responsibility",
+      "evidence": "Analyze performance data from real-world missions"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Work directly with operators and end-users"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "gathering feedback and adapting the system to operational requirements"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Collaborate with cross-functional teams"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Document best practices, deployment procedures, and debugging workflows"
+    },
+    {
+      "canonical": "cpp",
+      "section": "requirement",
+      "evidence": "experience in C++, Rust, Python, or similar languages"
+    },
+    {
+      "canonical": "rust",
+      "section": "requirement",
+      "evidence": "experience in C++, Rust, Python, or similar languages"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "experience in C++, Rust, Python, or similar languages"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "maritime, aerospace, or defense applications"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "Understanding of networking protocols and distributed systems"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "networking protocols and distributed systems, including TCP/IP"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "Ability to diagnose and debug complex systems"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "adapt to real-world constraints and unpredictable conditions"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "Willingness to travel (up to 50%)"
+    },
+    {
+      "canonical": "testing",
+      "section": "requirement",
+      "evidence": "spending time in the field testing and improving ASV systems"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "distributed autonomy architectures and multi-agent coordination"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 3,
+  "responsibility_verbs": [
+    "develop",
+    "deploy",
+    "analyze",
+    "troubleshoot",
+    "collaborate"
+  ],
+  "segmentation_quality": "header"
+}

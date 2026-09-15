@@ -1,0 +1,267 @@
+{
+  "posting_id": "2524e8340a9b44dc",
+  "skills": [
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "lead the hands on technical delivery of our most complex customer engagements"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "design, build, and deploy production ready solutions"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "embed with enterprise customers to design and build solutions"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "This is a customer-facing engineering role"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "deploying production-grade custom agents and AI workflows with MCP"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "Agent APIs, and Notion's automation and execution infrastructure"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "responsibility",
+      "evidence": "building data pipelines"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "resolving complex challenges around scale, permissions, and governance"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "debugging technical issues"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "explaining tradeoffs to stakeholders"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "turning ambiguous customer problems into scalable technical solutions"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "Own the hands-on technical delivery of customer engagements"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "deep technical discovery, requirements gathering"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "solution design, and end to end implementation"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "Act as a trusted technical advisor"
+    },
+    {
+      "canonical": "data_modeling",
+      "section": "responsibility",
+      "evidence": "data modeling, transformation logic, validation"
+    },
+    {
+      "canonical": "data_quality",
+      "section": "responsibility",
+      "evidence": "validation, and post-migration optimization"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "responsibility",
+      "evidence": "permissions, authentication, system limits"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "responsibility",
+      "evidence": "customer specific environments"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "directly influence Notion's Product Roadmap"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Design and operate feedback loops with Product, CX, and Engineering"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "technical documentation and engineering best practices"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "5+ years of experience in customer-facing or forward deployed engineering role"
+    },
+    {
+      "canonical": "java",
+      "section": "requirement",
+      "evidence": "programming language such as Java"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "JavaScript, Node.js"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "such as Java, JavaScript, Node.js, SQL"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "SQL, or Python"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "Hands-on experience with APIs and data integration"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "lead technical discovery with customers...scope technical work"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "translate ambiguous requirements into an executable plan"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "Strong debugging and problem-solving skills"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "Strong written and verbal communication skills"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Strong written and verbal communication skills"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "drive outcomes for customers at scale"
+    },
+    {
+      "canonical": "consulting",
+      "section": "nice_to_have",
+      "evidence": "Experience working in professional services"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "nice_to_have",
+      "evidence": "preferably in a startup or high-growth environment"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "deploying AI agents autonomously in complex coding or business workflows"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "work with MCPs, APIs, LLM applications"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "nice_to_have",
+      "evidence": "prompt engineering"
+    },
+    {
+      "canonical": "rag",
+      "section": "nice_to_have",
+      "evidence": "retrieval/RAG systems or workflow orchestration"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "nice_to_have",
+      "evidence": "work with MCPs, APIs, LLM applications"
+    },
+    {
+      "canonical": "scoping",
+      "section": "nice_to_have",
+      "evidence": "discovery methodologies, or internal tooling from the ground up"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "nice_to_have",
+      "evidence": "Experience with ETL/ELT workflows, data transformation"
+    },
+    {
+      "canonical": "data_modeling",
+      "section": "nice_to_have",
+      "evidence": "schema mapping"
+    },
+    {
+      "canonical": "data_quality",
+      "section": "nice_to_have",
+      "evidence": "validation scripts, or large-scale content migration tooling"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "nice_to_have",
+      "evidence": "influencing roadmaps or architectural decisions"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "nice_to_have",
+      "evidence": "collaboration with product and engineering teams"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "nice_to_have",
+      "evidence": "supporting pre-sales or early engagement phases"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "nice_to_have",
+      "evidence": "building prototypes or custom scripts to validate approaches"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "nice_to_have",
+      "evidence": "successful enterprise customer implementations"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "own",
+    "design",
+    "build",
+    "lead",
+    "troubleshoot"
+  ],
+  "segmentation_quality": "header"
+}

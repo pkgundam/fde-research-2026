@@ -1,0 +1,212 @@
+{
+  "posting_id": "6edde266a4f6a098",
+  "skills": [
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "AI-powered applications and agents for finance teams"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "quota-carrying technical sales role"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "responsibility",
+      "evidence": "deploy and manage AI with greater control, security, and cost efficiency"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "data governance, and security with Engineering and IT teams"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "tradeoffs among quality, cost, latency, and control"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Lead discovery with business and technical buyers"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "translating complex capabilities into clear business value"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "build executive-level business cases"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Deliver tailored demonstrations, technical workshops, and proofs of concept"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "discuss model routing, APIs, integrations, data governance"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "own the full customer lifecycle from discovery...through close, implementation, and adoption"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "own the progression of AI product opportunities"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "compelling solution narratives tied to measurable business outcomes"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "set realistic expectations, and establish a credible path"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "deployment planning, stakeholder alignment, workflow design, technical coordination, enablement"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner with Account Executives and collaborate with Product, Engineering, Security"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Bring structured customer and market feedback to internal teams"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "enterprise software sales, or a related customer-facing role"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "requirement",
+      "evidence": "5+ years of experience in Solutions Engineering, Solutions Consulting, technical sales"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "Direct quota-carrying or deal-closing ownership of the pre-sale cycle"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "Strong discovery and value-selling skills"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "connect technical capabilities to measurable business outcomes"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "build executive-level business cases, including ROI...analyses"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "modern AI systems, including applications and agents"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "model capabilities and limitations, APIs, integrations, data flows"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "data flows, security, governance"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "tradeoffs among quality, cost, latency, and control"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Excellent executive communication and presentation skills"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "explain probabilistic, rapidly evolving AI technology"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "requirement",
+      "evidence": "navigating multi-threaded buying groups with competing priorities"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "High ownership, curiosity, sound judgment"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "selling AI infrastructure, AI applications or agents"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "nice_to_have",
+      "evidence": "Experience selling AI infrastructure, AI applications or agents"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "nice_to_have",
+      "evidence": "helping launch a new product or develop an early go-to-market motion"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "nice_to_have",
+      "evidence": "AI gateways, model routing, usage controls"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "nice_to_have",
+      "evidence": "data governance, or enterprise AI deployment"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "nice_to_have",
+      "evidence": "selling to developers, IT, Security, Finance, Operations, Procurement, or executive stakeholders"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "nice_to_have",
+      "evidence": "reusable sales assets, demonstrations, value frameworks, or enablement programs"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "nice_to_have",
+      "evidence": "creating reusable sales assets, demonstrations"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "sell",
+    "lead",
+    "build",
+    "translate",
+    "navigate"
+  ],
+  "segmentation_quality": "header"
+}

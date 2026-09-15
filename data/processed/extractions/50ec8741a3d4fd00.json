@@ -1,0 +1,237 @@
+{
+  "posting_id": "50ec8741a3d4fd00",
+  "skills": [
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "leveraging the latest technologies in Large Language Models"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "AI Agent systems, while ensuring that the solutions"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "solutions we develop are cost-effective, secure, and reliable"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "solutions we develop are cost-effective, secure, and reliable"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "deploying AI agents that address real-world challenges"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "work closely with customers as well as our"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "work closely with customers as well as our software"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "continuous improvement of our core AI platform"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "integrate them seamlessly with external systems"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "responsibility",
+      "evidence": "requires strong engineering skills, adaptability"
+    },
+    {
+      "canonical": "sql",
+      "section": "responsibility",
+      "evidence": "external systems (APIs, databases, CRMs, etc.)"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "responsibility",
+      "evidence": "external systems (APIs, databases, CRMs, etc.)"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "responsibility",
+      "evidence": "fine-tune prompts and configurations"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "troubleshoot issues in complex enterprise environments"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "gather technical requirements and translate business needs"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "present compelling proof-of-concepts to prospective customers"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "responsibility",
+      "evidence": "Conduct interactive demos and present compelling proof-of-concepts"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "Define project milestones, create implementation plans"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "shape product capabilities that maximize customer ROI"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "Serve as a trusted technical advisor for the customer"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "architecture design, security considerations, and scalability planning"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "Familiarity with AI/ML concepts"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "software development/Consulting, AI/ML engineering"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Proficiency in Python and Golang"
+    },
+    {
+      "canonical": "go",
+      "section": "requirement",
+      "evidence": "Proficiency in Python and Golang"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "Strong understanding of general AI agent frameworks, function calling"
+    },
+    {
+      "canonical": "rag",
+      "section": "requirement",
+      "evidence": "retrieval-augmented generation (RAG)"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "cloud platforms (AWS, GCP, or Azure)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "cloud platforms (AWS, GCP, or Azure)"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "cloud platforms (AWS, GCP, or Azure)"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "requirement",
+      "evidence": "DevOps practices (CI/CD, containerization, monitoring)"
+    },
+    {
+      "canonical": "docker",
+      "section": "requirement",
+      "evidence": "DevOps practices (CI/CD, containerization, monitoring)"
+    },
+    {
+      "canonical": "observability",
+      "section": "requirement",
+      "evidence": "CI/CD, containerization, monitoring"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "integrating systems via APIs, webhooks, and data pipelines"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "requirement",
+      "evidence": "integrating systems via APIs, webhooks, and data pipelines"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Excellent communication and project management skills"
+    },
+    {
+      "canonical": "project_management",
+      "section": "requirement",
+      "evidence": "Excellent communication and project management skills"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "data-driven decision-making, including A/B testing"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "requirement",
+      "evidence": "A/B testing and performance monitoring, to refine solutions"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "thrive in cross-functional environments, working hand-in-hand"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "Hands-on experience with large language models (LLMs)"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "nice_to_have",
+      "evidence": "prompt engineering techniques are strongly preferred"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "Hands-on experience of building such a system"
+    },
+    {
+      "canonical": "rag",
+      "section": "nice_to_have",
+      "evidence": "Hands-on experience of building such a system"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 3,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "deploy",
+    "develop",
+    "integrate",
+    "optimize",
+    "collaborate"
+  ],
+  "segmentation_quality": "header"
+}

@@ -1,0 +1,117 @@
+{
+  "posting_id": "b70d490395e94f41",
+  "skills": [
+    {
+      "canonical": "testing",
+      "section": "responsibility",
+      "evidence": "Build, test, integrate, and deploy mission-critical software and AI"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "responsibility",
+      "evidence": "devices on the edge, on-prem, and in hybrid-cloud environments"
+    },
+    {
+      "canonical": "networking",
+      "section": "responsibility",
+      "evidence": "challenges in deployment, integration, networking, security, hardware"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "integration, networking, security, hardware, and user experience"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner with multidisciplinary teams, including experts in sensing and fusion"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "nice_to_have",
+      "evidence": "Knowledge of AI/ML, sensor processing, and edge/on-prem hardware"
+    },
+    {
+      "canonical": "networking",
+      "section": "nice_to_have",
+      "evidence": "edge/on-prem hardware and networking is highly desirable"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "nice_to_have",
+      "evidence": "edge/on-prem hardware and networking is highly desirable"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "take initiative in problem solving, and think critically under pressure"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "requirement",
+      "evidence": "Experience deploying and maintaining robust production systems"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "requirement",
+      "evidence": "integrating and deploying software to edge or autonomous systems"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Strong proficiency in Python, Rust, C++, or Java"
+    },
+    {
+      "canonical": "rust",
+      "section": "requirement",
+      "evidence": "Strong proficiency in Python, Rust, C++, or Java"
+    },
+    {
+      "canonical": "cpp",
+      "section": "requirement",
+      "evidence": "Strong proficiency in Python, Rust, C++, or Java"
+    },
+    {
+      "canonical": "java",
+      "section": "requirement",
+      "evidence": "Strong proficiency in Python, Rust, C++, or Java"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "Strong integration skills and experience with networking, Linux/GNU"
+    },
+    {
+      "canonical": "shell",
+      "section": "requirement",
+      "evidence": "experience with networking, Linux/GNU, CI/CD tools, scripting"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "requirement",
+      "evidence": "Linux/GNU, CI/CD tools, scripting and automation tools"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "navigating APIs and documentation, edge and networking hardware"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "Ability to travel 25-75%, varies by location and team"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 2,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "build",
+    "test",
+    "integrate",
+    "deploy",
+    "partner"
+  ],
+  "segmentation_quality": "header"
+}

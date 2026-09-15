@@ -1,0 +1,147 @@
+{
+  "posting_id": "f677df5c4a51bc8d",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "similar technical customer-facing role"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "systems-thinking skills, ability to move to production"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "requirement",
+      "evidence": "Strong understanding of product development and engineering workflows"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "plan, build, ship, and debug software"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "building or integrating software across APIs"
+    },
+    {
+      "canonical": "data_modeling",
+      "section": "requirement",
+      "evidence": "event flows, data models, permissions, automation"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "or agent-based workflows"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "customers and internal stakeholders without heavy structure"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "work directly with customers without heavy structure"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "ambiguous, fast-moving environments where answer is not documented"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "Strong communication skills, both written and verbal"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Strong communication skills, both written and verbal"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "curiosity about AI tools and emerging technologies"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Collaborate with Engineering leaders, platform teams, administrators"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Establish technical and operational foundations for adoption"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "responsibility",
+      "evidence": "Move between cloud infrastructure, integrations, workflow design"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "Move between cloud infrastructure, integrations, workflow design"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "product enablement, and engineering coaching"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "product enablement, and engineering coaching"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Work directly in customer environments"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "responsibility",
+      "evidence": "Work directly in customer environments"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "responsibility",
+      "evidence": "configuring secure access to source-control, CI/CD"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "responsibility",
+      "evidence": "ticketing, and identity systems"
+    },
+    {
+      "canonical": "git",
+      "section": "responsibility",
+      "evidence": "configuring secure access to source-control"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "context their agents and teams need"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "turn customer-specific solutions into reusable product capabilities"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 6,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "collaborate",
+    "establish",
+    "configure",
+    "write",
+    "leave"
+  ],
+  "segmentation_quality": "header"
+}

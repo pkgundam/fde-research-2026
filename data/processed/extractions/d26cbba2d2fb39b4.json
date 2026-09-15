@@ -1,0 +1,157 @@
+{
+  "posting_id": "d26cbba2d2fb39b4",
+  "skills": [
+    {
+      "canonical": "kubernetes",
+      "section": "responsibility",
+      "evidence": "highest-stakes Kubernetes storage deployments"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "shaping production architectures"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "advising through critical rollouts"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "turning field experience into structured product feedback"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "responsibility",
+      "evidence": "work sits in the customer's own data center"
+    },
+    {
+      "canonical": "networking",
+      "section": "responsibility",
+      "evidence": "enterprise network designs that predate Kubernetes"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "before you ever get on a plane"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "own engagements end-to-end"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "architecture design, production readiness, and clean handoff"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "leave behind documentation and decision guidance"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "engage directly with Directors and VPs of Infrastructure"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "Upskill customer platform teams to operate independently"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "critical rollouts and live escalations"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "responsibility",
+      "evidence": "direct the diagnosis, frame the decision"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner closely with Sales Engineering, Customer Success"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "Partner closely with Sales Engineering"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "requirement",
+      "evidence": "SRE, architecture, or field and solutions engineering"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "infrastructure or platform engineering roles"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "requirement",
+      "evidence": "field and solutions engineering roles"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "Deep Kubernetes expertise (CKA/CKS or equivalent)"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "Practical data center networking: VLANs, routing"
+    },
+    {
+      "canonical": "shell",
+      "section": "requirement",
+      "evidence": "Solid Linux systems background... systemd"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "Familiarity with cloud and managed Kubernetes platforms"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "requirement",
+      "evidence": "customer development environments (CI/CD, deployment patterns)"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "relationship-building instincts... to senior leaders above"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "know when to advise and when to step back"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "requirement",
+      "evidence": "shaping decisions and teaching"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "Strong technical writing skills"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "design",
+    "advise",
+    "guide",
+    "author",
+    "upskill"
+  ],
+  "segmentation_quality": "header"
+}

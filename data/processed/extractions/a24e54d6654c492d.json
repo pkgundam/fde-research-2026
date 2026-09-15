@@ -1,0 +1,37 @@
+{
+  "posting_id": "a24e54d6654c492d",
+  "skills": [
+    {
+      "canonical": "go",
+      "section": "responsibility",
+      "evidence": "Tech: Go, MongoDB, Linux, GCP"
+    },
+    {
+      "canonical": "nosql",
+      "section": "responsibility",
+      "evidence": "Tech: Go, MongoDB, Linux, GCP"
+    },
+    {
+      "canonical": "shell",
+      "section": "responsibility",
+      "evidence": "Tech: Go, MongoDB, Linux, GCP"
+    },
+    {
+      "canonical": "gcp",
+      "section": "responsibility",
+      "evidence": "Tech: Go, MongoDB, Linux, GCP"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "build",
+    "deploy",
+    "automate",
+    "integrate",
+    "operate"
+  ],
+  "segmentation_quality": "inferred"
+}

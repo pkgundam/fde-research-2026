@@ -1,0 +1,47 @@
+{
+  "posting_id": "15f662f0b05ef1a7",
+  "skills": [
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "vision-first, agentic workflows that solve the problems"
+    },
+    {
+      "canonical": "computer_vision",
+      "section": "responsibility",
+      "evidence": "vision-first, agentic workflows that solve the problems"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "problems generic frontier models cannot"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "System of Record for Enterprise Compliance"
+    },
+    {
+      "canonical": "aws",
+      "section": "responsibility",
+      "evidence": "Data Engineer (Real-Time & Batch Systems, AWS)"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "responsibility",
+      "evidence": "Real-Time & Batch Systems"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 2,
+  "responsibility_verbs": [
+    "free",
+    "turn",
+    "automate",
+    "solve",
+    "move"
+  ],
+  "segmentation_quality": "inferred"
+}

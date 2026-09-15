@@ -1,0 +1,23 @@
+{
+  "posting_id": "13ce9bd80be55ed9",
+  "skills": [
+    { "canonical": "typescript", "section": "requirement", "evidence": "Frontend: Typescript, React, Next.js, AWS" },
+    { "canonical": "react", "section": "requirement", "evidence": "Frontend: Typescript, React, Next.js, AWS" },
+    { "canonical": "aws", "section": "requirement", "evidence": "Backend: Typescript, Node, AWS" },
+    { "canonical": "python", "section": "requirement", "evidence": "Data pipelines: Dagster, Python, polars" },
+    { "canonical": "data_pipelines", "section": "requirement", "evidence": "Data pipelines: Dagster, Python, polars" },
+    { "canonical": "ci_cd", "section": "requirement", "evidence": "CI/CD: GitHub Actions" }
+  ],
+  "seniority": "mid",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 3,
+  "responsibility_verbs": [
+    "build",
+    "deploy",
+    "integrate",
+    "ship",
+    "scope"
+  ],
+  "segmentation_quality": "inferred"
+}

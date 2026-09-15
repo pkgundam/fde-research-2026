@@ -1,0 +1,167 @@
+{
+  "posting_id": "ef5a69abb97c1546",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Partner directly with enterprise AI teams"
+    },
+    {
+      "canonical": "llm_observability",
+      "section": "responsibility",
+      "evidence": "production-grade GenAI observability and evaluation programs"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "GenAI observability and evaluation programs"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "technical discussions with customer stakeholders...senior executives"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "Build custom integrations, tooling, and workflows"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "Manage multiple concurrent customer engagements"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "driving projects from scoping through delivery"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Collaborate cross-functionally with Sales, CS, Product, and Engineering teams"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "influence product direction, and expand customer impact"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "define and scale best practices, technical playbooks"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "combines deep AI expertise with business acumen to deliver results"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "We work extensively in Python, Java, and TypeScript"
+    },
+    {
+      "canonical": "java",
+      "section": "requirement",
+      "evidence": "We work extensively in Python, Java, and TypeScript"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "We work extensively in Python, Java, and TypeScript"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "Experience building MLOps pipelines"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "developing, deploying, and iterating on Generative AI applications"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "public cloud platforms (e.g., AWS, GCP, Azure)"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "public cloud platforms (e.g., AWS, GCP, Azure)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "public cloud platforms (e.g., AWS, GCP, Azure)"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "public cloud platforms (e.g., AWS, GCP, Azure)"
+    },
+    {
+      "canonical": "docker",
+      "section": "requirement",
+      "evidence": "containerization and orchestration technologies (e.g., Docker and Kubernetes)"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "containerization and orchestration technologies (e.g., Docker and Kubernetes)"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Excellent communication skills with the ability to work effectively"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "engaging with senior executives on business outcomes and metrics"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "requirement",
+      "evidence": "senior executives on business outcomes and metrics"
+    },
+    {
+      "canonical": "project_management",
+      "section": "requirement",
+      "evidence": "manage multiple client engineering engagements simultaneously"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "requirement",
+      "evidence": "deliver high-quality technical outcomes under demanding timelines"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "Comfortable operating in fast-paced startup or consulting environments"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "fast-paced startup or consulting environments"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "navigate diverse client organizations, technical stacks, and evolving priorities"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 2,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "partner",
+    "lead",
+    "build",
+    "manage",
+    "collaborate"
+  ],
+  "segmentation_quality": "header"
+}

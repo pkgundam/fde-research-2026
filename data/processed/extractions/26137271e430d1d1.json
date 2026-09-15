@@ -1,0 +1,247 @@
+{
+  "posting_id": "26137271e430d1d1",
+  "skills": [
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "high-impact pre-sales (closing complex technical evaluations)"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "post-sales (driving adoption, expansion, and retention)"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "directly influences $5M+ in annual recurring revenue"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "from pre-sales architecture discussions through multi-year expansion"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "own the end-to-end technical relationship"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "partner with Account Executives and Account Managers"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "identifies blockers before they become problems, champions new use cases"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "You run deep discovery on their stack and constraints"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "You build live, functional applications on the fly"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "prove immediate value... to VPs and C-suite stakeholders"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "securely connect Replit Agents to customer-specific data"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "responsibility",
+      "evidence": "own the \"Guardrails\" mission... AI governance templates"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "solve for data safety, compliance, and CISO approval"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "responsibility",
+      "evidence": "deep-dive reviews for Single-Tenant/VPC deployments"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "lead high-energy Hackathons alongside Account Executives"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "responsibility",
+      "evidence": "production-ready SSO/SCIM provisioning, guardrails, and security setup"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "5-7+ years in technical customer-facing roles"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "explain complex technical concepts to non-technical executives"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "worked with enterprise prospects to drive adoption, expansion, and renewal"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "translate business requirements into technical architecture"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "requirement",
+      "evidence": "creating live apps in real-time"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "listen to vague requirements and translate them on the fly"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "requirement",
+      "evidence": "You've run POCs, onboarding sessions, and workshops"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "read and write code (JavaScript, Python, or similar)"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "read and write code (JavaScript, Python, or similar)"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "You understand APIs, databases, CI/CD pipelines"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "You understand APIs, databases, CI/CD pipelines"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "requirement",
+      "evidence": "databases, CI/CD pipelines, and modern cloud architecture"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "CI/CD pipelines, and modern cloud architecture"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "You thrive in a high-accountability POD structure"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "Comfort with up to 25% travel (expect 30%+)"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "You prefer reactive troubleshooting over proactively identifying architectural blockers"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "obsessed with how Agents are rewriting the SDLC"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "don't use AI tools to build in your own spare time"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "struggle in ambiguous, high-growth environments"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "building deep, multi-year customer relationships"
+    },
+    {
+      "canonical": "evals",
+      "section": "nice_to_have",
+      "evidence": "AI Evaluation patterns (Evals) and Context Management"
+    },
+    {
+      "canonical": "rag",
+      "section": "nice_to_have",
+      "evidence": "Context Management (RAG, System Prompts)"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "nice_to_have",
+      "evidence": "Context Management (RAG, System Prompts)"
+    },
+    {
+      "canonical": "aws",
+      "section": "nice_to_have",
+      "evidence": "cloud infrastructure (AWS/GCP/Azure), or SRE"
+    },
+    {
+      "canonical": "gcp",
+      "section": "nice_to_have",
+      "evidence": "cloud infrastructure (AWS/GCP/Azure)"
+    },
+    {
+      "canonical": "azure",
+      "section": "nice_to_have",
+      "evidence": "cloud infrastructure (AWS/GCP/Azure)"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "nice_to_have",
+      "evidence": "Background in DevOps, cloud infrastructure... or SRE"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "nice_to_have",
+      "evidence": "HubSpot CRM"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "nice_to_have",
+      "evidence": "SSO/SAML/SCIM identity systems"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "Claude, ChatGPT, Gemini"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "own",
+    "design",
+    "build",
+    "lead",
+    "drive"
+  ],
+  "segmentation_quality": "header"
+}

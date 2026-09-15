@@ -1,0 +1,137 @@
+{
+  "posting_id": "e99b5d4ba81f6a9d",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Work directly with customers to understand their workflows, constraints, and goals"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "define the problem yourself"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "Build production systems on Luma's APIs, models, and internal tools"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "Build production systems on Luma's APIs, models, and internal tools"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Prototype, ship, iterate, and maintain systems customers depend on"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "maintain systems customers depend on in real environments with real data"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "Own projects end to end, from first conversation to deployed system"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "feed recurring patterns back to platform and R&D to productize"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Embed with a first customer, learn their workflow"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "work with R&D to turn it into platform"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "ambiguity is the default and what should we build is yours to answer"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "at least one general-purpose language (Python, TypeScript, Go, or similar)"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "at least one general-purpose language (Python, TypeScript, Go, or similar)"
+    },
+    {
+      "canonical": "go",
+      "section": "requirement",
+      "evidence": "at least one general-purpose language (Python, TypeScript, Go, or similar)"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "learn unfamiliar systems quickly"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "Willingness to travel to client sites as needed"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "nice_to_have",
+      "evidence": "shipping real systems with real users, not just assigned tasks"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "nice_to_have",
+      "evidence": "High agency and strong prioritization: you find the core problem and move"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "nice_to_have",
+      "evidence": "High agency and strong prioritization: you find the core problem and move"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "nice_to_have",
+      "evidence": "Comfort defining your own path when there isn't one"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "Evidence of working directly with customers"
+    },
+    {
+      "canonical": "scoping",
+      "section": "nice_to_have",
+      "evidence": "translating what you heard into what you built"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "nice_to_have",
+      "evidence": "explaining a technical decision to a non-technical stakeholder"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "nice_to_have",
+      "evidence": "explaining a technical decision to a non-technical stakeholder"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 2,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "work",
+    "build",
+    "prototype",
+    "own",
+    "embed"
+  ],
+  "segmentation_quality": "header"
+}

@@ -1,0 +1,142 @@
+{
+  "posting_id": "fd8a24b32512829b",
+  "skills": [
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "Build and deploy evaluators, design and implement quality measurement systems"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "quality measurement systems to validate project outputs"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "ensure deliverables meet client expectations"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "responsibility",
+      "evidence": "developing or adapting existing pipelines to accelerate client engagements"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "standardized formatting, comprehensive documentation, and quality assurance"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "custom applications and off-platform solutions for non-standard client requirements"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Define production specifications and workflows"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "seamless go-live transitions"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "securing technical alignment with client teams"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "Provide ongoing technical support to Delivery Managers"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "alignment across customer and internal teams throughout the engagement lifecycle"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "enhance speed, quality, and scalability"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "end-to-end ownership of the AI data pipeline lifecycle"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "responsibility",
+      "evidence": "thrives as a technical communicator"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "5+ years...ML engineering"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "requirement",
+      "evidence": "solutions engineering, forward-deployed engineering"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "requirement",
+      "evidence": "5+ years of experience in data science, data engineering"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Strong practical experience with Python and SQL data tooling"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "Strong practical experience with Python and SQL data tooling"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "Familiarity with ML and LLM-based solutions"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "building validation, evaluation, or quality measurement workflows"
+    },
+    {
+      "canonical": "data_quality",
+      "section": "requirement",
+      "evidence": "building validation...quality measurement workflows for ML/LLM-based systems"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "translating ambiguous customer or stakeholder requirements into technical specifications"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "ambiguous customer or stakeholder requirements"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "integrating systems via APIs and building custom tooling"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "build",
+    "generate",
+    "package",
+    "configure",
+    "define"
+  ],
+  "segmentation_quality": "header"
+}

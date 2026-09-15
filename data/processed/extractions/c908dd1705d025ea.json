@@ -1,0 +1,182 @@
+{
+  "posting_id": "c908dd1705d025ea",
+  "skills": [
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "design, build, and deploy AI systems that deliver measurable"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "deliver measurable business outcomes"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "use-case selection and architecture through prototyping, evaluation, production"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "build evaluation systems, resolve complex integrations, and guide"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "write and debug code, build evaluation systems, resolve complex"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "responsibility",
+      "evidence": "guide decisions involving model behavior, reliability, latency, cost"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "safety, security, governance, and operational readiness"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "reliability, latency, cost, safety, security, governance"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "Success is measured by production systems, sustained adoption"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "identify high-value opportunities and translate them into technical architectures"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Work hands-on in code to build prototypes, evaluation harnesses"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "technical decisions across models, agents, retrieval, tools, data"
+    },
+    {
+      "canonical": "rag",
+      "section": "responsibility",
+      "evidence": "models, agents, retrieval, tools, data, reliability, observability"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "reliability, observability, latency, cost, safety, security, and governance"
+    },
+    {
+      "canonical": "testing",
+      "section": "responsibility",
+      "evidence": "reproduce failures, test hypotheses, and drive blockers toward resolution"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Help customers progress from promising prototypes to reliable production"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner closely with customer engineering teams and OpenAI Product"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "translating deployment experience into high-signal product feedback"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "reusable architectures, tooling, playbooks, and technical guidance that accelerate"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "delivering AI or machine-learning systems in enterprise environments"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "solutions architecture, or technical consulting"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "substantial personal contributions in code, architecture, evaluation, debugging"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "substantial personal contributions in code, architecture, evaluation, debugging"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "highly proficient in Python and comfortable working across"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "enterprise production requirements such as integrations, reliability, observability"
+    },
+    {
+      "canonical": "observability",
+      "section": "requirement",
+      "evidence": "enterprise production requirements such as integrations, reliability, observability"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "security, privacy, data governance, performance, and cost"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "security, privacy, data governance, performance, and cost"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "connect technical decisions to customer workflows, adoption, and measurable"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "Communicate with clarity and credibility across hands-on engineers"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "Bring high agency, strong technical judgment, and end-to-end ownership"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "Learn quickly, challenge assumptions constructively, and collaborate with humility"
+    },
+    {
+      "canonical": "typescript",
+      "section": "nice_to_have",
+      "evidence": "experience with JavaScript, TypeScript, or another relevant language"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "design",
+    "build",
+    "deploy",
+    "diagnose",
+    "partner"
+  ],
+  "segmentation_quality": "header"
+}

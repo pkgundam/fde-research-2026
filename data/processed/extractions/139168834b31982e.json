@@ -1,0 +1,122 @@
+{
+  "posting_id": "139168834b31982e",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "embedded with centralized customer success teams"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "high-level support responsibilities"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "scale customer enablement effectively"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "debug and resolve their problems"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "work both collaboratively and independently"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "support and guide customer development teams"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Collaborate with our Product Development teams"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "inform product improvements"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "responsibility",
+      "evidence": "24/7 on-call rotation, critical customer-facing incidents"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "continuously learn and work independently"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "making decisions with minimal supervision"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "Excellent written and verbal communication skills"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Excellent written and verbal communication skills"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "interacting effectively with non-technical stakeholders"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "rapidly changing environment with dynamic objectives"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Python, SQL, Spark, Java, C++"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "Python, SQL, Spark, Java, C++"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "requirement",
+      "evidence": "programming languages or data engineering frameworks, Spark"
+    },
+    {
+      "canonical": "java",
+      "section": "requirement",
+      "evidence": "Python, SQL, Spark, Java, C++"
+    },
+    {
+      "canonical": "cpp",
+      "section": "requirement",
+      "evidence": "Python, SQL, Spark, Java, C++"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "TypeScript/JavaScript, or similar"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "respond",
+    "provide",
+    "build",
+    "collaborate",
+    "partner"
+  ],
+  "segmentation_quality": "header"
+}

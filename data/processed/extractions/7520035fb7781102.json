@@ -1,0 +1,177 @@
+{
+  "posting_id": "7520035fb7781102",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Work side by side with clients, PMs, and Architects"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "to scope and deploy AI systems that actually solve problems"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "Build and integrate systems using LLMs, RAG pipelines"
+    },
+    {
+      "canonical": "rag",
+      "section": "responsibility",
+      "evidence": "Build and integrate systems using LLMs, RAG pipelines"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "agent frameworks, vector DBs, and related tools"
+    },
+    {
+      "canonical": "vector_databases",
+      "section": "responsibility",
+      "evidence": "agent frameworks, vector DBs, and related tools"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "responsibility",
+      "evidence": "data access, authentication, security, networking"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "data access, authentication, security, networking"
+    },
+    {
+      "canonical": "networking",
+      "section": "responsibility",
+      "evidence": "authentication, security, networking, and brittle enterprise environments"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "responsibility",
+      "evidence": "networking, and brittle enterprise environments"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "working components that deliver measurable outcomes"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Debug relentlessly - optimize for reliability in production"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "optimize for reliability in production, not just elegance"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Embed with client engineering teams to accelerate adoption"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Share insights from field implementations to inform reusable components"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Document decisions with clarity so both clients and internal teams"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "proven work shipping AI/ML systems into production"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Strong Python skills and deep familiarity with modern AI/ML frameworks"
+    },
+    {
+      "canonical": "llm_frameworks",
+      "section": "requirement",
+      "evidence": "modern AI/ML frameworks (LangChain, LlamaIndex, Hugging Face"
+    },
+    {
+      "canonical": "vector_databases",
+      "section": "requirement",
+      "evidence": "Hugging Face, vector DBs)"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "requirement",
+      "evidence": "cloud deployment, orchestration, CI/CD, and distributed environments"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "cloud deployment, orchestration, CI/CD"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "distributed environments (AWS, Azure, GCP)"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "distributed environments (AWS, Azure, GCP)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "distributed environments (AWS, Azure, GCP)"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "Ability to debug gnarly real-world issues"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "requirement",
+      "evidence": "gnarly real-world issues (auth failures, networking black holes"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "auth failures, networking black holes, flaky data pipelines"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "requirement",
+      "evidence": "flaky data pipelines"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "Problem-solver who thrives in ambiguity"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "Comfortable in client-facing environments"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "credible with engineers, clear with executives"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "build",
+    "embed",
+    "debug",
+    "translate",
+    "navigate"
+  ],
+  "segmentation_quality": "header"
+}

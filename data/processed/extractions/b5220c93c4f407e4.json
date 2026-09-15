@@ -1,0 +1,232 @@
+{
+  "posting_id": "b5220c93c4f407e4",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "hands-on builder and a critical technical partner to our most strategic customers"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "you will be deploying it to solve real-world business problems"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "intersection of product, engineering, and customer success"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "building production-grade AI systems using Snowflake AI Platform, Cortex"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Architect, build, and deploy enterprise-grade AI solutions, including sophisticated AI agents"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "enterprise-grade AI solutions, including sophisticated AI agents"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "AI pipelines and agents within a team-led engagement from prototype to production"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "contribute to evaluation frameworks and observability infrastructure"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "contribute to evaluation frameworks and observability infrastructure"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "responsibility",
+      "evidence": "Rapidly design, iterate, and ship high-quality code and ML pipelines"
+    },
+    {
+      "canonical": "python",
+      "section": "responsibility",
+      "evidence": "robust, scalable, and performant solutions using Python and SQL"
+    },
+    {
+      "canonical": "sql",
+      "section": "responsibility",
+      "evidence": "robust, scalable, and performant solutions using Python and SQL"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "into robust, scalable, and performant solutions"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "deploying, monitoring, and optimizing them in secure, large-scale production"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "serving as a technical expert and trusted advisor"
+    },
+    {
+      "canonical": "data_quality",
+      "section": "responsibility",
+      "evidence": "Architect and implement rigorous data validation"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "share real-world feedback from the customers"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "you take on progressively larger ownership"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "running a scoped customer working session independently"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "owning a workstream end-to-end"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "tackling complex and ambiguous technical challenges"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "passion for tackling complex and ambiguous technical challenges"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "building and shipping LLM-based or ML applications"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "building and shipping LLM-based or ML applications"
+    },
+    {
+      "canonical": "data_modeling",
+      "section": "requirement",
+      "evidence": "hands-on experience with data modeling, ETL/ELT development"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "requirement",
+      "evidence": "data modeling, ETL/ELT development, and performance tuning"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "ETL/ELT development, and performance tuning"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Advanced proficiency in Python, Java, C++"
+    },
+    {
+      "canonical": "java",
+      "section": "requirement",
+      "evidence": "Advanced proficiency in Python, Java, C++"
+    },
+    {
+      "canonical": "cpp",
+      "section": "requirement",
+      "evidence": "Advanced proficiency in Python, Java, C++"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Excellent problem-solving and communication skills"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "articulate complex technical concepts to diverse stakeholders"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "building and production applications using LLMs"
+    },
+    {
+      "canonical": "rag",
+      "section": "nice_to_have",
+      "evidence": "technologies like RAG and agentic workflows"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "technologies like RAG and agentic workflows"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "nice_to_have",
+      "evidence": "MLOps lifecycle, including model deployment, monitoring, and evaluation"
+    },
+    {
+      "canonical": "observability",
+      "section": "nice_to_have",
+      "evidence": "model deployment, monitoring, and evaluation in a cloud environment"
+    },
+    {
+      "canonical": "aws",
+      "section": "nice_to_have",
+      "evidence": "cloud environment (AWS, Azure, or GCP)"
+    },
+    {
+      "canonical": "azure",
+      "section": "nice_to_have",
+      "evidence": "cloud environment (AWS, Azure, or GCP)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "nice_to_have",
+      "evidence": "cloud environment (AWS, Azure, or GCP)"
+    },
+    {
+      "canonical": "data_warehouses",
+      "section": "nice_to_have",
+      "evidence": "Strong understanding of data warehousing principles, architecture"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "Experience in a customer-facing role (e.g., solutions architect)"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "nice_to_have",
+      "evidence": "customer-facing role (e.g., solutions architect)"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 3,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "architect",
+    "build",
+    "deploy",
+    "ship",
+    "partner"
+  ],
+  "segmentation_quality": "header"
+}

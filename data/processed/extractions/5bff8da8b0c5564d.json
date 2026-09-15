@@ -1,0 +1,182 @@
+{
+  "posting_id": "5bff8da8b0c5564d",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "embedded with our most strategic partners, including leading frontier AI labs"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "embedded with our most strategic partners"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "own the full lifecycle of high-impact research engagements"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "translating ambiguous lab requirements into concrete evaluation frameworks"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "Design and deliver evaluation frameworks, annotation pipelines"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Prototype and iterate fast: stand up lightweight experiments"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "responsibility",
+      "evidence": "lead prioritization decisions"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "Mentor and uplevel other engineers and researchers on the team"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner directly with AI lab researchers to understand their post-training goals"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "responsibility",
+      "evidence": "understand their post-training goals and data requirements"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "responsibility",
+      "evidence": "annotation pipelines, and benchmark infrastructure"
+    },
+    {
+      "canonical": "data_quality",
+      "section": "responsibility",
+      "evidence": "Make key design decisions around data quality"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "document repeatable patterns across lab engagements"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "responsibility",
+      "evidence": "Stay current on the frontier: follow developments in RL"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "6+ years of experience in applied ML, AI research engineering"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "requirement",
+      "evidence": "Hands-on experience fine-tuning or lightweight optimization of ML models"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Strong Python skills and comfort working across the ML stack"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "model evaluation, experiment tracking, pipeline tooling"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "requirement",
+      "evidence": "Experience with ML data pipelines and the tooling around them"
+    },
+    {
+      "canonical": "data_quality",
+      "section": "requirement",
+      "evidence": "data labeling systems, eval frameworks, quality metrics"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Excellent communication and stakeholder management"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "apt translator between researcher intuition and engineering reality"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "requirement",
+      "evidence": "Strong prioritization instincts"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "triage across multiple urgent customer needs"
+    },
+    {
+      "canonical": "project_management",
+      "section": "requirement",
+      "evidence": "leading technical projects end-to-end"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "ambiguous, fast-moving environments"
+    },
+    {
+      "canonical": "evals",
+      "section": "nice_to_have",
+      "evidence": "Experience with evaluation design for LLMs or RLHF pipelines"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "evaluation design for LLMs"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "nice_to_have",
+      "evidence": "RLHF pipelines in production customer environments"
+    },
+    {
+      "canonical": "consulting",
+      "section": "nice_to_have",
+      "evidence": "technical consulting role at a high-growth AI company"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "nice_to_have",
+      "evidence": "forward-deployed, solutions engineering"
+    },
+    {
+      "canonical": "data_quality",
+      "section": "nice_to_have",
+      "evidence": "quality control frameworks"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "nice_to_have",
+      "evidence": "Familiarity with annotation platform tooling"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 6,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "partner",
+    "design",
+    "prototype",
+    "mentor",
+    "deliver"
+  ],
+  "segmentation_quality": "header"
+}

@@ -1,0 +1,177 @@
+{
+  "posting_id": "a466b396778a1536",
+  "skills": [
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "engagement intake, scoping, sprint delivery, handoff back"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "sprint delivery, handoff back to account teams"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "success metrics (time-to-value, adoption lift, ARR influence, NPS)"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "observability quickstarts, custom integration development"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "custom integration development, LLM/AI observability accelerators"
+    },
+    {
+      "canonical": "llm_observability",
+      "section": "responsibility",
+      "evidence": "LLM/AI observability accelerators, CI/CD pipeline instrumentation"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "responsibility",
+      "evidence": "CI/CD pipeline instrumentation, and cost optimization deep dives"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "cost optimization deep dives"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "contribute to their pricing and business models"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "strengthen the field-feedback channel that informs roadmap"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "coach the team on engagement, scoping, stakeholder communication"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "coach the team on engagement, scoping, stakeholder communication"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "responsibility",
+      "evidence": "Identify high-value mini-product opportunities"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "responsibility",
+      "evidence": "maintain a prioritized build backlog informed by deployment learnings"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner with Sales, Solutions Engineering, Customer Success"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "serve as a trusted advisor through complex deployment cycles"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "3 years in a customer-facing technical role"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "requirement",
+      "evidence": "engineering management or technical leadership experience"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "hiring, coaching, performance management, and cross-functional collaboration"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "requirement",
+      "evidence": "influencing product roadmaps through structured field feedback"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "modern cloud-native stacks (Kubernetes, AWS/GCP/Azure"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "AWS/GCP/Azure, microservices, CI/CD pipelines"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "AWS/GCP/Azure, microservices, CI/CD pipelines"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "AWS/GCP/Azure, microservices, CI/CD pipelines"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "AWS/GCP/Azure, microservices, CI/CD pipelines"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "requirement",
+      "evidence": "microservices, CI/CD pipelines, infrastructure-as-code"
+    },
+    {
+      "canonical": "iac",
+      "section": "requirement",
+      "evidence": "CI/CD pipelines, infrastructure-as-code"
+    },
+    {
+      "canonical": "observability",
+      "section": "requirement",
+      "evidence": "observability, monitoring, APM, or logging platforms"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "Communicate exceptionally across audiences from engineering leads"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "commercial instinct for how technical decisions translate to ARR"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "comfortable with significant travel to embed with customers"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "Entrepreneurial mindset, thrive in evolving environments"
+    }
+  ],
+  "seniority": "staff_plus",
+  "years_required": 8,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "scope",
+    "build",
+    "coach",
+    "partner",
+    "drive"
+  ],
+  "segmentation_quality": "header"
+}

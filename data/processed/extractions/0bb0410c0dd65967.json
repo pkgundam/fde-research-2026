@@ -1,0 +1,157 @@
+{
+  "posting_id": "0bb0410c0dd65967",
+  "skills": [
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "RCM experience for these roles is a MUST"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "via API (FHIR, HL7)"
+    },
+    {
+      "canonical": "computer_vision",
+      "section": "responsibility",
+      "evidence": "RPA/computer vision based integrations"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "responsibility",
+      "evidence": "customer EHR platforms (e.x. Epic, Athena, ModMed"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Work directly with medical billing teams"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "roll out deployments"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Join discovery calls"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "technical troubleshooting, rollout and go live discussions"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "requirement",
+      "evidence": "You MUST have EHR integration experience for this role"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "AWS/Data Pipeline Experience"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "requirement",
+      "evidence": "AWS/Data Pipeline Experience"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "responsibility",
+      "evidence": "Design, build, and expand our core task pipeline"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "data infrastructure platform"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "Work with healthcare billing data (837, 835, 270/271)"
+    },
+    {
+      "canonical": "python",
+      "section": "responsibility",
+      "evidence": "leveraging a number of Python based Lambdas"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "Full Stack Web Developer * Django, Next, Node"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Full Stack Web Developer * Django, Next, Node"
+    },
+    {
+      "canonical": "testing",
+      "section": "requirement",
+      "evidence": "Hands-on experience with Playwright in production environments"
+    },
+    {
+      "canonical": "analytics",
+      "section": "requirement",
+      "evidence": "building out reporting and dashboards mainly customer/internal"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "requirement",
+      "evidence": "IT Specialist * AWS Cloud + On Prem"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "Microsoft based cloud and on prem software"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "Strong troubleshooting instincts"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "comfort working independently"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "learn the best ways to configure, monitor and manage"
+    },
+    {
+      "canonical": "observability",
+      "section": "requirement",
+      "evidence": "configure, monitor and manage any application or service"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Stack is mainly the same for all roles (Python, Django"
+    },
+    {
+      "canonical": "computer_vision",
+      "section": "requirement",
+      "evidence": "Stack is mainly the same for all roles (Python, Django, OpenCV"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "Stack is mainly the same for all roles...Claude)"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 4,
+  "travel_expectation": "none",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "design",
+    "build",
+    "integrate",
+    "deploy",
+    "troubleshoot"
+  ],
+  "segmentation_quality": "inferred"
+}

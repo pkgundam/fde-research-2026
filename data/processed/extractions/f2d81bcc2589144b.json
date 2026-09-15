@@ -1,0 +1,252 @@
+{
+  "posting_id": "f2d81bcc2589144b",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "hands-on technical leader and trusted partner to our most strategic customers"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "you will be a hands-on technical leader and trusted partner"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "own the end-to-end delivery of enterprise AI programs"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "serve as the senior technical voice at the intersection of product"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "intersection of product, engineering, and customer success"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "from scoping and architecture through deployment, monitoring, and handoff"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "from scoping and architecture through deployment, monitoring, and handoff"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "through deployment, monitoring, and handoff"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "through deployment, monitoring, and handoff"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "accountable for delivery quality and customer outcomes for the projects"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "Translate ambiguous customer goals into measurable quality metrics"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "run systematic eval loops to hill-climb on agent quality"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "responsibility",
+      "evidence": "continuously raise the bar on accuracy, faithfulness, and safety"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "hill-climb on agent quality, catch regressions before customers do"
+    },
+    {
+      "canonical": "git",
+      "section": "responsibility",
+      "evidence": "Review designs and code, unblock teammates"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "responsibility",
+      "evidence": "shipping high-quality ML pipelines and agentic AI solutions"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "robust, scalable, and performant solutions"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Own the full implementation lifecycle for AI solutions, from prototype"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "monitoring, and optimization in secure, large-scale production environments"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "close the loop from production traces and user feedback"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "Serve as a senior technical advisor to customer data science"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Spend at least 25% of your time onsite"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "requirement",
+      "evidence": "leading technical projects or teams, including setting technical direction"
+    },
+    {
+      "canonical": "project_management",
+      "section": "requirement",
+      "evidence": "driving delivery to completion"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "building and productionizing applications using LLMs"
+    },
+    {
+      "canonical": "rag",
+      "section": "requirement",
+      "evidence": "technologies like RAG and agentic workflows"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "technologies like RAG and agentic workflows"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "requirement",
+      "evidence": "defining quality metrics and evaluation frameworks for LLM or agent"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "using evals to systematically improve quality over time"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Excellent problem-solving and communication skills"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "articulate complex technical concepts to both technical and executive stakeholders"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "Comfort with ambiguity and the ability to independently structure"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "independently structure and execute on complex, open-ended problems"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "Experience in a customer-facing technical role"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "Willingness to travel"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "innate curiosity, treating AI as a high-trust collaborator"
+    },
+    {
+      "canonical": "evals",
+      "section": "nice_to_have",
+      "evidence": "running structured experimentation (A/B tests, ablations, offline evals)"
+    },
+    {
+      "canonical": "llm_observability",
+      "section": "nice_to_have",
+      "evidence": "eval and observability tooling (e.g., Braintrust, LangSmith, Arize"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "nice_to_have",
+      "evidence": "categorizing errors (hallucination, retrieval miss, planning failure, tool misuse)"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "failure-mode analysis on agent or RAG systems"
+    },
+    {
+      "canonical": "rag",
+      "section": "nice_to_have",
+      "evidence": "failure-mode analysis on agent or RAG systems"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "nice_to_have",
+      "evidence": "MLOps lifecycle, including model deployment, monitoring, and evaluation"
+    },
+    {
+      "canonical": "observability",
+      "section": "nice_to_have",
+      "evidence": "model deployment, monitoring, and evaluation in a cloud environment"
+    },
+    {
+      "canonical": "aws",
+      "section": "nice_to_have",
+      "evidence": "cloud environment (AWS, Azure, or GCP)"
+    },
+    {
+      "canonical": "azure",
+      "section": "nice_to_have",
+      "evidence": "cloud environment (AWS, Azure, or GCP)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "nice_to_have",
+      "evidence": "cloud environment (AWS, Azure, or GCP)"
+    },
+    {
+      "canonical": "analytics",
+      "section": "nice_to_have",
+      "evidence": "core data science libraries and tools (e.g., pandas, numpy"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "lead",
+    "own",
+    "mentor",
+    "deliver",
+    "advise"
+  ],
+  "segmentation_quality": "inferred"
+}

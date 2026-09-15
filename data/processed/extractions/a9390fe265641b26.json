@@ -1,0 +1,132 @@
+{
+  "posting_id": "a9390fe265641b26",
+  "skills": [
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "own discovery, technical scoping, system design, build"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "own discovery, technical scoping, system design, build"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "build, and production rollout, partnering directly with customer"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "partnering directly with customer engineering and domain teams"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "measure success through production adoption, measurable workflow impact"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "eval-driven feedback that changes product and model roadmaps"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Share field feedback that helps Research and Product understand"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "work closely with our Product, Research, Partnerships, GRC, Security"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Own technical delivery across multiple deployments from first prototype"
+    },
+    {
+      "canonical": "react",
+      "section": "responsibility",
+      "evidence": "Build full-stack systems that deliver customer value"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Embed closely with customer teams, understand their needs"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Embed closely with customer teams, understand their needs"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "Scope work, sequence delivery, and remove blockers early"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "responsibility",
+      "evidence": "Make trade-offs between scope, speed, and quality"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Codify working patterns into tools, playbooks, or building blocks"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "technical deployment experience that includes customer-facing work"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "scoped and delivered complex systems in fast-moving or ambiguous"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "delivered complex systems in fast-moving or ambiguous environments"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "using Python, JavaScript, or comparable stacks"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "using Python, JavaScript, or comparable stacks"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "production-grade code across frontend and backend"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "built or deployed systems powered by LLMs or generative models"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "Communicate clearly with engineers, product teams, and customer stakeholders"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "own",
+    "build",
+    "embed",
+    "scope",
+    "codify"
+  ],
+  "segmentation_quality": "header"
+}

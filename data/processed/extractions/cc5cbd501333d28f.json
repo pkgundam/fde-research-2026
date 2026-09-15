@@ -1,0 +1,42 @@
+{
+  "posting_id": "cc5cbd501333d28f",
+  "skills": [
+    {"canonical": "cross_functional", "section": "responsibility", "evidence": "increase productivity across Engineering, Sales, Support, and Operations"},
+    {"canonical": "customer_facing", "section": "responsibility", "evidence": "ship AI-powered products that customers rely on directly"},
+    {"canonical": "system_design", "section": "responsibility", "evidence": "design and ship production AI systems that change how WorkOS builds"},
+    {"canonical": "metrics_measurement", "section": "responsibility", "evidence": "Chooses problems based on measurable impact"},
+    {"canonical": "prototyping", "section": "responsibility", "evidence": "Moves from idea → prototype → production in days or weeks"},
+    {"canonical": "learning_agility", "section": "responsibility", "evidence": "Adapts quickly as models, tools, and best practices evolve"},
+    {"canonical": "agents", "section": "responsibility", "evidence": "AI support bots embedded in customer Slack channels"},
+    {"canonical": "observability", "section": "responsibility", "evidence": "workflows that are stable, observable, and easy to maintain"},
+    {"canonical": "llm_apis", "section": "responsibility", "evidence": "Use LLMs, embeddings, retrieval, and tool-calling"},
+    {"canonical": "rag", "section": "responsibility", "evidence": "Use LLMs, embeddings, retrieval, and tool-calling"},
+    {"canonical": "enterprise_systems", "section": "responsibility", "evidence": "plug into docs, Slack, GitHub, CRM, analytics"},
+    {"canonical": "analytics", "section": "responsibility", "evidence": "plug into docs, Slack, GitHub, CRM, analytics"},
+    {"canonical": "technical_support", "section": "responsibility", "evidence": "single agent that handles triage, routing, and suggested actions"},
+    {"canonical": "prototyping", "section": "requirement", "evidence": "taken AI-powered systems from idea to production"},
+    {"canonical": "llm_apis", "section": "requirement", "evidence": "Experience building with LLM APIs"},
+    {"canonical": "ownership_autonomy", "section": "requirement", "evidence": "comfortable owning services, data flows, and integrations end-to-end"},
+    {"canonical": "rest_apis", "section": "requirement", "evidence": "owning services, data flows, and integrations end-to-end"},
+    {"canonical": "observability", "section": "requirement", "evidence": "think about failure modes, observability, and ownership"},
+    {"canonical": "debugging", "section": "requirement", "evidence": "think about failure modes, observability, and ownership"},
+    {"canonical": "business_acumen", "section": "requirement", "evidence": "removing real bottlenecks, saving hours, or unlocking workflows"},
+    {"canonical": "expectation_management", "section": "requirement", "evidence": "Comfort with ambiguity and fast change"},
+    {"canonical": "learning_agility", "section": "requirement", "evidence": "the 'right' patterns are all evolving, you're excited to help define them"},
+    {"canonical": "customer_facing", "section": "nice_to_have", "evidence": "Prior work on customer-facing AI products"},
+    {"canonical": "rag", "section": "nice_to_have", "evidence": "embeddings, retrieval/RAG architectures"},
+    {"canonical": "agents", "section": "nice_to_have", "evidence": "structured tool-calling or agents"}
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "none",
+  "customer_facing_intensity": 3,
+  "responsibility_verbs": [
+    "design",
+    "ship",
+    "build",
+    "use",
+    "replace"
+  ],
+  "segmentation_quality": "header"
+}

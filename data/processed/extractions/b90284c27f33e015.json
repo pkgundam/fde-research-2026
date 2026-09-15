@@ -1,0 +1,162 @@
+{
+  "posting_id": "b90284c27f33e015",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "primary technical owner for customer engagements"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "initial discovery through production rollout"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "from initial discovery through production rollout"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "constraints, and definition of success, and drive toward that outcome"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "Manage expectations, communicate risks clearly"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "responsibility",
+      "evidence": "communicate risks clearly"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "responsibility",
+      "evidence": "Build the connectors, pipelines, and supporting tooling"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "responsibility",
+      "evidence": "make the platform work inside real enterprise environments"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Write production-quality code, troubleshoot issues, and implement fixes"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "responsibility",
+      "evidence": "Work effectively within customer environments that have different stacks"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Capture product feedback with precision, including logs, reproduction steps"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Document technical decisions and tradeoffs clearly"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "responsibility",
+      "evidence": "technical decisions and tradeoffs clearly"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner closely with product and engineering teams"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "helping drive technical design, implementation, and delivery"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "building and iterating quickly"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "Coordinate independently across internal teams and customer stakeholders"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "coordinate...across internal teams and customer stakeholders"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "writing code, debugging failures, and implementing fixes directly"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "Engineering experience in AI and agentic development"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "requirement",
+      "evidence": "developing and deploying software within enterprise environments"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "shipping production solutions at scale that customers relied on"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "shipping production solutions at scale"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "building integrations across existing systems and infrastructure"
+    },
+    {
+      "canonical": "git",
+      "section": "requirement",
+      "evidence": "Strong troubleshooting and code review skills"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "travel up to 30% to customer sites...on-site engagements"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "Experience with LLMs, agent frameworks, or deploying AI systems"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "agent frameworks, or deploying AI systems in production"
+    },
+    {
+      "canonical": "llm_frameworks",
+      "section": "nice_to_have",
+      "evidence": "agent frameworks, or deploying AI systems in production"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "serve",
+    "build",
+    "capture",
+    "partner",
+    "coordinate"
+  ],
+  "segmentation_quality": "header"
+}

@@ -1,0 +1,117 @@
+{
+  "posting_id": "ab60d32ccc7d9ce5",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "work closely with enterprise clients to build and launch voice AI"
+    },
+    {
+      "canonical": "speech",
+      "section": "responsibility",
+      "evidence": "build and launch voice AI solutions"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "helping understand their needs, solve problems"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "get projects into production"
+    },
+    {
+      "canonical": "python",
+      "section": "responsibility",
+      "evidence": "Write production code in Python, JavaScript, or similar languages"
+    },
+    {
+      "canonical": "typescript",
+      "section": "responsibility",
+      "evidence": "Write production code in Python, JavaScript"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "responsibility",
+      "evidence": "Build integrations with CRMs, ERPs, scheduling tools"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "Build integrations with CRMs, ERPs, scheduling tools, and other systems"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "Partner with sales on demos, prototypes, and technical discussions"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Partner with sales on demos, prototypes"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "responsibility",
+      "evidence": "Learn Retell's platform and become an expert"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Turn customer feedback into product and engineering improvements"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "You like building things and figuring things out on your own"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "You enjoy working directly with customers"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "explaining technical concepts"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "You're comfortable with ambiguity and taking ownership"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "You can code in Python, JavaScript, or a similar language"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "You can code in Python, JavaScript, or a similar language"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "You're excited about AI and want to learn... real-world AI systems"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "want to learn how to build real-world AI systems"
+    }
+  ],
+  "seniority": "junior",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "build",
+    "launch",
+    "write",
+    "partner",
+    "learn"
+  ],
+  "segmentation_quality": "header"
+}

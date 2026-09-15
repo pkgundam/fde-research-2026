@@ -1,0 +1,192 @@
+{
+  "posting_id": "b730165d69b24368",
+  "skills": [
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Lead end-to-end enterprise implementations, from discovery to post-go-live"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "from discovery to post-go-live"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "manage project delivery, risks, and change"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Align cross-functional teams and manage project delivery"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "manage project delivery, risks, and change"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Design scalable, configurable solutions using Tennr's platform"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "Design scalable, configurable solutions using Tennr's platform and APIs"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "responsibility",
+      "evidence": "not just replicate legacy systems"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Collaborate with Product, Engineering, and Sales to shape solutions"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Maintain documentation, enable knowledge transfer"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "enable knowledge transfer, and improve internal delivery tools"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "Support sales strategy, mentor junior team members"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "mentor junior team members, and influence product roadmap"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "act as both a trusted technical advisor and a project lead"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "working closely with senior customer stakeholders"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "own enterprise-scale implementations end-to-end"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "requirement",
+      "evidence": "4+ years of experience in enterprise SaaS delivery"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "Strong understanding of...technical architecture"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "Strong understanding of APIs, systems integration"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "lead complex technical engagements with large enterprise customers"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "communicating technical concepts to both executive and technical audiences"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Skilled at communicating technical concepts"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "aligning cross-functional stakeholders"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "navigating complex org structures"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "focus on strategic, scalable solutions"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "Business acumen and domain fluency"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "demands deep domain fluency, executive presence"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "Comfortable with ambiguity and fast-paced, unstructured environments"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "requirement",
+      "evidence": "Demonstrated ability to mentor others"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "High ownership mindset and urgency"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "nice_to_have",
+      "evidence": "enterprise integration platforms (e.g., MuleSoft, Workato)"
+    },
+    {
+      "canonical": "consulting",
+      "section": "nice_to_have",
+      "evidence": "Background in consulting, solution architecture"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "nice_to_have",
+      "evidence": "technical customer success"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "nice_to_have",
+      "evidence": "Experience in startup environments or scaling delivery functions"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "ideally in healthcare or similarly complex industries"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 4,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "lead",
+    "align",
+    "design",
+    "collaborate",
+    "mentor"
+  ],
+  "segmentation_quality": "header"
+}

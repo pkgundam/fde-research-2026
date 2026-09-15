@@ -1,0 +1,42 @@
+{
+  "posting_id": "6242bf6fe4beeb61",
+  "skills": [
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "embed with customers"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "embed with customers"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "find the bugs no test caught"
+    },
+    {
+      "canonical": "testing",
+      "section": "responsibility",
+      "evidence": "the bugs no test caught"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "turn what you learn into our next feature"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "embed",
+    "find",
+    "debug",
+    "learn",
+    "turn"
+  ],
+  "segmentation_quality": "inferred"
+}

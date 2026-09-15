@@ -1,0 +1,247 @@
+{
+  "posting_id": "1843de8478d78804",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "This is a deeply client-facing role"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "co-lead customer engagements with an AI Solutions Strategist"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Translate customer goals into clear system requirements"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Create and maintain solution architecture artifacts"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Prototype and validate workflows with end users"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "through implementation, production launch, and operational handoff"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "non-functional requirements covering security, privacy, reliability"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "performance, scalability, and cost"
+    },
+    {
+      "canonical": "data_quality",
+      "section": "responsibility",
+      "evidence": "current workflows, constraints, systems, data quality"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "Integration plan across Ramp and customer systems"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "responsibility",
+      "evidence": "permissions, access patterns, and auditability"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "Evaluation plan covering quality metrics, acceptance tests"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "responsibility",
+      "evidence": "acceptance tests, and red-teaming"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "Operational plan covering monitoring, alerting"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "responsibility",
+      "evidence": "incident response, and runbooks"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "responsibility",
+      "evidence": "de-risk the approach and prove product-market fit"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "workflows are reliable, supportable, measurable"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "reusable patterns, components, and playbooks"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "shipping production software in high-ownership environments"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "work directly with enterprise customers from discovery"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "from discovery through production implementation"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "requirement",
+      "evidence": "discovery through production implementation"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "solutions architecture, technical consulting"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "technical consulting, forward deployed engineering"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "requirement",
+      "evidence": "forward deployed engineering, or pre-sales engineering"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "Strong fundamentals in ML/GenAI"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "problem decomposition, evaluation, and deployment trade-offs"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "coding ability in at least one of: Python"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "TypeScript/JavaScript"
+    },
+    {
+      "canonical": "java",
+      "section": "requirement",
+      "evidence": "Java, Go, or similar"
+    },
+    {
+      "canonical": "go",
+      "section": "requirement",
+      "evidence": "Java, Go, or similar"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "design secure, scalable systems"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "produce clear technical documentation"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "design secure, scalable systems"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "working across APIs, integrations, data pipelines"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "requirement",
+      "evidence": "APIs, integrations, data pipelines, customer systems"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "customer systems, and cloud infrastructure"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "cloud architecture on AWS, GCP, or Azure"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "cloud architecture on AWS, GCP, or Azure"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "cloud architecture on AWS, GCP, or Azure"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "Experience building LLM systems"
+    },
+    {
+      "canonical": "rag",
+      "section": "requirement",
+      "evidence": "building LLM systems, including RAG"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "including RAG, agents, monitoring, and evals"
+    },
+    {
+      "canonical": "observability",
+      "section": "requirement",
+      "evidence": "agents, monitoring, and evals"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "Willingness to travel up to ~50% as needed"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "finance operations workflows such as AP, procurement, expenses, close"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "translate",
+    "partner",
+    "create",
+    "prototype",
+    "drive"
+  ],
+  "segmentation_quality": "header"
+}

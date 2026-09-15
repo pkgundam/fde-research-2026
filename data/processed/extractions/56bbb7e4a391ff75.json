@@ -1,0 +1,127 @@
+{
+  "posting_id": "56bbb7e4a391ff75",
+  "skills": [
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "Own large new areas within our product"
+    },
+    {
+      "canonical": "react",
+      "section": "responsibility",
+      "evidence": "Work across backend, frontend, and interacting with LLMs"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "frontend, and interacting with LLMs and ML models"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "responsibility",
+      "evidence": "interacting with LLMs and ML models"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "high velocity and level of quality to engage our customers"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Deliver experiments at a high velocity and level"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "responsibility",
+      "evidence": "entire product lifecycle from conceptualization through production"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "responsibility",
+      "evidence": "willing, to multi-task and learn new technologies quickly"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "responsibility",
+      "evidence": "able, and willing, to multi-task and learn"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "solve hard engineering problems in scalability and reliability"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "solve hard engineering problems in scalability and reliability"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "Experience scaling products at hyper growth startups"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "tinkering with or productizing LLMs, vector databases"
+    },
+    {
+      "canonical": "vector_databases",
+      "section": "requirement",
+      "evidence": "productizing LLMs, vector databases, and the other latest"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Proficient in Python or Javascript/Typescript, and SQL"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Python or Javascript/Typescript, and SQL"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "Javascript/Typescript, and SQL"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "Experience with Kubernetes"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "Experience with major cloud providers (AWS, Azure, GCP)"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "major cloud providers (AWS, Azure, GCP)"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "major cloud providers (AWS, Azure, GCP)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "major cloud providers (AWS, Azure, GCP)"
+    }
+  ],
+  "seniority": "staff_plus",
+  "years_required": 7,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 3,
+  "responsibility_verbs": [
+    "own",
+    "work",
+    "deliver",
+    "learn",
+    "solve"
+  ],
+  "segmentation_quality": "header"
+}

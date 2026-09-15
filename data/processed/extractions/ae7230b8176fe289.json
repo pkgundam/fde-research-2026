@@ -1,0 +1,107 @@
+{
+  "posting_id": "ae7230b8176fe289",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Talk to clients directly and often"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Pull requirements out of messy conversations, explain tradeoffs"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "into tools our agents call"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "jurisdiction-specific lease rules, tax and accounting mappings"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Ship to production in your first month"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "Self-driven, real ownership"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "real customer-facing experience"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Excellent English and real customer-facing experience"
+    },
+    {
+      "canonical": "git",
+      "section": "requirement",
+      "evidence": "you own what you merge"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "LLM agents in production"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "tool calling"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "evals, knowing when a plain deterministic tool beats"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "backend - python"
+    },
+    {
+      "canonical": "docker",
+      "section": "nice_to_have",
+      "evidence": "containers and CI/CD"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "nice_to_have",
+      "evidence": "containers and CI/CD"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "nice_to_have",
+      "evidence": "RBAC and auditing"
+    },
+    {
+      "canonical": "llm_frameworks",
+      "section": "nice_to_have",
+      "evidence": "LangChain/LangGraph"
+    },
+    {
+      "canonical": "consulting",
+      "section": "nice_to_have",
+      "evidence": "operator or consulting background"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "none",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "talk",
+    "pull",
+    "turn",
+    "ship",
+    "own"
+  ],
+  "segmentation_quality": "inferred"
+}

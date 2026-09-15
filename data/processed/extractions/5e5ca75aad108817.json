@@ -1,0 +1,152 @@
+{
+  "posting_id": "5e5ca75aad108817",
+  "skills": [
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "raise the bar for how AI"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "evaluation methodologies for agents and MLOps"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "evaluation methodologies for agents and MLOps"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "senior technical voice for the most"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "responsibility",
+      "evidence": "standards for responsible AI, model governance"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "responsibility",
+      "evidence": "production MLOps that get adopted broadly"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "highest-risk parts of strategic AI systems"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "responsibility",
+      "evidence": "lead the resolution of the most severe incidents"
+    },
+    {
+      "canonical": "data_quality",
+      "section": "responsibility",
+      "evidence": "model safety or data integrity"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "responsibility",
+      "evidence": "fine-tuned models, or evaluation methodologies"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "help set the technical roadmap for"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "responsibility",
+      "evidence": "Advise on which new AI developments"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "senior technical partner to client leadership"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "responsibility",
+      "evidence": "representing Scale's AI work externally"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "track record owning AI/ML systems in"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "multi-year track record owning AI/ML systems"
+    },
+    {
+      "canonical": "data_quality",
+      "section": "requirement",
+      "evidence": "judging the quality of training data"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "requirement",
+      "evidence": "evaluating fine-tuning results"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "requirement",
+      "evidence": "balancing serving cost, latency, and quality"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "serving cost, latency, and quality trade-offs"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "requirement",
+      "evidence": "owning an AI-powered product end to"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "such as an evaluation methodology, an"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "an MLOps practice, or an architectural"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "operating with executive-level clients and leadership"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "requirement",
+      "evidence": "regulated, sovereign, or on-premise AI deployment"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "requirement",
+      "evidence": "including hallucination mitigation and auditability"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "Deep experience with regulated, sovereign, or"
+    }
+  ],
+  "seniority": "staff_plus",
+  "years_required": 7,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "define",
+    "build",
+    "architect",
+    "advise",
+    "coach"
+  ],
+  "segmentation_quality": "header"
+}

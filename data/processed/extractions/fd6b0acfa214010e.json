@@ -1,0 +1,222 @@
+{
+  "posting_id": "fd6b0acfa214010e",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Lead impactful customer technical projects by delivering"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "designing and building reference architectures, custom applications"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "responsibility",
+      "evidence": "custom applications and data ingestion and ML/AI"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "responsibility",
+      "evidence": "data ingestion and ML/AI model integration"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "Work with engagement managers to scope technical delivery work"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "deployment of industry-leading big data and AI applications"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "scope technical delivery work with input from the customer"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "leads to a customers' successful understanding, evaluation"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "bootstrap or implement customer projects which leads"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "ensuring solutions are secure, scalable, and aligned"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "ensuring solutions are secure, scalable, and aligned"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Work with the Databricks technical team, Project Manager"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "provide product and implementation feedback and to guide"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "guide rapid resolution for engagement specific product and support"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Embed with customer teams, engaging with stakeholders"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "engaging with stakeholders from technical ICs to executives"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "integrating with client systems, training, and other"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "requirement",
+      "evidence": "experience in data engineering, data platforms & analytics"
+    },
+    {
+      "canonical": "analytics",
+      "section": "requirement",
+      "evidence": "data platforms & analytics, or software engineering"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "writing code in either Python, Scala, JavaScript/TypeScript"
+    },
+    {
+      "canonical": "java",
+      "section": "requirement",
+      "evidence": "Python, Scala, JavaScript/TypeScript, and modern frameworks"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Scala, JavaScript/TypeScript, and modern frameworks"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "two or more common Cloud ecosystems (AWS, Azure, GCP)"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "common Cloud ecosystems (AWS, Azure, GCP)"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "common Cloud ecosystems (AWS, Azure, GCP)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "common Cloud ecosystems (AWS, Azure, GCP)"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "requirement",
+      "evidence": "Familiarity with CI/CD for production deployments"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "Working knowledge of MLOps, ML/AI models and AI APIs"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "MLOps, ML/AI models and AI APIs"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "requirement",
+      "evidence": "Working knowledge of MLOps, ML/AI models"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "deployment of performant production end-to-end data architectures"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "Design and deployment of performant production end-to-end"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "ML/AI models, and user-facing interfaces"
+    },
+    {
+      "canonical": "project_management",
+      "section": "requirement",
+      "evidence": "technical project delivery - managing scope, timelines"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "requirement",
+      "evidence": "managing scope, timelines and measurable outcomes"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "translating complex concepts into actionable solutions"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "Documentation and white-boarding skills"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "working with enterprise clients and managing conflicts"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "managing conflicts across a broad stakeholder range"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "demonstrate curiosity, adaptability, and eagerness to explore"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "Travel to customers 20% of the time"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 6,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "lead",
+    "guide",
+    "own",
+    "work",
+    "embed"
+  ],
+  "segmentation_quality": "header"
+}

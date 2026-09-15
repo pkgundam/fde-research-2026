@@ -1,0 +1,117 @@
+{
+  "posting_id": "2f542b8071023af4",
+  "skills": [
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "guiding them through proofs of concept"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "helping customers evaluate Cursor"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "scope solutions, demonstrate capabilities"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "Partner with AEs to own technical discovery, demos, POCs"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "Build trusted relationships across engineering, security"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "mission-critical and high-security environments"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "connect Cursor to outcomes that matter"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "workshops for technical and executive audiences"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "responsibility",
+      "evidence": "Deliver technical presentations, whiteboards, and workshops"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "customer's technical advocate internally with Product and Engineering"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "hand off cleanly and set up onboarding for success"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "executive presence... presenting to CTOs, CISOs, and program leaders"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "strong communication skills and executive presence"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "connect technical detail to mission and operational impact"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "hands-on technical fluency... AI tooling"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "requirement",
+      "evidence": "deal-partner strategic instincts: co-own with AEs"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "Field Engineering, Solutions Architecture, Pre-Sales, or Consulting"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "ideally in federal, defense, or highly regulated tech"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "comfortable learning buying motions... fast"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "security expectations, and partner ecosystems fast"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "partner",
+    "build",
+    "deliver",
+    "act",
+    "help"
+  ],
+  "segmentation_quality": "header"
+}

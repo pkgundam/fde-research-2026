@@ -1,0 +1,152 @@
+{
+  "posting_id": "f28344bc41391c28",
+  "skills": [
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "you run discovery with customer engineering teams"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "Own the technical side of the sales cycle"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "build and deliver demos and POCs that prove value"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "design solutions on Exa's API"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "narratives that land with CTOs, engineers, and PMs"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "Be the trusted technical advisor"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Feed the field back into product"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "represent Exa at technical workshops, meetups, and conferences"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "support early customers through onboarding and initial implementation"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "5+ years in a customer-facing technical role"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "modern development (e.g. Python or TypeScript)"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "modern development (e.g. Python or TypeScript)"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "Technical depth with APIs and modern development"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "build a working demo, and debug it live"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Strong communication and presentation skills"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "Comfort with ambiguity and early-stage intensity"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "requirement",
+      "evidence": "prioritize what moves deals"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "Familiarity with the modern AI stack — LLMs"
+    },
+    {
+      "canonical": "rag",
+      "section": "requirement",
+      "evidence": "the modern AI stack — LLMs, RAG, agents"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "the modern AI stack — LLMs, RAG, agents"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "you can scope a POC with clear success criteria"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "willingness to travel for customer engagements"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "nice_to_have",
+      "evidence": "POCs/POVs you scoped and ran that ended in a customer going live"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "nice_to_have",
+      "evidence": "Have led engineers and want to move toward the customer"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "nice_to_have",
+      "evidence": "genuinely curious about AI and have built things with LLMs"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "nice_to_have",
+      "evidence": "energized by being the first: first hire, first deal"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "nice_to_have",
+      "evidence": "security questionnaires, RFP responses"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "own",
+    "run",
+    "build",
+    "translate",
+    "feed"
+  ],
+  "segmentation_quality": "header"
+}

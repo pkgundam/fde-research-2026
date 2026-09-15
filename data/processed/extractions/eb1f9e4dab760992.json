@@ -1,0 +1,132 @@
+{
+  "posting_id": "eb1f9e4dab760992",
+  "skills": [
+    {
+      "canonical": "incident_response",
+      "section": "responsibility",
+      "evidence": "ensure stability and reliability of mission-critical workflows"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "use those learnings to drive product change"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "rapidly address issues as they arise"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "captured into documentation and shared with team"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "synthesizes learnings from support into best practices"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "responsibility",
+      "evidence": "deep understanding of Palantir's products"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Collaborate with internal stakeholders to increase scalability"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "increase the scalability and reliability of workflows"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "take initiative to automate or streamline workflows"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "work independently and collaboratively"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "solve ambiguous technical and operational challenges"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "Excellent written and verbal communication skills"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Excellent written and verbal communication skills"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "interacting effectively with non-technical stakeholders"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Proficiency in Python, Java, and SQL"
+    },
+    {
+      "canonical": "java",
+      "section": "requirement",
+      "evidence": "Proficiency in Python, Java, and SQL"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "Proficiency in Python, Java, and SQL"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "requirement",
+      "evidence": "parallel data processing and Spark job optimization"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "Spark job optimization"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "requirement",
+      "evidence": "ability to prioritize effectively"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "Resourcefulness and creativity in fast-paced environments"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "root cause analysis and documenting solutions"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "requirement",
+      "evidence": "continuous improvement, and knowledge sharing"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 3,
+  "responsibility_verbs": [
+    "ensure",
+    "resolve",
+    "collaborate",
+    "advocate",
+    "diagnose"
+  ],
+  "segmentation_quality": "header"
+}

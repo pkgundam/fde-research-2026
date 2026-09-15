@@ -1,0 +1,192 @@
+{
+  "posting_id": "f3caacb3762ab9b2",
+  "skills": [
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "drive technical sales success"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "help enterprise customers understand how Modal can transform their AI/ML infrastructure"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Lead technical discovery sessions with prospective customers"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "responsibility",
+      "evidence": "Design and present compelling technical solutions"
+    },
+    {
+      "canonical": "aws",
+      "section": "responsibility",
+      "evidence": "migration paths from existing cloud infrastructure (AWS, GCP, Azure)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "responsibility",
+      "evidence": "migration paths from existing cloud infrastructure (AWS, GCP, Azure)"
+    },
+    {
+      "canonical": "azure",
+      "section": "responsibility",
+      "evidence": "migration paths from existing cloud infrastructure (AWS, GCP, Azure)"
+    },
+    {
+      "canonical": "serverless",
+      "section": "responsibility",
+      "evidence": "to Modal's serverless platform"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "technical demos, experiments, and proof-of-concepts"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "address security, compliance, and integration concerns"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "trusted advisor relationships with technical decision-makers"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "communicate customer feedback and influence product roadmap"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "technical expertise on implementation timelines"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "resource requirements, and success metrics"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "requirement",
+      "evidence": "solutions engineering, sales engineering, or customer-facing technical roles"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "cloud platforms (AWS, GCP, Azure) including compute, storage, networking"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "cloud platforms (AWS, GCP, Azure)"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "cloud platforms (AWS, GCP, Azure)"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "compute, storage, networking, and managed services"
+    },
+    {
+      "canonical": "serverless",
+      "section": "requirement",
+      "evidence": "compute, storage, networking, and managed services"
+    },
+    {
+      "canonical": "docker",
+      "section": "requirement",
+      "evidence": "containerization technologies (Docker, Kubernetes"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "containerization technologies (Docker, Kubernetes, container orchestration)"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "databases (SQL/NoSQL)"
+    },
+    {
+      "canonical": "nosql",
+      "section": "requirement",
+      "evidence": "databases (SQL/NoSQL)"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "requirement",
+      "evidence": "data pipelines, and distributed systems architecture"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "distributed systems architecture"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "ML/AI infrastructure challenges including model training"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "requirement",
+      "evidence": "model training, inference, and MLOps workflows"
+    },
+    {
+      "canonical": "iac",
+      "section": "requirement",
+      "evidence": "Infrastructure as Code (Terraform, Pulumi, CloudFormation)"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "requirement",
+      "evidence": "CI/CD pipelines"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Exceptional presentation and communication skills"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "Strong business acumen with understanding of enterprise buying processes"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "work effectively with cross-functional teams"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "Willingness to travel up to 30% for customer meetings"
+    },
+    {
+      "canonical": "serverless",
+      "section": "nice_to_have",
+      "evidence": "selling or implementing serverless computing, container platforms"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "partner",
+    "lead",
+    "design",
+    "architect",
+    "build"
+  ],
+  "segmentation_quality": "header"
+}

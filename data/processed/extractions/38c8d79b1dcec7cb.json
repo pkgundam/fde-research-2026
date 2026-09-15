@@ -1,0 +1,227 @@
+{
+  "posting_id": "38c8d79b1dcec7cb",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "embedded in a customer's environment, building AI workflows on Domino"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "embedded in a customer's environment"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "ship it inside the customer's environment"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "responsibility",
+      "evidence": "specialized AI inferencing workflows"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "responsibility",
+      "evidence": "custom cloud and data integrations"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "In the Public Sector vertical, we build and deploy production-grade solutions"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "responsibility",
+      "evidence": "master Domino platform mechanics and learn core functionalities"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "step into full customer ownership across your engagements"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "responsibility",
+      "evidence": "executing independently against a prioritized backlog"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "development, deployment, and monitoring"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "actively advising data science teams on Domino best practices"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "trusted advisor to technical and business stakeholders alike"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "lead and advise on key accounts"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "author reusable playbooks, integration templates, and deployment guides"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "author reusable playbooks"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "translate field intelligence into critical product feedback"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "responsibility",
+      "evidence": "routing platform signals to our SRE, Support, and Product teams"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "regularly travel to Maryland...on-site requirements 5 days a week"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "sharp, action-first engineer...deep technical grit"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "requirement",
+      "evidence": "deep technical grit and customer empathy"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "deep proficiency in Python (primary)"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "familiarity with SQL and Bash"
+    },
+    {
+      "canonical": "shell",
+      "section": "requirement",
+      "evidence": "familiarity with SQL and Bash"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "Strong experience with Kubernetes and managed K8s solutions"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "cloud architecture (AWS, Azure, or GCP)"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "cloud architecture (AWS, Azure, or GCP)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "cloud architecture (AWS, Azure, or GCP)"
+    },
+    {
+      "canonical": "docker",
+      "section": "requirement",
+      "evidence": "managed K8s solutions...Docker, and cloud architecture"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "capable of troubleshooting networking, compute, and platform issues"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "capable of troubleshooting networking, compute, and platform issues"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "delivering machine learning workflows"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "requirement",
+      "evidence": "model deployment/monitoring"
+    },
+    {
+      "canonical": "gpu_infra",
+      "section": "requirement",
+      "evidence": "GPU workloads"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "generative AI or agent frameworks"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "strict compliance rules, data security hurdles"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "operating within, or consulting for, highly regulated environments"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "highly regulated or constrained environments"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Exceptional communication skills across both technical and business audiences"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "running structured discovery conversations"
+    },
+    {
+      "canonical": "testing",
+      "section": "requirement",
+      "evidence": "translating messy customer requirements into buildable, tested solutions"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "You thrive in ambiguity, do not let blockers sit"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "productive inside an unfamiliar codebase quickly"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "build",
+    "deploy",
+    "advise",
+    "author",
+    "translate"
+  ],
+  "segmentation_quality": "header"
+}

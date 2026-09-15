@@ -1,0 +1,32 @@
+{
+  "posting_id": "50fef8fb260d10fe",
+  "skills": [
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "the leading observability and data platform for robotics"
+    },
+    {
+      "canonical": "rust",
+      "section": "requirement",
+      "evidence": "Backend, Frontend, Data, Viz, WebGL/WASM, Rust, SE, FDE"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "Software Engineers (Backend, Frontend, Data, Viz"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 3,
+  "responsibility_verbs": [
+    "build",
+    "observe",
+    "monitor",
+    "integrate",
+    "deploy"
+  ],
+  "segmentation_quality": "inferred"
+}

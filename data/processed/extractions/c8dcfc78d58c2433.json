@@ -1,0 +1,217 @@
+{
+  "posting_id": "c8dcfc78d58c2433",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "front lines of enterprise AI adoption — delivering cutting-edge technology"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "lead end-to-end deployment projects from an engineering perspective"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "lead end-to-end deployment projects from an engineering perspective"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "adapt architecture to enterprise realities"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "engineer integrations across systems and APIs"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "building, debugging, and engineering solutions directly in the field"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "enterprise-grade requirements for performance, reliability"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "responsibility",
+      "evidence": "performance, reliability, and security"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "performance, reliability, and security"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "responsibility",
+      "evidence": "backend engineering, DevOps, and data engineering"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Collaborate directly with customer engineering organizations"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "provide technical guidance to more junior in-field engineers"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Engage with enterprise architects and senior technical stakeholders"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "feedback loop between the field and our core engineering teams"
+    },
+    {
+      "canonical": "typescript",
+      "section": "responsibility",
+      "evidence": "Typescript, NodeJS, OpenAI, Microsoft Azure"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "Typescript, NodeJS, OpenAI, Microsoft Azure"
+    },
+    {
+      "canonical": "azure",
+      "section": "responsibility",
+      "evidence": "Microsoft Azure, Kubernetes, Docker, Terraform"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "responsibility",
+      "evidence": "Kubernetes, Docker, Terraform, MongoDB"
+    },
+    {
+      "canonical": "docker",
+      "section": "responsibility",
+      "evidence": "Kubernetes, Docker, Terraform"
+    },
+    {
+      "canonical": "iac",
+      "section": "responsibility",
+      "evidence": "Docker, Terraform, MongoDB, MySQL"
+    },
+    {
+      "canonical": "nosql",
+      "section": "responsibility",
+      "evidence": "MongoDB, MySQL, Redis, Kafka"
+    },
+    {
+      "canonical": "sql",
+      "section": "responsibility",
+      "evidence": "MongoDB, MySQL, Redis"
+    },
+    {
+      "canonical": "streaming",
+      "section": "responsibility",
+      "evidence": "Redis, Kafka, MCP"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "Kafka, MCP"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "requirement",
+      "evidence": "systems integration, DevOps, or data engineering roles"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "with direct customer impact"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "requirement",
+      "evidence": "leading deep technical deployments and integrations"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "requirement",
+      "evidence": "large-scale enterprise environments"
+    },
+    {
+      "canonical": "iac",
+      "section": "requirement",
+      "evidence": "infrastructure-as-code, Kubernetes/cloud platforms"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "infrastructure-as-code, Kubernetes/cloud platforms"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "Kubernetes/cloud platforms, APIs, and databases"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "cloud platforms, APIs, and databases"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "APIs, and databases"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "proven experience in systems design"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "Ability to operate independently in ambiguous"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "operate independently in ambiguous, high-responsibility settings"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "Experience building or integrating AI/LLM-powered systems"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "embedding agent workflows, vector databases"
+    },
+    {
+      "canonical": "vector_databases",
+      "section": "nice_to_have",
+      "evidence": "embedding agent workflows, vector databases, prompt orchestration"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "nice_to_have",
+      "evidence": "vector databases, prompt orchestration"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 7,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "lead",
+    "build",
+    "engineer",
+    "architect",
+    "debug"
+  ],
+  "segmentation_quality": "header"
+}

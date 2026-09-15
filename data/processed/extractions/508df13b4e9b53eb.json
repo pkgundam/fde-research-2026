@@ -1,0 +1,62 @@
+{
+  "posting_id": "508df13b4e9b53eb",
+  "skills": [
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "We build developer infrastructure for Physical AI"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "search and curation, observability, eval, and fleet management"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "search and curation, observability, eval, and fleet management"
+    },
+    {
+      "canonical": "computer_vision",
+      "section": "responsibility",
+      "evidence": "visualization, multimodal logging (MCAP)"
+    },
+    {
+      "canonical": "rust",
+      "section": "requirement",
+      "evidence": "Stack is Rust on the backend and data side"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "TypeScript with WebGL and WASM for visualization"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Python for ML and eval"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "Python for ML and eval"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "AV or robotics experience is a plus, not a requirement"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 3,
+  "responsibility_verbs": [
+    "build",
+    "visualize",
+    "log",
+    "curate",
+    "evaluate"
+  ],
+  "segmentation_quality": "inferred"
+}

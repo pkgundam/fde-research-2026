@@ -1,0 +1,77 @@
+{
+  "posting_id": "17d7d4d8403f4904",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "embed inside our customers and partners"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "find the highest-value opportunities for agentic automation"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "build the demo, win the deal"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "stay to implement it in production"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "highest-value opportunities for agentic automation"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "You'll make the architecture calls"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "Win the technical conversation"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "responsibility",
+      "evidence": "Read the room in the moment that matters"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "requirement",
+      "evidence": "use our agentic platform to build a real demo"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "use our agentic platform to build a real demo"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "weave a captivating story that ties their pain points"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "requirement",
+      "evidence": "see the beautiful, streamlined agentic flow hiding inside it"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "hunt",
+    "solution",
+    "build",
+    "win",
+    "implement"
+  ],
+  "segmentation_quality": "header"
+}

@@ -1,0 +1,72 @@
+{
+  "posting_id": "c4d6612c76c7a771",
+  "skills": [
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "We're using LLMs to build neural optimizers, neural scheduling systems"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "responsibility",
+      "evidence": "train models that can understand how much compute a job needs"
+    },
+    {
+      "canonical": "data_warehouses",
+      "section": "responsibility",
+      "evidence": "make data warehouses and spark jobs more efficient"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "responsibility",
+      "evidence": "make data warehouses and spark jobs more efficient"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "responsibility",
+      "evidence": "take those models and deploy them on real-world production systems"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "make data warehouses and spark jobs more efficient"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "FDEs who can help us talk to users and run pilots"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "help us talk to users and run pilots"
+    },
+    {
+      "canonical": "analytics",
+      "section": "requirement",
+      "evidence": "you need to be able to do data analysis"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "and debug in prod"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "good fit for a former (or future) technical founder"
+    }
+  ],
+  "seniority": "staff_plus",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "build",
+    "train",
+    "deploy",
+    "debug",
+    "analyze"
+  ],
+  "segmentation_quality": "inferred"
+}

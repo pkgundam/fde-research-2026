@@ -1,0 +1,187 @@
+{
+  "posting_id": "e8d3ac87ee504736",
+  "skills": [
+    {
+      "canonical": "product_feedback_loop",
+      "section": "requirement",
+      "evidence": "treat customer feedback as the highest-priority input"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "requirement",
+      "evidence": "You treat hallucinations as an engineering problem"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "convince a customer's CISO that the agent"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "the agent won't go rogue"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "DACH / EU power market opportunities"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "you know what makes a numerical model slow"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "OT network segmentation are familiar to you"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "You extract requirements they themselves don't know"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "You build the business case yourself"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "You don't wait for Product to do it for you"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "requirement",
+      "evidence": "measure your own success in the reduction of EUR/unit"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "winning as a team"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "growth mindset"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "direct-but-empathetic communication"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "the onsite work — the break room chats"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "You deploy our Agentic Energy OS at industrial sites"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "responsibility",
+      "evidence": "deploy our Agentic Energy OS at industrial sites"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "You engineer how the tools execute"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "energy insights you bring to the table"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "iterate on customer feedback in hours, not quarters"
+    },
+    {
+      "canonical": "data_modeling",
+      "section": "responsibility",
+      "evidence": "A live model of a customer's entire energy system"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "Designer scenarios, business cases, what-if analyses"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "Cross-market, cross-plant live optimization"
+    },
+    {
+      "canonical": "unstructured_data",
+      "section": "responsibility",
+      "evidence": "Reads single-line diagrams, parses SharePoints"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "responsibility",
+      "evidence": "resolve contradictions the AI cannot see"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "sit next to the operator, to hear what is said"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "You review optimizations the agent has developed"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "You catch a contradiction flagged by the autonomous agent"
+    },
+    {
+      "canonical": "data_quality",
+      "section": "responsibility",
+      "evidence": "fix it before the optimization runs on bad data"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "defend business cases at the C-level"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "responsibility",
+      "evidence": "AI training pipelines, the agentic stack itself"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "tool architecture, performance work, AI training pipelines"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "take direct ownership from Day 1"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "work side-by-side with experienced leaders and industry experts"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "deploy",
+    "engineer",
+    "iterate",
+    "review",
+    "resolve"
+  ],
+  "segmentation_quality": "header"
+}

@@ -1,0 +1,237 @@
+{
+  "posting_id": "a30f79154e845953",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "help creative teams and enterprises adopt generative AI"
+    },
+    {
+      "canonical": "computer_vision",
+      "section": "responsibility",
+      "evidence": "generative AI across image, video, 3D, vector graphics"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "identify high-value opportunities, and build solutions"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "moving from an ambiguous customer problem to a working prototype"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Partner with creative, technical, and business stakeholders"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "deliver measurable customer value"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "responsibility",
+      "evidence": "Integrate AI capabilities into...enterprise systems"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Work with research, product, engineering, and design teams"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "Evaluate solutions based on quality, controllability, consistency, reliability"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Diagnose technical issues across models, APIs, data pipelines"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "technical issues across models, APIs, data pipelines"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "responsibility",
+      "evidence": "technical issues across models, APIs, data pipelines, infrastructure"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Document successful approaches and develop reusable implementation patterns"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "trusted technical partner throughout discovery, prototyping, implementation"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "throughout discovery, prototyping, implementation, and deployment"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "building and deploying machine learning or AI-powered applications"
+    },
+    {
+      "canonical": "computer_vision",
+      "section": "requirement",
+      "evidence": "Computer Science, Machine Learning, Computer Graphics, Computer Vision"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Strong programming skills in Python and experience with frameworks"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "requirement",
+      "evidence": "Experience turning prototypes and experiments into reliable production systems"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "Familiarity with APIs, cloud infrastructure, data pipelines"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "Familiarity with APIs, cloud infrastructure"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "requirement",
+      "evidence": "cloud infrastructure, data pipelines, model serving"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "requirement",
+      "evidence": "data pipelines, model serving, and enterprise integrations"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "requirement",
+      "evidence": "model serving, and enterprise integrations"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "translate ambiguous customer problems into clearly scoped technical solutions"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Strong communication skills and experience working with stakeholders"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "working with both technical and non-technical stakeholders"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "requirement",
+      "evidence": "balance speed, technical quality, customer value, and scalability"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "balance speed, technical quality, customer value, and scalability"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "customer value, and scalability"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "requirement",
+      "evidence": "Model customization, fine-tuning, or inference optimization"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "nice_to_have",
+      "evidence": "forward deployed engineering, solutions engineering"
+    },
+    {
+      "canonical": "consulting",
+      "section": "nice_to_have",
+      "evidence": "technical consulting"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "nice_to_have",
+      "evidence": "machine learning engineering, or technical consulting"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "nice_to_have",
+      "evidence": "delivering complex technical implementations for enterprise customers"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "professional creative domains such as VFX, games, animation"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "nice_to_have",
+      "evidence": "integrating AI models into creative tools or content-production pipelines"
+    },
+    {
+      "canonical": "computer_vision",
+      "section": "nice_to_have",
+      "evidence": "controllable generation, layered editing, multi-view consistency"
+    },
+    {
+      "canonical": "evals",
+      "section": "nice_to_have",
+      "evidence": "Familiarity with model evaluation"
+    },
+    {
+      "canonical": "gpu_infra",
+      "section": "nice_to_have",
+      "evidence": "GPU infrastructure, inference optimization"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "nice_to_have",
+      "evidence": "inference optimization, and production monitoring"
+    },
+    {
+      "canonical": "observability",
+      "section": "nice_to_have",
+      "evidence": "production monitoring"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "nice_to_have",
+      "evidence": "Willingness to travel periodically for customer workshops"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "nice_to_have",
+      "evidence": "customer workshops and strategic engagements"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "partner",
+    "identify",
+    "build",
+    "integrate",
+    "evaluate"
+  ],
+  "segmentation_quality": "header"
+}

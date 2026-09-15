@@ -1,0 +1,36 @@
+{
+  "posting_id": "9f0a1bb1ae94f24f",
+  "skills": [
+    {"canonical": "on_prem_airgapped", "section": "requirement", "evidence": "homelab, VPC, self-hosted"},
+    {"canonical": "networking", "section": "requirement", "evidence": "you've built in environments you don't fully control — homelab, VPC"},
+    {"canonical": "debugging", "section": "requirement", "evidence": "like figuring out why systems break"},
+    {"canonical": "kubernetes", "section": "requirement", "evidence": "curious about kubernetes and helm; you want to go deep"},
+    {"canonical": "llm_apis", "section": "requirement", "evidence": "you've built with language models"},
+    {"canonical": "agents", "section": "requirement", "evidence": "have opinions on agents and MCP"},
+    {"canonical": "shell", "section": "requirement", "evidence": "comfortable in linux"},
+    {"canonical": "written_communication", "section": "requirement", "evidence": "you can write a clear RCA"},
+    {"canonical": "sql", "section": "nice_to_have", "evidence": "temporal, Postgres, cloud secret managers"},
+    {"canonical": "on_prem_airgapped", "section": "nice_to_have", "evidence": "self-hosted delivery (kots/airgap)"},
+    {"canonical": "security_compliance", "section": "nice_to_have", "evidence": "cloud secret managers, self-hosted delivery"},
+    {"canonical": "on_prem_airgapped", "section": "responsibility", "evidence": "get hands-on with the on-prem lifecycle"},
+    {"canonical": "kubernetes", "section": "responsibility", "evidence": "helm charts, upgrades, the weekly release train"},
+    {"canonical": "guardrails_safety", "section": "responsibility", "evidence": "diverged customer forks back onto one supported chart, with guardrails"},
+    {"canonical": "implementation_onboarding", "section": "responsibility", "evidence": "a new customer deploys in days, not weeks"},
+    {"canonical": "debugging", "section": "responsibility", "evidence": "debug across the stack: temporal workflows, k8s init ordering"},
+    {"canonical": "auth_identity", "section": "responsibility", "evidence": "storage, auth-refresh pipelines"},
+    {"canonical": "security_compliance", "section": "responsibility", "evidence": "support the security surface: CVE triage, patching, RCAs"},
+    {"canonical": "agents", "section": "responsibility", "evidence": "help define what reliable, repeatable on-prem agent deployment looks like"}
+  ],
+  "seniority": "junior",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 3,
+  "responsibility_verbs": [
+    "debug",
+    "deploy",
+    "patch",
+    "onboard",
+    "support"
+  ],
+  "segmentation_quality": "header"
+}

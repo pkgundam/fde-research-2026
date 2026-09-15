@@ -1,0 +1,167 @@
+{
+  "posting_id": "7980d5637a4ed1e1",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Embed directly with enterprise customers as part of a small deployment team"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Embed directly with enterprise customers as part of a small deployment team"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Define AI-driven solutions based on real business needs"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "Build and deploy production-grade agents tailored to specific customer use cases"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Build and deploy production-grade agents tailored to specific customer use cases"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "owning end-to-end delivery"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "Design and run evals to measure agent performance"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "iterate and hill-climb until results move"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "Become a domain expert in your customer's vertical"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Work closely with Product and Platform engineers on your team"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Surface insights from deployments that inform Handshake's platform and product roadmap"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "Real-world experience building and shipping AI applications in production"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "Strong understanding of agent architectures, evals"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "Strong understanding of agent architectures, evals"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "requirement",
+      "evidence": "measure and systematically improve AI performance"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "working directly with enterprise customers in ambiguous"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "ambiguous, high-stakes environments"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "Strong systems thinking, you can zoom out to the business problem"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "zoom out to the business problem and zoom in to the technical solution"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "High ownership mentality, you care about outcomes"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Strong communication skills"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "in the room with senior stakeholders regularly"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "forward deployment or field engineering model"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "Experience building multi-agent systems in production"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "Domain expertise in a specific enterprise vertical"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "nice_to_have",
+      "evidence": "Familiarity with enterprise security requirements"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "nice_to_have",
+      "evidence": "VPC deployments, or on-prem configurations"
+    },
+    {
+      "canonical": "networking",
+      "section": "nice_to_have",
+      "evidence": "VPC deployments"
+    },
+    {
+      "canonical": "evals",
+      "section": "nice_to_have",
+      "evidence": "History of building evals infrastructure"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "nice_to_have",
+      "evidence": "AI quality measurement tooling"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "embed",
+    "define",
+    "build",
+    "deploy",
+    "design"
+  ],
+  "segmentation_quality": "header"
+}

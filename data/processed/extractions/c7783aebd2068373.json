@@ -1,0 +1,237 @@
+{
+  "posting_id": "c7783aebd2068373",
+  "skills": [
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "typically 50% of time spent on-site"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Ensure successful pilot outcomes by driving new solution operations"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "meeting customer KPIs, and preparing the solution to scale"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Drive fixes and improvements based on field experience"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Become the named technical point-of-contact for one or more"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Develop new integrations, robotic skills and capabilities to meet"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Deliver actionable bug reports and reproducible cases that accelerate"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "provide guidance to application services teams at pilot"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "drive automation of the support system"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "leverage internal platforms such as Portal, Foxglove, Kibana, ArgoCD"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "responsibility",
+      "evidence": "Diagnose & Resolve Incidents — Analyse logs, telemetry"
+    },
+    {
+      "canonical": "sql",
+      "section": "responsibility",
+      "evidence": "SQL/NoSQL data, and container metrics to pinpoint failures"
+    },
+    {
+      "canonical": "nosql",
+      "section": "responsibility",
+      "evidence": "SQL/NoSQL data, and container metrics to pinpoint failures"
+    },
+    {
+      "canonical": "docker",
+      "section": "responsibility",
+      "evidence": "container metrics to pinpoint failures"
+    },
+    {
+      "canonical": "testing",
+      "section": "responsibility",
+      "evidence": "reproduce issues in staging; craft work-arounds or scripted hot-fixes"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Embed on customer site during go-live, major upgrades"
+    },
+    {
+      "canonical": "python",
+      "section": "responsibility",
+      "evidence": "contribute to CLI tools and diagnostic scripts in Python/Bash"
+    },
+    {
+      "canonical": "shell",
+      "section": "responsibility",
+      "evidence": "contribute to CLI tools and diagnostic scripts in Python/Bash"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "mentor TAC on new failure modes"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner with Product and Engineering on feature hardening"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "feature hardening, performance tuning, and reliability improvement"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Proficient in Python or C++, with experience implementing"
+    },
+    {
+      "canonical": "cpp",
+      "section": "requirement",
+      "evidence": "Proficient in Python or C++, with experience implementing"
+    },
+    {
+      "canonical": "analytics",
+      "section": "requirement",
+      "evidence": "ability to instrument, query, and visualize telemetry to inform"
+    },
+    {
+      "canonical": "observability",
+      "section": "requirement",
+      "evidence": "Familiarity with support tools and observability platforms"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "Strong analytical and debugging skills; experience parsing logs"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "translate technical findings into customer-friendly language and crisp bug reports"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "Self-starter mindset with a willingness to take ownership"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "requirement",
+      "evidence": "SaaS, DevOps, Site Reliability, or Application Support role handling"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "customer-facing production systems"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "working extended hours, on-site or on-call rotations"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "nice_to_have",
+      "evidence": "Experience supporting AI/ML inference platforms (model drift, retraining"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "nice_to_have",
+      "evidence": "Experience supporting AI/ML inference platforms (model drift, retraining"
+    },
+    {
+      "canonical": "shell",
+      "section": "nice_to_have",
+      "evidence": "System-level Troubleshooting across Linux, networking (TCP/IP, VLANs, VPNs)"
+    },
+    {
+      "canonical": "networking",
+      "section": "nice_to_have",
+      "evidence": "System-level Troubleshooting across Linux, networking (TCP/IP, VLANs, VPNs)"
+    },
+    {
+      "canonical": "docker",
+      "section": "nice_to_have",
+      "evidence": "containers (Docker/K8s), and cloud services (AWS/GCP/Azure)"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "nice_to_have",
+      "evidence": "containers (Docker/K8s), and cloud services (AWS/GCP/Azure)"
+    },
+    {
+      "canonical": "aws",
+      "section": "nice_to_have",
+      "evidence": "cloud services (AWS/GCP/Azure)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "nice_to_have",
+      "evidence": "cloud services (AWS/GCP/Azure)"
+    },
+    {
+      "canonical": "azure",
+      "section": "nice_to_have",
+      "evidence": "cloud services (AWS/GCP/Azure)"
+    },
+    {
+      "canonical": "streaming",
+      "section": "nice_to_have",
+      "evidence": "Familiarity with message queues & real-time data buses"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "nice_to_have",
+      "evidence": "real-time data buses (RESTAPI)"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "Exposure to industrial automation or warehouse management systems"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "nice_to_have",
+      "evidence": "Knowledge of CI/CD workflows (GitHub Actions, ArgoCD)"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 2,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "drive",
+    "diagnose",
+    "own",
+    "develop",
+    "partner"
+  ],
+  "segmentation_quality": "header"
+}

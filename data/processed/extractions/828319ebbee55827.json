@@ -1,0 +1,182 @@
+{
+  "posting_id": "828319ebbee55827",
+  "skills": [
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "work closely with Stripe's Product & Engineering team to help shape"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "responsibility",
+      "evidence": "building standalone applications that are deployed in user environments"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "augmenting existing development staff for our users to deliver faster"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Design and architect robust technical solutions, ensuring they are secure, scalable"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "robust technical solutions, ensuring they are secure, scalable, and aligned"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "robust technical solutions, ensuring they are secure, scalable"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "bridging the gap between technical teams and executives"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "Drive the direction of the new Forward Deployed Engineering arm"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Engage directly with users to deeply understand challenges, requirements"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "deeply understand challenges, requirements, and co-develop solutions"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "Contribute tooling, frameworks, and best practices that scale impact"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "evolution of our consulting services behind the keyboard by directly building"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "5+ years of professional, hands-on full-stack development experience with languages"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "5+ years of professional, hands-on full-stack development experience with languages"
+    },
+    {
+      "canonical": "go",
+      "section": "requirement",
+      "evidence": "5+ years of professional, hands-on full-stack development experience with languages"
+    },
+    {
+      "canonical": "java",
+      "section": "requirement",
+      "evidence": "5+ years of professional, hands-on full-stack development experience with languages"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "Experience with backend infrastructure and building systems that scale"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "backend infrastructure and building systems that scale"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "requirement",
+      "evidence": "Demonstrated ability to design, build, and deploy production applications"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "requirement",
+      "evidence": "Excellence at rapid prototyping while maintaining appropriate quality standards"
+    },
+    {
+      "canonical": "docker",
+      "section": "requirement",
+      "evidence": "Familiarity with containerized applications and object-oriented programming languages"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "Superb problem-solving skills and the ability to understand the product"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "requirement",
+      "evidence": "ability to understand the product and business side of development"
+    },
+    {
+      "canonical": "consulting",
+      "section": "nice_to_have",
+      "evidence": "Experience working as a software consultant"
+    },
+    {
+      "canonical": "system_design",
+      "section": "nice_to_have",
+      "evidence": "Strong command of distributed systems, API design, and data modeling"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "nice_to_have",
+      "evidence": "distributed systems, API design, and data modeling"
+    },
+    {
+      "canonical": "data_modeling",
+      "section": "nice_to_have",
+      "evidence": "distributed systems, API design, and data modeling"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "Familiarity working with AI APIs and leveraging AI code generation tools"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "nice_to_have",
+      "evidence": "delivering technical solutions in enterprise environments that drive measurable outcomes"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "nice_to_have",
+      "evidence": "enterprise environments that drive measurable outcomes"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "nice_to_have",
+      "evidence": "A passion for handling ambiguity and picking up new technologies"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "nice_to_have",
+      "evidence": "picking up new technologies, frameworks, and tools"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "frameworks, and tools while working in a variety of client environments"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "design",
+    "architect",
+    "collaborate",
+    "drive",
+    "engage"
+  ],
+  "segmentation_quality": "header"
+}

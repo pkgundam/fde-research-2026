@@ -1,0 +1,152 @@
+{
+  "posting_id": "322e075fd0ff928e",
+  "skills": [
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "developing bespoke LLM solutions for top enterprises"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "architect innovative solutions that address"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "leverage your customer-facing experience and technical"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "responsibility",
+      "evidence": "explain and demonstrate complex solutions persuasively"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "primary technical advisor for prospective customers"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "responsibility",
+      "evidence": "leveraging novel prompting techniques"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "understand customer requirements"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner closely with account executives"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Develop customized pilots and prototypes"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "evaluation suites to make the case"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Recommend solutions to technical roadblocks"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Support customer onboarding across Japan"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Travel occasionally to customer sites for"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "customer sites for workshops, implementation support"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "responsibility",
+      "evidence": "solutions that enable beneficial and safe"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "Lead the vision, strategy, and execution"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "novel and innovative solutions for technical"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "strong proficiency in Python required"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "technical aptitude to partner with engineers"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "production systems with large language models"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "nice_to_have",
+      "evidence": "navigate and execute amidst ambiguity"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "nice_to_have",
+      "evidence": "flex into different domains based on"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "nice_to_have",
+      "evidence": "cross-organizational collaboration, working through trade-offs"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "nice_to_have",
+      "evidence": "balancing competing priorities"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "nice_to_have",
+      "evidence": "love of teaching, mentoring, and helping"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "nice_to_have",
+      "evidence": "convey complicated topics in easily understandable"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "nice_to_have",
+      "evidence": "safe and beneficial, and ultimately furthers"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 4,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "develop",
+    "architect",
+    "advise",
+    "demonstrate",
+    "lead"
+  ],
+  "segmentation_quality": "header"
+}

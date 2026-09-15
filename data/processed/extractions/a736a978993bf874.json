@@ -1,0 +1,16 @@
+{
+  "posting_id": "a736a978993bf874",
+  "skills": [],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 2,
+  "responsibility_verbs": [
+    "build",
+    "ship",
+    "integrate",
+    "prototype",
+    "collaborate"
+  ],
+  "segmentation_quality": "inferred"
+}

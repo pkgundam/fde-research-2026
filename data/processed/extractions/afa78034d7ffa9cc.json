@@ -1,0 +1,152 @@
+{
+  "posting_id": "afa78034d7ffa9cc",
+  "skills": [
+    {
+      "canonical": "shell",
+      "section": "requirement",
+      "evidence": "data center or Linux systems administration experience"
+    },
+    {
+      "canonical": "iac",
+      "section": "requirement",
+      "evidence": "configuration management tool experience like Saltstack, Chef, Puppet or Ansible"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "Network hardware administration"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Collaborating with internal teams (infrastructure, network engineering and SRE)"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "responsibility",
+      "evidence": "Collaborating with internal teams (infrastructure, network engineering and SRE)"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Create documentation and manage remote contractors to complete datacenter installations"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "manage remote contractors to complete datacenter installations and upgrades"
+    },
+    {
+      "canonical": "networking",
+      "section": "responsibility",
+      "evidence": "Coordinate installation of cross-connects globally in support of physical network expansion"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "cutting-edge technology and automation solutions that are effective, efficient and scalable"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "Aggressively seek opportunities to introduce cutting-edge technology"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "development and implementation of consistent processes and visibility measurements"
+    },
+    {
+      "canonical": "analytics",
+      "section": "responsibility",
+      "evidence": "basic experience with data analysis and project management"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "responsibility",
+      "evidence": "excellent technical skills, communication skills, and be able to navigate"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "navigate a range of challenges and constraints"
+    },
+    {
+      "canonical": "project_management",
+      "section": "nice_to_have",
+      "evidence": "datacenter / infrastructure projects with many moving parts"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "nice_to_have",
+      "evidence": "Strong verbal and written communication skills, problem-solving skills"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "nice_to_have",
+      "evidence": "Strong verbal and written communication skills, problem-solving skills"
+    },
+    {
+      "canonical": "debugging",
+      "section": "nice_to_have",
+      "evidence": "Strong verbal and written communication skills, problem-solving skills"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "nice_to_have",
+      "evidence": "proven ability to learn fast and execute on multiple tasks"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "nice_to_have",
+      "evidence": "execute on multiple tasks simultaneously"
+    },
+    {
+      "canonical": "analytics",
+      "section": "nice_to_have",
+      "evidence": "Ability to manage MS excel and Google spreadsheets"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "nice_to_have",
+      "evidence": "Must be a team player"
+    },
+    {
+      "canonical": "shell",
+      "section": "nice_to_have",
+      "evidence": "Linux certifications"
+    },
+    {
+      "canonical": "networking",
+      "section": "nice_to_have",
+      "evidence": "Knowledge of the OSI-model and experience isolating network, hardware"
+    },
+    {
+      "canonical": "iac",
+      "section": "nice_to_have",
+      "evidence": "Configuration management systems such as Saltstack, Chef, Puppet or Ansible"
+    },
+    {
+      "canonical": "python",
+      "section": "nice_to_have",
+      "evidence": "Scripting or software development experience in Bash, Python or Go-lang"
+    },
+    {
+      "canonical": "go",
+      "section": "nice_to_have",
+      "evidence": "Scripting or software development experience in Bash, Python or Go-lang"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 2,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 1,
+  "responsibility_verbs": [
+    "collaborate",
+    "create",
+    "coordinate",
+    "build",
+    "manage"
+  ],
+  "segmentation_quality": "header"
+}

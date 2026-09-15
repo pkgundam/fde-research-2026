@@ -1,0 +1,332 @@
+{
+  "posting_id": "81d592b5f915c241",
+  "skills": [
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Architect and deploy production AI systems that integrate"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "responsibility",
+      "evidence": "including cloud platforms, data warehouses, internal APIs"
+    },
+    {
+      "canonical": "data_warehouses",
+      "section": "responsibility",
+      "evidence": "cloud platforms, data warehouses, internal APIs"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "internal APIs, business applications, and proprietary software"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "responsibility",
+      "evidence": "business applications, and proprietary software systems"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "Design scalable agent architectures that combine LLMs"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "agent architectures that combine LLMs, retrieval, memory"
+    },
+    {
+      "canonical": "rag",
+      "section": "responsibility",
+      "evidence": "combine LLMs, retrieval, memory, tools, structured knowledge"
+    },
+    {
+      "canonical": "data_modeling",
+      "section": "responsibility",
+      "evidence": "tools, structured knowledge, and enterprise data"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "meeting enterprise requirements for security, governance, and compliance"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Rapidly prototype new AI capabilities and evolve"
+    },
+    {
+      "canonical": "llm_frameworks",
+      "section": "responsibility",
+      "evidence": "orchestration frameworks, context pipelines, execution services"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "Engineer systems for reliability, observability, latency"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "observability, latency, scalability, retries, fallback strategies"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "responsibility",
+      "evidence": "Design human-in-the-loop workflows that effectively combine"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "responsibility",
+      "evidence": "evolve safely through continuous delivery and experimentation"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "Deploy evaluation harnesses using offline benchmarks"
+    },
+    {
+      "canonical": "llm_observability",
+      "section": "responsibility",
+      "evidence": "Implement tracing, observability, monitoring, guardrails"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner closely with Applied AI engineers to productionize"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "responsibility",
+      "evidence": "Rapidly evaluate newly released models, agent frameworks"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Partner directly with enterprise customers to understand"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Translate ambiguous customer problems into scalable production"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "deploy AI into mission-critical workflows"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Identify reusable engineering patterns that become core capabilities"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "Serve as the primary technical advisor for strategic"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "primary technical advisor for strategic enterprise accounts"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "Lead architecture discussions spanning distributed systems"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Document reusable architecture patterns, deployment strategies"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "measuring real-world business impact"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "distributed systems, data structures, algorithms, and system design"
+    },
+    {
+      "canonical": "algorithms",
+      "section": "requirement",
+      "evidence": "distributed systems, data structures, algorithms, and system design"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Strong Python programming skills with experience building"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "AI-powered applications using modern LLM APIs"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "LLM APIs, agent frameworks, MCP, retrieval systems"
+    },
+    {
+      "canonical": "rag",
+      "section": "requirement",
+      "evidence": "MCP, retrieval systems, or vector databases"
+    },
+    {
+      "canonical": "vector_databases",
+      "section": "requirement",
+      "evidence": "retrieval systems, or vector databases"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "Experience with cloud platforms (AWS, Azure, or GCP)"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "cloud platforms (AWS, Azure, or GCP)"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "cloud platforms (AWS, Azure, or GCP)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "cloud platforms (AWS, Azure, or GCP)"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "navigate ambiguous technical requirements and rapidly iterate"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Excellent communication skills and the ability to work"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "work directly with enterprise engineering teams"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "Experience deploying production AI agents or autonomous systems"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "nice_to_have",
+      "evidence": "Experience deploying production AI agents or autonomous systems"
+    },
+    {
+      "canonical": "system_design",
+      "section": "nice_to_have",
+      "evidence": "designing distributed systems, APIs, orchestration services"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "nice_to_have",
+      "evidence": "distributed systems, APIs, orchestration services"
+    },
+    {
+      "canonical": "docker",
+      "section": "nice_to_have",
+      "evidence": "cloud-native infrastructure, Docker, Kubernetes, Infrastructure as Code"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "nice_to_have",
+      "evidence": "Docker, Kubernetes, Infrastructure as Code, and CI/CD"
+    },
+    {
+      "canonical": "iac",
+      "section": "nice_to_have",
+      "evidence": "Kubernetes, Infrastructure as Code, and CI/CD"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "nice_to_have",
+      "evidence": "Infrastructure as Code, and CI/CD"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "nice_to_have",
+      "evidence": "integrating AI systems into enterprise software environments"
+    },
+    {
+      "canonical": "rag",
+      "section": "nice_to_have",
+      "evidence": "agent architectures, retrieval systems, tool use, memory"
+    },
+    {
+      "canonical": "evals",
+      "section": "nice_to_have",
+      "evidence": "evaluation frameworks, LLM observability, regression testing"
+    },
+    {
+      "canonical": "llm_observability",
+      "section": "nice_to_have",
+      "evidence": "LLM observability, regression testing, tracing, and AI monitoring"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "nice_to_have",
+      "evidence": "implementing guardrails, grounding, and safety mechanisms"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "nice_to_have",
+      "evidence": "operationalizing new foundation models, agent frameworks"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "Experience working directly with enterprise customers"
+    },
+    {
+      "canonical": "scoping",
+      "section": "nice_to_have",
+      "evidence": "translate complex technical requirements into scalable production"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "nice_to_have",
+      "evidence": "Strong written and verbal communication skills"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "nice_to_have",
+      "evidence": "Strong written and verbal communication skills"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "nice_to_have",
+      "evidence": "leading architecture reviews, technical workshops"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "nice_to_have",
+      "evidence": "technical workshops, or customer design sessions"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "architect",
+    "design",
+    "build",
+    "deploy",
+    "partner"
+  ],
+  "segmentation_quality": "header"
+}

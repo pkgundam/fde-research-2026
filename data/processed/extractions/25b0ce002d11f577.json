@@ -1,0 +1,162 @@
+{
+  "posting_id": "25b0ce002d11f577",
+  "skills": [
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "Provide remote support to field operations groups"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "install, operate, and maintain Anvil systems"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Troubleshoot complex hardware and software issues"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Work closely with development teams, product managers"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Anvil systems are designed and built with reliability in mind"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Drive continuous product improvement by leading post-mortem events"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "responsibility",
+      "evidence": "leading post-mortem events involving engineering stakeholders"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "Set up and maintain monitoring systems to track system health"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "responsibility",
+      "evidence": "Build out data and telemetry infrastructure to monitor systems"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Compile technical documentation to support customers, field operations"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Travel to customer sites"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "concentrate on the reliability, availability, and performance of the Anvil product line"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "Extensive experience in UAV and small drone operations"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "troubleshoot and resolve UAV operational issues"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "support them in operational environments with self-sufficiency"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "requirement",
+      "evidence": "master complex technical systems and support them in operational environments"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "navigating unstructured hardware, software, and networking challenges"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "driving ambiguous issues to clarity with data-driven root cause analyses"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "requirement",
+      "evidence": "on-call support within production environments with limited risk tolerance"
+    },
+    {
+      "canonical": "shell",
+      "section": "requirement",
+      "evidence": "Proficiency in Linux...with strong command-line skills"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "Experience with cloud-based databases, telemetry visualization platforms"
+    },
+    {
+      "canonical": "analytics",
+      "section": "requirement",
+      "evidence": "building dashboards; skilled in creating system metrics and leveraging analytics"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "leveraging analytics for performance improvements"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "requirement",
+      "evidence": "integrate disparate telemetry, operational, and cloud data sources"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "Excellent written, visual, and verbal communication skills"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Excellent written, visual, and verbal communication skills"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "proven ability to gather requirements"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "collaborate cross-functionally with engineering, operations, product management"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "meet health and medical requirements in advance of deployments"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 3,
+  "responsibility_verbs": [
+    "support",
+    "troubleshoot",
+    "build",
+    "monitor",
+    "document"
+  ],
+  "segmentation_quality": "header"
+}

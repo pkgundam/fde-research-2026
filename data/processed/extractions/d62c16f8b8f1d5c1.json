@@ -1,0 +1,237 @@
+{
+  "posting_id": "d62c16f8b8f1d5c1",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "work shoulder-to-shoulder with their engineering teams to shape architecture"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "shoulder-to-shoulder with their engineering teams to shape architecture, prototype"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "shape architecture, prototype alongside them, review code"
+    },
+    {
+      "canonical": "git",
+      "section": "responsibility",
+      "evidence": "prototype alongside them, review code, and unblock"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "review code, and unblock the hard technical problems"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "driving each engagement forward from idea to launch"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "guide customers on the design decisions that matter"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "raise the quality, performance, and security of what they build"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "raise the quality, performance, and security of what they build"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Write reference code, samples, and technical guidance that customers"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "technical guidance that customers can learn from, build on"
+    },
+    {
+      "canonical": "serverless",
+      "section": "responsibility",
+      "evidence": "Workers, storage (KV, R2, D1), and Durable Objects to AI"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "to AI (Workers AI, AI Gateway, Vectorize), security, networking"
+    },
+    {
+      "canonical": "vector_databases",
+      "section": "responsibility",
+      "evidence": "AI (Workers AI, AI Gateway, Vectorize), security, networking, and observability"
+    },
+    {
+      "canonical": "networking",
+      "section": "responsibility",
+      "evidence": "security, networking, and observability"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "networking, and observability"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Join Customer Engineering rituals — design reviews, planning sessions"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Surface real-world edge cases, friction, and product gaps directly"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "trusted technical relationships with customer engineers and technical leaders"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "responsibility",
+      "evidence": "Identify opportunities to accelerate the adoption of Cloudflare services"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "track record of delivering production-grade systems, not just advising"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "requirement",
+      "evidence": "on-call rotations, the urgency of incident response, and the architectural rigor"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "You have owned mission-critical services with real-world users"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "maintain a high velocity, staying current with modern frameworks, languages"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "Broad technical fluency across the entire stack—from frontend performance"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "backend logic to database optimization and distributed infrastructure"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "frontend performance and backend logic to database optimization"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "integrated AI-augmented workflows (e.g., Windsurf, OpenCode) into your daily development"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "requirement",
+      "evidence": "daily development cycle to accelerate prototyping and delivery"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "Ability to decompose complex business requirements into scalable, resilient technical architectures"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "at least one major cloud provider (AWS, GCP, or Azure)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "at least one major cloud provider (AWS, GCP, or Azure)"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "at least one major cloud provider (AWS, GCP, or Azure)"
+    },
+    {
+      "canonical": "serverless",
+      "section": "requirement",
+      "evidence": "understanding of serverless, networking, and security primitives"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "understanding of serverless, networking, and security primitives"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "networking, and security primitives"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "High Agency & Navigating Ambiguity: You are a self-starter"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "engaging in high-stakes technical and strategic discussions with VP-level stakeholders"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "translate complex engineering trade-offs into business impact"
+    },
+    {
+      "canonical": "serverless",
+      "section": "nice_to_have",
+      "evidence": "Direct experience building on Cloudflare Workers, or the broader Cloudflare Developer Platform"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "customer-facing engineering role where you operated directly within a partner's codebase"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "nice_to_have",
+      "evidence": "open-source contributions, technical blogging, or speaking engagements at industry conferences"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "nice_to_have",
+      "evidence": "speaking engagements at industry conferences"
+    },
+    {
+      "canonical": "git",
+      "section": "nice_to_have",
+      "evidence": "A visible public profile, including open-source contributions, technical blogging"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 7,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "act",
+    "shape",
+    "diagnose",
+    "write",
+    "surface"
+  ],
+  "segmentation_quality": "header"
+}

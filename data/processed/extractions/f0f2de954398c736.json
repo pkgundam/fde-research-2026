@@ -1,0 +1,97 @@
+{
+  "posting_id": "f0f2de954398c736",
+  "skills": [
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "build the backend tools and workflows our agents call"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "talk to the client directly"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Pull requirements, explain the tradeoffs, own the relationship"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "keep it alive in production"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "handle the jurisdiction and client specific extensions"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "backend - python"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "hold your own on a customer call"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "you've run LLM agents in production"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "tool calling"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "evals, knowing when a plain deterministic tool beats"
+    },
+    {
+      "canonical": "docker",
+      "section": "nice_to_have",
+      "evidence": "containers and CI/CD"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "nice_to_have",
+      "evidence": "containers and CI/CD"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "nice_to_have",
+      "evidence": "RBAC and auditing"
+    },
+    {
+      "canonical": "llm_frameworks",
+      "section": "nice_to_have",
+      "evidence": "LangChain and LangGraph"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "prior customer facing or operator background"
+    },
+    {
+      "canonical": "consulting",
+      "section": "nice_to_have",
+      "evidence": "prior customer facing or operator background"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "none",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "build",
+    "talk",
+    "pull",
+    "turn",
+    "keep"
+  ],
+  "segmentation_quality": "inferred"
+}

@@ -245,3 +245,54 @@ user before final render.
 - Extraction is LLM-based; evidence quotes are provided but not human-verified
   for every posting.
 - Startup-vs-enterprise comparisons are directional only.
+
+## 13. Amendments (2026-09-15)
+
+The following rules shipped differently from §3, §6 and §8 above during the
+final fix wave; this section is the binding correction, superseding the
+conflicting prose in those sections rather than rewriting them in place.
+
+- **Dedupe (§6).** The key is still `(normalized_company, normalized_title)`,
+  but a shared key no longer always merges. Postings under the same key merge
+  only when their JD texts are near-duplicates: containment ≥ 0.8 over 6-word
+  shingles (`containment = |A∩B| / min(|A|,|B|)`), keeping the longer
+  `full_text`. Texts under 30 words fall back to the old "always merge, keep
+  longest" behaviour (too short for a reliable shingle signal). HN postings
+  are the exception to the similarity check: two HN rows under the same key
+  always merge (their monthly reposts are rewritten each time and carry no
+  reliable similarity signal), keeping the one with the newer `posted_date`
+  (undated loses to dated; both undated keeps the first-seen row).
+- **HN window (§3 decision 8, §6).** Last **10** monthly "Who is hiring?"
+  threads, not 4. The window is recorded per run in
+  `data/processed/collect_meta.json` (`hn_threads: {months, first, last}`)
+  and stated in the rendered Methodology.
+- **`meta.collected_on` (§8).** Comes from `collect_meta.json`'s
+  `collected_at` (the max `fetched_at` across the cached raw responses for
+  the sources actually run), not from the aggregate run's own
+  `generated_at`. This is what makes "postings were live on `collected_on`"
+  a fact about the data rather than about whenever `aggregate` happened to
+  run.
+- **Co-occurrence (§8).** `lift = P(A∧B) / (P(A)P(B))` computed only over
+  skills with `0.08 ≤ frequency ≤ 0.6`; a pair qualifies at `lift ≥ 1.5` and
+  `support ≥ 10` postings. Stacks are built greedily from the
+  highest-lift/highest-support pairs first, capped at **7 skills per stack**,
+  minimum 3 skills, at most **4 stacks** total (not "3–4 communities" via
+  modularity clustering — greedy cap-enforced merging was simpler and
+  deterministic). A stack's `support` is the number of postings containing at
+  least `min(3, len(stack))` of its members, not the max pairwise support.
+- **Segment comparison (§8 market).** Excludes HN postings entirely (their
+  JDs are too short to support a skill-list comparison) and groups
+  `startup` + `scaleup` size hints against `enterprise` (not a three-way
+  split), reported only as `segment_deltas` prose, not a formal significance
+  test.
+- **Extraction evidence is tracked in git (§4, §7).** `data/processed/
+  extractions/*.json` and `data/processed/prompts/manifest.json` are
+  committed, not gitignored, so `aggregate` and `render` are reproducible
+  from the repository without re-running the (non-deterministic) LLM
+  extraction step. Rendered prompt `.md` files stay gitignored — `prepare`
+  regenerates them deterministically from `postings.jsonl` and
+  `taxonomy.yaml`.
+- **`validate` is non-destructive (§7).** It no longer rewrites extraction
+  files to drop out-of-taxonomy skills; taxonomy filtering happens at
+  load time (`extract.validate.load_valid_extractions`). Extraction files on
+  disk are the LLM's raw, unmodified output.

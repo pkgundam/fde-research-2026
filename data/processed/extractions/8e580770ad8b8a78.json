@@ -1,0 +1,152 @@
+{
+  "posting_id": "8e580770ad8b8a78",
+  "skills": [
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "dedicated expert on AI Agent technology"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "engages early in the sales cycle to drive"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "workshop facilitation and use case design"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "use case design through high-stakes demos"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "high-stakes demos and API discovery"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "high-stakes demos and API discovery"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Work hand-in-hand with Core SEs"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "translating business problems into agent-powered solutions"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "resonate with economic buyers"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "smooth handoff from pre-sale to deployment"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Close the product feedback loop"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "enablement, playbooks, and informal coaching"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "5+ years in a customer-facing technical role"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "requirement",
+      "evidence": "3–5 years in pre-sales selling to large enterprises"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "designing, building, or selling AI Agents"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "LLM-based architectures"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "Practical understanding of APIs, integration patterns"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "requirement",
+      "evidence": "how enterprise systems connect to AI Agent workflows"
+    },
+    {
+      "canonical": "speech",
+      "section": "requirement",
+      "evidence": "contact center platforms, or voice/chat automation technologies"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "translating technical depth into clear business value"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "presenting to a C-suite audience"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "requirement",
+      "evidence": "Highly organized, meticulous in preparation"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "navigate ambiguity, rally internal support"
+    },
+    {
+      "canonical": "python",
+      "section": "nice_to_have",
+      "evidence": "write Python for prototyping, scripting, or demo customization"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "nice_to_have",
+      "evidence": "write Python for prototyping, scripting, or demo customization"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "nice_to_have",
+      "evidence": "Salesforce.com and enterprise contact center technologies"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "nice_to_have",
+      "evidence": "2+ years of AI sales engineering experience"
+    }
+  ],
+  "seniority": "staff_plus",
+  "years_required": 5,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "engage",
+    "own",
+    "lead",
+    "facilitate",
+    "partner"
+  ],
+  "segmentation_quality": "header"
+}

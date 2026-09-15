@@ -1,0 +1,172 @@
+{
+  "posting_id": "22eb56e1cd851f75",
+  "skills": [
+    {
+      "canonical": "incident_response",
+      "section": "requirement",
+      "evidence": "DevOps or SRE type roles"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "cloud services like AWS, Azure, or Google Cloud Platform"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "cloud services like AWS, Azure, or Google Cloud Platform"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "cloud services like AWS, Azure, or Google Cloud Platform"
+    },
+    {
+      "canonical": "iac",
+      "section": "requirement",
+      "evidence": "Experience with IaC (Terraform, Cloudformation, Puppet, Ansible"
+    },
+    {
+      "canonical": "docker",
+      "section": "requirement",
+      "evidence": "containerization technologies such as Docker"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "orchestration tools like Kubernetes and Helm"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "Deep understanding of networking concepts, TCP/IP protocols"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "TCP/IP protocols, and security best practices"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "scripting languages (Python, Go, Bash, Rust, etc)"
+    },
+    {
+      "canonical": "go",
+      "section": "requirement",
+      "evidence": "scripting languages (Python, Go, Bash, Rust, etc)"
+    },
+    {
+      "canonical": "shell",
+      "section": "requirement",
+      "evidence": "scripting languages (Python, Go, Bash, Rust, etc)"
+    },
+    {
+      "canonical": "rust",
+      "section": "requirement",
+      "evidence": "scripting languages (Python, Go, Bash, Rust, etc)"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "work effectively with cross-functional teams"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Excellent communication and collaboration skills"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "deploying complex and scalable infrastructure solutions"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "nice_to_have",
+      "evidence": "Extensive expertise in Kubernetes and Helm"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "nice_to_have",
+      "evidence": "DoD 8570 IAT Level 1 or 2 certification"
+    },
+    {
+      "canonical": "networking",
+      "section": "nice_to_have",
+      "evidence": "Cisco Certified Network Associate (CCNA)"
+    },
+    {
+      "canonical": "debugging",
+      "section": "nice_to_have",
+      "evidence": "troubleshooting data systems for DoD or sensitive customers"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "DoD or otherwise sensitive customers"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "responsibility",
+      "evidence": "planning the deployment strategy into classified government cloud infrastructure"
+    },
+    {
+      "canonical": "networking",
+      "section": "responsibility",
+      "evidence": "design cloud networking and engineering solutions to meet"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "meet security, cost, and performance requirements"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "responsibility",
+      "evidence": "deploy Anduril software into government infrastructure, promoting it"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "responsibility",
+      "evidence": "identifying and triaging Kubernetes issues in the deployed environment"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "responsibility",
+      "evidence": "developing response and mitigation plans"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "partnering with government platform management to address these issues"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "designing and implementing requirements for observability, alerting, and maintenance"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "deliver and maintain accreditation artifacts and standards"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "provide direct in-person expertise during mission-critical periods"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 3,
+  "responsibility_verbs": [
+    "design",
+    "deploy",
+    "triage",
+    "maintain",
+    "partner"
+  ],
+  "segmentation_quality": "header"
+}

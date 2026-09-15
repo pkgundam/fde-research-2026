@@ -1,0 +1,52 @@
+{
+  "posting_id": "3e0907110747572c",
+  "skills": [
+    {
+      "canonical": "ml_fundamentals",
+      "section": "responsibility",
+      "evidence": "expertise in machine learning, natural language processing, and data discovery"
+    },
+    {
+      "canonical": "nlp",
+      "section": "responsibility",
+      "evidence": "expertise in machine learning, natural language processing, and data discovery"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "financial generative AI applications, agents, data retrieval APIs"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "data retrieval APIs, data extraction"
+    },
+    {
+      "canonical": "unstructured_data",
+      "section": "responsibility",
+      "evidence": "data retrieval APIs, data extraction"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "business and financial generative AI applications"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "financial generative AI applications, agents"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "develop",
+    "deploy",
+    "innovate",
+    "extract",
+    "retrieve"
+  ],
+  "segmentation_quality": "inferred"
+}

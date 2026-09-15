@@ -1,0 +1,102 @@
+{
+  "posting_id": "4cc02cef52e114fc",
+  "skills": [
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Work closely with cross-functional teams, including Mechanical, Electrical, Software"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Lead rapid prototyping efforts to support field experimentation"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "integration, and troubleshooting of power, networking, sensors"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Contribute to documentation and training to support the scaling"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "requirement",
+      "evidence": "Hands-on expertise in rapid prototyping and system-level debugging"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "rapid prototyping and system-level debugging"
+    },
+    {
+      "canonical": "shell",
+      "section": "requirement",
+      "evidence": "Experience working with a Linux-based operating system"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "Understanding of networking protocols and distributed systems"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "networking protocols and distributed systems, including TCP/IP"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "work in dynamic, hands-on environments, including on and near the water"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "Strong sense of ownership and bias for action"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "thrive in real-world environments, responsible for solving open-ended problems"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "Familiarity with maritime environments or naval platforms is preferred"
+    },
+    {
+      "canonical": "python",
+      "section": "nice_to_have",
+      "evidence": "write basic software tools (e.g., Python, shell scripts)"
+    },
+    {
+      "canonical": "shell",
+      "section": "nice_to_have",
+      "evidence": "write basic software tools (e.g., Python, shell scripts)"
+    },
+    {
+      "canonical": "testing",
+      "section": "nice_to_have",
+      "evidence": "Experience in systems integration or test engineering is preferred"
+    },
+    {
+      "canonical": "system_design",
+      "section": "nice_to_have",
+      "evidence": "Experience in systems integration or test engineering is preferred"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 3,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 1,
+  "responsibility_verbs": [
+    "serve",
+    "lead",
+    "perform",
+    "own",
+    "drive"
+  ],
+  "segmentation_quality": "header"
+}

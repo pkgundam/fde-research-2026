@@ -1,0 +1,137 @@
+{
+  "posting_id": "0358155623176018",
+  "skills": [
+    {
+      "canonical": "cloud_platforms",
+      "section": "responsibility",
+      "evidence": "cloud architecture, networking, storage, containerization"
+    },
+    {
+      "canonical": "networking",
+      "section": "responsibility",
+      "evidence": "cloud architecture, networking, storage"
+    },
+    {
+      "canonical": "docker",
+      "section": "responsibility",
+      "evidence": "containerization, sandboxing, and more"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Work hands-on with companies like Suno, Lovable, Cognition, and Meta"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Lead technical discovery and architecture sessions with prospective and existing customers"
+    },
+    {
+      "canonical": "aws",
+      "section": "responsibility",
+      "evidence": "migration paths from existing cloud infrastructure (AWS, GCP, Azure)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "responsibility",
+      "evidence": "migration paths from existing cloud infrastructure (AWS, GCP, Azure)"
+    },
+    {
+      "canonical": "azure",
+      "section": "responsibility",
+      "evidence": "migration paths from existing cloud infrastructure (AWS, GCP, Azure)"
+    },
+    {
+      "canonical": "serverless",
+      "section": "responsibility",
+      "evidence": "to Modal's serverless platform"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Collaborate with Modal's product and sales teams"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Build trusted relationships with technical leaders (CTOs, VPs of Engineering"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "technical demos, experiments, and proof-of-concepts"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "cloud platforms (AWS, GCP, Azure) — compute, storage, networking"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "cloud platforms (AWS, GCP, Azure)"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "cloud platforms (AWS, GCP, Azure)"
+    },
+    {
+      "canonical": "docker",
+      "section": "requirement",
+      "evidence": "container orchestration (Docker, Kubernetes)"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "container orchestration (Docker, Kubernetes)"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "compute, storage, networking"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "distributed systems architecture, data pipelines"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "requirement",
+      "evidence": "distributed systems architecture, data pipelines"
+    },
+    {
+      "canonical": "iac",
+      "section": "requirement",
+      "evidence": "Infrastructure as Code (Terraform, Pulumi, CloudFormation)"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "articulate tradeoffs to technical leadership"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "Genuine interest in working directly with customers"
+    },
+    {
+      "canonical": "system_design",
+      "section": "nice_to_have",
+      "evidence": "leading large-scale migration efforts"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 3,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "partner",
+    "lead",
+    "architect",
+    "collaborate",
+    "build"
+  ],
+  "segmentation_quality": "header"
+}

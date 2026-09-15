@@ -1,0 +1,117 @@
+{
+  "posting_id": "ec2d86123650e7b4",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "partner directly with customers"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "architect, build, and deploy high-scale production AI applications"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "own the journey with customers from initial exploration to production deployment"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "reliable, observable services with clear quality, latency, and cost outcomes"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "translating ambiguous business goals into reliable, observable services"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "product, software development, performance engineering"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "pre-sales solution engineering mixed in"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "technical customer success"
+    },
+    {
+      "canonical": "python",
+      "section": "responsibility",
+      "evidence": "preference for Python due to its relevance in ML projects"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "problem framing → evaluation → production deployment → monitoring"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "turn vague objectives into clear specs"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "well-defined PoCs so we can rapidly ship well-tested services"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "responsibility",
+      "evidence": "Optimize and enhance AI/ML projects"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "developing features and PRDs"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "functioning as both an engineer, project manager, and product manager"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "responsibility",
+      "evidence": "focus on user empathy, project specification"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "Demonstrate pride, ownership, and accountability"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "strong preference for Python"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "AI/ML pipelines and the lifecycle of ML model development and deployment"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Strong communication skills, particularly on complex technical topics"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 2,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "partner",
+    "own",
+    "develop",
+    "drive",
+    "deliver"
+  ],
+  "segmentation_quality": "header"
+}

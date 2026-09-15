@@ -1,0 +1,237 @@
+{
+  "posting_id": "4db37f9ad5666ad9",
+  "skills": [
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "Computer Use Agents...critical agentic-AI initiatives"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "partner with leading AI labs and enterprises"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "lead the technical execution of complex customer engagements"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "translate ambiguous product and model challenges into delivery plans"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "task environments, datasets, evaluators, and delivery plans"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "full delivery lifecycle...through implementation...production delivery"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "turn successful approaches into reusable capabilities, product improvements"
+    },
+    {
+      "canonical": "data_quality",
+      "section": "responsibility",
+      "evidence": "data-generation, validation, and quality-assurance pipelines"
+    },
+    {
+      "canonical": "computer_vision",
+      "section": "responsibility",
+      "evidence": "quality-assurance pipelines for multimodal...training data"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "measurement frameworks to assess task completion, correctness, robustness"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Diagnose agent failures across planning, tool use, perception"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "navigating ambiguity and making sound technical decisions"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Rapidly prototype and productionize solutions across models"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "agent frameworks, APIs, browser or desktop environments"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "responsibility",
+      "evidence": "Communicate technical tradeoffs, experimental results, and recommendations"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "recommendations clearly to technical and cross-functional stakeholders"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "responsibility",
+      "evidence": "Communicate technical tradeoffs, experimental results"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "trusted technical partner to customers and internal delivery teams"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Define and improve technical standards for agent task design"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner with DaaS Engineering, Research, and Product teams"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "Lead technical design reviews...provide guidance to other engineers"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "responsibility",
+      "evidence": "Stay current with emerging agentic-AI...evaluation techniques"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "5+ years...machine learning engineering, software engineering"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "requirement",
+      "evidence": "forward deployed engineering, solutions engineering"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Strong Python skills and experience building reliable production software"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "building, evaluating, or deploying LLM-based...systems"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "agentic systems, including computer-use agents (CUA)"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "LLM-as-a-judge / model-based evaluation, defining metrics"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "requirement",
+      "evidence": "defining metrics, and using empirical results to guide technical decisions"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "building or working with APIs, automation, web applications"
+    },
+    {
+      "canonical": "analytics",
+      "section": "requirement",
+      "evidence": "manipulating, analyzing, and validating large or complex datasets"
+    },
+    {
+      "canonical": "data_quality",
+      "section": "requirement",
+      "evidence": "analyzing, and validating large or complex datasets"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "ambiguous technical problems from problem definition through implementation"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Strong technical communication skills"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "experience working directly with customers or cross-functional stakeholders"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "experience working directly with customers or cross-functional stakeholders"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "requirement",
+      "evidence": "setting technical direction...influencing broader engineering or product decisions"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "requirement",
+      "evidence": "influencing broader engineering or product decisions"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "developing agent benchmarks, task suites, or simulators"
+    },
+    {
+      "canonical": "evals",
+      "section": "nice_to_have",
+      "evidence": "developing agent benchmarks, task suites, or simulators"
+    },
+    {
+      "canonical": "computer_vision",
+      "section": "nice_to_have",
+      "evidence": "multimodal models, visual grounding"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "nice_to_have",
+      "evidence": "building data pipelines for fine-tuning...benchmarking"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "nice_to_have",
+      "evidence": "data pipelines for fine-tuning, reinforcement learning, preference optimization"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "fast-paced, customer-facing environments where requirements evolve quickly"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "lead",
+    "design",
+    "build",
+    "develop",
+    "diagnose"
+  ],
+  "segmentation_quality": "header"
+}

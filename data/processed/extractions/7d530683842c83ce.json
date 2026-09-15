@@ -1,0 +1,132 @@
+{
+  "posting_id": "7d530683842c83ce",
+  "skills": [
+    {
+      "canonical": "ml_fundamentals",
+      "section": "responsibility",
+      "evidence": "take the cutting edge of machine learning, optimisation, and agentic systems"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "and agentic systems, and make it work inside real businesses"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "work directly with some of the world's biggest retailers and manufacturers"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "demand forecasting, price and promotion optimisation, and supply-chain decisioning"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "own the science end-to-end"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "What you learn on the front line feeds directly back into the products we build"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "frame the problem, build the solution"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "drive it to real commercial impact"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "from data scientists to customer executives"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "responsibility",
+      "evidence": "Stay at the edge of what's possible in applied AI"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "6+ years of experience in Data Science"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "The instinct to own outcomes, not tasks"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "you take an ambiguous problem and drive it to a result"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Fluent programming (Python and SQL)"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "Fluent programming (Python and SQL)"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "ability to pick up whatever a problem demands"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "explain a complex model to a non-technical room"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "take a customer executive from confusion to confidence"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "Comfort with ambiguity, direct customer contact"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "ideally with depth in forecasting, optimisation, or supply-chain / pricing"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "experience with agentic / LLM-based systems"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "experience with agentic / LLM-based systems"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "nice_to_have",
+      "evidence": "or building ML in production"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 6,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "own",
+    "frame",
+    "apply",
+    "operate",
+    "turn"
+  ],
+  "segmentation_quality": "header"
+}

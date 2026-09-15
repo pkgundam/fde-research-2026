@@ -1,0 +1,152 @@
+{
+  "posting_id": "38e936ddbd508680",
+  "skills": [
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "hands-on AI/ML and LLM experience"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "hands-on AI/ML and LLM experience"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "takes a build-first approach"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "You bring strong Python and cloud skills"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "You bring strong Python and cloud skills"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "experience with APIs, data analysis, and observability"
+    },
+    {
+      "canonical": "analytics",
+      "section": "requirement",
+      "evidence": "experience with APIs, data analysis, and observability"
+    },
+    {
+      "canonical": "observability",
+      "section": "requirement",
+      "evidence": "experience with APIs, data analysis, and observability"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "requirement",
+      "evidence": "can take systems from prototype to production"
+    },
+    {
+      "canonical": "rag",
+      "section": "requirement",
+      "evidence": "modern AI architectures (RAG, agents, evaluation)"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "modern AI architectures (RAG, agents, evaluation)"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "modern AI architectures (RAG, agents, evaluation)"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "strong communicator who can work directly with customers"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "work directly with customers, guide implementations"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "requirement",
+      "evidence": "guide implementations, and drive measurable impact"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "requirement",
+      "evidence": "guide implementations, and drive measurable impact"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "building AI-powered systems, APIs, and integrations"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "Hands-on engineering (building AI-powered systems"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Direct collaboration with customer engineering teams"
+    },
+    {
+      "canonical": "java",
+      "section": "requirement",
+      "evidence": "Languages: Python, Java, Scala"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "requirement",
+      "evidence": "prompt orchestration, evaluation frameworks"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "AWS, GCP, Azure, Docker, CI/CD, Git"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "AWS, GCP, Azure, Docker, CI/CD, Git"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "AWS, GCP, Azure, Docker, CI/CD, Git"
+    },
+    {
+      "canonical": "docker",
+      "section": "requirement",
+      "evidence": "AWS, GCP, Azure, Docker, CI/CD, Git"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "requirement",
+      "evidence": "AWS, GCP, Azure, Docker, CI/CD, Git"
+    },
+    {
+      "canonical": "git",
+      "section": "requirement",
+      "evidence": "AWS, GCP, Azure, Docker, CI/CD, Git"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 9,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "build",
+    "integrate",
+    "collaborate",
+    "guide",
+    "ship"
+  ],
+  "segmentation_quality": "header"
+}

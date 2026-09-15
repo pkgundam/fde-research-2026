@@ -1,0 +1,142 @@
+{
+  "posting_id": "6703d823b376f4fb",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Embed directly with clients to gather requirements"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "scope the requirements, and then roll up your sleeves"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "translate ambiguous client challenges into concrete requirements"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Embed directly with clients to gather requirements"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "delivering high-impact, AI-driven solutions with extreme ownership"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "who thrives autonomously"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "translating ambiguous operational challenges into concrete technical architectures"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "translate ambiguous client challenges into concrete requirements"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "Train and deploy custom AI agents to prevent fraud"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "responsibility",
+      "evidence": "advanced prompt engineering, fine-tuning, and rigorous evaluation frameworks"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "automate complex fincrime workflows across a diverse portfolio"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "responsibility",
+      "evidence": "Utilize advanced prompt engineering, fine-tuning, and rigorous evaluation"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "rigorous evaluation frameworks to continuously optimize AI agent performance"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "responsibility",
+      "evidence": "ensuring high accuracy, safety, and reliability"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Collaborate tightly with internal engineering and product teams"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "demonstrating the tangible business impact of advanced machine learning"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "obsessed with delivering measurable business value"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "responsibility",
+      "evidence": "tangible business impact of advanced machine learning interventions"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "5+ years of experience in Data Science or Applied AI"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "Establish and evolve our AI risk metrics"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "responsibility",
+      "evidence": "scale custom models into production, ensuring seamless integration"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "ensuring seamless integration and optimized operational performance"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Proficiency in Python and SQL for complex data manipulation"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "Proficiency in Python and SQL for complex data manipulation"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "requirement",
+      "evidence": "complex data manipulation, pipeline building, and model integration"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "embed",
+    "train",
+    "deploy",
+    "optimize",
+    "collaborate"
+  ],
+  "segmentation_quality": "header"
+}

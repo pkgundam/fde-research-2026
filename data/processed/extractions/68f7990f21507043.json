@@ -1,0 +1,52 @@
+{
+  "posting_id": "68f7990f21507043",
+  "skills": [
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "benchmark, train and deploy agentic systems"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "applied automation, machine learning and agentic engineering"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "applied automation, machine learning and agentic engineering"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "AI-forward consulting startup serving the mid-market"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "prior experience in multiple industries"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "Both are front-facing development roles"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "tackling real business problems"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "benchmark",
+    "train",
+    "deploy",
+    "navigate",
+    "design"
+  ],
+  "segmentation_quality": "inferred"
+}

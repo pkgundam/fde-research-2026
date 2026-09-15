@@ -1,0 +1,167 @@
+{
+  "posting_id": "d19f24f06aad0fe0",
+  "skills": [
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Build and maintain production software supporting customer deployments"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Partner with senior engineers to design and deliver customer-facing solutions"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Collaborate with Engineering, Research, Product, and Operations teams"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "build scalable production systems"
+    },
+    {
+      "canonical": "react",
+      "section": "responsibility",
+      "evidence": "Develop full-stack applications using React, TypeScript"
+    },
+    {
+      "canonical": "typescript",
+      "section": "responsibility",
+      "evidence": "Develop full-stack applications using React, TypeScript, and modern backend technologies"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "translate customer requirements into reliable, scalable software solutions"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "Improve system reliability, performance, and maintainability"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "responsibility",
+      "evidence": "Improve system reliability, performance, and maintainability"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "responsibility",
+      "evidence": "Continuously learn, grow, and contribute"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Strong programming skills using TypeScript, React"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "Strong programming skills using TypeScript, React, and modern backend development"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "Solid understanding of relational databases (e.g., PostgreSQL)"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "relational databases, APIs, and software engineering fundamentals"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "Familiarity with cloud platforms such as AWS or GCP"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "Familiarity with cloud platforms such as AWS or GCP"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "thrive in fast-moving, ambiguous environments"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "Excellent collaboration and communication skills"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Excellent collaboration and communication skills"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "nice_to_have",
+      "evidence": "collaborating with globally distributed engineering teams"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "Experience working on customer-facing products or implementation projects"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "nice_to_have",
+      "evidence": "customer-facing products or implementation projects"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "Experience with AI-powered applications or machine learning infrastructure"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "nice_to_have",
+      "evidence": "AI-powered applications or machine learning infrastructure"
+    },
+    {
+      "canonical": "docker",
+      "section": "nice_to_have",
+      "evidence": "Familiarity with Docker, Kubernetes, and CI/CD pipelines"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "nice_to_have",
+      "evidence": "Familiarity with Docker, Kubernetes, and CI/CD pipelines"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "nice_to_have",
+      "evidence": "Familiarity with Docker, Kubernetes, and CI/CD pipelines"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "nice_to_have",
+      "evidence": "Customer deployments launch successfully and deliver measurable value"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "nice_to_have",
+      "evidence": "continue to grow technically while helping build"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "nice_to_have",
+      "evidence": "keep multiple workstreams moving in parallel"
+    }
+  ],
+  "seniority": "junior",
+  "years_required": 3,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 3,
+  "responsibility_verbs": [
+    "build",
+    "partner",
+    "collaborate",
+    "develop",
+    "translate"
+  ],
+  "segmentation_quality": "header"
+}

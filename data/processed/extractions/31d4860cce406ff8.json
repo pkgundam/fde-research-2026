@@ -1,0 +1,31 @@
+{
+  "posting_id": "31d4860cce406ff8",
+  "skills": [
+    { "canonical": "customer_facing", "section": "responsibility", "evidence": "Work directly with customers (PE analysts/partners)" },
+    { "canonical": "domain_expertise", "section": "responsibility", "evidence": "customers (PE analysts/partners)" },
+    { "canonical": "scoping", "section": "responsibility", "evidence": "turn messy workflows into productized features" },
+    { "canonical": "prototyping", "section": "responsibility", "evidence": "Rapidly prototype, measure impact, harden for production" },
+    { "canonical": "metrics_measurement", "section": "responsibility", "evidence": "measure impact" },
+    { "canonical": "implementation_onboarding", "section": "responsibility", "evidence": "harden for production" },
+    { "canonical": "typescript", "section": "requirement", "evidence": "Node/TypeScript (strict)" },
+    { "canonical": "react", "section": "requirement", "evidence": "React Router 7/React 19" },
+    { "canonical": "sql", "section": "requirement", "evidence": "PostgreSQL + Prisma + pgvector" },
+    { "canonical": "rag", "section": "requirement", "evidence": "AI workflows with embeddings & LLMs" },
+    { "canonical": "llm_apis", "section": "requirement", "evidence": "AI workflows with embeddings & LLMs" },
+    { "canonical": "product_sense", "section": "requirement", "evidence": "great product sense" },
+    { "canonical": "expectation_management", "section": "requirement", "evidence": "calm under ambiguity" },
+    { "canonical": "ownership_autonomy", "section": "requirement", "evidence": "hands-on engineers who want outsized impact" }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "none",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "work",
+    "turn",
+    "prototype",
+    "measure",
+    "harden"
+  ],
+  "segmentation_quality": "inferred"
+}

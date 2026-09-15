@@ -1,0 +1,187 @@
+{
+  "posting_id": "ef16af3c0af2ab65",
+  "skills": [
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "high-level system design and prototyping to application development"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "understand our customers' greatest pain points"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "solicit constant feedback on their work from both customers"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "deploy ground breaking technical solutions to solve our customers'"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "from high-level system design and prototyping to application development"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "responsibility",
+      "evidence": "to application development and data integration"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "gain rare insight into the world's most important industries"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "responsibility",
+      "evidence": "You'll learn how to unpack a problem and understand"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "work autonomously and make decisions independently, within a community"
+    },
+    {
+      "canonical": "sql",
+      "section": "responsibility",
+      "evidence": "Postgres, Cassandra, Hadoop, and Spark for distributed data storage"
+    },
+    {
+      "canonical": "nosql",
+      "section": "responsibility",
+      "evidence": "Cassandra, Hadoop, and Spark for distributed data storage and parallel computing"
+    },
+    {
+      "canonical": "java",
+      "section": "responsibility",
+      "evidence": "Java and Groovy for our back-end applications and data integration"
+    },
+    {
+      "canonical": "typescript",
+      "section": "responsibility",
+      "evidence": "Typescript, React, Leaflet, and d3 for our web technologies"
+    },
+    {
+      "canonical": "react",
+      "section": "responsibility",
+      "evidence": "Typescript, React, Leaflet, and d3 for our web technologies"
+    },
+    {
+      "canonical": "python",
+      "section": "responsibility",
+      "evidence": "Python for data processing and analysis"
+    },
+    {
+      "canonical": "analytics",
+      "section": "responsibility",
+      "evidence": "Python for data processing and analysis"
+    },
+    {
+      "canonical": "aws",
+      "section": "responsibility",
+      "evidence": "Palantir cloud infrastructure based on AWS EC2 and S3"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "work internally with people from a variety of backgrounds"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "work externally with our customers, often on site"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "responsibility",
+      "evidence": "trust each other to effectively manage time and priorities"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "Experience with logistics, materiel, sustainment, aviation, or readiness analysis"
+    },
+    {
+      "canonical": "algorithms",
+      "section": "requirement",
+      "evidence": "Familiarity with data structures, storage systems, cloud infrastructure"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "storage systems, cloud infrastructure, front-end frameworks, and other technical tools"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "cloud infrastructure, front-end frameworks, and other technical tools"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "requirement",
+      "evidence": "Understanding of how technical decisions impact the user"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "demonstrated proficiency in programming languages such as Python, Java"
+    },
+    {
+      "canonical": "java",
+      "section": "requirement",
+      "evidence": "demonstrated proficiency in programming languages such as Python, Java"
+    },
+    {
+      "canonical": "cpp",
+      "section": "requirement",
+      "evidence": "demonstrated proficiency in programming languages such as Python, Java"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "demonstrated proficiency in programming languages such as Python, Java"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "collaborate effectively in teams of technical and non-technical individuals"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "rapidly changing environment with dynamic objectives and iteration with users"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "Demonstrated ability to continuously learn, work independently"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "work independently, and make decisions with minimal supervision"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "Willingness and interest to travel within country as needed"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "design",
+    "deploy",
+    "build",
+    "integrate",
+    "learn"
+  ],
+  "segmentation_quality": "header"
+}

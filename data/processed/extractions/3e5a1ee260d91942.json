@@ -1,0 +1,252 @@
+{
+  "posting_id": "3e5a1ee260d91942",
+  "skills": [
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "put that platform into production with our customers"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "work more closely with Platform customers than anyone else"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "connecting their systems and applications to the Suki Platform APIs"
+    },
+    {
+      "canonical": "speech",
+      "section": "responsibility",
+      "evidence": "shaping how dictation, ambient, text generation, and summarization gets deployed"
+    },
+    {
+      "canonical": "nlp",
+      "section": "responsibility",
+      "evidence": "text generation, and summarization gets deployed"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Customer scoping. Sit with a customer's engineers, product owners"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "understand what they want to build and what success measures"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "work through the security, data, and edge-case problems"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Solution design. Decide how dictation, ambient...should combine"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "estimate the complexity and timeline and commit to it"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "responsibility",
+      "evidence": "Stand up distributed applications across on-premises and cloud-hosted environments"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "responsibility",
+      "evidence": "Stand up distributed applications across on-premises and cloud-hosted environments"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Explain technical decisions and trade-offs to non-technical and executive audiences"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "carry their feedback back to our engineers and data scientists"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "responsibility",
+      "evidence": "Explain technical decisions and trade-offs"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "You own the loop from a customer needs this to production"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "5+ years in technical consulting, application development"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "requirement",
+      "evidence": "application development, or solutions engineering"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "High proficiency in one of Python, Golang, or Java"
+    },
+    {
+      "canonical": "go",
+      "section": "requirement",
+      "evidence": "High proficiency in one of Python, Golang, or Java"
+    },
+    {
+      "canonical": "java",
+      "section": "requirement",
+      "evidence": "High proficiency in one of Python, Golang, or Java"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "working proficiency with TypeScript, JavaScript, and React"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "working proficiency with TypeScript, JavaScript, and React"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "Familiarity with OpenAPI 3.0 and a basic grasp of API security"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "basic grasp of API security"
+    },
+    {
+      "canonical": "project_management",
+      "section": "requirement",
+      "evidence": "estimating project complexity and timelines and delivering within them"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "requirement",
+      "evidence": "deploying distributed applications in on-premises datacenters"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "deploying distributed applications in cloud-hosted datacenters"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "deploying distributed applications in both on-premises and cloud-hosted datacenters"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "partnering with cross-functional stakeholders on the customer side"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "translating technical concepts for non-technical and executive audiences"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "Genuine curiosity about where AI, LLMs...are heading"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "curiosity about where AI, LLMs, NLP...are heading"
+    },
+    {
+      "canonical": "nlp",
+      "section": "requirement",
+      "evidence": "curiosity about where AI, LLMs, NLP...are heading"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "NLP, and agentic architectures are heading"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "requirement",
+      "evidence": "You like to ship, iterate quickly, and see how users react"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "you keep the business impact in view"
+    },
+    {
+      "canonical": "analytics",
+      "section": "requirement",
+      "evidence": "You use data to decide where to go next"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "communicate clearly with engineers and customers alike"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "communicate clearly with engineers and customers alike, including onsite"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "including onsite with their technology and IT teams"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "Our stack: GCP, Kubernetes, Vertex AI"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "Our stack: GCP, Kubernetes, Vertex AI"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "PyTorch, JAX, Transformers"
+    },
+    {
+      "canonical": "cpp",
+      "section": "requirement",
+      "evidence": "Golang, Python, C++, PyTorch"
+    },
+    {
+      "canonical": "algorithms",
+      "section": "nice_to_have",
+      "evidence": "CS fundamentals, including abstractions, algorithms...data structures"
+    },
+    {
+      "canonical": "system_design",
+      "section": "nice_to_have",
+      "evidence": "data structures, and system design, is preferred"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "scope",
+    "connect",
+    "design",
+    "deploy",
+    "explain"
+  ],
+  "segmentation_quality": "header"
+}

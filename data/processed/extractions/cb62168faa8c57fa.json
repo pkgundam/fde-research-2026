@@ -1,0 +1,187 @@
+{
+  "posting_id": "cb62168faa8c57fa",
+  "skills": [
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "built integrations, APIs, or automation pipelines in production"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "nice_to_have",
+      "evidence": "built custom nodes, connectors, plugins, SDKs, or reusable integration frameworks"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "Design and build workflows, integrations, and custom nodes"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "requirement",
+      "evidence": "work confidently with APIs, authentication patterns, data models"
+    },
+    {
+      "canonical": "data_modeling",
+      "section": "requirement",
+      "evidence": "work confidently with APIs, authentication patterns, data models"
+    },
+    {
+      "canonical": "streaming",
+      "section": "requirement",
+      "evidence": "authentication patterns, data models, and event-driven systems"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "requirement",
+      "evidence": "distinguish between a one-off customer workaround ... product feature"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "responsibility",
+      "evidence": "Identify when a bespoke customer requirement should become a reusable node improvement"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "comfortable working directly in customer environments"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "embedding on-site, solving real customer problems"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "build trust with engineers, operators, and non-technical stakeholders"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "align technical execution with customer priorities, stakeholder needs"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "take a messy operational problem and turn it into a clean, practical technical design"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Translate ambiguous business problems into concrete automation designs"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "turn it into a clean, practical technical design"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "turning complex customer environments into clear, actionable solutions"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "requirement",
+      "evidence": "know when to build, when to push back"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "responsibility",
+      "evidence": "Know when to build, when to simplify, and when to push back"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "travelling roughly 50-60% of the time for on-site engagements"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Embed on-site with enterprise customers for focused 5-day deployment engagements"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "quickly understand new industries, tech stacks, and customer environments"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "responsibility",
+      "evidence": "Work across industries and tech stacks, getting productive quickly"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "nice_to_have",
+      "evidence": "Enterprise deployment experience: worked with strategic enterprise accounts"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "turn n8n's most strategic enterprise deployments into production-ready success stories"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "nice_to_have",
+      "evidence": "worked in a forward deployed, solutions engineering, or similar role"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "nice_to_have",
+      "evidence": "turn customer learnings into clear product feedback, roadmap input"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Create a clear feedback loop with Product and Engineering"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "work directly with customers, Deployment Strategists, and Product"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "Translate ambiguous business problems into concrete automation designs"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "prioritize real customer value over technical complexity"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "Work across industries and tech stacks"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "documenting technical gaps, customer context, implementation learnings"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "contribute reusable learnings, workflows, custom nodes ... to an internal playbook library"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "Deliver time-boxed customer engagements with clear outcomes"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "embed",
+    "build",
+    "design",
+    "translate",
+    "partner"
+  ],
+  "segmentation_quality": "header"
+}

@@ -1,0 +1,107 @@
+{
+  "posting_id": "384e994a0bf97a5f",
+  "skills": [
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "powers the agentic analysis, FP&A, and book-close experiences"
+    },
+    {
+      "canonical": "data_quality",
+      "section": "responsibility",
+      "evidence": "turn messy financial data into a fast, trustworthy, governed data layer"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "You'll own the surfaces customers actually touch"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "own the surfaces customers actually touch"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "comfortable designing the API that feeds it"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "production LLM systems rather than being bolted on at the end"
+    },
+    {
+      "canonical": "react",
+      "section": "responsibility",
+      "evidence": "from React UI through to the APIs and data contracts behind them"
+    },
+    {
+      "canonical": "data_modeling",
+      "section": "responsibility",
+      "evidence": "APIs and data contracts behind them"
+    },
+    {
+      "canonical": "analytics",
+      "section": "responsibility",
+      "evidence": "Build BI-tool-quality interfaces for agentic analysis"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Deep frontend expertise: TypeScript, React"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "Deep frontend expertise: TypeScript, React"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "Fluency with the latest AI coding models and agentic development workflows"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "Fluency with the latest AI coding models"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "Comfort working across the stack, including API design"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "API design and backend systems"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "owning them through ambiguity"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "requirement",
+      "evidence": "shipping polished, production-grade product experiences"
+    },
+    {
+      "canonical": "analytics",
+      "section": "nice_to_have",
+      "evidence": "experience with BI tools, data visualization, or financial/analytics products"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 2,
+  "responsibility_verbs": [
+    "design",
+    "ship",
+    "build",
+    "own",
+    "partner"
+  ],
+  "segmentation_quality": "header"
+}

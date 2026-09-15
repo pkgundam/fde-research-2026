@@ -1,0 +1,77 @@
+{
+  "posting_id": "a88614ab65a41f73",
+  "skills": [
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "We're building agentic AI for mortgage lending"
+    },
+    {
+      "canonical": "unstructured_data",
+      "section": "responsibility",
+      "evidence": "routing scanned pages to OCR vs. text extraction"
+    },
+    {
+      "canonical": "computer_vision",
+      "section": "responsibility",
+      "evidence": "routing scanned pages to OCR vs. text extraction"
+    },
+    {
+      "canonical": "data_quality",
+      "section": "responsibility",
+      "evidence": "extraction pipelines where a wrong number is much worse"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "We put real effort into eval infrastructure"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "We're building agentic AI for mortgage lending"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "does not survive contact with a lender's compliance team"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Stack: Python, PydanticAI, Restate for durable execution, Postgres, AWS"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "Stack: Python, PydanticAI, Restate for durable execution, Postgres, AWS"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "Stack: Python, PydanticAI, Restate for durable execution, Postgres, AWS"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "Frontier models from OpenAI and Anthropic plus open-source"
+    },
+    {
+      "canonical": "llm_frameworks",
+      "section": "requirement",
+      "evidence": "Stack: Python, PydanticAI, Restate for durable execution"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 2,
+  "responsibility_verbs": [
+    "build",
+    "route",
+    "extract",
+    "run",
+    "evaluate"
+  ],
+  "segmentation_quality": "inferred"
+}

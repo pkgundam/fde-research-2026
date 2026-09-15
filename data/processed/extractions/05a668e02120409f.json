@@ -1,0 +1,42 @@
+{
+  "posting_id": "05a668e02120409f",
+  "skills": [
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "embed into our most important enterprise accounts"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "work shoulder-to-shoulder with customers"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "working alongside AI agents"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "you own the relationship and the build"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "turn their hardest questions into working solutions"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "embed",
+    "understand",
+    "build",
+    "work",
+    "own"
+  ],
+  "segmentation_quality": "inferred"
+}

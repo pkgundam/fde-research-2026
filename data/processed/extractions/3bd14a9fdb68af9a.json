@@ -1,0 +1,152 @@
+{
+  "posting_id": "3bd14a9fdb68af9a",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Drive adoption of Fin by helping customers automate"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Embed with strategic customers to understand workflows"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "understand their support workflows, data, and business challenges"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "best practices in measurement and AI adoption"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "Steer customers toward best practices"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner closely with Sales, Success, and Product"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "create feedback loops that shape product development"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "seamless customer experiences and successful deployments"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Use AI to prototype, test, and scale"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "apply data science in real-world business contexts"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "real-world business contexts to drive measurable outcomes"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "skilled at working across Sales, Success, Product"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "High adaptability and ownership"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "High adaptability and ownership"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Excellent communication skills, both technical and non-technical"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "requirement",
+      "evidence": "Rapid prototyping with systems thinking"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "Rapid prototyping with systems thinking"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "Excellent SQL and production-aware Python"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Excellent SQL and production-aware Python"
+    },
+    {
+      "canonical": "analytics",
+      "section": "requirement",
+      "evidence": "applying analytical and statistical methods to business problems"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "Experience with AI/ML evaluation, LLM-driven applications"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "LLM-driven applications, or conversational AI"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "Willing to travel and work on-site with customers"
+    },
+    {
+      "canonical": "consulting",
+      "section": "nice_to_have",
+      "evidence": "Experience in technical consulting"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "customer-facing analytics, or SaaS product data science"
+    },
+    {
+      "canonical": "analytics",
+      "section": "nice_to_have",
+      "evidence": "customer-facing analytics, or SaaS product data science"
+    },
+    {
+      "canonical": "scoping",
+      "section": "nice_to_have",
+      "evidence": "spotted when the question you were handed wasn't right"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "drive",
+    "embed",
+    "steer",
+    "partner",
+    "prototype"
+  ],
+  "segmentation_quality": "inferred"
+}

@@ -1,0 +1,22 @@
+{
+  "posting_id": "3de740bf278252a8",
+  "skills": [
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "autonomous vehicle or robotics industry is a bonus"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 3,
+  "responsibility_verbs": [
+    "deploy",
+    "build",
+    "support",
+    "integrate",
+    "troubleshoot"
+  ],
+  "segmentation_quality": "inferred"
+}

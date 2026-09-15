@@ -1,0 +1,102 @@
+{
+  "posting_id": "44b4481732a79630",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "embed directly with customers' engineering teams"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "solve real problems with Exa's API"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Debug and resolve technical issues across the full stack"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "from API behavior to frontend rendering"
+    },
+    {
+      "canonical": "react",
+      "section": "responsibility",
+      "evidence": "from API behavior to frontend rendering"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "translate them into product improvements, shipping fixes"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Build and ship demos, tutorials, and sample applications"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "Run many sales and technical calls each week"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "adapting your pitch to CTOs, engineers, and PMs"
+    },
+    {
+      "canonical": "analytics",
+      "section": "responsibility",
+      "evidence": "Analyze usage data and customer interactions"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "spot churn risk early and drive expansion"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "build and deploy a production server from scratch"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "Comfort with direct customer interaction"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "High tolerance for context-switching, ambiguity"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "Willingness to travel as needed for customer engagements"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "nice_to_have",
+      "evidence": "Thrive in early-stage environments where your job description changes"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "nice_to_have",
+      "evidence": "closed revenue or driven commercial outcomes"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "embed",
+    "debug",
+    "build",
+    "run",
+    "analyze"
+  ],
+  "segmentation_quality": "header"
+}

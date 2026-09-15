@@ -1,0 +1,32 @@
+{
+  "posting_id": "538f75c822754948",
+  "skills": [
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "build, deploy, and orchestrate AI agents with security, governance"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Applied AI Engineer: Deploy AI solutions with customers"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "build, deploy, and orchestrate AI agents with security, governance"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "build",
+    "deploy",
+    "orchestrate",
+    "capture",
+    "improve"
+  ],
+  "segmentation_quality": "inferred"
+}

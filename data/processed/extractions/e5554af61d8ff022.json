@@ -1,0 +1,42 @@
+{
+  "posting_id": "e5554af61d8ff022",
+  "skills": [
+    {"canonical": "go", "section": "requirement", "evidence": "Proficiency in Go and experience building production-grade operators"},
+    {"canonical": "kubernetes", "section": "requirement", "evidence": "Hands-on experience with Kubernetes internals, custom resources"},
+    {"canonical": "aws", "section": "requirement", "evidence": "cloud-managed Kubernetes services (EKS, GKE, AKS)"},
+    {"canonical": "gcp", "section": "requirement", "evidence": "cloud-managed Kubernetes services (EKS, GKE, AKS)"},
+    {"canonical": "azure", "section": "requirement", "evidence": "cloud-managed Kubernetes services (EKS, GKE, AKS)"},
+    {"canonical": "sql", "section": "requirement", "evidence": "Understanding of database deployment patterns, backup/restore, replication"},
+    {"canonical": "system_design", "section": "requirement", "evidence": "Distributed systems experience - Familiarity with consensus protocols"},
+    {"canonical": "iac", "section": "requirement", "evidence": "IaC (Terraform, Pulumi), and cloud provider APIs"},
+    {"canonical": "cloud_platforms", "section": "requirement", "evidence": "Experience with cloud-native deployment tooling"},
+    {"canonical": "observability", "section": "requirement", "evidence": "building reliable, observable, and maintainable systems"},
+    {"canonical": "incident_response", "section": "requirement", "evidence": "Production operations mindset - Track record of building reliable"},
+    {"canonical": "kubernetes", "section": "nice_to_have", "evidence": "CSI storage drivers and storage orchestration in Kubernetes"},
+    {"canonical": "networking", "section": "nice_to_have", "evidence": "cross-cloud networking tools like Cilium, Istio"},
+    {"canonical": "sql", "section": "nice_to_have", "evidence": "sharded query serving systems like Vitess"},
+    {"canonical": "ownership_autonomy", "section": "responsibility", "evidence": "own the deployment and operational infrastructure of Multigres"},
+    {"canonical": "kubernetes", "section": "responsibility", "evidence": "creating the tooling that powers our Kubernetes-based infrastructure"},
+    {"canonical": "sql", "section": "responsibility", "evidence": "orchestrates distributed Postgres deployments"},
+    {"canonical": "go", "section": "responsibility", "evidence": "Maintain our Go-based Kubernetes operator"},
+    {"canonical": "aws", "section": "responsibility", "evidence": "robust deployment patterns for EKS and other Kubernetes platforms"},
+    {"canonical": "system_design", "section": "responsibility", "evidence": "Architect cloud deployment infrastructure - Design and implement robust deployment patterns"},
+    {"canonical": "cloud_platforms", "section": "responsibility", "evidence": "Architect cloud deployment infrastructure"},
+    {"canonical": "networking", "section": "responsibility", "evidence": "Manage storage and networking layers"},
+    {"canonical": "observability", "section": "responsibility", "evidence": "Build monitoring, alerting, and diagnostic capabilities"},
+    {"canonical": "cross_functional", "section": "responsibility", "evidence": "Work with database engineers, SRE, and product teams"},
+    {"canonical": "incident_response", "section": "responsibility", "evidence": "Work with database engineers, SRE, and product teams"}
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "none",
+  "customer_facing_intensity": 1,
+  "responsibility_verbs": [
+    "build",
+    "maintain",
+    "architect",
+    "design",
+    "collaborate"
+  ],
+  "segmentation_quality": "header"
+}

@@ -1,0 +1,62 @@
+{
+  "posting_id": "fc537f10d358a91c",
+  "skills": [
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "system of record for enterprise marketing compliance"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "Our AI agents turn hours of manual brand"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "run discovery, figure out what's really going wrong"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "configure and ship against it"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "bring that signal back to product"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "work directly alongside our CEO in live enterprise cycles"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "requirement",
+      "evidence": "solutions engineering, field engineering, or technical founder background"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "You've been in enterprise rooms"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "requirement",
+      "evidence": "build the thing that proves the fix"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 7,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "discover",
+    "configure",
+    "ship",
+    "learn",
+    "build"
+  ],
+  "segmentation_quality": "inferred"
+}

@@ -1,0 +1,222 @@
+{
+  "posting_id": "8af14cf140b8d255",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Collaborate on impactful customer big data projects"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "responsibility",
+      "evidence": "Collaborate on impactful customer big data projects"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "creating reference architectures, developing how-to guides"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "creating reference architectures, developing how-to guides"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "production-ready efficient, robust and scalable tools"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "Advise strategic customers on transformational big data initiatives"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "deployment of cutting-edge big data and AI applications"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "successful adoption and integration of Databricks solutions"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner with Engineering and Customer Support teams"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "deliver feedback, resolve engagement-specific issues, and drive"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "resolve engagement-specific issues, and drive continuous product"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "Simultaneously manage and guide multiple diverse projects"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "proactively identifying and mitigating risks"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "responsibility",
+      "evidence": "Simultaneously manage and guide multiple diverse projects"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "responsibility",
+      "evidence": "delivering tailored solutions in data engineering and data science"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "responsibility",
+      "evidence": "strong product development mindset and deliver robust"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "responsibility",
+      "evidence": "secure and proven guardrails that can be leveraged"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "secure and proven guardrails that can be leveraged"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "requirement",
+      "evidence": "Big Data Technologies such as Apache Spark, Kafka"
+    },
+    {
+      "canonical": "streaming",
+      "section": "requirement",
+      "evidence": "Big Data Technologies such as Apache Spark, Kafka"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "Kafka, Cloud Native and Data Lakes"
+    },
+    {
+      "canonical": "data_warehouses",
+      "section": "requirement",
+      "evidence": "Cloud Native and Data Lakes in a customer-facing"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "in a customer-facing post-sales, technical architecture"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "technical architecture or consulting role"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "experience working on Big Data Architectures independently"
+    },
+    {
+      "canonical": "rag",
+      "section": "requirement",
+      "evidence": "AI based implementations including RAG, MCP, Context engineering"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "AI based implementations including RAG, MCP, Context engineering"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "requirement",
+      "evidence": "RAG, MCP, Context engineering etc"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Comfortable writing code in either Python or Scala"
+    },
+    {
+      "canonical": "java",
+      "section": "requirement",
+      "evidence": "Comfortable writing code in either Python or Scala"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "Experience working across Cloud Platforms (GCP / AWS / Azure)"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "Cloud Platforms (GCP / AWS / Azure)"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "Cloud Platforms (GCP / AWS / Azure)"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "Documentation and white-boarding skills"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "turn business problems in to reliable technical products"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "requirement",
+      "evidence": "turn business problems in to reliable technical products"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "Build skills in technical areas that support the deployment"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "requirement",
+      "evidence": "deployment and integration of Databricks-based solutions"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "Excellent stakeholder management skills to collaborate"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "collaborate with both technical and domain experts"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "solutions that can last long in the GenAI world"
+    }
+  ],
+  "seniority": "staff_plus",
+  "years_required": 15,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "collaborate",
+    "advise",
+    "provide",
+    "partner",
+    "manage"
+  ],
+  "segmentation_quality": "header"
+}

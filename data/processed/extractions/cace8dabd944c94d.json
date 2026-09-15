@@ -1,0 +1,77 @@
+{
+  "posting_id": "cace8dabd944c94d",
+  "skills": [
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "You should be a full-stack TypeScript engineer"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "who has built agents"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "explain technical decisions clearly to engineers who haven't"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "agents, workflows, memory, evals, tracing"
+    },
+    {
+      "canonical": "llm_observability",
+      "section": "responsibility",
+      "evidence": "agents, workflows, memory, evals, tracing"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "framework for building AI agents"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "you're embedded with paying customers deploying agents to production"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "embedded with paying customers deploying agents to production"
+    },
+    {
+      "canonical": "git",
+      "section": "responsibility",
+      "evidence": "writing code in their repos, reviewing their PRs"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "working through architecture with their engineers"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "comes back as bug fixes, features, and new primitives"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "top bug-fixers in the entire codebase"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "ship",
+    "embed",
+    "deploy",
+    "write",
+    "review"
+  ],
+  "segmentation_quality": "inferred"
+}

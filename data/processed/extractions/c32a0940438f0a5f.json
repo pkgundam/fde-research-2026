@@ -1,0 +1,192 @@
+{
+  "posting_id": "c32a0940438f0a5f",
+  "skills": [
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Own the technical partner journey for priority B2B plugins"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Identify strong plugin use cases, define crisp user journeys"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "responsibility",
+      "evidence": "help partners focus on workflows where ... meaningful user value"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "build prototypes and reference implementations"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "create the technical guidance, evals, launch checklists"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "create the technical guidance, evals, launch checklists"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Debug API contracts, OAuth/login, tool invocation"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "Debug API contracts, OAuth/login, tool invocation"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "responsibility",
+      "evidence": "Debug API contracts, OAuth/login"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "rate limits, observability, data model"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "tool invocation, latency, retries, rate limits"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Review partner architectures and implementation plans"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "data handling, safety, privacy, reliability"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "responsibility",
+      "evidence": "partner debugging workflows, and launch guardrails"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Work with product, engineering, design, partnerships, legal"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Bring structured signal from partners back to product"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "built and operated production APIs, backend services"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "requirement",
+      "evidence": "reason across frontend, backend, auth, reliability"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "reliability, privacy, evaluations, and UX constraints"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "requirement",
+      "evidence": "Bring strong product sense"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "Communicate clearly with external engineers, product leaders, executives"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "requirement",
+      "evidence": "concrete through runnable prototypes, API contracts"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "make ambiguous partner ideas concrete"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "debugging distributed systems with logs, traces, metrics"
+    },
+    {
+      "canonical": "observability",
+      "section": "requirement",
+      "evidence": "logs, traces, metrics, and experiments"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "user trust, privacy, data handling, and product quality"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "requirement",
+      "evidence": "Balance urgency with judgment"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "nice_to_have",
+      "evidence": "OAuth/login flows, API design, webhooks"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "nice_to_have",
+      "evidence": "API design, webhooks, schemas, rate limits"
+    },
+    {
+      "canonical": "observability",
+      "section": "nice_to_have",
+      "evidence": "rate limits, observability, SDKs"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "Prior customer-facing or partner-facing engineering experience"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "nice_to_have",
+      "evidence": "leading technical calls, navigating ambiguity"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "Familiarity with AI products, LLM APIs, tool calling, MCP"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "tool calling, MCP, ChatGPT or Codex surfaces"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "nice_to_have",
+      "evidence": "Strong written communication skills, including docs"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 4,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "own",
+    "identify",
+    "write",
+    "debug",
+    "review"
+  ],
+  "segmentation_quality": "header"
+}

@@ -1,0 +1,52 @@
+{
+  "posting_id": "6de9bff3adfdd56f",
+  "skills": [
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Stack is Rails, Python, TypeScript, Postgres, and AWS"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Stack is Rails, Python, TypeScript, Postgres, and AWS"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "Stack is Rails, Python, TypeScript, Postgres, and AWS"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "Stack is Rails, Python, TypeScript, Postgres, and AWS"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "working closely with customers that are household names"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "run their implementations to ground"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "enable the broader set of customers"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "implement",
+    "run",
+    "enable",
+    "build",
+    "support"
+  ],
+  "segmentation_quality": "inferred"
+}

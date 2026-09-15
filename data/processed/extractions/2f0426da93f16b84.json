@@ -1,0 +1,82 @@
+{
+  "posting_id": "2f0426da93f16b84",
+  "skills": [
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Leading customers through implementation, onboarding, and adoption"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Conducting 2-4 high-impact customer sessions daily"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "hands-on modeling and training calls"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partnering with internal product and success teams"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "improve Runway's onboarding experience"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "Measuring and driving outcomes like time-to-value"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "Comfort working with SQL and structured data"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "requirement",
+      "evidence": "Experience in SaaS onboarding, consulting, or FP&A roles"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "Experience in SaaS onboarding, consulting, or FP&A roles"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Exceptional communication and relationship-building abilities"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "Exceptional communication and relationship-building abilities"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "requirement",
+      "evidence": "Ability to prioritize and adapt in a dynamic, fast-moving environment"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "adapt in a dynamic, fast-moving environment"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "lead",
+    "conduct",
+    "build",
+    "partner",
+    "measure"
+  ],
+  "segmentation_quality": "header"
+}

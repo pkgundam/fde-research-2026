@@ -1,0 +1,122 @@
+{
+  "posting_id": "a2e43e590e310eb4",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Land inside a customer's environment, understand what they're building"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "forward-deployed, solutions, or customer-facing engineering"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "understand what they're building, and make Firecrawl work"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "build integrations and POCs that turn ... into production"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "requirement",
+      "evidence": "you can read code, use an API, and build a real POC"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "build integrations and POCs that turn ... into production"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "you can read code, use an API, and build a real POC"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "diagnose where a customer's extraction or pipeline breaks"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "tell user error from a bug from a real product gap"
+    },
+    {
+      "canonical": "unstructured_data",
+      "section": "responsibility",
+      "evidence": "diagnose where a customer's extraction or pipeline breaks"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner with the revenue team to turn technical wins into adoption"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "turn technical wins into adoption and expansion, and hit team targets"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "bring what you learn in the field back to product and engineering"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Be the trusted technical voice for accounts"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "responsibility",
+      "evidence": "Know when to solve it yourself and when to pull in engineering"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "requirement",
+      "evidence": "don't turn every ask into a custom feature"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "requirement",
+      "evidence": "owned the full lifecycle for a customer, from demo to POC to production"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "owned the full lifecycle for a customer, from demo to POC to production"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "You build, you deploy, you own the outcome"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "translate between deep technical detail and business value"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "translate between deep technical detail and business value"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 3,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "land",
+    "build",
+    "diagnose",
+    "partner",
+    "solve"
+  ],
+  "segmentation_quality": "header"
+}

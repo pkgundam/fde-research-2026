@@ -1,0 +1,197 @@
+{
+  "posting_id": "e84c1b400a58a055",
+  "skills": [
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "seamless, reliable, and high-performance experience"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "aligns closely with the internal and customer engineering teams"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "chance to contribute to the CoreWeave product roadmap"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "responsibility",
+      "evidence": "establishing their Kubernetes environment"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "developing proofs of concept, onboarding, and optimizing workloads"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "developing proofs of concept, onboarding, and optimizing workloads"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "primary technical point of contact for customers"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "securing Kubernetes workloads within regulated cloud infrastructure environments"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "lead security technologist for federal engagements"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "architect accredited AI/HPC environments"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "understand their unique business needs and create, prototype"
+    },
+    {
+      "canonical": "gpu_infra",
+      "section": "responsibility",
+      "evidence": "into concrete Kubernetes and GPU infrastructure architecture and controls"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "serve as the customer-facing technical authority during assessor and AO engagements"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "contribute to control narratives, System Security Plans, POA&Ms"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "responsibility",
+      "evidence": "classified and controlled enclaves and air-gapped or disconnected deployments"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "Drive technical leadership and direction during customer meetings"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "responsibility",
+      "evidence": "briefings to key customer stakeholders, their leadership"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "responsibility",
+      "evidence": "Offer valuable insights on product features, functionality, and performance"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "responsibility",
+      "evidence": "Stay informed of the latest developments and trends"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "travel to customer and government facilities"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "building distributed systems or HPC/cloud services"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "experience as a Solutions Architect...in cloud infrastructure"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "expertise focused on securing Kubernetes workloads"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "FedRAMP authorization, DoD Impact Level accreditation, RMF/ATO packages"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "supporting federal customer and/or Defense Industrial Base (DIB) engagements"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "engagements...in a customer-facing technical role"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "communicating clearly and the ability to break down complex technical concepts"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "technical concepts to both technical and non-technical audiences"
+    },
+    {
+      "canonical": "gpu_infra",
+      "section": "requirement",
+      "evidence": "Familiar with NVIDIA GPUs typically used in AI/ML applications"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "associated technologies including networking"
+    },
+    {
+      "canonical": "docker",
+      "section": "requirement",
+      "evidence": "hardened container supply chains in regulated environments"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "requirement",
+      "evidence": "STIG-compliant baselines, and secure/air-gapped design patterns"
+    },
+    {
+      "canonical": "networking",
+      "section": "nice_to_have",
+      "evidence": "DoD network environments (NIPR/SIPR/JWICS) or IC cloud programs"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "DoD network environments (NIPR/SIPR/JWICS) or IC cloud programs"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "nice_to_have",
+      "evidence": "Certifications such as CISSP, CCSP, CMMC RP, CCA"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "nice_to_have",
+      "evidence": "securing AI/ML training and inference workloads"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 7,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "architect",
+    "translate",
+    "lead",
+    "collaborate",
+    "support"
+  ],
+  "segmentation_quality": "header"
+}

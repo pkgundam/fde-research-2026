@@ -1,0 +1,197 @@
+{
+  "posting_id": "1e5e229a793387eb",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "collaborate with customers, operators, MR designers"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "collaborate with customers, operators, MR designers"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "embedding talented engineers directly with our customers"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "rapidly understanding their toughest issues"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "architecting and building solutions"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "leverage business-critical data and latest advancements in AI"
+    },
+    {
+      "canonical": "testing",
+      "section": "responsibility",
+      "evidence": "building and testing new integrations"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Troubleshoot issues at all layers of the system"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "document performant Mixed Reality applications"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "deploy performant Mixed Reality applications"
+    },
+    {
+      "canonical": "data_quality",
+      "section": "responsibility",
+      "evidence": "Wrangling massive-scale data"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Engaging directly with customer stakeholders, executives"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "driving projects from ideation to deployment"
+    },
+    {
+      "canonical": "java",
+      "section": "responsibility",
+      "evidence": "languages, including Java, Go, and Rust"
+    },
+    {
+      "canonical": "go",
+      "section": "responsibility",
+      "evidence": "languages, including Java, Go, and Rust"
+    },
+    {
+      "canonical": "rust",
+      "section": "responsibility",
+      "evidence": "languages, including Java, Go, and Rust"
+    },
+    {
+      "canonical": "typescript",
+      "section": "responsibility",
+      "evidence": "TypeScript for frontend"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "responsibility",
+      "evidence": "build tooling, including Gradle, CircleCI"
+    },
+    {
+      "canonical": "git",
+      "section": "responsibility",
+      "evidence": "build tooling, including Gradle, CircleCI, and GitHub"
+    },
+    {
+      "canonical": "algorithms",
+      "section": "requirement",
+      "evidence": "solve technical problems with data structures"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "storage systems, cloud infrastructure"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "front-end frameworks, and other technical tools"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "requirement",
+      "evidence": "working with and using large scale data"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "take on valuable business problems"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "collaborate efficiently in teams of technical"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "dynamic environment with evolving objectives"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "Challenging dogma, fighting fixed mindsets"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "Understanding of Defense and Intel industry"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Python, Go, Java, C++, TypeScript/JavaScript"
+    },
+    {
+      "canonical": "go",
+      "section": "requirement",
+      "evidence": "Python, Go, Java, C++, TypeScript/JavaScript"
+    },
+    {
+      "canonical": "java",
+      "section": "requirement",
+      "evidence": "Python, Go, Java, C++, TypeScript/JavaScript"
+    },
+    {
+      "canonical": "cpp",
+      "section": "requirement",
+      "evidence": "Python, Go, Java, C++, TypeScript/JavaScript"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Python, Go, Java, C++, TypeScript/JavaScript"
+    },
+    {
+      "canonical": "rust",
+      "section": "requirement",
+      "evidence": "TypeScript/JavaScript, C#, Rust, Go"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "Active US Security clearance or eligibility"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "travel up to 25%, as needed to client sites"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 2,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "collaborate",
+    "architect",
+    "troubleshoot",
+    "deploy",
+    "engage"
+  ],
+  "segmentation_quality": "header"
+}

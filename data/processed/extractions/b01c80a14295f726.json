@@ -1,0 +1,122 @@
+{
+  "posting_id": "b01c80a14295f726",
+  "skills": [
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "embed directly throughout the lifecycle, working on-site"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "implement and maintain robust security controls"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "ensure the overall security of these deployments from design to production"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "Deeply embed with our most strategic public sector customers"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "responsibility",
+      "evidence": "access controls, authentication, encryption, network"
+    },
+    {
+      "canonical": "networking",
+      "section": "responsibility",
+      "evidence": "access controls, authentication, encryption, network, and system security"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Collaborate closely with teammates, cross-functional teams, customers"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "critical security and monitoring controls through routine assessments"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "responsibility",
+      "evidence": "threat monitoring, and security validation exercises"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "5+ years of security engineering experience"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "infrastructure security, application security, network security"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "cloud platforms (Azure, AWS) and the underlying infrastructure"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "cloud platforms (Azure, AWS) and the underlying infrastructure"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "infrastructure primitives (Kubernetes, Terraform)"
+    },
+    {
+      "canonical": "iac",
+      "section": "requirement",
+      "evidence": "infrastructure primitives (Kubernetes, Terraform)"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "programming languages such as Python, Golang, or similar"
+    },
+    {
+      "canonical": "go",
+      "section": "requirement",
+      "evidence": "programming languages such as Python, Golang, or similar"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "developing high-quality, scalable, and secure infrastructure"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "requirement",
+      "evidence": "network/endpoint detection and response, or red team"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "work collaboratively and effectively in a cross-functional team"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "Thrive in dynamic environments and can navigate ambiguity"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "embed",
+    "implement",
+    "maintain",
+    "collaborate",
+    "ensure"
+  ],
+  "segmentation_quality": "header"
+}

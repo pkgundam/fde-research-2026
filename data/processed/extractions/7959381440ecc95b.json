@@ -1,0 +1,127 @@
+{
+  "posting_id": "7959381440ecc95b",
+  "skills": [
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Drive technical discovery with clients: understand environments"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Design AI/ML architectures that balance speed, reliability, and cost"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "Design AI/ML architectures that balance speed, reliability"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "architectures that balance speed, reliability, and cost"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "Lead and coach the engineers on the account"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner with the Forward Deployed CTO to support team's growth"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "tailoring communication from engineers to C-levels"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "Teach and enable client teams by turning complexity into clarity"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "Influence decision-making by linking technical choices to business wins"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Translate client-specific solutions into reusable patterns"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "10+ years designing and delivering complex software systems"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "complex software systems, with strong AI/ML depth"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "requirement",
+      "evidence": "leading and coaching a team of 3+ engineers"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "requirement",
+      "evidence": "building and shipping — in high-stakes enterprise environments"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "requirement",
+      "evidence": "from messy data ingestion to model deployment and monitoring"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "requirement",
+      "evidence": "messy data ingestion to model deployment and monitoring"
+    },
+    {
+      "canonical": "observability",
+      "section": "requirement",
+      "evidence": "model deployment and monitoring"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "engineers in the trenches, executives in the boardroom"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Ability to engage credibly across audiences"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "Background in consulting or client-facing engineering roles"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "client-facing engineering roles where outcomes mattered"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "missionary mindset: you're here to win, not to optimize"
+    }
+  ],
+  "seniority": "staff_plus",
+  "years_required": 10,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "drive",
+    "design",
+    "lead",
+    "teach",
+    "translate"
+  ],
+  "segmentation_quality": "header"
+}

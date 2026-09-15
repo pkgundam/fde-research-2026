@@ -1,0 +1,29 @@
+{
+  "posting_id": "29021146603ba7df",
+  "skills": [
+    {"canonical": "customer_facing", "section": "responsibility", "evidence": "act as the crucial bridge between our customers and our rapidly evolving product"},
+    {"canonical": "cross_functional", "section": "responsibility", "evidence": "partner closely with Engineering, Product, and Design (EPD)"},
+    {"canonical": "product_feedback_loop", "section": "responsibility", "evidence": "frontline customer needs directly shape our technical roadmap"},
+    {"canonical": "ownership_autonomy", "section": "responsibility", "evidence": "Consistently meet with customers to proactively uncover additional tasks"},
+    {"canonical": "scoping", "section": "responsibility", "evidence": "Conduct deep discovery by drilling down into customer problems"},
+    {"canonical": "prototyping", "section": "responsibility", "evidence": "Manage pilot programs with strong project management skills"},
+    {"canonical": "project_management", "section": "responsibility", "evidence": "Manage pilot programs with strong project management skills"},
+    {"canonical": "pre_sales", "section": "responsibility", "evidence": "guide deals to closure"},
+    {"canonical": "training_enablement", "section": "responsibility", "evidence": "Train and onboard customers, providing the extreme hands-on guidance"},
+    {"canonical": "implementation_onboarding", "section": "responsibility", "evidence": "Train and onboard customers, providing the extreme hands-on guidance"},
+    {"canonical": "written_communication", "section": "responsibility", "evidence": "Relay exceptionally clear business problems and comprehensive technical details"},
+    {"canonical": "technical_support", "section": "responsibility", "evidence": "when customers face blockers"},
+    {"canonical": "written_communication", "section": "requirement", "evidence": "translate complex product features for customers and relay precise"},
+    {"canonical": "ownership_autonomy", "section": "requirement", "evidence": "relentless drive to independently uncover new use cases"},
+    {"canonical": "scoping", "section": "requirement", "evidence": "digging three levels deep to fully understand the core pain points"},
+    {"canonical": "project_management", "section": "requirement", "evidence": "highly organized approach to running pilots and executing on strategic objectives"},
+    {"canonical": "prototyping", "section": "requirement", "evidence": "highly organized approach to running pilots"},
+    {"canonical": "learning_agility", "section": "requirement", "evidence": "agility to quickly become an absolute expert in our evolving products"}
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": ["meet", "uncover", "conduct", "manage", "train"],
+  "segmentation_quality": "header"
+}

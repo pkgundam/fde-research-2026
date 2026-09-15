@@ -1,0 +1,107 @@
+{
+  "posting_id": "eeb9093821885565",
+  "skills": [
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "scoping engagements with enough precision to de-risk delivery"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "Own the full arc from technical discovery to executive close"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "leading architecture reviews"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "concrete, time-boxed deliverables with clear ROI"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "responsibility",
+      "evidence": "Build and present proposals"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Sell the vision and the plan to C-suite stakeholders"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "appropriate scoping, milestone tracking, technical standards"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "escalate product gaps... back to Product and Engineering"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "coach FDEs on scoping and delivery decisions"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "Build reusable playbooks that make the broader FDE org more capable"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "responsibility",
+      "evidence": "knowing when to protect scope vs. when to flex"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "requirement",
+      "evidence": "8+ years of experience leading technical teams"
+    },
+    {
+      "canonical": "git",
+      "section": "requirement",
+      "evidence": "writing and reviewing code is part of the job"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "experience with software development and coding in Python"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "coding in Python, Javascript/Typescript"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "built and owned AI-native workflows in production"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "debugged real-world model failures"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "scope a meaningful engagement"
+    }
+  ],
+  "seniority": "staff_plus",
+  "years_required": 8,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "own",
+    "build",
+    "sell",
+    "lead",
+    "coach"
+  ],
+  "segmentation_quality": "header"
+}

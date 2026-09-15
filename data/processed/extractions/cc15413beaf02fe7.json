@@ -1,0 +1,127 @@
+{
+  "posting_id": "cc15413beaf02fe7",
+  "skills": [
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "building AI agents to automate and augment internal functions"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "embed with teams across the company to understand"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Scope, design, and deploy agents that take over"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "Integrate agents with internal systems, APIs, and data sources"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "Define evaluation frameworks, success metrics, and feedback loops"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "success metrics, and feedback loops to measure"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "contribute to playbooks that accelerate deployments"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "responsibility",
+      "evidence": "owning reliability, adoption, and business impact"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "owning reliability, adoption, and business impact"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "applied AI, or a similar technical role"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "Hands-on experience building with LLMs, agent frameworks"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "agent frameworks, and tool-use patterns (e.g., MCP"
+    },
+    {
+      "canonical": "rag",
+      "section": "requirement",
+      "evidence": "function calling, RAG) across the full stack"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "across the full stack (data, APIs, orchestration, product)"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "designing and optimizing SQL and/or NoSQL databases"
+    },
+    {
+      "canonical": "nosql",
+      "section": "requirement",
+      "evidence": "designing and optimizing SQL and/or NoSQL databases"
+    },
+    {
+      "canonical": "data_modeling",
+      "section": "requirement",
+      "evidence": "including data modeling, query performance tuning"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "query performance tuning, and schema design"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "grounded in a deep curiosity for how people work"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "High ownership and cross-functional influence"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "High ownership and cross-functional influence"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "OpenClaw, Hermes, or other general-purpose agent harnesses"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 4,
+  "travel_expectation": "none",
+  "customer_facing_intensity": 2,
+  "responsibility_verbs": [
+    "embed",
+    "scope",
+    "build",
+    "deploy",
+    "integrate"
+  ],
+  "segmentation_quality": "header"
+}

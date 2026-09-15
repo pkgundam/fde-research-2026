@@ -1,0 +1,52 @@
+{
+  "posting_id": "bc581b5fe374fb7c",
+  "skills": [
+    {
+      "canonical": "cloud_platforms",
+      "section": "responsibility",
+      "evidence": "manage their cloud, SaaS and AI costs"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "FinOps / Cloud Cost Management platform"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "This is a highly technical, customer-facing role"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "ensure successful adoption and long-term value"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "focused on implementation, architecture, and problem-solving"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "architecture, and problem-solving"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "Founding Solutions Architect / FDE"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "implement",
+    "architect",
+    "solve",
+    "manage",
+    "adopt"
+  ],
+  "segmentation_quality": "inferred"
+}

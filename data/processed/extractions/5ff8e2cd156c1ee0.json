@@ -1,0 +1,87 @@
+{
+  "posting_id": "5ff8e2cd156c1ee0",
+  "skills": [
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "Put LLMs to work across the product and the business"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "from customer-facing features to internal tooling"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "responsibility",
+      "evidence": "pipelines, ETL, and integrations, including getting data out"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "responsibility",
+      "evidence": "getting data out of the on-prem software clinics already"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "responsibility",
+      "evidence": "Own our AWS environment, CI/CD pipelines, developer experience"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "developer experience, and platform security - the foundation"
+    },
+    {
+      "canonical": "testing",
+      "section": "responsibility",
+      "evidence": "Own quality across the platform: test strategy, automation"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "working shoulder to shoulder with engineering and the rest"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "Own how data moves through Snout"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "tech stack includes Node.js, React, PostgreSQL, AWS, Tailwind"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "We use both JavaScript and TypeScript heavily"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "tech stack includes Node.js, React, PostgreSQL, AWS, Tailwind"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "tech stack includes Node.js, React, PostgreSQL, AWS, Tailwind"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "tech stack includes Node.js, React, PostgreSQL, AWS, Tailwind"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 3,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 2,
+  "responsibility_verbs": [
+    "build",
+    "own",
+    "ship",
+    "integrate",
+    "put"
+  ],
+  "segmentation_quality": "inferred"
+}

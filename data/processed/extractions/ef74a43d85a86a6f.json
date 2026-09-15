@@ -1,0 +1,77 @@
+{
+  "posting_id": "ef74a43d85a86a6f",
+  "skills": [
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "You embed with agencies whose systems steer billions in media spend"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "You embed with agencies whose systems steer billions in media spend"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "agencies whose systems steer billions in media spend"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "build whatever the problem needs: integrations, agent workflows, backend services"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "build whatever the problem needs: integrations, agent workflows, backend services"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "build whatever the problem needs"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "What you build in the field becomes product"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Forward-deployed engineer (FDE) — Python, TypeScript, true generalist"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Forward-deployed engineer (FDE) — Python, TypeScript, true generalist"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "Agentic workflows plus traditional ML, deployed on-premises"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "Agentic workflows plus traditional ML"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "requirement",
+      "evidence": "deployed on-premises inside agency cloud environments"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "embed",
+    "build",
+    "integrate",
+    "own",
+    "ship"
+  ],
+  "segmentation_quality": "inferred"
+}

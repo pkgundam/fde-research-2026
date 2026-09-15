@@ -1,0 +1,212 @@
+{
+  "posting_id": "c1c5c5f731e918dc",
+  "skills": [
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "agent and prompt engineering"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "responsibility",
+      "evidence": "agent and prompt engineering"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "an end-to-end service, an integration, internal tooling"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "responsibility",
+      "evidence": "point of sale, loyalty, payment gateways, customer data platforms"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Spend regular time on site with your customer"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "working directly with their technical and business teams"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Monitor, debug, and optimize what you ship in production"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "Monitor, debug, and optimize what you ship in production"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "Monitor, debug, and optimize what you ship in production"
+    },
+    {
+      "canonical": "speech",
+      "section": "responsibility",
+      "evidence": "the hardest audio environments in voice AI"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "feed what you learn in the field back into the product"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Work with our research and product teams"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "Test changes against live production data"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "measure whether they move accuracy, latency, and throughput"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Embedded customer delivery... deployments, integrations"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Joining detailed solution scoping, shaping statements of work"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "surfacing the expansion opportunities"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "an engineer first who happens to be great with customers"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "Thrive in high-ambiguity environments"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "embedding deeply with customers, building trust... go-to technical partner"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "requirement",
+      "evidence": "shipping production systems and watching them run"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "Want to grow quickly... a steep learning curve"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "Experience with cloud-based infrastructure and API design"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "Experience with cloud-based infrastructure and API design"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "proactively recognize problems and to care about the impact"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "You notice who in a meeting is engaged, who is skeptical"
+    },
+    {
+      "canonical": "speech",
+      "section": "nice_to_have",
+      "evidence": "Experience working with audio or voice interfaces"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "nice_to_have",
+      "evidence": "integrates with many third-party APIs"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "nice_to_have",
+      "evidence": "particularly point-of-sale systems"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "nice_to_have",
+      "evidence": "Experience taking a system from zero to one"
+    },
+    {
+      "canonical": "python",
+      "section": "nice_to_have",
+      "evidence": "our field work spans Python, JavaScript and TypeScript, Rust, Go, Kotlin"
+    },
+    {
+      "canonical": "typescript",
+      "section": "nice_to_have",
+      "evidence": "JavaScript and TypeScript, Rust, Go, Kotlin"
+    },
+    {
+      "canonical": "rust",
+      "section": "nice_to_have",
+      "evidence": "Rust, Go, Kotlin, and whatever your customer runs"
+    },
+    {
+      "canonical": "go",
+      "section": "nice_to_have",
+      "evidence": "Rust, Go, Kotlin, and whatever your customer runs"
+    },
+    {
+      "canonical": "java",
+      "section": "nice_to_have",
+      "evidence": "Rust, Go, Kotlin, and whatever your customer runs"
+    },
+    {
+      "canonical": "docker",
+      "section": "nice_to_have",
+      "evidence": "Experience with containerization tools, such as Docker and Kubernetes"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "nice_to_have",
+      "evidence": "containerization tools, such as Docker and Kubernetes"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "nice_to_have",
+      "evidence": "the technical person in front of a non-technical audience"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "nice_to_have",
+      "evidence": "teaching, tutoring, demos, hackathons, support"
+    }
+  ],
+  "seniority": "junior",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "build",
+    "design",
+    "monitor",
+    "debug",
+    "test"
+  ],
+  "segmentation_quality": "header"
+}

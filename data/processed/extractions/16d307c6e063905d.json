@@ -1,0 +1,152 @@
+{
+  "posting_id": "16d307c6e063905d",
+  "skills": [
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "own the end-to-end deployment of SambaNova's rack-scale AI systems"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "own the end-to-end deployment of SambaNova's rack-scale AI systems"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "responsibility",
+      "evidence": "deployment...at customer data centers across Japan"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "serve as the technical authority on-site"
+    },
+    {
+      "canonical": "networking",
+      "section": "responsibility",
+      "evidence": "power, cooling, networking, and physical infrastructure are ready"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "hands-on, high-visibility role...intersection of infrastructure engineering and customer success"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "work closely with customers, their data center operators, and internal teams"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "primary technical point of contact for customers"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Conduct pre-deployment site assessments to identify potential infrastructure issues"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "coordinate logistics, cage/rack assignments, cross-connects, and remote hands"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Document deployment procedures, site configurations, and any issues"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "responsibility",
+      "evidence": "Communicate deployment status, risks, and findings clearly"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "Assist with on-going customer support at a rack and system level"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Provide input on future product design at a rack level"
+    },
+    {
+      "canonical": "project_management",
+      "section": "requirement",
+      "evidence": "General logistics experience for large hardware deployments"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "data center network topologies, including three-tier and leaf-spine"
+    },
+    {
+      "canonical": "shell",
+      "section": "requirement",
+      "evidence": "hands-on administrative experience with Red Hat Linux"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "system configuration, troubleshooting, and performance tuning"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "system configuration, troubleshooting, and performance tuning"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "requirement",
+      "evidence": "RAS (reliability, availability, and serviceability) design"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "Familiarity with AI and machine learning concepts and terminology"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "strong written and verbal English communication skills"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "strong written and verbal English communication skills"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "build trust and credibility with customer executives"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Demonstrated knowledge of Shell scripting or Python"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "requirement",
+      "evidence": "manage multiple deployments and competing priorities"
+    },
+    {
+      "canonical": "networking",
+      "section": "nice_to_have",
+      "evidence": "Juniper and Arista experience is a plus"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "own",
+    "validate",
+    "coordinate",
+    "document",
+    "communicate"
+  ],
+  "segmentation_quality": "header"
+}

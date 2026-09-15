@@ -1,0 +1,112 @@
+{
+  "posting_id": "cad632fd37a331a3",
+  "skills": [
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "Own and manage project schedules, deliverables, and cross-functional milestones"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Collaborate with engineering, product, legal, and compliance teams"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "definition, documentation, and tracking of technical requirements"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Maintain accurate documentation of Bill of Materials (BOMs)"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "Monitor risks, resourcing constraints, and execution dependencies"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "coordination for field operations, customer demos, internal tests"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "field operations, customer demos, internal tests, and deployments"
+    },
+    {
+      "canonical": "analytics",
+      "section": "responsibility",
+      "evidence": "centralized visibility into team activities via dashboards"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "trusted liaison between the FDE team and internal and external stakeholders"
+    },
+    {
+      "canonical": "project_management",
+      "section": "requirement",
+      "evidence": "operations, project coordination, or engineering program management"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "in robotics, aerospace, defense, or a similar field"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "supporting multi-disciplinary teams in fast-paced, field-driven contexts"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "managing requirements traceability, and coordinating subsystem development"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "ability to manage technical documentation and execution workflows"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "translate between technical teams, external partners, and operational stakeholders"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Excellent communicator and able to translate between technical teams"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "Self-starter with a strong bias toward ownership"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "requirement",
+      "evidence": "Experience working with ERP systems (e.g., NetSuite), MRP systems"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "Familiarity with U.S. defense contracting, DoD logistics"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 3,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 2,
+  "responsibility_verbs": [
+    "own",
+    "coordinate",
+    "track",
+    "drive",
+    "collaborate"
+  ],
+  "segmentation_quality": "header"
+}

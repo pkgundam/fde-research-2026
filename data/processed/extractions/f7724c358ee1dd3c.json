@@ -1,0 +1,202 @@
+{
+  "posting_id": "f7724c358ee1dd3c",
+  "skills": [
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "Evaluate frontier models against real user tasks"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "turn the most promising advances into production agent systems"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "rapid prototyping and evaluation through launch"
+    },
+    {
+      "canonical": "llm_observability",
+      "section": "responsibility",
+      "evidence": "through launch, monitoring, and iteration"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "responsibility",
+      "evidence": "Apply state of the art ML and LLM techniques"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Shape the architecture, abstractions, and product experiences"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "correctness, safety, latency, cost, and user satisfaction"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "responsibility",
+      "evidence": "Iteratively improve across models, prompts, harnesses"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "responsibility",
+      "evidence": "permissions and safeguards for sensitive actions"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "Build secure, observable, and reliable agent systems"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Collaborate closely with PM, Data Science, Research"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "responsibility",
+      "evidence": "relevant advances in models, inference"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "raise the bar through design reviews, mentorship, and technical leadership"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "Set technical direction on ambiguous problems"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "large-scale, user-facing or data-intensive products"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "building and operating AI/ML products, backend services"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "rigorous evaluation, production monitoring"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "requirement",
+      "evidence": "define metrics and use production data and user feedback"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "agent harnesses, tool use, context engineering"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "requirement",
+      "evidence": "Strong product judgment and execution"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "translate ambiguous user needs into applied AI or ML problems"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "genuine interest in frontier AI capabilities, agent systems"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "excitement for rapidly exploring, evaluating, and productizing"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "subagents, coding assistants, long-running or autonomous task execution"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "strengths and limitations of current model families"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "nice_to_have",
+      "evidence": "agent permissions, safeguards"
+    },
+    {
+      "canonical": "llm_observability",
+      "section": "nice_to_have",
+      "evidence": "production observability systems"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "nice_to_have",
+      "evidence": "mid-training, post-training, or reinforcement learning"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "nice_to_have",
+      "evidence": "AI/ML research experience demonstrated through publications"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "nice_to_have",
+      "evidence": "high-ownership engineering team"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Tech Stack: Python | Go | Rust | PostgreSQL | DynamoDB | AWS | TypeScript"
+    },
+    {
+      "canonical": "go",
+      "section": "requirement",
+      "evidence": "Tech Stack: Python | Go | Rust | PostgreSQL | DynamoDB | AWS | TypeScript"
+    },
+    {
+      "canonical": "rust",
+      "section": "requirement",
+      "evidence": "Tech Stack: Python | Go | Rust | PostgreSQL | DynamoDB | AWS | TypeScript"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "Tech Stack: Python | Go | Rust | PostgreSQL | DynamoDB"
+    },
+    {
+      "canonical": "nosql",
+      "section": "requirement",
+      "evidence": "Tech Stack: ...PostgreSQL | DynamoDB | AWS"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "Tech Stack: ...DynamoDB | AWS | TypeScript"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Tech Stack: Python | Go | Rust | PostgreSQL | DynamoDB | AWS | TypeScript"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 6,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 2,
+  "responsibility_verbs": [
+    "evaluate",
+    "improve",
+    "apply",
+    "own",
+    "build"
+  ],
+  "segmentation_quality": "header"
+}

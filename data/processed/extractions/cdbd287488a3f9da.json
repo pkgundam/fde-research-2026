@@ -1,0 +1,72 @@
+{
+  "posting_id": "cdbd287488a3f9da",
+  "skills": [
+    {
+      "canonical": "unstructured_data",
+      "section": "responsibility",
+      "evidence": "turn unstructured content (video, images, audio, documents) into searchable"
+    },
+    {
+      "canonical": "vector_databases",
+      "section": "responsibility",
+      "evidence": "building MVS (Mixpeek Vector Store) — a distributed vector database"
+    },
+    {
+      "canonical": "rag",
+      "section": "responsibility",
+      "evidence": "rethink how vector search works from the storage layer up"
+    },
+    {
+      "canonical": "python",
+      "section": "responsibility",
+      "evidence": "Stack: Python, Ray, S3, FastAPI, React/TypeScript"
+    },
+    {
+      "canonical": "typescript",
+      "section": "responsibility",
+      "evidence": "Stack: Python, Ray, S3, FastAPI, React/TypeScript"
+    },
+    {
+      "canonical": "react",
+      "section": "responsibility",
+      "evidence": "Stack: Python, Ray, S3, FastAPI, React/TypeScript"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "into searchable, programmable assets through a unified API"
+    },
+    {
+      "canonical": "computer_vision",
+      "section": "responsibility",
+      "evidence": "multimodal extraction for clinical trial recruitment and SNF/MDS coding workflows"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "agent-native query primitives"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "Healthcare pipelines — multimodal extraction for clinical trial recruitment"
+    },
+    {
+      "canonical": "aws",
+      "section": "responsibility",
+      "evidence": "distributed vector database built on Ray + S3"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 2,
+  "responsibility_verbs": [
+    "build",
+    "extract",
+    "retrieve",
+    "scale",
+    "compress"
+  ],
+  "segmentation_quality": "inferred"
+}

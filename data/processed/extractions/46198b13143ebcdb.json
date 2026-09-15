@@ -1,0 +1,72 @@
+{
+  "posting_id": "46198b13143ebcdb",
+  "skills": [
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "primary technical bridge between design teams and on-site construction partners"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "Track construction progress against project milestones"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "between the contractors and the internal design team"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "critical lessons learned... carried back into specs and templating"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "5+ years of experience in mission-critical environments"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "minimum of 50% of time on site"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "partnering with third-party general contractors and electrical subcontractors"
+    },
+    {
+      "canonical": "project_management",
+      "section": "requirement",
+      "evidence": "Strong project management skills to assist in monitoring schedules"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "troubleshoot complex field installation issues"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "Mega Project construction experience in mission critical or heavy industry"
+    },
+    {
+      "canonical": "project_management",
+      "section": "nice_to_have",
+      "evidence": "Certifications such as PMP"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 5,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 2,
+  "responsibility_verbs": [
+    "support",
+    "monitor",
+    "track",
+    "own",
+    "direct"
+  ],
+  "segmentation_quality": "header"
+}

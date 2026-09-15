@@ -1,0 +1,227 @@
+{
+  "posting_id": "26e0c2bd2c1dbb75",
+  "skills": [
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Deploy an Enterprise customer end-to-end"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "deployment engagements end to end... from scoping through go-live"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "Lead deployment engagements end to end for assigned enterprise customers"
+    },
+    {
+      "canonical": "speech",
+      "section": "responsibility",
+      "evidence": "telephony/SIP, webhooks, integrations"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "Build production-ready Vapi deployments (assistants, squads, tools"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "structured outputs, telephony/SIP, webhooks, integrations"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Debug live production issues across call records, app logs"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "outbound campaigns, evals and simulations, observability"
+    },
+    {
+      "canonical": "iac",
+      "section": "responsibility",
+      "evidence": "Own customer-facing GitOps repos and dedicated cluster configuration"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "responsibility",
+      "evidence": "dedicated cluster configuration"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Own customer-facing GitOps repos"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Manage technical and executive stakeholders"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "outbound campaigns, evals and simulations"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Feed deployment insight back into the product roadmap"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "genuine bias toward action: you identify a gap, you fix it"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "You've been an FDE, Solutions Architect, or Solutions Engineer"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "comfortable operating in ambiguity and find structure by doing"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "move between UI/UX implementation, API design"
+    },
+    {
+      "canonical": "data_modeling",
+      "section": "requirement",
+      "evidence": "API design, data modeling, and systems architecture"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "data modeling, and systems architecture"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "move between UI/UX implementation"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "communicate clearly with both technical and non-technical stakeholders"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "Conceptual understanding of working with AI in production"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Backend: Node.js... Language: TypeScript or Python"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "FastAPI, Django, or Flask"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "Database: SQL, MongoDB, DynamoDB, or Redis"
+    },
+    {
+      "canonical": "nosql",
+      "section": "requirement",
+      "evidence": "MongoDB, DynamoDB, or Redis"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "Deployment: AWS, GCP, Azure, Vercel, or Railway"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "Deployment: AWS, GCP, Azure"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "Deployment: AWS, GCP, Azure"
+    },
+    {
+      "canonical": "serverless",
+      "section": "requirement",
+      "evidence": "Deployment:... Vercel, or Railway"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "nice_to_have",
+      "evidence": "You've built your own startup or pursued your own projects"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "AI/ML: LLM APIs, RAG, vector databases"
+    },
+    {
+      "canonical": "rag",
+      "section": "nice_to_have",
+      "evidence": "LLM APIs, RAG, vector databases"
+    },
+    {
+      "canonical": "vector_databases",
+      "section": "nice_to_have",
+      "evidence": "vector databases (Pinecone, pgvector)"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "nice_to_have",
+      "evidence": "self-hosted models"
+    },
+    {
+      "canonical": "docker",
+      "section": "nice_to_have",
+      "evidence": "Infra: Docker, Kubernetes, IaC"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "nice_to_have",
+      "evidence": "Infra: Docker, Kubernetes, IaC"
+    },
+    {
+      "canonical": "iac",
+      "section": "nice_to_have",
+      "evidence": "Infra: Docker, Kubernetes, IaC"
+    },
+    {
+      "canonical": "speech",
+      "section": "nice_to_have",
+      "evidence": "Real-time: WebSockets, SSE, WebRTC, SIP"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "nice_to_have",
+      "evidence": "Led a project without a management title"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "nice_to_have",
+      "evidence": "Product generating revenue from paying customers"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "deploy",
+    "build",
+    "debug",
+    "own",
+    "manage"
+  ],
+  "segmentation_quality": "header"
+}

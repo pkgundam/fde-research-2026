@@ -1,0 +1,177 @@
+{
+  "posting_id": "ab1c05d1cd8bc2f2",
+  "skills": [
+    {
+      "canonical": "ml_fundamentals",
+      "section": "responsibility",
+      "evidence": "helping customers realise measurable value from machine learning applications"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "helping customers realise measurable value from machine learning"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "helping customers realise measurable value"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "establish and lead this vertical"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "how the team engages with robotics customers"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "lead complex customer engagements from initial scoping"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "lead complex customer engagements...through to embedded deployment"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "through to embedded deployment and expansion"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "customer engagements from initial scoping through to embedded deployment"
+    },
+    {
+      "canonical": "testing",
+      "section": "responsibility",
+      "evidence": "capable of building and validating ML solutions independently"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "design and deploy solutions and build customer-facing applications"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "responsibility",
+      "evidence": "not just deploying tools but building at the product edge"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "gather and synthesise signals from real customer deployments"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "experience in robotics systems development, robot learning"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "AI/ML for physical autonomous systems"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "build, validate, and deploy ML solutions independently in Python"
+    },
+    {
+      "canonical": "testing",
+      "section": "requirement",
+      "evidence": "training and validating robot learning pipelines"
+    },
+    {
+      "canonical": "analytics",
+      "section": "requirement",
+      "evidence": "working directly in JupyterHub, VS Code, Marimo"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "build and deploy customer-facing applications"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "validate ML solutions on physical grounds"
+    },
+    {
+      "canonical": "project_management",
+      "section": "requirement",
+      "evidence": "leading complex technical customer engagements, managing multi-stakeholder environments"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "maintaining executive relationships"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "requirement",
+      "evidence": "translate field observations into structured product signals"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "nice_to_have",
+      "evidence": "deploying robot learning systems on real hardware"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "foundation models for robotics and their application"
+    },
+    {
+      "canonical": "gpu_infra",
+      "section": "nice_to_have",
+      "evidence": "compute-intensive training workloads and an understanding of the infrastructure"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "nice_to_have",
+      "evidence": "progressing expansion opportunities within strategic customer accounts"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "nice_to_have",
+      "evidence": "contributing to internal knowledge frameworks, technical publications"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "technical publications, or industry forums in the robotics space"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "nice_to_have",
+      "evidence": "actuator dynamics with a mechanical engineer"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "nice_to_have",
+      "evidence": "equally comfortable discussing learning algorithm design"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "nice_to_have",
+      "evidence": "find solving that problem an interesting challenge"
+    }
+  ],
+  "seniority": "staff_plus",
+  "years_required": 8,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "define",
+    "lead",
+    "design",
+    "build",
+    "validate"
+  ],
+  "segmentation_quality": "header"
+}

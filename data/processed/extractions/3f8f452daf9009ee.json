@@ -1,0 +1,157 @@
+{
+  "posting_id": "3f8f452daf9009ee",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Work closely with our enterprise customers"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "well-framed agentic workflows with clear success criteria"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "clear success criteria and evaluation methodologies"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "translate high-value, ambiguous business problems"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "design, build, and delivery of LLM-powered agents"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "reason, plan, and act across tools, APIs"
+    },
+    {
+      "canonical": "react",
+      "section": "responsibility",
+      "evidence": "flexing into whatever technical area...including frontend"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "Take ownership of scoping and shaping use cases"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "Drive clarity in ambiguous situations"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Travel up to 20–40% to work on-site with customers"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "building and deploying production-grade software in Python"
+    },
+    {
+      "canonical": "testing",
+      "section": "requirement",
+      "evidence": "write clean, testable, observable, scalable code"
+    },
+    {
+      "canonical": "observability",
+      "section": "requirement",
+      "evidence": "write clean, testable, observable, scalable code"
+    },
+    {
+      "canonical": "rag",
+      "section": "requirement",
+      "evidence": "highly performant RAG and agentic applications"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "agents that plan and execute multi-step tasks"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "deeply familiar with the LLM stack: frontier models"
+    },
+    {
+      "canonical": "vector_databases",
+      "section": "requirement",
+      "evidence": "frontier models, vector databases"
+    },
+    {
+      "canonical": "llm_frameworks",
+      "section": "requirement",
+      "evidence": "vector databases, and orchestration frameworks"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "build robust evaluation frameworks"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "requirement",
+      "evidence": "measure agent accuracy, safety, and latency"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "experienced working directly with customers"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "lead technical discussions with enterprise stakeholders"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "owning the full scope of a use case end-to-end"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "thrive in fast-paced and ambiguous environments"
+    },
+    {
+      "canonical": "system_design",
+      "section": "nice_to_have",
+      "evidence": "setting architectural standards for AI and agentic systems"
+    },
+    {
+      "canonical": "react",
+      "section": "nice_to_have",
+      "evidence": "flexing into unfamiliar technical areas, such as frontend"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "regulated or sensitive industry environments (finance, healthcare, telecoms)"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "nice_to_have",
+      "evidence": "enterprise security, compliance, or auditability requirements"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "translate",
+    "lead",
+    "build",
+    "scope",
+    "drive"
+  ],
+  "segmentation_quality": "header"
+}

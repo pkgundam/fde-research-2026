@@ -1,0 +1,37 @@
+{
+  "posting_id": "afcbe262a196081f",
+  "skills": [
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "deploy autonomous coding agents alongside human developers"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "responsibility",
+      "evidence": "self-hosted Agentic Development Environment (ADE)"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "govern, audit, and manage a great developer experience"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "improve productivity, cut cloud costs, reduce data risks"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "build",
+    "deploy",
+    "govern",
+    "audit",
+    "manage"
+  ],
+  "segmentation_quality": "inferred"
+}

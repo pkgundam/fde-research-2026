@@ -1,0 +1,127 @@
+{
+  "posting_id": "f1d4b3452a2e641a",
+  "skills": [
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "guiding them through proofs of concept"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "helping customers evaluate Cursor"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "scope solutions, demonstrate capabilities"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "work hand-in-hand with Sales, Product, and Engineering"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "act as a trusted advisor to technical stakeholders"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "responsibility",
+      "evidence": "combine deep technical fluency with strong communication skills"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "influence product direction"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "Partner with Account Executives to lead technical discovery"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Translate customer requirements into solution designs"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "responsibility",
+      "evidence": "prompt strategy, and context configuration"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "best practices for rollout"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "hands-on workshops tailored to customer needs"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "Support strategic account planning"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "executive presence, equally comfortable... presenting to CTOs"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "strong communication skills and executive presence"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "debugging complex environments"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "fluent in technical workflows, AI tooling"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "customer-obsessed with a knack for translating technical details"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "translating technical details into business impact"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "requirement",
+      "evidence": "Field Engineering, Solutions Architecture, Pre-Sales, or Consulting"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "Field Engineering, Solutions Architecture, Pre-Sales, or Consulting"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "thrive in a startup environment: resourceful, adaptable"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "partner",
+    "build",
+    "translate",
+    "develop",
+    "act"
+  ],
+  "segmentation_quality": "header"
+}

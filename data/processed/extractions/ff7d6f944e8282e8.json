@@ -1,0 +1,137 @@
+{
+  "posting_id": "ff7d6f944e8282e8",
+  "skills": [
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "leading AI innovators and government agencies."
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Interact daily with our technical customers"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "understanding their unique challenges and translating"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Design, build, and deploy features across"
+    },
+    {
+      "canonical": "react",
+      "section": "responsibility",
+      "evidence": "front-end interfaces to back-end systems and"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Deliver high-quality experiments quickly, iterating quickly"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "shaping our engineering culture, values, and"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "directly influencing the product roadmap."
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "collaborating with leading AI researchers, and"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "responsibility",
+      "evidence": "RLHF (Reinforcement Learning with Human Feedback)"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "responsibility",
+      "evidence": "model evaluation, safety, and alignment."
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "responsibility",
+      "evidence": "critical data infrastructure that powers the"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "shipping high-quality products and features at"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "ability to work independently or as"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "as part of a collaborative team."
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "thrive in a fast-paced, dynamic environment."
+    },
+    {
+      "canonical": "product_sense",
+      "section": "requirement",
+      "evidence": "turn business and product ideas into"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "communicate complex technical concepts to both"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "nice_to_have",
+      "evidence": "large-scale data processing and distributed"
+    },
+    {
+      "canonical": "system_design",
+      "section": "nice_to_have",
+      "evidence": "distributed systems."
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "nice_to_have",
+      "evidence": "Familiarity with machine learning and AI"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "working directly with enterprise customers."
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "nice_to_have",
+      "evidence": "working directly with enterprise customers."
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "nice_to_have",
+      "evidence": "Experience with cloud-based infrastructure."
+    }
+  ],
+  "seniority": "junior",
+  "years_required": 2,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "drive",
+    "design",
+    "build",
+    "deploy",
+    "deliver"
+  ],
+  "segmentation_quality": "header"
+}

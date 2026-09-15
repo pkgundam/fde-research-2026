@@ -1,0 +1,127 @@
+{
+  "posting_id": "b527936457ee4ec0",
+  "skills": [
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "own customer deployments from technical build through go-live"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "working directly with customers to build, configure, and deploy"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "deploy production AI agents tailored to their workflows"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "building integrations, creating custom workflows"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "technical scoping through go-live and beyond"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "tailored to each customer's specialty, patient population"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Debug gnarly integration issues across phone systems, EHRs"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Architect creative solutions to handle healthcare's complexity"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "responsibility",
+      "evidence": "Build custom integrations with complex healthcare platforms"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "Optimize agent performance in production using real-world data"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "influence platform direction based on what you learn in the field"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "Work with Sales to scope technical requirements and demo capabilities"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Proficiency in Python"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "Experience with APIs, integrations, and working across multiple systems"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "Comfortable with ambiguity and building in fast-paced, high-stakes environments"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "explain technical concepts to non-technical stakeholders"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "Scrappy, resourceful mindset—you find ways to solve problems"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "Passion for healthcare and improving patient access"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "nice_to_have",
+      "evidence": "healthcare systems (EHR, practice management, patient engagement platforms)"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "customer-facing engineering, solutions engineering, or implementation roles"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "nice_to_have",
+      "evidence": "Previous work in... implementation roles"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "Background in AI/LLM applications"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 4,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "own",
+    "build",
+    "debug",
+    "architect",
+    "scope"
+  ],
+  "segmentation_quality": "header"
+}

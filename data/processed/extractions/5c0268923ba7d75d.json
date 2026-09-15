@@ -1,0 +1,147 @@
+{
+  "posting_id": "5c0268923ba7d75d",
+  "skills": [
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "minimum expectation of 50% travel"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "support installation, configuration, validation"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "training, troubleshooting, and sustainment of Hivemind products"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "Hivemind Enterprise software stack, autonomy modules"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "Provide hands-on technical support to customer operators"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "logs, telemetry, recorded data, screenshots"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "responsibility",
+      "evidence": "intake, severity assessment, ownership, workaround or fix delivery"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "into support tickets, knowledge-base content... and product feedback"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner with engineering, product, program... teams"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "customer deployment, or a similar hands-on technical role"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "autonomy-adjacent systems"
+    },
+    {
+      "canonical": "cpp",
+      "section": "requirement",
+      "evidence": "Proficiency writing, reading, and debugging modern C++ code"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Working proficiency with Python, Bash"
+    },
+    {
+      "canonical": "shell",
+      "section": "requirement",
+      "evidence": "Working proficiency with Python, Bash, or similar scripting"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "troubleshooting skills across Linux or embedded systems, networking"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "Strong troubleshooting skills across Linux or embedded systems"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "expectation-management, and escalation skills"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "requirement",
+      "evidence": "problem-solving, communication, training... skills"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "write clear field notes, deployment records, troubleshooting guides"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "export-control, security, safety, sensitive-data... requirements"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "defense aviation, unmanned aircraft, deployed defense systems"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "nice_to_have",
+      "evidence": "building or scaling a support... function"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "nice_to_have",
+      "evidence": "offline/air-gapped operating environments"
+    },
+    {
+      "canonical": "observability",
+      "section": "nice_to_have",
+      "evidence": "telemetry review, networking tools, system health checks"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "Experience using GenAI tools to accelerate troubleshooting"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "nice_to_have",
+      "evidence": "Active or prior security clearance"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "deploy",
+    "support",
+    "capture",
+    "drive",
+    "convert"
+  ],
+  "segmentation_quality": "header"
+}

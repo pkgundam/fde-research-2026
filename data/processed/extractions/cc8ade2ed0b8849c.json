@@ -1,0 +1,112 @@
+{
+  "posting_id": "cc8ade2ed0b8849c",
+  "skills": [
+    {
+      "canonical": "aws",
+      "section": "responsibility",
+      "evidence": "primary technical counterpart to AWS field leadership"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Design and communicate end-to-end AI architectures"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Build and guide development of prototypes, POCs"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "architecture design, prototyping, and production deployment"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "technical decision-maker and escalation point"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "responsibility",
+      "evidence": "prioritize opportunities and allocate limited technical resources"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "scalable technical motions (workshops, playbooks"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "Mentor and uplift partner technical teams"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner closely with Alliances, Product, Engineering, GTM"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "bridge between field and product...inform roadmap"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "scalable, secure, and production-ready GenAI systems"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "production-ready GenAI systems"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "large, ambiguous, and high-stakes enterprise engagements"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "trusted technical advisors, helping customers and partners"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "senior technical counterpart to AWS field leadership"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "8+ years of technical consulting (or equivalent) experience"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "managing C-level technical and business relationships"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "owning ambiguous, high-visibility problem spaces"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "requirement",
+      "evidence": "Operate as a technical leader and systems thinker"
+    }
+  ],
+  "seniority": "staff_plus",
+  "years_required": 8,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "serve",
+    "lead",
+    "design",
+    "build",
+    "mentor"
+  ],
+  "segmentation_quality": "header"
+}

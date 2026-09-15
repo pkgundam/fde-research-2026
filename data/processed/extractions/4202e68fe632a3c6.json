@@ -1,0 +1,132 @@
+{
+  "posting_id": "4202e68fe632a3c6",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "embed directly with customer engineering teams"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "ship production-grade Cursor workflows"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "figure out what's actually slowing a team down"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "design a practical solution"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "own it end-to-end, from first discovery call through launch"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "define clear success metrics"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "proper rollout plans, monitoring, and iteration"
+    },
+    {
+      "canonical": "llm_observability",
+      "section": "responsibility",
+      "evidence": "Own production quality: tracing, evals, metrics"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "Own production quality: tracing, evals, metrics"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "debugging model behavior"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "latency/cost tradeoffs, and failure modes"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Work directly with Staff+/Platform/Eng leaders"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "push improvements back into the core Cursor product"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "5+ years of experience with software development and coding in Python"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "coding in Python, Javascript/Typescript"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "2+ years in a customer-facing role"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "leading discovery conversations and being accountable for customer outcomes"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "You thrive in ambiguity"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "built and owned AI-native workflows in production"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "debugged real-world model failures"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "requirement",
+      "evidence": "frontend, backend, infra, or prompt iteration"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "requirement",
+      "evidence": "metrics, alerts, safe rollouts, incident response"
+    },
+    {
+      "canonical": "observability",
+      "section": "requirement",
+      "evidence": "production reliability before (metrics, alerts, safe rollouts"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "embed",
+    "design",
+    "ship",
+    "own",
+    "lead"
+  ],
+  "segmentation_quality": "header"
+}

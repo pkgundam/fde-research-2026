@@ -1,0 +1,132 @@
+{
+  "posting_id": "60168a17be392c1b",
+  "skills": [
+    {
+      "canonical": "rag",
+      "section": "responsibility",
+      "evidence": "Build the full retrieval stack from scratch"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Make the architectural calls that will define"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "Build the evaluation flywheel for both retrieval and subagents"
+    },
+    {
+      "canonical": "unstructured_data",
+      "section": "responsibility",
+      "evidence": "unstructured content (docs, wikis, tickets, chat, images"
+    },
+    {
+      "canonical": "sql",
+      "section": "responsibility",
+      "evidence": "structured assets (tables, columns, SQL queries, dashboards"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "Build connectors and retrieval adapters for the systems"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "responsibility",
+      "evidence": "Connect to the SaaS surface area customers actually use"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "Build search subagents that reason about retrieval"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "responsibility",
+      "evidence": "Build the pipelines that extract structure, entities, embeddings"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "mentor senior engineers, partner with Research, Product"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "partner with Research, Product, and Platform leaders"
+    },
+    {
+      "canonical": "rag",
+      "section": "requirement",
+      "evidence": "building production retrieval, search, or RAG systems at scale"
+    },
+    {
+      "canonical": "vector_databases",
+      "section": "requirement",
+      "evidence": "dense retrieval (embeddings, ANN indexes — FAISS, ScaNN, HNSW)"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "requirement",
+      "evidence": "grounding techniques that reduce hallucination"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "designing agentic systems on top of retrieval"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "Strong grasp of relevance evaluation: nDCG, MRR"
+    },
+    {
+      "canonical": "unstructured_data",
+      "section": "requirement",
+      "evidence": "indexed and ranked over tables, code, and documents"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "indexed and ranked over tables, code, and documents"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "stood up a retrieval system from an empty repo"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "requirement",
+      "evidence": "operate as a technical leader: setting direction across teams"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "nice_to_have",
+      "evidence": "retrieval over enterprise SaaS sources (permissions, freshness"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "Background in agentic systems, tool use, or multi-turn retrieval"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "nice_to_have",
+      "evidence": "training or fine-tuning embedding models, rerankers"
+    }
+  ],
+  "seniority": "staff_plus",
+  "years_required": 10,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 1,
+  "responsibility_verbs": [
+    "build",
+    "own",
+    "design",
+    "optimize",
+    "mentor"
+  ],
+  "segmentation_quality": "header"
+}

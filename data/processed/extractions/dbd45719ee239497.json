@@ -1,0 +1,182 @@
+{
+  "posting_id": "dbd45719ee239497",
+  "skills": [
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "use-case selection and architecture through prototyping, evaluation, production"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "architecture through prototyping, evaluation, production launch, and scale"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "prototyping, evaluation, production launch, and scale"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "write and debug code, build evaluation systems, resolve complex"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "resolve complex integrations"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "responsibility",
+      "evidence": "guide decisions involving model behavior, reliability, latency, cost"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "safety, security, governance, and operational readiness"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "reliability, latency, cost, safety, security, governance"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "Success is measured by production systems, sustained adoption"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Deeply embed with our most sophisticated and technical platform"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "building novel applications on our API"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Forge relationships with CTOs, AI Product and engineering leaders"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "maximize business impact from their applications, accelerating their time"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "inform their product roadmaps"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Collaborate with our Product and Research teams in validating"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "sharing knowledge and publishing best-practices to our internal"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "responsibility",
+      "evidence": "Evaluate emerging model capabilities, developer tools, and implementation patterns"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "This includes occasional travel"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "customer teams through on-site workshops and implementation sessions"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "eagerness to work closely with customers"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "personally leading complex, production-scale AI/ML systems from ambiguous"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "production deployment, adoption, and measurable business impact"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "agent architecture patterns, advanced prompt and context engineering, evaluation"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "requirement",
+      "evidence": "agent architecture patterns, advanced prompt and context engineering, evaluation"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "evaluation frameworks, safety, and security"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "evaluation frameworks, safety, and security"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Are proficient in Python, JavaScript, TypeScript, or similar"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Are proficient in Python, JavaScript, TypeScript, or similar"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "requirement",
+      "evidence": "comfortable building production-quality prototypes and reference implementations"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "humble attitude and an eagerness to help others with empathy"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "requirement",
+      "evidence": "working on multiple projects at once with expansive ownership"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "expansive ownership, and ruthlessly prioritize"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "Thrive in dynamic environments and can navigate ambiguity with"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 8,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "embed",
+    "build",
+    "forge",
+    "collaborate",
+    "scale"
+  ],
+  "segmentation_quality": "header"
+}

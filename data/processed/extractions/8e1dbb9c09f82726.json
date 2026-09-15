@@ -1,0 +1,212 @@
+{
+  "posting_id": "8e1dbb9c09f82726",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Partner directly with frontier AI labs to understand complex technical challenges"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "understand complex technical challenges and translate them into scalable engineering solutions"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner closely with Engineering, Research, Product, and Operations teams"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Design, build, and deploy production-grade applications that solve high-impact customer problems"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "improve customer workflows and model performance"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "focus on reliability, scalability, security, and maintainability"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "focus on reliability, scalability, security, and maintainability"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Rapidly prototype, test, and iterate on solutions based on customer feedback"
+    },
+    {
+      "canonical": "testing",
+      "section": "responsibility",
+      "evidence": "Rapidly prototype, test, and iterate on solutions"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "iterate on solutions based on customer feedback"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "Mentor engineers through technical leadership, code reviews"
+    },
+    {
+      "canonical": "git",
+      "section": "responsibility",
+      "evidence": "technical leadership, code reviews, and engineering best practices"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "Customer deployments launch successfully and deliver measurable value"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Customer deployments launch successfully and deliver measurable value"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "You become a trusted technical partner across customers and engineering teams"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "leading technically complex customer-facing...projects"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "requirement",
+      "evidence": "solutions engineering, or forward deployed engineering projects"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "requirement",
+      "evidence": "Experience leading technically complex customer-facing...projects"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Strong proficiency with TypeScript, React"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "Strong proficiency with TypeScript, React, and modern backend architectures"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "React, and modern backend architectures"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "relational databases (e.g., PostgreSQL)"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "system design, distributed systems, and cloud infrastructure"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "production systems on AWS or GCP"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "production systems on AWS or GCP"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "fast-moving, ambiguous environments"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Excellent communication and stakeholder management skills"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "Excellent communication and stakeholder management skills"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "collaborating effectively with globally distributed engineering teams"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "Experience building AI-powered products, LLM infrastructure"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "nice_to_have",
+      "evidence": "LLM infrastructure, or machine learning platforms"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "working directly with enterprise customers or strategic technical partners"
+    },
+    {
+      "canonical": "docker",
+      "section": "nice_to_have",
+      "evidence": "Familiarity with Docker, Kubernetes, and CI/CD pipelines"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "nice_to_have",
+      "evidence": "Familiarity with Docker, Kubernetes, and CI/CD pipelines"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "nice_to_have",
+      "evidence": "Familiarity with Docker, Kubernetes, and CI/CD pipelines"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "nice_to_have",
+      "evidence": "working in a fast-growing startup or high-growth engineering organization"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "nice_to_have",
+      "evidence": "solving operational problems that have direct, measurable impact"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "nice_to_have",
+      "evidence": "Can navigate ambiguity, act with urgency"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "nice_to_have",
+      "evidence": "keep multiple workstreams moving in parallel"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 6,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "own",
+    "partner",
+    "design",
+    "prototype",
+    "mentor"
+  ],
+  "segmentation_quality": "header"
+}

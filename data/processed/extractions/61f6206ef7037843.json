@@ -1,0 +1,27 @@
+{
+  "posting_id": "61f6206ef7037843",
+  "skills": [
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "We fuse AI, robotics, and directed energy"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "weekly field tests on our own 400-acre private range"
+    }
+  ],
+  "seniority": "staff_plus",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 3,
+  "responsibility_verbs": [
+    "build",
+    "fuse",
+    "operate",
+    "test",
+    "deploy"
+  ],
+  "segmentation_quality": "inferred"
+}

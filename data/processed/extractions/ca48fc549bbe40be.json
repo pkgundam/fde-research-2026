@@ -1,0 +1,172 @@
+{
+  "posting_id": "ca48fc549bbe40be",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Embed with government customers to understand their mission"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "scope the problem, and turn it into working software"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "deploy, and maintain solutions at customer sites"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "from prototype to stable production"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Build robust backend systems and data integrations"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "data integrations that connect customer environments to Scale's platform"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner with product and engineering"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "feed field signals back into the roadmap"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Serve as the technical point of contact for customer stakeholders"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "customer-facing, forward-deployed, or government contexts"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Strong production coding in Python and TypeScript"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Strong production coding in Python and TypeScript"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "Comfort across the stack, including cloud platforms"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "cloud platforms (AWS, Azure, or GCP)"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "cloud platforms (AWS, Azure, or GCP)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "cloud platforms (AWS, Azure, or GCP)"
+    },
+    {
+      "canonical": "docker",
+      "section": "requirement",
+      "evidence": "including cloud platforms, containers, Linux"
+    },
+    {
+      "canonical": "shell",
+      "section": "requirement",
+      "evidence": "containers, Linux, and networking fundamentals"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "Linux, and networking fundamentals"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "operate independently in ambiguous, fast-moving environments"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "make sound trade-offs under pressure"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "systems powered by LLMs or generative models"
+    },
+    {
+      "canonical": "typescript",
+      "section": "nice_to_have",
+      "evidence": "Familiarity with Node and React"
+    },
+    {
+      "canonical": "react",
+      "section": "nice_to_have",
+      "evidence": "Familiarity with Node and React"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "nice_to_have",
+      "evidence": "Kubernetes and Docker, and Terraform"
+    },
+    {
+      "canonical": "docker",
+      "section": "nice_to_have",
+      "evidence": "Kubernetes and Docker, and Terraform"
+    },
+    {
+      "canonical": "iac",
+      "section": "nice_to_have",
+      "evidence": "Kubernetes and Docker, and Terraform"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "nice_to_have",
+      "evidence": "Data engineering background covering ETL pipelines"
+    },
+    {
+      "canonical": "data_modeling",
+      "section": "nice_to_have",
+      "evidence": "ETL pipelines, data modeling, and data governance"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "Army, Air Force, Joint commands and Intelligence Community"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "This role requires significant time on-site"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "embed",
+    "scope",
+    "own",
+    "build",
+    "partner"
+  ],
+  "segmentation_quality": "header"
+}

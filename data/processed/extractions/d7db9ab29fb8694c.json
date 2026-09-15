@@ -1,0 +1,22 @@
+{
+  "posting_id": "d7db9ab29fb8694c",
+  "skills": [
+    {"canonical": "cross_functional", "section": "responsibility", "evidence": "work alongside our sales and customer success teams to build and manage"},
+    {"canonical": "implementation_onboarding", "section": "responsibility", "evidence": "build and manage developer onboarding, own our customer-facing documentation"},
+    {"canonical": "written_communication", "section": "responsibility", "evidence": "own our customer-facing documentation, and build out new features"},
+    {"canonical": "mentoring_leadership", "section": "responsibility", "evidence": "manage how the team grows and set the standards for your teammates"},
+    {"canonical": "ownership_autonomy", "section": "requirement", "evidence": "enjoys taking ownership of projects, and wants to grow as an engineer"},
+    {"canonical": "learning_agility", "section": "requirement", "evidence": "high-impact engineer who learns by doing"},
+    {"canonical": "mentoring_leadership", "section": "requirement", "evidence": "wants to grow as an engineer and leader in your next role"},
+    {"canonical": "product_sense", "section": "requirement", "evidence": "excited by the chance to shape Neon's product, team, and culture"},
+    {"canonical": "customer_facing", "section": "requirement", "evidence": "5+ years of experience in partner engineering or a similar customer-facing"},
+    {"canonical": "written_communication", "section": "requirement", "evidence": "experience writing and maintaining API documentation for complex technical products"},
+    {"canonical": "rest_apis", "section": "requirement", "evidence": "writing and maintaining API documentation for complex technical products"}
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 3,
+  "responsibility_verbs": ["scale", "build", "manage", "own", "shape"],
+  "segmentation_quality": "header"
+}

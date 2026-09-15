@@ -1,0 +1,32 @@
+{
+  "posting_id": "278f7995e4a40f69",
+  "skills": [
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "agentic compliance platform — orchestrators and specialist agents that automate"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "engineers work closely with customers and leadership"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "small, sharp team with high ownership"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "build",
+    "automate",
+    "orchestrate",
+    "collaborate",
+    "ship"
+  ],
+  "segmentation_quality": "inferred"
+}

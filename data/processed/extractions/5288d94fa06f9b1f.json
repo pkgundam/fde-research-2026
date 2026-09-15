@@ -1,0 +1,37 @@
+{
+  "posting_id": "5288d94fa06f9b1f",
+  "skills": [
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "keeps distributed systems in sync"
+    },
+    {
+      "canonical": "networking",
+      "section": "responsibility",
+      "evidence": "multi-transport routing that never drops the connection"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "commercial to defense; operationally deployed"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "responsibility",
+      "evidence": "disconnected, degraded, contested, out where the cloud isn't"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "build",
+    "sync",
+    "deploy",
+    "route",
+    "carry"
+  ],
+  "segmentation_quality": "inferred"
+}

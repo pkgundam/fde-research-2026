@@ -1,0 +1,77 @@
+{
+  "posting_id": "555eba7f6d161cba",
+  "skills": [
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "brainstorming technical architectures and product features"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "building full-scale integrations"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "Take full ownership of end-to-end execution of major projects"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "end-to-end execution of major projects for our most strategic partners"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Collaborate daily with our customer's engineers and executives teams"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Collaborate daily with our customer's engineers and executives teams"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Embedded with our most strategic customers"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "Experience working with customers"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Proficiency in Python and strong software development knowledge"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "deep understanding of software development, software architecture"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "APIs integration"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Excellent communication and problem-solving skills"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "own",
+    "design",
+    "build",
+    "collaborate",
+    "drive"
+  ],
+  "segmentation_quality": "header"
+}

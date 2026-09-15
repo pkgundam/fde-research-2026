@@ -1,0 +1,47 @@
+{
+  "posting_id": "3261ba17249ab612",
+  "skills": [
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "forward-deployed consulting company building customized solutions for mid-sized"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "equip our clients with the knowledge and means to"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "We predominantly work in Azure/Go/React (TypeScript)"
+    },
+    {
+      "canonical": "go",
+      "section": "requirement",
+      "evidence": "We predominantly work in Azure/Go/React (TypeScript)"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "We predominantly work in Azure/Go/React (TypeScript)"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "We predominantly work in Azure/Go/React (TypeScript)"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "build",
+    "equip",
+    "consult",
+    "innovate",
+    "improve"
+  ],
+  "segmentation_quality": "inferred"
+}

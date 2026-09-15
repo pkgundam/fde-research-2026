@@ -1,0 +1,132 @@
+{
+  "posting_id": "d329760fc06b302a",
+  "skills": [
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "sandboxed RL environments for agentic AI training"
+    },
+    {
+      "canonical": "docker",
+      "section": "responsibility",
+      "evidence": "containerized execution environments (Docker, VMs, lightweight sandboxes)"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "custom CLI/API harnesses to enable multi-step agent interaction"
+    },
+    {
+      "canonical": "shell",
+      "section": "responsibility",
+      "evidence": "custom CLI/API harnesses to enable multi-step agent interaction"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "Build instrumentation and observability layers—structured logging"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "evaluation protocols that stress-test model capabilities"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Collaborate with data operations to design task curricula"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "responsibility",
+      "evidence": "CI/CD pipelines, automated testing of environment configurations"
+    },
+    {
+      "canonical": "testing",
+      "section": "responsibility",
+      "evidence": "automated testing of environment configurations"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Rapidly prototype new environment types as client requirements evolve"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "strong fundamentals in Python"
+    },
+    {
+      "canonical": "go",
+      "section": "requirement",
+      "evidence": "systems-level language (Go, Rust, C++)"
+    },
+    {
+      "canonical": "rust",
+      "section": "requirement",
+      "evidence": "systems-level language (Go, Rust, C++)"
+    },
+    {
+      "canonical": "cpp",
+      "section": "requirement",
+      "evidence": "systems-level language (Go, Rust, C++)"
+    },
+    {
+      "canonical": "docker",
+      "section": "requirement",
+      "evidence": "containerization and sandboxing (Docker, Podman, Firecracker, or similar)"
+    },
+    {
+      "canonical": "shell",
+      "section": "requirement",
+      "evidence": "developer tooling, CLI tools, or infrastructure automation"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "Strong debugging instincts—you can trace failures across process boundaries"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "implement from academic papers...without extensive hand-holding"
+    },
+    {
+      "canonical": "evals",
+      "section": "nice_to_have",
+      "evidence": "agentic AI evaluation frameworks (SWE-bench, WebArena, OSWorld, TerminalBench)"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "Contributions to open-source projects in the RL, agents, or dev-tools space"
+    },
+    {
+      "canonical": "gcp",
+      "section": "nice_to_have",
+      "evidence": "Familiarity with GCP or AWS infrastructure"
+    },
+    {
+      "canonical": "aws",
+      "section": "nice_to_have",
+      "evidence": "Familiarity with GCP or AWS infrastructure"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "nice_to_have",
+      "evidence": "Compute Engine, ECS/EKS, Cloud Build"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 2,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 2,
+  "responsibility_verbs": [
+    "design",
+    "build",
+    "develop",
+    "integrate",
+    "own"
+  ],
+  "segmentation_quality": "header"
+}

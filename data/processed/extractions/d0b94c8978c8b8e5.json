@@ -1,0 +1,112 @@
+{
+  "posting_id": "d0b94c8978c8b8e5",
+  "skills": [
+    {
+      "canonical": "incident_response",
+      "section": "responsibility",
+      "evidence": "engineering owner for keeping a fleet of robotic workcells online"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "Serve as an engineering owner for keeping a fleet"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Diagnose, fix, mitigate, or escalate issues spanning mechanics"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner closely with technicians, operators, and engineering teams"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "tools that improve monitoring, diagnostics, recovery, and handoffs"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Create documentation, SOPs, and diagnostic playbooks"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Bring up and support prototype systems"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "Manage, triage, and respond to inbound tickets"
+    },
+    {
+      "canonical": "analytics",
+      "section": "responsibility",
+      "evidence": "identify fleet trends, recurring failures, and opportunities"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "operational feedback that help engineering teams improve system design"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "electromechanical, robotic, automation ... systems in production"
+    },
+    {
+      "canonical": "project_management",
+      "section": "requirement",
+      "evidence": "organizational habits around tickets, documentation ... follow-through"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Communicate clearly with operators, technicians, shift managers"
+    },
+    {
+      "canonical": "shell",
+      "section": "nice_to_have",
+      "evidence": "Linux-based systems, service debugging, or real-time debugging"
+    },
+    {
+      "canonical": "debugging",
+      "section": "nice_to_have",
+      "evidence": "robot middleware, motion-control stacks ... service debugging"
+    },
+    {
+      "canonical": "observability",
+      "section": "nice_to_have",
+      "evidence": "fleet operations, internal tools, observability, support platforms"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "nice_to_have",
+      "evidence": "workflow automation, or incident response"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "nice_to_have",
+      "evidence": "fleet operations, internal tools, observability, support platforms"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "nice_to_have",
+      "evidence": "improving operational throughput and maintainability"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 5,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 1,
+  "responsibility_verbs": [
+    "serve",
+    "diagnose",
+    "partner",
+    "build",
+    "create"
+  ],
+  "segmentation_quality": "header"
+}

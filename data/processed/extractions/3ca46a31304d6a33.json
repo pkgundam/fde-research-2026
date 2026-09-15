@@ -1,0 +1,127 @@
+{
+  "posting_id": "3ca46a31304d6a33",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Work hands-on with customers' technical teams"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Embed deeply with strategic customers to understand"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "understand their business challenges and technical requirements"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "trusted technical expert, coding side-by-side"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Collaborate closely with Sales, Success, and Product"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "successful project delivery"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "actionable product feedback"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "seamless customer experiences and successful project delivery"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "codifying best practices and sharing insights"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "codifying best practices to help team scale"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "requirement",
+      "evidence": "Experience building a SaaS product with real-world usage"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "interested in AI/ML and enjoy quickly building understanding"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "enjoy quickly building a strong understanding of novel problems"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "strong cross-functional collaboration skills"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "high-level programming language, for example JavaScript"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "high-level programming language, for example Python"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "requirement",
+      "evidence": "able to prototype and ship software quickly"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "clear focus on business goals and outcomes"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "proficient in using and writing REST APIs"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "strong communicator... engineers and non-technical audiences"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "willing to travel and work on-site with customers"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "nice_to_have",
+      "evidence": "Bonus points for former founders or early startup"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "drive",
+    "embed",
+    "work",
+    "collaborate",
+    "contribute"
+  ],
+  "segmentation_quality": "inferred"
+}

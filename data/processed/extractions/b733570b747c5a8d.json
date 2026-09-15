@@ -1,0 +1,112 @@
+{
+  "posting_id": "b733570b747c5a8d",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "partner directly with our leading enterprise customers"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "enterprise-grade LLMs"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "architecting AI-powered solutions"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "transform complex needs into tangible, high-impact applications"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "owning the end-to-end implementation of tailored solutions"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "leveraging WRITER's platform, APIs"
+    },
+    {
+      "canonical": "data_modeling",
+      "section": "responsibility",
+      "evidence": "Knowledge Graph capabilities"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "clear, prescriptive solution recommendations, guiding customers"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "customer feedback that directly influences our product roadmap"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "robust documentation, and efficient workflows"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "solutions architecture, technical consulting, or technical account management"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Deep technical fluency in Python"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "extensive experience leveraging APIs"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "requirement",
+      "evidence": "designing sophisticated prompts"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "architecting and delivering complex technical solutions for Fortune 500 enterprises"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "executive presence...technical teams to C-suite leadership"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Exceptional communication and executive presence"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "eager to experiment, learn, and iterate"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "Own the successful outcomes for our most strategic accounts"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "partner",
+    "architect",
+    "translate",
+    "collaborate",
+    "drive"
+  ],
+  "segmentation_quality": "header"
+}

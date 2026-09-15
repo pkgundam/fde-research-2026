@@ -1,0 +1,107 @@
+{
+  "posting_id": "94024181d2af3c26",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "partner directly with customers to architect, build, and deploy"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "architect, build, and deploy high-scale production AI applications"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "deploy high-scale production AI applications on Baseten's platform"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "responsibility",
+      "evidence": "deploy high-scale production AI applications on Baseten's platform"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "architect, build, and deploy high-scale production AI applications"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "own the journey with customers from initial exploration to production deployment"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "initial exploration to production deployment"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "responsibility",
+      "evidence": "aspects of product management"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "technical customer success"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "pre-sales solutions engineering mixed in"
+    },
+    {
+      "canonical": "python",
+      "section": "nice_to_have",
+      "evidence": "strong Python and ML experience is a big plus"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "nice_to_have",
+      "evidence": "strong Python and ML experience is a big plus"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "responsibility",
+      "evidence": "reliability of ML workloads in production"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "The role blends hands-on debugging"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "executive level customer facing ownership"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "deep Kubernetes and container orchestration experience"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "polished communication and executive level presence"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "polished communication and executive level presence"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "architect",
+    "build",
+    "deploy",
+    "own",
+    "ensure"
+  ],
+  "segmentation_quality": "inferred"
+}

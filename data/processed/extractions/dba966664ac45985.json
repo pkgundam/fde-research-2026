@@ -1,0 +1,47 @@
+{
+  "posting_id": "dba966664ac45985",
+  "skills": [
+    {
+      "canonical": "testing",
+      "section": "responsibility",
+      "evidence": "exhaustive testing platform for frontend codebases"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Customer-facing + deep systems work; own deployments end-to-end"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "own deployments end-to-end"
+    },
+    {
+      "canonical": "typescript",
+      "section": "responsibility",
+      "evidence": "Tech highlights: TypeScript, browser internals, distributed systems, cloud infra"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "TypeScript, browser internals, distributed systems, cloud infra"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "responsibility",
+      "evidence": "distributed systems, cloud infra, deterministic execution"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "replay",
+    "catch",
+    "ship",
+    "own",
+    "test"
+  ],
+  "segmentation_quality": "inferred"
+}

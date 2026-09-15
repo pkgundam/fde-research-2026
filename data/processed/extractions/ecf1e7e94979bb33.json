@@ -1,0 +1,27 @@
+{
+  "posting_id": "ecf1e7e94979bb33",
+  "skills": [
+    { "canonical": "agents", "section": "responsibility", "evidence": "own the end-to-end agent experience, building and scaling" },
+    { "canonical": "react", "section": "responsibility", "evidence": "ship across the stack: React/Next.js (TypeScript)" },
+    { "canonical": "typescript", "section": "responsibility", "evidence": "React/Next.js (TypeScript) for novel human agent UX" },
+    { "canonical": "python", "section": "responsibility", "evidence": "Python FastAPI on the backend, focusing on performance" },
+    { "canonical": "rest_apis", "section": "responsibility", "evidence": "Python FastAPI on the backend" },
+    { "canonical": "cost_performance", "section": "responsibility", "evidence": "focusing on performance and reliability" },
+    { "canonical": "sql", "section": "requirement", "evidence": "Python FastAPI, Background Workers, Postgres" },
+    { "canonical": "product_sense", "section": "requirement", "evidence": "make powerful agent systems feel simple and reliable" },
+    { "canonical": "ownership_autonomy", "section": "requirement", "evidence": "High ownership, zero bureaucracy, and maximum impact" },
+    { "canonical": "llm_apis", "section": "requirement", "evidence": "turning complex LLM capabilities into dependable, real-world workflows" }
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 2,
+  "responsibility_verbs": [
+    "own",
+    "build",
+    "scale",
+    "ship",
+    "integrate"
+  ],
+  "segmentation_quality": "inferred"
+}

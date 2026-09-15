@@ -1,0 +1,27 @@
+{
+  "posting_id": "20eb8bbd8a27bd7f",
+  "skills": [
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "building infrastructure for AI agents...agentic workflow sandboxes"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "building infrastructure for AI agents"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 3,
+  "responsibility_verbs": [
+    "build",
+    "scale",
+    "engineer",
+    "deploy",
+    "support"
+  ],
+  "segmentation_quality": "inferred"
+}

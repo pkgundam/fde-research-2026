@@ -1,0 +1,92 @@
+{
+  "posting_id": "b1af4f03ea9a7964",
+  "skills": [
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "design tailored solutions that make a real impact"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Embedded with our most strategic customers, you'll get a front-row seat"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Embedded with our most strategic customers, you'll get a front-row seat"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "building full-scale integrations, you'll take full ownership"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "take full ownership of complex, high-impact challenges"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "full ownership of end-to-end execution of major projects"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Collaborate daily with our customer's engineers and executives teams"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "using your coding and technical skills to solve complex problems"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "Experience working with customers"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Proficiency in Python and strong software development knowledge"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "deep understanding of software development, software architecture"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "software architecture, and APIs integration"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Excellent communication and problem-solving skills"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "Expect regular travel for customer onsites"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "deep understanding of the regional and cultural nuances is required"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "design",
+    "own",
+    "deliver",
+    "collaborate",
+    "drive"
+  ],
+  "segmentation_quality": "header"
+}

@@ -1,0 +1,122 @@
+{
+  "posting_id": "2111afc382be7d22",
+  "skills": [
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "design, validate, and scale advanced AI workflows, often using"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "using Codex to prototype and build the very demos"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "highly cross-functional role that blends technical architecture, product strategy"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "work closely with Sales, Solutions Engineering, Product, Applied Engineering"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "advocate for customer needs, shape product direction, and accelerate"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "accelerate the successful deployment of intelligent coding systems"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "embedding deeply with them to enable their engineering teams"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "enable their engineering teams and build coding workflows"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Contribute technical content including examples, guides, patterns, and best"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Influence customer strategy and decision-making by framing how AI"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "Serve as a trusted advisor on solution architecture, operational readiness"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "operational readiness, model configuration, security considerations, and best-practice adoption"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "5+ years of technical consulting, post-sales engineering, solutions architecture"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "similar experience working directly with customers"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "active power user of AI coding tools and have deeply"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "requirement",
+      "evidence": "building scrappy, high-signal demos, integrations, and prototypes that clearly"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "requirement",
+      "evidence": "delivering large, high-impact workshops or technical training to engineering"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "contributed technical guides, patterns, or examples publicly and care"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "communicate complex technical concepts in clear, persuasive written and"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "excited by ambiguous, rapidly evolving problem spaces and enjoy"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "requirement",
+      "evidence": "reliability, safety, and operational excellence as much as you"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "partner",
+    "design",
+    "build",
+    "lead",
+    "serve"
+  ],
+  "segmentation_quality": "header"
+}

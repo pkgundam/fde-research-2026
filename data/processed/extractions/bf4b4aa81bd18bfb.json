@@ -1,0 +1,172 @@
+{
+  "posting_id": "bf4b4aa81bd18bfb",
+  "skills": [
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "care...about speed, intelligence, ownership, and product impact"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "especially in Python or a comparable backend language"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "building AI-powered product features or LLM-based workflows"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "requirement",
+      "evidence": "turn ambiguous product ideas into working software"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "design, test, validate, and improve AI outputs"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "integrating AI workflows into production systems"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "Strong debugging instincts across application logic"
+    },
+    {
+      "canonical": "testing",
+      "section": "requirement",
+      "evidence": "evaluation, testing, validation, or quality checks"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "fast learning speed, bias to action"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "Clear written and spoken English"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Clear written and spoken English"
+    },
+    {
+      "canonical": "react",
+      "section": "nice_to_have",
+      "evidence": "Experience with frontend or fullstack product development"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "nice_to_have",
+      "evidence": "self-hosted LLMs, model serving, inference optimization"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "open-source LLMs and related deployment workflows"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "nice_to_have",
+      "evidence": "improving latency, cost, quality, or reliability"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "healthcare software, healthcare data, or regulated environments"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "nice_to_have",
+      "evidence": "healthcare data, or regulated environments"
+    },
+    {
+      "canonical": "unstructured_data",
+      "section": "nice_to_have",
+      "evidence": "structured data extraction, documentation automation"
+    },
+    {
+      "canonical": "speech",
+      "section": "nice_to_have",
+      "evidence": "voice workflows, or workflow automation"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "Build new AI-powered product features from idea to production"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "from idea to production"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "quality, reliability, latency, and user value"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "responsibility",
+      "evidence": "structured outputs, validation logic, and fallback behavior"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "Build evaluation loops, tests, and quality checks"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Integrate AI capabilities into existing product and backend systems"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "responsibility",
+      "evidence": "Support self-hosted model workflows where they make sense"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "responsibility",
+      "evidence": "Support self-hosted model workflows"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Debug AI feature failures across inputs, outputs, data"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "Ownership of important backend systems"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "software used in real healthcare workflows"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "work closely with product and engineering"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "none",
+  "customer_facing_intensity": 1,
+  "responsibility_verbs": [
+    "build",
+    "improve",
+    "design",
+    "integrate",
+    "debug"
+  ],
+  "segmentation_quality": "header"
+}

@@ -1,0 +1,37 @@
+{
+  "posting_id": "8c1b1af35f7a6cbc",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "You'll work side-by-side with customers"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "work side-by-side with customers"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "building AI tools for chip designers"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "responsibility",
+      "evidence": "translating cutting-edge capabilities into tangible impact across their workflows"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "design",
+    "build",
+    "translate",
+    "collaborate",
+    "shape"
+  ],
+  "segmentation_quality": "inferred"
+}

@@ -1,0 +1,162 @@
+{
+  "posting_id": "146d9d9db31e3913",
+  "skills": [
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "Serve as project manager / on-site lead"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "working directly with U.S. military, DHS, and allied customers"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "deliver Anduril's radar and integrated sensor capabilities"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "on-site lead...either on-site or remotely"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "Monitor radar system performance, connectivity, integration with mesh networks"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Gather, triage, and prioritize user feedback on radar detection performance"
+    },
+    {
+      "canonical": "testing",
+      "section": "responsibility",
+      "evidence": "found during fielding, testing, exercises, and normal use"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Provide input to account and engineering teams"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "increased deployment and installation of our radar systems"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "engagement with other units, commands, and organizations"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "operator training sessions, refreshers, and focused preparation"
+    },
+    {
+      "canonical": "analytics",
+      "section": "responsibility",
+      "evidence": "health/performance dashboards across distributed sites"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Develop software integrations between radar systems, mesh networks"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "identify trends and root causes"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "work side-by-side with customers to understand their specific problem sets"
+    },
+    {
+      "canonical": "shell",
+      "section": "requirement",
+      "evidence": "basic CLI familiarity (comfortable running commands"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "requirement",
+      "evidence": "scripting/automation, data pipelines, or systems integration"
+    },
+    {
+      "canonical": "analytics",
+      "section": "requirement",
+      "evidence": "comfort with statistical analysis of sensor performance data"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "data pipelines, or systems integration"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "Willingness to travel 50-75%"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "materiel leadership or mission partners within Army Air & Missile Defense"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "nice_to_have",
+      "evidence": "working in small, cross-functional teams, solving complex problems"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "nice_to_have",
+      "evidence": "solving complex problems, surrounded by ambiguity"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "nice_to_have",
+      "evidence": "field deployments or operational settings"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "nice_to_have",
+      "evidence": "Self-starter who takes initiative with little direction"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "nice_to_have",
+      "evidence": "externally to multiple stakeholders including military operators, program managers"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "nice_to_have",
+      "evidence": "communicate efficiently and succinctly both internally"
+    },
+    {
+      "canonical": "analytics",
+      "section": "nice_to_have",
+      "evidence": "building internal tools, dashboards, or monitoring systems"
+    },
+    {
+      "canonical": "observability",
+      "section": "nice_to_have",
+      "evidence": "monitoring systems for hardware/sensor fleets"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "monitor",
+    "build",
+    "develop",
+    "troubleshoot",
+    "deliver"
+  ],
+  "segmentation_quality": "header"
+}

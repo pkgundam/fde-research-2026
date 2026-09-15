@@ -15,9 +15,9 @@ META_MODEL = "claude-sonnet-5"
 OUT = PROCESSED_DIR / "report_data.json"
 
 STACK_NAME_OVERRIDES: dict[frozenset, str] = {
-    frozenset({"prototyping", "rest_apis", "training_enablement", "consulting", "business_acumen", "pre_sales", "enterprise_systems"}): "Pre-sales & field delivery",
-    frozenset({"python", "learning_agility", "typescript", "react", "sql", "product_sense", "data_modeling"}): "Full-stack builder",
-    frozenset({"cost_performance", "debugging", "security_compliance", "observability", "on_prem_airgapped"}): "Production hardening",
+    frozenset({"prototyping", "learning_agility", "consulting", "training_enablement", "business_acumen", "pre_sales", "metrics_measurement"}): "Pre-sales & field delivery",
+    frozenset({"python", "typescript", "cloud_platforms", "react", "sql", "product_sense"}): "Full-stack builder",
+    frozenset({"cost_performance", "ml_fundamentals", "project_management", "model_serving", "technical_support", "analytics", "fine_tuning"}): "ML operations & delivery",
     frozenset({"aws", "gcp", "azure", "kubernetes", "ci_cd", "docker", "iac"}): "Cloud infrastructure",
 }
 

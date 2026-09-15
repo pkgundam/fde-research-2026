@@ -1,0 +1,127 @@
+{
+  "posting_id": "13416e65087c7d43",
+  "skills": [
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "deploying and tuning our systems in real-world environments"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "bridge the gap between our core product and enterprise customers"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "heavily involved in the pre and post-sales process"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "build prototype and demo applications to showcase Reducto's capabilities"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "shape the direction of our core product"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "whether that is an eval application"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "a customized agent"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Collaborating hand-in-hand with Sales and Customer Success"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "land prospects and enable customers"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "knowing the key stakeholders, particularly technical ones"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "Creating diagnostics, dashboards, and eval harnesses"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "measure performance and track regressions across environments"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "responsibility",
+      "evidence": "shape the product direction and engineering strategy"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "requirement",
+      "evidence": "3 to 6 years of experience deploying software in production settings"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "You're excellent with Python"
+    },
+    {
+      "canonical": "shell",
+      "section": "requirement",
+      "evidence": "navigate Bash and infrastructure as needed"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "requirement",
+      "evidence": "Build your own tools as needed—like a quick Streamlit app"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "Ability to debug, experiment, and iterate fast"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "ideally with enterprise or regulated customers"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "nice_to_have",
+      "evidence": "prior experience founding a company or building products at early stages"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "enabling large customer(s) to succeed through your efforts"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "nice_to_have",
+      "evidence": "Keep up with the latest developments in ML/AI"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 3,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "build",
+    "collaborate",
+    "create",
+    "shape",
+    "act"
+  ],
+  "segmentation_quality": "inferred"
+}

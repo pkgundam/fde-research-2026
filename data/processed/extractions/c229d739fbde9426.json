@@ -1,0 +1,132 @@
+{
+  "posting_id": "c229d739fbde9426",
+  "skills": [
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "build, operate, and maintain scalable, reliable services"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "high-performance, scalable, and reliable services"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "industry-leading LLM and AI technology"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "responsibility",
+      "evidence": "owning reliability and operations for software systems"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "work closely with forward deployed teams and product teams"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "diagnosing, resolving, and preventing production issues"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "monitoring and alerting, configuration management"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "Handle support and operations of Palantir software"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Deploy new Palantir products across production environments"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "troubleshooting complex systems issues independently"
+    },
+    {
+      "canonical": "observability",
+      "section": "requirement",
+      "evidence": "using observability tools and service logs"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "load balancing, distributed systems"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "large scale production systems, distributed systems"
+    },
+    {
+      "canonical": "java",
+      "section": "requirement",
+      "evidence": "Java, Python, Bash, JavaScript, Go"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Java, Python, Bash, JavaScript, Go"
+    },
+    {
+      "canonical": "shell",
+      "section": "requirement",
+      "evidence": "Java, Python, Bash, JavaScript, Go"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Java, Python, Bash, JavaScript, Go"
+    },
+    {
+      "canonical": "go",
+      "section": "requirement",
+      "evidence": "Java, Python, Bash, JavaScript, Go"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "high level of autonomy and responsibility"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "rapidly changing environment with dynamic objectives"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Excellent communication and interpersonal skills"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "work effectively in multi-functional teams"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "Active US Security clearance, or eligibility"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 3,
+  "responsibility_verbs": [
+    "build",
+    "handle",
+    "deploy",
+    "debug",
+    "provide"
+  ],
+  "segmentation_quality": "header"
+}

@@ -1,0 +1,237 @@
+{
+  "posting_id": "0b454a07c611cf05",
+  "skills": [
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Drive successful Proof-of-Value experiences"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner closely with a Fiddler go-to-market teams"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "aligning prospect goals with Fiddler's capabilities"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "ensuring evaluation cycles are delivered... with clear success criteria met"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Be the trusted technical partner our customers rely on"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "customer feedback influences our product roadmap and long-term strategy"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "Lead ongoing technical engagements, status syncs, roadmap discussions, QBRs"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "escalation management"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "Become a domain expert in AI Observability"
+    },
+    {
+      "canonical": "llm_observability",
+      "section": "responsibility",
+      "evidence": "improving model transparency, performance monitoring, and compliance"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "responsibility",
+      "evidence": "connects Fiddler to customer data ecosystems using... Airflow"
+    },
+    {
+      "canonical": "data_warehouses",
+      "section": "responsibility",
+      "evidence": "connects Fiddler to customer data ecosystems using Snowflake"
+    },
+    {
+      "canonical": "streaming",
+      "section": "responsibility",
+      "evidence": "connects Fiddler to customer data ecosystems using... Kafka"
+    },
+    {
+      "canonical": "aws",
+      "section": "responsibility",
+      "evidence": "connects Fiddler to customer data ecosystems using... S3"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Accelerate platform adoption... reduce time-to-value for new customers"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "helping drive renewals and growth"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "Bachelor's degree in Computer Science (AI/ML focus), Statistics, Mathematics"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "requirement",
+      "evidence": "AI-related pre-sales or forward deployed engineer role"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "requirement",
+      "evidence": "deploying, monitoring, or maintaining AI models in production"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Excellent communication, presentation, and storytelling abilities"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "actionable insights for both technical and executive audiences"
+    },
+    {
+      "canonical": "project_management",
+      "section": "requirement",
+      "evidence": "Strong organizational and project management skills"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "requirement",
+      "evidence": "balance multiple customer engagements and priorities"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "collaboration across cross-functional teams—Product, Engineering, and Sales"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "a deep sense of ownership for delivering value"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "Passion for continuous learning"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "requirement",
+      "evidence": "inspire customers and peers through thought leadership"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "nice_to_have",
+      "evidence": "model interpretability, and explainability techniques"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "direct support of government or governmental agencies/programs"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "building GenAI Applications and Agentic workflow applications"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "Experience building GenAI Applications"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "nice_to_have",
+      "evidence": "data and workflow tools such as Hadoop... Spark... Airflow"
+    },
+    {
+      "canonical": "nosql",
+      "section": "nice_to_have",
+      "evidence": "data and workflow tools such as... MongoDB"
+    },
+    {
+      "canonical": "data_warehouses",
+      "section": "nice_to_have",
+      "evidence": "data and workflow tools such as... Snowflake, BigQuery"
+    },
+    {
+      "canonical": "streaming",
+      "section": "nice_to_have",
+      "evidence": "Kafka, Kinesis, RabbitMQ"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "nice_to_have",
+      "evidence": "Proficiency with Kubernetes and cloud platforms"
+    },
+    {
+      "canonical": "aws",
+      "section": "nice_to_have",
+      "evidence": "cloud platforms (AWS, Azure, GCP)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "nice_to_have",
+      "evidence": "cloud platforms (AWS, Azure, GCP)"
+    },
+    {
+      "canonical": "azure",
+      "section": "nice_to_have",
+      "evidence": "cloud platforms (AWS, Azure, GCP)"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "nice_to_have",
+      "evidence": "feature generation, model training, deployment, monitoring"
+    },
+    {
+      "canonical": "evals",
+      "section": "nice_to_have",
+      "evidence": "and evaluation (batch and real-time scoring via REST APIs)"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "nice_to_have",
+      "evidence": "batch and real-time scoring via REST APIs"
+    },
+    {
+      "canonical": "rag",
+      "section": "nice_to_have",
+      "evidence": "RAG architectures, and agent-based systems"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "nice_to_have",
+      "evidence": "Familiarity with Federal accounts and sales motions"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "drive",
+    "partner",
+    "champion",
+    "deliver",
+    "integrate"
+  ],
+  "segmentation_quality": "header"
+}

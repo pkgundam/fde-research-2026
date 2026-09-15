@@ -1,0 +1,167 @@
+{
+  "posting_id": "104df721b6fdeca8",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "embed inside four to five of Okta's most strategic enterprise customers"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "responsibility",
+      "evidence": "dedicated technical partner for agent identity"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "own the technical outcome from prototype through production"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "You are a builder-consultant"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "code, debug, and ship bespoke agent identity solutions"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "ship bespoke agent identity solutions inside the customer's environment"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "feed real field insight back to Okta product engineering"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "responsibility",
+      "evidence": "Sit in their standups, design reviews, and incident response"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "architecture review board and security council for agent risk decisions"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Architect and deploy with the customer's team"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "coach their engineers on the patterns"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Brief the CISO, CIO, identity leaders, Chief AI Officer"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "responsibility",
+      "evidence": "AI governance mandates into architecture"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Deliver white-glove deployment. Agents in production with full identity coverage"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "Wire Okta into the customer's stack. Connect O4AA to their IdP"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "Build evals and observability"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "Build evals and observability"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Be on site. Regular presence at customer locations"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "requirement",
+      "evidence": "with on-call experience and operational maturity in systems that authenticate"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "requirement",
+      "evidence": "systems that authenticate and authorize at high throughput"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "Ability to travel, 35% (on occasion internationally)"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "requirement",
+      "evidence": "Working knowledge of OWASP Top 10 for Agentic Applications, NIST AI RMF"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "Comfortable mapping deployments to HIPAA, FedRAMP, and SOC 2"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "Familiarity with MCP, A2A, ISO/IEC 42001, and the EU AI Act"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "how agents acquire tokens, call APIs, and delegate"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "Built production integrations with Claude, ChatGPT, Microsoft Copilot, Agentforce"
+    },
+    {
+      "canonical": "llm_frameworks",
+      "section": "requirement",
+      "evidence": "LangChain, CrewAI, the OpenAI Agents SDK, or MCP servers"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "At home in a customer standup and a CISO briefing"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "You build trust with senior engineering leaders"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "A zero-to-one self-starter who owns outcomes end to end"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 7,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "embed",
+    "architect",
+    "engage",
+    "deliver",
+    "build"
+  ],
+  "segmentation_quality": "header"
+}

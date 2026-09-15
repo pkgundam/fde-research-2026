@@ -1,0 +1,92 @@
+{
+  "posting_id": "1a0f6461054c3c4a",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "We work directly with strategic customers to design, build, deploy"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "design, build, deploy, and improve production AI systems on Snowflake"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "That includes LLM applications, RAG and agentic workflows"
+    },
+    {
+      "canonical": "rag",
+      "section": "responsibility",
+      "evidence": "LLM applications, RAG and agentic workflows, evaluation frameworks"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "RAG and agentic workflows, evaluation frameworks, guardrails"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "agentic workflows, evaluation frameworks, guardrails, observability"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "responsibility",
+      "evidence": "evaluation frameworks, guardrails, observability, and production iteration"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "guardrails, observability, and production iteration using Snowpark"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "lead multi-engineer AI engagements, mentor other engineers"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "lead multi-engineer AI engagements, mentor other engineers"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "involve travel, including at least 25% onsite time"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "partnering closely with customers to get things into production"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "especially if you've worked on LLM apps and care deeply"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "care deeply about evals and quality"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "If you like working in ambiguity"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "design",
+    "build",
+    "deploy",
+    "improve",
+    "partner"
+  ],
+  "segmentation_quality": "inferred"
+}

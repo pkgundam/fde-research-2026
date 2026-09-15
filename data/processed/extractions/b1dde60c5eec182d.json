@@ -1,0 +1,21 @@
+{
+  "posting_id": "b1dde60c5eec182d",
+  "skills": [
+    { "canonical": "implementation_onboarding", "section": "responsibility", "evidence": "take customers from first POC to production rollout" },
+    { "canonical": "prototyping", "section": "responsibility", "evidence": "take customers from first POC" },
+    { "canonical": "customer_facing", "section": "responsibility", "evidence": "Own technical success for enterprise integrations" },
+    { "canonical": "product_feedback_loop", "section": "responsibility", "evidence": "turn customer friction into roadmap" }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "own",
+    "partner",
+    "advocate",
+    "turn",
+    "expand"
+  ],
+  "segmentation_quality": "inferred"
+}

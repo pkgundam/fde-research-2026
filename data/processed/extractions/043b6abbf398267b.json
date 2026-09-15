@@ -1,0 +1,222 @@
+{
+  "posting_id": "043b6abbf398267b",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "work directly with some of the world's largest organizations"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "turn their most ambitious ideas into production applications"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "partner closely with customers to understand their technical and business needs"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "architect solutions, and build the integrations and applications"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "build the integrations and applications required to deploy Replit"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "from initial idea and prototype through deployment and production"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "real-world infrastructure, data, security, and organizational constraints"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "high-impact applications and AI-powered workflows on Replit"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "responsibility",
+      "evidence": "customers' existing systems, data, APIs, identity providers"
+    },
+    {
+      "canonical": "data_warehouses",
+      "section": "responsibility",
+      "evidence": "Integrate with the customer's stack: SSO, data warehouses"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "responsibility",
+      "evidence": "internal APIs, and SaaS systems"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "identifying blockers, debugging issues"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "translate field insights... into actionable feedback for Replit's product"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Collaborate closely with Product, Design, and other Engineering teams"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "Turn field patterns into templates, playbooks, and product requirements"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "requirement",
+      "evidence": "5+ years of software engineering experience building and deploying production software"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "work across unfamiliar codebases, APIs, and technical environments"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "quickly understand and work across unfamiliar codebases"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "Hands-on work with LLM applications in production"
+    },
+    {
+      "canonical": "rag",
+      "section": "requirement",
+      "evidence": "LLM applications in production: retrieval, tool calls, and evals"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "retrieval, tool calls, and evals"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "retrieval, tool calls, and evals"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "requirement",
+      "evidence": "Hands-on work with LLM applications in production"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "designing and owning complex technical systems from architecture through production"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "operate effectively in ambiguous environments"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "independently drive technical projects to completion"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Strong technical communication skills"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "experience working directly with customers, partners, or cross-functional stakeholders"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "working directly with customers, partners, or cross-functional stakeholders"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "translate business requirements and customer problems into pragmatic technical solutions"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "translate business requirements and customer problems"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "nice_to_have",
+      "evidence": "Solutions Architecture, Sales Engineering, consulting"
+    },
+    {
+      "canonical": "consulting",
+      "section": "nice_to_have",
+      "evidence": "Sales Engineering, consulting, or another highly technical customer-facing role"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "another highly technical customer-facing role"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "building and deploying AI-powered applications, agents, or developer tools"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "building and deploying AI-powered applications"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "nice_to_have",
+      "evidence": "Experience with modern cloud infrastructure, application deployment"
+    },
+    {
+      "canonical": "sql",
+      "section": "nice_to_have",
+      "evidence": "application deployment, databases, APIs, authentication"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "nice_to_have",
+      "evidence": "databases, APIs, authentication, and enterprise integration"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "nice_to_have",
+      "evidence": "identity and access management, internal data sources"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "nice_to_have",
+      "evidence": "enterprise integration patterns"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "build",
+    "architect",
+    "integrate",
+    "own",
+    "bridge"
+  ],
+  "segmentation_quality": "header"
+}

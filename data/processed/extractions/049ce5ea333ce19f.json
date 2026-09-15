@@ -1,0 +1,192 @@
+{
+  "posting_id": "049ce5ea333ce19f",
+  "skills": [
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "Participate in sales meetings with customers"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "provide architectural recommendations"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "build proof-of-concept solutions to support onboarding"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "support onboarding for potential high-spending customers"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "Troubleshoot and resolve critical or complex technical issues escalated by customers"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "code analysis, scripting for testing, log analysis... to identify root causes"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "issues related to configuration, performance, functionality"
+    },
+    {
+      "canonical": "testing",
+      "section": "responsibility",
+      "evidence": "scripting for testing, log analysis and remote access"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Communicate effectively with customers and internal teams"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "engineering, sales, supply and product management teams"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "relaying feedback from customers... helping to shape product improvements"
+    },
+    {
+      "canonical": "gpu_infra",
+      "section": "responsibility",
+      "evidence": "work with the infrastructure team to address GPU server-related issues"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Create and maintain technical documentation... knowledge base articles"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "developing and delivering training sessions, webinars, and demos"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "work closely with customers... resolving challenges, and building trust"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "building trust with customers"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "ability to work in a collaborative environment"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "requirement",
+      "evidence": "applied AI use cases such as inference, fine-tuning"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "requirement",
+      "evidence": "applied AI use cases such as inference, fine-tuning"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "LLM-based applications, or agentic systems"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "LLM-based applications, or agentic systems"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Excellent communication skills and attention to detail"
+    },
+    {
+      "canonical": "python",
+      "section": "nice_to_have",
+      "evidence": "proficiency in Python (Django, Flask, PyTorch)"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "nice_to_have",
+      "evidence": "Python (Django, Flask, PyTorch)"
+    },
+    {
+      "canonical": "typescript",
+      "section": "nice_to_have",
+      "evidence": "JavaScript (React, Node.js)"
+    },
+    {
+      "canonical": "react",
+      "section": "nice_to_have",
+      "evidence": "JavaScript (React, Node.js)"
+    },
+    {
+      "canonical": "go",
+      "section": "nice_to_have",
+      "evidence": "JavaScript (React, Node.js), and Go"
+    },
+    {
+      "canonical": "shell",
+      "section": "nice_to_have",
+      "evidence": "Knowledge of various operating systems (Linux/Ubuntu)"
+    },
+    {
+      "canonical": "docker",
+      "section": "nice_to_have",
+      "evidence": "containerization (Docker)"
+    },
+    {
+      "canonical": "sql",
+      "section": "nice_to_have",
+      "evidence": "SQL databases (MySQL, PostgreSQL)"
+    },
+    {
+      "canonical": "nosql",
+      "section": "nice_to_have",
+      "evidence": "NoSQL databases (MongoDB)"
+    },
+    {
+      "canonical": "networking",
+      "section": "nice_to_have",
+      "evidence": "network protocols like TCP/IP, HTTP/HTTPS, SSH, and DNS"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "nice_to_have",
+      "evidence": "deploying and managing AI/ML models as services or APIs"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "nice_to_have",
+      "evidence": "AI/ML models as services or APIs"
+    },
+    {
+      "canonical": "debugging",
+      "section": "nice_to_have",
+      "evidence": "read and understand code, logs, errors, or traces"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 3,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "troubleshoot",
+    "resolve",
+    "communicate",
+    "build",
+    "create"
+  ],
+  "segmentation_quality": "header"
+}

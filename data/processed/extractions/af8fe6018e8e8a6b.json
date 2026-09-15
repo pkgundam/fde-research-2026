@@ -1,0 +1,152 @@
+{
+  "posting_id": "af8fe6018e8e8a6b",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "field engineer or professional services consultant working directly with Enterprise clients"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "professional services consultant"
+    },
+    {
+      "canonical": "java",
+      "section": "requirement",
+      "evidence": "Proficiency in Java or C#"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "Strong knowledge about enterprise-scale software architectures"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "employing SQL and stored procedures with Oracle, MS SQL Server"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "collaborate across disciplines and teams to come up with creative solutions"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "Willingness to dive into a complex domain, ask the right questions"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "Great communication skills (both spoken and written)"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Great communication skills (both spoken and written)"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "Good understanding of Generative AI concepts, tools, and services"
+    },
+    {
+      "canonical": "nosql",
+      "section": "nice_to_have",
+      "evidence": "using and developing with MongoDB and JSON based Document models"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "build new applications/tools using Generative AI is a big plus"
+    },
+    {
+      "canonical": "data_modeling",
+      "section": "responsibility",
+      "evidence": "planning and design; data modeling; application code conversion"
+    },
+    {
+      "canonical": "testing",
+      "section": "responsibility",
+      "evidence": "application code conversion, development, test and build"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Contribute to customer application modernization initiatives at any or all phases"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Test drive MongoDB migration products to deliver on customer use cases"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Work closely with Product and Engineering teams to influence the direction"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Work closely with Product and Engineering teams"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Personally execute POCs including developing or extending existing tools"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "responsibility",
+      "evidence": "often on premises at client locations"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "responsibility",
+      "evidence": "Maintain a broad and deep technical understanding of the product line"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "Assist sales teams in evaluating opportunities with prospects and customers"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "willingness to work on site with customers for 7 days per month"
+    },
+    {
+      "canonical": "nosql",
+      "section": "responsibility",
+      "evidence": "Become an expert level user of MongoDB, and our tools"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "Develop a playbook for customer application modernization engagements"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "responsibility",
+      "evidence": "Communicate complex technical proposals simply and convincingly to a wide range"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "reputation as a trusted advisor with our field teams"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 4,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "contribute",
+    "execute",
+    "maintain",
+    "deliver",
+    "assist"
+  ],
+  "segmentation_quality": "inferred"
+}

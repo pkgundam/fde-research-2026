@@ -1,0 +1,317 @@
+{
+  "posting_id": "23010faa1270458b",
+  "skills": [
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "Design and build agentic systems using models, tools, action loops"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "state, memory, evaluation, tracing, and human oversight"
+    },
+    {
+      "canonical": "llm_observability",
+      "section": "responsibility",
+      "evidence": "memory, evaluation, tracing, and human oversight"
+    },
+    {
+      "canonical": "rag",
+      "section": "responsibility",
+      "evidence": "retrieval-augmented generation, cache-augmented generation, graph-based retrieval, repository understanding"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Work directly in strategic customer environments to understand technical friction"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "turn ambiguous needs into working solutions"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "understand technical friction and turn ambiguous needs into working solutions"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Build agent workflows, integrations, evaluation suites, reference architectures"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "system quality, reliability, latency, cost, token use"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "responsibility",
+      "evidence": "token use, safety, authorization, governance, and developer experience"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "safety, authorization, governance, and developer experience"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Diagnose failures across models, context, retrieval, tool use, control flow"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner with Product and Engineering as an extension of their teams"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Generalize customer-specific learning into reusable platform capabilities, implementation patterns"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "Provide Staff-level technical leadership through architecture, implementation, review, mentorship"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "focused technical consultation to a long-running design partnership"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "Staff-level software-engineering experience building, shipping, and improving complex production systems"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "Hands-on experience designing and building substantive AI systems"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "ability to evaluate, trace, debug, and optimize their behavior"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "ability to evaluate, trace, debug, and optimize their behavior"
+    },
+    {
+      "canonical": "llm_observability",
+      "section": "requirement",
+      "evidence": "ability to evaluate, trace, debug, and optimize their behavior"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "Strong understanding of how agentic systems use models, context, retrieval, tools"
+    },
+    {
+      "canonical": "rag",
+      "section": "requirement",
+      "evidence": "models, context, retrieval, tools, state, control flow"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "requirement",
+      "evidence": "AI developer tools, inference, or AI-enabled product engineering"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Strong programming skills in Python, TypeScript, Go, Rust, Java, Kotlin"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Strong programming skills in Python, TypeScript, Go, Rust, Java, Kotlin"
+    },
+    {
+      "canonical": "go",
+      "section": "requirement",
+      "evidence": "Strong programming skills in Python, TypeScript, Go, Rust, Java, Kotlin"
+    },
+    {
+      "canonical": "rust",
+      "section": "requirement",
+      "evidence": "Strong programming skills in Python, TypeScript, Go, Rust, Java, Kotlin"
+    },
+    {
+      "canonical": "java",
+      "section": "requirement",
+      "evidence": "Strong programming skills in Python, TypeScript, Go, Rust, Java, Kotlin"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "Ability to learn and contribute across large, mature, polyglot codebases"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "requirement",
+      "evidence": "Practical understanding of AI safety, authorization, governance, observability"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "AI safety, authorization, governance, observability, and cost management"
+    },
+    {
+      "canonical": "observability",
+      "section": "requirement",
+      "evidence": "authorization, governance, observability, and cost management"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "governance, observability, and cost management"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "communicate clearly with customers and senior stakeholders"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "work through ambiguity, and build trust while remaining deeply technical"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "communicate clearly with customers and senior stakeholders"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "requirement",
+      "evidence": "record of Staff-level impact through technical direction, reusable systems, mentorship"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "Experience working directly with customers, design partners, or external engineering teams"
+    },
+    {
+      "canonical": "testing",
+      "section": "nice_to_have",
+      "evidence": "code understanding, code review, testing, CI/CD, security, or incident response"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "nice_to_have",
+      "evidence": "testing, CI/CD, security, or incident response"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "nice_to_have",
+      "evidence": "CI/CD, security, or incident response"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "nice_to_have",
+      "evidence": "security, or incident response"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "for software development, coding agents, IDEs, code understanding"
+    },
+    {
+      "canonical": "llm_frameworks",
+      "section": "nice_to_have",
+      "evidence": "Experience with LangChain, LangGraph, RAG, cache-augmented generation"
+    },
+    {
+      "canonical": "rag",
+      "section": "nice_to_have",
+      "evidence": "LangChain, LangGraph, RAG, cache-augmented generation, knowledge graphs"
+    },
+    {
+      "canonical": "data_modeling",
+      "section": "nice_to_have",
+      "evidence": "knowledge graphs, agent evaluation, tracing, or related systems"
+    },
+    {
+      "canonical": "evals",
+      "section": "nice_to_have",
+      "evidence": "knowledge graphs, agent evaluation, tracing, or related systems"
+    },
+    {
+      "canonical": "llm_observability",
+      "section": "nice_to_have",
+      "evidence": "agent evaluation, tracing, or related systems"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "nice_to_have",
+      "evidence": "Experience evaluating how model and inference behavior affects application"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "nice_to_have",
+      "evidence": "self-hosted models, restricted environments, enterprise governance, or customer-controlled inference"
+    },
+    {
+      "canonical": "git",
+      "section": "nice_to_have",
+      "evidence": "Familiarity with Git, GitLab, CI/CD, developer platforms"
+    },
+    {
+      "canonical": "aws",
+      "section": "nice_to_have",
+      "evidence": "Experience with AWS, GCP, Azure or Kubernetes"
+    },
+    {
+      "canonical": "gcp",
+      "section": "nice_to_have",
+      "evidence": "Experience with AWS, GCP, Azure or Kubernetes"
+    },
+    {
+      "canonical": "azure",
+      "section": "nice_to_have",
+      "evidence": "Experience with AWS, GCP, Azure or Kubernetes"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "nice_to_have",
+      "evidence": "Experience with AWS, GCP, Azure or Kubernetes"
+    },
+    {
+      "canonical": "iac",
+      "section": "nice_to_have",
+      "evidence": "Infrastructure as Code tooling, such as Terraform, Ansible"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "nice_to_have",
+      "evidence": "Public technical writing, architecture guidance, open-source contributions, talks"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "nice_to_have",
+      "evidence": "talks, or other evidence of technical leadership"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "nice_to_have",
+      "evidence": "open-source contributions, talks, or other evidence of technical leadership"
+    }
+  ],
+  "seniority": "staff_plus",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "design",
+    "build",
+    "evaluate",
+    "diagnose",
+    "partner"
+  ],
+  "segmentation_quality": "header"
+}

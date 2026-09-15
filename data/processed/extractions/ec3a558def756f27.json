@@ -1,0 +1,102 @@
+{
+  "posting_id": "ec3a558def756f27",
+  "skills": [
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Collaborate with engineers to make architecture and design decisions"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "Build custom applications, LLM workflows, and production solutions"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "from the first conversation with a customer, to shipping"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Own relationships with stakeholders from the users in the weeds"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "embed with the customer, the chaos, and the consequences"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "responsibility",
+      "evidence": "Wrestle with data at a scale that breaks assumptions"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "Expect 25–50% travel, depending on team and location"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "make decisions with incomplete information"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "Embracing the ambiguity — You operate effectively in teams"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "operate effectively in teams that mix technical and non-technical"
+    },
+    {
+      "canonical": "algorithms",
+      "section": "requirement",
+      "evidence": "hard technical problems (data structures, storage systems"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "cloud infrastructure"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "front-end frameworks"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "such as Python, Java, C++, TypeScript/JavaScript, or similar"
+    },
+    {
+      "canonical": "java",
+      "section": "requirement",
+      "evidence": "such as Python, Java, C++, TypeScript/JavaScript, or similar"
+    },
+    {
+      "canonical": "cpp",
+      "section": "requirement",
+      "evidence": "such as Python, Java, C++, TypeScript/JavaScript, or similar"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "such as Python, Java, C++, TypeScript/JavaScript, or similar"
+    }
+  ],
+  "seniority": "junior",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "collaborate",
+    "wrestle",
+    "build",
+    "own",
+    "embed"
+  ],
+  "segmentation_quality": "header"
+}

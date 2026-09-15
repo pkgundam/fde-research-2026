@@ -1,0 +1,67 @@
+{
+  "posting_id": "d881c8eee8a7abb8",
+  "skills": [
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "turning pilots with general contractors, owners, and large"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "into expanded production deployments"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "you sit inside the customer's real decision problem"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "feed what you learn back into product"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "We measure impact and not closed ticket counts"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "delivered technical/data products into heavy industry"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "read an enterprise's problem without a spec"
+    },
+    {
+      "canonical": "data_quality",
+      "section": "requirement",
+      "evidence": "Comfortable with messy data and ambiguous orgs"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "Comfortable with messy data and ambiguous orgs"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "AEC background a strong plus, not required"
+    }
+  ],
+  "seniority": "staff_plus",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "own",
+    "turn",
+    "feed",
+    "measure",
+    "deliver"
+  ],
+  "segmentation_quality": "inferred"
+}

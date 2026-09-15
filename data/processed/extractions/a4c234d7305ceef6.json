@@ -1,0 +1,207 @@
+{
+  "posting_id": "a4c234d7305ceef6",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Partner with customers to build and deploy...AI solutions"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "use case scoping and data exploration"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "responsibility",
+      "evidence": "build and deploy...machine learning solutions"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "delivering real business value"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "informing the evolution of Snorkel's tooling"
+    },
+    {
+      "canonical": "rag",
+      "section": "responsibility",
+      "evidence": "retrieval-augmented generation (RAG)"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "responsibility",
+      "evidence": "fine-tuning pipelines"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "responsibility",
+      "evidence": "prompt engineering recipes"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "agentic workflows"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "comprehensive evaluation workflows to ensure model reliability"
+    },
+    {
+      "canonical": "data_quality",
+      "section": "responsibility",
+      "evidence": "Create augmented real-world datasets"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "manage relationships with our customers' leadership and stakeholders"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "Collaborate closely with pre-sales Solutions and Product teams"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Collaborate closely with pre-sales Solutions and Product teams"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "Lead stakeholder education on quantitative capabilities"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "work on all aspects of complex National Security problems"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Annual travel up to 25%"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "constantly prototyping and innovating new ways to deliver value"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "3+ years of customer-facing experience"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "nice_to_have",
+      "evidence": "design and implementation of AI/ML solutions"
+    },
+    {
+      "canonical": "python",
+      "section": "nice_to_have",
+      "evidence": "Proficiency in Python, including strong grounding in software engineering"
+    },
+    {
+      "canonical": "testing",
+      "section": "nice_to_have",
+      "evidence": "testing (e.g., pytest)"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "nice_to_have",
+      "evidence": "API and service frameworks (e.g., FastAPI)"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "nice_to_have",
+      "evidence": "orchestration tooling relevant to ML deployment (e.g., Ray, Airflow)"
+    },
+    {
+      "canonical": "system_design",
+      "section": "nice_to_have",
+      "evidence": "software engineering fundamentals (e.g., modular design)"
+    },
+    {
+      "canonical": "vector_databases",
+      "section": "nice_to_have",
+      "evidence": "vector/embedding tooling (e.g., FAISS)"
+    },
+    {
+      "canonical": "analytics",
+      "section": "nice_to_have",
+      "evidence": "data processing frameworks (e.g., pandas, Spark)"
+    },
+    {
+      "canonical": "rag",
+      "section": "nice_to_have",
+      "evidence": "retrieval/RAG tooling (e.g., Chroma, Weaviate)"
+    },
+    {
+      "canonical": "evals",
+      "section": "nice_to_have",
+      "evidence": "evaluation workflows"
+    },
+    {
+      "canonical": "llm_frameworks",
+      "section": "nice_to_have",
+      "evidence": "LLM orchestration, workflow, agent authoring tools (LlamaIndex, LangGraph)"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "agent authoring tools (e.g., LlamaIndex, LangGraph, CrewAI)"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "nice_to_have",
+      "evidence": "collaborating with business stakeholders to ensure ML solutions"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "nice_to_have",
+      "evidence": "ML solutions drive successful business outcomes"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "nice_to_have",
+      "evidence": "strong focus on teaching and enablement"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "nice_to_have",
+      "evidence": "Outstanding presentation skills to technical and executive audiences"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "nice_to_have",
+      "evidence": "balance priorities across multiple projects at once"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "nice_to_have",
+      "evidence": "drafting responses to federal...Requests for Proposals (RFPs)"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "Civilian, DOD and NATSEC agencies...Healthcare, Financial/Regulatory"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 3,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "partner",
+    "develop",
+    "create",
+    "forge",
+    "collaborate"
+  ],
+  "segmentation_quality": "header"
+}

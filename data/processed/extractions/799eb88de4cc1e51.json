@@ -1,0 +1,77 @@
+{
+  "posting_id": "799eb88de4cc1e51",
+  "skills": [
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "address concerns and handle compliance questions"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "work with field teams and customers to understand architectures"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "scalable slides or white paper creation"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "internal enablement, process improvement, automation"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "process improvement, automation, or technical leadership"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "work with product management and product marketing"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "requirement",
+      "evidence": "6 + years of technical pre-sales or post-sales experience"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "communicating them simply"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "understanding complex security principles and architectures"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "network and endpoint security"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "requirement",
+      "evidence": "identity management, and SIEM"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "Understanding of the Databricks platform is a strong plus"
+    }
+  ],
+  "seniority": "staff_plus",
+  "years_required": 6,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "understand",
+    "address",
+    "build",
+    "train",
+    "improve"
+  ],
+  "segmentation_quality": "header"
+}

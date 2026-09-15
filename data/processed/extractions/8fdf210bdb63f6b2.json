@@ -1,0 +1,277 @@
+{
+  "posting_id": "8fdf210bdb63f6b2",
+  "skills": [
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Own technical delivery across federal deployments"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "from first prototype to stable production"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Embed deeply with federal customers to design and build"
+    },
+    {
+      "canonical": "speech",
+      "section": "responsibility",
+      "evidence": "powered by Deepgram's Voice AI models"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "Embed deeply with federal customers"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Lead technical discovery and solution design for federal prospects"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "navigate complex government sales and procurement cycles"
+    },
+    {
+      "canonical": "python",
+      "section": "responsibility",
+      "evidence": "full-stack integrations using Python, JavaScript, Rust"
+    },
+    {
+      "canonical": "typescript",
+      "section": "responsibility",
+      "evidence": "full-stack integrations using Python, JavaScript, Rust"
+    },
+    {
+      "canonical": "rust",
+      "section": "responsibility",
+      "evidence": "full-stack integrations using Python, JavaScript, Rust"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "full-stack integrations... that deliver real mission impact"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "delivering observable systems spanning infrastructure through applications"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Proactively guide federal stakeholders on maximizing operational value"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "including performance optimization and deployment strategies"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "Codify working patterns into tools, playbooks, reference architectures"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "responsibility",
+      "evidence": "deliberate trade-offs between scope, speed, and quality"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Share field feedback with Product and Engineering"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "Serve as an escalation point for complex technical issues"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "at federal customer sites and facilities"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Internal collaboration: product feedback, knowledge sharing"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "Thrive in high-ambiguity, mission-driven environments"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "translating complex technical capabilities into real operational value"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "operational value for government missions"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "embedding deeply with customers, building trust"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "becoming their go-to technical partner"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "requirement",
+      "evidence": "shipping production systems that make a tangible difference"
+    },
+    {
+      "canonical": "speech",
+      "section": "requirement",
+      "evidence": "deploying cutting-edge Voice AI in complex, constrained environments"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "requirement",
+      "evidence": "Can ruthlessly prioritize across multiple projects"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "operate with high autonomy"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "Active Top Secret clearance, or equivalent"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "modern programming language, such as Python, JavaScript"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "modern programming language, such as Python, JavaScript"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "Proven ability to scope and deliver complex systems"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "requirement",
+      "evidence": "government or similarly constrained environments"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Excellent verbal and written communication skills"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "Excellent verbal and written communication skills"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "including senior government leadership"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "requirement",
+      "evidence": "navigating complex sales or procurement cycles in the federal space"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "Willingness to travel up to 50%, including on-site work"
+    },
+    {
+      "canonical": "speech",
+      "section": "nice_to_have",
+      "evidence": "Experience with speech recognition, NLP, AI/Voice agents"
+    },
+    {
+      "canonical": "nlp",
+      "section": "nice_to_have",
+      "evidence": "speech recognition, NLP, AI/Voice agents"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "NLP, AI/Voice agents, or related AI technologies"
+    },
+    {
+      "canonical": "aws",
+      "section": "nice_to_have",
+      "evidence": "cloud deployment models (AWS GovCloud, Azure Government"
+    },
+    {
+      "canonical": "azure",
+      "section": "nice_to_have",
+      "evidence": "AWS GovCloud, Azure Government"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "nice_to_have",
+      "evidence": "Kubernetes, Terraform, and related infrastructure"
+    },
+    {
+      "canonical": "iac",
+      "section": "nice_to_have",
+      "evidence": "Kubernetes, Terraform, and related infrastructure"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "systems powered by LLMs or generative models"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "nice_to_have",
+      "evidence": "building or deploying systems powered by LLMs"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "nice_to_have",
+      "evidence": "Knowledge of FedRAMP, FISMA, or other government compliance"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "nice_to_have",
+      "evidence": "Experience with API-first products and developer tools"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "nice_to_have",
+      "evidence": "sales methodologies such as MEDDIC or Solution Selling"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "nice_to_have",
+      "evidence": "technical documentation for customer enablement"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "own",
+    "embed",
+    "lead",
+    "prototype",
+    "scope"
+  ],
+  "segmentation_quality": "header"
+}

@@ -1,0 +1,227 @@
+{
+  "posting_id": "e7c852ee34602ae0",
+  "skills": [
+    {
+      "canonical": "data_pipelines",
+      "section": "responsibility",
+      "evidence": "complex issues spanning data pipelines, ML pipelines"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "responsibility",
+      "evidence": "ML pipelines and/or AI applications, applying deep expertise"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "applying deep expertise in distributed systems"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Analyse and troubleshoot production workloads at the code level"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "optimise for performance, reliability, latency, and cost"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "responsibility",
+      "evidence": "real-time and batch inference, autoscaling"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "autoscaling, monitoring, logging, and alerting"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "guiding customers on experiment tracking, model registry"
+    },
+    {
+      "canonical": "llm_observability",
+      "section": "responsibility",
+      "evidence": "labelling, tracing, and lifecycle observability"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "experiment tracking, model registry, versioning, evaluation"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "Provide high-quality support by guiding customers"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "leveraging LLMs, MCP, AI Agents"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "MCP, AI Agents, RAG/Agentic RAG"
+    },
+    {
+      "canonical": "rag",
+      "section": "responsibility",
+      "evidence": "RAG/Agentic RAG, APIs, vector embeddings, semantic search"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "APIs, vector embeddings, semantic search"
+    },
+    {
+      "canonical": "vector_databases",
+      "section": "responsibility",
+      "evidence": "Vector Search/Lakebase databases"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "responsibility",
+      "evidence": "context orchestration, memory management, and prompt engineering"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Collaborate with internal teams to influence roadmap"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Collaborate with internal teams to influence roadmap, product improvements"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "share your knowledge by contributing to wikis"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "advising a broad set of customers and use cases"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "using Python, Scala, and Java in production environments"
+    },
+    {
+      "canonical": "java",
+      "section": "requirement",
+      "evidence": "using Python, Scala, and Java in production environments"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "requirement",
+      "evidence": "systems on-premises and in the cloud"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "designing, building, and scaling Data, Machine Learning, and AI systems"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "cloud platforms (AWS, Azure, or GCP)"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "cloud platforms (AWS, Azure, or GCP)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "cloud platforms (AWS, Azure, or GCP)"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "requirement",
+      "evidence": "orchestrating end-to-end machine learning training pipelines"
+    },
+    {
+      "canonical": "observability",
+      "section": "requirement",
+      "evidence": "model monitoring, drift detection, and retraining strategies"
+    },
+    {
+      "canonical": "algorithms",
+      "section": "requirement",
+      "evidence": "Proficient in working with algorithms and deep learning"
+    },
+    {
+      "canonical": "nlp",
+      "section": "requirement",
+      "evidence": "along with NLP techniques"
+    },
+    {
+      "canonical": "llm_frameworks",
+      "section": "requirement",
+      "evidence": "agentic frameworks (e.g., LangChain, LangGraph etc)"
+    },
+    {
+      "canonical": "rag",
+      "section": "requirement",
+      "evidence": "retrieval systems, vector embeddings, semantic search"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "semantic search, and tool integrations"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "model evaluation, scoring, ranking, optimisation, training"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "requirement",
+      "evidence": "training, validation, and packaging"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "ability and desire to develop excellent customer service skills"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "proven production troubleshooting and optimisation experience"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "production troubleshooting and optimisation experience"
+    },
+    {
+      "canonical": "data_warehouses",
+      "section": "nice_to_have",
+      "evidence": "familiarity with Databricks is a plus"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "developing agent skills, plugins, and debugging"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 8,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "diagnose",
+    "troubleshoot",
+    "optimize",
+    "guide",
+    "collaborate"
+  ],
+  "segmentation_quality": "header"
+}

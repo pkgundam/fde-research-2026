@@ -1,0 +1,142 @@
+{
+  "posting_id": "465c66fd8c7e1aa8",
+  "skills": [
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "Serve as a trusted advisor to key enterprise customers"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "providing strategic recommendations and technical insights to drive success"
+    },
+    {
+      "canonical": "serverless",
+      "section": "responsibility",
+      "evidence": "Cloudflare's solutions, specifically Workers and Workers AI platforms"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "Cloudflare's solutions, specifically Workers and Workers AI platforms"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Lead architectural discussions, design sessions, and solution reviews"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Diagnose complex technical issues and deliver effective, strategic solutions"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "close collaboration with support and product teams"
+    },
+    {
+      "canonical": "iac",
+      "section": "responsibility",
+      "evidence": "utilizing Infrastructure as Code (Terraform) to ensure operational stability"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "customer insights directly influence the product roadmap and enhance"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "industry best practices for security, network optimization, scalability"
+    },
+    {
+      "canonical": "networking",
+      "section": "responsibility",
+      "evidence": "security, network optimization, scalability, and performance tuning"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "network optimization, scalability, and performance tuning tailored"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "responsibility",
+      "evidence": "Stay current with industry trends and evolving Cloudflare solutions"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "In Depth Experience in a technical customer-facing role"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "cloud networking, security, or web infrastructure"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "cloud networking, security, or web infrastructure"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "cloud networking, security, or web infrastructure"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "protecting and securing web applications, APIs, and web services"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "Exceptional written and verbal communication skills"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Exceptional written and verbal communication skills"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "Strong consultative skills with a track record of successfully solving"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "translate customer requirements into practical, scalable solutions"
+    },
+    {
+      "canonical": "serverless",
+      "section": "nice_to_have",
+      "evidence": "Hands-on experience with coding, Cloudflare Workers, and Workers AI"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "Hands-on experience with coding, Cloudflare Workers, and Workers AI"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "nice_to_have",
+      "evidence": "Prior experience in customer onsite placement"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "serve",
+    "lead",
+    "diagnose",
+    "manage",
+    "advise"
+  ],
+  "segmentation_quality": "inferred"
+}

@@ -1,0 +1,142 @@
+{
+  "posting_id": "05484c18d27ff6f6",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "You'll embed directly with clients, spend time with their end users"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "responsibility",
+      "evidence": "quickly develop a mental model of how users actually work"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "make fast, autonomous product decisions"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "collaborate closely with AI architects, infrastructure engineers, designers, and PMs"
+    },
+    {
+      "canonical": "react",
+      "section": "responsibility",
+      "evidence": "Build full-stack features using modern frameworks (React, Next.js, Python)"
+    },
+    {
+      "canonical": "python",
+      "section": "responsibility",
+      "evidence": "Build full-stack features using modern frameworks (React, Next.js, Python)"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "Integrate AI/LLM capabilities into client-facing products"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "Stand up backend services, APIs, and integrations quickly"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "prototype fast, then harden what works"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "responsibility",
+      "evidence": "Make pragmatic technical choices under time constraints"
+    },
+    {
+      "canonical": "testing",
+      "section": "responsibility",
+      "evidence": "evolve prototypes into production-ready experiences with appropriate tests"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "appropriate tests, logging, and performance tuning"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "appropriate tests, logging, and performance tuning"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "map workflows, surface pain points, and build a deep mental model"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Close the feedback loop after every ship: go back to users"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "go back to users, validate impact, and iterate"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Communicate tradeoffs and product decisions clearly"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "Strong full-stack ability: React, Next.js, TypeScript"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "React, Next.js, TypeScript on the frontend"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Python or Node.js on the backend"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "Comfortable integrating AI/LLM APIs"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "move fast, wear multiple hats, and solve problems creatively"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Exceptional communicator — you make users feel heard"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "Strong understanding of accessibility, performance, and responsive behavior"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "experience in B2B or enterprise environments"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "embed",
+    "build",
+    "integrate",
+    "communicate",
+    "iterate"
+  ],
+  "segmentation_quality": "header"
+}

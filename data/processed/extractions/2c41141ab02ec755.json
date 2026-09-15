@@ -1,0 +1,182 @@
+{
+  "posting_id": "2c41141ab02ec755",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "work much closer to the customer than a typical product engineer"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "find the problem...scope the solution"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "write the tickets and consult while a product team builds it"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Own the design, architecture, and delivery of tailored, production-grade solutions"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "responsibility",
+      "evidence": "a fragile pipeline, a missing quality check"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "FDEs weigh engineering effort against business outcomes weekly"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "responsibility",
+      "evidence": "Own the tradeoff conversation...do we need it now"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "architectural decisions around reliability, scalability, and security"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "architectural decisions around reliability, scalability, and security"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "create the playbooks and documentation that let the team scale deployments"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "create the playbooks and documentation that let the team scale deployments"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "Mentor and uplevel other engineers through code reviews"
+    },
+    {
+      "canonical": "git",
+      "section": "responsibility",
+      "evidence": "through code reviews, architectural guidance"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "in rooms where spending and build-vs-buy decisions get made"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "Strong proficiency with ReactJS and TypeScript"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Strong proficiency with ReactJS and TypeScript"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "relational databases (e.g., PostgreSQL)"
+    },
+    {
+      "canonical": "data_modeling",
+      "section": "requirement",
+      "evidence": "data modeling, and system design"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "data modeling, and system design"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "Experience with cloud infrastructure (AWS, GCP)"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "cloud infrastructure (AWS, GCP), deployment pipelines"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "cloud infrastructure (AWS, GCP), deployment pipelines"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "requirement",
+      "evidence": "deployment pipelines, and production operations at scale"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "requirement",
+      "evidence": "lead technical projects end-to-end in ambiguous environments"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "ambiguous environments with shifting requirements"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Excellent communication and stakeholder management"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "Excellent communication and stakeholder management"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "Innate curiosity: you ask the question everyone in the room was thinking"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "You use AI heavily and critically"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "You create work rather than wait for it"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "production systems for LLMs or other AI-powered products"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "AI-powered products in real-world, customer-facing environments"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "nice_to_have",
+      "evidence": "performance optimization and scaling of full-stack applications"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 6,
+  "travel_expectation": "none",
+  "customer_facing_intensity": 3,
+  "responsibility_verbs": [
+    "own",
+    "spot",
+    "build",
+    "mentor",
+    "make"
+  ],
+  "segmentation_quality": "header"
+}

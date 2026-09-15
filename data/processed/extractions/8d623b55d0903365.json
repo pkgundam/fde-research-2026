@@ -1,0 +1,27 @@
+{
+  "posting_id": "8d623b55d0903365",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "engineers work closely with customers and leadership"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "small, sharp team with high ownership"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 3,
+  "responsibility_verbs": [
+    "build",
+    "automate",
+    "orchestrate",
+    "work",
+    "ship"
+  ],
+  "segmentation_quality": "inferred"
+}

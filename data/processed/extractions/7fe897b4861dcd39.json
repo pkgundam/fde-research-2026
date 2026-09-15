@@ -1,0 +1,177 @@
+{
+  "posting_id": "7fe897b4861dcd39",
+  "skills": [
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "up to 80% of time spent stationed on-site"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "primary engineer to operate our product at the customer"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "first point of contact for troubleshooting issues"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "providing communication to our development team"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "ownership of diagnostics, repairs, retrofits, and lifecycle service actions"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "lead on-site investigations, coordinate fixes, and interface tightly"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "driving pilot execution, resolving early issues, and meeting customer"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "resolving early issues, and meeting customer KPIs"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "responsibility",
+      "evidence": "Maintain high Mech system uptime by diagnosing root causes"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "Own warranty actions, spare part tracking, retrofit execution"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "authoring runbooks, knowledge base articles, and automated diagnostics"
+    },
+    {
+      "canonical": "testing",
+      "section": "responsibility",
+      "evidence": "Validate fixes in the field and close out issues"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Deliver daily customer-facing reports on operations status"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "Support customer training sessions and act as a trainer"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "responsibility",
+      "evidence": "Build knowledge base of operations, troubleshooting, and reporting"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "Strong troubleshooting skills across electromechanical systems, pneumatics, drives"
+    },
+    {
+      "canonical": "shell",
+      "section": "requirement",
+      "evidence": "Comfort with Linux command line, log analysis, and basic"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "basic application debugging (Python/SQL)"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "basic application debugging (Python/SQL)"
+    },
+    {
+      "canonical": "project_management",
+      "section": "requirement",
+      "evidence": "Familiarity with tools like Jira, Zendesk, and knowledge base"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "Self-starter mindset, with ability to lead service actions"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Strong communication skills to clearly explain findings"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "collaborate across functions"
+    },
+    {
+      "canonical": "observability",
+      "section": "requirement",
+      "evidence": "Familiarity with support tools and observability platforms"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "requirement",
+      "evidence": "3+ years in field service, product support, or hardware"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "requirement",
+      "evidence": "Comfortable working extended hours or on-call rotations for"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "Must be able to travel up to 25%"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "Experience supporting warehouse robotics or industrial automation systems"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "nice_to_have",
+      "evidence": "Prior field service engineering or hardware NPI commissioning experience"
+    },
+    {
+      "canonical": "debugging",
+      "section": "nice_to_have",
+      "evidence": "Experience developing or maintaining diagnostic tooling"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "nice_to_have",
+      "evidence": "Understanding of reliability modeling, FMEA, or service metrics"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "nice_to_have",
+      "evidence": "service metrics (e.g., MTTR, MTBF)"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 3,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "lead",
+    "diagnose",
+    "own",
+    "coordinate",
+    "operate"
+  ],
+  "segmentation_quality": "header"
+}

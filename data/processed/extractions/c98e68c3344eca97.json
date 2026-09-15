@@ -1,0 +1,167 @@
+{
+  "posting_id": "c98e68c3344eca97",
+  "skills": [
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Deliver clearly scoped technical implementations with ... customers"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "build applications on supported model APIs, Codex"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "ensure the successful deployment and scale of their applications"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Work with senior customer stakeholders to identify"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "identify the best applications of GenAI in their industry"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "accelerate customer time to value through building hands-on prototypes"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "delivering impactful strategic guidance"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "Scale the Applied AI Engineering function through sharing knowledge"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "codifying best practices, and publishing notebooks"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "deliver high-signal feedback to the Product, Engineering"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "hands-on implementation, architecture, evaluations, measurable adoption"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "evaluations, measurable adoption, and documented handoff"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "substantial technical consulting or hands-on delivery experience"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "international public-sector or similarly regulated customers"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "requirement",
+      "evidence": "led GenAI or traditional ML implementations for government agencies"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "led GenAI or traditional ML implementations"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "Understand network and cloud architecture"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "Understand network and cloud architecture"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "requirement",
+      "evidence": "including on-premise deployments"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "sovereign or regulated environments, identity, procurement"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "requirement",
+      "evidence": "regulated environments, identity, procurement, and customer authorization"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "effective and polished communicator"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "programming languages like Python, Go, or Typescript"
+    },
+    {
+      "canonical": "go",
+      "section": "requirement",
+      "evidence": "programming languages like Python, Go, or Typescript"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "programming languages like Python, Go, or Typescript"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "Own problems end-to-end"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "willing to pick up whatever knowledge you're missing"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "requirement",
+      "evidence": "high throughput operator ... prioritize ruthlessly"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "travel when required for customer delivery"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "nice_to_have",
+      "evidence": "UK Developed Vetting (DV) clearance is strongly preferred"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "deliver",
+    "build",
+    "intervene",
+    "forge",
+    "scale"
+  ],
+  "segmentation_quality": "header"
+}

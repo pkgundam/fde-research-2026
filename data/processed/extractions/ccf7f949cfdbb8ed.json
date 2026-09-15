@@ -1,0 +1,157 @@
+{
+  "posting_id": "ccf7f949cfdbb8ed",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "lead technical engagements with customers"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "prototype solutions"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "design useful evaluations"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "troubleshoot what is and is not working"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "help customers navigate ambiguity"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "translating their experience into clear, actionable feedback"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "own the end-to-end execution of early access programs"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "onboarding customers, supporting live experimentation"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "collaborate deeply with Research, Product, Engineering"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "reusable playbooks that improve future deployments"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Codify architectures, evaluation methods, technical patterns"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Translate emerging and ambiguous model capabilities into scoped use cases"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "meaningful customer-facing delivery"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "ownership of production systems"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "requirement",
+      "evidence": "rapidly turning ambiguous ideas into working prototypes"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "demonstrate examples of systems thinking"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "proficient in Python and/or JavaScript or TypeScript"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "proficient in Python and/or JavaScript or TypeScript"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "comfortable across modern front-end and back-end development"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "familiar with cloud deployment"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "practical AI and LLM depth"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "designing evaluations"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "requirement",
+      "evidence": "Exercise strong product and customer judgment"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "scoping the right experiment"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "learn unfamiliar technical or domain concepts quickly"
+    },
+    {
+      "canonical": "project_management",
+      "section": "requirement",
+      "evidence": "Manage several high-stakes technical engagements at once"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "build trust with technical and non-technical stakeholders"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Communicate complex ideas with clarity and empathy"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 4,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "engage",
+    "translate",
+    "prototype",
+    "design",
+    "own"
+  ],
+  "segmentation_quality": "header"
+}

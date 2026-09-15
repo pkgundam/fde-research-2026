@@ -1,0 +1,172 @@
+{
+  "posting_id": "d473689b49823b24",
+  "skills": [
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "build production applications with Claude models"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Work within customer systems to build"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "MCP servers, sub-agents, and agent skills"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "white glove deployment support for Anthropic"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "contribute insights back to our Product"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "responsibility",
+      "evidence": "Maintain strong knowledge of the latest"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "throughout the lifecycle of an engagement"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "proactively identify new opportunities for AI"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Travel frequently (25-50%) to customer sites"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "understand customer workflows and develop innovative"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "responsibility",
+      "evidence": "high standards for safety and reliability"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "represent Anthropic at the highest level"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "technical, customer facing role such as"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "Software Engineer with consulting experience"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "Production experience with LLMs including"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "requirement",
+      "evidence": "advanced prompt engineering, agent development, evaluation"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "agent development, evaluation frameworks, and"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "evaluation frameworks, and deployment at"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "deployment at scale."
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "proficiency in Python (and ideally in"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "High agency with an ability to"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "navigate ambiguity present in complex organizations"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "cross-organizational collaboration, balancing competing priorities with"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "requirement",
+      "evidence": "balancing competing priorities with integrity."
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "requirement",
+      "evidence": "advancing safe, beneficial AI systems through"
+    },
+    {
+      "canonical": "scoping",
+      "section": "requirement",
+      "evidence": "conduct discovery with customers and"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "convey technical concepts to diverse stakeholders"
+    },
+    {
+      "canonical": "typescript",
+      "section": "nice_to_have",
+      "evidence": "ideally in one or more additional languages like TypeScript"
+    },
+    {
+      "canonical": "java",
+      "section": "nice_to_have",
+      "evidence": "additional languages like TypeScript, Java, etc"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "financial services, healthcare/life sciences, or another"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "nice_to_have",
+      "evidence": "enterprise IT systems and/or AI deployment"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 8,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "build",
+    "deliver",
+    "provide",
+    "identify",
+    "maintain"
+  ],
+  "segmentation_quality": "header"
+}

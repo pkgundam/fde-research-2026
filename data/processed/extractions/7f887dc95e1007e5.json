@@ -1,0 +1,187 @@
+{
+  "posting_id": "7f887dc95e1007e5",
+  "skills": [
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "leading technical projects end to end and mentoring other engineers"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "leading technical projects end to end and mentoring"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "drive the development of complex agentic projects"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Design, implement, and deploy end-to-end AI workflows and agents"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "iterate on agent architectures, evaluation pipelines, and performance frameworks"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "ensure reliability and measurable outcomes"
+    },
+    {
+      "canonical": "testing",
+      "section": "responsibility",
+      "evidence": "Set the technical bar for the team on code quality, testing"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "code quality, testing, documentation, and project scoping"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "testing, documentation, and project scoping"
+    },
+    {
+      "canonical": "git",
+      "section": "responsibility",
+      "evidence": "Mentor engineers on the team through code review"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Work directly with customers and internal stakeholders"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Work directly with customers and internal stakeholders to translate requirements"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "responsibility",
+      "evidence": "Identify gaps in internal tooling, frameworks, and processes"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "responsibility",
+      "evidence": "Communicate technical decisions, trade-offs, and insights clearly"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "responsibility",
+      "evidence": "Communicate technical decisions, trade-offs, and insights"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Collaborate cross-functionally embedding with teams like Marketing, GTM"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "opportunities for agent-driven automation and measurable business impact"
+    },
+    {
+      "canonical": "llm_frameworks",
+      "section": "responsibility",
+      "evidence": "Contribute to the LangChain and LangGraph ecosystem"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "building and deploying LLM-powered applications or agents in production"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "building and deploying LLM-powered applications or agents in production"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "requirement",
+      "evidence": "mentoring engineers and raising the technical quality of a team"
+    },
+    {
+      "canonical": "project_management",
+      "section": "requirement",
+      "evidence": "Experience leading technical projects end to end"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "implementing evaluation and monitoring systems for agents or workflows"
+    },
+    {
+      "canonical": "llm_observability",
+      "section": "requirement",
+      "evidence": "implementing evaluation and monitoring systems for agents or workflows"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "requirement",
+      "evidence": "prompting, retrieval, orchestration, inference APIs, and model selection"
+    },
+    {
+      "canonical": "rag",
+      "section": "requirement",
+      "evidence": "prompting, retrieval, orchestration, inference APIs"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "requirement",
+      "evidence": "orchestration, inference APIs, and model selection across modalities"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Strong coding skills in Python or TypeScript"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Strong coding skills in Python or TypeScript"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Excellent communicator who can simplify complex technical ideas"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "Thrives in a fast-moving, ambiguous startup environment"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "requirement",
+      "evidence": "identifying the highest-impact problems and driving them to completion"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "Naturally curious and motivated to learn new tools"
+    },
+    {
+      "canonical": "llm_frameworks",
+      "section": "nice_to_have",
+      "evidence": "Expertise with LangChain or LangGraph"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 4,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 3,
+  "responsibility_verbs": [
+    "design",
+    "deploy",
+    "mentor",
+    "communicate",
+    "collaborate"
+  ],
+  "segmentation_quality": "header"
+}

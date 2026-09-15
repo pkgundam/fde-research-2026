@@ -1,0 +1,87 @@
+{
+  "posting_id": "b03e3165e0d79afe",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "agent-first, high-pace, customer-facing engineering team"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "deliver solutions end to end"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "understanding pain points, shaping product decisions"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "responsibility",
+      "evidence": "understanding pain points, shaping product decisions"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "building agents that autonomously expand Ramp's capabilities"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Collaborate closely with Sales, Solutions, Customer Success, and Account Management"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "collaborate...to close deals, activate customers"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Drive the core product engineering roadmap"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "develop deep domain expertise"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "responsibility",
+      "evidence": "make prioritization calls on when to build a custom solution"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "Extensive experience building with and for agents"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "shipping high-quality products at scale"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "Comfort and excitement to be customer-facing"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "Desire to work in a fast-paced environment, continuously grow"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 3,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "deliver",
+    "collaborate",
+    "drive",
+    "build",
+    "scope"
+  ],
+  "segmentation_quality": "header"
+}

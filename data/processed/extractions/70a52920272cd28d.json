@@ -1,0 +1,77 @@
+{
+  "posting_id": "70a52920272cd28d",
+  "skills": [
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "one senior engineer-consultant owns the whole engagement end-to-end"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "figuring out the problem with the client and shaping the AI solution"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "figuring out the problem with the client"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "shaping the AI solution"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "building and getting it into production"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "requirement",
+      "evidence": "pre-sale/discovery experience (must!)"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "as solo person/solo consultant"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "direct hot-lead communication is a must"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "at least one of cloud infrastructure, CI/CD, or data"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "requirement",
+      "evidence": "at least one of cloud infrastructure, CI/CD, or data"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "Experience shipping AI-powered features to production"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "requirement",
+      "evidence": "Experience shipping AI-powered features to production"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "own",
+    "scope",
+    "shape",
+    "build",
+    "ship"
+  ],
+  "segmentation_quality": "inferred"
+}

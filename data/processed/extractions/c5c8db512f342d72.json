@@ -1,0 +1,102 @@
+{
+  "posting_id": "c5c8db512f342d72",
+  "skills": [
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "Build AI-powered product experiences"
+    },
+    {
+      "canonical": "react",
+      "section": "responsibility",
+      "evidence": "Design and ship new interfaces for interacting with models"
+    },
+    {
+      "canonical": "llm_observability",
+      "section": "responsibility",
+      "evidence": "Build eval, observability, and feedback systems"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "measure whether AI experiences succeed in real enterprise workflows"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "responsibility",
+      "evidence": "prompting, context construction, tool-use strategies"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "prompting, context construction, tool-use strategies"
+    },
+    {
+      "canonical": "testing",
+      "section": "responsibility",
+      "evidence": "stronger eval suites, regression tests"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Work closely with modelling, product, design, customer teams"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "work closely with...domain experts"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "responsibility",
+      "evidence": "Help decide when a workflow needs a more constrained product experience"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "shipped LLM-powered, agent-powered, or AI-assisted product experiences"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "shipped LLM-powered, agent-powered...product experiences"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "working across backend systems, user-facing product, data, evals"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "requirement",
+      "evidence": "think in terms of user outcomes and system behavior"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "debugging messy real-world failures"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "owning ambiguous problems end-to-end"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "owning ambiguous problems end-to-end"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 3,
+  "responsibility_verbs": [
+    "build",
+    "design",
+    "improve",
+    "work",
+    "decide"
+  ],
+  "segmentation_quality": "header"
+}

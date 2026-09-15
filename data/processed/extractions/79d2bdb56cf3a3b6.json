@@ -1,0 +1,117 @@
+{
+  "posting_id": "79d2bdb56cf3a3b6",
+  "skills": [
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "Partner with AEs to own technical discovery"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "own technical discovery, demos, POCs, and expansion"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "own technical discovery, demos, POCs, and expansion"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "Build trusted relationships across engineering, scientific computing, R&D"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "relationships across engineering, scientific computing, R&D"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "research-heavy and regulated environments"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "connect Cursor to outcomes that matter"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "workshops for scientific and commercial audiences"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "responsibility",
+      "evidence": "Deliver technical presentations, whiteboards, and workshops"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "customer's technical advocate internally with Product and Engineering"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "hand off cleanly and set up onboarding for success"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "executive presence... presenting to CTOs and scientific leaders"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "strong communication skills and executive presence"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "connect technical detail to business and scientific impact"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "hands-on technical fluency... AI tooling"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "requirement",
+      "evidence": "deal-partner instinct: co-own with AEs"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "customer-obsessed and can translate technical detail"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "Solutions Architecture, Pre-Sales, or Consulting"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "excited by Life Sciences"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "comfortable learning regulated / research-heavy orgs fast"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "partner",
+    "build",
+    "deliver",
+    "help",
+    "act"
+  ],
+  "segmentation_quality": "header"
+}

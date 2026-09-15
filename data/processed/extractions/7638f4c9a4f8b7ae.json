@@ -1,0 +1,147 @@
+{
+  "posting_id": "7638f4c9a4f8b7ae",
+  "skills": [
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "responsible for deploying and supporting Anduril's products all over the world"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "responsible for deploying and supporting Anduril's products"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "work with engineering teams to iteratively improve them over time"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "work with engineering teams to iteratively improve them"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "expected to take ownership of delivering the technical solution"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "coach teammates on systems that you've gained intimate familiarity with"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "responsibility",
+      "evidence": "transition into mastering the next system"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "guide users through product employment and troubleshooting"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "guide users through product employment and troubleshooting"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "advise account managers on how to structure an operation"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "Support military air defense projects by executing technical operations"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "conducting field maintenance, providing customer field support"
+    },
+    {
+      "canonical": "networking",
+      "section": "responsibility",
+      "evidence": "complex issues related to hardware, software, and networking"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "responsibility",
+      "evidence": "Communicate field issue status to internal and customer teams"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Communicate field issue status to internal and customer teams"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "implementation of comprehensive operational and logistical plans"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "Ensure high availability and performance of air defense systems"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "responsibility",
+      "evidence": "Incident response root-cause analyses (RCAs) for defense systems"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Maintain up-to-date documentation"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "interface of hardware, software, and networking"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "strong problem solving in unstructured environments"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "travel to remote regions of the world for up to two months"
+    },
+    {
+      "canonical": "networking",
+      "section": "nice_to_have",
+      "evidence": "Network+ and Linux+ or equivalent experience preferred"
+    },
+    {
+      "canonical": "shell",
+      "section": "nice_to_have",
+      "evidence": "Network+ and Linux+ or equivalent experience preferred"
+    },
+    {
+      "canonical": "project_management",
+      "section": "nice_to_have",
+      "evidence": "develop complex operational and logistics plans to move people"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "nice_to_have",
+      "evidence": "Prior military or overseas contracting experience"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 3,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "deploy",
+    "support",
+    "troubleshoot",
+    "communicate",
+    "maintain"
+  ],
+  "segmentation_quality": "header"
+}

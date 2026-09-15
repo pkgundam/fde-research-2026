@@ -1,0 +1,157 @@
+{
+  "posting_id": "89c93bad172ee21b",
+  "skills": [
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "seamless, reliable, and high-performance experience"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "aligns closely with the internal and customer engineering teams"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "contribute to the CoreWeave product roadmap and development"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "responsibility",
+      "evidence": "establishing their Kubernetes environment"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "developing proofs of concept, onboarding, and optimizing workloads"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "developing proofs of concept, onboarding, and optimizing workloads"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "primary technical point of contact for customers"
+    },
+    {
+      "canonical": "networking",
+      "section": "responsibility",
+      "evidence": "focusing on networking technologies within high-performance compute"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "understand their unique business needs and create, prototype"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "Drive technical leadership and direction during customer meetings"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "responsibility",
+      "evidence": "customer meetings, presentations, and workshops"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "responsibility",
+      "evidence": "Offer valuable insights on product features, functionality, and performance"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "responsibility",
+      "evidence": "Stay informed of the latest developments and trends"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Represent CoreWeave at conferences and industry events"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "building distributed systems or HPC/cloud services"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "experience...in Cloud Infrastructure focusing on building distributed systems"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "expertise focused on infrastructure networking"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "Proven track record with building customer relationships"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "communicating clearly and the ability to break down complex technical concepts"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "technical concepts to both technical and non-technical audiences"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "Kubernnetes CSI management, and private networking concepts"
+    },
+    {
+      "canonical": "gpu_infra",
+      "section": "requirement",
+      "evidence": "Familiar with NVIDIA GPUs typically used in AI/ML applications"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "nice_to_have",
+      "evidence": "Code contributions to open-source inference frameworks"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "nice_to_have",
+      "evidence": "building solutions across multi-cloud environments"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "Client or customer-facing publications/talks on latency"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "nice_to_have",
+      "evidence": "publications/talks on latency, optimization"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "nice_to_have",
+      "evidence": "curious about the latest and greatest technologies in the AI space"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "nice_to_have",
+      "evidence": "expert in managing conflict and achieving mutually beneficial technical outcomes"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 7,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "collaborate",
+    "prototype",
+    "lead",
+    "review",
+    "present"
+  ],
+  "segmentation_quality": "header"
+}

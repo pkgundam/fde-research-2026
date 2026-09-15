@@ -1,0 +1,77 @@
+{
+  "posting_id": "71e76f867506db97",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "work directly with customers to help them realize value"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "help them realize value from the Domino platform"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "responsibility",
+      "evidence": "customer empathy and domain awareness"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "customer empathy and domain awareness"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "responsibility",
+      "evidence": "enhancing legacy workflows with AI capabilities"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "writing code, designing solutions, and delivering impact"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "contribute to critical and high-visibility projects from the start"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "Passion for AI/ML, data science, and its real-world applications"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "Passion for AI/ML, data science, and its real-world applications"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Strong communication and problem-solving skills"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "with an interest in customer-facing work"
+    },
+    {
+      "canonical": "python",
+      "section": "nice_to_have",
+      "evidence": "Python or R strongly preferred"
+    }
+  ],
+  "seniority": "junior",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "work",
+    "develop",
+    "partner",
+    "write",
+    "design"
+  ],
+  "segmentation_quality": "header"
+}

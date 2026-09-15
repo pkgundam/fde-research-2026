@@ -1,0 +1,137 @@
+{
+  "posting_id": "71d82d30ac71ed6e",
+  "skills": [
+    {
+      "canonical": "speech",
+      "section": "responsibility",
+      "evidence": "deliver Retell's voice AI solutions to enterprise clients"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "embedding with their teams to build production-ready systems"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "bridge technical and non-technical stakeholders with exceptional communication"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "shaping our platform through customer insights"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Lead end-to-end delivery of projects... from prototyping to production"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "from prototyping to production, communicating progress and risks"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "responsibility",
+      "evidence": "especially LLM prompting tips & tricks"
+    },
+    {
+      "canonical": "python",
+      "section": "responsibility",
+      "evidence": "Build full-stack integrations (Python, JavaScript)"
+    },
+    {
+      "canonical": "typescript",
+      "section": "responsibility",
+      "evidence": "Build full-stack integrations (Python, JavaScript)"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "responsibility",
+      "evidence": "enterprise tools (e.g. CRMs, ERPs, scheduling tools)"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "Build full-stack integrations... with enterprise tools"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "Partner with sales to engage clients to gather requirements"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Scope projects, resolve blockers, and align teams"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "responsibility",
+      "evidence": "prototype demos, and present system designs"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "resolve blockers, and align teams with concise updates"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "Have 2+ years in customer-facing technical role"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "communicate effectively with enterprise customers"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "Open to occasional travel, including international travel"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "explaining complex technical concepts to both technical and non-technical audiences"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "delivered production systems in fast-paced, ambiguous environments"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Write production-grade code in Python, JavaScript/TypeScript"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Write production-grade code in Python, JavaScript/TypeScript"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "Understand LLM-powered systems and their impact on user experience"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "Proactively manage risks, drive execution, and maintain momentum"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 2,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "deliver",
+    "build",
+    "partner",
+    "scope",
+    "translate"
+  ],
+  "segmentation_quality": "header"
+}

@@ -1,0 +1,127 @@
+{
+  "posting_id": "d20db7c56a20ca77",
+  "skills": [
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "subject matter experts in both cybersecurity"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "deploying software in support of our customers"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "close consultation with stakeholders"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "take initiative to improve our processes"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "Provide outstanding customer service, policy expertise"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "high-quality documentation"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "complex concepts and architectures, architecture diagrams"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner with Business Development teams"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "Partner with Business Development teams"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "communicating government policy to a diverse audience"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "interpreting and communicating government policy"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "enterprise infrastructure and security solutions, SIEM/SOAR"
+    },
+    {
+      "canonical": "shell",
+      "section": "requirement",
+      "evidence": "across Linux, Kubernetes, and multi-cloud"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "across Linux, Kubernetes, and multi-cloud"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "multi-cloud environments"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "requirement",
+      "evidence": "automated compliance gating into CI/CD pipelines"
+    },
+    {
+      "canonical": "git",
+      "section": "requirement",
+      "evidence": "GitHub workflows"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "designing, building and managing systems"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "requirement",
+      "evidence": "multitask under pressure, time management"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "requirement",
+      "evidence": "authentication, encryption, networking"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "authentication, encryption, networking, vulnerability scanning"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "Ability to travel 25% preferred"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "achieve",
+    "provide",
+    "translate",
+    "represent",
+    "connect"
+  ],
+  "segmentation_quality": "header"
+}

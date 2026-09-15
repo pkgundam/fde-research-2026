@@ -1,0 +1,127 @@
+{
+  "posting_id": "4ba20d56cb455cbb",
+  "skills": [
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "You don't demo Devin - you deploy it"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "You embed with engineering teams"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "drive the kind of measurable productivity gains"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "repeatable playbooks, digital learning content, and partner-driven enablement"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "drive deep, lasting adoption... not just onboarding"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "owning outcomes, not just onboarding"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Architect and implement agentic workflows"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "accelerate the team's applied AI fluency"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "making the business case for expanding Devin's footprint"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "scale field learnings into structured playbooks"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "strong coding proficiency (Python, JavaScript/TypeScript"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "strong coding proficiency (Python, JavaScript/TypeScript"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "communicate complex technical topics to diverse audiences"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "requirement",
+      "evidence": "driving technical adoption and measurable impact"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "requirement",
+      "evidence": "measurable impact inside engineering organizations"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "Strong commercial instincts; successful engagements grow accounts"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "Excellent verbal and written communication skills"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "Demonstrated ability to learn and adapt exceptionally fast"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "nice_to_have",
+      "evidence": "led developer enablement, platform adoption... initiatives"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "deployed or integrated LLM or agent-based systems in production"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "nice_to_have",
+      "evidence": "deployed or integrated LLM or agent-based systems in production"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "nice_to_have",
+      "evidence": "founded or joined early-stage startups where autonomy... critical"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 3,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "embed",
+    "architect",
+    "guide",
+    "quantify",
+    "lead"
+  ],
+  "segmentation_quality": "header"
+}

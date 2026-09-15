@@ -1,0 +1,42 @@
+{
+  "posting_id": "d110b7fbc703f6f0",
+  "skills": [
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "designing bleeding edge personal agents"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "responsibility",
+      "evidence": "conversational inference"
+    },
+    {
+      "canonical": "python",
+      "section": "responsibility",
+      "evidence": "Core stack: Python, Swift, React / RN, Postgres"
+    },
+    {
+      "canonical": "react",
+      "section": "responsibility",
+      "evidence": "Core stack: Python, Swift, React / RN, Postgres"
+    },
+    {
+      "canonical": "sql",
+      "section": "responsibility",
+      "evidence": "Core stack: Python, Swift, React / RN, Postgres"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 1,
+  "responsibility_verbs": [
+    "capture",
+    "remember",
+    "prioritize",
+    "design",
+    "solve"
+  ],
+  "segmentation_quality": "inferred"
+}

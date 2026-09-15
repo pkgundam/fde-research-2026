@@ -1,0 +1,112 @@
+{
+  "posting_id": "a8c4421da8db1654",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "work directly with customers owning Gen AI strategy"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "owning Gen AI strategy and implementation"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "build end-to-end workflows, take them to production"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "contribute learnings from the field back to"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "own delivery of high stakes projects with clients"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "interacting with customers to understand their needs"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "delivering production solutions with Gen AI"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "requirement",
+      "evidence": "data processing pipelines, and advanced analytics"
+    },
+    {
+      "canonical": "analytics",
+      "section": "requirement",
+      "evidence": "advanced analytics tools"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "Solving real business problems, not academic benchmarks"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "collaborate efficiently in teams of technical"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "dynamic environment with evolving objectives"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "Strong foundation in Machine Learning basics"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "Machine Learning basics (Evaluation, Training)"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "programming languages such as Python, Java, C++"
+    },
+    {
+      "canonical": "java",
+      "section": "requirement",
+      "evidence": "programming languages such as Python, Java, C++"
+    },
+    {
+      "canonical": "cpp",
+      "section": "requirement",
+      "evidence": "programming languages such as Python, Java, C++"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "TypeScript/JavaScript, or similar"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "traveling up to 25%, as needed to client sites"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "work",
+    "build",
+    "contribute",
+    "own",
+    "interact"
+  ],
+  "segmentation_quality": "header"
+}

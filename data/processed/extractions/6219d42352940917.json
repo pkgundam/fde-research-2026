@@ -1,0 +1,257 @@
+{
+  "posting_id": "6219d42352940917",
+  "skills": [
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "Owning the technical direction of client projects end-to-end"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "architecture decisions (multi-tenant cloud, auth, data isolation)"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "responsibility",
+      "evidence": "architecture decisions (multi-tenant cloud, auth, data isolation)"
+    },
+    {
+      "canonical": "azure",
+      "section": "responsibility",
+      "evidence": "enterprise cloud infrastructure (Azure, GCP, OVH)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "responsibility",
+      "evidence": "enterprise cloud infrastructure (Azure, GCP, OVH)"
+    },
+    {
+      "canonical": "iac",
+      "section": "responsibility",
+      "evidence": "IaC standards, release strategies, CI/CD pipelines"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "responsibility",
+      "evidence": "release strategies, CI/CD pipelines, security architecture"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "security architecture, deployment topology"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Being the technical voice in client meetings"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "scope feasibility, and shape requirements with non-technical decision makers"
+    },
+    {
+      "canonical": "networking",
+      "section": "responsibility",
+      "evidence": "internal IT (firewalls, VPN, network architecture)"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "Running the room when enterprise stakeholders disagree"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Communicating commitments that hold. Binding dates"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Embedding into client teams, shipping real features"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "responsibility",
+      "evidence": "Ramping quickly into unfamiliar codebases"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "responsibility",
+      "evidence": "legacy enterprise systems (Oracle, SAP-adjacent environments)"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "complex domains (utility metering, insurance, FMCG)"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "responsibility",
+      "evidence": "Translating user reality... into something your engineering team can build"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "Coordinating internal engineers, external partners, and client staff"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "reviewing code, and raising the bar on how we ship"
+    },
+    {
+      "canonical": "git",
+      "section": "responsibility",
+      "evidence": "reviewing code, and raising the bar"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Collaborating with strategy and product to turn business goals"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "turn business goals into technical plans with budget"
+    },
+    {
+      "canonical": "typescript",
+      "section": "responsibility",
+      "evidence": "Building full-stack solutions with TypeScript"
+    },
+    {
+      "canonical": "react",
+      "section": "responsibility",
+      "evidence": "TypeScript (React, Node, Next.js, Tailwind)"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "integrating AI where it creates real value"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "5–8+ years of full-stack experience (React, Node"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "full-stack experience (React, Node, TypeScript)"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "requirement",
+      "evidence": "production deployment you personally owned from architecture to go-live"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "major cloud (Azure, AWS, GCP or equivalent)"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "major cloud (Azure, AWS, GCP or equivalent)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "major cloud (Azure, AWS, GCP or equivalent)"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "own technical direction from start to finish"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "requirement",
+      "evidence": "architecture, infra, CI/CD, security, delivery"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "architecture, infra, CI/CD, security, delivery"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "Consulting or agency experience working directly with enterprise clients"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "working directly with enterprise clients"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "regulated environments (utilities, finance, insurance, pharma)"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "Outstanding communication skills in German and English"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "explain a VPN trade-off to a non-technical CFO"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "Calm under stakeholder pressure"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "German at a professional working level"
+    },
+    {
+      "canonical": "llm_frameworks",
+      "section": "requirement",
+      "evidence": "AI frameworks and APIs (LangChain, OpenAI"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "AI frameworks and APIs (LangChain, OpenAI, Google Vertex AI"
+    },
+    {
+      "canonical": "analytics",
+      "section": "requirement",
+      "evidence": "Analytics tools like Mixpanel and PostHog"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "Databases like Supabase, Postgresql, Azure Cosmos DB"
+    },
+    {
+      "canonical": "nosql",
+      "section": "requirement",
+      "evidence": "Databases like Supabase, Postgresql, Azure Cosmos DB"
+    },
+    {
+      "canonical": "serverless",
+      "section": "requirement",
+      "evidence": "Deployment platforms (Vercel, Google Cloud)"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "own",
+    "architect",
+    "embed",
+    "coordinate",
+    "build"
+  ],
+  "segmentation_quality": "header"
+}

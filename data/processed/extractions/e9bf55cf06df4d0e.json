@@ -1,0 +1,142 @@
+{
+  "posting_id": "e9bf55cf06df4d0e",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "work directly with our customers, embedding inside their AI teams"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "embedding inside their AI teams"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "build and deploy successful AI agents with the W&B Weave"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "design, prototype, and productionize AI agents"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "design, prototype, and productionize AI agents"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "Act as a trusted technical advisor"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "helping customers make architectural decisions"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Gather and relay feedback from the field to influence the W&B Weave product roadmap"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "Conduct technical workshops, deep dives, and enablement sessions"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Troubleshoot and resolve technical challenges in customer environments"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "experience in Python and modern ML/AI systems frameworks"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "modern ML/AI systems frameworks (e.g., PyTorch, TensorFlow"
+    },
+    {
+      "canonical": "llm_frameworks",
+      "section": "requirement",
+      "evidence": "Hugging Face, LangChain, LlamaIndex, etc."
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "Hands-on experience with LLMs, AI agents, or orchestration frameworks"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "Hands-on experience with LLMs, AI agents, or orchestration frameworks"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "Ability to work directly with customers in technical consulting"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "work directly with customers in technical consulting"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "requirement",
+      "evidence": "technical consulting or solution engineering roles"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "explain complex technical concepts clearly to both technical and business stakeholders"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "explain complex technical concepts...to both technical and business stakeholders"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "fast-paced, ambiguous environments where creativity and problem-solving are key"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "nice_to_have",
+      "evidence": "Building production ML/AI systems"
+    },
+    {
+      "canonical": "vector_databases",
+      "section": "nice_to_have",
+      "evidence": "Working with vector databases, retrieval-augmented generation"
+    },
+    {
+      "canonical": "rag",
+      "section": "nice_to_have",
+      "evidence": "retrieval-augmented generation, or reinforcement learning"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "Prior forward deployed / field engineering / solutions architect roles"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "embed",
+    "design",
+    "advise",
+    "train",
+    "troubleshoot"
+  ],
+  "segmentation_quality": "header"
+}

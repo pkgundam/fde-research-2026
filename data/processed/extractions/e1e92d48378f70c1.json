@@ -1,0 +1,102 @@
+{
+  "posting_id": "e1e92d48378f70c1",
+  "skills": [
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "Design and iterate on agent behaviors across real-world coding tasks"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "develop and run evals to measure agent performance"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "responsibility",
+      "evidence": "Improve performance through prompting, tool-use strategies"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Analyze failures in production and systematically improve robustness"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Work with product teams to shape user-facing agent experiences"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "define what \"good\" looks like for agents completing complex tasks"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "production performance envelope around tokens, latency, reliability, cost"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "building or shipping machine learning or LLM-powered products"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "comfortable with modern ML tooling"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Are strong in Python and comfortable with modern ML tooling"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "worked on model evaluation, fine-tuning, or prompt design"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "requirement",
+      "evidence": "worked on model evaluation, fine-tuning, or prompt design"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "requirement",
+      "evidence": "worked on model evaluation, fine-tuning, or prompt design"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "Enjoy debugging messy, real-world failures"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "Experience with agent frameworks or tool-using LLM systems"
+    },
+    {
+      "canonical": "llm_frameworks",
+      "section": "nice_to_have",
+      "evidence": "Experience with agent frameworks or tool-using LLM systems"
+    },
+    {
+      "canonical": "data_quality",
+      "section": "nice_to_have",
+      "evidence": "working with large, messy datasets or production logs"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 1,
+  "responsibility_verbs": [
+    "design",
+    "iterate",
+    "improve",
+    "analyze",
+    "build"
+  ],
+  "segmentation_quality": "header"
+}

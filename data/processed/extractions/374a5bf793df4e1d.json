@@ -1,0 +1,16 @@
+{
+  "posting_id": "374a5bf793df4e1d",
+  "skills": [],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 3,
+  "responsibility_verbs": [
+    "implement",
+    "deploy",
+    "support",
+    "configure",
+    "integrate"
+  ],
+  "segmentation_quality": "inferred"
+}

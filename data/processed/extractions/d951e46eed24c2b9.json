@@ -1,0 +1,177 @@
+{
+  "posting_id": "d951e46eed24c2b9",
+  "skills": [
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "trusted technical advisor to Enterprise Technology"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "adopting the Claude API into their"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "advising on architecture design decisions"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "developing evaluation frameworks, and guiding"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "technical discovery through successful deployment"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "deep engineering expertise with customer-facing skills"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "coordinating internally across multiple teams to"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "translate customer business requirements into technical"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "customized pilots, prototypes, and evaluation suites"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "Lead hands-on technical workshops and code"
+    },
+    {
+      "canonical": "git",
+      "section": "responsibility",
+      "evidence": "code reviews with customer engineering teams"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "contribute insights back to our Product"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Create scalable public and internal assets"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "responsibility",
+      "evidence": "LLM prompting, eval, agentic, and architecture"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "eval, agentic, and architecture techniques"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "responsibility",
+      "evidence": "Maintain strong knowledge of the latest"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Travel occasionally to customer sites for"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "responsibility",
+      "evidence": "lead speaking engagements, and write blog"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "desire to work closely with customers"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "Production experience with LLMs, including"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "requirement",
+      "evidence": "advanced prompt engineering, agent development and"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "agent development and frameworks, evaluation"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "evaluation frameworks, transcript analysis, MCP"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "deployment at scale"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "proficiency in Python or TypeScript and"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "proficiency in Python or TypeScript and"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "navigate ambiguity and execute across domains"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "execute across domains with intellectual openness"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "cross-organizational collaboration, balancing competing priorities with"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "requirement",
+      "evidence": "balancing competing priorities with integrity"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "requirement",
+      "evidence": "advancing safe, beneficial AI systems through"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "convey technical concepts to diverse stakeholders"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 4,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "advise",
+    "guide",
+    "partner",
+    "lead",
+    "create"
+  ],
+  "segmentation_quality": "header"
+}

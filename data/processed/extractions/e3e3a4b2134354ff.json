@@ -1,0 +1,147 @@
+{
+  "posting_id": "e3e3a4b2134354ff",
+  "skills": [
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "lead client onboarding for Sardine's fraud and compliance products"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "Manage implementation and integration efforts for fraud and compliance products"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "requirement",
+      "evidence": "B2B SaaS experience working in the relevant domain (payment, fraud, risk, or compliance)"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Work closely with clients and provide end-to-end support"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "hands-on role working closely with clients and internal teams"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "experience working with multiple technical teams, both internal and external"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "design solutions by having a deep understanding of our system"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "provide end-to-end support during their onboarding process"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "Own APIs, SDK documentation, integration guides"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "Experience with APIs specs like OpenAPI, web development"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Own APIs, SDK documentation, integration guides, and support documents"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "Excellent written and verbal communication skills"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Analyze clients' requirements from the technical and functional perspectives"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "Manage implementation projects, including monitoring project quality"
+    },
+    {
+      "canonical": "project_management",
+      "section": "requirement",
+      "evidence": "ability to manage multiple projects simultaneously and drive deliverables"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "managing timelines, mitigating risk, and driving deliverables"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "deep understanding of customers' business problems"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "technical requirements, and success criteria"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Provide product feedback to internal stakeholders"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Excellent written and verbal communication skills"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "requirement",
+      "evidence": "ability to manage multiple projects simultaneously"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "Experience with basic SQL querying and JSON payload analysis"
+    },
+    {
+      "canonical": "shell",
+      "section": "requirement",
+      "evidence": "writing scripts to build internal tools (e.g., bash scripting"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "bash scripting, Python, SQL, Ruby, Golang, Postman"
+    },
+    {
+      "canonical": "go",
+      "section": "requirement",
+      "evidence": "bash scripting, Python, SQL, Ruby, Golang, Postman"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "self-motivated individuals with extreme ownership and high growth orientation"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 4,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "manage",
+    "integrate",
+    "translate",
+    "analyze",
+    "own"
+  ],
+  "segmentation_quality": "header"
+}

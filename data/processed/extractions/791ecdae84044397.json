@@ -1,0 +1,177 @@
+{
+  "posting_id": "791ecdae84044397",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Act as each account's de facto CTO on Baseten"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "final accountability for how their workloads are designed, run"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "frame the problem, define the spec and success criteria"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "build the PoC, and carry it through to production"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "Design the evals and benchmarks that isolate where quality"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "responsibility",
+      "evidence": "whether that means optimizing inference, improving the model"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "responsibility",
+      "evidence": "improving the model through post-training"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "responsibility",
+      "evidence": "first responder to mission-critical failures including triage"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "channeling what your accounts need into the roadmap"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "Do all of this across multiple accounts at once"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "pulling in the right people at the right time"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "keeping customers and internal stakeholders aligned on status"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "Experience debugging complex production issues - working through logs"
+    },
+    {
+      "canonical": "observability",
+      "section": "requirement",
+      "evidence": "working through logs, metrics, and traces to root-cause"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "making decisions under uncertainty, and knowing when to pull"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "Confidence owning ambiguous technical problems"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "wanting to work directly with customers, understand their problems"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "requirement",
+      "evidence": "understand their problems firsthand, and influence the product"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Clear communication on complex technical topics"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "talking to a customer's engineers or their leadership"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "Genuine curiosity about AI inference and training"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "requirement",
+      "evidence": "drive to become an expert in the infrastructure powering it"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "requirement",
+      "evidence": "participate in an on-call rotation"
+    },
+    {
+      "canonical": "networking",
+      "section": "nice_to_have",
+      "evidence": "core infrastructure domain such as storage systems or networking"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "nice_to_have",
+      "evidence": "distributed compute platforms like Kubernetes, Slurm, or Ray"
+    },
+    {
+      "canonical": "gpu_infra",
+      "section": "nice_to_have",
+      "evidence": "especially for GPU workloads"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "nice_to_have",
+      "evidence": "modern inference engines like vLLM, TensorRT-LLM, or SGLang"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "nice_to_have",
+      "evidence": "profile and optimize GPU workloads, in training or serving"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "nice_to_have",
+      "evidence": "post-training techniques like SFT and RL"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "nice_to_have",
+      "evidence": "broader deep learning background plus fluency in a tensor"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "nice_to_have",
+      "evidence": "running on-call, leading incident response, debugging distributed systems"
+    },
+    {
+      "canonical": "debugging",
+      "section": "nice_to_have",
+      "evidence": "debugging distributed systems under pressure"
+    }
+  ],
+  "seniority": "junior",
+  "years_required": 1,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "own",
+    "build",
+    "design",
+    "ship",
+    "scope"
+  ],
+  "segmentation_quality": "header"
+}

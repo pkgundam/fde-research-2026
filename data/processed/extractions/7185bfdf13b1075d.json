@@ -1,0 +1,77 @@
+{
+  "posting_id": "7185bfdf13b1075d",
+  "skills": [
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Architect and implement robust, scalable ML infrastructure"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "engaging with engineering and product teams across the company"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "responsibility",
+      "evidence": "Drive the development and deployment of state-of-the-art ML/AI models"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "responsibility",
+      "evidence": "model training and serving components"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "responsibility",
+      "evidence": "presenting at conferences"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "as performant and cost-efficient as possible"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "2-8 years of machine learning engineering experience"
+    },
+    {
+      "canonical": "testing",
+      "section": "requirement",
+      "evidence": "software engineering principles around testing, code reviews"
+    },
+    {
+      "canonical": "git",
+      "section": "requirement",
+      "evidence": "testing, code reviews, and deployment"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "nice_to_have",
+      "evidence": "experience deploying, scaling, and monitoring models in production"
+    },
+    {
+      "canonical": "observability",
+      "section": "nice_to_have",
+      "evidence": "deploying, scaling, and monitoring models in production"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "nice_to_have",
+      "evidence": "training and serving predictions in Tier 0 environments"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 2,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 1,
+  "responsibility_verbs": [
+    "build",
+    "shape",
+    "drive",
+    "architect",
+    "present"
+  ],
+  "segmentation_quality": "header"
+}

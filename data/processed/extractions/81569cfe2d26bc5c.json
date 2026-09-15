@@ -1,0 +1,32 @@
+{
+  "posting_id": "81569cfe2d26bc5c",
+  "skills": [
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "civil, structural, and MEP engineering firms"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "get excited about building from zero"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "get energized by direct access to users"
+    }
+  ],
+  "seniority": "staff_plus",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "design",
+    "construct",
+    "build",
+    "transform",
+    "automate"
+  ],
+  "segmentation_quality": "inferred"
+}

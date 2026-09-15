@@ -1,0 +1,162 @@
+{
+  "posting_id": "4b131c09ec70aec6",
+  "skills": [
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Partner directly with engineering leaders and hands-on developers"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "translate them into technical architectures, implementation plans, evaluation strategies"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "Design, build, and deploy AI-powered software development workflows"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "build prototypes, evaluation harnesses, reference implementations"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "Design systematic approaches for evaluating AI coding systems"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "reliable production workflows, sustained developer adoption"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "reliability, observability, latency, cost, safety, security"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "reliability, observability, latency, cost, safety"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "safety, security, and operational readiness"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Diagnose complex implementation challenges, reproduce failures"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "Lead technical deep dives, workshops, and hands-on enablement"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "translate them into clear product proposals, model feedback"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Create reusable architectures, tooling, examples, guides"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "Influence customer engineering strategy by helping technical leaders"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "personal contributions in code, architecture, evaluation, debugging"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "personal contributions in code, architecture, evaluation, debugging"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "Understand how to evaluate AI coding systems systematically"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Are highly proficient in Python"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "requirement",
+      "evidence": "Enjoy building high-signal prototypes, integrations, automations"
+    },
+    {
+      "canonical": "observability",
+      "section": "requirement",
+      "evidence": "navigated enterprise production requirements such as ... observability"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "reliability, observability, security, privacy, data governance"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "data governance, performance, and cost"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "adoption, engineering productivity, and measurable business outcomes"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "Communicate with clarity and credibility across ... executives"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "requirement",
+      "evidence": "leading technical workshops and hands-on sessions"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "high agency, strong technical judgment, and end-to-end ownership"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "Learn quickly, challenge assumptions constructively"
+    },
+    {
+      "canonical": "consulting",
+      "section": "requirement",
+      "evidence": "technical consulting"
+    },
+    {
+      "canonical": "typescript",
+      "section": "nice_to_have",
+      "evidence": "experience with JavaScript, TypeScript ... is valuable"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "design",
+    "build",
+    "deploy",
+    "diagnose",
+    "lead"
+  ],
+  "segmentation_quality": "header"
+}

@@ -1,0 +1,22 @@
+{
+  "posting_id": "addf7e425dbbbe41",
+  "skills": [
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "transform how healthcare works—freeing up clinicians and staff"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "build",
+    "automate",
+    "transform",
+    "eliminate",
+    "streamline"
+  ],
+  "segmentation_quality": "inferred"
+}

@@ -1,0 +1,82 @@
+{
+  "posting_id": "0ff5f1bf89e33031",
+  "skills": [
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "You will work on exciting projects such as AI Agents"
+    },
+    {
+      "canonical": "rag",
+      "section": "responsibility",
+      "evidence": "Retrieval-Augmented Generation"
+    },
+    {
+      "canonical": "unstructured_data",
+      "section": "responsibility",
+      "evidence": "Structured Extraction (we made jsonformer)"
+    },
+    {
+      "canonical": "fine_tuning",
+      "section": "responsibility",
+      "evidence": "fine-tuning models"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "responsibility",
+      "evidence": "build infrastructure for LLM inference"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "real production use cases of large language models (LLMs)"
+    },
+    {
+      "canonical": "react",
+      "section": "responsibility",
+      "evidence": "Ship full-stack AI projects end to end"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "Ship full-stack AI projects end to end"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "scale AI solutions across Ramp"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "strong understanding of web frameworks, backend systems"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "backend systems, and cloud infrastructure"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "production use cases of LLMs"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "building backend systems and infrastructure that can support AI-driven products"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 1,
+  "responsibility_verbs": [
+    "ship",
+    "build",
+    "develop",
+    "create",
+    "integrate"
+  ],
+  "segmentation_quality": "header"
+}

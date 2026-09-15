@@ -1,0 +1,57 @@
+{
+  "posting_id": "899bc250b5a6b4de",
+  "skills": [
+    {
+      "canonical": "cpp",
+      "section": "responsibility",
+      "evidence": "low-level C++/ROS2 on the vehicle"
+    },
+    {
+      "canonical": "python",
+      "section": "responsibility",
+      "evidence": "Python + TypeScript cloud platform"
+    },
+    {
+      "canonical": "typescript",
+      "section": "responsibility",
+      "evidence": "Python + TypeScript cloud platform"
+    },
+    {
+      "canonical": "analytics",
+      "section": "responsibility",
+      "evidence": "fleet dashboards, real-time telemetry, digital twins, analytics"
+    },
+    {
+      "canonical": "aws",
+      "section": "responsibility",
+      "evidence": "Senior DevOps Lead (AWS, ROS/Linux, edge infra)"
+    },
+    {
+      "canonical": "shell",
+      "section": "responsibility",
+      "evidence": "AWS, ROS/Linux, edge infra"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Deployment Engineer (on-site installs, 3D mapping, ROS tooling)"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "AVs are running production routes at customer sites today"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "build",
+    "deploy",
+    "install",
+    "map",
+    "integrate"
+  ],
+  "segmentation_quality": "inferred"
+}

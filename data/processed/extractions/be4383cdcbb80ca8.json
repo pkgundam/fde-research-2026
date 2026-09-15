@@ -1,0 +1,132 @@
+{
+  "posting_id": "be4383cdcbb80ca8",
+  "skills": [
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "own the technical scoping and implementation of the most complex requirements"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "trusted advisor to enterprise prospects and customers"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "proving technical feasibility during the evaluation"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "build complex integrations"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "configure and optimize agents that deploy into production"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "partner with Solutions Engineers, Product and Engineering"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "establish technical credibility with stakeholders across the C-suite"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "Own the technical win on Decagon's most critical enterprise opportunities"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "carrying them from prototype through production deployment"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "instrumenting the metrics required to measure improvement"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Diagnose and resolve issues in live customer instances"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "protect at-risk go-lives"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "Lead exploratory discussions with customers"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "Educate customers...through technical enablement"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "owning highly ambiguous and technical projects"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "owning highly ambiguous and technical projects"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Write production-grade code in Python, SQL, or similar languages"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "Write production-grade code in Python, SQL, or similar languages"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "built integrations against third-party APIs"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "requirement",
+      "evidence": "built integrations against third-party APIs and enterprise systems"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "comfortable working from unfamiliar documentation"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "technical conversation with a customer's engineering team"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "collaborating cross-functionally"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 4,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "own",
+    "build",
+    "configure",
+    "diagnose",
+    "educate"
+  ],
+  "segmentation_quality": "header"
+}

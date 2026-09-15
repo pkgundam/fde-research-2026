@@ -1,0 +1,42 @@
+{
+  "posting_id": "fb97ec568f2d2090",
+  "skills": [
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "Customer success agents and account intelligence layer"
+    },
+    {
+      "canonical": "speech",
+      "section": "responsibility",
+      "evidence": "voice agents, knowledge graphs, multi-agent systems, evals, simulations"
+    },
+    {
+      "canonical": "data_modeling",
+      "section": "responsibility",
+      "evidence": "knowledge graphs, multi-agent systems, evals, simulations"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "multi-agent systems, evals, simulations, and more"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "Real users, real impact, high autonomy"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 2,
+  "responsibility_verbs": [
+    "build",
+    "work",
+    "serve",
+    "grow",
+    "own"
+  ],
+  "segmentation_quality": "inferred"
+}

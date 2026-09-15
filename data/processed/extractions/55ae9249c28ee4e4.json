@@ -1,0 +1,267 @@
+{
+  "posting_id": "55ae9249c28ee4e4",
+  "skills": [
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "Own end-to-end enterprise implementations...own the outcome end-to-end"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Run deep discovery on customer engineering environments, define success criteria"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "architect agent workflows tailored to their stack"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "architect agent workflows tailored to their stack"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "triggers (Slack, Linear, GitHub Actions, webhooks, cron schedules, API calls)"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "responsibility",
+      "evidence": "Write and iterate on agent prompts, skills, and configurations"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Debug agent runs using session sharing and observability tools"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "session sharing and observability tools...proper monitoring"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Ship a working version in days, then harden it over weeks"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "responsibility",
+      "evidence": "Guide self-hosted deployments...execution on their own infrastructure"
+    },
+    {
+      "canonical": "docker",
+      "section": "responsibility",
+      "evidence": "managed workers (Docker, Kubernetes, or Direct backend)"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "responsibility",
+      "evidence": "managed workers (Docker, Kubernetes, or Direct backend)"
+    },
+    {
+      "canonical": "networking",
+      "section": "responsibility",
+      "evidence": "validate network connectivity"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "Accelerate deals through technical execution"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Document architecture patterns, reference implementations, agent skills, and templates"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Be the voice of the customer to Product and Engineering"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "hands-on technical leadership to deploy production agent workflows"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "until the agents deliver real business value"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "turning promising pilots into production deployments that drive real results"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "you've built custom technical solutions for customers"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "requirement",
+      "evidence": "did pilot implementations for enterprises"
+    },
+    {
+      "canonical": "docker",
+      "section": "requirement",
+      "evidence": "You're comfortable with Docker, CI/CD pipelines"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "requirement",
+      "evidence": "You're comfortable with Docker, CI/CD pipelines"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "cloud infrastructure (AWS, GCP, Azure)"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "cloud infrastructure (AWS, GCP, Azure)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "cloud infrastructure (AWS, GCP, Azure)"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "cloud infrastructure (AWS, GCP, Azure)"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "container orchestration, and Linux"
+    },
+    {
+      "canonical": "shell",
+      "section": "requirement",
+      "evidence": "container orchestration, and Linux"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "requirement",
+      "evidence": "understand how enterprise engineering environments work"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "familiar with AI/LLM concepts"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "requirement",
+      "evidence": "You understand prompt engineering, agent architectures, tool use"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "You understand prompt engineering, agent architectures, tool use"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "how to evaluate non-deterministic systems"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "excellent communicator who can articulate the vision"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "hold your own with senior engineers and executives alike"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "navigate enterprise relationships...things aren't set up the way you'd prefer"
+    },
+    {
+      "canonical": "agents",
+      "section": "nice_to_have",
+      "evidence": "building or deploying AI agents in production"
+    },
+    {
+      "canonical": "llm_frameworks",
+      "section": "nice_to_have",
+      "evidence": "LangChain, custom agent frameworks, or similar"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "nice_to_have",
+      "evidence": "Experience with GitHub Actions, webhooks, and event-driven automation"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "nice_to_have",
+      "evidence": "GitHub Actions, webhooks, and event-driven automation"
+    },
+    {
+      "canonical": "streaming",
+      "section": "nice_to_have",
+      "evidence": "webhooks, and event-driven automation"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "nice_to_have",
+      "evidence": "enterprise security and compliance requirements (SOC 2...)"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "nice_to_have",
+      "evidence": "self-hosted deployments, network boundary constraints"
+    },
+    {
+      "canonical": "networking",
+      "section": "nice_to_have",
+      "evidence": "network boundary constraints"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "APIs/SDKs in a customer-facing capacity"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "nice_to_have",
+      "evidence": "or doing technical enablement"
+    },
+    {
+      "canonical": "shell",
+      "section": "nice_to_have",
+      "evidence": "terminal applications, shell scripting, or command-line tooling"
+    },
+    {
+      "canonical": "rust",
+      "section": "nice_to_have",
+      "evidence": "Experience with Rust or Go"
+    },
+    {
+      "canonical": "go",
+      "section": "nice_to_have",
+      "evidence": "Experience with Rust or Go"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "own",
+    "architect",
+    "build",
+    "guide",
+    "develop"
+  ],
+  "segmentation_quality": "header"
+}

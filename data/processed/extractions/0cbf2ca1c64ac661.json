@@ -1,0 +1,137 @@
+{
+  "posting_id": "0cbf2ca1c64ac661",
+  "skills": [
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Lead technical implementation and integration efforts with enterprise clients"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "understand their infrastructure, security requirements, and compliance needs"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "understand their infrastructure, security requirements, and compliance needs"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "responsibility",
+      "evidence": "Design and implement scalable ETL pipelines"
+    },
+    {
+      "canonical": "data_modeling",
+      "section": "responsibility",
+      "evidence": "map their business data into a structured data model"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "help convert and upsell client accounts"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "Lead enablement sessions with client end-users"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "Develop and maintain technical documentation"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Collaborate with our legal engineering team"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "you will architect and implement AI-driven compliance solutions"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Working directly with our enterprise clients and executive team"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "embed with our client teams to build client-specific technical solutions"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "sell to executives and other decision makers"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "4+ years experience writing Python or similar for production use"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "technical client-facing role"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "requirement",
+      "evidence": "Experience writing ETL data pipelines"
+    },
+    {
+      "canonical": "data_modeling",
+      "section": "requirement",
+      "evidence": "map ambiguous customer data into a coherent data model"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "Experience writing APIs, including working with libraries such as FastAPI"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "Experience working with a Postgres database or similar"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "expects all team members to be fluent in AI"
+    },
+    {
+      "canonical": "react",
+      "section": "nice_to_have",
+      "evidence": "Experience with React/TypeScript and Next.js"
+    },
+    {
+      "canonical": "typescript",
+      "section": "nice_to_have",
+      "evidence": "Experience with React/TypeScript and Next.js"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "nice_to_have",
+      "evidence": "Experience with Dagster or Apache Airflow"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "nice_to_have",
+      "evidence": "Experience working in a startup"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 4,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "lead",
+    "design",
+    "develop",
+    "integrate",
+    "architect"
+  ],
+  "segmentation_quality": "header"
+}

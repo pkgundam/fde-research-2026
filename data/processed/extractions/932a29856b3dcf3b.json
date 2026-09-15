@@ -1,0 +1,197 @@
+{
+  "posting_id": "932a29856b3dcf3b",
+  "skills": [
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "lead scoping, architecture and direction as the FDE team embeds"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "lead scoping, architecture and direction as the FDE team embeds"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "lead scoping, architecture and direction as the FDE team"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "FDE team embeds with customers to lead the modernization"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "FDE team embeds with customers to lead the modernization"
+    },
+    {
+      "canonical": "analytics",
+      "section": "responsibility",
+      "evidence": "enabling customers to harness the full potential of their data"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "act as a trusted technical advisor, ensuring customers achieve"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "ensuring customers achieve significant business value and success with Snowflake"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "work with multiple FDE teams that each focus on a specific customer"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "deploy robust software systems, tooling, and automation required"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "We build prototypes, contribute to feature development, fix problems"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "contribute to feature development, fix problems that we find"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "helps drive impact on the roadmap and improves individual depth"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "Provide expert technical guidance, mentorship, and training to client teams"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "responsibility",
+      "evidence": "data management, analytics, AI/ML capabilities, and reporting/BI integration"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "responsibility",
+      "evidence": "Design scalable data pipelines and modern data architectures on Snowflake"
+    },
+    {
+      "canonical": "data_quality",
+      "section": "responsibility",
+      "evidence": "Ensure data quality, integrity, and efficient processing within"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "Analyze and optimize data models, queries, and data processing workflows"
+    },
+    {
+      "canonical": "data_modeling",
+      "section": "responsibility",
+      "evidence": "Analyze and optimize data models, queries, and data processing"
+    },
+    {
+      "canonical": "technical_support",
+      "section": "responsibility",
+      "evidence": "Troubleshooting and Support: Identify and resolve technical challenges"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "Prior experience working with customers on complex, multi-faceted projects"
+    },
+    {
+      "canonical": "project_management",
+      "section": "requirement",
+      "evidence": "working with customers on complex, multi-faceted projects"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Excellent problem-solving, analytical, and communication skills"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "such as Python, Go, Java or C++"
+    },
+    {
+      "canonical": "go",
+      "section": "requirement",
+      "evidence": "such as Python, Go, Java or C++"
+    },
+    {
+      "canonical": "java",
+      "section": "requirement",
+      "evidence": "such as Python, Go, Java or C++"
+    },
+    {
+      "canonical": "cpp",
+      "section": "requirement",
+      "evidence": "such as Python, Go, Java or C++"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "Experience with developing AI/ML applications"
+    },
+    {
+      "canonical": "data_modeling",
+      "section": "requirement",
+      "evidence": "Strong understanding of data modeling, data warehousing"
+    },
+    {
+      "canonical": "data_warehouses",
+      "section": "requirement",
+      "evidence": "data warehousing & data lake concepts, and cloud data platforms"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "data lake concepts, and cloud data platforms"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "Ability to work independently and collaboratively in a client-facing"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "work independently and collaboratively in a client-facing environment"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "role may involve travel up to 20% of the time"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "collaborate with teams and stakeholders"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "nice_to_have",
+      "evidence": "prior experience delivering complex data-driven application migrations"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "lead",
+    "design",
+    "build",
+    "deploy",
+    "partner"
+  ],
+  "segmentation_quality": "header"
+}

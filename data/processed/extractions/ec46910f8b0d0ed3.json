@@ -1,0 +1,182 @@
+{
+  "posting_id": "ec46910f8b0d0ed3",
+  "skills": [
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "architect, develop, and deploy software features that address customers' needs"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "deep understanding of customer and business objectives"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Work directly with customers to understand their technical and operational objectives"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "understand their technical and operational objectives, scope requirements"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "prototype and propose software solutions"
+    },
+    {
+      "canonical": "typescript",
+      "section": "responsibility",
+      "evidence": "using tools like TypeScript, React, and Next.js"
+    },
+    {
+      "canonical": "react",
+      "section": "responsibility",
+      "evidence": "using tools like TypeScript, React, and Next.js"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "own end-to-end development"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Drive product deployments, including configuration, testing, and troubleshooting"
+    },
+    {
+      "canonical": "testing",
+      "section": "responsibility",
+      "evidence": "Drive product deployments, including configuration, testing, and troubleshooting"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Drive product deployments, including configuration, testing, and troubleshooting"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "team understands, prioritizes, and pursues customer feedback and pain points"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "responsibility",
+      "evidence": "understand product usage and friction points, and uncover opportunities"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner with internal stakeholders to continuously align product roadmap"
+    },
+    {
+      "canonical": "aws",
+      "section": "responsibility",
+      "evidence": "we use boring technology like Node, React, and AWS"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "multi-region low latency APIs, and blockchain abstractions that are accessible"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "multi-region low latency APIs, and blockchain abstractions"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "every engineer brings security to their designs from the start"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "5+ years of professional, hands-on full-stack development experience with languages"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "5+ years of professional, hands-on full-stack development experience with languages"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "5+ years of professional, hands-on full-stack development experience with languages"
+    },
+    {
+      "canonical": "go",
+      "section": "requirement",
+      "evidence": "5+ years of professional, hands-on full-stack development experience with languages"
+    },
+    {
+      "canonical": "java",
+      "section": "requirement",
+      "evidence": "5+ years of professional, hands-on full-stack development experience with languages"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "requirement",
+      "evidence": "Excel at rapid prototyping while maintaining appropriate quality standards"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "requirement",
+      "evidence": "ability to understand the product and business side of development"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "Superb problem-solving skills and ability to understand the product"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "Experience building and owning features end-to-end"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Excellent ability to communicate and collaborate with both technical"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "collaborate with both technical and non-technical stakeholders"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "A passion for handling ambiguity and picking up new technologies"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "picking up new technologies, frameworks, and tools"
+    },
+    {
+      "canonical": "git",
+      "section": "nice_to_have",
+      "evidence": "Written open-source developer tooling"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "nice_to_have",
+      "evidence": "Published your work (code, presentations, papers, blog posts, etc.)"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "architect",
+    "design",
+    "drive",
+    "champion",
+    "partner"
+  ],
+  "segmentation_quality": "header"
+}

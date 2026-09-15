@@ -1,0 +1,47 @@
+{
+  "posting_id": "0306c1dadeb81e3b",
+  "skills": [
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Typescript / Python / Postgresql"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Typescript / Python / Postgresql"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "Typescript / Python / Postgresql"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "It's high ownership, greenfield work"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "building features directly for named customers"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "architecting systems as we scale 100-1k"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "build",
+    "architect",
+    "ship",
+    "grow",
+    "work"
+  ],
+  "segmentation_quality": "inferred"
+}

@@ -1,0 +1,142 @@
+{
+  "posting_id": "2c36077a2d18dee6",
+  "skills": [
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "custom agent integrations for our most important customers"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "build and scale the dedicated infrastructure"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "empowering our customer-facing Forward Deployed Engineers"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "responsibility",
+      "evidence": "Design, build, and maintain the cloud infrastructure"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "responsibility",
+      "evidence": "Create flexible and reusable CI/CD pipeline templates"
+    },
+    {
+      "canonical": "iac",
+      "section": "responsibility",
+      "evidence": "Champion Infrastructure as Code to create standardized"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "responsibility",
+      "evidence": "Manage a Kubernetes-based environment tailored for hosting"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "focusing on security, isolation, and resource management"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "Implement robust monitoring and observability solutions"
+    },
+    {
+      "canonical": "python",
+      "section": "responsibility",
+      "evidence": "Develop automation scripts (Python, Go, Bash)"
+    },
+    {
+      "canonical": "go",
+      "section": "responsibility",
+      "evidence": "Develop automation scripts (Python, Go, Bash)"
+    },
+    {
+      "canonical": "shell",
+      "section": "responsibility",
+      "evidence": "Develop automation scripts (Python, Go, Bash)"
+    },
+    {
+      "canonical": "azure",
+      "section": "responsibility",
+      "evidence": "Support and modernize legacy Azure infrastructure"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "customer-first mindset, viewing the Forward Deployed Engineering team"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Proficiency in at least one scripting or programming language"
+    },
+    {
+      "canonical": "go",
+      "section": "requirement",
+      "evidence": "like Python, Go, or Bash"
+    },
+    {
+      "canonical": "shell",
+      "section": "requirement",
+      "evidence": "like Python, Go, or Bash"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "major cloud provider (AWS, GCP, or Azure)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "major cloud provider (AWS, GCP, or Azure)"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "major cloud provider (AWS, GCP, or Azure)"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "containerization and orchestration, specifically Kubernetes, Helm"
+    },
+    {
+      "canonical": "docker",
+      "section": "requirement",
+      "evidence": "specifically Kubernetes, Helm, and Docker"
+    },
+    {
+      "canonical": "ci_cd",
+      "section": "requirement",
+      "evidence": "creating flexible CI pipelines with tools like Jenkins"
+    },
+    {
+      "canonical": "iac",
+      "section": "requirement",
+      "evidence": "strong background in Infrastructure as Code"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "building self-service tools and platforms that empower"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "none",
+  "customer_facing_intensity": 1,
+  "responsibility_verbs": [
+    "build",
+    "design",
+    "automate",
+    "implement",
+    "manage"
+  ],
+  "segmentation_quality": "header"
+}

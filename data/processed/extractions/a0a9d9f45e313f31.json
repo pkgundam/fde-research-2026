@@ -1,0 +1,122 @@
+{
+  "posting_id": "a0a9d9f45e313f31",
+  "skills": [
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Stack: TypeScript, React/Next.js, Node.js"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "Stack: TypeScript, React/Next.js, Node.js"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "Stack: TypeScript, React/Next.js, Node.js, AWS"
+    },
+    {
+      "canonical": "sql",
+      "section": "requirement",
+      "evidence": "AWS, Firecracker, Postgres, Redis"
+    },
+    {
+      "canonical": "nosql",
+      "section": "requirement",
+      "evidence": "AWS, Firecracker, Postgres, Redis"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "Shape how AI agents interact with the web"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Build open-source frameworks/demos on the Sessions API"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "Build open-source frameworks/demos on the Sessions API"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "responsibility",
+      "evidence": "run experiments on which models/prompts/harnesses actually work"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "build evals against real scenarios"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "work with customers shipping agents to production"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "work with customers shipping agents to production"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "requirement",
+      "evidence": "AI-native full-stack engineers with strong product sense"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "AI-native full-stack engineers with strong product sense"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Design and operate the systems Steel runs on"
+    },
+    {
+      "canonical": "incident_response",
+      "section": "responsibility",
+      "evidence": "Design and operate the systems Steel runs on"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "performance-tuning the Sessions API from kernel traces"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "Distributed-systems experience, strong AWS/GCP"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "strong AWS/GCP and Linux/OS fundamentals"
+    },
+    {
+      "canonical": "shell",
+      "section": "requirement",
+      "evidence": "strong AWS/GCP and Linux/OS fundamentals"
+    },
+    {
+      "canonical": "rust",
+      "section": "nice_to_have",
+      "evidence": "Rust is a plus"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 4,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 3,
+  "responsibility_verbs": [
+    "shape",
+    "build",
+    "run",
+    "design",
+    "operate"
+  ],
+  "segmentation_quality": "inferred"
+}

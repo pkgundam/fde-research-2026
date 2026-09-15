@@ -1,0 +1,202 @@
+{
+  "posting_id": "ce19d961998831c2",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "embedding directly with enterprise customers"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "delivering agentic voice AI solutions into their production environments"
+    },
+    {
+      "canonical": "speech",
+      "section": "responsibility",
+      "evidence": "delivering agentic voice AI solutions"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "deployed, high-impact solutions"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "maximize customer success and revenue"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Design, build, and deploy voice AI systems that power real enterprise workflows"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "Lead discovery, architecture, implementation, and rollout"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "Own deployments end-to-end... for strategic customer engagements"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "responsibility",
+      "evidence": "Move projects forward when requirements are incomplete"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "responsibility",
+      "evidence": "Deploy across cloud, VPC, and on-prem environments"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "navigating security, networking, and compliance requirements"
+    },
+    {
+      "canonical": "networking",
+      "section": "responsibility",
+      "evidence": "navigating security, networking, and compliance requirements"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "responsibility",
+      "evidence": "Deploy across cloud, VPC, and on-prem environments"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Diagnose and resolve integration failures, performance bottlenecks"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "resolve integration failures, performance bottlenecks"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "prototype solutions that deepen adoption"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Surface recurring patterns to engineering and product teams, influencing roadmap"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "repeatable playbooks, templates, and reference architectures"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "Strong backend engineering fundamentals... delivering reliable systems"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "requirement",
+      "evidence": "Experience integrating APIs and distributed services"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "cloud and containerized environments (AWS, GCP, Kubernetes)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "cloud and containerized environments (AWS, GCP, Kubernetes)"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "cloud and containerized environments (AWS, GCP, Kubernetes)"
+    },
+    {
+      "canonical": "docker",
+      "section": "requirement",
+      "evidence": "operating across cloud and containerized environments"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "requirement",
+      "evidence": "enterprise constraints: authentication, networking, observability"
+    },
+    {
+      "canonical": "observability",
+      "section": "requirement",
+      "evidence": "authentication, networking, observability, and security reviews"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "High ownership and bias for action"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "comfortable engaging with senior technical stakeholders"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "implementation, or customer-facing engineering roles"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "nice_to_have",
+      "evidence": "forward-deployed, solutions, implementation... roles"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "nice_to_have",
+      "evidence": "forward-deployed, solutions... roles"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "nice_to_have",
+      "evidence": "Experience deploying AI/ML systems into production environments"
+    },
+    {
+      "canonical": "speech",
+      "section": "nice_to_have",
+      "evidence": "real-time systems (voice, streaming APIs, telephony"
+    },
+    {
+      "canonical": "streaming",
+      "section": "nice_to_have",
+      "evidence": "real-time systems (voice, streaming APIs, telephony, low-latency systems)"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "nice_to_have",
+      "evidence": "low-latency systems"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "nice_to_have",
+      "evidence": "Experience with on-prem or hybrid infrastructure deployments"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "nice_to_have",
+      "evidence": "Startup or founder experience"
+    }
+  ],
+  "seniority": "mid",
+  "years_required": 4,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "design",
+    "build",
+    "deploy",
+    "own",
+    "diagnose"
+  ],
+  "segmentation_quality": "header"
+}

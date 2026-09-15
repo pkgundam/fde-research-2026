@@ -1,0 +1,127 @@
+{
+  "posting_id": "4404d5c43167cdad",
+  "skills": [
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "guiding them through ideation, development, delivery, and scaling"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "the most novel and creative use cases being built on our API"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "collecting and delivering high-fidelity product and model feedback"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "collaborate closely with Sales, Solutions Engineering, Applied Research"
+    },
+    {
+      "canonical": "pre_sales",
+      "section": "responsibility",
+      "evidence": "Solutions Engineering, Applied Research, and Product teams"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Partner closely with strategic startup customers as their technical"
+    },
+    {
+      "canonical": "consulting",
+      "section": "responsibility",
+      "evidence": "as their technical thought partner to build novel applications"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "responsibility",
+      "evidence": "Provide proactive guidance to maximize business impact and accelerate"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Experiment and prototype alongside customers, demonstrating practical use cases"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "responsibility",
+      "evidence": "sharing knowledge, codifying best practices, and publishing useful resources"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Build relationships within the startup ecosystem, serving as"
+    },
+    {
+      "canonical": "ml_fundamentals",
+      "section": "requirement",
+      "evidence": "software engineer, ML engineer or equivalent, ideally in a startup"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Are proficient in Python, JavaScript, and a strong grasp"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Are proficient in Python, JavaScript, and a strong grasp"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "strong grasp of AI/LLM best practices"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "requirement",
+      "evidence": "Built and/or delivered prototypes on top of our API"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "maximizing our customers' business value through leveraging the OpenAI"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "Own problems end-to-end and are willing to pick"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "pick up whatever knowledge you're missing to get the job"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "eagerness to help your colleagues, and a desire to do"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "requirement",
+      "evidence": "drive multiple concurrent projects and prioritize ruthlessly"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "nice_to_have",
+      "evidence": "experience as a founder or founding engineer is highly valued"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 5,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "guide",
+    "partner",
+    "build",
+    "prototype",
+    "collaborate"
+  ],
+  "segmentation_quality": "header"
+}

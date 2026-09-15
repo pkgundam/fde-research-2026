@@ -1,0 +1,122 @@
+{
+  "posting_id": "a5eb7c68b19bc707",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "work directly with customers from factory floor to board room"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "understand their greatest problems and design solutions"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "embedding talented engineers directly with our customers"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "architecting and building solutions"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "leverage business-critical data and latest advancements in AI"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Collaborating with fellow engineers on architecture"
+    },
+    {
+      "canonical": "data_quality",
+      "section": "responsibility",
+      "evidence": "Wrangling massive-scale data"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "Engaging directly with customer stakeholders, executives"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "driving projects from ideation to deployment"
+    },
+    {
+      "canonical": "algorithms",
+      "section": "requirement",
+      "evidence": "solve technical problems with data structures"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "storage systems, cloud infrastructure"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "front-end frameworks, and other technical tools"
+    },
+    {
+      "canonical": "data_pipelines",
+      "section": "requirement",
+      "evidence": "working with and using large scale data"
+    },
+    {
+      "canonical": "business_acumen",
+      "section": "requirement",
+      "evidence": "take on valuable business problems"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "collaborate efficiently in teams of technical"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "dynamic environment with evolving objectives"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Python, Java, C++, TypeScript/JavaScript"
+    },
+    {
+      "canonical": "java",
+      "section": "requirement",
+      "evidence": "Python, Java, C++, TypeScript/JavaScript"
+    },
+    {
+      "canonical": "cpp",
+      "section": "requirement",
+      "evidence": "Python, Java, C++, TypeScript/JavaScript"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Python, Java, C++, TypeScript/JavaScript"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "travel up to 25%, as needed to client sites"
+    }
+  ],
+  "seniority": "junior",
+  "years_required": 1,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "collaborate",
+    "wrangle",
+    "develop",
+    "engage",
+    "shape"
+  ],
+  "segmentation_quality": "header"
+}

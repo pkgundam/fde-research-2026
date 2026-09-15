@@ -1,0 +1,25 @@
+{
+  "posting_id": "3dafa4f5a012018c",
+  "skills": [
+    { "canonical": "typescript", "section": "requirement", "evidence": "Typescript, React, Next.js, GraphQL w/ Apollo, Node.js" },
+    { "canonical": "react", "section": "requirement", "evidence": "Typescript, React, Next.js, GraphQL w/ Apollo" },
+    { "canonical": "rest_apis", "section": "requirement", "evidence": "GraphQL w/ Apollo" },
+    { "canonical": "sql", "section": "requirement", "evidence": "Postgres & Redis" },
+    { "canonical": "nosql", "section": "requirement", "evidence": "Postgres & Redis" },
+    { "canonical": "product_sense", "section": "requirement", "evidence": "looking for product-minded engineers to join us" },
+    { "canonical": "ownership_autonomy", "section": "requirement", "evidence": "thrives on ownership, drives results" },
+    { "canonical": "business_acumen", "section": "requirement", "evidence": "cares deeply about... technical excellence and customer impact" }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 2,
+  "responsibility_verbs": [
+    "build",
+    "own",
+    "collaborate",
+    "scale",
+    "ship"
+  ],
+  "segmentation_quality": "inferred"
+}

@@ -1,0 +1,62 @@
+{
+  "posting_id": "34a6645de4073b43",
+  "skills": [
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "we are building an AI workforce to help automate the US government"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "integrate deeply with agency customers"
+    },
+    {
+      "canonical": "unstructured_data",
+      "section": "responsibility",
+      "evidence": "data entry, basic spreadsheet work, filling out paperwork"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "integrate deeply with agency customers"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "build use cases and integrate deeply with agency customers"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "integrate deeply with agency customers"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "working with critical systems, massive surface area and national impact"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "completing the work ~10x faster with 2-3x less errors"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "requires U.S. citizenship and the ability to obtain/maintain a security clearance"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "build",
+    "integrate",
+    "automate",
+    "work",
+    "save"
+  ],
+  "segmentation_quality": "inferred"
+}

@@ -1,0 +1,77 @@
+{
+  "posting_id": "c2da760d780308fe",
+  "skills": [
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "You've shipped something with LLMs in production"
+    },
+    {
+      "canonical": "agents",
+      "section": "requirement",
+      "evidence": "agents, RAG, evals — not just wrappers"
+    },
+    {
+      "canonical": "rag",
+      "section": "requirement",
+      "evidence": "agents, RAG, evals — not just wrappers"
+    },
+    {
+      "canonical": "evals",
+      "section": "requirement",
+      "evidence": "agents, RAG, evals — not just wrappers"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "owning a feature from idea to production without"
+    },
+    {
+      "canonical": "speech",
+      "section": "responsibility",
+      "evidence": "voice agents, knowledge graphs, multi-agent systems, evals"
+    },
+    {
+      "canonical": "data_modeling",
+      "section": "responsibility",
+      "evidence": "knowledge graphs, multi-agent systems, evals, simulations"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "multi-agent systems, evals, simulations, and more"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "multi-agent systems, evals, simulations, and more"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "Real users, real impact, high autonomy"
+    },
+    {
+      "canonical": "rag",
+      "section": "responsibility",
+      "evidence": "ship voice agents, multi-agent orchestration, RAG pipelines"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "features that touch real customers on day one"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 3,
+  "responsibility_verbs": [
+    "ship",
+    "build",
+    "work",
+    "own",
+    "orchestrate"
+  ],
+  "segmentation_quality": "header"
+}

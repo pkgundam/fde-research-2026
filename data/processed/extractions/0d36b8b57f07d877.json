@@ -1,0 +1,137 @@
+{
+  "posting_id": "0d36b8b57f07d877",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "primary interface between customers and Extend at all stages"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "Enable enterprises to gain confidence in deploying AI"
+    },
+    {
+      "canonical": "unstructured_data",
+      "section": "responsibility",
+      "evidence": "handle never before seen edge cases in customer data"
+    },
+    {
+      "canonical": "prompt_engineering",
+      "section": "responsibility",
+      "evidence": "LLM-based extraction instructions"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "Inspire non-technical domain experts to take ownership"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "Architect the ideal evaluation experience for customers"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "tradeoffs between latency, cost, and performance"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Design and architect solutions to solve complex customer problems"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "incorporate feedback and learnings across the team"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "You'll have the ability to travel onsite as needed"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "customers evaluating and running POCs with Extend"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "answering deep technical questions (API architecture, security"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "deep technical questions (API architecture, security"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "responsibility",
+      "evidence": "on-prem deployments"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "Diagnose and resolve technical issues quickly"
+    },
+    {
+      "canonical": "data_modeling",
+      "section": "responsibility",
+      "evidence": "problems with schemas, prompts, and processor configurations"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "responsibility",
+      "evidence": "translate complex technical concepts into easy-to-understand value"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "Run and manage POCs from planning through execution"
+    },
+    {
+      "canonical": "metrics_measurement",
+      "section": "responsibility",
+      "evidence": "ensuring prospects hit their success criteria"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "complete ownership over the work you do"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "work directly with the CEO, CTO, and others"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "operate with high agency"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "engineers who obsess over customer pain"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "want to empower organizations with AI"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "design",
+    "build",
+    "diagnose",
+    "architect",
+    "own"
+  ],
+  "segmentation_quality": "inferred"
+}

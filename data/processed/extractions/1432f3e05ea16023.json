@@ -1,0 +1,27 @@
+{
+  "posting_id": "1432f3e05ea16023",
+  "skills": [
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "Principal FDE (Agentic Systems)"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Remote with possible some travel"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "build",
+    "deploy",
+    "integrate",
+    "support",
+    "configure"
+  ],
+  "segmentation_quality": "inferred"
+}

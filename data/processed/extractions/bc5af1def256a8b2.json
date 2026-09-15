@@ -1,0 +1,28 @@
+{
+  "posting_id": "bc5af1def256a8b2",
+  "skills": [
+    {"canonical": "llm_apis", "section": "requirement", "evidence": "shipped something with LLMs in production"},
+    {"canonical": "agents", "section": "requirement", "evidence": "shipped something with LLMs in production (agents, RAG, evals"},
+    {"canonical": "rag", "section": "requirement", "evidence": "agents, RAG, evals — not just wrappers"},
+    {"canonical": "evals", "section": "requirement", "evidence": "agents, RAG, evals — not just wrappers"},
+    {"canonical": "ownership_autonomy", "section": "requirement", "evidence": "owning a customer-facing feature from idea to production"},
+    {"canonical": "customer_facing", "section": "requirement", "evidence": "owning a customer-facing feature from idea to production"},
+    {"canonical": "speech", "section": "responsibility", "evidence": "voice agents, knowledge graphs, multi-agent systems"},
+    {"canonical": "data_modeling", "section": "responsibility", "evidence": "voice agents, knowledge graphs, multi-agent systems"},
+    {"canonical": "agents", "section": "responsibility", "evidence": "voice agents, knowledge graphs, multi-agent systems"},
+    {"canonical": "evals", "section": "responsibility", "evidence": "multi-agent systems, evals, simulations, and more"},
+    {"canonical": "ownership_autonomy", "section": "responsibility", "evidence": "Real users, real impact, high autonomy"}
+  ],
+  "seniority": "senior",
+  "years_required": null,
+  "travel_expectation": "none",
+  "customer_facing_intensity": 3,
+  "responsibility_verbs": [
+    "build",
+    "ship",
+    "own",
+    "work",
+    "focus"
+  ],
+  "segmentation_quality": "header"
+}

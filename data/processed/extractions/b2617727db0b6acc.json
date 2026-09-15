@@ -1,0 +1,122 @@
+{
+  "posting_id": "b2617727db0b6acc",
+  "skills": [
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "Own customer projects end-to-end, from initial requirements through production"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "from initial requirements through production"
+    },
+    {
+      "canonical": "speech",
+      "section": "responsibility",
+      "evidence": "Build and deploy voice AI and LLM-powered applications"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "Build and deploy voice AI and LLM-powered applications"
+    },
+    {
+      "canonical": "python",
+      "section": "responsibility",
+      "evidence": "Develop integrations and production systems using Python and JavaScript"
+    },
+    {
+      "canonical": "typescript",
+      "section": "responsibility",
+      "evidence": "Develop integrations and production systems using Python and JavaScript"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "Develop integrations and production systems"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "Work directly with customers to understand requirements"
+    },
+    {
+      "canonical": "prototyping",
+      "section": "responsibility",
+      "evidence": "Run technical demos and help customers get the most out of Retell"
+    },
+    {
+      "canonical": "training_enablement",
+      "section": "responsibility",
+      "evidence": "help customers get the most out of Retell"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner closely with Sales, Product, and Engineering"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "Identify product gaps and work with Engineering to improve the platform"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "Travel across APAC as needed"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "2+ years in a customer-facing technical role"
+    },
+    {
+      "canonical": "verbal_communication",
+      "section": "requirement",
+      "evidence": "Strong communication skills and ability to explain technical concepts"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Strong software engineering skills, especially Python or JavaScript"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Strong software engineering skills, especially Python or JavaScript"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "Experience working with AI/LLM systems or complex technical products"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "requirement",
+      "evidence": "working directly with both technical and non-technical stakeholders"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "operate well in a fast-paced, ambiguous environment"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "Open to traveling across APAC as needed"
+    }
+  ],
+  "seniority": "senior",
+  "years_required": 2,
+  "travel_expectation": "occasional",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "own",
+    "build",
+    "develop",
+    "partner",
+    "run"
+  ],
+  "segmentation_quality": "header"
+}

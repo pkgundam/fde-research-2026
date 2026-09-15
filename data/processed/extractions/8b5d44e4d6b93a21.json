@@ -1,0 +1,107 @@
+{
+  "posting_id": "8b5d44e4d6b93a21",
+  "skills": [
+    {
+      "canonical": "product_sense",
+      "section": "requirement",
+      "evidence": "care about UX + correctness"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "experience building LLM-enabled systems"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "built strong distributed/backend systems"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "LLM-backed app features: multi-step query/reasoning"
+    },
+    {
+      "canonical": "evals",
+      "section": "responsibility",
+      "evidence": "offline eval sets, regression testing for prompts"
+    },
+    {
+      "canonical": "guardrails_safety",
+      "section": "responsibility",
+      "evidence": "quality metrics, guardrails, and latency work"
+    },
+    {
+      "canonical": "model_serving",
+      "section": "responsibility",
+      "evidence": "guardrails, and latency work"
+    },
+    {
+      "canonical": "agents",
+      "section": "responsibility",
+      "evidence": "Agentic workflows: tool-calling, retrieval over structured sources"
+    },
+    {
+      "canonical": "rag",
+      "section": "responsibility",
+      "evidence": "retrieval over structured sources"
+    },
+    {
+      "canonical": "rest_apis",
+      "section": "responsibility",
+      "evidence": "APIs, auth/RBAC, job orchestration"
+    },
+    {
+      "canonical": "auth_identity",
+      "section": "responsibility",
+      "evidence": "auth/RBAC"
+    },
+    {
+      "canonical": "observability",
+      "section": "responsibility",
+      "evidence": "observability, and cost controls"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "observability, and cost controls"
+    },
+    {
+      "canonical": "enterprise_systems",
+      "section": "responsibility",
+      "evidence": "connect your institution's systems (SIS/LMS/CRM)"
+    },
+    {
+      "canonical": "domain_expertise",
+      "section": "responsibility",
+      "evidence": "AI operating layer for education analytics"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Stack (approx): Python, TypeScript"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Python, TypeScript, modern web app stack"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "LLM tool-calling/RAG patterns, GCP"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "unspecified",
+  "customer_facing_intensity": 3,
+  "responsibility_verbs": [
+    "build",
+    "ship",
+    "connect",
+    "debug",
+    "guide"
+  ],
+  "segmentation_quality": "header"
+}

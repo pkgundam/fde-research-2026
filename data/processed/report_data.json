@@ -1,39 +1,44 @@
 {
   "meta": {
-    "n_postings": 305,
-    "n_companies": 142,
+    "n_postings": 303,
+    "n_companies": 154,
     "date_range": [
       "2022-06-30",
       "2026-09-14"
     ],
-    "generated_at": "2026-09-15T00:08:29.860627+00:00",
+    "generated_at": "2026-09-15T01:15:49.459888+00:00",
     "model": "claude-sonnet-5",
     "collected_on": "2026-09-15",
     "recent_share": 0.911,
+    "hn_threads": {
+      "months": 10,
+      "first": "2025-12",
+      "last": "2026-09"
+    },
     "sources": [
       {
         "name": "greenhouse",
-        "fetched": 10706,
-        "matched": 212,
-        "kept": 89
+        "fetched": 10967,
+        "matched": 218,
+        "kept": 95
       },
       {
         "name": "lever",
-        "fetched": 844,
-        "matched": 62,
-        "kept": 18
+        "fetched": 896,
+        "matched": 63,
+        "kept": 17
       },
       {
         "name": "ashby",
-        "fetched": 6378,
-        "matched": 214,
-        "kept": 115
+        "fetched": 6869,
+        "matched": 213,
+        "kept": 117
       },
       {
         "name": "hn",
-        "fetched": 169,
-        "matched": 86,
-        "kept": 74
+        "fetched": 200,
+        "matched": 98,
+        "kept": 67
       },
       {
         "name": "remotive",
@@ -44,13 +49,13 @@
       {
         "name": "arbeitnow",
         "fetched": 1800,
-        "matched": 11,
-        "kept": 9
+        "matched": 9,
+        "kept": 7
       }
     ],
     "segmentation": {
-      "header": 224,
-      "inferred": 81
+      "header": 230,
+      "inferred": 73
     },
     "rejects": 0,
     "adzuna_used": false
@@ -60,581 +65,626 @@
       "canonical": "customer_facing",
       "label": "Customer-facing engineering",
       "cluster": "customer_delivery",
-      "n": 231,
-      "frequency": 0.7574,
-      "criticality": 0.5432,
+      "n": 236,
+      "frequency": 0.7789,
+      "criticality": 0.5433,
       "mentions": {
-        "responsibility": 201,
-        "requirement": 129,
-        "nice_to_have": 40
+        "responsibility": 207,
+        "requirement": 136,
+        "nice_to_have": 38
       },
       "low_n": false,
-      "evidence": "Interact daily with our technical customers"
+      "evidence": "Embedding into client teams, shipping real features"
     },
     {
       "canonical": "cross_functional",
       "label": "Cross-functional collaboration",
       "cluster": "product_thinking_and_communication",
-      "n": 182,
-      "frequency": 0.5967,
-      "criticality": 0.6872,
+      "n": 185,
+      "frequency": 0.6106,
+      "criticality": 0.7025,
       "mentions": {
-        "responsibility": 167,
+        "responsibility": 170,
         "requirement": 58,
-        "nice_to_have": 18
+        "nice_to_have": 14
       },
       "low_n": false,
-      "evidence": "collaborating with leading AI researchers, and"
+      "evidence": "Collaborating with strategy and product to turn business goals"
     },
     {
       "canonical": "system_design",
       "label": "System design",
       "cluster": "software_foundations",
-      "n": 175,
-      "frequency": 0.5738,
-      "criticality": 0.5944,
+      "n": 178,
+      "frequency": 0.5875,
+      "criticality": 0.5984,
       "mentions": {
-        "responsibility": 148,
-        "requirement": 86,
-        "nice_to_have": 15
+        "responsibility": 152,
+        "requirement": 88,
+        "nice_to_have": 14
       },
       "low_n": false,
-      "evidence": "Design, build, and deploy features across"
-    },
-    {
-      "canonical": "ownership_autonomy",
-      "label": "Ownership & autonomy",
-      "cluster": "product_thinking_and_communication",
-      "n": 173,
-      "frequency": 0.5672,
-      "criticality": 0.3668,
-      "mentions": {
-        "responsibility": 84,
-        "requirement": 119,
-        "nice_to_have": 26
-      },
-      "low_n": false,
-      "evidence": "proactively identify new opportunities for AI"
+      "evidence": "architecture decisions (multi-tenant cloud, auth, data isolation)"
     },
     {
       "canonical": "implementation_onboarding",
       "label": "Implementation & onboarding",
       "cluster": "customer_delivery",
-      "n": 172,
-      "frequency": 0.5639,
-      "criticality": 0.8195,
+      "n": 177,
+      "frequency": 0.5842,
+      "criticality": 0.8152,
       "mentions": {
-        "responsibility": 168,
-        "requirement": 25,
-        "nice_to_have": 12
+        "responsibility": 172,
+        "requirement": 24,
+        "nice_to_have": 15
       },
       "low_n": false,
-      "evidence": "Deploy and maintain Scale software at"
+      "evidence": "from idea to production"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "label": "Ownership & autonomy",
+      "cluster": "product_thinking_and_communication",
+      "n": 176,
+      "frequency": 0.5809,
+      "criticality": 0.3814,
+      "mentions": {
+        "responsibility": 90,
+        "requirement": 121,
+        "nice_to_have": 25
+      },
+      "low_n": false,
+      "evidence": "Owning the technical direction of client projects end-to-end"
     },
     {
       "canonical": "product_feedback_loop",
       "label": "Feeding insight back to product",
       "cluster": "product_thinking_and_communication",
-      "n": 169,
-      "frequency": 0.5541,
-      "criticality": 0.918,
+      "n": 174,
+      "frequency": 0.5743,
+      "criticality": 0.9202,
       "mentions": {
-        "responsibility": 168,
+        "responsibility": 173,
         "requirement": 9,
         "nice_to_have": 6
       },
       "low_n": false,
-      "evidence": "directly influencing the product roadmap."
+      "evidence": "iterate on customer feedback in hours, not quarters"
     },
     {
       "canonical": "scoping",
       "label": "Scoping & discovery",
       "cluster": "customer_delivery",
-      "n": 165,
-      "frequency": 0.541,
-      "criticality": 0.7549,
+      "n": 170,
+      "frequency": 0.5611,
+      "criticality": 0.756,
       "mentions": {
-        "responsibility": 154,
-        "requirement": 44,
-        "nice_to_have": 6
+        "responsibility": 158,
+        "requirement": 46,
+        "nice_to_have": 5
       },
       "low_n": false,
-      "evidence": "understanding their unique challenges and translating"
-    },
-    {
-      "canonical": "python",
-      "label": "Python",
-      "cluster": "software_foundations",
-      "n": 163,
-      "frequency": 0.5344,
-      "criticality": 0.1061,
-      "mentions": {
-        "responsibility": 19,
-        "requirement": 149,
-        "nice_to_have": 11
-      },
-      "low_n": false,
-      "evidence": "Core stack: Python, Swift, React / RN, Postgres"
-    },
-    {
-      "canonical": "stakeholder_communication",
-      "label": "Stakeholder communication",
-      "cluster": "customer_delivery",
-      "n": 162,
-      "frequency": 0.5311,
-      "criticality": 0.5064,
-      "mentions": {
-        "responsibility": 118,
-        "requirement": 109,
-        "nice_to_have": 6
-      },
-      "low_n": false,
-      "evidence": "senior technical voice for the most"
+      "evidence": "scope feasibility, and shape requirements with non-technical decision makers"
     },
     {
       "canonical": "llm_apis",
       "label": "LLM APIs",
       "cluster": "ai_application_engineering",
-      "n": 159,
-      "frequency": 0.5213,
-      "criticality": 0.3812,
+      "n": 167,
+      "frequency": 0.5512,
+      "criticality": 0.3702,
       "mentions": {
-        "responsibility": 85,
-        "requirement": 99,
+        "responsibility": 87,
+        "requirement": 109,
         "nice_to_have": 39
       },
       "low_n": false,
-      "evidence": "expertise in large language models, 2D"
+      "evidence": "integrating AI where it creates real value"
+    },
+    {
+      "canonical": "python",
+      "label": "Python",
+      "cluster": "software_foundations",
+      "n": 166,
+      "frequency": 0.5479,
+      "criticality": 0.1111,
+      "mentions": {
+        "responsibility": 20,
+        "requirement": 151,
+        "nice_to_have": 9
+      },
+      "low_n": false,
+      "evidence": "Python FastAPI on the backend, focusing on performance"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "label": "Stakeholder communication",
+      "cluster": "customer_delivery",
+      "n": 159,
+      "frequency": 0.5248,
+      "criticality": 0.5044,
+      "mentions": {
+        "responsibility": 115,
+        "requirement": 107,
+        "nice_to_have": 6
+      },
+      "low_n": false,
+      "evidence": "Being the technical voice in client meetings"
     },
     {
       "canonical": "verbal_communication",
       "label": "Verbal communication & presenting",
       "cluster": "product_thinking_and_communication",
       "n": 147,
-      "frequency": 0.482,
-      "criticality": 0.1886,
+      "frequency": 0.4851,
+      "criticality": 0.1864,
       "mentions": {
         "responsibility": 33,
-        "requirement": 126,
+        "requirement": 128,
         "nice_to_have": 16
       },
       "low_n": false,
-      "evidence": "Represent Scale and engage with customers"
+      "evidence": "resolution quality, safe escalation, customer communication"
     },
     {
       "canonical": "agents",
       "label": "Agents & tool use",
       "cluster": "ai_application_engineering",
-      "n": 141,
-      "frequency": 0.4623,
-      "criticality": 0.4846,
+      "n": 144,
+      "frequency": 0.4752,
+      "criticality": 0.4754,
       "mentions": {
-        "responsibility": 110,
-        "requirement": 79,
-        "nice_to_have": 38
+        "responsibility": 116,
+        "requirement": 83,
+        "nice_to_have": 45
       },
       "low_n": false,
-      "evidence": "data pipelines and agents."
+      "evidence": "You engineer how the tools execute"
     },
     {
       "canonical": "travel_onsite",
       "label": "Travel & on-site work",
       "cluster": "customer_delivery",
-      "n": 134,
-      "frequency": 0.4393,
-      "criticality": 0.5965,
+      "n": 131,
+      "frequency": 0.4323,
+      "criticality": 0.6,
       "mentions": {
-        "responsibility": 102,
-        "requirement": 64,
+        "responsibility": 99,
+        "requirement": 61,
         "nice_to_have": 5
       },
       "low_n": false,
-      "evidence": "Be open to >50% onsite work"
+      "evidence": "We operate on the factory floor, not in slide decks"
     },
     {
       "canonical": "expectation_management",
       "label": "Expectation & risk management",
       "cluster": "customer_delivery",
-      "n": 128,
-      "frequency": 0.4197,
-      "criticality": 0.2432,
+      "n": 129,
+      "frequency": 0.4257,
+      "criticality": 0.2533,
       "mentions": {
-        "responsibility": 36,
+        "responsibility": 38,
         "requirement": 102,
         "nice_to_have": 10
       },
       "low_n": false,
-      "evidence": "takes ambiguous problems and turns them"
+      "evidence": "Running the room when enterprise stakeholders disagree"
     },
     {
       "canonical": "prototyping",
       "label": "Rapid prototyping & POCs",
       "cluster": "customer_delivery",
       "n": 125,
-      "frequency": 0.4098,
-      "criticality": 0.7718,
+      "frequency": 0.4125,
+      "criticality": 0.7566,
       "mentions": {
         "responsibility": 115,
-        "requirement": 26,
-        "nice_to_have": 8
+        "requirement": 30,
+        "nice_to_have": 7
       },
       "low_n": false,
-      "evidence": "Deliver high-quality experiments quickly, iterating quickly"
+      "evidence": "architect, develop prototypes, and deliver stable"
     },
     {
       "canonical": "cost_performance",
       "label": "Performance & cost optimisation",
       "cluster": "deployment_and_operations",
-      "n": 120,
-      "frequency": 0.3934,
-      "criticality": 0.6346,
+      "n": 122,
+      "frequency": 0.4026,
+      "criticality": 0.6352,
       "mentions": {
-        "responsibility": 99,
-        "requirement": 45,
+        "responsibility": 101,
+        "requirement": 46,
         "nice_to_have": 12
       },
       "low_n": false,
-      "evidence": "hinsichtlich Leistung, Stabilität und Kundenzufriedenheit"
+      "evidence": "quality, reliability, latency, and user value"
     },
     {
       "canonical": "debugging",
       "label": "Debugging & troubleshooting",
       "cluster": "software_foundations",
-      "n": 118,
-      "frequency": 0.3869,
-      "criticality": 0.5617,
+      "n": 117,
+      "frequency": 0.3861,
+      "criticality": 0.5521,
       "mentions": {
-        "responsibility": 91,
-        "requirement": 62,
-        "nice_to_have": 9
+        "responsibility": 90,
+        "requirement": 65,
+        "nice_to_have": 8
       },
       "low_n": false,
-      "evidence": "debug delivery issues, and own technical"
+      "evidence": "Debug AI feature failures across inputs, outputs, data"
     },
     {
       "canonical": "written_communication",
       "label": "Written communication",
       "cluster": "product_thinking_and_communication",
-      "n": 111,
-      "frequency": 0.3639,
-      "criticality": 0.6043,
+      "n": 116,
+      "frequency": 0.3828,
+      "criticality": 0.5782,
       "mentions": {
-        "responsibility": 84,
-        "requirement": 41,
-        "nice_to_have": 14
+        "responsibility": 85,
+        "requirement": 47,
+        "nice_to_have": 15
       },
       "low_n": false,
-      "evidence": "documentation, and SDKs that set customers"
-    },
-    {
-      "canonical": "domain_expertise",
-      "label": "Domain / industry expertise",
-      "cluster": "customer_delivery",
-      "n": 111,
-      "frequency": 0.3639,
-      "criticality": 0.4233,
-      "mentions": {
-        "responsibility": 69,
-        "requirement": 44,
-        "nice_to_have": 50
-      },
-      "low_n": false,
-      "evidence": "leading AI innovators and government agencies."
-    },
-    {
-      "canonical": "security_compliance",
-      "label": "Security & compliance",
-      "cluster": "deployment_and_operations",
-      "n": 109,
-      "frequency": 0.3574,
-      "criticality": 0.5128,
-      "mentions": {
-        "responsibility": 80,
-        "requirement": 52,
-        "nice_to_have": 24
-      },
-      "low_n": false,
-      "evidence": "active Secret clearance and willingness to"
-    },
-    {
-      "canonical": "learning_agility",
-      "label": "Learning agility",
-      "cluster": "product_thinking_and_communication",
-      "n": 106,
-      "frequency": 0.3475,
-      "criticality": 0.2288,
-      "mentions": {
-        "responsibility": 27,
-        "requirement": 80,
-        "nice_to_have": 11
-      },
-      "low_n": false,
-      "evidence": "Advise on which new AI developments"
+      "evidence": "Communicating commitments that hold. Binding dates"
     },
     {
       "canonical": "rest_apis",
       "label": "REST / API integration",
       "cluster": "data_and_integrations",
-      "n": 103,
-      "frequency": 0.3377,
-      "criticality": 0.5135,
+      "n": 115,
+      "frequency": 0.3795,
+      "criticality": 0.5029,
       "mentions": {
-        "responsibility": 76,
-        "requirement": 57,
-        "nice_to_have": 15
+        "responsibility": 87,
+        "requirement": 69,
+        "nice_to_have": 17
       },
       "low_n": false,
-      "evidence": "Build end-to-end data integrations that sync"
+      "evidence": "Telnyx APIs (Voice, Messaging, Fax, Wireless)"
     },
     {
-      "canonical": "training_enablement",
-      "label": "Training & enablement",
-      "cluster": "customer_delivery",
-      "n": 99,
-      "frequency": 0.3246,
-      "criticality": 0.8426,
+      "canonical": "security_compliance",
+      "label": "Security & compliance",
+      "cluster": "deployment_and_operations",
+      "n": 108,
+      "frequency": 0.3564,
+      "criticality": 0.4968,
       "mentions": {
-        "responsibility": 91,
-        "requirement": 6,
-        "nice_to_have": 11
+        "responsibility": 77,
+        "requirement": 52,
+        "nice_to_have": 26
       },
       "low_n": false,
-      "evidence": "Design and maintain playbooks, internal tools"
+      "evidence": "security architecture, deployment topology"
+    },
+    {
+      "canonical": "learning_agility",
+      "label": "Learning agility",
+      "cluster": "product_thinking_and_communication",
+      "n": 107,
+      "frequency": 0.3531,
+      "criticality": 0.2397,
+      "mentions": {
+        "responsibility": 29,
+        "requirement": 83,
+        "nice_to_have": 9
+      },
+      "low_n": false,
+      "evidence": "Ramping quickly into unfamiliar codebases"
     },
     {
       "canonical": "typescript",
       "label": "TypeScript / JavaScript",
       "cluster": "software_foundations",
-      "n": 98,
-      "frequency": 0.3213,
-      "criticality": 0.1429,
+      "n": 106,
+      "frequency": 0.3498,
+      "criticality": 0.15,
       "mentions": {
-        "responsibility": 16,
-        "requirement": 88,
-        "nice_to_have": 8
+        "responsibility": 18,
+        "requirement": 91,
+        "nice_to_have": 11
       },
       "low_n": false,
       "evidence": "Building full-stack solutions with TypeScript"
     },
     {
+      "canonical": "domain_expertise",
+      "label": "Domain / industry expertise",
+      "cluster": "customer_delivery",
+      "n": 105,
+      "frequency": 0.3465,
+      "criticality": 0.4437,
+      "mentions": {
+        "responsibility": 67,
+        "requirement": 41,
+        "nice_to_have": 43
+      },
+      "low_n": false,
+      "evidence": "complex domains (utility metering, insurance, FMCG)"
+    },
+    {
       "canonical": "evals",
       "label": "Evals & quality measurement",
       "cluster": "ai_application_engineering",
-      "n": 97,
-      "frequency": 0.318,
-      "criticality": 0.4968,
+      "n": 100,
+      "frequency": 0.33,
+      "criticality": 0.4847,
       "mentions": {
-        "responsibility": 77,
-        "requirement": 56,
-        "nice_to_have": 22
+        "responsibility": 79,
+        "requirement": 57,
+        "nice_to_have": 27
       },
       "low_n": false,
-      "evidence": "evaluation methodologies for agents and MLOps"
+      "evidence": "Build evaluation loops, tests, and quality checks"
     },
     {
       "canonical": "consulting",
       "label": "Consulting & advisory",
       "cluster": "customer_delivery",
-      "n": 96,
-      "frequency": 0.3148,
-      "criticality": 0.5469,
+      "n": 95,
+      "frequency": 0.3135,
+      "criticality": 0.544,
       "mentions": {
-        "responsibility": 70,
-        "requirement": 40,
+        "responsibility": 68,
+        "requirement": 39,
         "nice_to_have": 18
       },
       "low_n": false,
-      "evidence": "senior technical partner to client leadership"
+      "evidence": "craft compelling proposals and solution designs"
     },
     {
-      "canonical": "business_acumen",
-      "label": "Business acumen & ROI",
-      "cluster": "product_thinking_and_communication",
-      "n": 83,
-      "frequency": 0.2721,
-      "criticality": 0.5098,
+      "canonical": "training_enablement",
+      "label": "Training & enablement",
+      "cluster": "customer_delivery",
+      "n": 92,
+      "frequency": 0.3036,
+      "criticality": 0.8058,
       "mentions": {
-        "responsibility": 52,
-        "requirement": 42,
-        "nice_to_have": 8
+        "responsibility": 83,
+        "requirement": 7,
+        "nice_to_have": 13
       },
       "low_n": false,
-      "evidence": "show the business value Claude can"
+      "evidence": "you lead workshops"
     },
     {
       "canonical": "ml_fundamentals",
       "label": "ML fundamentals",
       "cluster": "ai_application_engineering",
-      "n": 83,
-      "frequency": 0.2721,
-      "criticality": 0.2407,
+      "n": 86,
+      "frequency": 0.2838,
+      "criticality": 0.2389,
       "mentions": {
-        "responsibility": 26,
-        "requirement": 58,
-        "nice_to_have": 24
+        "responsibility": 27,
+        "requirement": 60,
+        "nice_to_have": 26
       },
       "low_n": false,
       "evidence": "applied ML to ship production AI features"
     },
     {
+      "canonical": "business_acumen",
+      "label": "Business acumen & ROI",
+      "cluster": "product_thinking_and_communication",
+      "n": 82,
+      "frequency": 0.2706,
+      "criticality": 0.5049,
+      "mentions": {
+        "responsibility": 52,
+        "requirement": 43,
+        "nice_to_have": 8
+      },
+      "low_n": false,
+      "evidence": "turn business goals into technical plans with budget"
+    },
+    {
       "canonical": "aws",
       "label": "AWS",
       "cluster": "deployment_and_operations",
-      "n": 75,
-      "frequency": 0.2459,
-      "criticality": 0.15,
+      "n": 78,
+      "frequency": 0.2574,
+      "criticality": 0.1647,
       "mentions": {
-        "responsibility": 12,
-        "requirement": 55,
+        "responsibility": 14,
+        "requirement": 58,
         "nice_to_have": 13
       },
       "low_n": false,
-      "evidence": "Senior Infrastructure Engineer (Remote Europe) - AWS, K8s, Pulumi"
+      "evidence": "Data Engineer (Real-Time & Batch Systems, AWS)"
+    },
+    {
+      "canonical": "pre_sales",
+      "label": "Pre-sales & solutions engineering",
+      "cluster": "customer_delivery",
+      "n": 77,
+      "frequency": 0.2541,
+      "criticality": 0.4848,
+      "mentions": {
+        "responsibility": 48,
+        "requirement": 32,
+        "nice_to_have": 19
+      },
+      "low_n": false,
+      "evidence": "Collaborate with Sales and Presales to craft"
     },
     {
       "canonical": "observability",
       "label": "Observability & monitoring",
       "cluster": "deployment_and_operations",
       "n": 74,
-      "frequency": 0.2426,
-      "criticality": 0.5657,
+      "frequency": 0.2442,
+      "criticality": 0.5673,
       "mentions": {
-        "responsibility": 56,
+        "responsibility": 59,
         "requirement": 30,
-        "nice_to_have": 13
+        "nice_to_have": 15
       },
       "low_n": false,
       "evidence": "Wire production observability for everything you ship"
     },
     {
-      "canonical": "project_management",
-      "label": "Project & engagement management",
-      "cluster": "customer_delivery",
-      "n": 74,
-      "frequency": 0.2426,
-      "criticality": 0.6804,
-      "mentions": {
-        "responsibility": 66,
-        "requirement": 26,
-        "nice_to_have": 5
-      },
-      "low_n": false,
-      "evidence": "throughout the lifecycle of an engagement"
-    },
-    {
-      "canonical": "pre_sales",
-      "label": "Pre-sales & solutions engineering",
-      "cluster": "customer_delivery",
-      "n": 74,
-      "frequency": 0.2426,
-      "criticality": 0.5263,
-      "mentions": {
-        "responsibility": 50,
-        "requirement": 26,
-        "nice_to_have": 19
-      },
-      "low_n": false,
-      "evidence": "account strategy, deal qualification, and executive"
-    },
-    {
       "canonical": "metrics_measurement",
       "label": "Success metrics & measurement",
       "cluster": "product_thinking_and_communication",
-      "n": 70,
-      "frequency": 0.2295,
-      "criticality": 0.6471,
+      "n": 73,
+      "frequency": 0.2409,
+      "criticality": 0.6706,
       "mentions": {
-        "responsibility": 55,
-        "requirement": 24,
-        "nice_to_have": 6
+        "responsibility": 57,
+        "requirement": 21,
+        "nice_to_have": 7
       },
       "low_n": false,
-      "evidence": "measurable outcomes such as cost, revenue"
+      "evidence": "measure impact"
+    },
+    {
+      "canonical": "project_management",
+      "label": "Project & engagement management",
+      "cluster": "customer_delivery",
+      "n": 72,
+      "frequency": 0.2376,
+      "criticality": 0.6923,
+      "mentions": {
+        "responsibility": 63,
+        "requirement": 27,
+        "nice_to_have": 1
+      },
+      "low_n": false,
+      "evidence": "Coordinating internal engineers, external partners, and client staff"
     },
     {
       "canonical": "mentoring_leadership",
       "label": "Mentoring & technical leadership",
       "cluster": "product_thinking_and_communication",
-      "n": 67,
-      "frequency": 0.2197,
-      "criticality": 0.5957,
+      "n": 69,
+      "frequency": 0.2277,
+      "criticality": 0.5918,
       "mentions": {
-        "responsibility": 56,
-        "requirement": 28,
-        "nice_to_have": 10
+        "responsibility": 58,
+        "requirement": 31,
+        "nice_to_have": 9
       },
       "low_n": false,
-      "evidence": "shaping our engineering culture, values, and"
+      "evidence": "reviewing code, and raising the bar on how we ship"
+    },
+    {
+      "canonical": "data_pipelines",
+      "label": "Data pipelines & ETL",
+      "cluster": "data_and_integrations",
+      "n": 68,
+      "frequency": 0.2244,
+      "criticality": 0.4062,
+      "mentions": {
+        "responsibility": 39,
+        "requirement": 38,
+        "nice_to_have": 19
+      },
+      "low_n": false,
+      "evidence": "Real-Time & Batch Systems"
     },
     {
       "canonical": "cloud_platforms",
       "label": "Cloud platforms (generic)",
       "cluster": "ai_application_engineering",
-      "n": 66,
-      "frequency": 0.2164,
-      "criticality": 0.1918,
+      "n": 68,
+      "frequency": 0.2244,
+      "criticality": 0.1974,
       "mentions": {
-        "responsibility": 14,
-        "requirement": 54,
+        "responsibility": 15,
+        "requirement": 56,
         "nice_to_have": 5
       },
       "low_n": false,
       "evidence": "distributed systems, cloud infra, deterministic execution"
     },
     {
-      "canonical": "model_serving",
-      "label": "Model serving & inference",
-      "cluster": "ai_application_engineering",
+      "canonical": "prioritization",
+      "label": "Prioritisation & tradeoffs",
+      "cluster": "product_thinking_and_communication",
       "n": 63,
-      "frequency": 0.2066,
-      "criticality": 0.3,
+      "frequency": 0.2079,
+      "criticality": 0.4789,
       "mentions": {
-        "responsibility": 27,
+        "responsibility": 34,
         "requirement": 32,
-        "nice_to_have": 31
+        "nice_to_have": 5
       },
       "low_n": false,
-      "evidence": "production MLOps that get adopted broadly"
-    },
-    {
-      "canonical": "data_pipelines",
-      "label": "Data pipelines & ETL",
-      "cluster": "data_and_integrations",
-      "n": 62,
-      "frequency": 0.2033,
-      "criticality": 0.4111,
-      "mentions": {
-        "responsibility": 37,
-        "requirement": 36,
-        "nice_to_have": 17
-      },
-      "low_n": false,
-      "evidence": "critical data infrastructure that powers the"
-    },
-    {
-      "canonical": "react",
-      "label": "React / frontend",
-      "cluster": "software_foundations",
-      "n": 60,
-      "frequency": 0.1967,
-      "criticality": 0.3049,
-      "mentions": {
-        "responsibility": 25,
-        "requirement": 48,
-        "nice_to_have": 9
-      },
-      "low_n": false,
-      "evidence": "front-end interfaces to back-end systems and"
+      "evidence": "Know when to solve it yourself and when to pull in engineering"
     },
     {
       "canonical": "gcp",
       "label": "Google Cloud",
       "cluster": "deployment_and_operations",
-      "n": 60,
-      "frequency": 0.1967,
-      "criticality": 0.0769,
+      "n": 62,
+      "frequency": 0.2046,
+      "criticality": 0.0746,
       "mentions": {
         "responsibility": 5,
+        "requirement": 50,
+        "nice_to_have": 12
+      },
+      "low_n": false,
+      "evidence": "enterprise cloud infrastructure (Azure, GCP, OVH)"
+    },
+    {
+      "canonical": "react",
+      "label": "React / frontend",
+      "cluster": "software_foundations",
+      "n": 62,
+      "frequency": 0.2046,
+      "criticality": 0.3176,
+      "mentions": {
+        "responsibility": 27,
+        "requirement": 48,
+        "nice_to_have": 10
+      },
+      "low_n": false,
+      "evidence": "TypeScript (React, Node, Next.js, Tailwind)"
+    },
+    {
+      "canonical": "sql",
+      "label": "SQL & relational DBs",
+      "cluster": "data_and_integrations",
+      "n": 62,
+      "frequency": 0.2046,
+      "criticality": 0.1765,
+      "mentions": {
+        "responsibility": 12,
+        "requirement": 47,
+        "nice_to_have": 9
+      },
+      "low_n": false,
+      "evidence": "Core stack: Python, Swift, React / RN, Postgres"
+    },
+    {
+      "canonical": "model_serving",
+      "label": "Model serving & inference",
+      "cluster": "ai_application_engineering",
+      "n": 61,
+      "frequency": 0.2013,
+      "criticality": 0.3068,
+      "mentions": {
+        "responsibility": 27,
+        "requirement": 29,
+        "nice_to_have": 32
+      },
+      "low_n": false,
+      "evidence": "Support self-hosted model workflows where they make sense"
+    },
+    {
+      "canonical": "azure",
+      "label": "Azure",
+      "cluster": "deployment_and_operations",
+      "n": 60,
+      "frequency": 0.198,
+      "criticality": 0.0909,
+      "mentions": {
+        "responsibility": 6,
         "requirement": 48,
         "nice_to_have": 12
       },
@@ -642,316 +692,256 @@
       "evidence": "enterprise cloud infrastructure (Azure, GCP, OVH)"
     },
     {
-      "canonical": "prioritization",
-      "label": "Prioritisation & tradeoffs",
-      "cluster": "product_thinking_and_communication",
-      "n": 59,
-      "frequency": 0.1934,
-      "criticality": 0.4615,
-      "mentions": {
-        "responsibility": 30,
-        "requirement": 28,
-        "nice_to_have": 7
-      },
-      "low_n": false,
-      "evidence": "lead prioritization decisions"
-    },
-    {
-      "canonical": "azure",
-      "label": "Azure",
-      "cluster": "deployment_and_operations",
-      "n": 58,
-      "frequency": 0.1902,
-      "criticality": 0.0938,
-      "mentions": {
-        "responsibility": 6,
-        "requirement": 46,
-        "nice_to_have": 12
-      },
-      "low_n": false,
-      "evidence": "enterprise cloud infrastructure (Azure, GCP, OVH)"
-    },
-    {
-      "canonical": "sql",
-      "label": "SQL & relational DBs",
-      "cluster": "data_and_integrations",
-      "n": 56,
-      "frequency": 0.1836,
-      "criticality": 0.1525,
-      "mentions": {
-        "responsibility": 9,
-        "requirement": 43,
-        "nice_to_have": 7
-      },
-      "low_n": false,
-      "evidence": "Core stack: Python, Swift, React / RN, Postgres"
-    },
-    {
-      "canonical": "kubernetes",
-      "label": "Kubernetes",
-      "cluster": "deployment_and_operations",
-      "n": 55,
-      "frequency": 0.1803,
-      "criticality": 0.2,
-      "mentions": {
-        "responsibility": 14,
-        "requirement": 38,
-        "nice_to_have": 18
-      },
-      "low_n": false,
-      "evidence": "Senior Infrastructure Engineer (Remote Europe) - AWS, K8s, Pulumi"
-    },
-    {
-      "canonical": "networking",
-      "label": "Networking",
-      "cluster": "deployment_and_operations",
-      "n": 54,
-      "frequency": 0.177,
-      "criticality": 0.3256,
-      "mentions": {
-        "responsibility": 28,
-        "requirement": 42,
-        "nice_to_have": 16
-      },
-      "low_n": false,
-      "evidence": "internal IT (firewalls, VPN, network architecture)"
-    },
-    {
       "canonical": "product_sense",
       "label": "Product sense",
       "cluster": "product_thinking_and_communication",
-      "n": 51,
-      "frequency": 0.1672,
-      "criticality": 0.4912,
+      "n": 57,
+      "frequency": 0.1881,
+      "criticality": 0.4462,
       "mentions": {
-        "responsibility": 28,
-        "requirement": 27,
-        "nice_to_have": 2
+        "responsibility": 29,
+        "requirement": 33,
+        "nice_to_have": 3
       },
       "low_n": false,
       "evidence": "Translating user reality... into something your engineering team can build"
     },
     {
+      "canonical": "kubernetes",
+      "label": "Kubernetes",
+      "cluster": "deployment_and_operations",
+      "n": 56,
+      "frequency": 0.1848,
+      "criticality": 0.1892,
+      "mentions": {
+        "responsibility": 14,
+        "requirement": 41,
+        "nice_to_have": 19
+      },
+      "low_n": false,
+      "evidence": "install hardware for Kubernetes clusters"
+    },
+    {
+      "canonical": "rag",
+      "label": "RAG & retrieval",
+      "cluster": "ai_application_engineering",
+      "n": 52,
+      "frequency": 0.1716,
+      "criticality": 0.3043,
+      "mentions": {
+        "responsibility": 21,
+        "requirement": 30,
+        "nice_to_have": 18
+      },
+      "low_n": false,
+      "evidence": "prompt and RAG pipelines and evaluation harnesses"
+    },
+    {
+      "canonical": "technical_support",
+      "label": "Technical support & escalation",
+      "cluster": "customer_delivery",
+      "n": 51,
+      "frequency": 0.1683,
+      "criticality": 0.8571,
+      "mentions": {
+        "responsibility": 48,
+        "requirement": 5,
+        "nice_to_have": 3
+      },
+      "low_n": false,
+      "evidence": "technical customer success and pre-sales solutions engineering mixed in"
+    },
+    {
+      "canonical": "incident_response",
+      "label": "Incident response & on-call",
+      "cluster": "deployment_and_operations",
+      "n": 50,
+      "frequency": 0.165,
+      "criticality": 0.5303,
+      "mentions": {
+        "responsibility": 35,
+        "requirement": 21,
+        "nice_to_have": 10
+      },
+      "low_n": false,
+      "evidence": "Design and operate the systems Steel runs on"
+    },
+    {
+      "canonical": "networking",
+      "label": "Networking",
+      "cluster": "deployment_and_operations",
+      "n": 49,
+      "frequency": 0.1617,
+      "criticality": 0.3247,
+      "mentions": {
+        "responsibility": 25,
+        "requirement": 37,
+        "nice_to_have": 15
+      },
+      "low_n": false,
+      "evidence": "internal IT (firewalls, VPN, network architecture)"
+    },
+    {
       "canonical": "on_prem_airgapped",
       "label": "On-prem / air-gapped deployment",
       "cluster": "deployment_and_operations",
-      "n": 50,
-      "frequency": 0.1639,
-      "criticality": 0.5574,
+      "n": 48,
+      "frequency": 0.1584,
+      "criticality": 0.5333,
       "mentions": {
-        "responsibility": 34,
-        "requirement": 16,
+        "responsibility": 32,
+        "requirement": 17,
         "nice_to_have": 11
       },
       "low_n": false,
       "evidence": "Support self-hosted model workflows"
     },
     {
-      "canonical": "technical_support",
-      "label": "Technical support & escalation",
-      "cluster": "customer_delivery",
-      "n": 48,
-      "frequency": 0.1574,
-      "criticality": 0.8824,
-      "mentions": {
-        "responsibility": 45,
-        "requirement": 4,
-        "nice_to_have": 2
-      },
-      "low_n": false,
-      "evidence": "own technical escalations from customers"
-    },
-    {
-      "canonical": "incident_response",
-      "label": "Incident response & on-call",
+      "canonical": "ci_cd",
+      "label": "CI/CD",
       "cluster": "deployment_and_operations",
-      "n": 48,
-      "frequency": 0.1574,
-      "criticality": 0.5312,
+      "n": 46,
+      "frequency": 0.1518,
+      "criticality": 0.2807,
       "mentions": {
-        "responsibility": 34,
-        "requirement": 21,
-        "nice_to_have": 9
+        "responsibility": 16,
+        "requirement": 30,
+        "nice_to_have": 11
       },
       "low_n": false,
-      "evidence": "lead the resolution of the most severe incidents"
+      "evidence": "release strategies, CI/CD pipelines, security architecture"
     },
     {
-      "canonical": "rag",
-      "label": "RAG & retrieval",
+      "canonical": "guardrails_safety",
+      "label": "Guardrails & safety",
       "cluster": "ai_application_engineering",
-      "n": 47,
-      "frequency": 0.1541,
-      "criticality": 0.3115,
+      "n": 44,
+      "frequency": 0.1452,
+      "criticality": 0.6271,
       "mentions": {
-        "responsibility": 19,
-        "requirement": 26,
-        "nice_to_have": 16
+        "responsibility": 37,
+        "requirement": 14,
+        "nice_to_have": 8
       },
       "low_n": false,
-      "evidence": "prompt and RAG pipelines and evaluation harnesses"
+      "evidence": "structured outputs, validation logic, and fallback behavior"
     },
     {
       "canonical": "enterprise_systems",
       "label": "Enterprise systems (ERP/CRM)",
       "cluster": "data_and_integrations",
       "n": 44,
-      "frequency": 0.1443,
-      "criticality": 0.4098,
+      "frequency": 0.1452,
+      "criticality": 0.4333,
       "mentions": {
-        "responsibility": 25,
-        "requirement": 21,
+        "responsibility": 26,
+        "requirement": 19,
         "nice_to_have": 15
       },
       "low_n": false,
-      "evidence": "interactions with existing customer systems to"
-    },
-    {
-      "canonical": "ci_cd",
-      "label": "CI/CD",
-      "cluster": "deployment_and_operations",
-      "n": 44,
-      "frequency": 0.1443,
-      "criticality": 0.2857,
-      "mentions": {
-        "responsibility": 16,
-        "requirement": 28,
-        "nice_to_have": 12
-      },
-      "low_n": false,
-      "evidence": "release strategies, CI/CD pipelines, security architecture"
+      "evidence": "legacy enterprise systems (Oracle, SAP-adjacent environments)"
     },
     {
       "canonical": "testing",
       "label": "Testing",
       "cluster": "software_foundations",
       "n": 44,
-      "frequency": 0.1443,
-      "criticality": 0.6296,
+      "frequency": 0.1452,
+      "criticality": 0.6364,
       "mentions": {
-        "responsibility": 34,
-        "requirement": 17,
-        "nice_to_have": 3
-      },
-      "low_n": false,
-      "evidence": "dokumentierst, sowie testest die umgesetzten Lösungen"
-    },
-    {
-      "canonical": "analytics",
-      "label": "Analytics & dashboards",
-      "cluster": "data_and_integrations",
-      "n": 42,
-      "frequency": 0.1377,
-      "criticality": 0.36,
-      "mentions": {
-        "responsibility": 18,
-        "requirement": 21,
-        "nice_to_have": 11
-      },
-      "low_n": false,
-      "evidence": "fleet dashboards, real-time telemetry, digital twins, analytics"
-    },
-    {
-      "canonical": "shell",
-      "label": "Linux & shell",
-      "cluster": "software_foundations",
-      "n": 39,
-      "frequency": 0.1279,
-      "criticality": 0.12,
-      "mentions": {
-        "responsibility": 6,
-        "requirement": 33,
-        "nice_to_have": 11
-      },
-      "low_n": false,
-      "evidence": "Tech: Go, MongoDB, Linux, GCP"
-    },
-    {
-      "canonical": "guardrails_safety",
-      "label": "Guardrails & safety",
-      "cluster": "ai_application_engineering",
-      "n": 39,
-      "frequency": 0.1279,
-      "criticality": 0.6226,
-      "mentions": {
-        "responsibility": 33,
-        "requirement": 14,
-        "nice_to_have": 6
-      },
-      "low_n": false,
-      "evidence": "model evaluation, safety, and alignment."
-    },
-    {
-      "canonical": "java",
-      "label": "Java / JVM",
-      "cluster": "software_foundations",
-      "n": 39,
-      "frequency": 0.1279,
-      "criticality": 0.0714,
-      "mentions": {
-        "responsibility": 3,
-        "requirement": 37,
+        "responsibility": 35,
+        "requirement": 18,
         "nice_to_have": 2
       },
       "low_n": false,
-      "evidence": "Java and Groovy for our back-end applications and data integration"
+      "evidence": "exhaustive testing platform for frontend codebases"
     },
     {
       "canonical": "prompt_engineering",
       "label": "Prompt engineering",
       "cluster": "ai_application_engineering",
-      "n": 37,
-      "frequency": 0.1213,
-      "criticality": 0.4773,
+      "n": 42,
+      "frequency": 0.1386,
+      "criticality": 0.46,
       "mentions": {
-        "responsibility": 21,
-        "requirement": 18,
-        "nice_to_have": 5
+        "responsibility": 23,
+        "requirement": 21,
+        "nice_to_have": 6
       },
       "low_n": false,
-      "evidence": "LLM prompting, eval, agentic, and architecture"
+      "evidence": "Champion prompt engineering, output validation"
+    },
+    {
+      "canonical": "java",
+      "label": "Java / JVM",
+      "cluster": "software_foundations",
+      "n": 41,
+      "frequency": 0.1353,
+      "criticality": 0.0682,
+      "mentions": {
+        "responsibility": 3,
+        "requirement": 38,
+        "nice_to_have": 3
+      },
+      "low_n": false,
+      "evidence": "Java and Groovy for our back-end applications and data integration"
+    },
+    {
+      "canonical": "analytics",
+      "label": "Analytics & dashboards",
+      "cluster": "data_and_integrations",
+      "n": 40,
+      "frequency": 0.132,
+      "criticality": 0.3617,
+      "mentions": {
+        "responsibility": 17,
+        "requirement": 22,
+        "nice_to_have": 8
+      },
+      "low_n": false,
+      "evidence": "fleet dashboards, real-time telemetry, digital twins, analytics"
     },
     {
       "canonical": "docker",
       "label": "Docker & containers",
       "cluster": "deployment_and_operations",
-      "n": 35,
-      "frequency": 0.1148,
-      "criticality": 0.122,
+      "n": 36,
+      "frequency": 0.1188,
+      "criticality": 0.1395,
       "mentions": {
-        "responsibility": 5,
-        "requirement": 23,
+        "responsibility": 6,
+        "requirement": 24,
         "nice_to_have": 13
       },
       "low_n": false,
-      "evidence": "containerization, sandboxing, and more"
+      "evidence": "bundles features into Docker images and AWS AMIs"
     },
     {
-      "canonical": "git",
-      "label": "Git & code review",
+      "canonical": "shell",
+      "label": "Linux & shell",
       "cluster": "software_foundations",
-      "n": 33,
-      "frequency": 0.1082,
-      "criticality": 0.4865,
+      "n": 36,
+      "frequency": 0.1188,
+      "criticality": 0.1364,
       "mentions": {
-        "responsibility": 18,
-        "requirement": 12,
-        "nice_to_have": 7
+        "responsibility": 6,
+        "requirement": 30,
+        "nice_to_have": 8
       },
       "low_n": false,
-      "evidence": "code reviews with customer engineering teams"
+      "evidence": "Tech: Go, MongoDB, Linux, GCP"
     },
     {
       "canonical": "auth_identity",
       "label": "Auth & identity",
       "cluster": "data_and_integrations",
-      "n": 31,
-      "frequency": 0.1016,
-      "criticality": 0.4318,
+      "n": 36,
+      "frequency": 0.1188,
+      "criticality": 0.4118,
       "mentions": {
-        "responsibility": 19,
-        "requirement": 16,
-        "nice_to_have": 9
+        "responsibility": 21,
+        "requirement": 19,
+        "nice_to_have": 11
       },
       "low_n": false,
       "evidence": "architecture decisions (multi-tenant cloud, auth, data isolation)"
@@ -960,173 +950,188 @@
       "canonical": "go",
       "label": "Go",
       "cluster": "software_foundations",
-      "n": 31,
-      "frequency": 0.1016,
-      "criticality": 0.0882,
+      "n": 35,
+      "frequency": 0.1155,
+      "criticality": 0.1026,
       "mentions": {
-        "responsibility": 3,
-        "requirement": 26,
-        "nice_to_have": 5
+        "responsibility": 4,
+        "requirement": 31,
+        "nice_to_have": 4
       },
       "low_n": false,
       "evidence": "Tech: Go, MongoDB, Linux, GCP"
     },
     {
+      "canonical": "git",
+      "label": "Git & code review",
+      "cluster": "software_foundations",
+      "n": 32,
+      "frequency": 0.1056,
+      "criticality": 0.5556,
+      "mentions": {
+        "responsibility": 20,
+        "requirement": 9,
+        "nice_to_have": 7
+      },
+      "low_n": false,
+      "evidence": "reviewing code, and raising the bar"
+    },
+    {
+      "canonical": "llm_frameworks",
+      "label": "LLM frameworks",
+      "cluster": "ai_application_engineering",
+      "n": 30,
+      "frequency": 0.099,
+      "criticality": 0.1562,
+      "mentions": {
+        "responsibility": 5,
+        "requirement": 15,
+        "nice_to_have": 12
+      },
+      "low_n": false,
+      "evidence": "Contribute to the LangChain and LangGraph ecosystem"
+    },
+    {
       "canonical": "fine_tuning",
       "label": "Fine-tuning",
       "cluster": "ai_application_engineering",
-      "n": 28,
-      "frequency": 0.0918,
-      "criticality": 0.425,
+      "n": 29,
+      "frequency": 0.0957,
+      "criticality": 0.4286,
       "mentions": {
-        "responsibility": 17,
+        "responsibility": 18,
         "requirement": 14,
-        "nice_to_have": 9
+        "nice_to_have": 10
       },
       "low_n": false,
-      "evidence": "RLHF (Reinforcement Learning with Human Feedback)"
-    },
-    {
-      "canonical": "cpp",
-      "label": "C / C++",
-      "cluster": "software_foundations",
-      "n": 27,
-      "frequency": 0.0885,
-      "criticality": 0.037,
-      "mentions": {
-        "responsibility": 1,
-        "requirement": 23,
-        "nice_to_have": 3
-      },
-      "low_n": false,
-      "evidence": "low-level C++/ROS2 on the vehicle"
+      "evidence": "AI training pipelines, the agentic stack itself"
     },
     {
       "canonical": "data_modeling",
       "label": "Data modelling & schemas",
       "cluster": "data_and_integrations",
       "n": 26,
-      "frequency": 0.0852,
+      "frequency": 0.0858,
       "criticality": 0.4667,
       "mentions": {
         "responsibility": 14,
-        "requirement": 12,
-        "nice_to_have": 4
+        "requirement": 13,
+        "nice_to_have": 3
       },
       "low_n": false,
-      "evidence": "API endpoint design and input/output schemas"
+      "evidence": "A live model of a customer's entire energy system"
     },
     {
       "canonical": "iac",
       "label": "Infrastructure as code",
       "cluster": "deployment_and_operations",
       "n": 26,
-      "frequency": 0.0852,
-      "criticality": 0.2258,
+      "frequency": 0.0858,
+      "criticality": 0.2,
       "mentions": {
-        "responsibility": 7,
-        "requirement": 15,
-        "nice_to_have": 9
+        "responsibility": 6,
+        "requirement": 16,
+        "nice_to_have": 8
       },
       "low_n": false,
       "evidence": "IaC standards, release strategies, CI/CD pipelines"
     },
     {
-      "canonical": "llm_frameworks",
-      "label": "LLM frameworks",
-      "cluster": "ai_application_engineering",
-      "n": 26,
-      "frequency": 0.0852,
-      "criticality": 0.1071,
+      "canonical": "cpp",
+      "label": "C / C++",
+      "cluster": "software_foundations",
+      "n": 24,
+      "frequency": 0.0792,
+      "criticality": 0.0417,
       "mentions": {
-        "responsibility": 3,
-        "requirement": 14,
-        "nice_to_have": 11
+        "responsibility": 1,
+        "requirement": 22,
+        "nice_to_have": 1
       },
       "low_n": false,
-      "evidence": "Contribute to the LangChain and LangGraph ecosystem"
+      "evidence": "low-level C++/ROS2 on the vehicle"
     },
     {
       "canonical": "data_quality",
       "label": "Data quality & cleaning",
       "cluster": "data_and_integrations",
-      "n": 24,
-      "frequency": 0.0787,
-      "criticality": 0.5758,
+      "n": 23,
+      "frequency": 0.0759,
+      "criticality": 0.5806,
       "mentions": {
-        "responsibility": 19,
+        "responsibility": 18,
         "requirement": 9,
-        "nice_to_have": 5
-      },
-      "low_n": false,
-      "evidence": "model safety or data integrity"
-    },
-    {
-      "canonical": "speech",
-      "label": "Speech / voice",
-      "cluster": "ai_application_engineering",
-      "n": 21,
-      "frequency": 0.0689,
-      "criticality": 0.4688,
-      "mentions": {
-        "responsibility": 15,
-        "requirement": 8,
-        "nice_to_have": 9
-      },
-      "low_n": false,
-      "evidence": "Build and deploy custom implementations: AI Voice Assistants"
-    },
-    {
-      "canonical": "nosql",
-      "label": "NoSQL stores",
-      "cluster": "data_and_integrations",
-      "n": 19,
-      "frequency": 0.0623,
-      "criticality": 0.2857,
-      "mentions": {
-        "responsibility": 6,
-        "requirement": 11,
         "nice_to_have": 4
       },
       "low_n": false,
-      "evidence": "Tech: Go, MongoDB, Linux, GCP"
+      "evidence": "fix it before the optimization runs on bad data"
     },
     {
       "canonical": "llm_observability",
       "label": "LLM observability & tracing",
       "cluster": "ai_application_engineering",
-      "n": 18,
-      "frequency": 0.059,
-      "criticality": 0.5455,
+      "n": 20,
+      "frequency": 0.066,
+      "criticality": 0.5385,
       "mentions": {
-        "responsibility": 12,
-        "requirement": 3,
+        "responsibility": 14,
+        "requirement": 5,
         "nice_to_have": 7
       },
       "low_n": false,
       "evidence": "logging and observability (OpenTelemetry, Langfuse"
     },
     {
-      "canonical": "vector_databases",
-      "label": "Vector databases",
-      "cluster": "ai_application_engineering",
-      "n": 16,
-      "frequency": 0.0525,
-      "criticality": 0.2778,
+      "canonical": "nosql",
+      "label": "NoSQL stores",
+      "cluster": "data_and_integrations",
+      "n": 18,
+      "frequency": 0.0594,
+      "criticality": 0.3,
       "mentions": {
-        "responsibility": 5,
-        "requirement": 9,
+        "responsibility": 6,
+        "requirement": 10,
         "nice_to_have": 4
       },
       "low_n": false,
+      "evidence": "Tech: Go, MongoDB, Linux, GCP"
+    },
+    {
+      "canonical": "vector_databases",
+      "label": "Vector databases",
+      "cluster": "ai_application_engineering",
+      "n": 17,
+      "frequency": 0.0561,
+      "criticality": 0.2632,
+      "mentions": {
+        "responsibility": 5,
+        "requirement": 8,
+        "nice_to_have": 6
+      },
+      "low_n": false,
       "evidence": "building MVS (Mixpeek Vector Store) — a distributed vector database"
+    },
+    {
+      "canonical": "speech",
+      "label": "Speech / voice",
+      "cluster": "ai_application_engineering",
+      "n": 16,
+      "frequency": 0.0528,
+      "criticality": 0.52,
+      "mentions": {
+        "responsibility": 13,
+        "requirement": 4,
+        "nice_to_have": 8
+      },
+      "low_n": false,
+      "evidence": "Build and deploy custom implementations: AI Voice Assistants"
     },
     {
       "canonical": "rust",
       "label": "Rust",
       "cluster": "software_foundations",
       "n": 16,
-      "frequency": 0.0525,
+      "frequency": 0.0528,
       "criticality": 0.1176,
       "mentions": {
         "responsibility": 2,
@@ -1137,41 +1142,56 @@
       "evidence": "full-stack integrations using Python, JavaScript, Rust"
     },
     {
+      "canonical": "data_warehouses",
+      "label": "Data warehouses & lakehouses",
+      "cluster": "data_and_integrations",
+      "n": 15,
+      "frequency": 0.0495,
+      "criticality": 0.2778,
+      "mentions": {
+        "responsibility": 5,
+        "requirement": 6,
+        "nice_to_have": 7
+      },
+      "low_n": false,
+      "evidence": "make data warehouses and spark jobs more efficient"
+    },
+    {
       "canonical": "gpu_infra",
       "label": "GPU infrastructure",
       "cluster": "deployment_and_operations",
-      "n": 15,
-      "frequency": 0.0492,
-      "criticality": 0.3158,
+      "n": 14,
+      "frequency": 0.0462,
+      "criticality": 0.2778,
       "mentions": {
-        "responsibility": 6,
+        "responsibility": 5,
         "requirement": 7,
         "nice_to_have": 6
       },
       "low_n": false,
-      "evidence": "triage and resolve issues across Kubernetes, GPUs"
+      "evidence": "work with the infrastructure team to address GPU server-related issues"
     },
     {
-      "canonical": "data_warehouses",
-      "label": "Data warehouses & lakehouses",
+      "canonical": "streaming",
+      "label": "Streaming & messaging",
       "cluster": "data_and_integrations",
-      "n": 14,
-      "frequency": 0.0459,
-      "criticality": 0.2941,
+      "n": 13,
+      "frequency": 0.0429,
+      "criticality": 0.2143,
       "mentions": {
-        "responsibility": 5,
-        "requirement": 6,
-        "nice_to_have": 6
+        "responsibility": 3,
+        "requirement": 7,
+        "nice_to_have": 4
       },
       "low_n": false,
-      "evidence": "make data warehouses and spark jobs more efficient"
+      "evidence": "connects Fiddler to customer data ecosystems using... Kafka"
     },
     {
       "canonical": "algorithms",
       "label": "Algorithms & data structures",
       "cluster": "software_foundations",
       "n": 11,
-      "frequency": 0.0361,
+      "frequency": 0.0363,
       "criticality": 0.0,
       "mentions": {
         "responsibility": 0,
@@ -1179,47 +1199,17 @@
         "nice_to_have": 1
       },
       "low_n": false,
-      "evidence": "Strong engineering fundamentals and adaptability"
-    },
-    {
-      "canonical": "streaming",
-      "label": "Streaming & messaging",
-      "cluster": "data_and_integrations",
-      "n": 11,
-      "frequency": 0.0361,
-      "criticality": 0.25,
-      "mentions": {
-        "responsibility": 3,
-        "requirement": 5,
-        "nice_to_have": 4
-      },
-      "low_n": false,
-      "evidence": "connects Fiddler to customer data ecosystems using... Kafka"
-    },
-    {
-      "canonical": "computer_vision",
-      "label": "Computer vision",
-      "cluster": "ai_application_engineering",
-      "n": 11,
-      "frequency": 0.0361,
-      "criticality": 0.5294,
-      "mentions": {
-        "responsibility": 9,
-        "requirement": 4,
-        "nice_to_have": 4
-      },
-      "low_n": false,
-      "evidence": "2D image annotation, and API integrations"
+      "evidence": "distributed systems, data structures, algorithms, and system design"
     },
     {
       "canonical": "unstructured_data",
       "label": "Unstructured data processing",
       "cluster": "data_and_integrations",
-      "n": 10,
-      "frequency": 0.0328,
-      "criticality": 0.8182,
+      "n": 11,
+      "frequency": 0.0363,
+      "criticality": 0.8333,
       "mentions": {
-        "responsibility": 9,
+        "responsibility": 10,
         "requirement": 1,
         "nice_to_have": 1
       },
@@ -1227,15 +1217,30 @@
       "evidence": "Reads single-line diagrams, parses SharePoints"
     },
     {
+      "canonical": "computer_vision",
+      "label": "Computer vision",
+      "cluster": "ai_application_engineering",
+      "n": 9,
+      "frequency": 0.0297,
+      "criticality": 0.6154,
+      "mentions": {
+        "responsibility": 8,
+        "requirement": 3,
+        "nice_to_have": 2
+      },
+      "low_n": false,
+      "evidence": "vision-first, agentic workflows that solve the problems"
+    },
+    {
       "canonical": "nlp",
       "label": "NLP",
       "cluster": "ai_application_engineering",
-      "n": 9,
-      "frequency": 0.0295,
-      "criticality": 0.2727,
+      "n": 8,
+      "frequency": 0.0264,
+      "criticality": 0.3,
       "mentions": {
         "responsibility": 3,
-        "requirement": 4,
+        "requirement": 3,
         "nice_to_have": 4
       },
       "low_n": false,
@@ -1246,7 +1251,7 @@
       "label": "Serverless & managed services",
       "cluster": "deployment_and_operations",
       "n": 8,
-      "frequency": 0.0262,
+      "frequency": 0.0264,
       "criticality": 0.375,
       "mentions": {
         "responsibility": 6,
@@ -1276,7 +1281,7 @@
     {
       "key": "software_foundations",
       "label": "Software foundations",
-      "coverage": 0.823,
+      "coverage": 0.8515,
       "skills": [
         "python",
         "typescript",
@@ -1297,7 +1302,7 @@
     {
       "key": "ai_application_engineering",
       "label": "AI application engineering",
-      "coverage": 0.8328,
+      "coverage": 0.835,
       "skills": [
         "llm_apis",
         "prompt_engineering",
@@ -1320,7 +1325,7 @@
     {
       "key": "data_and_integrations",
       "label": "Data & integrations",
-      "coverage": 0.6393,
+      "coverage": 0.6898,
       "skills": [
         "sql",
         "nosql",
@@ -1339,7 +1344,7 @@
     {
       "key": "deployment_and_operations",
       "label": "Deployment & operations",
-      "coverage": 0.7049,
+      "coverage": 0.703,
       "skills": [
         "aws",
         "gcp",
@@ -1361,7 +1366,7 @@
     {
       "key": "customer_delivery",
       "label": "Customer delivery",
-      "coverage": 0.9213,
+      "coverage": 0.9274,
       "skills": [
         "customer_facing",
         "scoping",
@@ -1381,7 +1386,7 @@
     {
       "key": "product_thinking_and_communication",
       "label": "Product thinking & communication",
-      "coverage": 0.8721,
+      "coverage": 0.8845,
       "skills": [
         "product_sense",
         "product_feedback_loop",
@@ -1398,8 +1403,8 @@
     }
   ],
   "scatter": {
-    "median_frequency": 0.1902,
-    "median_criticality": 0.4284,
+    "median_frequency": 0.2013,
+    "median_criticality": 0.4385,
     "outliers": [
       {
         "canonical": "python",
@@ -1410,7 +1415,7 @@
         "note": "Everyone asks; rarely the job itself"
       },
       {
-        "canonical": "learning_agility",
+        "canonical": "typescript",
         "note": "Everyone asks; rarely the job itself"
       },
       {
@@ -1432,38 +1437,39 @@
       "name": "Pre-sales & field delivery",
       "skills": [
         "prototyping",
-        "rest_apis",
-        "training_enablement",
+        "learning_agility",
         "consulting",
+        "training_enablement",
         "business_acumen",
         "pre_sales",
-        "enterprise_systems"
+        "metrics_measurement"
       ],
-      "support": 111
+      "support": 122
     },
     {
       "name": "Full-stack builder",
       "skills": [
         "python",
-        "learning_agility",
         "typescript",
+        "cloud_platforms",
         "react",
         "sql",
-        "product_sense",
-        "data_modeling"
+        "product_sense"
       ],
-      "support": 107
+      "support": 86
     },
     {
-      "name": "Production hardening",
+      "name": "ML operations & delivery",
       "skills": [
         "cost_performance",
-        "debugging",
-        "security_compliance",
-        "observability",
-        "on_prem_airgapped"
+        "ml_fundamentals",
+        "project_management",
+        "model_serving",
+        "technical_support",
+        "analytics",
+        "fine_tuning"
       ],
-      "support": 77
+      "support": 70
     },
     {
       "name": "Cloud infrastructure",
@@ -1476,36 +1482,36 @@
         "docker",
         "iac"
       ],
-      "support": 65
+      "support": 67
     }
   ],
   "market": {
     "seniority": {
       "junior": 13,
-      "mid": 43,
-      "senior": 139,
-      "staff_plus": 29,
-      "unspecified": 81
+      "mid": 44,
+      "senior": 147,
+      "staff_plus": 26,
+      "unspecified": 73
     },
     "years": {
-      "0-2": 18,
-      "3-5": 97,
+      "0-2": 17,
+      "3-5": 98,
       "6-9": 42,
-      "10+": 11,
-      "unspecified": 137
+      "10+": 10,
+      "unspecified": 136
     },
     "travel": {
-      "none": 8,
-      "occasional": 48,
-      "frequent": 100,
-      "unspecified": 149
+      "none": 13,
+      "occasional": 46,
+      "frequent": 94,
+      "unspecified": 150
     },
     "customer_facing": {
       "1": 14,
-      "2": 17,
+      "2": 15,
       "3": 28,
-      "4": 105,
-      "5": 141
+      "4": 106,
+      "5": 140
     },
     "verbs": [
       [
@@ -1514,27 +1520,27 @@
       ],
       [
         "own",
-        87
+        92
       ],
       [
         "design",
-        78
+        82
       ],
       [
         "partner",
-        73
+        74
       ],
       [
         "deploy",
-        71
+        63
       ],
       [
         "lead",
-        59
+        57
       ],
       [
         "collaborate",
-        49
+        51
       ],
       [
         "architect",
@@ -1542,22 +1548,22 @@
       ],
       [
         "embed",
-        42
-      ],
-      [
-        "develop",
-        34
-      ],
-      [
-        "drive",
-        29
-      ],
-      [
-        "integrate",
-        28
+        44
       ],
       [
         "ship",
+        34
+      ],
+      [
+        "integrate",
+        33
+      ],
+      [
+        "develop",
+        32
+      ],
+      [
+        "drive",
         27
       ],
       [
@@ -1565,94 +1571,94 @@
         26
       ],
       [
-        "deliver",
-        22
+        "scope",
+        23
       ]
     ],
     "segment_n": {
-      "startup": 106,
-      "enterprise": 58
+      "startup": 122,
+      "enterprise": 56
     },
     "segment_deltas": [
       {
         "skill": "java",
         "startup": 0.057,
-        "enterprise": 0.5
+        "enterprise": 0.518
       },
       {
         "skill": "data_pipelines",
-        "startup": 0.123,
-        "enterprise": 0.517
+        "startup": 0.139,
+        "enterprise": 0.536
       },
       {
         "skill": "prototyping",
-        "startup": 0.613,
-        "enterprise": 0.293
+        "startup": 0.582,
+        "enterprise": 0.304
       },
       {
         "skill": "analytics",
-        "startup": 0.038,
-        "enterprise": 0.328
+        "startup": 0.041,
+        "enterprise": 0.304
       },
       {
-        "skill": "cross_functional",
-        "startup": 0.698,
-        "enterprise": 0.897
+        "skill": "travel_onsite",
+        "startup": 0.426,
+        "enterprise": 0.643
       },
       {
         "skill": "cost_performance",
         "startup": 0.443,
-        "enterprise": 0.638
-      },
-      {
-        "skill": "travel_onsite",
-        "startup": 0.443,
-        "enterprise": 0.638
+        "enterprise": 0.643
       },
       {
         "skill": "git",
-        "startup": 0.075,
-        "enterprise": 0.259
-      },
-      {
-        "skill": "implementation_onboarding",
-        "startup": 0.736,
-        "enterprise": 0.552
-      },
-      {
-        "skill": "domain_expertise",
-        "startup": 0.377,
-        "enterprise": 0.207
-      },
-      {
-        "skill": "technical_support",
-        "startup": 0.123,
-        "enterprise": 0.293
-      },
-      {
-        "skill": "cpp",
-        "startup": 0.038,
-        "enterprise": 0.207
-      },
-      {
-        "skill": "pre_sales",
-        "startup": 0.34,
-        "enterprise": 0.172
+        "startup": 0.074,
+        "enterprise": 0.268
       },
       {
         "skill": "gcp",
-        "startup": 0.17,
-        "enterprise": 0.328
+        "startup": 0.156,
+        "enterprise": 0.339
       },
       {
-        "skill": "scoping",
-        "startup": 0.726,
-        "enterprise": 0.569
+        "skill": "cross_functional",
+        "startup": 0.713,
+        "enterprise": 0.893
+      },
+      {
+        "skill": "react",
+        "startup": 0.164,
+        "enterprise": 0.339
+      },
+      {
+        "skill": "pre_sales",
+        "startup": 0.352,
+        "enterprise": 0.179
+      },
+      {
+        "skill": "cpp",
+        "startup": 0.041,
+        "enterprise": 0.214
+      },
+      {
+        "skill": "system_design",
+        "startup": 0.648,
+        "enterprise": 0.821
       },
       {
         "skill": "aws",
-        "startup": 0.226,
-        "enterprise": 0.379
+        "startup": 0.221,
+        "enterprise": 0.393
+      },
+      {
+        "skill": "domain_expertise",
+        "startup": 0.369,
+        "enterprise": 0.214
+      },
+      {
+        "skill": "algorithms",
+        "startup": 0.008,
+        "enterprise": 0.161
       }
     ]
   },
@@ -1660,137 +1666,152 @@
     {
       "canonical": "customer_facing",
       "label": "Customer-facing engineering",
-      "frequency": 0.757
+      "frequency": 0.779
     },
     {
       "canonical": "cross_functional",
       "label": "Cross-functional collaboration",
-      "frequency": 0.597
-    },
-    {
-      "canonical": "ownership_autonomy",
-      "label": "Ownership & autonomy",
-      "frequency": 0.567
+      "frequency": 0.611
     },
     {
       "canonical": "implementation_onboarding",
       "label": "Implementation & onboarding",
-      "frequency": 0.564
+      "frequency": 0.584
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "label": "Ownership & autonomy",
+      "frequency": 0.581
     },
     {
       "canonical": "product_feedback_loop",
       "label": "Feeding insight back to product",
-      "frequency": 0.554
+      "frequency": 0.574
     },
     {
       "canonical": "scoping",
       "label": "Scoping & discovery",
-      "frequency": 0.541
+      "frequency": 0.561
     },
     {
       "canonical": "stakeholder_communication",
       "label": "Stakeholder communication",
-      "frequency": 0.531
+      "frequency": 0.525
     },
     {
       "canonical": "verbal_communication",
       "label": "Verbal communication & presenting",
-      "frequency": 0.482
+      "frequency": 0.485
     },
     {
       "canonical": "travel_onsite",
       "label": "Travel & on-site work",
-      "frequency": 0.439
+      "frequency": 0.432
     },
     {
       "canonical": "expectation_management",
       "label": "Expectation & risk management",
-      "frequency": 0.42
+      "frequency": 0.426
     },
     {
       "canonical": "prototyping",
       "label": "Rapid prototyping & POCs",
-      "frequency": 0.41
+      "frequency": 0.413
     },
     {
       "canonical": "cost_performance",
       "label": "Performance & cost optimisation",
-      "frequency": 0.393
+      "frequency": 0.403
     },
     {
       "canonical": "debugging",
       "label": "Debugging & troubleshooting",
-      "frequency": 0.387
+      "frequency": 0.386
     },
     {
       "canonical": "written_communication",
       "label": "Written communication",
-      "frequency": 0.364
-    },
-    {
-      "canonical": "domain_expertise",
-      "label": "Domain / industry expertise",
-      "frequency": 0.364
+      "frequency": 0.383
     },
     {
       "canonical": "security_compliance",
       "label": "Security & compliance",
-      "frequency": 0.357
+      "frequency": 0.356
     },
     {
       "canonical": "learning_agility",
       "label": "Learning agility",
-      "frequency": 0.348
-    },
-    {
-      "canonical": "training_enablement",
-      "label": "Training & enablement",
-      "frequency": 0.325
+      "frequency": 0.353
     },
     {
       "canonical": "typescript",
       "label": "TypeScript / JavaScript",
-      "frequency": 0.321
+      "frequency": 0.35
+    },
+    {
+      "canonical": "domain_expertise",
+      "label": "Domain / industry expertise",
+      "frequency": 0.347
     },
     {
       "canonical": "consulting",
       "label": "Consulting & advisory",
-      "frequency": 0.315
+      "frequency": 0.314
+    },
+    {
+      "canonical": "training_enablement",
+      "label": "Training & enablement",
+      "frequency": 0.304
     },
     {
       "canonical": "business_acumen",
       "label": "Business acumen & ROI",
-      "frequency": 0.272
-    },
-    {
-      "canonical": "observability",
-      "label": "Observability & monitoring",
-      "frequency": 0.243
-    },
-    {
-      "canonical": "project_management",
-      "label": "Project & engagement management",
-      "frequency": 0.243
+      "frequency": 0.271
     },
     {
       "canonical": "pre_sales",
       "label": "Pre-sales & solutions engineering",
-      "frequency": 0.243
+      "frequency": 0.254
+    },
+    {
+      "canonical": "observability",
+      "label": "Observability & monitoring",
+      "frequency": 0.244
     },
     {
       "canonical": "metrics_measurement",
       "label": "Success metrics & measurement",
-      "frequency": 0.23
+      "frequency": 0.241
+    },
+    {
+      "canonical": "project_management",
+      "label": "Project & engagement management",
+      "frequency": 0.238
     },
     {
       "canonical": "mentoring_leadership",
       "label": "Mentoring & technical leadership",
-      "frequency": 0.22
+      "frequency": 0.228
     },
     {
       "canonical": "data_pipelines",
       "label": "Data pipelines & ETL",
-      "frequency": 0.203
+      "frequency": 0.224
+    },
+    {
+      "canonical": "prioritization",
+      "label": "Prioritisation & tradeoffs",
+      "frequency": 0.208
+    },
+    {
+      "canonical": "gcp",
+      "label": "Google Cloud",
+      "frequency": 0.205
+    },
+    {
+      "canonical": "react",
+      "label": "React / frontend",
+      "frequency": 0.205
     }
   ]
 }

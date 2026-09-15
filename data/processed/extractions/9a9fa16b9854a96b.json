@@ -1,0 +1,192 @@
+{
+  "posting_id": "9a9fa16b9854a96b",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "lead technical strategist for public sector engagements"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "converting ambiguous mission requirements into robust architectural"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "Architect the fundamental frameworks for production-grade AI"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "guiding onsite implementation"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "guiding onsite implementation"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "responsibility",
+      "evidence": "backend systems, and AI models are integrated at scale"
+    },
+    {
+      "canonical": "react",
+      "section": "responsibility",
+      "evidence": "how interactive UIs, backend systems, and AI models"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "responsibility",
+      "evidence": "Guide the evolution of cloud infrastructure"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "responsibility",
+      "evidence": "ensuring security, global scalability, and long-term"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "responsibility",
+      "evidence": "global scalability, and long-term system integrity"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "responsibility",
+      "evidence": "mentoring senior and junior staff and ensuring all products"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "Partner with cross-functional leadership to steer"
+    },
+    {
+      "canonical": "product_feedback_loop",
+      "section": "responsibility",
+      "evidence": "turning real-world client lessons into the reusable patterns"
+    },
+    {
+      "canonical": "system_design",
+      "section": "requirement",
+      "evidence": "architecting complex, distributed systems"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "full-stack expertise across Python, Node.js, and React"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "expertise across Python, Node.js, and React"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "Python, Node.js, and React, with a proven track record"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "high-scale architectures on Kubernetes and global cloud"
+    },
+    {
+      "canonical": "cloud_platforms",
+      "section": "requirement",
+      "evidence": "global cloud infrastructures (AWS/Azure/GCP)"
+    },
+    {
+      "canonical": "aws",
+      "section": "requirement",
+      "evidence": "global cloud infrastructures (AWS/Azure/GCP)"
+    },
+    {
+      "canonical": "azure",
+      "section": "requirement",
+      "evidence": "global cloud infrastructures (AWS/Azure/GCP)"
+    },
+    {
+      "canonical": "gcp",
+      "section": "requirement",
+      "evidence": "global cloud infrastructures (AWS/Azure/GCP)"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "world-class standards for system integrity, security"
+    },
+    {
+      "canonical": "cost_performance",
+      "section": "requirement",
+      "evidence": "security, and long-term scalability"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "requirement",
+      "evidence": "directly within complex, high-security client environments"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "requirement",
+      "evidence": "within complex, high-security client environments"
+    },
+    {
+      "canonical": "debugging",
+      "section": "requirement",
+      "evidence": "deploying and troubleshooting sophisticated end-to-end solutions"
+    },
+    {
+      "canonical": "llm_apis",
+      "section": "requirement",
+      "evidence": "building LLM-driven solutions with the strategic foresight"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "A self-driven leader capable of resolving extreme ambiguity"
+    },
+    {
+      "canonical": "mentoring_leadership",
+      "section": "requirement",
+      "evidence": "mentoring senior staff, and setting the technical vision"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "capable of resolving extreme ambiguity"
+    },
+    {
+      "canonical": "written_communication",
+      "section": "requirement",
+      "evidence": "documentation-first cultures to streamline global engineering"
+    },
+    {
+      "canonical": "customer_facing",
+      "section": "nice_to_have",
+      "evidence": "forward deployed engineer / dedicated customer engineer role"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "nice_to_have",
+      "evidence": "working at a startup as a CTO or founding engineer"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "nice_to_have",
+      "evidence": "Experience working cross functionally with operations"
+    }
+  ],
+  "seniority": "staff_plus",
+  "years_required": 10,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 4,
+  "responsibility_verbs": [
+    "serve",
+    "architect",
+    "guide",
+    "direct",
+    "partner"
+  ],
+  "segmentation_quality": "header"
+}

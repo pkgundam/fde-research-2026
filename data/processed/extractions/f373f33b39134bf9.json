@@ -1,0 +1,172 @@
+{
+  "posting_id": "f373f33b39134bf9",
+  "skills": [
+    {
+      "canonical": "customer_facing",
+      "section": "responsibility",
+      "evidence": "work directly with customers to quickly understand"
+    },
+    {
+      "canonical": "scoping",
+      "section": "responsibility",
+      "evidence": "understand their greatest problems and design solutions"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "responsibility",
+      "evidence": "work in small teams with minimal supervision"
+    },
+    {
+      "canonical": "project_management",
+      "section": "responsibility",
+      "evidence": "own end-to-end execution of high stakes projects"
+    },
+    {
+      "canonical": "implementation_onboarding",
+      "section": "responsibility",
+      "evidence": "deploy and manage Palantir software across hardware"
+    },
+    {
+      "canonical": "debugging",
+      "section": "responsibility",
+      "evidence": "debugging infrastructure/networking/application issues"
+    },
+    {
+      "canonical": "networking",
+      "section": "responsibility",
+      "evidence": "debugging infrastructure/networking/application issues"
+    },
+    {
+      "canonical": "system_design",
+      "section": "responsibility",
+      "evidence": "discussing architecture with fellow engineers"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "responsibility",
+      "evidence": "collaborating with developers to improve the product"
+    },
+    {
+      "canonical": "stakeholder_communication",
+      "section": "responsibility",
+      "evidence": "speaking with customer executives"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "responsibility",
+      "evidence": "work externally with our customers, often on site"
+    },
+    {
+      "canonical": "prioritization",
+      "section": "responsibility",
+      "evidence": "effectively manage time and priorities"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "responsibility",
+      "evidence": "pick up a lot of new knowledge and learn"
+    },
+    {
+      "canonical": "docker",
+      "section": "requirement",
+      "evidence": "containers (Docker/Podman)"
+    },
+    {
+      "canonical": "kubernetes",
+      "section": "requirement",
+      "evidence": "orchestration (OpenShift/Kubernetes) infrastructure"
+    },
+    {
+      "canonical": "shell",
+      "section": "requirement",
+      "evidence": "proficiency with Linux systems, networking"
+    },
+    {
+      "canonical": "networking",
+      "section": "requirement",
+      "evidence": "Linux systems, networking, and on-premise infrastructure"
+    },
+    {
+      "canonical": "on_prem_airgapped",
+      "section": "requirement",
+      "evidence": "and on-premise infrastructure"
+    },
+    {
+      "canonical": "python",
+      "section": "requirement",
+      "evidence": "Python, Java, Bash, JavaScript, Go"
+    },
+    {
+      "canonical": "java",
+      "section": "requirement",
+      "evidence": "Python, Java, Bash, JavaScript, Go"
+    },
+    {
+      "canonical": "typescript",
+      "section": "requirement",
+      "evidence": "Python, Java, Bash, JavaScript, Go"
+    },
+    {
+      "canonical": "go",
+      "section": "requirement",
+      "evidence": "Python, Java, Bash, JavaScript, Go"
+    },
+    {
+      "canonical": "algorithms",
+      "section": "requirement",
+      "evidence": "Familiarity with data structures, storage systems"
+    },
+    {
+      "canonical": "react",
+      "section": "requirement",
+      "evidence": "front-end frameworks"
+    },
+    {
+      "canonical": "product_sense",
+      "section": "requirement",
+      "evidence": "how technical decisions impact the user"
+    },
+    {
+      "canonical": "cross_functional",
+      "section": "requirement",
+      "evidence": "collaborate effectively in teams of technical"
+    },
+    {
+      "canonical": "expectation_management",
+      "section": "requirement",
+      "evidence": "rapidly changing environment with dynamic objectives"
+    },
+    {
+      "canonical": "learning_agility",
+      "section": "requirement",
+      "evidence": "continuously learn, work independently"
+    },
+    {
+      "canonical": "ownership_autonomy",
+      "section": "requirement",
+      "evidence": "make decisions with minimal supervision"
+    },
+    {
+      "canonical": "travel_onsite",
+      "section": "requirement",
+      "evidence": "Willingness and interest to travel ~25-75%"
+    },
+    {
+      "canonical": "security_compliance",
+      "section": "requirement",
+      "evidence": "Active US Security Clearance at or above Top Secret"
+    }
+  ],
+  "seniority": "unspecified",
+  "years_required": null,
+  "travel_expectation": "frequent",
+  "customer_facing_intensity": 5,
+  "responsibility_verbs": [
+    "work",
+    "deploy",
+    "debug",
+    "collaborate",
+    "speak"
+  ],
+  "segmentation_quality": "header"
+}
