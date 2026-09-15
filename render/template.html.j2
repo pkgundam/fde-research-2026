@@ -80,7 +80,6 @@ section:last-of-type{border-bottom:0}
 .verbs{display:flex;flex-wrap:wrap;gap:var(--s2)}
 .stack-card{border-left:3px solid var(--line-strong)}
 /* projects */
-.placeholder{border:2px dashed var(--violet);background:var(--violet-100);border-radius:var(--r);padding:var(--s4);font-style:italic;color:var(--violet);margin-bottom:var(--s5)}
 .projects-grid{grid-template-columns:1fr}
 @media (min-width:900px){.projects-grid{grid-template-columns:1fr 1fr;grid-template-rows:auto auto}}
 .project-card{display:flex;flex-direction:column}
@@ -263,7 +262,6 @@ footer span{margin:0}
 
 <section id="proof-projects">
   <h2>7 · Proof projects</h2>
-  <div id="author-note" class="placeholder">YOUR ONE SENTENCE HERE</div>
   <div class="grid grid-2 projects-grid">
   {% for p in data.content.projects %}
     <div class="card project-card">
