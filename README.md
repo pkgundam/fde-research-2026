@@ -41,4 +41,4 @@ Tests: `uv run pytest`
 - Tracked: the pipeline, the taxonomy, the authored prose (`render/content.yaml`), the per-posting skill extractions with short evidence quotes (`data/processed/extractions/`), the aggregated `report_data.json`, and the rendered report. `render` reproduces the report from `report_data.json` without any network access.
 - Not tracked: raw API responses (`data/raw/`) and the collected posting texts (`data/processed/postings.jsonl`). Job descriptions belong to the employers that wrote them; run `collect` to rebuild the file locally (a few minutes, no credentials needed). `aggregate` needs it.
 
-Design notes and the implementation plan are under `docs/superpowers/`.
+The full list of job-board APIs, company ATS boards and Hacker News threads used is in [`docs/sources.md`](docs/sources.md). Design notes and the implementation plan are under `docs/superpowers/`.
